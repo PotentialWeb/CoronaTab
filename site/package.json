@@ -8,15 +8,28 @@
     "start": "next start"
   },
   "dependencies": {
+    "@tippy.js/react": "^3.1.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "mobx": "^5.15.4",
+    "mobx-react": "^6.1.8",
     "next": "9.3.0",
+    "qs": "^6.9.1",
     "react": "16.13.0",
-    "react-dom": "16.13.0"
+    "react-dom": "16.13.0",
+    "react-tabs": "^3.1.0",
+    "recharts": "^2.0.0-beta.2"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.8.3",
+    "@fullhuman/postcss-purgecss": "^2.1.0",
+    "@svgr/webpack": "^5.2.0",
     "@types/node": "^13.9.0",
+    "@types/qs": "^6.9.1",
     "@types/react": "^16.9.23",
+    "@types/recharts": "^1.8.7",
     "@typescript-eslint/eslint-plugin": "^2.23.0",
     "@typescript-eslint/parser": "^2.23.0",
+    "autoprefixer": "^9.7.4",
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.20.1",
@@ -24,6 +37,18 @@
     "eslint-plugin-promise": "^4.2.1",
     "eslint-plugin-react": "^7.19.0",
     "eslint-plugin-standard": "^4.0.1",
+    "postcss-custom-properties": "^9.1.1",
+    "postcss-hexrgba": "^2.0.0",
+    "postcss-import": "^12.0.1",
+    "postcss-nested": "^4.2.1",
+    "stylelint-config-recommended": "^3.0.0",
+    "tailwindcss": "^1.2.0",
     "typescript": "^3.8.3"
-  }
+  },
+  "browserslist": [
+    ">0.3%",
+    "not ie 11",
+    "not dead",
+    "not op_mini all"
+  ]
 }

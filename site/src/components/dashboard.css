@@ -1,0 +1,7 @@
+.dashboard {
+  @apply w-screen h-screen flex;
+  padding: 5vh 5vw;
+  &-stats-container, &-advice-container {
+    @apply flex flex-col flex-1;
+  }
+}
