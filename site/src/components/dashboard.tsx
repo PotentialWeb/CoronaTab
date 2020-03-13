@@ -57,6 +57,7 @@ export class DashboardComponent extends Component<Props> {
 
             <div>
               <PlaceSelectComponent
+                initialValue={this.props.pageStore.selectedPlace}
                 options={this.props.pageStore.places}
                 onChange={place => { this.props.pageStore.selectedPlace = place }}
               />

@@ -25,7 +25,7 @@ export class PlaceSelectComponent extends Component<Props, State> {
     this.props.onChange?.(selectedPlace)
   }
 
-  onInputValueChange = async (value: string, { selectedItem, clearSelection, highlightedIndex, setHighlightedIndex }) => {
+  onInputValueChange = (value: string, { selectedItem, clearSelection, highlightedIndex, setHighlightedIndex }) => {
     if (!selectedItem && !highlightedIndex) setHighlightedIndex(0)
   }
 
@@ -45,7 +45,8 @@ export class PlaceSelectComponent extends Component<Props, State> {
           isOpen,
           inputValue,
           highlightedIndex,
-          getRootProps
+          getRootProps,
+          setState
         }) => (
           <div className={`place-select ${this.props.className ?? ''}`}>
             <div
@@ -53,8 +54,10 @@ export class PlaceSelectComponent extends Component<Props, State> {
             >
               <input
                 {...getInputProps()}
-                autoFocus
-                onClick={() => !isOpen && toggleMenu()}
+                onClick={() => {
+                  if (!isOpen) toggleMenu()
+                  setState({ inputValue: '' })
+                }}
                 placeholder="Search for a place..."
                 className={`form-input ${this.props.inputClassName ?? ''}`}
               />
@@ -69,7 +72,7 @@ export class PlaceSelectComponent extends Component<Props, State> {
               {
                 isOpen
                   ? this.props.options
-                    .filter(({ name }) => name.toLowerCase().includes(inputValue.toLowerCase()))
+                    .filter(({ name }) => name.toLowerCase().includes(inputValue?.toLowerCase()))
                     .map((place, index) => {
                       return (
                         <li

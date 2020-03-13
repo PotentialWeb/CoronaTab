@@ -1,6 +1,7 @@
-import { action, observable } from 'mobx'
+import { action, observable, computed } from 'mobx'
 import { Place } from '../../../shared/places'
 import { PlaceApi } from '../utils/api/place'
+import { LocalStorage } from '../utils/storage'
 
 export enum LoadingStatus {
   IS_LOADING = 'isLoading',
@@ -19,7 +20,17 @@ export class DashboardPageStore {
   places: Place[] = []
 
   @observable
-  selectedPlace: Place
+  private _selectedPlace: Place
+
+  @computed
+  get selectedPlace (): Place {
+    return this._selectedPlace ?? LocalStorage.get('selectedPlace')
+  }
+
+  set selectedPlace (place: Place) {
+    this._selectedPlace = place
+    LocalStorage.set('selectedPlace', place)
+  }
 
   @action.bound
   async init () {
