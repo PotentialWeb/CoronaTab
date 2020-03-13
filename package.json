@@ -2,12 +2,10 @@
   "name": "coronatab",
   "version": "1.0.0",
   "description": "CoronaTab",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dataset:download": "./node_modules/.bin/ts-node -P ./tsconfig.json dataset/download.ts"
   },
   "repository": {
-    "type": "git",
     "url": "git+https://github.com/PotentialWeb/CoronaTab.git"
   },
   "author": "",
@@ -15,5 +13,18 @@
   "bugs": {
     "url": "https://github.com/PotentialWeb/CoronaTab/issues"
   },
-  "homepage": "https://github.com/PotentialWeb/CoronaTab#readme"
+  "homepage": "https://github.com/PotentialWeb/CoronaTab#readme",
+  "dependencies": {
+    "ts-node": "^8.6.2",
+    "tslint": "^6.1.0",
+    "tslint-config-standard": "^9.0.0",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@coronatab/data": "file:modules/data",
+    "@coronatab/node-utils": "file:modules/node-utils",
+    "@types/csvtojson": "^1.1.5",
+    "csvtojson": "^2.0.10",
+    "dotenv": "^8.2.0"
+  }
 }

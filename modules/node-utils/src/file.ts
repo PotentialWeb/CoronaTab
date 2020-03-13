@@ -1,6 +1,6 @@
 import * as fs from 'fs-extra'
 import http from 'axios'
-import { Types } from '../../shared/types'
+import { Types } from '../../../shared/types'
 import StreamToPromise from 'stream-to-promise'
 
 export type FileDownloadReturn = 'Buffer' | 'Stream'

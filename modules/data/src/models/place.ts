@@ -3,9 +3,9 @@ import { Polygon, BBox } from 'geojson'
 import { PlaceType } from './place/type'
 import { Model } from '../model'
 import { PlaceGeometry } from './place/geometry'
-import { PlaceTypeId } from './seeds/places/types'
-import { DEFAULT_RADIUS_METERS } from '../constants'
-import { LocaleTranslations } from './seeds/locales'
+import { PlaceTypeId } from '../seeds/places/types'
+import { DEFAULT_RADIUS_METERS } from '../../../../shared/constants'
+import { LocaleTranslations } from '../../../../shared/locales'
 
 export interface ParentPlaceRef {
   id: string

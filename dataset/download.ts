@@ -1,4 +1,7 @@
-import { File } from '../utils/file'
+import { config as injectEnvs } from 'dotenv'
+injectEnvs()
+
+import { File } from '@coronatab/node-utils'
 import CSV from 'csvtojson'
 
 const CASES_CSV_URL = 'https://github.com/CSSEGISandData/COVID-19/raw/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv'
@@ -38,5 +41,5 @@ type DataSetRow = { [meta in MetaColumnType]: string } & { [date: string]: strin
   const recovered: DataSetRow[] = await CSV().fromStream(recoveredStream as any)
   const deaths: DataSetRow[] = await CSV().fromStream(deathsStream as any)
 
-  
+  console.log(cases.length)
 })()

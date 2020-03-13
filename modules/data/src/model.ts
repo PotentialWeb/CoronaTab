@@ -1,6 +1,5 @@
-import { BaseEntity, EntityMetadata } from '../modules/models/node_modules/typeorm'
+import { BaseEntity, EntityMetadata } from 'typeorm'
 import { connection, connect } from '.'
-import { ColumnMetadata } from '../modules/models/node_modules/typeorm/metadata/ColumnMetadata'
 
 export class Model<T> extends BaseEntity {
   constructor (config: Omit<T, 'hasId' | 'save' | 'remove' | 'reload' | 'get' | 'metadata' | 'getMetadataInfo'>) {

@@ -1,6 +1,6 @@
 import { Entity, PrimaryColumn, Column } from 'typeorm'
 import { Model } from '../model'
-import { LocaleId } from './seeds/locales'
+import { LocaleId } from '../../../../shared/locales'
 
 @Entity()
 export class Locale extends Model<Locale> {

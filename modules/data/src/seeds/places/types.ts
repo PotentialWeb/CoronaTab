@@ -1,5 +1,5 @@
-import { PlaceType } from '../../place/type'
-import { Types } from '../../utils/types'
+import { PlaceType } from '../../models/place/type'
+import { Types } from '../../../../../shared/types'
 
 export const PlaceTypeIds = [
   'planet',

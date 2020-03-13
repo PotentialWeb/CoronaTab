@@ -1,4 +1,4 @@
-import { connect, connection } from '../../modules/models'
+import { connect, connection } from '../src'
 
 import { config as injectEnvs } from 'dotenv'
 injectEnvs()

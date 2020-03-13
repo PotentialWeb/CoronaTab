@@ -1,10 +1,10 @@
-import { Place } from '../../place'
+import { Place } from '../../models/place'
 import { Geometry } from 'geojson'
-import { PlaceGeometry } from '../../place/geometry'
+import { PlaceGeometry } from '../../models/place/geometry'
 import * as dasherize from 'dasherize'
-import { LocaleTranslations } from '../locales'
+import { LocaleTranslations } from '../../../../../shared/locales'
 
-const Countries: {
+const CountriesData: {
   locales: LocaleTranslations
   phoneCode: string
   alpha2code: string
@@ -1884,26 +1884,33 @@ const Countries: {
   }
 ]
 
-const CountryGeometries: PlaceGeometry[] = []
+const SeededCountryGeometries: PlaceGeometry[] = []
 const SeededCountries: Place[] = []
 
-Countries.map(country => {
-  const id = dasherize(country.properties.ADMIN)
+const CountyGeometries = require('./country-geometries.json')
+CountriesData.map(country => {
+  const id = dasherize(country.locales.en)
 
   const Country = new Place({
     id,
-    name: country.properties.ADMIN,
+    locales: country.locales,
+    code: country.alpha2code,
     typeId: 'country',
     parentPlaceId: 'earth'
   })
 
-  const CountryGeometry = new PlaceGeometry({
-    placeId: id,
-    geometry: country.geometry
-  })
+  const countryGeometry = CountyGeometries.find(c => c.alpha3code === country.alpha3code)
 
-  Countries.push(Country)
-  CountryGeometries.push(CountryGeometry)
+  if (countryGeometry) {
+    const CountryGeometry = new PlaceGeometry({
+      placeId: id,
+      geometry: countryGeometry.geometry
+    })
+    SeededCountryGeometries.push(CountryGeometry)
+  }
+  
+
+  SeededCountries.push(Country)
 })
 
-export { CountryGeometries, SeededCountries }
+export { SeededCountryGeometries, SeededCountries }

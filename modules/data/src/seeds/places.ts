@@ -1,4 +1,4 @@
-import { Place } from '../place'
+import { Place } from '../models/place'
 
 export const Places = [
   new Place({
