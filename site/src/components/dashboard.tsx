@@ -1,14 +1,12 @@
 import { Component } from 'react'
 import { inject, observer } from 'mobx-react'
 import { DashboardPageStore } from '../pages/dashboard.store'
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
-import LogoTextSvg from '../../public/icons/logo-text.svg'
-import { LineChartComponent } from './line-chart'
 import { Meta } from '../utils/meta'
 import { DashboardStatsComponent } from './dashboard/stats'
-import { BarChartComponent } from './bar-chart'
 import { PlaceSelectComponent } from './place-select'
 import { DashboardQuickLinksComponent } from './dashboard/quick-links'
+import { DashboardSelectedPlaceComponent } from './dashboard/selected-place'
+import LogoTextSvg from '../../public/icons/logo-text.svg'
 
 interface Props {
   pageStore?: DashboardPageStore
@@ -18,6 +16,8 @@ interface Props {
 @observer
 export class DashboardComponent extends Component<Props> {
   render () {
+    const { pageStore } = this.props
+
     return (
       <main className="dashboard">
         <div className="dashboard-stats-container">
@@ -28,7 +28,7 @@ export class DashboardComponent extends Component<Props> {
             </div>
             <div className="flex-1 last-updated text-right">
               <span className="text-xs">
-                Last Updated: {this.props.pageStore.lastUpdated?.toISOString()}
+                Last Updated: {pageStore.lastUpdated?.toISOString()}
               </span>
             </div>
           </div>
@@ -47,7 +47,7 @@ export class DashboardComponent extends Component<Props> {
 
           <DashboardStatsComponent
             title="Global Stats"
-            rawData={[]}
+            rawData={pageStore.rawGlobalData}
           />
 
           <div className="region-select">
@@ -57,45 +57,19 @@ export class DashboardComponent extends Component<Props> {
 
             <div>
               <PlaceSelectComponent
-                initialValue={this.props.pageStore.selectedPlace}
-                options={this.props.pageStore.places}
-                onChange={place => { this.props.pageStore.selectedPlace = place }}
+                initialValue={pageStore.selectedPlace}
+                options={pageStore.places}
+                onChange={place => { pageStore.selectedPlace = place }}
               />
             </div>
           </div>
 
           {
-            this.props.pageStore.selectedPlace
+            pageStore.selectedPlace
               ? (
-                <>
-                  <DashboardStatsComponent
-                    title="Region Stats"
-                    rawData={[]}
-                  />
-                  {/*<div className="region-comparison-select">
-                    Compare your region with...
-                      <select>
-                        <option>There</option>
-                      </select>
-                  </div>*/}
-                  <Tabs>
-                    <TabList>
-                      <Tab>Cumulative</Tab>
-                      <Tab>Daily</Tab>
-                    </TabList>
-
-                    <TabPanel>
-                      <div className="time-chart">
-                        <LineChartComponent />
-                      </div>
-                    </TabPanel>
-                    <TabPanel>
-                      <div className="time-chart">
-                        <BarChartComponent />
-                      </div>
-                    </TabPanel>
-                  </Tabs>
-                </>
+                <DashboardSelectedPlaceComponent
+                  place={pageStore.selectedPlace}
+                />
               )
               : (
                 <div className="flex items-center justify-center h-24">
@@ -109,7 +83,23 @@ export class DashboardComponent extends Component<Props> {
         <div className="dashboard-advice-container">
           <div className="general-advice">
             <h2 className="font-bold">General Advice</h2>
-            Wash dem hands.
+            <div>
+              {
+                pageStore.advice
+                  ? (
+                    Object.entries(pageStore.advice)
+                      .map(([key, { title, description }]) => {
+                        return (
+                          <div key={key}>
+                            <h3>{title}</h3>
+                            <p>{description}</p>
+                          </div>
+                        )
+                      })
+                  )
+                  : ''
+              }
+            </div>
           </div>
 
           <div className="local-advice">

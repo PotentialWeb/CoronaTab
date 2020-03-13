@@ -11,33 +11,15 @@ export class DataApi extends Api {
   // }
 
   static async query (query: DataApiQuery) {
+    await new Promise(resolve => setTimeout(resolve, 1000))
     return {
-      data: [{
-        date: '2020/03/01',
-        cases: 0,
-        deaths: 0,
-        recovered: 0
-      }, {
-        date: '2020/03/02',
-        cases: 5,
-        deaths: 1,
-        recovered: 0
-      }, {
-        date: '2020/03/03',
-        cases: 10,
-        deaths: 1,
-        recovered: 0
-      }, {
-        date: '2020/03/04',
-        cases: 17,
-        deaths: 2,
-        recovered: 0
-      }, {
-        date: '2020/03/05',
-        cases: 22,
-        deaths: 3,
-        recovered: 1
-      }]
+      data: [
+        ['2020/03/01', 0, 0, 0],
+        ['2020/03/02', 5, 1, 0],
+        ['2020/03/03', 10, 1, 0],
+        ['2020/03/04', 17, 2, 0],
+        ['2020/03/05', 25, 2, 1]
+      ]
     }
   }
 }
