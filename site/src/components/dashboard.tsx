@@ -7,6 +7,7 @@ import { PlaceSelectComponent } from './place-select'
 import { DashboardQuickLinksComponent } from './dashboard/quick-links'
 import { DashboardSelectedPlaceComponent } from './dashboard/selected-place'
 import LogoTextSvg from '../../public/icons/logo-text.svg'
+import { DashboardGeneralAdviceComponent } from './dashboard/general-advice'
 
 interface Props {
   pageStore?: DashboardPageStore
@@ -81,26 +82,7 @@ export class DashboardComponent extends Component<Props> {
         </div>
 
         <div className="dashboard-advice-container">
-          <div className="general-advice">
-            <h2 className="font-bold">General Advice</h2>
-            <div>
-              {
-                pageStore.advice
-                  ? (
-                    Object.entries(pageStore.advice)
-                      .map(([key, { title, description }]) => {
-                        return (
-                          <div key={key}>
-                            <h3>{title}</h3>
-                            <p>{description}</p>
-                          </div>
-                        )
-                      })
-                  )
-                  : ''
-              }
-            </div>
-          </div>
+          <DashboardGeneralAdviceComponent />
 
           <div className="local-advice">
             <h2 className="font-bold">Local Advice</h2>
@@ -108,6 +90,13 @@ export class DashboardComponent extends Component<Props> {
           </div>
 
           <DashboardQuickLinksComponent />
+
+          <div>
+            Share
+          </div>
+          <div>
+            Fork on GitHub
+          </div>
         </div>
       </main>
     )

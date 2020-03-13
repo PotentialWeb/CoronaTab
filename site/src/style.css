@@ -8,6 +8,7 @@
 @import "../node_modules/tippy.js/animations/shift-away.css";
 @import "./styles/animations.css";
 @import "./styles/fonts.css";
+@import "./styles/swiper.css";
 @import "./styles/tabs.css";
 
 @import "./pages/_app.css";
