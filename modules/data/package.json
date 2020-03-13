@@ -4,8 +4,8 @@
   "description": "CoronaTab data models and seeds",
   "main": "dist/modules/data/src/index.js",
   "scripts": {
-    "sync": "ts-node src/scripts/sync.ts",
-    "seed": "ts-node src/scripts/seed.ts",
+    "sync": "./node_modules/.bin/ts-node scripts/sync.ts",
+    "seed": "./node_modules/.bin/ts-node scripts/seed.ts",
     "build": "rm -rf dist/ && ./node_modules/.bin/tsc -p ."
   },
   "author": "",

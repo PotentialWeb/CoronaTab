@@ -1,7 +1,6 @@
 import { Place } from '../../models/place'
-import { Geometry } from 'geojson'
-import { PlaceGeometry } from '../../models/place/geometry'
-import * as dasherize from 'dasherize'
+import { PlacePolygon } from '../../models/place/polygon'
+import dasherize from 'dasherize'
 import { LocaleTranslations } from '../../../../../shared/locales'
 
 const CountriesData: {
@@ -1332,7 +1331,15 @@ const CountriesData: {
   },
   {
     locales: {
-      en: 'Congo'
+      en: 'Democratic Republic of the Congo'
+    },
+    phoneCode: '+243',
+    alpha2code: 'CD',
+    alpha3code: 'COD'
+  },
+  {
+    locales: {
+      en: 'Republic of Congo'
     },
     phoneCode: '+242',
     alpha2code: 'CG',
@@ -1804,7 +1811,7 @@ const CountriesData: {
   },
   {
     locales: {
-      en: 'U.S. Virgin Islands'
+      en: 'US Virgin Islands'
     },
     phoneCode: '+1',
     alpha2code: 'VI',
@@ -1884,33 +1891,32 @@ const CountriesData: {
   }
 ]
 
-const SeededCountryGeometries: PlaceGeometry[] = []
+const SeededCountryPolygons: PlacePolygon[] = []
 const SeededCountries: Place[] = []
 
-const CountyGeometries = require('./country-geometries.json')
+const CountyPolygons = require('./country-polygons.json')
 CountriesData.map(country => {
-  const id = dasherize(country.locales.en)
+  const id = dasherize(country.locales.en.replace(/,|\.| /g, ''))
 
   const Country = new Place({
     id,
     locales: country.locales,
     code: country.alpha2code,
     typeId: 'country',
-    parentPlaceId: 'earth'
+    parentId: 'earth'
   })
 
-  const countryGeometry = CountyGeometries.find(c => c.alpha3code === country.alpha3code)
+  const countryPolygon = CountyPolygons.find(c => c.alpha3code === country.alpha3code)
 
-  if (countryGeometry) {
-    const CountryGeometry = new PlaceGeometry({
+  if (countryPolygon) {
+    const CountryPolygon = new PlacePolygon({
       placeId: id,
-      geometry: countryGeometry.geometry
+      polygon: countryPolygon.polygon
     })
-    SeededCountryGeometries.push(CountryGeometry)
+    SeededCountryPolygons.push(CountryPolygon)
   }
-  
 
   SeededCountries.push(Country)
 })
 
-export { SeededCountryGeometries, SeededCountries }
+export { SeededCountryPolygons, SeededCountries }

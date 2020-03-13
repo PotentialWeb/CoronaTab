@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "CoronaTab",
   "scripts": {
-    "dataset:download": "./node_modules/.bin/ts-node -P ./tsconfig.json dataset/download.ts"
+    "download:dataset": "./node_modules/.bin/ts-node -P ./tsconfig.json dataset/download.ts"
   },
   "repository": {
     "url": "git+https://github.com/PotentialWeb/CoronaTab.git"
@@ -25,6 +25,8 @@
     "@coronatab/node-utils": "file:modules/node-utils",
     "@types/csvtojson": "^1.1.5",
     "csvtojson": "^2.0.10",
-    "dotenv": "^8.2.0"
+    "dasherize": "^2.0.0",
+    "dotenv": "^8.2.0",
+    "moment": "^2.24.0"
   }
 }

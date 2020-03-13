@@ -4,7 +4,7 @@
   "description": "CoronaTab API",
   "main": "dist/server.js",
   "scripts": {
-    "build": "./node_modules/.bin/tsc -p tsconfig.json",   
+    "build": "./node_modules/.bin/tsc -p tsconfig.json",
     "start": "node dist/api.js"
   },
   "repository": {

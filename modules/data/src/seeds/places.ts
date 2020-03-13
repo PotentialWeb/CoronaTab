@@ -1,6 +1,6 @@
 import { Place } from '../models/place'
 
-export const Places = [
+export const SeededPlaces = [
   new Place({
     id: 'earth',
     locales: {

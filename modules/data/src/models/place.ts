@@ -1,11 +1,12 @@
-import { Column, Entity, ManyToOne, OneToOne, PrimaryColumn, JoinColumn } from 'typeorm'
-import { Polygon, BBox } from 'geojson'
+import { Column, Entity, ManyToOne, OneToOne, PrimaryColumn, JoinColumn, ManyToMany, OneToMany } from 'typeorm'
+import { Polygon, BBox, Point } from 'geojson'
 import { PlaceType } from './place/type'
-import { Model } from '../model'
-import { PlaceGeometry } from './place/geometry'
+import { Model } from './model'
+import { PlacePolygon } from './place/polygon'
 import { PlaceTypeId } from '../seeds/places/types'
 import { DEFAULT_RADIUS_METERS } from '../../../../shared/constants'
 import { LocaleTranslations } from '../../../../shared/locales'
+import { PlaceData } from './place/data'
 
 export interface ParentPlaceRef {
   id: string
@@ -29,20 +30,30 @@ export class Place extends Model<Place> {
   @Column()
   code: string
 
-  @ManyToOne(() => PlaceGeometry, geometry => geometry.place)
-  geometry?: PlaceGeometry
+  @Column('geography', {
+    nullable: true,
+    srid: 4326,
+    spatialFeatureType: 'Geometry'
+  })
+  location?: Point
 
-  @OneToOne(() => Place, { nullable: true })
-  parentPlace?: Place
-  @Column()
-  parentPlaceId?: string
+  @OneToMany(() => PlacePolygon, geometry => geometry.place)
+  geometry?: PlacePolygon
 
-  parentPlaces?: ParentPlaceRef[]
+  @ManyToOne(() => Place, { nullable: true })
+  parent?: Place
+  @Column({ nullable: true })
+  parentId?: string
+
+  @OneToMany(() => PlaceData, data => data.place)
+  data?: PlaceData[]
+
+  children?: Place[]
 
   distance?: number
 
   async getBoundingBox? (): Promise<BBox> {
-    let { bbox }: { bbox: string } = await PlaceGeometry.createQueryBuilder('geometry')
+    let { bbox }: { bbox: string } = await PlacePolygon.createQueryBuilder('geometry')
       .select(`ST_Extent(ST_Buffer(geometry::geography, ${DEFAULT_RADIUS_METERS})::geometry) as bbox`)
       .where('"placeId" = :id', { id: this.id })
       .getRawOne()
