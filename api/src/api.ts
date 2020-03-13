@@ -2,7 +2,7 @@ import { config as injectEnvs } from 'dotenv'
 injectEnvs()
 
 import express from 'express'
-import { connect } from './models'
+import { connect } from '../../modules/models'
 
 ;(async () => {
   await connect({

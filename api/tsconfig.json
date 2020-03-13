@@ -21,6 +21,6 @@
   "exclude": ["node_modules"],
   "include": [
     "./src/**/*.ts",
-    "./src/**/*.d.ts"
+    "./src/**/*.d.ts", "../shared/node-utils/file.ts", "../shared/types.ts", "../modules/models/models.ts", "../modules/models/model.ts"
   ]
 }
