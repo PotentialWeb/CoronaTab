@@ -1,0 +1,18 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+/* purgecss start ignore */
+
+@import "../node_modules/tippy.js/dist/tippy.css";
+@import "../node_modules/tippy.js/animations/shift-away.css";
+@import "./styles/animations.css";
+@import "./styles/fonts.css";
+@import "./styles/tabs.css";
+
+@import "./pages/_app.css";
+
+@import "./components/dashboard.css";
+@import "./components/dashboard/stats.css";
+
+/* purgecss end ignore */

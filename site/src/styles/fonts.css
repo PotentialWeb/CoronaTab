@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Hanken Grotesk';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/HankenGrotesk/regular.woff2') format('woff2'), /* Newer browsers */
+   url('/fonts/HankenGrotesk/regular.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   url('/fonts/HankenGrotesk/regular.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+@font-face {
+  font-family: 'Hanken Grotesk';
+  font-style: italic;
+  font-weight: 400;
+  src: url('/fonts/HankenGrotesk/italic.woff2') format('woff2'), /* Newer browsers */
+   url('/fonts/HankenGrotesk/italic.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   url('/fonts/HankenGrotesk/italic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+@font-face {
+  font-family: 'Hanken Grotesk';
+  font-style: normal;
+  font-weight: 700;
+  src: url('/fonts/HankenGrotesk/bold.woff2') format('woff2'), /* Newer browsers */
+   url('/fonts/HankenGrotesk/bold.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   url('/fonts/HankenGrotesk/bold.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+@font-face {
+  font-family: 'Hanken Grotesk';
+  font-style: italic;
+  font-weight: 700;
+  src: url('/fonts/HankenGrotesk/bolditalic.woff2') format('woff2'), /* Newer browsers */
+   url('/fonts/HankenGrotesk/bolditalic.woff') format('woff'), /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+   url('/fonts/HankenGrotesk/bolditalic.ttf') format('truetype'); /* Chrome 4+, Firefox 3.5, Opera 10+, Safari 3—5 */
+}
+
+h1, h2, h3, h4, h5, h6 {
+  @apply .tracking-tight;
+}
