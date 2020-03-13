@@ -13,6 +13,9 @@ export class DashboardPageStore {
   @observable
   lastUpdated: Date
 
+  @observable
+  selectedPlace: Place
+
   @action.bound
   async init () {
     this.fetchData()

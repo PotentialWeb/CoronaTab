@@ -1,5 +1,6 @@
 import { Component, HTMLAttributes } from 'react'
 import Tippy from '@tippy.js/react'
+import numeral from 'numeral'
 
 interface Props extends HTMLAttributes<HTMLDivElement> {
   title: string
@@ -12,6 +13,12 @@ export class DashboardStatsComponent extends Component<Props> {
   }
 
   render () {
+    const cases = 1290003
+    const deaths = 47670
+    const recovered = 688500
+    const deathRate = deaths / cases
+    const recoveryRate = recovered / cases
+
     return (
       <div className="dashboard-stats flex-col">
         <h2 className="font-bold">
@@ -26,7 +33,7 @@ export class DashboardStatsComponent extends Component<Props> {
               duration={100}
               placement="top"
             >
-              <span>1290003</span>
+              <span>{numeral(cases).format('0.0a')}</span>
             </Tippy>
           </li>
           <li>
@@ -37,7 +44,10 @@ export class DashboardStatsComponent extends Component<Props> {
               duration={100}
               placement="top"
             >
-              <span>4767 (3.7%)</span>
+              <span>
+                <span>{numeral(deaths).format('0.0a')}</span>
+                <span>({numeral(deathRate).format('0.00%')})</span>
+              </span>
             </Tippy>
           </li>
           <li>
@@ -48,7 +58,10 @@ export class DashboardStatsComponent extends Component<Props> {
               duration={100}
               placement="top"
             >
-              <span>68850 (53.4%)</span>
+              <span>
+                <span>{numeral(recovered).format('0.0a')}</span>
+                <span>({numeral(recoveryRate).format('0.00%')})</span>
+              </span>
             </Tippy>
           </li>
         </ul>

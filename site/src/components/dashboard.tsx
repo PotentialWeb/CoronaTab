@@ -7,6 +7,7 @@ import { LineChartComponent } from './line-chart'
 import { Meta } from '../utils/meta'
 import { DashboardStatsComponent } from './dashboard/stats'
 import { BarChartComponent } from './bar-chart'
+import { PlaceSelectComponent } from './place-select'
 
 interface Props {
   pageStore?: DashboardPageStore
@@ -49,10 +50,15 @@ export class DashboardComponent extends Component<Props> {
           />
 
           <div className="region-select">
-            Select your region
-            <select>
-              <option>Here</option>
-            </select>
+            <h2 className="font-bold">
+              Select your region
+            </h2>
+
+            <div>
+              <PlaceSelectComponent
+                options={[]}
+              />
+            </div>
           </div>
 
           <DashboardStatsComponent
@@ -60,30 +66,40 @@ export class DashboardComponent extends Component<Props> {
             rawData={[]}
           />
 
-          <div className="region-comparison-select">
-            Compare your region with...
-            <select>
-              <option>There</option>
-            </select>
-          </div>
+          {
+            this.props.pageStore.selectedPlace
+              ? (
+                <>
+                  {/*<div className="region-comparison-select">
+                    Compare your region with...
+                      <select>
+                        <option>There</option>
+                      </select>
+                  </div>*/}
+                  <Tabs>
+                    <TabList>
+                      <Tab>Cumulative</Tab>
+                      <Tab>Daily</Tab>
+                    </TabList>
 
-          <Tabs>
-            <TabList>
-              <Tab>Cumulative</Tab>
-              <Tab>Daily</Tab>
-            </TabList>
+                    <TabPanel>
+                      <div className="time-chart">
+                        <LineChartComponent />
+                      </div>
+                    </TabPanel>
+                    <TabPanel>
+                      <div className="time-chart">
+                        <BarChartComponent />
+                      </div>
+                    </TabPanel>
+                  </Tabs>
+                </>
+              )
+              : (
+                <div>Select a region</div>
+              )
+          }
 
-            <TabPanel>
-              <div className="time-chart">
-                <LineChartComponent />
-              </div>
-            </TabPanel>
-            <TabPanel>
-              <div className="time-chart">
-                <BarChartComponent />
-              </div>
-            </TabPanel>
-          </Tabs>
         </div>
 
         <div className="dashboard-advice-container">
