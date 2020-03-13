@@ -1,4 +1,6 @@
 import { action, observable } from 'mobx'
+import { Place } from '../../../shared/places'
+import { PlaceApi } from '../utils/api/place'
 
 export enum LoadingStatus {
   IS_LOADING = 'isLoading',
@@ -14,6 +16,9 @@ export class DashboardPageStore {
   lastUpdated: Date
 
   @observable
+  places: Place[] = []
+
+  @observable
   selectedPlace: Place
 
   @action.bound
@@ -24,7 +29,8 @@ export class DashboardPageStore {
   @action.bound
   async fetchData () {
     try {
-      await new Promise(resolve => setTimeout(resolve, 1000))
+      const { data: places } = await PlaceApi.findAll()
+      this.places = places
       this.lastUpdated = new Date()
       this.loadingStatus = LoadingStatus.HAS_LOADED
     } catch (err) {

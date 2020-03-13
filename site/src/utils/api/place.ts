@@ -10,9 +10,35 @@ export class PlaceApi extends Api {
   static pathForCountries = () => `${PlaceApi.pathForPlaces()}/countries`
   static pathForClosestPlace = () => `${PlaceApi.pathForPlaces()}/closest`
 
+  // static async findAll () {
+  //   const url = this.buildURL(PlaceApi.pathForPlaces())
+  //   return this.request('GET', url, {})
+  // }
+
   static async findAll () {
-    const url = this.buildURL(PlaceApi.pathForPlaces())
-    return this.request('GET', url, {})
+    return {
+      data: [{
+        id: '1',
+        name: 'United Kingdom',
+        code: 'GB',
+        typeId: 'country',
+        parentPlaceId: 'earth',
+        location: {
+          type: 'Point',
+          coordinates: [1,2]
+        }
+      }, {
+        id: '2',
+        name: 'China',
+        code: 'CN',
+        typeId: 'country',
+        parentPlaceId: 'earth',
+        location: {
+          type: 'Point',
+          coordinates: [1,2]
+        }
+      }]
+    }
   }
 
   static async find (id: string) {

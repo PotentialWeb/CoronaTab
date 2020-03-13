@@ -1,0 +1,21 @@
+[{
+  "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports",
+  "title": {
+    "en": "WHO Daily Sit Reps"
+  }
+}, {
+  "url": "https://www.reddit.com/t/coronavirus/",
+  "title": {
+    "en": "Reddit t/coronavirus"
+  }
+}, {
+  "url": "https://twitter.com/search?q=%23COVID19",
+  "title": {
+    "en": "#COVID19 on Twitter"
+  }
+}, {
+  "url": "https://github.com/CSSEGISandData/COVID-19",
+  "title": {
+    "en": "COVID-19 dataset on GitHub"
+  }
+}]

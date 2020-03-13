@@ -8,6 +8,7 @@ import { Meta } from '../utils/meta'
 import { DashboardStatsComponent } from './dashboard/stats'
 import { BarChartComponent } from './bar-chart'
 import { PlaceSelectComponent } from './place-select'
+import { DashboardQuickLinksComponent } from './dashboard/quick-links'
 
 interface Props {
   pageStore?: DashboardPageStore
@@ -51,25 +52,25 @@ export class DashboardComponent extends Component<Props> {
 
           <div className="region-select">
             <h2 className="font-bold">
-              Select your region
+              Select a region
             </h2>
 
             <div>
               <PlaceSelectComponent
-                options={[]}
+                options={this.props.pageStore.places}
+                onChange={place => { this.props.pageStore.selectedPlace = place }}
               />
             </div>
           </div>
-
-          <DashboardStatsComponent
-            title="Region Stats"
-            rawData={[]}
-          />
 
           {
             this.props.pageStore.selectedPlace
               ? (
                 <>
+                  <DashboardStatsComponent
+                    title="Region Stats"
+                    rawData={[]}
+                  />
                   {/*<div className="region-comparison-select">
                     Compare your region with...
                       <select>
@@ -96,7 +97,9 @@ export class DashboardComponent extends Component<Props> {
                 </>
               )
               : (
-                <div>Select a region</div>
+                <div className="flex items-center justify-center h-24">
+                  Select a region to see data
+                </div>
               )
           }
 
@@ -113,31 +116,7 @@ export class DashboardComponent extends Component<Props> {
             <span>In your region...</span>
           </div>
 
-          <div className="quick-links">
-            <h2 className="font-bold">Quick Links</h2>
-            <ul className="text-sm">
-              <li>
-                <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports" target="_blank">
-                  WHO Daily Sit Reps
-                </a>
-              </li>
-              <li>
-                <a href="https://www.reddit.com/t/coronavirus/" target="_blank">
-                  Reddit t/coronavirus
-                </a>
-              </li>
-              <li>
-                <a href="https://twitter.com/search?q=%23COVID19" target="_blank">
-                  #COVID19 on Twitter
-                </a>
-              </li>
-              <li>
-                <a href="https://github.com/CSSEGISandData/COVID-19" target="_blank">
-                  COVID-19 dataset on GitHub
-                </a>
-              </li>
-            </ul>
-          </div>
+          <DashboardQuickLinksComponent />
         </div>
       </main>
     )
