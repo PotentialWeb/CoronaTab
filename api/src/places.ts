@@ -73,11 +73,11 @@ places.get('/places/closest', async (req, res) => {
   }
   if (!lng || !lat) {
     const lookup = Request.getGeo(req)
-    lng = lookup.ll[1]
-    lat = lookup.ll[0]
+    lng = lookup?.ll?.[1]
+    lat = lookup?.ll?.[0]
   }
 
-  const places = await Place.getClosest({ lng, lat, limit: 5 })
+  const places = !!lng && !!lat ? await Place.getClosest({ lng, lat, limit: 5 }) : [await Place.findOne({ id: 'earth' })]
 
   if (includes?.length && places?.length) {
     for (const include of includes) {

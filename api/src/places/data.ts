@@ -5,10 +5,17 @@ import { PlaceData } from '@coronatab/data'
 
 const data = Router()
 
-const SerializePlaceData = (placeData: PlaceData) => {
-  return [placeData.date, placeData.cases, placeData.deaths, placeData.recovered]
+const SerializePlaceData = (placeData: PlaceData, { compact }: { compact?: boolean }) => {
+  if (compact) {
+    return [placeData.date, placeData.cases, placeData.deaths, placeData.recovered]
+  } else {
+    delete placeData.placeId
+    return placeData
+  }
 }
 data.get('/', async (req: PlaceRequest, res) => {
+  let { compact } = req.query
+  compact = compact === 'true'
   const { place } = req
   const placeData = await PlaceData.find({
     where: {
@@ -19,7 +26,7 @@ data.get('/', async (req: PlaceRequest, res) => {
     }
   })
   res.json({
-    data: placeData.map(pd => SerializePlaceData(pd))
+    data: placeData.map(pd => SerializePlaceData(pd, { compact }))
   })
 })
 
