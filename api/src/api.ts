@@ -1,8 +1,10 @@
+
+process.on('uncaughtException', console.error)
+import express from 'express'
+import { connect } from '@coronatab/data'
+import { places } from './places'
 import { config as injectEnvs } from 'dotenv'
 injectEnvs()
-
-import express from 'express'
-import { connect } from '../../modules/models'
 
 ;(async () => {
   await connect({
@@ -19,9 +21,7 @@ import { connect } from '../../modules/models'
     res.send('pong')
   })
 
-  api.get('/data', (req, res) => {
-  //
-  })
+  api.use(places)
 
   const PORT = process.env.PORT ?? 3000
 

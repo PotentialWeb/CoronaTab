@@ -1,0 +1,22 @@
+{
+  "name": "@coronatab/node-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/modules/node-utils/src/index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/tsc -p ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "fs-extra": "^8.1.0",
+    "stream-to-promise": "^2.2.0"
+  },
+  "devDependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/fs-extra": "^8.1.0",
+    "@types/stream-to-promise": "^2.2.0",
+    "typescript": "^3.8.3"
+  }
+}
