@@ -1,10 +1,10 @@
 import { Component } from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import { Place } from '../../../../shared/places'
-import { DataApi } from '../../utils/api/data'
 import { DashboardStatsComponent } from './stats'
 import { LoadingComponent } from '../loading'
 import { DashboardDailyChartComponent, DashboardCumulativeGraphComponent } from './graphs'
+import { PlaceApi } from '../../utils/api/place'
 
 interface Props {
   place: Place
@@ -49,7 +49,7 @@ export class DashboardSelectedPlaceComponent extends Component<Props, State> {
   fetchData = async () => {
     try {
       this.setState({ loadingStatus: LoadingStatus.IS_LOADING })
-      const { data: rawData } = await DataApi.query({ placeId: this.props.place.id })
+      const { data: rawData } = await PlaceApi.queryData(this.props.place.id, { compact: true })
       if (!Array.isArray(rawData)) throw new Error('rawData is not an array')
       const cumulativeSeriesData = this.parseCumulativeSeriesData(rawData)
       const dailySeriesData = this.calcDailySeriesData(rawData)
@@ -75,19 +75,18 @@ export class DashboardSelectedPlaceComponent extends Component<Props, State> {
 
   calcDailySeriesData (rawData) {
     return rawData
-      .reduce((_data, [date, cases, deaths, recovered]) => {
-        const yesterday = _data[_data.length - 1]
+      .reduce((_data, [date, cases, deaths, recovered], i, rawData) => {
+        const yesterday = rawData[_data.length - 1]
         return [
           ..._data,
           {
             date,
-            cases: cases - yesterday.cases,
-            deaths: deaths - yesterday.deaths,
-            recovered: recovered - yesterday.recovered
+            cases: cases - (yesterday?.[1] ?? 0),
+            deaths: deaths - (yesterday?.[2] ?? 0),
+            recovered: recovered - (yesterday?.[3] ?? 0)
           }
         ]
-      }, [{ cases: 0, deaths: 0, recovered: 0 }])
-      .filter(({ date }) => typeof date === 'string')
+      }, [])
   }
 
   render () {

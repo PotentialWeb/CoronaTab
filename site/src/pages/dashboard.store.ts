@@ -3,7 +3,6 @@ import { Place } from '../../../shared/places'
 import { PlaceApi } from '../utils/api/place'
 import { LocalStorage } from '../utils/storage'
 import { HTTP } from '../utils/http'
-import { DataApi } from '../utils/api/data'
 
 export enum LoadingStatus {
   IS_LOADING = 'isLoading',
@@ -54,10 +53,13 @@ export class DashboardPageStore {
       const advice = await HTTP.request('GET', `/data/general-advice/${LocalStorage.get('locale') ?? 'en'}.json`)
       this.advice = advice
 
-      const { data: rawGlobalData } = await DataApi.query({ placeId: 'earth' })
+      const { data: rawGlobalData } = await PlaceApi.queryData('earth', { compact: true })
       this.rawGlobalData = rawGlobalData
 
-      const { data: places } = await PlaceApi.findAll()
+      const { data: places } = await PlaceApi.query({
+        typeId: 'country',
+        include: ['children']
+      })
       this.places = places
       this.lastUpdated = new Date()
       this.loadingStatus = LoadingStatus.HAS_LOADED

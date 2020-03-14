@@ -11,6 +11,7 @@ export class DashboardStatsComponent extends Component<Props> {
   render () {
     const { rawData } = this.props
     const latestSnapshot = rawData[rawData.length - 1]
+    if (!latestSnapshot) return ''
     const cases = latestSnapshot[1]
     const deaths = latestSnapshot[2]
     const recovered = latestSnapshot[3]

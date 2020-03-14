@@ -37,7 +37,7 @@ export class DashboardDailyChartComponent extends Component<{
         >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="date" />
-          <YAxis />
+          <YAxis domain={[0, 'dataMax']} />
           <Tooltip />
           <Legend />
           <Bar dataKey="cases" fill="#8884d8" />

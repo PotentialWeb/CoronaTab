@@ -1,79 +1,87 @@
 import { Api } from '../api'
 
-export type PlaceApiFindAllCountriesQuery = { include?: 'regions' }
+export type PlaceApiQuery = { typeId: string, include?: string[] }
+export type PlaceApiDataQuery = { compact: boolean }
 export type PlaceApiFindClosestQuery = { lng?: string, lat?: string }
 
 export class PlaceApi extends Api {
   static pathForPlaces = () => `/places`
   static pathForPlace = (id: string) => `${PlaceApi.pathForPlaces()}/${id}`
-  static pathForPlaceAdvice = (id: string) => `${PlaceApi.pathForPlace(id)}/advice`
-  static pathForCountries = () => `${PlaceApi.pathForPlaces()}/countries`
+  static pathForPlaceData = (id: string) => `${PlaceApi.pathForPlace(id)}/data`
   static pathForClosestPlace = () => `${PlaceApi.pathForPlaces()}/closest`
 
-  // static async findAll () {
-  //   const url = this.buildURL(PlaceApi.pathForPlaces())
-  //   return this.request('GET', url, {})
-  // }
-
-  static async findAll () {
-    return {
-      data: [{
-        id: '1',
-        name: 'United Kingdom',
-        code: 'GB',
-        typeId: 'country',
-        parentPlaceId: 'earth',
-        location: {
-          type: 'Point',
-          coordinates: [1,2]
-        }
-      }, {
-        id: '2',
-        name: 'China',
-        code: 'CN',
-        typeId: 'country',
-        parentPlaceId: 'earth',
-        location: {
-          type: 'Point',
-          coordinates: [1,2]
-        }
-      }]
-    }
+  static async query (query?: PlaceApiQuery) {
+    const url = this.buildURL(PlaceApi.pathForPlaces())
+    return this.request('GET', url, { query })
   }
+
+  // static async findAll () {
+  //   return {
+  //     data: [{
+  //       id: '1',
+  //       name: 'United Kingdom',
+  //       code: 'GB',
+  //       typeId: 'country',
+  //       parentPlaceId: 'earth',
+  //       location: {
+  //         type: 'Point',
+  //         coordinates: [1,2]
+  //       }
+  //     }, {
+  //       id: '2',
+  //       name: 'China',
+  //       code: 'CN',
+  //       typeId: 'country',
+  //       parentPlaceId: 'earth',
+  //       location: {
+  //         type: 'Point',
+  //         coordinates: [1,2]
+  //       }
+  //     }]
+  //   }
+  // }
 
   static async find (id: string) {
     const url = this.buildURL(PlaceApi.pathForPlace(id))
     return this.request('GET', url, {})
   }
 
-  static async findAdvice (id: string) {
-    const url = this.buildURL(PlaceApi.pathForPlaceAdvice(id))
-    return this.request('GET', url, {})
+  static queryData (id: string, query?: PlaceApiDataQuery) {
+    const url = this.buildURL(PlaceApi.pathForPlaceData(id))
+    return this.request('GET', url, { query })
   }
 
-  static async findAllCountries (query?: PlaceApiFindAllCountriesQuery) {
-    const url = this.buildURL(PlaceApi.pathForCountries())
+  // static async queryData (id: string, query?: PlaceApiDataQuery) {
+  //   await new Promise(resolve => setTimeout(resolve, 1000))
+  //   return {
+  //     data: [
+  //       ['2020/03/01', 0, 0, 0],
+  //       ['2020/03/02', 5, 1, 0],
+  //       ['2020/03/03', 10, 1, 0],
+  //       ['2020/03/04', 17, 2, 0],
+  //       ['2020/03/05', 25, 2, 1]
+  //     ]
+  //   }
+  // }
+
+  static async findClosest (query?: PlaceApiFindClosestQuery) {
+    const url = this.buildURL(PlaceApi.pathForClosestPlace())
     return this.request('GET', url, { query })
   }
 
   // static async findClosest (query?: PlaceApiFindClosestQuery) {
-  //   const url = this.buildURL(PlaceApi.pathForCountries())
-  //   return this.request('GET', url, { query })
+  //   return {
+  //     data: {
+  //       id: 1,
+  //       name: 'United Kingdom',
+  //       code: 'GB',
+  //       typeId: 'country',
+  //       parentPlaceId: 'earth',
+  //       location: {
+  //         type: 'Point',
+  //         coordinates: [1,2]
+  //       }
+  //     }
+  //   }
   // }
-
-  static async findClosest (query?: PlaceApiFindClosestQuery) {
-    return {
-      data: {
-        id: 1,
-        name: 'United Kingdom',
-        code: 'GB',
-        typeId: 'country',
-        parentPlaceId: 'earth',
-        location: {
-          type: 'Point',
-          coordinates: [1,2]
-        }
-      }
-    }
-  }
 }
