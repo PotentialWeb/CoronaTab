@@ -1,6 +1,7 @@
 
 process.on('uncaughtException', console.error)
 import express from 'express'
+import cors from 'cors'
 import { connect } from '@coronatab/data'
 import { places } from './places'
 import { config as injectEnvs } from 'dotenv'
@@ -12,6 +13,8 @@ injectEnvs()
   })
 
   const api = express()
+
+  api.use(cors())
 
   api.get('/', (req, res) => {
     res.send('Hello World')
