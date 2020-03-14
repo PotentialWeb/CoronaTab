@@ -100,8 +100,8 @@ type NormalizedDataRow = {
 
     const country = countryModels.find(c => c.code === countryCodeMap[casesRow.country])
     if (!country) {
-      console.log(casesRow.country, countryCodeMap[casesRow.country])
-      throw new Error()
+      console.error(`Country not found in DB`, casesRow.country, countryCodeMap[casesRow.country])
+      process.exit(1)
     }
     let region: Place
     if (!casesRow.region) {
@@ -123,8 +123,7 @@ type NormalizedDataRow = {
           type: 'Point',
           coordinates: [casesRow.lng, casesRow.lat]
         },
-        parentId: country.id,
-        code: subId
+        parentId: country.id
       })
     }
 

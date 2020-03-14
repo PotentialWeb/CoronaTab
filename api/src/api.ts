@@ -1,8 +1,9 @@
-import { config as injectEnvs } from 'dotenv'
-injectEnvs()
 
 import express from 'express'
 import { connect } from '@coronatab/data'
+import { places } from './places'
+import { config as injectEnvs } from 'dotenv'
+injectEnvs()
 
 ;(async () => {
   await connect({
@@ -19,9 +20,7 @@ import { connect } from '@coronatab/data'
     res.send('pong')
   })
 
-  api.get('/data', (req, res) => {
-  //
-  })
+  api.use(places)
 
   const PORT = process.env.PORT ?? 3000
 

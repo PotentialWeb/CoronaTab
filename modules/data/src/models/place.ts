@@ -1,7 +1,7 @@
 import { Column, Entity, ManyToOne, OneToOne, PrimaryColumn, JoinColumn, ManyToMany, OneToMany } from 'typeorm'
 import { Polygon, BBox, Point } from 'geojson'
-import { PlaceType } from './place/type'
 import { Model } from './model'
+import { PlaceType } from './place/type'
 import { PlacePolygon } from './place/polygon'
 import { PlaceTypeId } from '../seeds/places/types'
 import { DEFAULT_RADIUS_METERS } from '../../../../shared/constants'
@@ -22,13 +22,15 @@ export class Place extends Model<Place> {
   @Column('json')
   locales: LocaleTranslations
 
+  name?: string
+
   @ManyToOne(() => PlaceType)
   type?: PlaceType
   @Column()
   typeId: PlaceTypeId
 
   @Column()
-  code: string
+  code?: string
 
   @Column('geography', {
     nullable: true,
@@ -70,25 +72,50 @@ export class Place extends Model<Place> {
     }
   }
 
-  static async getParentPlaces (placeId: string) {
-    return Place.getRepository().query(`
-      WITH RECURSIVE Parents (id, name, "typeId", "parentPlaceId", depth) as
-      (
-          SELECT id, name, "typeId", "parentPlaceId", 0 as depth
-          FROM place
-          WHERE id = '${placeId}'
-          UNION ALL
-          SELECT e.id, e.name, e."typeId", e."parentPlaceId", depth + 1
-          FROM place e
-          JOIN Parents p
-          ON e.id = p."parentPlaceId"
-      )
-      SELECT id, name, "typeId", "parentPlaceId" from Parents
-      WHERE id <> '${placeId}'
-      ORDER BY depth DESC
-    `)
+  // TODO: Implement
+  // static async getParentChain (placeId: string) {
+  //   return Place.getRepository().query(`
+  //     WITH RECURSIVE Parents (id, name, "typeId", "parentPlaceId", depth) as
+  //     (
+  //         SELECT id, name, "typeId", "parentPlaceId", 0 as depth
+  //         FROM place
+  //         WHERE id = '${placeId}'
+  //         UNION ALL
+  //         SELECT e.id, e.name, e."typeId", e."parentPlaceId", depth + 1
+  //         FROM place e
+  //         JOIN Parents p
+  //         ON e.id = p."parentPlaceId"
+  //     )
+  //     SELECT id, name, "typeId", "parentPlaceId" from Parents
+  //     WHERE id <> '${placeId}'
+  //     ORDER BY depth DESC
+  //   `)
+  // }
+
+  // getParentChain ? = () => Place.getParentChain(this.id)
+
+  static async getChildren (placeId: string) {
+    return Place.find({
+      where: {
+        parentId: placeId
+      }
+    })
   }
 
-  getParentPlaces ? = () => Place.getParentPlaces(this.id)
+  getChildren ? = () => Place.getChildren(this.id)
+
+  static async findClosest ({ lng, lat }: { lng: number, lat: number }) {
+    const query = Place.createQueryBuilder('place')
+    .select([
+      'place',
+      `ST_DistanceSphere(ST_GeomFromText('POINT(:lat :lng)', 4326), location::geometry) as distance`
+    ])
+    .setParameters({ lng, lat })
+    .where('location IS NOT NULL')
+    .orderBy('distance', 'ASC')
+
+    const place = await query.getOne()
+    return place
+  }
 
 }

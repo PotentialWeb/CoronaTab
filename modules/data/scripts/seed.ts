@@ -1,14 +1,9 @@
+import { connection, connect, Locale, PlaceType, Place, PlacePolygon } from '../src'
 import { PlaceTypes } from '../src/seeds/places/types'
-// Locale, PlaceType, Place, PlacePolygon
-import { connection, connect } from '../src'
 import { Locales } from '../src/seeds/locales'
 import { config as injectEnvs } from 'dotenv'
 import { SeededPlaces } from '../src/seeds/places'
 import { SeededCountries, SeededCountryPolygons } from '../src/seeds/places/countries'
-import { Locale } from '../src/models/locale'
-import { PlaceType } from '../src/models/place/type'
-import { Place } from '../src/models/place'
-import { PlacePolygon } from '../src/models/place/polygon'
 injectEnvs()
 
 ;(async () => {

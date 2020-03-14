@@ -1,6 +1,5 @@
 import 'reflect-metadata'
 import { createConnection, Connection } from 'typeorm'
-
 let connection: Connection
 
 interface ConnectOptions {
@@ -45,12 +44,9 @@ const connect = async (opts: ConnectOptions = {}) => {
   return global.MODELS_CONNECTION
 }
 
-// export * from './models/place'
-// export * from './models/locale'
-// export * from './models/place/polygon'
-// export * from './models/place/type'
-// export * from './models/place/data'
-
 export {
   connect, connection
 }
+
+export * from './models'
+export * from './seeds'
