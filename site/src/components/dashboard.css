@@ -1,7 +1,69 @@
 .dashboard {
-  @apply w-screen h-screen flex;
-  padding: 5vh 5vw;
-  &-stats-container, &-advice-container {
+  @apply h-screen flex min-h-0;
+  padding: 5vw 5vw;
+  &-col {
     @apply flex flex-col w-1/2;
+    @apply px-3 -my-2;
+  }
+  &-panel-container {
+    @apply py-2;
+  }
+  &-panel {
+    @apply rounded-lg shadow-lg bg-white p-6 h-full;
+  }
+  &-nav {
+    @apply flex items-center;
+  }
+  &-nav, &-global-stats-panel, &-download-browser-extension {
+    @apply flex-shrink-0 flex-grow-0;
+  }
+  &-selected-place-panel {
+    @apply overflow-y-scroll;
+    @apply flex-1 min-h-0;
+  }
+  &-general-advice-panel {
+    @apply flex-1 min-h-0;
+  }
+}
+
+@screen xl {
+  .dashboard {
+    @apply -mx-6;
+    &-col {
+      @apply px-6 -my-3;
+    }
+    &-panel-container {
+      @apply py-3;
+    }
+  }
+}
+
+@screen 2xl {
+  .dashboard {
+    @apply -mx-8;
+    &-col {
+      @apply px-8 -my-4;
+    }
+    &-panel-container {
+      @apply py-4;
+    }
+  }
+}
+
+@screen 3xl {
+  .dashboard {
+    @apply -mx-10;
+    &-col {
+      @apply px-10;
+    }
+  }
+}
+
+@screen 4xl {
+  .dashboard {
+    @apply -mx-12;
+    &-col {
+      @apply px-12;
+    }
   }
 }

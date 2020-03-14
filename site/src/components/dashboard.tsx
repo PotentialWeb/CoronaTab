@@ -21,96 +21,121 @@ export class DashboardComponent extends Component<Props> {
 
     return (
       <main className="dashboard">
-        <div className="dashboard-stats-container">
+        <div className="dashboard-col">
 
-          <div className="dashboard-nav flex items-center">
-            <div className="flex-1">
-              <LogoTextSvg className="h-10" />
-            </div>
-            <div className="flex-1 last-updated text-right">
-              <span className="text-xs">
-                Last Updated: {pageStore.lastUpdated?.toISOString()}
-              </span>
+          <div className="dashboard-panel-container">
+            <div className="dashboard-nav">
+              <div className="flex-1">
+                <LogoTextSvg className="h-10" />
+              </div>
+              <div className="flex-1 last-updated text-right">
+                <span className="text-xs">
+                  Last Updated: {pageStore.lastUpdated?.toISOString()}
+                </span>
+              </div>
             </div>
           </div>
 
           {
             window?.self === window?.top
               ? (
-                <div>
-                  <a href={Meta.EXTENSION_URL} target="_blank">
-                    Download browser extension
-                  </a>
+                <div className="dashboard-panel-container">
+                  <div className="dashboard-download-browser-extension">
+                    <a href={Meta.EXTENSION_URL} target="_blank">
+                      Download browser extension
+                    </a>
+                  </div>
                 </div>
               )
               : ''
           }
 
-          <DashboardStatsComponent
-            title="Global Stats"
-            rawData={pageStore.rawGlobalData}
-          />
+          {
+            pageStore.rawGlobalData.length
+              ? (
+                <div className="dashboard-panel-container">
+                  <div className="dashboard-panel dashboard-global-stats-panel">
+                    <DashboardStatsComponent
+                      title="Global Stats"
+                      rawData={pageStore.rawGlobalData}
+                    />
+                  </div>
+                </div>
+              )
+              : ''
+          }
 
-          <div className="region-select">
-            <h2 className="font-bold">
-              Select a region
-            </h2>
+          <div className="dashboard-panel-container flex-1 min-h-0">
+            <div className="dashboard-panel dashboard-selected-place-panel">
+              <h2 className="font-bold">
+                Select a region
+              </h2>
 
-            <div className="flex">
-              <PlaceSelectComponent
-                initialValue={pageStore.selectedPlace}
-                options={pageStore.places}
-                onChange={place => {
-                  pageStore.selectedPlace = place
-                  pageStore.selectedPlaceDetail = place
-                }}
-              />
+              <div className="flex">
+                <PlaceSelectComponent
+                  initialValue={pageStore.selectedPlace}
+                  options={pageStore.places}
+                  onChange={place => {
+                    pageStore.selectedPlace = place
+                    pageStore.selectedPlaceDetail = place
+                  }}
+                />
+                {
+                  pageStore.selectedPlace.children.length
+                    ? (
+                      <PlaceSelectComponent
+                        initialValue={pageStore.selectedPlace.children[0]}
+                        options={pageStore.selectedPlace.children}
+                        onChange={place => { pageStore.selectedPlaceDetail = place }}
+                      />
+                    )
+                    : ''
+                }
+              </div>
+
               {
-                pageStore.selectedPlace.children.length
+                pageStore.selectedPlace
                   ? (
-                    <PlaceSelectComponent
-                      initialValue={pageStore.selectedPlace.children[0]}
-                      options={pageStore.selectedPlace.children}
-                      onChange={place => { pageStore.selectedPlaceDetail = place }}
+                    <DashboardSelectedPlaceComponent
+                      place={pageStore.selectedPlaceDetail}
                     />
                   )
-                  : ''
+                  : (
+                    <div className="flex items-center justify-center h-24">
+                      Select a region to see data
+                    </div>
+                  )
               }
             </div>
           </div>
-
-          {
-            pageStore.selectedPlace
-              ? (
-                <DashboardSelectedPlaceComponent
-                  place={pageStore.selectedPlaceDetail}
-                />
-              )
-              : (
-                <div className="flex items-center justify-center h-24">
-                  Select a region to see data
-                </div>
-              )
-          }
-
         </div>
 
-        <div className="dashboard-advice-container">
-          <DashboardGeneralAdviceComponent />
+        <div className="dashboard-col">
 
-          <div className="local-advice">
+          <div className="dashboard-panel-container">
+            <div className="dashboard-panel">
+              <DashboardQuickLinksComponent />
+            </div>
+          </div>
+
+          <div className="dashboard-panel-container flex-1 min-h-0">
+            <div className="dashboard-panel">
+              <DashboardGeneralAdviceComponent />
+            </div>
+          </div>
+
+
+          {/*<div className="local-advice">
             <h2 className="font-bold">Local Advice</h2>
-            <span>If you or a family member are feeling ill, </span>
+            <span>Regionalised information for how to take action if you or a loved one are ill.</span>
+          </div>*/}
+
+          <div className="dashboard-panel-container">
+            <div className="dashboard-panel">
+              Share - Fork on GitHub
+            </div>
           </div>
 
-          <DashboardQuickLinksComponent />
-
-          <div>
-            Share
-          </div>
-          <div>
-            Fork on GitHub
-          </div>
         </div>
       </main>
     )

@@ -18,6 +18,7 @@ export class DashboardCumulativeGraphComponent extends Component<{
           <XAxis dataKey="date" />
           <YAxis />
           <Tooltip />
+          <Legend />
         </LineChart>
       </ResponsiveContainer>
     )

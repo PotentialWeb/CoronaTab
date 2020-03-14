@@ -3,8 +3,8 @@ html {
 }
 
 body {
-  @apply overflow-x-hidden overflow-y-scroll;
   -webkit-font-smoothing: antialiased;
+  min-width: theme('screens.lg');
   &.no-scroll {
     @apply overflow-hidden;
   }
