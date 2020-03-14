@@ -40,6 +40,9 @@ export class Place extends Model<Place> {
   })
   location?: Point
 
+  @Column('int', { nullable: true })
+  population?: number
+
   @OneToMany(() => PlacePolygon, geometry => geometry.place)
   geometry?: PlacePolygon
 

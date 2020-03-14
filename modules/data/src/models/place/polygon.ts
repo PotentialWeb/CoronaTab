@@ -1,12 +1,11 @@
-import { Entity, Column, OneToOne, JoinColumn, PrimaryColumn } from 'typeorm'
+import { Entity, Column, OneToOne, JoinColumn, PrimaryColumn, OneToMany, ManyToOne } from 'typeorm'
 import { Model } from '../model'
 import type { Polygon, MultiPolygon } from 'geojson'
 import { Place } from '../place'
 
 @Entity()
 export class PlacePolygon extends Model<PlacePolygon> {
-  @OneToOne(() => Place, place => place.geometry, { primary: true, onDelete: 'CASCADE' })
-  @JoinColumn()
+  @ManyToOne(() => Place, place => place.geometry, { primary: true, onDelete: 'CASCADE' })
   place?: Place
   @PrimaryColumn()
   placeId: string
