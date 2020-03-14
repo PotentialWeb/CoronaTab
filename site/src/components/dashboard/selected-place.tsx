@@ -36,7 +36,7 @@ export class DashboardSelectedPlaceComponent extends Component<Props, State> {
   }
 
   componentDidUpdate (prevProps: Props) {
-    if (prevProps.place.id !== this.props.place.id) {
+    if (prevProps.place?.id !== this.props.place?.id) {
       this.setState({
         rawData: null,
         cumulativeSeriesData: null,

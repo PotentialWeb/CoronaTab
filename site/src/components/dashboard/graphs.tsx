@@ -10,7 +10,6 @@ export class DashboardCumulativeGraphComponent extends Component<{
       <ResponsiveContainer>
         <LineChart
           data={this.props.data}
-          margin={{ top: 5, right: 20, bottom: 5, left: 20 }}
         >
           <Line type="monotone" dataKey="cases" stroke="#8884d8" activeDot={{ r: 8 }} />
           <Line type="monotone" dataKey="deaths" stroke={tailwindConfig.theme.colors.fail} />
@@ -33,7 +32,6 @@ export class DashboardDailyChartComponent extends Component<{
       <ResponsiveContainer>
         <BarChart
           data={this.props.data}
-          margin={{ top: 5, right: 20, bottom: 5, left: 20 }}
         >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="date" />

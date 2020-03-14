@@ -34,6 +34,19 @@ export class DashboardPageStore {
   }
 
   @observable
+  private _selectedPlaceDetail: Place
+
+  @computed
+  get selectedPlaceDetail (): Place {
+    return this._selectedPlaceDetail ?? LocalStorage.get('selectedPlaceDetail')
+  }
+
+  set selectedPlaceDetail (place: Place) {
+    this._selectedPlaceDetail = place
+    LocalStorage.set('selectedPlaceDetail', place)
+  }
+
+  @observable
   advice: { [key: string]: { title: string, description: string } } = {}
 
   @observable

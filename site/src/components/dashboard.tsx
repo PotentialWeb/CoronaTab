@@ -56,12 +56,26 @@ export class DashboardComponent extends Component<Props> {
               Select a region
             </h2>
 
-            <div>
+            <div className="flex">
               <PlaceSelectComponent
                 initialValue={pageStore.selectedPlace}
                 options={pageStore.places}
-                onChange={place => { pageStore.selectedPlace = place }}
+                onChange={place => {
+                  pageStore.selectedPlace = place
+                  pageStore.selectedPlaceDetail = place
+                }}
               />
+              {
+                pageStore.selectedPlace.children.length
+                  ? (
+                    <PlaceSelectComponent
+                      initialValue={pageStore.selectedPlace.children[0]}
+                      options={pageStore.selectedPlace.children}
+                      onChange={place => { pageStore.selectedPlaceDetail = place }}
+                    />
+                  )
+                  : ''
+              }
             </div>
           </div>
 
@@ -69,7 +83,7 @@ export class DashboardComponent extends Component<Props> {
             pageStore.selectedPlace
               ? (
                 <DashboardSelectedPlaceComponent
-                  place={pageStore.selectedPlace}
+                  place={pageStore.selectedPlaceDetail}
                 />
               )
               : (
@@ -86,7 +100,7 @@ export class DashboardComponent extends Component<Props> {
 
           <div className="local-advice">
             <h2 className="font-bold">Local Advice</h2>
-            <span>In your region...</span>
+            <span>If you or a family member are feeling ill, </span>
           </div>
 
           <DashboardQuickLinksComponent />

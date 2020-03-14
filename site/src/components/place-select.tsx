@@ -20,6 +20,12 @@ export class PlaceSelectComponent extends Component<Props, State> {
     selectedPlace: this.props.initialValue
   }
 
+  componentDidUpdate (prevProps: Props) {
+    if (prevProps.initialValue?.id !== this.props.initialValue?.id) {
+      this.setState({ selectedPlace: this.props.initialValue })
+    }
+  }
+
   onChange = (selectedPlace: Place) => {
     this.setState({ selectedPlace })
     this.props.onChange?.(selectedPlace)
@@ -33,6 +39,7 @@ export class PlaceSelectComponent extends Component<Props, State> {
     return (
       <Downshift
         initialSelectedItem={this.state.selectedPlace}
+        selectedItem={this.state.selectedPlace}
         onChange={this.onChange}
         onInputValueChange={this.onInputValueChange}
         itemToString={place => place?.name ?? ''}

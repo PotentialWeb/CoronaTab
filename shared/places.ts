@@ -8,4 +8,5 @@ export interface Place {
     type: string
     coordinates: number[]
   }
+  children: Place[]
 }
