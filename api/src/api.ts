@@ -1,4 +1,5 @@
 
+process.on('uncaughtException', console.error)
 import express from 'express'
 import { connect } from '@coronatab/data'
 import { places } from './places'

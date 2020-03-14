@@ -1,10 +1,15 @@
 
-import { Router } from 'express'
+import { Router, Request as ExpressRequest } from 'express'
 import { Place, PlaceTypeIds, PlaceTypeId } from '@coronatab/data'
 import { LocaleId } from '@coronatab/shared'
 import { Request } from './utils/request'
 import { FindManyOptions } from 'typeorm'
+import { data } from './places/data'
 const places = Router()
+
+export interface PlaceRequest extends ExpressRequest {
+  place: Place
+}
 
 const SerializePlace = (place: Place, { locale }: { locale: LocaleId }) => {
   place.name = place.locales[locale]
@@ -68,30 +73,19 @@ places.get('/places/closest', async (req, res) => {
   }
   if (!lng || !lat) {
     const lookup = Request.getGeo(req)
-    lng = lookup.ll[0]
-    lat = lookup.ll[1]
+    lng = lookup.ll[1]
+    lat = lookup.ll[0]
   }
 
-  console.log({ lng, lat })
-
-  // const place = await Place.findClosest({ lng, lat })
-  const query = Place.createQueryBuilder('place')
-    .select([
-      'place',
-      `ST_DistanceSphere(ST_GeomFromText('POINT(:lat :lng)', 4326), location::geometry) as distance`
-    ])
-    .setParameters({ lng, lat })
-    .where('location IS NOT NULL')
-    .orderBy('distance', 'ASC')
-
-  console.log(query.getSql())
-  const place = await query.getOne()
+  const places = await Place.getClosest({ lng, lat, limit: 5 })
 
   if (includes?.length && places?.length) {
     for (const include of includes) {
       switch (include) {
         case 'children': {
-          place.children = await place.getChildren()
+          await Promise.all(places.map(async place => {
+            place.children = await place.getChildren()
+          }))
           break
         }
       }
@@ -99,17 +93,11 @@ places.get('/places/closest', async (req, res) => {
   }
 
   res.json({
-    data: SerializePlace(place, { locale: Request.getLocale(req) })
+    data: places.map(p => SerializePlace(p, { locale: Request.getLocale(req) }))
   })
 })
 
-places.get('/places/:id', async (req, res) => {
-  const { include: includes }: { include?: typeof AllowedIncludes[number][] } = req.query
-  if (includes?.length && (!Array.isArray(includes) || includes.some(i => !AllowedIncludes.includes(i)))) {
-    return res.status(400).json({
-      error: 'Invalid includes parameter.'
-    })
-  }
+places.use('/places/:id', async (req: PlaceRequest, res, next) => {
   const { id } = req.params
   const place = await Place.findOne({ id })
   if (!place) {
@@ -117,6 +105,20 @@ places.get('/places/:id', async (req, res) => {
       error: `Place not found.`
     })
   }
+  req.place = place
+  next()
+})
+
+places.get('/places/:id', async (req: PlaceRequest, res) => {
+  const { place } = req
+
+  const { include: includes }: { include?: typeof AllowedIncludes[number][] } = req.query
+  if (includes?.length && (!Array.isArray(includes) || includes.some(i => !AllowedIncludes.includes(i)))) {
+    return res.status(400).json({
+      error: 'Invalid includes parameter.'
+    })
+  }
+
   if (includes?.length && places?.length) {
     for (const include of includes) {
       switch (include) {
@@ -132,5 +134,7 @@ places.get('/places/:id', async (req, res) => {
     data: SerializePlace(place, { locale: Request.getLocale(req) })
   })
 })
+
+places.use('/places/:id/data', data)
 
 export { places }

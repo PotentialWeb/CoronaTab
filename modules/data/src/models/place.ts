@@ -7,6 +7,7 @@ import { PlaceTypeId } from '../seeds/places/types'
 import { DEFAULT_RADIUS_METERS } from '../../../../shared/constants'
 import { LocaleTranslations } from '../../../../shared/locales'
 import { PlaceData } from './place/data'
+import { connection } from '..'
 
 export interface ParentPlaceRef {
   id: string
@@ -104,18 +105,19 @@ export class Place extends Model<Place> {
 
   getChildren ? = () => Place.getChildren(this.id)
 
-  static async findClosest ({ lng, lat }: { lng: number, lat: number }) {
+  static async getClosest ({ lng, lat, limit }: { lng: number, lat: number, limit?: number }) {
     const query = Place.createQueryBuilder('place')
     .select([
       'place',
-      `ST_DistanceSphere(ST_GeomFromText('POINT(:lat :lng)', 4326), location::geometry) as distance`
+      `ST_DistanceSphere(ST_GeomFromText(:point, 4326), location::geometry) as distance`
     ])
-    .setParameters({ lng, lat })
+    .setParameters({ point: `POINT(${lng} ${lat})` })
     .where('location IS NOT NULL')
     .orderBy('distance', 'ASC')
 
-    const place = await query.getOne()
-    return place
+    if (limit) query.limit(limit)
+    const places = await query.getMany()
+    return places
   }
 
 }
