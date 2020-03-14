@@ -30,7 +30,7 @@ export class Place extends Model<Place> {
   @Column()
   typeId: PlaceTypeId
 
-  @Column()
+  @Column({ nullable: true })
   code?: string
 
   @Column('geography', {
