@@ -1,15 +1,19 @@
 .dashboard {
   @apply h-screen flex min-h-0;
-  padding: 5vw 5vw;
+  @apply -mx-1;
+  padding: 2.5vw 2.5vw;
   &-col {
     @apply flex flex-col w-1/2;
-    @apply px-3 -my-2;
+    @apply px-1 -my-1;
   }
   &-panel-container {
-    @apply py-2;
+    @apply py-1;
   }
   &-panel {
-    @apply rounded-lg shadow-lg bg-white p-6 h-full;
+    @apply rounded-lg shadow-lg bg-white h-full;
+    &:not(.p-0) {
+      @apply p-6;
+    }
   }
   &-nav {
     @apply flex items-center;
@@ -17,9 +21,8 @@
   &-nav, &-global-stats-panel, &-download-browser-extension {
     @apply flex-shrink-0 flex-grow-0;
   }
-  &-selected-place-panel {
-    @apply overflow-y-scroll;
-    @apply flex-1 min-h-0;
+  &-place-panel {
+    @apply flex flex-col flex-1 min-h-0 min-w-0;
   }
   &-general-advice-panel {
     @apply flex-1 min-h-0;
@@ -28,9 +31,21 @@
 
 @screen xl {
   .dashboard {
-    @apply -mx-6;
+    @apply -mx-2;
     &-col {
-      @apply px-6 -my-3;
+      @apply px-2 -my-2;
+    }
+    &-panel-container {
+      @apply py-2;
+    }
+  }
+}
+
+@screen 2xl {
+  .dashboard {
+    @apply -mx-3;
+    &-col {
+      @apply px-3 -my-3;
     }
     &-panel-container {
       @apply py-3;
@@ -38,32 +53,20 @@
   }
 }
 
-@screen 2xl {
-  .dashboard {
-    @apply -mx-8;
-    &-col {
-      @apply px-8 -my-4;
-    }
-    &-panel-container {
-      @apply py-4;
-    }
-  }
-}
-
 @screen 3xl {
   .dashboard {
-    @apply -mx-10;
+    @apply -mx-4;
     &-col {
-      @apply px-10;
+      @apply px-4;
     }
   }
 }
 
 @screen 4xl {
   .dashboard {
-    @apply -mx-12;
+    @apply -mx-6;
     &-col {
-      @apply px-12;
+      @apply px-6;
     }
   }
 }

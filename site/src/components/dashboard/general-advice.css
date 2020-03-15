@@ -1,0 +1,28 @@
+.general-advice {
+  @apply flex flex-col h-full min-h-0;
+  &-swiper-container {
+    @apply flex-1;
+    .swiper-container {
+      @apply h-full;
+      .swiper-slide {
+        @apply flex flex-col justify-center;
+      }
+      .swiper-pagination {
+        /* bottom: theme('spacing.6'); */
+        &-bullet {
+          @apply bg-brand opacity-25;
+          @apply h-3 w-3;
+          &-active {
+            @apply opacity-100;
+          }
+        }
+      }
+      .swiper-button-next, .swiper-button-prev {
+        @apply opacity-25;
+        &:hover {
+          @apply opacity-100;
+        }
+      }
+    }
+  }
+}

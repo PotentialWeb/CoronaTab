@@ -21,14 +21,14 @@ export class DashboardPageStore {
   places: Place[] = []
 
   @observable
-  private _selectedPlace: Place
+  private _selectedPlace: Place[]
 
   @computed
-  get selectedPlace (): Place {
+  get selectedPlace (): Place[] {
     return this._selectedPlace ?? LocalStorage.get('selectedPlace')
   }
 
-  set selectedPlace (place: Place) {
+  set selectedPlace (place: Place[]) {
     this._selectedPlace = place
     LocalStorage.set('selectedPlace', place)
   }

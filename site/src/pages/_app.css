@@ -1,5 +1,24 @@
 html {
-  @apply font-main text-black;
+  @apply font-main text-brand;
+  font-size: 14px;
+}
+
+@screen xl {
+  html {
+    font-size: 15px;
+  }
+}
+
+@screen 3xl {
+  html {
+    font-size: 16px;
+  }
+}
+
+@screen 4xl {
+  html {
+    font-size: 17px;
+  }
 }
 
 body {

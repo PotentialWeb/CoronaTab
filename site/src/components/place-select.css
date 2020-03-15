@@ -1,0 +1,43 @@
+.place-select {
+  &-list {
+    @apply overflow-y-scroll rounded;
+    @apply rounded-sm;
+    width: 200px;
+    max-height: 250px;
+    &-tooltip {
+      @apply bg-transparent rounded-sm;
+      .tippy-content {
+        @apply p-0 !important;
+      }
+    }
+    &-item {
+      @apply bg-lighter px-2 py-1 cursor-pointer;
+      &:first-of-type {
+        @apply pt-2;
+      }
+      &:last-of-type {
+        @apply pb-2;
+      }
+      &[data-highlighted="true"], &:hover {
+        @apply bg-white;
+      }
+      &[data-selected="true"] {
+        @apply bg-white;
+      }
+    }
+  }
+  &-input-area {
+    @apply relative;
+    > input {
+      @apply py-2 pl-3 pr-4;
+    }
+    .caret {
+      @apply absolute right-0 pr-2;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    &[aria-expanded="false"] > input {
+      @apply cursor-pointer;
+    }
+  }
+}

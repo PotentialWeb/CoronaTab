@@ -37,20 +37,6 @@ export class DashboardComponent extends Component<Props> {
           </div>
 
           {
-            window?.self === window?.top
-              ? (
-                <div className="dashboard-panel-container">
-                  <div className="dashboard-download-browser-extension">
-                    <a href={Meta.EXTENSION_URL} target="_blank">
-                      Download browser extension
-                    </a>
-                  </div>
-                </div>
-              )
-              : ''
-          }
-
-          {
             pageStore.rawGlobalData.length
               ? (
                 <div className="dashboard-panel-container">
@@ -66,27 +52,28 @@ export class DashboardComponent extends Component<Props> {
           }
 
           <div className="dashboard-panel-container flex-1 min-h-0">
-            <div className="dashboard-panel dashboard-selected-place-panel">
-              <h2 className="font-bold">
-                Select a region
-              </h2>
-
-              <div className="flex">
+            <div className="dashboard-panel dashboard-place-panel">
+              <div className="flex flex-shrink-0 flex-grow-0">
                 <PlaceSelectComponent
-                  initialValue={pageStore.selectedPlace}
+                  initialValue={pageStore.selectedPlace.length ? pageStore.selectedPlace[0] : null}
                   options={pageStore.places}
                   onChange={place => {
-                    pageStore.selectedPlace = place
-                    pageStore.selectedPlaceDetail = place
+                    pageStore.selectedPlace = place ? [place] : []
+                    pageStore.selectedPlaceDetail = place ? place : null
                   }}
                 />
                 {
-                  pageStore.selectedPlace.children.length
+                  pageStore.selectedPlace?.[0]?.children.length
                     ? (
                       <PlaceSelectComponent
-                        initialValue={pageStore.selectedPlace.children[0]}
-                        options={pageStore.selectedPlace.children}
-                        onChange={place => { pageStore.selectedPlaceDetail = place }}
+                        initialValue={pageStore.selectedPlace.length === 2 ? pageStore.selectedPlace[1] : null}
+                        options={pageStore.selectedPlace[0].children}
+                        onChange={place => {
+                          pageStore.selectedPlace = place? [pageStore.selectedPlace[0], place] : [pageStore.selectedPlace[0]]
+                          pageStore.selectedPlaceDetail = place ? place : pageStore.selectedPlace[0]
+                        }}
+                        inputPlaceholder="Select a region"
+                        className="ml-2"
                       />
                     )
                     : ''
@@ -94,17 +81,13 @@ export class DashboardComponent extends Component<Props> {
               </div>
 
               {
-                pageStore.selectedPlace
+                pageStore.selectedPlaceDetail
                   ? (
                     <DashboardSelectedPlaceComponent
                       place={pageStore.selectedPlaceDetail}
                     />
                   )
-                  : (
-                    <div className="flex items-center justify-center h-24">
-                      Select a region to see data
-                    </div>
-                  )
+                  : ''
               }
             </div>
           </div>
@@ -113,14 +96,14 @@ export class DashboardComponent extends Component<Props> {
         <div className="dashboard-col">
 
           <div className="dashboard-panel-container">
-            <div className="dashboard-panel">
-              <DashboardQuickLinksComponent />
+            <div className="dashboard-panel p-0">
+              <DashboardGeneralAdviceComponent />
             </div>
           </div>
 
           <div className="dashboard-panel-container flex-1 min-h-0">
             <div className="dashboard-panel">
-              <DashboardGeneralAdviceComponent />
+              <DashboardQuickLinksComponent />
             </div>
           </div>
 
@@ -129,6 +112,20 @@ export class DashboardComponent extends Component<Props> {
             <h2 className="font-bold">Local Advice</h2>
             <span>Regionalised information for how to take action if you or a loved one are ill.</span>
           </div>*/}
+
+          {
+            window?.self === window?.top
+              ? (
+                <div className="dashboard-panel-container">
+                  <div className="dashboard-download-browser-extension">
+                    <a href={Meta.EXTENSION_URL} target="_blank">
+                      Download browser extension
+                    </a>
+                  </div>
+                </div>
+              )
+              : ''
+          }
 
           <div className="dashboard-panel-container">
             <div className="dashboard-panel">

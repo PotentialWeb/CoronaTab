@@ -1,11 +1,16 @@
-import { Component } from 'react'
+import { Component, createRef, RefObject } from 'react'
 import Downshift from 'downshift'
 import { Place } from '../../../shared/places'
+import Tippy from '@tippy.js/react'
+import CaretUpSvg from '../../public/icons/caret-up.svg'
+import CaretDownSvg from '../../public/icons/caret-down.svg'
+import CloseSvg from '../../public/icons/close.svg'
 
 interface Props extends Omit<React.HTMLAttributes<HTMLDivElement>, 'onChange'> {
   options: Place[]
   initialValue?: Place
   inputClassName?: string
+  inputPlaceholder?: string
   listClassName?: string
   listItemClassName?: string
   onChange?: (selectedPlace: Place) => any
@@ -20,6 +25,8 @@ export class PlaceSelectComponent extends Component<Props, State> {
     selectedPlace: this.props.initialValue
   }
 
+  inputRef: RefObject<HTMLInputElement> = createRef()
+
   componentDidUpdate (prevProps: Props) {
     if (prevProps.initialValue?.id !== this.props.initialValue?.id) {
       this.setState({ selectedPlace: this.props.initialValue })
@@ -31,17 +38,33 @@ export class PlaceSelectComponent extends Component<Props, State> {
     this.props.onChange?.(selectedPlace)
   }
 
-  onInputValueChange = (value: string, { selectedItem, clearSelection, highlightedIndex, setHighlightedIndex }) => {
-    if (!selectedItem && !highlightedIndex) setHighlightedIndex(0)
+  onStateChange = (changes: any, { setHighlightedIndex }) => {
+    switch (changes.type) {
+      case (Downshift.stateChangeTypes.changeInput):
+        setHighlightedIndex(0)
+        break
+    }
   }
 
   render () {
+    const {
+      options,
+      initialValue,
+      className,
+      inputClassName,
+      inputPlaceholder,
+      listClassName,
+      listItemClassName,
+      onChange,
+      ...props
+    } = this.props
+
     return (
       <Downshift
         initialSelectedItem={this.state.selectedPlace}
         selectedItem={this.state.selectedPlace}
         onChange={this.onChange}
-        onInputValueChange={this.onInputValueChange}
+        onStateChange={this.onStateChange}
         itemToString={place => place?.name ?? ''}
       >
         {({
@@ -55,49 +78,86 @@ export class PlaceSelectComponent extends Component<Props, State> {
           getRootProps,
           setState
         }) => (
-          <div className={`place-select ${this.props.className ?? ''}`}>
-            <div
-              {...getRootProps({} as any, { suppressRefError: true })}
+          <div className={`place-select ${className ?? ''}`} {...props}>
+            <Tippy
+              visible={isOpen}
+              animation="shift-away"
+              theme="light"
+              className="place-select-list-tooltip"
+              allowHTML={true}
+              content={(
+                <ul
+                  {...getMenuProps({}, { suppressRefError: true })}
+                  className={`place-select-list ${listClassName ?? ''}`}
+                >
+                  {
+                    isOpen
+                      ? options
+                        .filter(({ name }) => name.toLowerCase().includes(inputValue?.toLowerCase()))
+                        .map((place, index) => {
+                          return (
+                            <li
+                              key={index}
+                              {...getItemProps({
+                                index,
+                                item: place
+                              })}
+                              data-highlighted={highlightedIndex === index}
+                              className={`place-select-list-item ${listItemClassName ?? ''}`}
+                            >
+                              <span className="font-bold">{place.name}</span>{' '}
+                            </li>
+                          )
+                        })
+                      : ''
+                  }
+                </ul>
+              )}
+              arrow={true}
+              placement="bottom-start"
+              duration={100}
+              maxWidth="none"
+              trigger="manual"
+              onHidden={() => setState({ isOpen: false })}
+              interactive
             >
-              <input
-                {...getInputProps()}
-                onClick={() => {
-                  if (!isOpen) toggleMenu()
-                  setState({ inputValue: '' })
-                }}
-                placeholder="Search for a place..."
-                className={`form-input ${this.props.inputClassName ?? ''}`}
-              />
-              <button onClick={() => toggleMenu()}>
-                {isOpen ? '^' : 'v'}
-              </button>
-            </div>
-            <ul
-              {...getMenuProps()}
-              className={`place-select-list ${this.props.listClassName ?? ''}`}
-            >
-              {
-                isOpen
-                  ? this.props.options
-                    .filter(({ name }) => name.toLowerCase().includes(inputValue?.toLowerCase()))
-                    .map((place, index) => {
-                      return (
-                        <li
-                          key={index}
-                          {...getItemProps({
-                            index,
-                            item: place
-                          })}
-                          data-highlighted={highlightedIndex === index}
-                          className={`place-select-list-item ${this.props.listItemClassName ?? ''}`}
-                        >
-                          <span className="font-bold">{place.name}</span>{' '}
-                        </li>
-                      )
-                    })
-                  : ''
-              }
-            </ul>
+              <div
+                {...getRootProps({} as any, { suppressRefError: true })}
+                className="place-select-input-area"
+              >
+                <input
+                  {...getInputProps()}
+                  onClick={() => {
+                    if (!isOpen) toggleMenu()
+                    setState({ inputValue: '' })
+                  }}
+                  ref={this.inputRef}
+                  placeholder={inputPlaceholder ?? 'Select a place...'}
+                  className={`form-input ${inputClassName ?? ''}`}
+                />
+                <button
+                  className="btn caret"
+                  onClick={() => {
+                    if (this.state.selectedPlace) {
+                      setState({ selectedItem: null })
+                    } else {
+                      toggleMenu()
+                      setState({ inputValue: '' })
+                      this.inputRef.current.focus()
+                    }
+                  }}
+                >
+                  {(() => {
+                    if (this.state.selectedPlace) {
+                      return <CloseSvg className="h-line-sm" />
+                    }
+                    return isOpen
+                      ? (<CaretUpSvg className="h-line-sm" />)
+                      : (<CaretDownSvg className="h-line-sm" />)
+                  })()}
+                </button>
+              </div>
+            </Tippy>
           </div>
         )}
       </Downshift>
