@@ -17,7 +17,7 @@ injectEnvs()
   api.use(cors())
 
   api.get('/', (req, res) => {
-    res.send('Hello World')
+    res.send('Hello World!')
   })
 
   api.get('/ping', (req, res) => {
