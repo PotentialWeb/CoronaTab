@@ -98,33 +98,29 @@ export class DashboardSelectedPlaceComponent extends Component<Props, State> {
               case LoadingStatus.HAS_LOADED:
                 return (
                   <>
-                    <DashboardStatsComponent
-                      rawData={this.state.rawData}
-                    />
+                    <div className="dashboard-selected-place-stats">
+                      <DashboardStatsComponent
+                        rawData={this.state.rawData}
+                      />
+                    </div>
 
-                    <Tabs>
+                    <Tabs
+                      className="dashboard-selected-place-tabs"
+                      selectedTabPanelClassName="dashboard-selected-place-tabs-tab-panel-selected"
+                    >
                       <TabList>
                         <Tab>Cumulative</Tab>
                         <Tab>Daily</Tab>
                       </TabList>
-                      <TabPanel>
-                        <div className="w-full" style={{ height: '300px', maxHeight: '300px'}}>
-                          <DashboardCumulativeGraphComponent data={this.state.cumulativeSeriesData} />
-                        </div>
+                      <TabPanel
+                        className="dashboard-selected-place-tabs-tab-panel"
+                      >
+                        <DashboardCumulativeGraphComponent data={this.state.cumulativeSeriesData} />
                       </TabPanel>
-                      <TabPanel>
-                        <div className="w-full" style={{ height: '300px', maxHeight: '300px'}}>
-                          <DashboardDailyChartComponent data={this.state.dailySeriesData} />
-                        </div>
+                      <TabPanel className="dashboard-selected-place-tabs-tab-panel">
+                        <DashboardDailyChartComponent data={this.state.dailySeriesData} />
                       </TabPanel>
                     </Tabs>
-
-                    {/*<div className="region-comparison-select">
-                      Compare your region with...
-                        <select>
-                          <option>There</option>
-                        </select>
-                    </div>*/}
                   </>
                 )
               case LoadingStatus.HAS_ERRORED:

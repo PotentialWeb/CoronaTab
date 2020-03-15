@@ -2,6 +2,17 @@ import { Component } from 'react'
 import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, ResponsiveContainer, BarChart, Legend, Bar } from 'recharts'
 import tailwindConfig from '../../utils/tailwind'
 
+const {
+  theme: {
+    colors: {
+      red,
+      green,
+      brand,
+      'brand-dull': brandDull
+    }
+  }
+} = tailwindConfig
+
 export class DashboardCumulativeGraphComponent extends Component<{
   data: any
 }> {
@@ -11,12 +22,12 @@ export class DashboardCumulativeGraphComponent extends Component<{
         <LineChart
           data={this.props.data}
         >
-          <Line type="monotone" dataKey="cases" stroke="#8884d8" activeDot={{ r: 8 }} />
-          <Line type="monotone" dataKey="deaths" stroke={tailwindConfig.theme.colors.fail} />
-          <Line type="monotone" dataKey="recovered" stroke="#82ca9d" />
-          <CartesianGrid stroke="#ccc" strokeDasharray="5 5" />
-          <XAxis dataKey="date" />
-          <YAxis />
+          <Line type="monotone" dataKey="cases" stroke={brand} activeDot={{ r: 8 }} strokeWidth="2" />
+          <Line type="monotone" dataKey="deaths" stroke={red} strokeWidth="2" />
+          <Line type="monotone" dataKey="recovered" stroke={green} strokeWidth="2" />
+          <CartesianGrid stroke={brandDull} strokeDasharray="5 5" />
+          <XAxis dataKey="date" stroke={brand} />
+          <YAxis stroke={brand} />
           <Tooltip />
           <Legend />
         </LineChart>
@@ -34,14 +45,14 @@ export class DashboardDailyChartComponent extends Component<{
         <BarChart
           data={this.props.data}
         >
-          <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="date" />
-          <YAxis domain={[0, 'dataMax']} />
+          <CartesianGrid strokeDasharray="3 3" stroke={brandDull} />
+          <XAxis dataKey="date" stroke={brand} />
+          <YAxis domain={[0, 'dataMax']} stroke={brand} />
           <Tooltip />
           <Legend />
-          <Bar dataKey="cases" fill="#8884d8" />
-          <Bar dataKey="deaths" fill={tailwindConfig.theme.colors.fail} />
-          <Bar dataKey="recovered" fill="#82ca9d" />
+          <Bar dataKey="cases" fill={brand} strokeWidth="2" />
+          <Bar dataKey="deaths" fill={red} />
+          <Bar dataKey="recovered" fill={green} />
         </BarChart>
       </ResponsiveContainer>
     )

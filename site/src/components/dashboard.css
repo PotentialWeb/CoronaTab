@@ -17,9 +17,8 @@
   &-nav, &-global-stats-panel, &-download-browser-extension {
     @apply flex-shrink-0 flex-grow-0;
   }
-  &-selected-place-panel {
-    @apply overflow-y-scroll;
-    @apply flex-1 min-h-0;
+  &-place-panel {
+    @apply flex flex-col flex-1 min-h-0 min-w-0;
   }
   &-general-advice-panel {
     @apply flex-1 min-h-0;

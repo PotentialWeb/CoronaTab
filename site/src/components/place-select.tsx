@@ -1,14 +1,16 @@
-import { Component } from 'react'
+import { Component, createRef, RefObject } from 'react'
 import Downshift from 'downshift'
 import { Place } from '../../../shared/places'
 import Tippy from '@tippy.js/react'
 import CaretUpSvg from '../../public/icons/caret-up.svg'
 import CaretDownSvg from '../../public/icons/caret-down.svg'
+import CloseSvg from '../../public/icons/close.svg'
 
 interface Props extends Omit<React.HTMLAttributes<HTMLDivElement>, 'onChange'> {
   options: Place[]
   initialValue?: Place
   inputClassName?: string
+  inputPlaceholder?: string
   listClassName?: string
   listItemClassName?: string
   onChange?: (selectedPlace: Place) => any
@@ -23,6 +25,8 @@ export class PlaceSelectComponent extends Component<Props, State> {
     selectedPlace: this.props.initialValue
   }
 
+  inputRef: RefObject<HTMLInputElement> = createRef()
+
   componentDidUpdate (prevProps: Props) {
     if (prevProps.initialValue?.id !== this.props.initialValue?.id) {
       this.setState({ selectedPlace: this.props.initialValue })
@@ -34,9 +38,12 @@ export class PlaceSelectComponent extends Component<Props, State> {
     this.props.onChange?.(selectedPlace)
   }
 
-  onInputValueChange = (value: string, { highlightedIndex, setHighlightedIndex }) => {
-    console.log(value, highlightedIndex)
-    setHighlightedIndex(0)
+  onStateChange = (changes: any, { setHighlightedIndex }) => {
+    switch (changes.type) {
+      case (Downshift.stateChangeTypes.changeInput):
+        setHighlightedIndex(0)
+        break
+    }
   }
 
   render () {
@@ -45,6 +52,7 @@ export class PlaceSelectComponent extends Component<Props, State> {
       initialValue,
       className,
       inputClassName,
+      inputPlaceholder,
       listClassName,
       listItemClassName,
       onChange,
@@ -56,7 +64,7 @@ export class PlaceSelectComponent extends Component<Props, State> {
         initialSelectedItem={this.state.selectedPlace}
         selectedItem={this.state.selectedPlace}
         onChange={this.onChange}
-        onInputValueChange={this.onInputValueChange}
+        onStateChange={this.onStateChange}
         itemToString={place => place?.name ?? ''}
       >
         {({
@@ -123,14 +131,30 @@ export class PlaceSelectComponent extends Component<Props, State> {
                     if (!isOpen) toggleMenu()
                     setState({ inputValue: '' })
                   }}
-                  placeholder="Search for a place..."
+                  ref={this.inputRef}
+                  placeholder={inputPlaceholder ?? 'Select a place...'}
                   className={`form-input ${inputClassName ?? ''}`}
                 />
-                <button className="btn caret" onClick={() => toggleMenu()}>
-                  {isOpen
-                    ? <CaretUpSvg className="h-line-sm" />
-                    : <CaretDownSvg className="h-line-sm" />
-                  }
+                <button
+                  className="btn caret"
+                  onClick={() => {
+                    if (this.state.selectedPlace) {
+                      setState({ selectedItem: null })
+                    } else {
+                      toggleMenu()
+                      setState({ inputValue: '' })
+                      this.inputRef.current.focus()
+                    }
+                  }}
+                >
+                  {(() => {
+                    if (this.state.selectedPlace) {
+                      return <CloseSvg className="h-line-sm" />
+                    }
+                    return isOpen
+                      ? (<CaretUpSvg className="h-line-sm" />)
+                      : (<CaretDownSvg className="h-line-sm" />)
+                  })()}
                 </button>
               </div>
             </Tippy>

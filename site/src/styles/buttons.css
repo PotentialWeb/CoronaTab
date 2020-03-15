@@ -1,0 +1,19 @@
+/* Base btn classes. Apply as a class to each button. */
+
+.btn--disabled {
+  @apply bg-light text-brand-dull cursor-default;
+}
+
+.btn--focus {
+  @apply outline-none;
+}
+
+.btn {
+  @apply font-bold;
+  &:disabled:not(.reset-btn--disabled) {
+    @apply btn--disabled !important;
+  }
+  &:focus:not(.reset-btn--focus) {
+    @apply btn--focus !important;
+  }
+}
