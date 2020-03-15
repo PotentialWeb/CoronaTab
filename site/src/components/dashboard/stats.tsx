@@ -1,6 +1,8 @@
 import { Component, HTMLAttributes } from 'react'
 import Tippy from '@tippy.js/react'
 import numeral from 'numeral'
+import CaretUpSvg from '../../../public/icons/caret-up.svg'
+import CaretDownSvg from '../../../public/icons/caret-down.svg'
 
 interface Props extends HTMLAttributes<HTMLDivElement> {
   title?: string
@@ -68,7 +70,7 @@ export class DashboardStatsComponent extends Component<Props> {
                 content={`Total Cases: ${numeral(cases).format('0,0')}`}
                 {...tippyProps}
               >
-                <span data-metric="total">{numeral(cases).format('0.0a')}</span>
+                <span data-metric="total">{numeral(cases).format(cases > 1000 ? '0.0a' : '0,0')}</span>
               </Tippy>
               <aside>
                 {
@@ -77,7 +79,18 @@ export class DashboardStatsComponent extends Component<Props> {
                       content={`${penultimateSnapshot[0]}: ${numeral(diffs.cases[0]).format('0,0')} | Now: ${numeral(cases).format('0,0')}`}
                       {...tippyProps}
                     >
-                      <span data-metric="24hr">{numeral(diffs.cases[1]).format('+0.0%')}</span>
+                      <span data-metric="24hr" className="flex items-center">
+                        {(() => {
+                          if (diffs.cases[1] === 0) return 'No change'
+                          const metric = (<span style={{ marginLeft: '0.2em'}}>
+                            {numeral(diffs.cases[1]).format('0.00%')}
+                          </span>)
+                          const svg = diffs.cases[1] > 0
+                            ? <CaretUpSvg className="h-line text-red inline-block" />
+                            : <CaretDownSvg className="h-line inline-block" />
+                          return (<>{svg}{metric}</>)
+                        })()}
+                      </span>
                     </Tippy>
                   ) : ''
                 }
@@ -91,7 +104,7 @@ export class DashboardStatsComponent extends Component<Props> {
                 content={`Total Deaths: ${numeral(deaths).format('0,0')}`}
                 {...tippyProps}
               >
-                <span data-metric="total">{numeral(deaths).format('0.0a')}</span>
+                <span data-metric="total">{numeral(deaths).format(deaths > 1000 ? '0.0a' : '0,0')}</span>
               </Tippy>
               <aside>
                 <Tippy
@@ -106,7 +119,18 @@ export class DashboardStatsComponent extends Component<Props> {
                       content={`${penultimateSnapshot[0]}: ${numeral(diffs.deaths[0]).format('0,0')} | Now: ${numeral(deaths).format('0,0')}`}
                       {...tippyProps}
                     >
-                      <span data-metric="24hr">{numeral(diffs.deaths[1]).format('+0.0%')}</span>
+                    <span data-metric="24hr" className="flex items-center">
+                      {(() => {
+                        if (diffs.recovered[1] === 0) return 'No change'
+                        const metric = (<span style={{ marginLeft: '0.2em'}}>
+                          {numeral(diffs.deaths[1]).format('0.00%')}
+                        </span>)
+                        const svg = diffs.deaths[1] > 0
+                          ? <CaretUpSvg className="h-line text-red inline-block" />
+                          : <CaretDownSvg className="h-line inline-block" />
+                        return (<>{svg}{metric}</>)
+                      })()}
+                    </span>
                     </Tippy>
                   ) : ''
                 }
@@ -120,7 +144,7 @@ export class DashboardStatsComponent extends Component<Props> {
                 content={`Total Recovered: ${numeral(recovered).format('0,0')}`}
                 {...tippyProps}
               >
-                <span data-metric="total">{numeral(recovered).format('0.0a')}</span>
+                <span data-metric="total">{numeral(recovered).format(recovered > 1000 ? '0.0a' : '0,0')}</span>
               </Tippy>
               <aside>
                 <Tippy
@@ -135,7 +159,18 @@ export class DashboardStatsComponent extends Component<Props> {
                       content={`${penultimateSnapshot[0]}: ${numeral(diffs.recovered[0]).format('0,0')} | Now: ${numeral(recovered).format('0,0')}`}
                       {...tippyProps}
                     >
-                      <span data-metric="24hr">{numeral(diffs.recovered[1]).format('+0.0%')}</span>
+                      <span data-metric="24hr" className="flex items-center">
+                        {(() => {
+                          if (diffs.recovered[1] === 0) return 'No change'
+                          const metric = (<span style={{ marginLeft: '0.2em'}}>
+                            {numeral(diffs.recovered[1]).format('0.00%')}
+                          </span>)
+                          const svg = diffs.recovered[1] > 0
+                            ? <CaretUpSvg className="h-line text-green inline-block" />
+                            : <CaretDownSvg className="h-line inline-block" />
+                          return (<>{svg}{metric}</>)
+                        })()}
+                      </span>
                     </Tippy>
                   ) : ''
                 }

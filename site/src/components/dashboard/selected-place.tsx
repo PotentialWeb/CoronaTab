@@ -96,33 +96,39 @@ export class DashboardSelectedPlaceComponent extends Component<Props, State> {
           (() => {
             switch (this.state.loadingStatus) {
               case LoadingStatus.HAS_LOADED:
-                return (
-                  <>
-                    <div className="dashboard-selected-place-stats">
-                      <DashboardStatsComponent
-                        rawData={this.state.rawData}
-                      />
-                    </div>
+                return this.state.rawData.length > 0
+                  ? (
+                    <>
+                      <div className="dashboard-selected-place-stats">
+                        <DashboardStatsComponent
+                          rawData={this.state.rawData}
+                        />
+                      </div>
 
-                    <Tabs
-                      className="dashboard-selected-place-tabs"
-                      selectedTabPanelClassName="dashboard-selected-place-tabs-tab-panel-selected"
-                    >
-                      <TabList>
-                        <Tab>Cumulative</Tab>
-                        <Tab>Daily</Tab>
-                      </TabList>
-                      <TabPanel
-                        className="dashboard-selected-place-tabs-tab-panel"
+                      <Tabs
+                        className="dashboard-selected-place-tabs"
+                        selectedTabPanelClassName="dashboard-selected-place-tabs-tab-panel-selected"
                       >
-                        <DashboardCumulativeGraphComponent data={this.state.cumulativeSeriesData} />
-                      </TabPanel>
-                      <TabPanel className="dashboard-selected-place-tabs-tab-panel">
-                        <DashboardDailyChartComponent data={this.state.dailySeriesData} />
-                      </TabPanel>
-                    </Tabs>
-                  </>
-                )
+                        <TabList>
+                          <Tab>Cumulative</Tab>
+                          <Tab>Daily</Tab>
+                        </TabList>
+                        <TabPanel
+                          className="dashboard-selected-place-tabs-tab-panel"
+                        >
+                          <DashboardCumulativeGraphComponent data={this.state.cumulativeSeriesData} />
+                        </TabPanel>
+                        <TabPanel className="dashboard-selected-place-tabs-tab-panel">
+                          <DashboardDailyChartComponent data={this.state.dailySeriesData} />
+                        </TabPanel>
+                      </Tabs>
+                    </>
+                  )
+                  : (
+                    <div className="my-2 flex items-center">
+                      No data for this place
+                    </div>
+                  )
               case LoadingStatus.HAS_ERRORED:
                 return (
                   <div>
@@ -133,8 +139,8 @@ export class DashboardSelectedPlaceComponent extends Component<Props, State> {
                 )
               case LoadingStatus.IS_LOADING:
                 return (
-                  <div>
-                    <LoadingComponent className="h-10" />
+                  <div className="my-2">
+                    <LoadingComponent className="h-8 ml-2" />
                   </div>
                 )
             }

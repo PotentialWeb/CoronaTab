@@ -37,20 +37,6 @@ export class DashboardComponent extends Component<Props> {
           </div>
 
           {
-            window?.self === window?.top
-              ? (
-                <div className="dashboard-panel-container">
-                  <div className="dashboard-download-browser-extension">
-                    <a href={Meta.EXTENSION_URL} target="_blank">
-                      Download browser extension
-                    </a>
-                  </div>
-                </div>
-              )
-              : ''
-          }
-
-          {
             pageStore.rawGlobalData.length
               ? (
                 <div className="dashboard-panel-container">
@@ -126,6 +112,20 @@ export class DashboardComponent extends Component<Props> {
             <h2 className="font-bold">Local Advice</h2>
             <span>Regionalised information for how to take action if you or a loved one are ill.</span>
           </div>*/}
+
+          {
+            window?.self === window?.top
+              ? (
+                <div className="dashboard-panel-container">
+                  <div className="dashboard-download-browser-extension">
+                    <a href={Meta.EXTENSION_URL} target="_blank">
+                      Download browser extension
+                    </a>
+                  </div>
+                </div>
+              )
+              : ''
+          }
 
           <div className="dashboard-panel-container">
             <div className="dashboard-panel">
