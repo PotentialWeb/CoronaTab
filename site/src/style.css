@@ -17,6 +17,7 @@
 @import "./pages/_app.css";
 
 @import "./components/dashboard.css";
+@import "./components/dashboard/general-advice.css";
 @import "./components/dashboard/selected-place.css";
 @import "./components/dashboard/stats.css";
 @import "./components/place-select.css";

@@ -10,7 +10,10 @@
     @apply py-1;
   }
   &-panel {
-    @apply rounded-lg shadow-lg bg-white p-6 h-full;
+    @apply rounded-lg shadow-lg bg-white h-full;
+    &:not(.p-0) {
+      @apply p-6;
+    }
   }
   &-nav {
     @apply flex items-center;

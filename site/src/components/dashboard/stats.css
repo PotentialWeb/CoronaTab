@@ -13,25 +13,10 @@
         }
       }
       [data-metric="total"] {
-        @apply leading-none text-2xl font-bold mr-1;
+        @apply leading-none text-3xl font-bold mr-1;
       }
       [data-metric="24hr"], [data-metric="rate"] {
-        @apply text-xs leading-none;
-      }
-    }
-  }
-}
-
-@screen 2xl {
-  .dashboard-stats {
-    > ul {
-      > li {
-        [data-metric="total"] {
-          @apply text-3xl;
-        }
-        [data-metric="24hr"], [data-metric="rate"] {
-          @apply text-sm;
-        }
+        @apply text-sm leading-none;
       }
     }
   }

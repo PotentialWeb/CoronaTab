@@ -55,13 +55,30 @@ export class DashboardGeneralAdviceComponent extends Component<Props, State> {
         el: '.swiper-pagination',
         clickable: true,
         dynamicBullets: true
+      },
+      autoplay: {
+        delay: 5000
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev'
       }
     }
 
     return (
       <div className="general-advice">
-        <h2 className="font-bold">General Advice</h2>
-        <div>
+        <div className="flex px-6 pt-6 items-center max-w-0">
+          <div className="flex-1">
+            <h2 className="font-bold">General Advice</h2>
+          </div>
+          <div className="text-sm">
+            More info:{' '}
+            <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public" target="_blank" className="font-bold underline">
+              WHO advice for the public
+            </a>
+          </div>
+        </div>
+        <div className="general-advice-swiper-container">
           <SwiperComponent
             getSwiper={this.onSwiperInit}
             {...swiperParams}
@@ -73,9 +90,15 @@ export class DashboardGeneralAdviceComponent extends Component<Props, State> {
                   if (!title || !description) return
                   return (
                     <div key={key}>
-                      <span>Image</span>
-                      <h3>{title}</h3>
-                      <p>{description}</p>
+                      <div className="mx-16 mt-10 mb-16">
+                        {
+                          // TODO: Add an image
+                        }
+                        <h3 className="font-bold text-xl">
+                          {title}
+                        </h3>
+                        <p>{description}</p>
+                      </div>
                     </div>
                   )
                 })
