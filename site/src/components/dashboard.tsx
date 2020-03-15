@@ -68,7 +68,7 @@ export class DashboardComponent extends Component<Props> {
           <div className="dashboard-panel-container flex-1 min-h-0">
             <div className="dashboard-panel dashboard-selected-place-panel">
               <h2 className="font-bold">
-                Select a region
+                Select a place
               </h2>
 
               <div className="flex">
@@ -87,6 +87,7 @@ export class DashboardComponent extends Component<Props> {
                         initialValue={pageStore.selectedPlace.children[0]}
                         options={pageStore.selectedPlace.children}
                         onChange={place => { pageStore.selectedPlaceDetail = place }}
+                        className="ml-2"
                       />
                     )
                     : ''

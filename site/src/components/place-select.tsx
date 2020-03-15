@@ -1,6 +1,9 @@
 import { Component } from 'react'
 import Downshift from 'downshift'
 import { Place } from '../../../shared/places'
+import Tippy from '@tippy.js/react'
+import CaretUpSvg from '../../public/icons/caret-up.svg'
+import CaretDownSvg from '../../public/icons/caret-down.svg'
 
 interface Props extends Omit<React.HTMLAttributes<HTMLDivElement>, 'onChange'> {
   options: Place[]
@@ -31,11 +34,23 @@ export class PlaceSelectComponent extends Component<Props, State> {
     this.props.onChange?.(selectedPlace)
   }
 
-  onInputValueChange = (value: string, { selectedItem, clearSelection, highlightedIndex, setHighlightedIndex }) => {
-    if (!selectedItem && !highlightedIndex) setHighlightedIndex(0)
+  onInputValueChange = (value: string, { highlightedIndex, setHighlightedIndex }) => {
+    console.log(value, highlightedIndex)
+    setHighlightedIndex(0)
   }
 
   render () {
+    const {
+      options,
+      initialValue,
+      className,
+      inputClassName,
+      listClassName,
+      listItemClassName,
+      onChange,
+      ...props
+    } = this.props
+
     return (
       <Downshift
         initialSelectedItem={this.state.selectedPlace}
@@ -55,49 +70,70 @@ export class PlaceSelectComponent extends Component<Props, State> {
           getRootProps,
           setState
         }) => (
-          <div className={`place-select ${this.props.className ?? ''}`}>
-            <div
-              {...getRootProps({} as any, { suppressRefError: true })}
+          <div className={`place-select ${className ?? ''}`} {...props}>
+            <Tippy
+              visible={isOpen}
+              animation="shift-away"
+              theme="light"
+              className="place-select-list-tooltip"
+              allowHTML={true}
+              content={(
+                <ul
+                  {...getMenuProps({}, { suppressRefError: true })}
+                  className={`place-select-list ${listClassName ?? ''}`}
+                >
+                  {
+                    isOpen
+                      ? options
+                        .filter(({ name }) => name.toLowerCase().includes(inputValue?.toLowerCase()))
+                        .map((place, index) => {
+                          return (
+                            <li
+                              key={index}
+                              {...getItemProps({
+                                index,
+                                item: place
+                              })}
+                              data-highlighted={highlightedIndex === index}
+                              className={`place-select-list-item ${listItemClassName ?? ''}`}
+                            >
+                              <span className="font-bold">{place.name}</span>{' '}
+                            </li>
+                          )
+                        })
+                      : ''
+                  }
+                </ul>
+              )}
+              arrow={true}
+              placement="bottom-start"
+              duration={100}
+              maxWidth="none"
+              trigger="manual"
+              onHidden={() => setState({ isOpen: false })}
+              interactive
             >
-              <input
-                {...getInputProps()}
-                onClick={() => {
-                  if (!isOpen) toggleMenu()
-                  setState({ inputValue: '' })
-                }}
-                placeholder="Search for a place..."
-                className={`form-input ${this.props.inputClassName ?? ''}`}
-              />
-              <button onClick={() => toggleMenu()}>
-                {isOpen ? '^' : 'v'}
-              </button>
-            </div>
-            <ul
-              {...getMenuProps()}
-              className={`place-select-list ${this.props.listClassName ?? ''}`}
-            >
-              {
-                isOpen
-                  ? this.props.options
-                    .filter(({ name }) => name.toLowerCase().includes(inputValue?.toLowerCase()))
-                    .map((place, index) => {
-                      return (
-                        <li
-                          key={index}
-                          {...getItemProps({
-                            index,
-                            item: place
-                          })}
-                          data-highlighted={highlightedIndex === index}
-                          className={`place-select-list-item ${this.props.listItemClassName ?? ''}`}
-                        >
-                          <span className="font-bold">{place.name}</span>{' '}
-                        </li>
-                      )
-                    })
-                  : ''
-              }
-            </ul>
+              <div
+                {...getRootProps({} as any, { suppressRefError: true })}
+                className="place-select-input-area"
+              >
+                <input
+                  {...getInputProps()}
+                  onClick={() => {
+                    if (!isOpen) toggleMenu()
+                    setState({ inputValue: '' })
+                  }}
+                  placeholder="Search for a place..."
+                  className={`form-input ${inputClassName ?? ''}`}
+                />
+                <button className="btn caret" onClick={() => toggleMenu()}>
+                  {isOpen
+                    ? <CaretUpSvg className="h-line-sm" />
+                    : <CaretDownSvg className="h-line-sm" />
+                  }
+                </button>
+              </div>
+            </Tippy>
           </div>
         )}
       </Downshift>

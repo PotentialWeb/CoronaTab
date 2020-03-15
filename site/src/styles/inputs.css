@@ -1,0 +1,16 @@
+.input-placeholder {
+  @apply text-brand-lighter font-bold opacity-100;
+}
+
+.form-input:not(.form-input-reset) {
+  @apply w-full border border-light rounded font-bold;
+  &::placeholder {
+    @apply input-placeholder;
+  }
+  &:focus {
+    @apply border-brand outline-none;
+  }
+  &.error {
+    @apply border-red;
+  }
+}

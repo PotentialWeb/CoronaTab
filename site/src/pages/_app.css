@@ -1,5 +1,5 @@
 html {
-  @apply font-main text-black;
+  @apply font-main text-brand;
 }
 
 body {
