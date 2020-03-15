@@ -90,7 +90,7 @@ export class DashboardGeneralAdviceComponent extends Component<Props, State> {
                   if (!title || !description) return
                   return (
                     <div key={key}>
-                      <div className="mx-16 mt-10 mb-16">
+                      <div className="mx-16 mt-6 mb-12">
                         {
                           // TODO: Add an image
                         }

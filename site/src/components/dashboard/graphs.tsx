@@ -50,7 +50,7 @@ export class DashboardDailyChartComponent extends Component<{
           <YAxis domain={[0, 'dataMax']} stroke={brand} />
           <Tooltip />
           <Legend />
-          <Bar dataKey="cases" fill={brand} strokeWidth="2" />
+          <Bar dataKey="cases" fill={brand} />
           <Bar dataKey="deaths" fill={red} />
           <Bar dataKey="recovered" fill={green} />
         </BarChart>

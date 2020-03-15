@@ -1,0 +1,18 @@
+.share-btn {
+  &-tooltip {
+    ul {
+      @apply flex items-center;
+      > li {
+        button {
+          @apply text-xl;
+          &:hover {
+            @apply opacity-50;
+          }
+          > svg {
+            @apply m-2;
+          }
+        }
+      }
+    }
+  }
+}

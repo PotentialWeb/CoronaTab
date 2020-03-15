@@ -5,6 +5,7 @@ export class Meta {
   static PAGE_TITLE_DELIMITER = ' - '
   static BASE_PATH = 'https://coronatab.app'
   static EXTENSION_URL = 'https://chrome.google.com/webstore'
+  static FACEBOOK_APP_ID = '' // TODO: Add this
 
   static buildPageTitle (config?: string | { strapline?: boolean, title?: string }) {
     let segments = [Meta.APP_NAME]

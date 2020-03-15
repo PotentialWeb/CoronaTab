@@ -8,6 +8,8 @@ import { DashboardQuickLinksComponent } from './dashboard/quick-links'
 import { DashboardSelectedPlaceComponent } from './dashboard/selected-place'
 import LogoTextSvg from '../../public/icons/logo-text.svg'
 import { DashboardGeneralAdviceComponent } from './dashboard/general-advice'
+import { DashboardFooterComponent } from './dashboard/footer'
+import { ShareBtnComponent } from './share-btn'
 
 interface Props {
   pageStore?: DashboardPageStore
@@ -21,17 +23,21 @@ export class DashboardComponent extends Component<Props> {
 
     return (
       <main className="dashboard">
-        <div className="dashboard-col">
+        <div className="dashboard-col w-3/5">
 
           <div className="dashboard-panel-container">
             <div className="dashboard-nav">
               <div className="flex-1">
                 <LogoTextSvg className="h-10" />
               </div>
-              <div className="flex-1 last-updated text-right">
-                <span className="text-xs">
+              <div className="flex justify-end flex-1">
+                <ShareBtnComponent
+                  tooltipPlacement="bottom"
+                  className="btn btn-white flex items-center border border-light px-6 py-1 rounded"
+                />
+                {/*<span className="text-xs">
                   Last Updated: {pageStore.lastUpdated?.toISOString()}
-                </span>
+                 </span>*/}
               </div>
             </div>
           </div>
@@ -93,7 +99,7 @@ export class DashboardComponent extends Component<Props> {
           </div>
         </div>
 
-        <div className="dashboard-col">
+        <div className="dashboard-col w-2/5">
 
           <div className="dashboard-panel-container">
             <div className="dashboard-panel p-0">
@@ -101,35 +107,32 @@ export class DashboardComponent extends Component<Props> {
             </div>
           </div>
 
+          {
+            // TODO: Add regionalised information for how to take action if you or a loved one are ill.
+          }
+
           <div className="dashboard-panel-container flex-1 min-h-0">
             <div className="dashboard-panel">
               <DashboardQuickLinksComponent />
             </div>
           </div>
 
-
-          {/*<div className="local-advice">
-            <h2 className="font-bold">Local Advice</h2>
-            <span>Regionalised information for how to take action if you or a loved one are ill.</span>
-          </div>*/}
-
-          {
-            window?.self === window?.top
-              ? (
-                <div className="dashboard-panel-container">
-                  <div className="dashboard-download-browser-extension">
-                    <a href={Meta.EXTENSION_URL} target="_blank">
-                      Download browser extension
-                    </a>
-                  </div>
-                </div>
-              )
-              : ''
-          }
-
           <div className="dashboard-panel-container">
-            <div className="dashboard-panel">
-              Share - Fork on GitHub
+            <div className="dashboard-panel p-0">
+              {
+                window?.self === window?.top
+                  ? (
+                    <a
+                      href={Meta.EXTENSION_URL}
+                      target="_blank"
+                      className="dashboard-download-browser-extension"
+                    >
+                      <h2 className="font-bold">Download browser extension</h2>
+                    </a>
+                  )
+                  : ''
+              }
+              <DashboardFooterComponent />
             </div>
           </div>
 

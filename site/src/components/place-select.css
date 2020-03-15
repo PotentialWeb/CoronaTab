@@ -11,7 +11,7 @@
       }
     }
     &-item {
-      @apply bg-lighter px-2 py-1 cursor-pointer;
+      @apply bg-white px-2 py-1 cursor-pointer;
       &:first-of-type {
         @apply pt-2;
       }
@@ -19,10 +19,10 @@
         @apply pb-2;
       }
       &[data-highlighted="true"], &:hover {
-        @apply bg-white;
+        @apply bg-lighter;
       }
       &[data-selected="true"] {
-        @apply bg-white;
+        @apply bg-lighter;
       }
     }
   }
