@@ -104,7 +104,7 @@ type NormalizedDataRow = {
       process.exit(1)
     }
     let region: Place
-    if (!casesRow.region) {
+    if (!casesRow.region || casesRow.region === casesRow.country) {
       country.location = {
         type: 'Point',
         coordinates: [casesRow.lng, casesRow.lat]

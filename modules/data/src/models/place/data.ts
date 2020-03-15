@@ -4,7 +4,7 @@ import { Place } from '../place'
 
 @Entity()
 export class PlaceData extends Model<PlaceData> {
-  @ManyToOne(() => Place, place => place.data, { primary: true })
+  @ManyToOne(() => Place, place => place.data, { primary: true, onDelete: 'CASCADE' })
   place?: Place
   @PrimaryColumn()
   placeId: string
