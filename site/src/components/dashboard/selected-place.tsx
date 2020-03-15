@@ -99,7 +99,6 @@ export class DashboardSelectedPlaceComponent extends Component<Props, State> {
                 return (
                   <>
                     <DashboardStatsComponent
-                      title="Region Stats"
                       rawData={this.state.rawData}
                     />
 

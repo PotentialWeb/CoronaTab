@@ -1,6 +1,6 @@
 .dashboard {
   @apply h-screen flex min-h-0;
-  padding: 5vw 5vw;
+  padding: 2.5vw 2.5vw;
   &-col {
     @apply flex flex-col w-1/2;
     @apply px-3 -my-2;

@@ -3,7 +3,7 @@ import Tippy from '@tippy.js/react'
 import numeral from 'numeral'
 
 interface Props extends HTMLAttributes<HTMLDivElement> {
-  title: string
+  title?: string
   rawData: (string | number)[]
 }
 
@@ -22,7 +22,7 @@ export class DashboardStatsComponent extends Component<Props> {
 
     const calcDifference = (oldValue, newValue) => {
       const value = (newValue - oldValue) / oldValue
-      return isFinite(value) ? value : 1
+      return isFinite(value) ? value : (value === Number.NEGATIVE_INFINITY ? -1 : 1)
     }
 
     let diffs = { cases: null, deaths: null, recovered: null }
@@ -51,75 +51,96 @@ export class DashboardStatsComponent extends Component<Props> {
 
     return (
       <div className="dashboard-stats flex-col">
-        <h2 className="font-bold">
-          {this.props.title}
-        </h2>
+        {
+          this.props.title
+            ? (
+              <h2 className="font-bold">
+                {this.props.title}
+              </h2>
+            )
+            : ''
+        }
         <ul>
           <li data-type="cases">
-            <Tippy
-              content="Total Cases"
-              {...tippyProps}
-            >
-              <span>{numeral(cases).format('0.0a')}</span>
-            </Tippy>
-            {
-              Array.isArray(diffs.cases) ? (
-                <Tippy
-                  content={`${diffs.cases[0]} -> ${cases}`}
-                  {...tippyProps}
-                >
-                  <span>{numeral(diffs.cases[1]).format('+0.00%')}</span>
-                </Tippy>
-              ) : ''
-            }
+            <h3>Cases</h3>
+            <div>
+              <Tippy
+                content={`Total Cases: ${numeral(cases).format('0,0')}`}
+                {...tippyProps}
+              >
+                <span data-metric="total">{numeral(cases).format('0.0a')}</span>
+              </Tippy>
+              <aside>
+                {
+                  Array.isArray(diffs.cases) ? (
+                    <Tippy
+                      content={`${penultimateSnapshot[0]}: ${numeral(diffs.cases[0]).format('0,0')} | Now: ${numeral(cases).format('0,0')}`}
+                      {...tippyProps}
+                    >
+                      <span data-metric="24hr">{numeral(diffs.cases[1]).format('+0.0%')}</span>
+                    </Tippy>
+                  ) : ''
+                }
+              </aside>
+            </div>
           </li>
-          <li>
-            <Tippy
-              content="Total Deaths"
-              {...tippyProps}
-            >
-              <span>{numeral(deaths).format('0.0a')}</span>
-            </Tippy>
-            <Tippy
-              content="Death rate"
-              {...tippyProps}
-            >
-              <span>({numeral(deathRate).format('0.00%')})</span>
-            </Tippy>
-            {
-              Array.isArray(diffs.deaths) ? (
+          <li data-type="deaths">
+            <h3>Deaths</h3>
+            <div>
+              <Tippy
+                content={`Total Deaths: ${numeral(deaths).format('0,0')}`}
+                {...tippyProps}
+              >
+                <span data-metric="total">{numeral(deaths).format('0.0a')}</span>
+              </Tippy>
+              <aside>
                 <Tippy
-                  content={`${diffs.deaths[0]} > ${deaths}`}
+                  content={`Death rate: ${numeral(deathRate).format('0.000%')}`}
                   {...tippyProps}
                 >
-                  <span>{numeral(diffs.deaths[1]).format('+0.00%')}</span>
+                  <span data-metric="rate">({numeral(deathRate).format('0.0%')})</span>
                 </Tippy>
-              ) : ''
-            }
+                {
+                  Array.isArray(diffs.deaths) ? (
+                    <Tippy
+                      content={`${penultimateSnapshot[0]}: ${numeral(diffs.deaths[0]).format('0,0')} | Now: ${numeral(deaths).format('0,0')}`}
+                      {...tippyProps}
+                    >
+                      <span data-metric="24hr">{numeral(diffs.deaths[1]).format('+0.0%')}</span>
+                    </Tippy>
+                  ) : ''
+                }
+              </aside>
+            </div>
           </li>
-          <li>
-            <Tippy
-              content="Total Recovered"
-              {...tippyProps}
-            >
-              <span>{numeral(recovered).format('0.0a')}</span>
-            </Tippy>
-            <Tippy
-              content="Recovery rate"
-              {...tippyProps}
-            >
-              <span>({numeral(recoveryRate).format('0.00%')})</span>
-            </Tippy>
-            {
-              Array.isArray(diffs.recovered) ? (
+          <li data-type="recovered">
+            <h3>Recovered</h3>
+            <div>
+              <Tippy
+                content={`Total Recovered: ${numeral(recovered).format('0,0')}`}
+                {...tippyProps}
+              >
+                <span data-metric="total">{numeral(recovered).format('0.0a')}</span>
+              </Tippy>
+              <aside>
                 <Tippy
-                  content={`${diffs.recovered[0]} -> ${recovered}`}
+                  content={`Recovery rate: ${numeral(recoveryRate).format('0.000%')}`}
                   {...tippyProps}
                 >
-                  <span>{numeral(diffs.recovered[1]).format('+0.00%')}</span>
+                  <span data-metric="rate">({numeral(recoveryRate).format('0.0%')})</span>
                 </Tippy>
-              ) : ''
-            }
+                {
+                  Array.isArray(diffs.recovered) ? (
+                    <Tippy
+                      content={`${penultimateSnapshot[0]}: ${numeral(diffs.recovered[0]).format('0,0')} | Now: ${numeral(recovered).format('0,0')}`}
+                      {...tippyProps}
+                    >
+                      <span data-metric="24hr">{numeral(diffs.recovered[1]).format('+0.0%')}</span>
+                    </Tippy>
+                  ) : ''
+                }
+              </aside>
+            </div>
           </li>
         </ul>
       </div>
