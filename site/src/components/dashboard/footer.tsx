@@ -4,7 +4,7 @@ import { ShareBtnComponent } from '../share-btn'
 export class DashboardFooterComponent extends Component {
   render () {
     return (
-      <footer className="p-6">
+      <footer className="px-6 pb-6 pt-4">
         <div className="flex items-center min-w-0 -mx-2">
           <div className="flex-1 min-w-0 px-2">
             <ShareBtnComponent

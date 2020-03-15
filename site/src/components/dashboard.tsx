@@ -112,7 +112,7 @@ export class DashboardComponent extends Component<Props> {
           }
 
           <div className="dashboard-panel-container flex-1 min-h-0">
-            <div className="dashboard-panel">
+            <div className="dashboard-panel overflow-y-scroll">
               <DashboardQuickLinksComponent />
             </div>
           </div>
