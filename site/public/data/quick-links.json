@@ -1,21 +1,31 @@
 [{
   "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports",
+  "icon": "https://www.who.int/favicon.ico",
   "title": {
     "en": "WHO Daily Sit Reps"
   }
 }, {
   "url": "https://www.reddit.com/t/coronavirus/",
+  "icon": "https://www.redditstatic.com/desktop2x/img/favicon/ms-icon-144x144.png",
   "title": {
     "en": "Reddit t/coronavirus"
   }
 }, {
   "url": "https://twitter.com/search?q=%23COVID19",
+  "icon": "https://abs.twimg.com/responsive-web/web/icon-ios.8ea219d4.png",
   "title": {
     "en": "#COVID19 on Twitter"
   }
 }, {
   "url": "https://github.com/CSSEGISandData/COVID-19",
+  "icon": "https://github.githubassets.com/pinned-octocat.svg",
   "title": {
     "en": "COVID-19 dataset on GitHub"
+  }
+}, {
+  "url": "https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6",
+  "icon": "https://www.arcgis.com/apps/opsdashboard/assets/images/favicon.ico",
+  "title": {
+    "en": "Johns Hopkins University COVID19 Dashboard"
   }
 }]

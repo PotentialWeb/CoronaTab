@@ -8,30 +8,39 @@ import { DashboardQuickLinksComponent } from './dashboard/quick-links'
 import { DashboardSelectedPlaceComponent } from './dashboard/selected-place'
 import LogoTextSvg from '../../public/icons/logo-text.svg'
 import { DashboardGeneralAdviceComponent } from './dashboard/general-advice'
+import { DashboardFooterComponent } from './dashboard/footer'
+import { ShareBtnComponent } from './share-btn'
+import { AppStore } from '../pages/_app.store'
+import { ExtensionDownloadBtnComponent } from './extension-download-btn'
 
 interface Props {
+  appStore?: AppStore
   pageStore?: DashboardPageStore
 }
 
-@inject('pageStore')
+@inject('appStore', 'pageStore')
 @observer
 export class DashboardComponent extends Component<Props> {
   render () {
-    const { pageStore } = this.props
+    const { appStore, pageStore } = this.props
 
     return (
       <main className="dashboard">
-        <div className="dashboard-col">
+        <div className="dashboard-col w-3/5">
 
           <div className="dashboard-panel-container">
             <div className="dashboard-nav">
               <div className="flex-1">
                 <LogoTextSvg className="h-10" />
               </div>
-              <div className="flex-1 last-updated text-right">
-                <span className="text-xs">
+              <div className="flex justify-end flex-1">
+                <ShareBtnComponent
+                  tooltipPlacement="bottom"
+                  className="btn btn-white flex items-center border border-light px-6 py-1 rounded"
+                />
+                {/*<span className="text-xs">
                   Last Updated: {pageStore.lastUpdated?.toISOString()}
-                </span>
+                 </span>*/}
               </div>
             </div>
           </div>
@@ -55,7 +64,7 @@ export class DashboardComponent extends Component<Props> {
             <div className="dashboard-panel dashboard-place-panel">
               <div className="flex flex-shrink-0 flex-grow-0">
                 <PlaceSelectComponent
-                  initialValue={pageStore.selectedPlace.length ? pageStore.selectedPlace[0] : null}
+                  initialValue={pageStore.selectedPlace?.length ? pageStore.selectedPlace[0] : null}
                   options={pageStore.places}
                   onChange={place => {
                     pageStore.selectedPlace = place ? [place] : []
@@ -63,13 +72,13 @@ export class DashboardComponent extends Component<Props> {
                   }}
                 />
                 {
-                  pageStore.selectedPlace?.[0]?.children.length
+                  pageStore.selectedPlace?.[0]?.children?.length
                     ? (
                       <PlaceSelectComponent
                         initialValue={pageStore.selectedPlace.length === 2 ? pageStore.selectedPlace[1] : null}
                         options={pageStore.selectedPlace[0].children}
                         onChange={place => {
-                          pageStore.selectedPlace = place? [pageStore.selectedPlace[0], place] : [pageStore.selectedPlace[0]]
+                          pageStore.selectedPlace = place ? [pageStore.selectedPlace[0], place] : [pageStore.selectedPlace[0]]
                           pageStore.selectedPlaceDetail = place ? place : pageStore.selectedPlace[0]
                         }}
                         inputPlaceholder="Select a region"
@@ -93,7 +102,7 @@ export class DashboardComponent extends Component<Props> {
           </div>
         </div>
 
-        <div className="dashboard-col">
+        <div className="dashboard-col w-2/5">
 
           <div className="dashboard-panel-container">
             <div className="dashboard-panel p-0">
@@ -101,35 +110,29 @@ export class DashboardComponent extends Component<Props> {
             </div>
           </div>
 
+          {
+            // TODO: Add regionalised information for how to take action if you or a loved one are ill.
+          }
+
           <div className="dashboard-panel-container flex-1 min-h-0">
-            <div className="dashboard-panel">
+            <div className="dashboard-panel overflow-y-scroll">
               <DashboardQuickLinksComponent />
             </div>
           </div>
 
-
-          {/*<div className="local-advice">
-            <h2 className="font-bold">Local Advice</h2>
-            <span>Regionalised information for how to take action if you or a loved one are ill.</span>
-          </div>*/}
-
-          {
-            window?.self === window?.top
-              ? (
-                <div className="dashboard-panel-container">
-                  <div className="dashboard-download-browser-extension">
-                    <a href={Meta.EXTENSION_URL} target="_blank">
-                      Download browser extension
-                    </a>
-                  </div>
-                </div>
-              )
-              : ''
-          }
-
           <div className="dashboard-panel-container">
-            <div className="dashboard-panel">
-              Share - Fork on GitHub
+            <div className="dashboard-panel p-0">
+              {
+                window?.self === window?.top
+                  ? (
+                    <ExtensionDownloadBtnComponent
+                      logoClassName="h-line-lg mr-2"
+                      className="dashboard-download-browser-extension btn"
+                    />
+                  )
+                  : ''
+              }
+              <DashboardFooterComponent />
             </div>
           </div>
 

@@ -19,6 +19,7 @@
       }
       .swiper-button-next, .swiper-button-prev {
         @apply opacity-25;
+        transform: scale(0.5);
         &:hover {
           @apply opacity-100;
         }

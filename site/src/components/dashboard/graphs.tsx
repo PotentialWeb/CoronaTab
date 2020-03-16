@@ -22,9 +22,9 @@ export class DashboardCumulativeGraphComponent extends Component<{
         <LineChart
           data={this.props.data}
         >
-          <Line type="monotone" dataKey="cases" stroke={brand} activeDot={{ r: 8 }} strokeWidth="2" />
-          <Line type="monotone" dataKey="deaths" stroke={red} strokeWidth="2" />
-          <Line type="monotone" dataKey="recovered" stroke={green} strokeWidth="2" />
+          <Line type="monotone" dataKey="cases" name="Cases" stroke={brand} activeDot={{ r: 8 }} strokeWidth="2" />
+          <Line type="monotone" dataKey="deaths" name="Deaths" stroke={red} strokeWidth="2" />
+          <Line type="monotone" dataKey="recovered" name="Recovered" stroke={green} strokeWidth="2" />
           <CartesianGrid stroke={brandDull} strokeDasharray="5 5" />
           <XAxis dataKey="date" stroke={brand} />
           <YAxis stroke={brand} />
@@ -50,9 +50,9 @@ export class DashboardDailyChartComponent extends Component<{
           <YAxis domain={[0, 'dataMax']} stroke={brand} />
           <Tooltip />
           <Legend />
-          <Bar dataKey="cases" fill={brand} strokeWidth="2" />
-          <Bar dataKey="deaths" fill={red} />
-          <Bar dataKey="recovered" fill={green} />
+          <Bar dataKey="cases" name="Cases" fill={brand} />
+          <Bar dataKey="deaths" name="Deaths" fill={red} />
+          <Bar dataKey="recovered" name="Recovered" fill={green} />
         </BarChart>
       </ResponsiveContainer>
     )

@@ -35,7 +35,7 @@ export default class DashboardPage extends React.Component<{}, State> {
               return (
                 <div className="h-screen w-screen flex flex-col items-center justify-center">
                   <LoadingComponent className="h-16" />
-                  <span className="font-bold text-lg mt-1">Wash dem hands.</span>
+                  <span className="font-bold text-xl mt-1">CoronaTab</span>
                 </div>
               )
             case LoadingStatus.HAS_ERRORED:
