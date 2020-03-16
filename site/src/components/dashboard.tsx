@@ -1,15 +1,16 @@
 import { Component } from 'react'
+import Router from 'next/router'
 import { inject, observer } from 'mobx-react'
 import { DashboardPageStore } from '../pages/dashboard.store'
 import { DashboardStatsComponent } from './dashboard/stats'
 import { PlaceSelectComponent } from './place-select'
 import { DashboardQuickLinksComponent } from './dashboard/quick-links'
 import { DashboardSelectedPlaceComponent } from './dashboard/selected-place'
-import LogoTextSvg from '../../public/icons/logo-text.svg'
 import { DashboardGeneralAdviceComponent } from './dashboard/general-advice'
 import { DashboardFooterComponent } from './dashboard/footer'
 import { ShareBtnComponent } from './share-btn'
 import { ExtensionDownloadBtnComponent } from './extension-download-btn'
+import LogoTextSvg from '../../public/icons/logo-text.svg'
 
 interface Props {
   pageStore?: DashboardPageStore
@@ -20,6 +21,7 @@ interface Props {
 export class DashboardComponent extends Component<Props> {
   render () {
     const { pageStore } = this.props
+    const iFramed = window?.self !== window?.top
 
     return (
       <main className="dashboard">
@@ -28,7 +30,16 @@ export class DashboardComponent extends Component<Props> {
           <div className="dashboard-panel-container">
             <div className="dashboard-nav">
               <div className="flex-1">
-                <LogoTextSvg className="h-10" />
+                <button
+                  onClick={(e) => {
+                    e.preventDefault()
+                    e.stopPropagation()
+                    if (!iFramed) Router.push('/')
+                  }}
+                  className="btn"
+                >
+                  <LogoTextSvg className="h-10" />
+                </button>
               </div>
               <div className="flex justify-end flex-1">
                 <ShareBtnComponent
@@ -120,7 +131,7 @@ export class DashboardComponent extends Component<Props> {
           <div className="dashboard-panel-container">
             <div className="dashboard-panel p-0">
               {
-                window?.self === window?.top
+                !iFramed
                   ? (
                     <ExtensionDownloadBtnComponent
                       logoClassName="h-line-lg mr-2"
