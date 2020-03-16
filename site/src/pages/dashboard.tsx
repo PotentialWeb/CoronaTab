@@ -40,7 +40,18 @@ export default class DashboardPage extends React.Component<{}, State> {
                   </div>
                 )
               case LoadingStatus.HAS_ERRORED:
-                return 'Errored'
+                return (
+                  <div className="h-screen w-screen flex flex-col items-center justify-center">
+                    <LoadingComponent className="h-16" />
+                    <span className="font-bold text-xl mt-1 mb-2">Service unavailable</span>
+                    <button
+                      onClick={() => window.location.reload()}
+                      className="btn btn-white border-2 border-light rounded px-3 py-1"
+                    >
+                      Try again
+                    </button>
+                  </div>
+                )
             }
           })()}
         </main>
