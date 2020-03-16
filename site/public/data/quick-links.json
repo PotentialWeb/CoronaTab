@@ -22,4 +22,10 @@
   "title": {
     "en": "COVID-19 dataset on GitHub"
   }
+}, {
+  "url": "https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6",
+  "icon": "https://www.arcgis.com/apps/opsdashboard/assets/images/favicon.ico",
+  "title": {
+    "en": "Johns Hopkins University COVID19 Dashboard"
+  }
 }]
