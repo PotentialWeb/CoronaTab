@@ -6,6 +6,7 @@
     "sourceMap": true,
     "outDir": "./dist",
     "incremental": true,
+    "resolveJsonModule": true,
     "skipDefaultLibCheck": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
@@ -17,6 +18,7 @@
   },
   "exclude": ["node_modules", "dist"],
   "include": [
-    "./**/*.ts",
+    "./src/**/*.ts",
+    "./src/**/*.json"
   ]
 }
