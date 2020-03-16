@@ -19,7 +19,7 @@ export class DashboardQuickLinksComponent extends Component {
                       <a
                         href={url}
                         target="_blank" rel={t}
-                        className="btn dashboard-quick-links-btn"
+                        className="btn btn-white dashboard-quick-links-btn"
                       >
                         <div className="dashboard-quick-links-btn-logo">
                           {

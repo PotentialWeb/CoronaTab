@@ -1,6 +1,7 @@
 import { Component, HTMLAttributes } from 'react'
 import { inject, observer } from 'mobx-react'
 import { AppStore } from '../pages/_app.store'
+import { Google } from '../utils/google'
 import ExternalLinkSvg from '../../public/icons/external-link.svg'
 
 interface Props extends HTMLAttributes<HTMLAnchorElement> {
@@ -22,6 +23,7 @@ export class ExtensionDownloadBtnComponent extends Component<Props> {
     return (
       <a
         href={browserExtension.url}
+        onClick={() => Google.pushGTMEvent('Extension:DownloadClickout')}
         target="_blank"
         className="btn flex min-w-0 items-center"
         {...props}
