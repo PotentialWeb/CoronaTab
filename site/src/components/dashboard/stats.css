@@ -21,3 +21,11 @@
     }
   }
 }
+
+@screen 3xl {
+  .dashboard-stats {
+    > ul > li [data-metric="total"] {
+      @apply text-4xl;
+    }
+  }
+}
