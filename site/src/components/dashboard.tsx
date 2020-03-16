@@ -10,16 +10,19 @@ import LogoTextSvg from '../../public/icons/logo-text.svg'
 import { DashboardGeneralAdviceComponent } from './dashboard/general-advice'
 import { DashboardFooterComponent } from './dashboard/footer'
 import { ShareBtnComponent } from './share-btn'
+import { AppStore } from '../pages/_app.store'
+import { ExtensionDownloadBtnComponent } from './extension-download-btn'
 
 interface Props {
+  appStore?: AppStore
   pageStore?: DashboardPageStore
 }
 
-@inject('pageStore')
+@inject('appStore', 'pageStore')
 @observer
 export class DashboardComponent extends Component<Props> {
   render () {
-    const { pageStore } = this.props
+    const { appStore, pageStore } = this.props
 
     return (
       <main className="dashboard">
@@ -122,13 +125,10 @@ export class DashboardComponent extends Component<Props> {
               {
                 window?.self === window?.top
                   ? (
-                    <a
-                      href={Meta.EXTENSION_URL}
-                      target="_blank"
-                      className="dashboard-download-browser-extension"
-                    >
-                      <h2 className="font-bold">Download browser extension</h2>
-                    </a>
+                    <ExtensionDownloadBtnComponent
+                      logoClassName="h-line-lg mr-2"
+                      className="dashboard-download-browser-extension btn"
+                    />
                   )
                   : ''
               }

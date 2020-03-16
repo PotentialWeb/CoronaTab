@@ -24,7 +24,8 @@
     "react-share": "^4.1.0",
     "react-tabs": "^3.1.0",
     "recharts": "^2.0.0-beta.2",
-    "swiper": "^5.3.6"
+    "swiper": "^5.3.6",
+    "ua-parser-js": "^0.7.21"
   },
   "devDependencies": {
     "@babel/plugin-proposal-decorators": "^7.8.3",
@@ -37,6 +38,7 @@
     "@types/react": "^16.9.23",
     "@types/recharts": "^1.8.7",
     "@types/swiper": "^5.2.1",
+    "@types/ua-parser-js": "^0.7.33",
     "@typescript-eslint/eslint-plugin": "^2.23.0",
     "@typescript-eslint/parser": "^2.23.0",
     "autoprefixer": "^9.7.4",

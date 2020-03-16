@@ -28,7 +28,7 @@
     @apply flex-1 min-h-0;
   }
   &-download-browser-extension {
-    @apply flex items-center rounded-t-lg bg-brand text-white px-6 pt-4 pb-3;
+    @apply flex font-bold items-center rounded-t-lg bg-brand text-white px-6 pt-4 pb-3;
     transition: background-color .2s ease-in-out;
     &:hover {
       @apply bg-brand-light;
