@@ -3,7 +3,7 @@ CoronaTab
 
 Open source browser extension showing localized Coronavirus statistics, news & advice every time you open a new tab.
 
-[Website](https://coronatab.app) | [Dashboard](https://coronatab.app/dashboard)
+![Website](https://coronatab.app) | ![Dashboard](https://coronatab.app/dashboard)
 
 ![screenshot](https://user-images.githubusercontent.com/2046935/76784350-63397580-67ab-11ea-8854-4bb20dbca3e9.jpg)
 
@@ -22,3 +22,7 @@ Open source browser extension showing localized Coronavirus statistics, news & a
 ### Add Datapoints
 
 Coming soon...
+
+### Contributors
+
+Made with ♥ by the team at [Hoobu](https://hoobu.com).
