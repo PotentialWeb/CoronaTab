@@ -61,7 +61,7 @@ export class DashboardComponent extends Component<Props> {
             <div className="dashboard-panel dashboard-place-panel">
               <div className="flex flex-shrink-0 flex-grow-0">
                 <PlaceSelectComponent
-                  initialValue={pageStore.selectedPlace.length ? pageStore.selectedPlace[0] : null}
+                  initialValue={pageStore.selectedPlace?.length ? pageStore.selectedPlace[0] : null}
                   options={pageStore.places}
                   onChange={place => {
                     pageStore.selectedPlace = place ? [place] : []
@@ -69,13 +69,13 @@ export class DashboardComponent extends Component<Props> {
                   }}
                 />
                 {
-                  pageStore.selectedPlace?.[0]?.children.length
+                  pageStore.selectedPlace?.[0]?.children?.length
                     ? (
                       <PlaceSelectComponent
                         initialValue={pageStore.selectedPlace.length === 2 ? pageStore.selectedPlace[1] : null}
                         options={pageStore.selectedPlace[0].children}
                         onChange={place => {
-                          pageStore.selectedPlace = place? [pageStore.selectedPlace[0], place] : [pageStore.selectedPlace[0]]
+                          pageStore.selectedPlace = place ? [pageStore.selectedPlace[0], place] : [pageStore.selectedPlace[0]]
                           pageStore.selectedPlaceDetail = place ? place : pageStore.selectedPlace[0]
                         }}
                         inputPlaceholder="Select a region"

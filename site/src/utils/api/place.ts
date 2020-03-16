@@ -1,8 +1,9 @@
 import { Api } from '../api'
 
-export type PlaceApiQuery = { typeId: string, include?: string[] }
+export type PlaceApiQueryIncludes = 'children'
+export type PlaceApiQuery = { typeId: string, include?: PlaceApiQueryIncludes[] }
 export type PlaceApiDataQuery = { compact: boolean }
-export type PlaceApiFindClosestQuery = { lng?: string, lat?: string }
+export type PlaceApiFindClosestQuery = { lng?: number, lat?: number, include?: PlaceApiQueryIncludes[] }
 
 export class PlaceApi extends Api {
   static pathForPlaces = () => `/places`
@@ -15,7 +16,7 @@ export class PlaceApi extends Api {
     return this.request('GET', url, { query })
   }
 
-  // static async findAll () {
+  // static async query () {
   //   return {
   //     data: [{
   //       id: '1',
