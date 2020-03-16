@@ -1,0 +1,31 @@
+.dashboard-stats {
+  > ul {
+    @apply flex my-2;
+    > li {
+      @apply flex flex-col flex-1;
+      h3 {
+        @apply text-sm font-bold leading-none;
+      }
+      > div {
+        @apply flex items-center;
+        > aside {
+          @apply flex flex-col;
+        }
+      }
+      [data-metric="total"] {
+        @apply leading-none text-3xl font-bold mr-1;
+      }
+      [data-metric="24hr"], [data-metric="rate"] {
+        @apply text-sm leading-none;
+      }
+    }
+  }
+}
+
+@screen 3xl {
+  .dashboard-stats {
+    > ul > li [data-metric="total"] {
+      @apply text-4xl;
+    }
+  }
+}

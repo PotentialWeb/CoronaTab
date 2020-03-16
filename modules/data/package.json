@@ -1,0 +1,27 @@
+{
+  "name": "@coronatab/data",
+  "version": "1.0.0",
+  "description": "CoronaTab data models and seeds",
+  "main": "dist/modules/data/src/index.js",
+  "scripts": {
+    "sync": "./node_modules/.bin/ts-node scripts/sync.ts",
+    "seed": "./node_modules/.bin/ts-node scripts/seed.ts",
+    "build": "./node_modules/.bin/tsc -p ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@coronatab/shared": "file:../shared",
+    "@types/geojson": "^7946.0.7",
+    "dasherize": "^2.0.0",
+    "geojson": "^0.5.0",
+    "pg": "^7.18.2",
+    "typeorm": "^0.2.24"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.1",
+    "dotenv": "^8.2.0",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.8.3"
+  }
+}

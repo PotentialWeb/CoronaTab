@@ -6,6 +6,7 @@ import { Provider } from 'mobx-react'
 import { AppStore } from './_app.store'
 import { Meta } from '../utils/meta'
 import { Facebook } from '../utils/facebook'
+import { Google } from '../utils/google'
 import '../style.css'
 
 interface Props extends AppInitialProps {}
@@ -25,11 +26,15 @@ export default class App extends NextApp<Props, State> {
     appStore: new AppStore()
   }
 
+  componentDidMount () {
+    Google.useTagManager()
+  }
+
   render () {
     const { Component, pageProps } = this.props
-    const buildFaviconPath = (size: number) => `/favicons/${size}.png`
+    const buildFaviconPath = (size: number) => `/favicons/favicon-${size}.png`
     const pageTitle = Meta.buildPageTitle({ strapline: true })
-    const shareImgUrl = `${Meta.BASE_PATH}/images/social-share-card.jpg`
+    const shareImgUrl = `${Meta.BASE_PATH}/graphics/social-share-card.jpg`
     const currentUrl = `${Meta.BASE_PATH}` // TODO: SSG, get absolute path
 
     return (
@@ -46,7 +51,7 @@ export default class App extends NextApp<Props, State> {
 
             <meta property="og:type" content="website" />
             <meta property="og:title" content={pageTitle} />
-            <meta property="og:description" content={Meta.STRAPLINE} />
+            <meta property="og:description" content={Meta.DESCRIPTION} />
             <meta property="og:image" content={shareImgUrl} />
             <meta property="og:image:width" content="1200px" />
             <meta property="og:image:height" content="630px" />

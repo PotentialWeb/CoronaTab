@@ -1,0 +1,48 @@
+/* Base btn classes. Apply as a class to each button. */
+
+.btn--disabled {
+  @apply bg-light text-brand-dull cursor-default;
+}
+
+.btn--focus {
+  @apply outline-none;
+}
+
+.btn {
+  @apply font-bold;
+  &:disabled:not(.reset-btn--disabled) {
+    @apply btn--disabled !important;
+  }
+  &:focus:not(.reset-btn--focus) {
+    @apply btn--focus !important;
+  }
+}
+
+/* .btn-white */
+
+.btn-white--default {
+  @apply bg-white text-brand;
+}
+
+.btn-white--default-hover {
+  @apply bg-lighter text-brand;
+}
+
+.btn-white--default-focus {
+  @apply btn-white--default-hover;
+}
+
+.btn-white {
+  &:not(:disabled) {
+    @apply btn-white--default;
+  }
+  &:not(.reset-btn--hover):not(:disabled):hover {
+    @apply btn-white--default-hover;
+  }
+  &:not(.reset-btn--focus):not(:disabled):focus {
+    @apply btn-white--default-focus;
+  }
+  &:not(.reset-btn--aria-expanded)[aria-expanded="true"] {
+    @apply btn-white--default-focus;
+  }
+}

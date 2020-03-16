@@ -1,0 +1,5 @@
+export const DATE_FORMAT = 'YYYY-MM-DD'
+
+export const DEFAULT_RADIUS_MILES = 5 // miles
+export const METERS_IN_MILE = 1609.34
+export const DEFAULT_RADIUS_METERS = DEFAULT_RADIUS_MILES * METERS_IN_MILE

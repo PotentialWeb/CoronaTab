@@ -1,0 +1,16 @@
+.dashboard-quick-links {
+  > ul {
+    @apply flex flex-wrap -my-px;
+    > li {
+      @apply inline-flex mr-1 py-px;
+    }
+  }
+  &-btn {
+    @apply
+      flex items-center rounded-sm text-sm pl-2 pr-3 py-1 whitespace-no-wrap
+      border-2 border-lighter;
+    &-logo {
+      @apply flex items-center justify-center h-6 w-6 rounded-full bg-white mr-2;
+    }
+  }
+}

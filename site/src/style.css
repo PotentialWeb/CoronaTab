@@ -5,9 +5,23 @@
 /* purgecss start ignore */
 
 @import "../node_modules/tippy.js/dist/tippy.css";
+@import "../node_modules/tippy.js/themes/light.css";
 @import "../node_modules/tippy.js/animations/shift-away.css";
+@import "./styles/animations.css";
+@import "./styles/buttons.css";
+@import "./styles/fonts.css";
+@import "./styles/inputs.css";
+@import "./styles/swiper.css";
+@import "./styles/tabs.css";
 
 @import "./pages/_app.css";
-@import "./pages/dashboard.css"
+
+@import "./components/dashboard.css";
+@import "./components/dashboard/general-advice.css";
+@import "./components/dashboard/quick-links.css";
+@import "./components/dashboard/selected-place.css";
+@import "./components/dashboard/stats.css";
+@import "./components/place-select.css";
+@import "./components/share-btn.css";
 
 /* purgecss end ignore */

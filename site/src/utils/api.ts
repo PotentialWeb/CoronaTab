@@ -2,10 +2,10 @@ import { HTTP, HTTPMethod, HTTPOptions } from './http'
 import { LocalStorage } from './storage'
 
 export class Api {
-  host = process.env.API_HOST
-  namespace = process.env.API_NAMESPACE
+  static host = process.env.API_HOST
+  static namespace = process.env.API_NAMESPACE
 
-  getHeaders = async () => {
+  static getHeaders = async () => {
     const locale = LocalStorage.get('locale')
     return {
       'Accept': 'application/json',
@@ -16,7 +16,7 @@ export class Api {
     }
   }
 
-  buildURL (path: string, opts?: { namespace: boolean }) {
+  static buildURL (path: string, opts?: { namespace: boolean }) {
     return [
       this.host,
       ...(opts?.namespace !== false && this.namespace ? [this.namespace] : []),
@@ -24,7 +24,7 @@ export class Api {
     ].join('/').replace(/([^:]\/)\/+/g, '$1')
   }
 
-  async request (method: HTTPMethod, url: string, options: HTTPOptions = {}) {
+  static async request (method: HTTPMethod, url: string, options: HTTPOptions = {}) {
     options.headers = { ...(await this.getHeaders()), ...options.headers }
     try {
       const res = await HTTP.request(method, url, options)

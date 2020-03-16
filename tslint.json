@@ -1,0 +1,12 @@
+{
+  "extends": "tslint-config-standard",
+  "rules": {
+    "radix": false
+  },
+  "linterOptions": {
+    "exclude": [
+      "dist/**/*.ts",
+      "node_modules/**/*"
+    ]
+  }
+}

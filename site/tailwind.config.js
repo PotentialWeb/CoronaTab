@@ -31,8 +31,17 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       black: '#000000',
-      success: '#00F2A9',
-      fail: '#fd5c63',
+      'brand-dark': '#1b1327',
+      brand: '#35264E',
+      'brand-mucky': '#5D5171',
+      'brand-light': '#6F569B',
+      'brand-lighter': '#8A75AF',
+      'brand-dull': '#b9accf',
+      'brand-duller': '#dcd6e7',
+      green: '#00F2A9',
+      red: '#fd5c63',
+      light: '#e8e1f4',
+      lighter: '#F5F3F9',
       white: '#FFFFFF'
     },
     fill: theme => ({

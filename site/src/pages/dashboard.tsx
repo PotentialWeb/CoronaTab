@@ -1,122 +1,59 @@
 import React from 'react'
-import { DashboardPageStore } from './dashboard.store'
-import { Provider } from 'mobx-react'
-import Tippy from '@tippy.js/react'
-import LogoSvg from '../../public/icons/logo.svg'
-import { LineChartComponent } from '../components/line-chart'
+import { Provider, observer } from 'mobx-react'
+import { DashboardPageStore, LoadingStatus } from './dashboard.store'
+import { DashboardComponent } from '../components/dashboard'
+import { LoadingComponent } from '../components/loading'
 
 interface State {
   pageStore: DashboardPageStore
 }
 
+@observer
 export default class DashboardPage extends React.Component<{}, State> {
   state: State = {
     pageStore: new DashboardPageStore()
   }
 
+  componentDidMount () {
+    this.state.pageStore.init()
+  }
+
+  componentWillUnmount () {
+    this.state.pageStore.destroy()
+  }
+
   render () {
-    if (typeof window === 'undefined') {
-      return 'Loading'
-    }
+    const { pageStore } = this.state
 
     return (
-      <Provider pageStore={this.state.pageStore}>
-        <main>
-          <LogoSvg className="h-10" />
-          <div className="last-updated">
-            {new Date().toISOString()}
-          </div>
-          <div className="global-cases">
-            <div className="global-cases-infected">
-              <Tippy
-                content="24hr change"
-                animation="shift-away"
-                arrow={true}
-                duration={100}
-                placement="top"
-              >
-                <span>1290003</span>
-              </Tippy>
-            </div>
-            <div className="global-cases-deaths">
-              <Tippy
-                content="24hr change"
-                animation="shift-away"
-                arrow={true}
-                duration={100}
-                placement="top"
-              >
-                <span>4767 (3.7%)</span>
-              </Tippy>
-            </div>
-            <div className="global-cases-recovered">
-              <Tippy
-                content="24hr change"
-                animation="shift-away"
-                arrow={true}
-                duration={100}
-                placement="top"
-              >
-                <span>68850 (53.4%)</span>
-              </Tippy>
-            </div>
-          </div>
-          <div className="region-select">
-            Select your region
-            <select>
-              <option>Here</option>
-            </select>
-          </div>
-          <div className="region-comparison-select">
-            Compare your region with
-            <select>
-              <option>There</option>
-            </select>
-          </div>
-          <div className="region-cases">
-            <div className="region-cases-infected">
-              <Tippy
-                content="24hr change"
-                animation="shift-away"
-                arrow={true}
-                duration={100}
-                placement="top"
-              >
-                <span>1290003</span>
-              </Tippy>
-            </div>
-            <div className="region-cases-deaths">
-              <Tippy
-                content="24hr change"
-                animation="shift-away"
-                arrow={true}
-                duration={100}
-                placement="top"
-              >
-                <span>4767 (3.7%)</span>
-              </Tippy>
-            </div>
-            <div className="region-cases-recovered">
-              <Tippy
-                content="24hr change"
-                animation="shift-away"
-                arrow={true}
-                duration={100}
-                placement="top"
-              >
-                <span>68850 (53.4%)</span>
-              </Tippy>
-            </div>
-          </div>
-          <div className="time-chart">
-            <LineChartComponent />
-          </div>
-          <div className="local-advice">
-            local advice
-          </div>
-          <div className="general-advice">
-            swiper with general advice
-          </div>
+      <Provider pageStore={pageStore}>
+        <main data-page="dashboard">
+          {(() => {
+            switch (pageStore.loadingStatus) {
+              case LoadingStatus.HAS_LOADED:
+                return <DashboardComponent />
+              case LoadingStatus.IS_LOADING:
+                return (
+                  <div className="h-screen w-screen flex flex-col items-center justify-center">
+                    <LoadingComponent className="h-16" />
+                    <span className="font-bold text-xl mt-1">CoronaTab</span>
+                  </div>
+                )
+              case LoadingStatus.HAS_ERRORED:
+                return (
+                  <div className="h-screen w-screen flex flex-col items-center justify-center">
+                    <LoadingComponent className="h-16" />
+                    <span className="font-bold text-xl mt-1 mb-2">Service unavailable</span>
+                    <button
+                      onClick={() => window.location.reload()}
+                      className="btn btn-white border-2 border-light rounded px-3 py-1"
+                    >
+                      Try again
+                    </button>
+                  </div>
+                )
+            }
+          })()}
         </main>
       </Provider>
     )

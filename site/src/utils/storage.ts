@@ -17,9 +17,9 @@ abstract class BaseStorage {
 }
 
 export class LocalStorage extends BaseStorage {
-  static storage = localStorage
+  static storage = typeof window !== 'undefined' && window.localStorage
 }
 
 export class SessionStorage extends BaseStorage {
-  static storage = sessionStorage
+  static storage = typeof window !== 'undefined' && window.sessionStorage
 }
