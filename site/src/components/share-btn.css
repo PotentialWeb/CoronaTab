@@ -4,12 +4,13 @@
       @apply flex items-center;
       > li {
         button {
-          @apply text-xl;
-          &:hover {
-            @apply opacity-50;
-          }
           > svg {
-            @apply m-2;
+            @apply text-brand-light m-2 text-lg;
+          }
+          &:hover {
+            > svg {
+              @apply text-brand;
+            }
           }
         }
       }
