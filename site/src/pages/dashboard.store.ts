@@ -4,6 +4,7 @@ import { Place } from '@coronatab/shared'
 import { PlaceApi, PlaceApiFindClosestQuery } from '../utils/api/place'
 import { LocalStorage } from '../utils/storage'
 import { HTTP } from '../utils/http'
+import qs from 'qs'
 
 export enum LoadingStatus {
   IS_LOADING = 'isLoading',
@@ -105,12 +106,19 @@ export class DashboardPageStore {
     let query: PlaceApiFindClosestQuery = {
       include: ['children' as 'children']
     }
-    try {
-      const { lng, lat } = await this.requestCurrentLocation()
+    const { lng, lat } = qs.parse(window.location.search.replace(/\?(.*)$/, '$1'))
+
+    if (lng && lat) {
       query = { ...query, lng, lat }
-    } catch (err) {
-      console.warn('User did not authorize geolocation API', err)
+    } else {
+      try {
+        const { lng, lat } = await this.requestCurrentLocation()
+        query = { ...query, lng, lat }
+      } catch (err) {
+        console.warn('User did not authorize geolocation API', err)
+      }
     }
+
     try {
       const { data: places } = await PlaceApi.findClosest(query)
       if (!places?.length) throw new Error('No closest places returned')
