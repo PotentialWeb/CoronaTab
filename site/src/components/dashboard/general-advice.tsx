@@ -3,6 +3,7 @@ import SwiperComponent from 'react-id-swiper'
 import Swiper from 'swiper'
 import { inject, observer } from 'mobx-react'
 import { DashboardPageStore } from '../../pages/dashboard.store'
+import ExternalLinkSvg from '../../../public/icons/external-link.svg'
 
 interface Props {
   pageStore?: DashboardPageStore,
@@ -73,8 +74,9 @@ export class DashboardGeneralAdviceComponent extends Component<Props, State> {
           </div>
           <div className="text-sm">
             More info:{' '}
-            <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public" target="_blank" className="font-bold underline">
-              WHO advice for the public
+            <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public" target="_blank" className="inline-flex items-center font-bold underline">
+              WHO public advice
+              <ExternalLinkSvg className="h-line-sm ml-1" />
             </a>
           </div>
         </div>
