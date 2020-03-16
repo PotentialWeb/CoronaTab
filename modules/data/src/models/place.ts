@@ -1,13 +1,11 @@
-import { Column, Entity, ManyToOne, OneToOne, PrimaryColumn, JoinColumn, ManyToMany, OneToMany } from 'typeorm'
+import { Column, Entity, ManyToOne, PrimaryColumn, OneToMany } from 'typeorm'
 import { Polygon, BBox, Point } from 'geojson'
 import { Model } from './model'
 import { PlaceType } from './place/type'
 import { PlacePolygon } from './place/polygon'
 import { PlaceTypeId } from '../seeds/places/types'
-import { DEFAULT_RADIUS_METERS } from '../../../../shared/constants'
-import { LocaleTranslations } from '../../../../shared/locales'
+import { DEFAULT_RADIUS_METERS, LocaleTranslations } from '@coronatab/shared'
 import { PlaceData } from './place/data'
-import { connection } from '..'
 
 export interface ParentPlaceRef {
   id: string

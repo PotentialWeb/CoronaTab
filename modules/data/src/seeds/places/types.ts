@@ -1,5 +1,5 @@
 import { PlaceType } from '../../models/place/type'
-import { Types } from '../../../../../shared/types'
+import { Types } from '@coronatab/shared'
 
 export const PlaceTypeIds = [
   'planet',

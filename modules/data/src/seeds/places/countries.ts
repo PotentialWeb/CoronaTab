@@ -1,7 +1,7 @@
 import { Place } from '../../models/place'
 import { PlacePolygon } from '../../models/place/polygon'
 import dasherize from 'dasherize'
-import { LocaleTranslations } from '../../../../../shared/locales'
+import { LocaleTranslations } from '@coronatab/shared'
 import * as path from 'path'
 
 export const CountriesData: {

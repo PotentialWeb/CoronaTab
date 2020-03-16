@@ -1,6 +1,5 @@
 import { Locale } from '../models/locale'
-import { LocaleIds } from '../../../../shared/locales'
-import { Types } from '../../../../shared/types'
+import { LocaleIds, Types } from '@coronatab/shared'
 
 export const Locales = LocaleIds.map(id => new Locale({
   id,

@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@coronatab/shared": "file:../shared",
     "@types/geojson": "^7946.0.7",
     "dasherize": "^2.0.0",
     "geojson": "^0.5.0",
