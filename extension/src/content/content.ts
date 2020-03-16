@@ -1,6 +1,7 @@
 
 import { browser } from 'webextension-polyfill-ts'
 
+console.time('start')
 browser.runtime.sendMessage({
   event: 'GET_LOCATION'
 })
@@ -8,6 +9,8 @@ browser.runtime.sendMessage({
 let dashboardLoaded = false
 const loadDashboard = ({ lat, lng }: { lat?: number, lng?: number } = {}) => {
   if (dashboardLoaded) return
+  console.timeEnd('start')
+
   dashboardLoaded = true
   const iframe = document.createElement('iframe')
   iframe.className = 'dashboard'
