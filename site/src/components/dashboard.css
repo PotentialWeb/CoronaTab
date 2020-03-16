@@ -3,7 +3,7 @@
 }
 
 .dashboard {
-  @apply h-screen flex min-h-0;
+  @apply h-screen flex min-h-0 max-w-full overflow-hidden;
   @apply -mx-1;
   padding: 2.5vw 2.5vw;
   &-col {

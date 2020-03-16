@@ -24,7 +24,7 @@ export class DashboardComponent extends Component<Props> {
     const iFramed = window?.self !== window?.top
 
     return (
-      <main className="dashboard">
+      <div className="dashboard">
         <div className="dashboard-col w-3/5">
 
           <div className="dashboard-panel-container">
@@ -145,7 +145,7 @@ export class DashboardComponent extends Component<Props> {
           </div>
 
         </div>
-      </main>
+      </div>
     )
   }
 }
