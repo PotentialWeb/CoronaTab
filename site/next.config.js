@@ -10,7 +10,8 @@ module.exports = {
           return 'https://api.coronatab.app'
       }
     })(),
-    API_NAMESPACE: process.env.API_NAMESPACE
+    API_NAMESPACE: process.env.API_NAMESPACE,
+    GTM_ENABLED: process.env.GTM_ENABLED === 'true' || process.env.NODE_ENV !== 'development'
   },
   webpack: config => {
     // Import svgs through svgr

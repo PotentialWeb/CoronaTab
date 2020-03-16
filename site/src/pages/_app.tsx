@@ -6,6 +6,7 @@ import { Provider } from 'mobx-react'
 import { AppStore } from './_app.store'
 import { Meta } from '../utils/meta'
 import { Facebook } from '../utils/facebook'
+import { Google } from '../utils/google'
 import '../style.css'
 
 interface Props extends AppInitialProps {}
@@ -23,6 +24,10 @@ export const getStaticProps: GetStaticProps = async context => {
 export default class App extends NextApp<Props, State> {
   state: State = {
     appStore: new AppStore()
+  }
+
+  componentDidMount () {
+    Google.useTagManager()
   }
 
   render () {
