@@ -1,0 +1,12 @@
+
+body {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+.dashboard {
+  border: none;
+  width: 100vw;
+  height: 100vh;
+}
