@@ -27,7 +27,7 @@ export default class App extends NextApp<Props, State> {
 
   render () {
     const { Component, pageProps } = this.props
-    const buildFaviconPath = (size: number) => `/favicons/${size}.png`
+    const buildFaviconPath = (size: number) => `/favicons/favicon-${size}.png`
     const pageTitle = Meta.buildPageTitle({ strapline: true })
     const shareImgUrl = `${Meta.BASE_PATH}/images/social-share-card.jpg`
     const currentUrl = `${Meta.BASE_PATH}` // TODO: SSG, get absolute path
