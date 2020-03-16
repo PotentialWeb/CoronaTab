@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import Router from 'next/router'
+import Link from 'next/link'
 import { inject, observer } from 'mobx-react'
 import { DashboardPageStore } from '../pages/dashboard.store'
 import { DashboardStatsComponent } from './dashboard/stats'
@@ -30,16 +30,11 @@ export class DashboardComponent extends Component<Props> {
           <div className="dashboard-panel-container">
             <div className="dashboard-nav">
               <div className="flex-1">
-                <button
-                  onClick={(e) => {
-                    e.preventDefault()
-                    e.stopPropagation()
-                    if (!iFramed) Router.push('/')
-                  }}
-                  className="btn"
-                >
-                  <LogoTextSvg className="h-10" />
-                </button>
+                <Link href="/">
+                  <a target={iFramed ? '_blank' : null} className="btn">
+                    <LogoTextSvg className="h-10" />
+                  </a>
+                </Link>
               </div>
               <div className="flex justify-end flex-1">
                 <ShareBtnComponent
