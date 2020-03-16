@@ -8,7 +8,7 @@
     "build:local": "CORONATAB_ENVIRONMENT=LOCAL npm run build",
     "build:staging": "CORONATAB_ENVIRONMENT=STAGING npm run build",
     "build:production": "CORONATAB_ENVIRONMENT=PRODUCTION npm run build && npm run build:zip",
-    "build:zip": "cd dist/ && zip -r -D ./Hoobu.zip * -x '*.DS_Store'",
+    "build:zip": "cd dist/ && zip -r -D ./CoronaTab.zip * -x '*.DS_Store'",
     "dev": "NODE_ENV=development webpack --watch --mode development --info-verbosity verbose",
     "dev:local": "CORONATAB_ENVIRONMENT=LOCAL npm run dev",
     "dev:staging": "CORONATAB_ENVIRONMENT=STAGING npm run dev",

@@ -2,6 +2,7 @@
   "name": "CoronaTab",
   "description": "Browser extension showing localized Coronavirus statistics & advice every time you open a new tab.",
   "version": "0.0.0",
+  "offline_enabled": true,
   "manifest_version": 2,
   "permissions": [ "geolocation", "https://coronatab.app/*" ],
   "background": {
@@ -14,6 +15,7 @@
  },
   "content_security_policy": "default-src 'self'; frame-src https://coronatab.app; connect-src https://sentry.io/*",
   "web_accessible_resources":[
+    "content/*",
     "assets/*"
   ],
   "browser_action": {
