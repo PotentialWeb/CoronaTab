@@ -1,5 +1,5 @@
 import { browser } from 'webextension-polyfill-ts'
-// import * as Sentry from '@sentry/browser'
+import * as Sentry from '@sentry/browser'
 
 class Background {
   constructor () {
@@ -52,5 +52,5 @@ class Background {
 const background = new Background()
 
 if (process.env.NODE_ENV === 'production') {
-  // Sentry.init({ dsn: 'https://74a8d59422b2400388350592195d8150@sentry.io/4929753' })
+  Sentry.init({ dsn: 'https://74a8d59422b2400388350592195d8150@sentry.io/4929753' })
 }
