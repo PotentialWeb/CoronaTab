@@ -2,8 +2,9 @@ import { Place } from '../../models/place'
 import { PlacePolygon } from '../../models/place/polygon'
 import dasherize from 'dasherize'
 import { LocaleTranslations } from '../../../../../shared/locales'
+import * as path from 'path'
 
-const CountriesData: {
+export const CountriesData: {
   locales: LocaleTranslations
   phoneCode: string
   alpha2code: string
@@ -395,7 +396,7 @@ const CountriesData: {
   },
   {
     locales: {
-      en: 'Côte dIvoire'
+      en: 'Cote dIvoire'
     },
     phoneCode: '+225',
     alpha2code: 'CI',
@@ -419,7 +420,7 @@ const CountriesData: {
   },
   {
     locales: {
-      en: 'Curaçao'
+      en: 'Curacao'
     },
     phoneCode: '+599',
     alpha2code: 'CW',
@@ -520,6 +521,14 @@ const CountriesData: {
     phoneCode: '+372',
     alpha2code: 'EE',
     alpha3code: 'EST'
+  },
+  {
+    locales: {
+      en: 'Eswatini'
+    },
+    phoneCode: '+268',
+    alpha2code: 'SZ',
+    alpha3code: 'SWZ'
   },
   {
     locales: {
@@ -683,6 +692,14 @@ const CountriesData: {
   },
   {
     locales: {
+      en: 'Guernsey'
+    },
+    phoneCode: '+44',
+    alpha2code: 'GG',
+    alpha3code: 'GGY'
+  },
+  {
+    locales: {
       en: 'Guinea'
     },
     phoneCode: '+224',
@@ -819,6 +836,14 @@ const CountriesData: {
   },
   {
     locales: {
+      en: 'Jersey'
+    },
+    phoneCode: '+44',
+    alpha3code: 'JEY',
+    alpha2code: 'JE'
+  },
+  {
+    locales: {
       en: 'Jordan'
     },
     phoneCode: '+962',
@@ -848,6 +873,14 @@ const CountriesData: {
     phoneCode: '+686',
     alpha2code: 'KI',
     alpha3code: 'KIR'
+  },
+  {
+    locales: {
+      en: 'Kosovo'
+    },
+    phoneCode: '+383',
+    alpha2code: 'XK',
+    alpha3code: 'XKX'
   },
   {
     locales: {
@@ -1347,7 +1380,7 @@ const CountriesData: {
   },
   {
     locales: {
-      en: 'Réunion'
+      en: 'Reunion'
     },
     phoneCode: '+262',
     alpha2code: 'RE',
@@ -1379,7 +1412,7 @@ const CountriesData: {
   },
   {
     locales: {
-      en: 'Saint Barthélemy'
+      en: 'Saint Barthelemy'
     },
     phoneCode: '+590',
     alpha2code: 'BL',
@@ -1443,7 +1476,7 @@ const CountriesData: {
   },
   {
     locales: {
-      en: 'São Tomé and Príncipe'
+      en: 'Sao Tome and Principe'
     },
     phoneCode: '+239',
     alpha2code: 'ST',
@@ -1894,7 +1927,7 @@ const CountriesData: {
 const SeededCountryPolygons: PlacePolygon[] = []
 const SeededCountries: Place[] = []
 
-const CountyPolygons = require('./country-polygons.json')
+const CountyPolygons = require(path.resolve(__dirname + '/country-polygons.json'))
 CountriesData.map(country => {
   const id = dasherize(country.locales.en.replace(/,|\.| /g, ''))
 

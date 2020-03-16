@@ -1,6 +1,6 @@
 import { Component } from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
-import { Place } from '../../../../shared/places'
+import { Place } from '@coronatab/shared'
 import { DashboardStatsComponent } from './stats'
 import { LoadingComponent } from '../loading'
 import { DashboardDailyChartComponent, DashboardCumulativeGraphComponent } from './graphs'

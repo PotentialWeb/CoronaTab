@@ -48,5 +48,14 @@ export {
   connect, connection
 }
 
-export * from './models'
-export * from './seeds'
+export * from './models/model'
+export * from './models/place'
+export * from './models/place/polygon'
+export * from './models/place/type'
+export * from './models/place/data'
+export * from './models/locale'
+
+export * from './seeds/locales'
+export * from './seeds/places'
+export * from './seeds/places/types'
+export * from './seeds/places/countries'

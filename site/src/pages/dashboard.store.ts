@@ -1,6 +1,6 @@
 import { action, observable, computed } from 'mobx'
 import allSettled from 'promise.allsettled'
-import { Place } from '../../../shared/places'
+import { Place } from '@coronatab/shared'
 import { PlaceApi, PlaceApiFindClosestQuery } from '../utils/api/place'
 import { LocalStorage } from '../utils/storage'
 import { HTTP } from '../utils/http'
@@ -134,5 +134,7 @@ export class DashboardPageStore {
   }
 
   @action.bound
-  destroy () {}
+  destroy () {
+    //
+  }
 }

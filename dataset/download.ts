@@ -83,22 +83,21 @@ type NormalizedDataRow = {
   const deathsRows = deathsRawRows.map(row => normalizeRow(row))
   const recoveredRows = recoveredRawRows.map(row => normalizeRow(row))
 
-  const countryModels = await Place.find({
-    where: {
-      typeId: 'country'
-    }
-  })
+  const places = await Place.find()
 
   const countryCodeMap: { [name: string]: string } = require('./country-code-map.json')
 
   const placesToSave: Place[] = []
   const placeDataToSave: PlaceData[] = []
 
-  for (const casesRow of casesRows.filter(r => r.country !== 'Cruise Ship')) {
+  for (const casesRow of
+    // Filter everything besides actual countries and states (no counties of cities for now) and rows with cases as 0
+    casesRows.filter(r => Object.values(r.data).some(c => c > 0) && r.country !== 'Cruise Ship' && (!r.region || !/.*, [A-Za-z]{2}/g.test(r.region)))
+  ) {
     const deathsRow = deathsRows.find(dr => dr.country === casesRow.country && dr.region === casesRow.region)
     const recoveredRow = recoveredRows.find(rr => rr.country === casesRow.country && rr.region === casesRow.region)
 
-    const country = countryModels.find(c => c.code === countryCodeMap[casesRow.country])
+    const country = places.find(p => p.typeId === 'country' && p.code === countryCodeMap[casesRow.country])
     if (!country) {
       console.error(`Country not found in DB`, casesRow.country, countryCodeMap[casesRow.country])
       process.exit(1)
@@ -132,13 +131,41 @@ type NormalizedDataRow = {
     for (const [date, cases] of Object.entries(casesRow.data)) {
       const deaths = deathsRow.data[date] ?? 0
       const recovered = recoveredRow.data[date] ?? 0
-      placeDataToSave.push(new PlaceData({
-        placeId: place.id,
-        date,
-        cases,
-        deaths,
-        recovered
-      }))
+
+      const existingPlaceData = placeDataToSave.find(pd => pd.placeId === place.id && pd.date === date)
+      if (existingPlaceData) {
+        existingPlaceData.cases += cases
+        existingPlaceData.deaths += deaths
+        existingPlaceData.recovered += recovered
+      } else {
+        placeDataToSave.push(new PlaceData({
+          placeId: place.id,
+          date,
+          cases,
+          deaths,
+          recovered
+        }))
+      }
+
+      let parentPlace = places.find(p => place.parentId === p.id)
+      // Aggregate data for parent
+      while (parentPlace) {
+        const existingParentPlaceData = placeDataToSave.find(pd => pd.placeId === parentPlace.id && pd.date === date)
+        if (existingParentPlaceData) {
+          existingParentPlaceData.cases += cases
+          existingParentPlaceData.deaths += deaths
+          existingParentPlaceData.recovered += recovered
+        } else {
+          placeDataToSave.push(new PlaceData({
+            placeId: parentPlace.id,
+            date,
+            cases,
+            deaths,
+            recovered
+          }))
+        }
+        parentPlace = places.find(p => parentPlace.parentId === p.id)
+      }
     }
   }
 

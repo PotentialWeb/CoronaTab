@@ -2,7 +2,7 @@
   "name": "@coronatab/shared",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/modules/shared/src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "./node_modules/.bin/tsc -p ."
   },
