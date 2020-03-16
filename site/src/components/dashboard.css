@@ -1,3 +1,7 @@
+[data-page="dashboard"] {
+  min-width: theme('screens.lg');
+}
+
 .dashboard {
   @apply h-screen flex min-h-0;
   @apply -mx-1;

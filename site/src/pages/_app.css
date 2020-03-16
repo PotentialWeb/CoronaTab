@@ -23,7 +23,6 @@ html {
 
 body {
   -webkit-font-smoothing: antialiased;
-  min-width: theme('screens.lg');
   &.no-scroll {
     @apply overflow-hidden;
   }

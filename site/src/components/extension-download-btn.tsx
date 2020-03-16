@@ -15,6 +15,7 @@ export class ExtensionDownloadBtnComponent extends Component<Props> {
     const {
       appStore,
       logoClassName,
+      children,
       ...props
     } = this.props
     const { browserExtension } = appStore
@@ -25,9 +26,15 @@ export class ExtensionDownloadBtnComponent extends Component<Props> {
         className="btn flex min-w-0 items-center"
         {...props}
       >
-        <img className={logoClassName} src={`/browser-logos/${browserExtension.name.toLowerCase()}.png`}/>
-        <span className="mr-2 truncate">Download {browserExtension.name} extension</span>
-        <ExternalLinkSvg className="h-line-sm" />
+        {
+          children ?? (
+            <>
+              <img className={logoClassName} src={`/browser-logos/${browserExtension.name.toLowerCase()}.png`}/>
+              <span className="mr-2 truncate">Download {browserExtension.name} extension</span>
+              <ExternalLinkSvg className="h-line-sm" />
+            </>
+          )
+        }
       </a>
     )
   }

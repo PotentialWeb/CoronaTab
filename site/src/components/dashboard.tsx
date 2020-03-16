@@ -1,7 +1,6 @@
 import { Component } from 'react'
 import { inject, observer } from 'mobx-react'
 import { DashboardPageStore } from '../pages/dashboard.store'
-import { Meta } from '../utils/meta'
 import { DashboardStatsComponent } from './dashboard/stats'
 import { PlaceSelectComponent } from './place-select'
 import { DashboardQuickLinksComponent } from './dashboard/quick-links'
@@ -10,19 +9,17 @@ import LogoTextSvg from '../../public/icons/logo-text.svg'
 import { DashboardGeneralAdviceComponent } from './dashboard/general-advice'
 import { DashboardFooterComponent } from './dashboard/footer'
 import { ShareBtnComponent } from './share-btn'
-import { AppStore } from '../pages/_app.store'
 import { ExtensionDownloadBtnComponent } from './extension-download-btn'
 
 interface Props {
-  appStore?: AppStore
   pageStore?: DashboardPageStore
 }
 
-@inject('appStore', 'pageStore')
+@inject('pageStore')
 @observer
 export class DashboardComponent extends Component<Props> {
   render () {
-    const { appStore, pageStore } = this.props
+    const { pageStore } = this.props
 
     return (
       <main className="dashboard">
