@@ -26,6 +26,9 @@ class Background {
               browser.tabs.sendMessage(sender.tab.id, {
                 event: 'LOCATION_ERROR'
               })
+            }, {
+              enableHighAccuracy: false,
+              maximumAge: 1000 * 60 * 10
             })
           }
         }
