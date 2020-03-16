@@ -8,12 +8,9 @@
   &-btn {
     @apply
       flex items-center rounded-sm text-sm pl-2 pr-3 py-1 whitespace-no-wrap
-      bg-lighter border border-lighter;
+      border-2 border-lighter;
     &-logo {
       @apply flex items-center justify-center h-6 w-6 rounded-full bg-white mr-2;
-    }
-    &:hover {
-      @apply bg-white border-light;
     }
   }
 }
