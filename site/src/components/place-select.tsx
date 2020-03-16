@@ -1,6 +1,6 @@
 import { Component, createRef, RefObject } from 'react'
 import Downshift from 'downshift'
-import { Place } from '../../../shared/places'
+import { Place } from '@coronatab/shared'
 import Tippy from '@tippy.js/react'
 import CaretUpSvg from '../../public/icons/caret-up.svg'
 import CaretDownSvg from '../../public/icons/caret-down.svg'

@@ -6,9 +6,13 @@
     "dev": "next dev -p 8080",
     "dev:local": "NODE_ENV=development npm run dev",
     "build": "next build",
+    "build:development": "npm run build",
+    "build:production": "NODE_ENV=production npm run build",
+    "deploy": "cd ../ && ./site/scripts/deploy.sh",
     "start": "next start"
   },
   "dependencies": {
+    "@coronatab/shared": "file:../modules/shared",
     "@tippy.js/react": "^3.1.1",
     "downshift": "^5.0.4",
     "isomorphic-unfetch": "^3.0.0",

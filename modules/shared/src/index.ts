@@ -1,4 +1,5 @@
 
-export * from '../../../shared/constants'
-export * from '../../../shared/types'
-export * from '../../../shared/locales'
+export * from './constants'
+export * from './types'
+export * from './locales'
+export * from './places'

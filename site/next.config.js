@@ -1,4 +1,5 @@
 module.exports = {
+  pageExtensions: ['tsx'],
   env: {
     API_HOST: (() => {
       if (process.env.API_HOST) return process.env.API_HOST
