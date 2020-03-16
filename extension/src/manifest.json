@@ -1,7 +1,7 @@
 {
   "name": "CoronaTab",
   "description": "Browser extension showing localized Coronavirus statistics & advice every time you open a new tab.",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "offline_enabled": true,
   "manifest_version": 2,
   "permissions": [ "geolocation", "https://coronatab.app/*" ],
