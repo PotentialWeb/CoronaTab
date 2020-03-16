@@ -21,7 +21,7 @@ export default class IndexPage extends Component {
                   #coronatab #COVID19
                 </h3>
                 <h2 className="font-bold mb-6 text-lg text-brand-light" style={{ maxWidth: '90%' }}>
-                  {Meta.STRAPLINE}
+                  {Meta.DESCRIPTION}
                 </h2>
                 <div className="my-3">
                   <ExtensionDownloadBtnComponent
