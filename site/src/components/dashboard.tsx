@@ -24,25 +24,6 @@ export class DashboardComponent extends Component<Props> {
   render () {
     const { pageStore } = this.props
     const iFramed = window?.self !== window?.top
-    const dateSelectProps = (() => {
-      let props = {
-        startDate: null,
-        endDate: null
-      }
-      const minDate = moment().subtract(3, 'months').toDate()
-      const maxDate = moment().toDate()
-      const month = maxDate
-      const fromMonth = minDate
-      const toMonth = maxDate
-      return {
-        ...props,
-        minDate,
-        maxDate,
-        month,
-        fromMonth,
-        toMonth
-      }
-    })()
 
     return (
       <div className="dashboard">
@@ -50,7 +31,7 @@ export class DashboardComponent extends Component<Props> {
 
           <div className="dashboard-panel-container">
             <div className="dashboard-nav">
-              <div className="flex-1">
+              <div className="flex-shrink-0">
                 <Link href="/">
                   <a target={iFramed ? '_blank' : null} className="btn">
                     <LogoTextSvg className="h-10" />
@@ -60,8 +41,32 @@ export class DashboardComponent extends Component<Props> {
               <div className="flex justify-end flex-1">
                 <div className="flex-shrink-0 flex-grow-0">
                   <DateSelectComponent
-                    onChange={(e) => console.log(e)}
-                    {...dateSelectProps}
+                    onChange={({ startDate, endDate }) => {
+                      pageStore.startDate = startDate
+                      pageStore.endDate = endDate
+                    }}
+                    buttonProps={{
+                      className: 'btn btn-white border border-light px-3 py-1 rounded flex items-center mr-1'
+                    }}
+                    {...(() => {
+                      let props = {
+                        startDate: pageStore.startDate,
+                        endDate: pageStore.endDate
+                      }
+                      const minDate = moment().subtract(3, 'months').toDate()
+                      const maxDate = moment().toDate()
+                      const month = maxDate
+                      const fromMonth = minDate
+                      const toMonth = maxDate
+                      return {
+                        ...props,
+                        minDate,
+                        maxDate,
+                        month,
+                        fromMonth,
+                        toMonth
+                      }
+                    })()}
                   />
                 </div>
                 <div className="flex-shrink-0 flex-grow-0">

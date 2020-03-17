@@ -5,6 +5,7 @@ import { PlaceApi, PlaceApiFindClosestQuery } from '../utils/api/place'
 import { LocalStorage } from '../utils/storage'
 import { HTTP } from '../utils/http'
 import qs from 'qs'
+import moment from 'moment'
 
 export enum LoadingStatus {
   IS_LOADING = 'isLoading',
@@ -47,6 +48,12 @@ export class DashboardPageStore {
     this._selectedPlaceDetail = place
     LocalStorage.set('selectedPlaceDetail', place)
   }
+
+  @observable
+  startDate = moment().subtract(3, 'months').toDate()
+
+  @observable
+  endDate = moment().toDate()
 
   @observable
   advice: { [key: string]: { title: string, description: string } } = {}

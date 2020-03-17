@@ -1,11 +1,11 @@
-import React from 'react'
+import { Component, HTMLAttributes } from 'react'
 import Tippy from '@tippy.js/react'
 import { DayPickerComponent } from './day-picker'
 import CalendarSvg from '../../public/icons/calendar.svg'
 
 type DateSelectValue = { startDate?: Date, endDate?: Date }
 
-interface Props extends Omit<React.HTMLAttributes<HTMLDivElement>, 'onChange'> {
+interface Props extends Omit<HTMLAttributes<HTMLDivElement>, 'onChange'> {
   onChange: ({ startDate, endDate }: DateSelectValue) => any
   startDate: Date
   endDate: Date
@@ -14,6 +14,7 @@ interface Props extends Omit<React.HTMLAttributes<HTMLDivElement>, 'onChange'> {
   month: Date
   fromMonth: Date
   toMonth: Date
+  buttonProps?: HTMLAttributes<HTMLButtonElement>
 }
 
 interface State {
@@ -22,7 +23,7 @@ interface State {
   endDate?: Date
 }
 
-export class DateSelectComponent extends React.Component<Props,State> {
+export class DateSelectComponent extends Component<Props,State> {
   state: State = {
     isOpen: false,
     startDate: this.props.startDate,
@@ -32,6 +33,7 @@ export class DateSelectComponent extends React.Component<Props,State> {
   toggleIsOpen = () => this.setState(prevState => ({ isOpen: !prevState.isOpen }))
 
   onChange = (dates: DateSelectValue) => {
+    this.setState({ ...dates })
     this.props.onChange(dates)
     this.setState({ isOpen: false })
   }
@@ -48,6 +50,7 @@ export class DateSelectComponent extends React.Component<Props,State> {
       month,
       fromMonth,
       toMonth,
+      buttonProps,
       ...props
     } = this.props
 
@@ -91,8 +94,9 @@ export class DateSelectComponent extends React.Component<Props,State> {
           <button
             onClick={() => this.setState({ isOpen: true })}
             className="btn trip-date-select-btn"
+            {...buttonProps}
           >
-            <CalendarSvg className="h-line" />
+            <CalendarSvg className="h-line mr-2" />
             <span>
               {
                 hasDates

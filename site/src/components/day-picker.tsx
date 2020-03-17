@@ -86,7 +86,7 @@ export class DayPickerComponent extends React.Component<Props, State> {
             {
               (startDate && endDate)
                 ? (
-                  <div className="inline-flex items-center rounded bg-lighter px-2 py-1 font-bold">
+                  <div className="inline-flex items-center rounded bg-lighter text-sm px-2 py-1 font-bold">
                     <span>{Date.rangeToString(startDate, endDate)}</span>
                     <button
                       onClick={() => this.setState({ startDate: null, endDate: null })}

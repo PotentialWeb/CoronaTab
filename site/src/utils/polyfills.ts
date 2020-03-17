@@ -2,16 +2,17 @@ import moment from 'moment'
 
 declare global {
   interface DateConstructor {
-    rangeToString (startDate: string | Date, endDate: string | Date): string
+    rangeToString (start: string | Date, end: string | Date): string
   }
 }
 
-Date.rangeToString = (startDate: string | Date, endDate: string | Date) => {
-  if (!startDate || !endDate) return
-  const checkInDate = moment(startDate)
-  const checkOutDate = moment(endDate)
-  const checkInYear = checkInDate.get('year')
-  const checkOutYear = checkOutDate.get('year')
-  const yearsMatch = checkInYear === checkOutYear
-  return `${checkInDate.format(`D MMM${!yearsMatch ? ' YYYY' : ''}`)} - ${checkOutDate.format('D MMM YYYY')}`
+Date.rangeToString = (start: string | Date, end: string | Date) => {
+  if (!start || !end) return
+  const startDate = moment(start)
+  const endDate = moment(end)
+  if (startDate.toISOString() === endDate.toISOString()) return endDate.format(`D MMM YYYY`)
+  const startYear = startDate.get('year')
+  const endYear = endDate.get('year')
+  const yearsMatch = startYear === endYear
+  return `${startDate.format(`D MMM${!yearsMatch ? ' YYYY' : ''}`)} - ${endDate.format('D MMM YYYY')}`
 }
