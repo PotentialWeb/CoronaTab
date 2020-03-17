@@ -28,6 +28,7 @@
     "react-share": "^4.1.0",
     "react-tabs": "^3.1.0",
     "recharts": "^2.0.0-beta.2",
+    "sitemap": "^6.1.0",
     "swiper": "^5.3.6",
     "ua-parser-js": "^0.7.21"
   },
