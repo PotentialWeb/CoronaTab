@@ -1,35 +1,38 @@
 import React from 'react'
 import moment from 'moment'
 import DayPicker, { DateUtils } from 'react-day-picker'
-import CloseSvg from '../../assets/icons/close.svg'
+import CloseSvg from '../../public/icons/close.svg'
 
-interface DayPickerProps extends React.HTMLAttributes<HTMLDivElement> {
+type DayPickerValue = { startDate?: Date, endDate?: Date }
+
+interface Props extends React.HTMLAttributes<HTMLDivElement> {
   startDate: Date
   endDate: Date
-  onApply: ({ startDate, endDate }: { startDate: Date, endDate: Date }) => any
+  minDate: Date
+  maxDate: Date
+  month: Date
+  fromMonth?: Date
+  toMonth?: Date
+  onApply: ({ startDate, endDate }: DayPickerValue) => any
   onCancel: () => any
 }
 
-interface DayPickerState {
-  startDate?: Date
-  endDate?: Date
-  fromMonth: Date
-  toMonth: Date
+interface State {
+  startDate: Date
+  endDate: Date
   minDate: Date
   maxDate: Date
+  month: Date
+  fromMonth: Date
+  toMonth: Date
   popupTitle: string
 }
 
-export class DayPickerComponent extends React.Component<DayPickerProps, DayPickerState> {
-  state: DayPickerState = (() => {
-    const { startDate, endDate } = this.props
-    const minDate = moment().add(1, 'day').toDate()
-    const maxDate = moment().add(365, 'days').toDate()
+export class DayPickerComponent extends React.Component<Props, State> {
+  state: State = (() => {
+    const { startDate, endDate, minDate, maxDate, month, fromMonth, toMonth } = this.props
 
-    let fromMonth = new Date()
-    if (startDate && startDate < fromMonth) fromMonth = startDate
-    let toMonth = maxDate
-    if (endDate && endDate > toMonth) toMonth = endDate
+    // Modify dates here perhaps
 
     const popupTitle = (!startDate || !endDate)
       ? 'Select dates'
@@ -40,6 +43,7 @@ export class DayPickerComponent extends React.Component<DayPickerProps, DayPicke
       endDate,
       minDate,
       maxDate,
+      month,
       fromMonth,
       toMonth,
       popupTitle
@@ -99,7 +103,7 @@ export class DayPickerComponent extends React.Component<DayPickerProps, DayPicke
         <DayPicker
           numberOfMonths={2}
           selectedDays={[startDate, { from: startDate, to: endDate }]}
-          month={this.state.minDate}
+          month={this.state.month}
           fromMonth={this.state.fromMonth}
           toMonth={this.state.toMonth}
           modifiers={{ start: startDate, end: endDate }}
@@ -114,14 +118,14 @@ export class DayPickerComponent extends React.Component<DayPickerProps, DayPicke
             <button
               disabled={!startDate && !endDate}
               onClick={() => this.setState({ startDate: null, endDate: null })}
-              className="btn btn-light px-3 py-2 rounded mr-1"
+              className="btn btn-white border-2 border-lighter px-3 py-2 rounded mr-1"
             >
               Reset
             </button>
 
             <button
               onClick={() => this.props.onCancel?.()}
-              className="btn btn-light px-3 py-2 rounded"
+              className="btn btn-white border-2 border-lighter px-3 py-2 rounded"
             >
               Cancel
             </button>
@@ -130,7 +134,7 @@ export class DayPickerComponent extends React.Component<DayPickerProps, DayPicke
             <button
               onClick={this.onApplyBtnClick}
               disabled={!this.isValid}
-              className="btn btn-highlight p-3 px-12 rounded"
+              className="btn btn-white border-2 border-lighter p-3 px-12 rounded"
             >
               Apply
             </button>

@@ -1,7 +1,7 @@
 /* Base btn classes. Apply as a class to each button. */
 
 .btn--disabled {
-  @apply bg-light text-brand-dull cursor-default;
+  @apply bg-white text-brand-duller cursor-default;
 }
 
 .btn--focus {

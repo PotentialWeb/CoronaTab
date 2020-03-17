@@ -47,7 +47,7 @@
 }
 
 .DayPicker-NavButton--interactionDisabled {
-  @apply hidden;
+  @apply opacity-0 !important;
 }
 
 .DayPicker-Caption {
