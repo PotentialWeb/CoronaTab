@@ -6,9 +6,9 @@ export class Meta {
   static PAGE_TITLE_DELIMITER = ' - '
   static BASE_PATH = 'https://coronatab.app'
   static EXTENSION_URL = {
-    CHROME: 'https://chrome.google.com/webstore',
-    FIREFOX: 'https://addons.mozilla.org/en-GB/firefox',
-    EDGE: 'https://microsoftedge.microsoft.com/addons'
+    CHROME: 'https://chrome.google.com/webstore/detail/fipekhmgdkpocnpkfonlgbflampgkmlk',
+    FIREFOX: 'https://addons.mozilla.org/en-GB/firefox/addon/coronatab/',
+    EDGE: 'https://microsoftedge.microsoft.com/addons/detail/jkmoagnlaijjdljpablgbefbofojlinm'
   }
   static FACEBOOK_APP_ID = '' // TODO: Add this
 

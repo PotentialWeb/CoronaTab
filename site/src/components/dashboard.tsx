@@ -1,8 +1,10 @@
 import { Component } from 'react'
 import Link from 'next/link'
+import moment from 'moment'
 import { inject, observer } from 'mobx-react'
 import { DashboardPageStore } from '../pages/dashboard.store'
 import { DashboardStatsComponent } from './dashboard/stats'
+import { DateSelectComponent } from './date-select'
 import { PlaceSelectComponent } from './place-select'
 import { DashboardQuickLinksComponent } from './dashboard/quick-links'
 import { DashboardSelectedPlaceComponent } from './dashboard/selected-place'
@@ -29,7 +31,7 @@ export class DashboardComponent extends Component<Props> {
 
           <div className="dashboard-panel-container">
             <div className="dashboard-nav">
-              <div className="flex-1">
+              <div className="flex-shrink-0">
                 <Link href="/">
                   <a target={iFramed ? '_blank' : null} className="btn">
                     <LogoTextSvg className="h-10" />
@@ -37,10 +39,42 @@ export class DashboardComponent extends Component<Props> {
                 </Link>
               </div>
               <div className="flex justify-end flex-1">
-                <ShareBtnComponent
-                  tooltipPlacement="bottom"
-                  className="btn btn-white flex items-center border border-light px-6 py-1 rounded"
-                />
+                <div className="flex-shrink-0 flex-grow-0">
+                  <DateSelectComponent
+                    onChange={({ startDate, endDate }) => {
+                      pageStore.startDate = startDate
+                      pageStore.endDate = endDate
+                    }}
+                    buttonProps={{
+                      className: 'btn btn-white border border-light px-3 py-1 rounded flex items-center mr-1'
+                    }}
+                    {...(() => {
+                      let props = {
+                        startDate: pageStore.startDate,
+                        endDate: pageStore.endDate
+                      }
+                      const minDate = moment().subtract(3, 'months').toDate()
+                      const maxDate = moment().toDate()
+                      const month = maxDate
+                      const fromMonth = minDate
+                      const toMonth = maxDate
+                      return {
+                        ...props,
+                        minDate,
+                        maxDate,
+                        month,
+                        fromMonth,
+                        toMonth
+                      }
+                    })()}
+                  />
+                </div>
+                <div className="flex-shrink-0 flex-grow-0">
+                  <ShareBtnComponent
+                    tooltipPlacement="bottom"
+                    className="btn btn-white flex items-center border border-light px-6 py-1 rounded"
+                  />
+                </div>
                 {/*<span className="text-xs">
                   Last Updated: {pageStore.lastUpdated?.toISOString()}
                  </span>*/}

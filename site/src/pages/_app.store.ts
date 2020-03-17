@@ -1,11 +1,12 @@
 import { useStaticRendering } from 'mobx-react'
-import { computed } from 'mobx'
+import { computed, observable } from 'mobx'
 import { UserAgent } from '../utils/user-agent'
 import { Meta } from '../utils/meta'
 
 useStaticRendering(typeof window === 'undefined')
 
 export class AppStore {
+  @observable
   userAgent = (() => {
     if (typeof window === 'undefined') return
     return UserAgent.parse(window.navigator.userAgent)

@@ -19,25 +19,31 @@ export class ExtensionDownloadBtnComponent extends Component<Props> {
       children,
       ...props
     } = this.props
+
     const { browserExtension } = appStore
-    return (
-      <a
-        href={browserExtension.url}
-        onClick={() => Google.pushGTMEvent('Extension:DownloadClickout')}
-        target="_blank"
-        className="btn flex min-w-0 items-center"
-        {...props}
-      >
-        {
-          children ?? (
-            <>
-              <img className={logoClassName} src={`/browser-logos/${browserExtension.name.toLowerCase()}.png`}/>
-              <span className="mr-2 truncate">Download {browserExtension.name} extension</span>
-              <ExternalLinkSvg className="h-line-sm" />
-            </>
-          )
-        }
-      </a>
-    )
+
+    return typeof window !== 'undefined'
+      ? (
+        <a
+          href={browserExtension.url}
+          onClick={() => Google.pushGTMEvent('Extension:DownloadClickout')}
+          target="_blank"
+          className="btn flex min-w-0 items-center"
+          {...props}
+        >
+          {
+            children ?? (
+              <>
+                <img className={logoClassName} src={`/browser-logos/${browserExtension.name.toLowerCase()}.png`}/>
+                <span className="mr-2 truncate">
+                  Download {browserExtension.name} extension
+                </span>
+                <ExternalLinkSvg className="h-line-sm" />
+              </>
+            )
+          }
+        </a>
+      )
+      : ''
   }
 }
