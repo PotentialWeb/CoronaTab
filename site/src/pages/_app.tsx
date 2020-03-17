@@ -7,6 +7,7 @@ import { AppStore } from './_app.store'
 import { Meta } from '../utils/meta'
 import { Facebook } from '../utils/facebook'
 import { Google } from '../utils/google'
+import '../utils/polyfills'
 import '../style.css'
 
 interface Props extends AppInitialProps {}
