@@ -7,7 +7,7 @@
     "dev": "NODE_ENV=development ./node_modules/.bin/tsnd --respawn src/api.ts",
     "build": "./node_modules/.bin/tsc -p tsconfig.json",
     "start": "node dist/api/src/api.js",
-    "deploy": "cd ../ && ./api/scripts/deploy.sh"
+    "deploy": "export $(egrep -v '^#' .env | xargs) && cd ../ && ./api/scripts/deploy.sh"
   },
   "repository": {
     "type": "git",
