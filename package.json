@@ -15,6 +15,7 @@
   },
   "homepage": "https://github.com/PotentialWeb/CoronaTab#readme",
   "dependencies": {
+    "@coronatab/shared": "file:modules/shared",
     "ts-node": "^8.6.2",
     "tslint": "^6.1.0",
     "tslint-config-standard": "^9.0.0",

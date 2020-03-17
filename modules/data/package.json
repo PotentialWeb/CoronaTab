@@ -2,7 +2,7 @@
   "name": "@coronatab/data",
   "version": "1.0.0",
   "description": "CoronaTab data models and seeds",
-  "main": "dist/modules/data/src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "sync": "./node_modules/.bin/ts-node scripts/sync.ts",
     "seed": "./node_modules/.bin/ts-node scripts/seed.ts",

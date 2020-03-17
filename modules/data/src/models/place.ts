@@ -1,4 +1,4 @@
-import { Column, Entity, ManyToOne, PrimaryColumn, OneToMany } from 'typeorm'
+import { Column, Entity, ManyToOne, PrimaryColumn, OneToMany, OneToOne, AfterLoad } from 'typeorm'
 import { Polygon, BBox, Point } from 'geojson'
 import { Model } from './model'
 import { PlaceType } from './place/type'
@@ -44,7 +44,7 @@ export class Place extends Model<Place> {
   @OneToMany(() => PlacePolygon, geometry => geometry.place)
   geometry?: PlacePolygon
 
-  @ManyToOne(() => Place, { nullable: true })
+  @ManyToOne(() => Place, place => place.parentId, { nullable: true, onDelete: 'SET NULL' })
   parent?: Place
   @Column({ nullable: true })
   parentId?: string
@@ -52,6 +52,9 @@ export class Place extends Model<Place> {
   @OneToMany(() => PlaceData, data => data.place)
   data?: PlaceData[]
 
+  latestData?: PlaceData
+
+  @OneToMany(() => Place, child => child.parentId)
   children?: Place[]
 
   distance?: number
@@ -96,6 +99,22 @@ export class Place extends Model<Place> {
 
   // getParentChain ? = () => Place.getParentChain(this.id)
 
+  static async getLatestData (placeId: string) {
+    return PlaceData.findOne({
+      where: {
+        placeId
+      },
+      order: {
+        date: 'DESC'
+      }
+    })
+  }
+
+  getLatestData ? = async () => {
+    this.latestData = this.latestData || await Place.getLatestData(this.id)
+    return this.latestData
+  }
+
   static async getChildren (placeId: string) {
     return Place.find({
       where: {
@@ -104,7 +123,10 @@ export class Place extends Model<Place> {
     })
   }
 
-  getChildren ? = () => Place.getChildren(this.id)
+  getChildren ? = async () => {
+    this.children = await Place.getChildren(this.id)
+    return this.children
+  }
 
   static async getClosest ({ lng, lat, limit }: { lng: number, lat: number, limit?: number }) {
     const query = Place.createQueryBuilder('place')
