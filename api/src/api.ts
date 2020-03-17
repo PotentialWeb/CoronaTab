@@ -9,9 +9,7 @@ import { config as injectEnvs } from 'dotenv'
 injectEnvs()
 
 ;(async () => {
-  await connect({
-    synchronize: true
-  })
+  await connect()
 
   const api = express()
 
@@ -46,5 +44,4 @@ injectEnvs()
   api.listen(PORT, () => {
     console.log(`Listening on port: ${PORT}`)
   })
-
-})()
+})().catch(err => console.error(err))

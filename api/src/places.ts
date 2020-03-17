@@ -45,11 +45,13 @@ type AllowedIncludesArray = typeof AllowedIncludes[number][]
 const AllowedIncludes = ['children'] as const
 
 places.get('/places', async (req, res) => {
-  let { typeId, include: includes, offset, limit }: {
+  const locale = Request.getLocale(req)
+  let { typeId, include: includes, offset, limit, name }: {
     typeId?: PlaceTypeId,
     include?: AllowedIncludesArray,
     limit?: number
     offset?: number
+    name?: string
   } = req.query
   if (typeId && !PlaceTypeIds.includes(typeId)) {
     return res.status(400).json({
@@ -90,6 +92,10 @@ places.get('/places', async (req, res) => {
     query.andWhere('place."typeId" = :typeId', { typeId })
   }
 
+  if (name) {
+    query.andWhere(`(place.locales->>'${locale}') % :name`, { name })
+  }
+
   if (limit) query.limit(limit)
   if (offset) query.offset(offset)
 
@@ -126,7 +132,7 @@ places.get('/places', async (req, res) => {
 
   res.json({
     data: places
-      .map(p => SerializePlace(p, { locale: Request.getLocale(req) }))
+      .map(p => SerializePlace(p, { locale }))
   })
 })
 

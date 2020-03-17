@@ -18,7 +18,7 @@ export class Place extends Model<Place> {
   @PrimaryColumn()
   id: string
 
-  @Column('json')
+  @Column('jsonb')
   locales: LocaleTranslations
 
   name?: string
