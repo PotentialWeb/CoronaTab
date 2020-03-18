@@ -1,7 +1,13 @@
 import { Api } from '../api'
 
 export type PlaceApiQueryIncludes = 'children'
-export type PlaceApiQuery = { typeId: string, include?: PlaceApiQueryIncludes[] }
+export type PlaceApiQuery = {
+  typeId?: string,
+  name?: string,
+  include?: PlaceApiQueryIncludes[],
+  limit?: number,
+  offset?: number
+}
 export type PlaceApiDataQuery = { compact: boolean }
 export type PlaceApiFindClosestQuery = { lng?: number, lat?: number, include?: PlaceApiQueryIncludes[] }
 
