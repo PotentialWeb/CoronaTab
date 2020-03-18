@@ -74,7 +74,7 @@ type NormalizedDataRow = {
       data: Object.entries(row)
             .filter(([key]) => !RAW_ROW_META_COLUMNS.includes(key as RawRowMetaColumn))
             .reduce((dates, [ date, value ]) => {
-              dates[moment(new Date(date)).format(DATE_FORMAT)] = parseInt(value)
+              dates[moment(new Date(date)).format(DATE_FORMAT)] = parseInt(value) || 0
               return dates
             }, {} as { [date: string]: number })
     }
@@ -176,4 +176,8 @@ type NormalizedDataRow = {
   console.log('Ingesting data')
   await PlaceData.save(placeDataToSave, { chunk: 1000 })
 
-})()
+})().catch(err => {
+  console.error(err)
+  debugger
+  process.exit(1)
+})
