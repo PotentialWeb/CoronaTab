@@ -5,8 +5,12 @@ import { DashboardStatsComponent } from './stats'
 import { LoadingComponent } from '../loading'
 import { DashboardDailyChartComponent, DashboardCumulativeGraphComponent } from './graphs'
 import { PlaceApi } from '../../utils/api/place'
+import { inject, observer } from 'mobx-react'
+import { DashboardPageStore } from '../../pages/dashboard.store'
+import { computed } from 'mobx'
 
 interface Props {
+  pageStore?: DashboardPageStore
   place: Place
 }
 
@@ -19,16 +23,14 @@ export enum LoadingStatus {
 interface State {
   loadingStatus: LoadingStatus
   rawData: any[]
-  cumulativeSeriesData: any[]
-  dailySeriesData: any[]
 }
 
+@inject('pageStore')
+@observer
 export class DashboardSelectedPlaceComponent extends Component<Props, State> {
   state: State = {
     loadingStatus: LoadingStatus.IS_LOADING,
-    rawData: null,
-    cumulativeSeriesData: null,
-    dailySeriesData: null
+    rawData: []
   }
 
   componentDidMount () {
@@ -38,9 +40,7 @@ export class DashboardSelectedPlaceComponent extends Component<Props, State> {
   componentDidUpdate (prevProps: Props) {
     if (prevProps.place?.id !== this.props.place?.id) {
       this.setState({
-        rawData: null,
-        cumulativeSeriesData: null,
-        dailySeriesData: null
+        rawData: null
       })
       this.fetchData()
     }
@@ -51,12 +51,8 @@ export class DashboardSelectedPlaceComponent extends Component<Props, State> {
       this.setState({ loadingStatus: LoadingStatus.IS_LOADING })
       const { data: rawData } = await PlaceApi.queryData(this.props.place.id, { compact: true })
       if (!Array.isArray(rawData)) throw new Error('rawData is not an array')
-      const cumulativeSeriesData = this.parseCumulativeSeriesData(rawData)
-      const dailySeriesData = this.calcDailySeriesData(rawData)
       this.setState({
         rawData,
-        cumulativeSeriesData,
-        dailySeriesData,
         loadingStatus: LoadingStatus.HAS_LOADED
       })
     } catch (err) {
@@ -64,29 +60,22 @@ export class DashboardSelectedPlaceComponent extends Component<Props, State> {
     }
   }
 
-  parseCumulativeSeriesData (rawData: any[]) {
-    return rawData.map(([date, cases, deaths, recovered]) => ({
-      date,
-      cases,
-      deaths,
-      recovered
-    }), [])
+  @computed
+  get filteredRawData () {
+    const { startDate, endDate } = this.props.pageStore
+    return startDate && endDate
+      ? DashboardPageStore.filterRawDataByDates(this.state.rawData, startDate, endDate)
+      : this.state.rawData
   }
 
-  calcDailySeriesData (rawData) {
-    return rawData
-      .reduce((_data, [date, cases, deaths, recovered], i, rawData) => {
-        const yesterday = rawData[_data.length - 1]
-        return [
-          ..._data,
-          {
-            date,
-            cases: cases - (yesterday?.[1] ?? 0),
-            deaths: deaths - (yesterday?.[2] ?? 0),
-            recovered: recovered - (yesterday?.[3] ?? 0)
-          }
-        ]
-      }, [])
+  @computed
+  get cumulativeSeriesData () {
+    return DashboardPageStore.parseCumulativeSeriesData(this.filteredRawData)
+  }
+
+  @computed
+  get dailySeriesData () {
+    return DashboardPageStore.calcDailySeriesData(this.filteredRawData)
   }
 
   render () {
@@ -96,12 +85,12 @@ export class DashboardSelectedPlaceComponent extends Component<Props, State> {
           (() => {
             switch (this.state.loadingStatus) {
               case LoadingStatus.HAS_LOADED:
-                return this.state.rawData.length > 0
+                return this.filteredRawData.length > 0
                   ? (
                     <>
                       <div className="dashboard-selected-place-stats">
                         <DashboardStatsComponent
-                          rawData={this.state.rawData}
+                          rawData={this.filteredRawData}
                         />
                       </div>
 
@@ -116,10 +105,14 @@ export class DashboardSelectedPlaceComponent extends Component<Props, State> {
                         <TabPanel
                           className="dashboard-selected-place-tabs-tab-panel"
                         >
-                          <DashboardCumulativeGraphComponent data={this.state.cumulativeSeriesData} />
+                          <DashboardCumulativeGraphComponent
+                            data={this.cumulativeSeriesData}
+                          />
                         </TabPanel>
                         <TabPanel className="dashboard-selected-place-tabs-tab-panel">
-                          <DashboardDailyChartComponent data={this.state.dailySeriesData} />
+                          <DashboardDailyChartComponent
+                            data={this.dailySeriesData}
+                          />
                         </TabPanel>
                       </Tabs>
                     </>

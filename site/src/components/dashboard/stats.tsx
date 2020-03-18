@@ -12,6 +12,7 @@ interface Props extends HTMLAttributes<HTMLDivElement> {
 export class DashboardStatsComponent extends Component<Props> {
   render () {
     const { rawData } = this.props
+    console.log(rawData.length)
     const latestSnapshot = rawData[rawData.length - 1]
     if (!latestSnapshot) return ''
 
