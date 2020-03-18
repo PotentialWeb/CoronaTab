@@ -4,6 +4,9 @@
   "description": "CoronaTab data models and seeds",
   "main": "dist/index.js",
   "scripts": {
+    "init:submodules": "git submodule update --init --recursive",
+    "generate-seeds": "./node_modules/.bin/ts-node -P scripts/generate-seeds.ts",
+    "scrape": "./node_modules/.bin/ts-node -P scripts/scrape.ts",
     "sync": "./node_modules/.bin/ts-node scripts/sync.ts",
     "seed": "./node_modules/.bin/ts-node scripts/seed.ts",
     "build": "./node_modules/.bin/tsc -p ."
@@ -19,9 +22,13 @@
     "typeorm": "^0.2.24"
   },
   "devDependencies": {
+    "@coronatab/node-utils": "file:../node-utils",
+    "@types/csvtojson": "^1.1.5",
     "@types/node": "^13.9.1",
+    "csvtojson": "^2.0.10",
     "dotenv": "^8.2.0",
     "ts-node": "^8.6.2",
-    "typescript": "^3.8.3"
+    "typescript": "^3.8.3",
+    "moment": "^2.24.0"
   }
 }
