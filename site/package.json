@@ -8,7 +8,7 @@
     "build": "next build",
     "build:development": "npm run build",
     "build:production": "NODE_ENV=production npm run build",
-    "deploy": "cd ../ && ./site/scripts/deploy.sh",
+    "deploy": "export $(egrep -v '^#' .env | xargs) && cd ../ && ./site/scripts/deploy.sh",
     "start": "next start"
   },
   "dependencies": {

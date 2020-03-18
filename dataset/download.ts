@@ -5,7 +5,8 @@ import dasherize from 'dasherize'
 import moment from 'moment'
 
 import { config as injectEnvs } from 'dotenv'
-import { DATE_FORMAT } from '../shared/constants'
+import { DATE_FORMAT } from '@coronatab/shared'
+
 injectEnvs()
 
 const CASES_CSV_URL = 'https://github.com/CSSEGISandData/COVID-19/raw/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv'
