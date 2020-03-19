@@ -24,32 +24,6 @@ export class DashboardPageStore {
   places: Place[] = []
 
   @observable
-  private _selectedPlace: Place[]
-
-  @computed
-  get selectedPlace (): Place[] {
-    return this._selectedPlace ?? LocalStorage.get('selectedPlace')
-  }
-
-  set selectedPlace (place: Place[]) {
-    this._selectedPlace = place
-    LocalStorage.set('selectedPlace', place)
-  }
-
-  @observable
-  private _selectedPlaceDetail: Place
-
-  @computed
-  get selectedPlaceDetail (): Place {
-    return this._selectedPlaceDetail ?? LocalStorage.get('selectedPlaceDetail')
-  }
-
-  set selectedPlaceDetail (place: Place) {
-    this._selectedPlaceDetail = place
-    LocalStorage.set('selectedPlaceDetail', place)
-  }
-
-  @observable
   startDate?: Date
   // startDate = moment().subtract(1, 'year').toDate()
 
@@ -65,13 +39,13 @@ export class DashboardPageStore {
 
   @action.bound
   async init () {
-    this.fetchData()
+    this.fetchPageData()
   }
 
   @action.bound
-  async fetchData () {
+  async fetchPageData () {
     try {
-      if (!this.selectedPlaceDetail) {
+      if (!this.selectedPlace) {
         await this.fetchAndSetClosestPlace()
       }
 
@@ -132,8 +106,7 @@ export class DashboardPageStore {
       const { data: places } = await PlaceApi.findClosest(query)
       if (!places?.length) throw new Error('No closest places returned')
       const selectedPlace = places[0]
-      this.selectedPlace = [selectedPlace]
-      this.selectedPlaceDetail = selectedPlace
+      this.selectedPlaceTree = [selectedPlace]
     } catch (err) {
       console.warn(err)
     }
@@ -148,6 +121,55 @@ export class DashboardPageStore {
         })
       ), err => reject(err)
     )))
+  }
+
+  @observable
+  private _selectedPlaceTree: Place[]
+
+  @computed
+  get selectedPlaceTree (): Place[] {
+    return this._selectedPlaceTree ?? LocalStorage.get('selectedPlaceTree') ?? []
+  }
+
+  set selectedPlaceTree (place: Place[]) {
+    this._selectedPlaceTree = place
+    LocalStorage.set('selectedPlaceTree', place)
+  }
+
+  @computed
+  get selectedPlace () {
+    const t = this.selectedPlaceTree
+    return t.length > 0 && t[t.length - 1]
+  }
+
+  @observable
+  private _rawPlaceData: { [key: string]: any[] }
+
+  @computed
+  get rawPlaceData (): { [key: string]: any[] } {
+    return this._rawPlaceData ?? LocalStorage.get('rawPlaceData') ?? {}
+  }
+
+  set rawPlaceData (data: { [key: string]: any[] }) {
+    this._rawPlaceData = data
+    LocalStorage.set('rawPlaceData', data)
+  }
+
+  @observable
+  selectedPlaceDataLoadingStatus: LoadingStatus = LoadingStatus.IS_LOADING
+
+  @action.bound
+  async fetchSelectedPlaceData () {
+    try {
+      this.selectedPlaceDataLoadingStatus = LoadingStatus.IS_LOADING
+      const { data: rawData } = await PlaceApi.queryData(this.selectedPlace.id, { compact: true })
+      if (!Array.isArray(rawData)) throw new Error('rawData is not an array')
+      this.rawPlaceData[this.selectedPlace.id] = rawData
+      this.selectedPlaceDataLoadingStatus = LoadingStatus.HAS_LOADED
+      return rawData
+    } catch (err) {
+      this.selectedPlaceDataLoadingStatus = LoadingStatus.HAS_ERRORED
+    }
   }
 
   static filterRawDataByDates(rawData: any[], startDate: Date, endDate: Date) {

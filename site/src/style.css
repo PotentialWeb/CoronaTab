@@ -19,7 +19,6 @@
 @import "./components/dashboard.css";
 @import "./components/dashboard/general-advice.css";
 @import "./components/dashboard/quick-links.css";
-@import "./components/dashboard/selected-place.css";
 @import "./components/dashboard/stats.css";
 @import "./components/day-picker.css";
 @import "./components/place-select.css";

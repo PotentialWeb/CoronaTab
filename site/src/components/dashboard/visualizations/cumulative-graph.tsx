@@ -117,44 +117,51 @@ export class DashboardCumulativeGraphComponent extends Component<Props, State> {
     } = this.state
 
     return (
-      <div className="flex-1 flex flex-col max-h-0 max-w-0 select-none">
-        <div className="flex items-center justify-end flex-shrink-0 flex-grow-0 py-1">
-          {
-            selectedStartDate && selectedEndDate
-              ? (
-                <>
-                  <span className="text-xs font-bold mr-2">Zoomed:</span>
-                  <div className="inline-flex items-center rounded bg-lighter text-sm px-2 py-1 font-bold">
-                    <span>{Date.rangeToString(selectedStartDate, selectedEndDate)}</span>
-                    <button
-                      onClick={this.onZoomOutClick}
-                      className="hover:opacity-50 pl-2 pr-1 py-1"
-                    >
-                      <CloseSvg className="h-line-sm" />
-                    </button>
-                  </div>
-                </>
-              )
-              : <span className="text-xs font-bold mr-2">Drag to zoom</span>
-          }
+      <div className="dashboard-panel select-none">
+        <div className="flex items-center">
+          <div className="flex-1">
+            <h2 className="font-bold">
+              Cumulative
+            </h2>
+          </div>
+          <div className="justify-end flex-shrink-0 flex-grow-0">
+            {
+              selectedStartDate && selectedEndDate
+                ? (
+                  <>
+                    <span className="text-xs font-bold mr-2">Zoomed:</span>
+                    <div className="inline-flex items-center rounded bg-lighter text-sm px-2 py-1 font-bold">
+                      <span>{Date.rangeToString(selectedStartDate, selectedEndDate)}</span>
+                      <button
+                        onClick={this.onZoomOutClick}
+                        className="hover:opacity-50 pl-2 pr-1 py-1"
+                      >
+                        <CloseSvg className="h-line-sm" />
+                      </button>
+                    </div>
+                  </>
+                )
+                : <span className="text-xs font-bold mr-2">Drag to zoom</span>
+            }
+          </div>
         </div>
-        <div className="flex-1">
+        <div style={{ height: '360px' }}>
           <ResponsiveContainer>
             <LineChart
               data={data}
               onMouseDown={e => {
-                if (e.activeLabel) this.setState({ startDate: moment(e.activeLabel).toDate() })
+                if (e?.activeLabel) this.setState({ startDate: moment(e.activeLabel).toDate() })
               }}
               onMouseMove={e => {
-                if (e.activeLabel && this.state.startDate) {
+                if (e?.activeLabel && this.state.startDate) {
                   this.setState({ endDate: moment(e.activeLabel).toDate() })
                 }
               }}
               onMouseUp={this.onMouseUp}
             >
-              <Line type="monotone" dataKey="cases" name="Cases" stroke={brand} activeDot={{ r: 8 }} strokeWidth="2" isAnimationActive={true} animationDuration={200} />
-              <Line type="monotone" dataKey="deaths" name="Deaths" stroke={red} strokeWidth="2" isAnimationActive={true} animationDuration={200} />
-              <Line type="monotone" dataKey="recovered" name="Recovered" stroke={green} strokeWidth="2" isAnimationActive={true} animationDuration={200} />
+              <Line type="monotone" dataKey="cases" name="Cases" stroke={brand} dot={{ r: 1}} strokeWidth="2" isAnimationActive={true} animationDuration={200} />
+              <Line type="monotone" dataKey="deaths" name="Deaths" stroke={red} dot={{ r: 1 }} strokeWidth="2" isAnimationActive={true} animationDuration={200} />
+              <Line type="monotone" dataKey="recovered" name="Recovered" dot={{ r: 1 }} stroke={green} strokeWidth="2" isAnimationActive={true} animationDuration={200} />
               <CartesianGrid stroke={brandDull} strokeDasharray="5 5" />
               <XAxis
                 allowDataOverflow

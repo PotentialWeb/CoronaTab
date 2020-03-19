@@ -8,7 +8,7 @@ import CloseSvg from '../../public/icons/close.svg'
 
 interface Props extends Omit<React.HTMLAttributes<HTMLDivElement>, 'onChange'> {
   options: Place[]
-  initialValue?: Place
+  selectedPlace?: Place
   inputClassName?: string
   inputPlaceholder?: string
   listClassName?: string
@@ -22,14 +22,14 @@ interface State {
 
 export class PlaceSelectComponent extends Component<Props, State> {
   state: State = {
-    selectedPlace: this.props.initialValue
+    selectedPlace: this.props.selectedPlace
   }
 
   inputRef: RefObject<HTMLInputElement> = createRef()
 
   componentDidUpdate (prevProps: Props) {
-    if (prevProps.initialValue?.id !== this.props.initialValue?.id) {
-      this.setState({ selectedPlace: this.props.initialValue })
+    if (prevProps.selectedPlace?.id !== this.props.selectedPlace?.id) {
+      this.setState({ selectedPlace: this.props.selectedPlace })
     }
   }
 
@@ -49,7 +49,7 @@ export class PlaceSelectComponent extends Component<Props, State> {
   render () {
     const {
       options,
-      initialValue,
+      selectedPlace,
       className,
       inputClassName,
       inputPlaceholder,
@@ -61,7 +61,7 @@ export class PlaceSelectComponent extends Component<Props, State> {
 
     return (
       <Downshift
-        initialSelectedItem={this.state.selectedPlace}
+        initialSelectedItem={selectedPlace}
         selectedItem={this.state.selectedPlace}
         onChange={this.onChange}
         onStateChange={this.onStateChange}
