@@ -30,13 +30,13 @@ export class DashboardComponent extends Component<Props> {
             </a>
           </Link>
           {
-            pageStore.rawGlobalData.length
+            pageStore.rawPlaceData.earth
               ? (
                 <div className="dashboard-spacer-y">
                   <div className="dashboard-panel dashboard-global-stats-panel">
                     <DashboardStatsComponent
                       title="Global Stats"
-                      rawData={pageStore.rawGlobalData}
+                      rawData={pageStore.rawPlaceData.earth}
                       style={{ maxWidth: '750px'}}
                     />
                   </div>

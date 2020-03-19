@@ -13,6 +13,8 @@ export enum LoadingStatus {
   HAS_ERRORED = 'hasErrored'
 }
 
+export type AdviceObj = { [key: string]: { title: string, description: string } }
+
 export class DashboardPageStore {
   @observable
   loadingStatus = LoadingStatus.IS_LOADING
@@ -21,7 +23,17 @@ export class DashboardPageStore {
   lastUpdated: Date
 
   @observable
-  places: Place[] = []
+  private _places: Place[]
+
+  @computed
+  get places (): Place[] {
+    return this._places ?? LocalStorage.get('places') ?? []
+  }
+
+  set places (places: Place[]) {
+    this._places = places
+    LocalStorage.set('places', places)
+  }
 
   @observable
   startDate?: Date
@@ -32,10 +44,17 @@ export class DashboardPageStore {
   // endDate = moment().toDate()
 
   @observable
-  advice: { [key: string]: { title: string, description: string } } = {}
+  private _advice: AdviceObj
 
-  @observable
-  rawGlobalData: any[]
+  @computed
+  get advice (): AdviceObj {
+    return this._advice ?? LocalStorage.get('advice')
+  }
+
+  set advice (advice: AdviceObj) {
+    this._advice = advice
+    LocalStorage.set('advice', advice)
+  }
 
   @action.bound
   async init () {
@@ -45,22 +64,23 @@ export class DashboardPageStore {
   @action.bound
   async fetchPageData () {
     try {
-      if (!this.selectedPlace) {
-        await this.fetchAndSetClosestPlace()
-      }
-
-      const advicePromise = HTTP.request('GET', `/data/general-advice/${LocalStorage.get('locale') ?? 'en'}.json`)
-      const placesPromise = PlaceApi.query({ typeId: 'country', include: ['children'] })
-      const globalDataPromise = PlaceApi.queryData('earth', { compact: true })
+      const advicePromise = this.fetchAdvice({ cached: true })
+      const placesPromise = this.fetchPlaces({ cached: true })
+      const globalDataPromise = this.fetchGlobalData({ cached: true })
+      const closestPlacePromise = (() => {
+        if (!this.selectedPlace) return PlaceApi.findClosest({ include: ['children'] })
+      })
 
       const [
         placesResult,
         adviceResult,
-        globalDataResult
+        globalDataResult,
+        selectedPlaceResult
       ] = await allSettled([
         placesPromise,
         advicePromise,
-        globalDataPromise
+        globalDataPromise,
+        closestPlacePromise
       ])
 
       if (placesResult.status === 'fulfilled') {
@@ -73,9 +93,16 @@ export class DashboardPageStore {
       if (adviceResult.status === 'fulfilled') this.advice = adviceResult.value
       if (globalDataResult.status === 'fulfilled') {
         const { data: rawGlobalData } = globalDataResult.value
-        this.rawGlobalData = rawGlobalData
+        this.rawPlaceData = {
+          ...this.rawPlaceData,
+          earth: rawGlobalData
+        }
       }
-
+      if (selectedPlaceResult.status === 'fulfilled') {
+        if (selectedPlaceResult.value?.length) {
+          this.selectedPlaceTree = [selectedPlaceResult.value[0]]
+        }
+      }
       this.lastUpdated = new Date()
       this.loadingStatus = LoadingStatus.HAS_LOADED
     } catch (err) {
@@ -85,42 +112,21 @@ export class DashboardPageStore {
   }
 
   @action.bound
-  async fetchAndSetClosestPlace () {
-    let query: PlaceApiFindClosestQuery = {
-      include: ['children' as 'children']
-    }
-    const { lng, lat } = qs.parse(window.location.search.replace(/\?(.*)$/, '$1'))
-
-    if (lng && lat) {
-      query = { ...query, lng, lat }
-    } else {
-      try {
-        const { lng, lat } = await this.requestCurrentLocation()
-        query = { ...query, lng, lat }
-      } catch (err) {
-        console.warn('User did not authorize geolocation API', err)
-      }
-    }
-
-    try {
-      const { data: places } = await PlaceApi.findClosest(query)
-      if (!places?.length) throw new Error('No closest places returned')
-      const selectedPlace = places[0]
-      this.selectedPlaceTree = [selectedPlace]
-    } catch (err) {
-      console.warn(err)
-    }
+  async fetchAdvice ({ cached }: { cached: boolean }) {
+    if (cached && this.advice) return this.advice
+    return HTTP.request('GET', `/data/general-advice/${LocalStorage.get('locale') ?? 'en'}.json`)
   }
 
-  async requestCurrentLocation (): Promise<{ lng: number, lat: number}> {
-    return new Promise((resolve, reject) => (
-      navigator.geolocation.getCurrentPosition(position => (
-        resolve({
-          lng: position.coords.longitude,
-          lat: position.coords.latitude
-        })
-      ), err => reject(err)
-    )))
+  @action.bound
+  async fetchPlaces ({ cached }: { cached: boolean }) {
+    if (cached && this.places.length) return { data: this.places }
+    return PlaceApi.query({ typeId: 'country', include: ['children'] })
+  }
+
+  @action.bound
+  async fetchGlobalData ({ cached }: { cached: boolean }) {
+    if (cached && this.rawPlaceData.earth) return { data: this.rawPlaceData.earth }
+    return PlaceApi.queryData('earth', { compact: true })
   }
 
   @observable
@@ -164,7 +170,10 @@ export class DashboardPageStore {
       this.selectedPlaceDataLoadingStatus = LoadingStatus.IS_LOADING
       const { data: rawData } = await PlaceApi.queryData(this.selectedPlace.id, { compact: true })
       if (!Array.isArray(rawData)) throw new Error('rawData is not an array')
-      this.rawPlaceData[this.selectedPlace.id] = rawData
+      this.rawPlaceData = {
+        ...this.rawPlaceData,
+        [this.selectedPlace.id]: rawData
+      }
       this.selectedPlaceDataLoadingStatus = LoadingStatus.HAS_LOADED
       return rawData
     } catch (err) {

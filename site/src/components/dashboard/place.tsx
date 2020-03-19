@@ -19,18 +19,36 @@ interface State {
     cumulativeSeries?: any,
     dailySeries?: any
   }
+  ignoreLoadingStatus: boolean
 }
 
 @inject('pageStore')
 @observer
 export class DashboardPlaceComponent extends Component<Props, State> {
-  state: State = {
-    data: {},
-    selectedPlace: this.props.pageStore.selectedPlace
-  }
+  state: State = (() => {
+    const selectedPlace = this.props.pageStore.selectedPlace
+    let data = {}
+    if (this.props.pageStore.selectedPlace) {
+      const rawData = this.props.pageStore.rawPlaceData?.[this.props.pageStore.selectedPlace.id]
+      if (rawData) {
+        data = {
+          raw: rawData,
+          cumulativeSeries: DashboardPageStore.parseCumulativeSeriesData(rawData),
+          dailySeries: DashboardPageStore.calcDailySeriesData(rawData)
+        }
+      }
+    }
+    return {
+      selectedPlace,
+      data,
+      ignoreLoadingStatus: Object.keys(data).length > 0
+    }
+  })()
 
   componentDidMount () {
-    this.fetchAndSetData()
+    if (this.props.pageStore.selectedPlace) {
+      this.fetchAndSetData()
+    }
   }
 
   componentDidUpdate (prevProps: Props) {
@@ -40,6 +58,8 @@ export class DashboardPlaceComponent extends Component<Props, State> {
       if (pageStore.selectedPlace) {
         pageStore.selectedPlaceDataLoadingStatus = LoadingStatus.IS_LOADING
         this.fetchAndSetData()
+      } else {
+        this.setState({ data: {} })
       }
     }
   }
@@ -53,7 +73,7 @@ export class DashboardPlaceComponent extends Component<Props, State> {
         cumulativeSeries: DashboardPageStore.parseCumulativeSeriesData(rawData),
         dailySeries: DashboardPageStore.calcDailySeriesData(rawData)
       }
-      this.setState({ data })
+      this.setState({ data, ignoreLoadingStatus: false })
     } catch (err) {}
   }
 
@@ -94,6 +114,27 @@ export class DashboardPlaceComponent extends Component<Props, State> {
         </div>
         {
           (() => {
+            if (!pageStore.selectedPlace) return ''
+
+            const visualizations = (
+              <div className="dashboard-spacer-y dashboard-place-visualizations flex flex-row flex-wrap min-w-0">
+                <div className="w-full 2xl:w-1/2 dashboard-spacer">
+                  <DashboardCumulativeGraphComponent
+                    data={this.state.data?.cumulativeSeries}
+                  />
+                </div>
+                <div className="w-full 2xl:w-1/2 dashboard-spacer">
+                  <DashboardDailyChartComponent
+                    data={this.state.data?.dailySeries}
+                  />
+                </div>
+              </div>
+            )
+
+            if (this.state.ignoreLoadingStatus) {
+              return visualizations
+            }
+
             switch (pageStore.selectedPlaceDataLoadingStatus) {
               case LoadingStatus.HAS_LOADED:
                 return this.state.data.raw?.length > 0
