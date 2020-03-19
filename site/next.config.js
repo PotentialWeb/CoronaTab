@@ -1,4 +1,9 @@
-module.exports = {
+const withPlugins = require('next-compose-plugins')
+const withOffline = require('next-offline')
+
+module.exports = withPlugins([
+  withOffline
+], {
   pageExtensions: ['tsx'],
   env: {
     API_HOST: (() => {
@@ -20,5 +25,6 @@ module.exports = {
       use: ['@svgr/webpack']
     })
     return config
-  }
-}
+  },
+  dontAutoRegisterSw: true
+})
