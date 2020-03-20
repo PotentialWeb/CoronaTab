@@ -27,6 +27,7 @@ export class ShareBtnComponent extends Component<Props> {
   render () {
     const {
       tooltipPlacement,
+      className = '',
       ...props
     } = this.props
 
@@ -118,7 +119,7 @@ export class ShareBtnComponent extends Component<Props> {
         )}
         {...tippyProps}
       >
-        <button className="share-btn" {...props}>
+        <button className={`share-btn ${className}`} {...props}>
           <ShareSvg className="h-line mr-2" />
           <span>Share</span>
         </button>

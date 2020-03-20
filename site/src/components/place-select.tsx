@@ -50,7 +50,7 @@ export class PlaceSelectComponent extends Component<Props, State> {
     const {
       options,
       selectedPlace,
-      className,
+      className = '',
       inputClassName,
       inputPlaceholder,
       listClassName,
@@ -78,7 +78,7 @@ export class PlaceSelectComponent extends Component<Props, State> {
           getRootProps,
           setState
         }) => (
-          <div className={`place-select ${className ?? ''}`} {...props}>
+          <div className={`place-select ${className}`} {...props}>
             <Tippy
               visible={isOpen}
               animation="shift-away"

@@ -17,6 +17,7 @@ export class ExtensionDownloadBtnComponent extends Component<Props> {
       appStore,
       logoClassName,
       children,
+      className = '',
       ...props
     } = this.props
 
@@ -28,7 +29,7 @@ export class ExtensionDownloadBtnComponent extends Component<Props> {
           href={browserExtension.url}
           onClick={() => Google.pushGTMEvent('Extension:DownloadClickout')}
           target="_blank"
-          className="btn flex min-w-0 items-center"
+          className={`btn flex min-w-0 items-center ${className}`}
           {...props}
         >
           {

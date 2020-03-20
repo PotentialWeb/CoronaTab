@@ -51,11 +51,12 @@ export class DateSelectComponent extends Component<Props,State> {
       fromMonth,
       toMonth,
       buttonProps,
+      className = '',
       ...props
     } = this.props
 
     return (
-      <div className="date-select" {...props}>
+      <div className={`date-select ${className}`} {...props}>
         <Tippy
           visible={isOpen}
           zIndex={39}
