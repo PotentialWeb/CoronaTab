@@ -9,6 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@coronatab/shared": "file:../shared",
     "axios": "^0.19.2",
     "fs-extra": "^8.1.0",
     "stream-to-promise": "^2.2.0"

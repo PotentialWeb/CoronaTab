@@ -1,0 +1,75 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Generate Places seeds",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceRoot}/node_modules/ts-node/dist/bin.js",
+      "args": [
+        "scripts/generate-places-seeds.ts"
+      ],
+      "cwd": "${workspaceRoot}",
+      "protocol": "inspector",
+      "env": {
+        "CORONATAB_ENVIRONMENT": "STAGING"
+      }
+    },
+    {
+      "name": "Sync STAGING",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceRoot}/node_modules/ts-node/dist/bin.js",
+      "args": [
+        "scripts/sync.ts"
+      ],
+      "cwd": "${workspaceRoot}",
+      "protocol": "inspector",
+      "env": {
+        "CORONATAB_ENVIRONMENT": "STAGING"
+      }
+    },
+    {
+      "name": "Sync PRODUCTION",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceRoot}/node_modules/ts-node/dist/bin.js",
+      "args": [
+        "scripts/sync.ts"
+      ],
+      "cwd": "${workspaceRoot}",
+      "protocol": "inspector",
+      "env": {
+        "CORONATAB_ENVIRONMENT": "PRODUCTION"
+      }
+    },
+    {
+      "name": "Seed STAGING",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceRoot}/node_modules/ts-node/dist/bin.js",
+      "args": [
+        "scripts/seed.ts"
+      ],
+      "cwd": "${workspaceRoot}",
+      "protocol": "inspector",
+      "env": {
+        "CORONATAB_ENVIRONMENT": "STAGING"
+      }
+    },
+    {
+      "name": "Seed PRODUCTION",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceRoot}/node_modules/ts-node/dist/bin.js",
+      "args": [
+        "scripts/seed.ts"
+      ],
+      "cwd": "${workspaceRoot}",
+      "protocol": "inspector",
+      "env": {
+        "CORONATAB_ENVIRONMENT": "PRODUCTION"
+      }
+    }
+  ]
+}

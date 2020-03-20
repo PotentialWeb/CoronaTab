@@ -8,7 +8,9 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {},
+  "dependencies": {
+    "dasherize": "^2.0.0"
+  },
   "devDependencies": {
     "typescript": "^3.8.3"
   }
