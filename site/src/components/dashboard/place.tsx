@@ -83,7 +83,7 @@ export class DashboardPlaceComponent extends Component<Props, State> {
     return (
       <div className="dashboard-place">
         <div className="dashboard-panel dashboard-spacer-y">
-          <div className="dashboard-place-select flex items-center">
+          <div className="dashboard-place-select flex items-center pb-2">
             <PlaceSelectComponent
               selectedPlace={selectedParentPlace}
               options={pageStore.places}
@@ -108,7 +108,7 @@ export class DashboardPlaceComponent extends Component<Props, State> {
           <div className="dashboard-place-stats">
             <DashboardStatsComponent
               rawData={this.state.data?.raw}
-              style={{ maxWidth: '750px'}}
+              className="pl-2"
             />
           </div>
         </div>

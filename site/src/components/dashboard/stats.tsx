@@ -14,6 +14,7 @@ export class DashboardStatsComponent extends Component<Props> {
     const {
       title,
       rawData,
+      className = '',
       ...props
     } = this.props
 
@@ -59,7 +60,7 @@ export class DashboardStatsComponent extends Component<Props> {
     }
 
     return (
-      <div className="dashboard-stats flex-col" {...props}>
+      <div className={`dashboard-stats ${className}`} {...props}>
         {
           title
             ? (

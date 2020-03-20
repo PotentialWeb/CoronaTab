@@ -2,13 +2,13 @@ import { Component } from 'react'
 import Link from 'next/link'
 import { inject, observer } from 'mobx-react'
 import { DashboardPageStore } from '../pages/dashboard.store'
-import { DashboardStatsComponent } from './dashboard/stats'
 import { DashboardQuickLinksComponent } from './dashboard/quick-links'
 import { DashboardGeneralAdviceComponent } from './dashboard/general-advice'
 import { ShareBtnComponent } from './share-btn'
-import LogoTextSvg from '../../public/icons/logo-text.svg'
+import { DashboardGlobalComponent } from './dashboard/global'
 import { DashboardPlaceComponent } from './dashboard/place'
 // import { StickyContainer, Sticky } from 'react-sticky'
+import LogoTextSvg from '../../public/icons/logo-text.svg'
 
 interface Props {
   pageStore?: DashboardPageStore
@@ -29,25 +29,13 @@ export class DashboardComponent extends Component<Props> {
               <LogoTextSvg className="h-10" />
             </a>
           </Link>
-          {
-            pageStore.rawPlaceData.earth
-              ? (
-                <div className="dashboard-spacer-y">
-                  <div className="dashboard-panel dashboard-global-stats-panel">
-                    <DashboardStatsComponent
-                      title="Global Stats"
-                      rawData={pageStore.rawPlaceData.earth}
-                      style={{ maxWidth: '750px'}}
-                    />
-                  </div>
-                </div>
-              )
-              : ''
-          }
+          <div className="dashboard-spacer-y">
+            <DashboardGlobalComponent />
+          </div>
           <div className="dashboard-spacer-y">
             <DashboardPlaceComponent />
           </div>
-          <div style={{ height: '1300vh'}} />
+
         </div>
 
         <div className="dashboard-aside">
