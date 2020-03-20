@@ -1,6 +1,6 @@
 import { File } from '@coronatab/node-utils'
 import CSV from 'csvtojson'
-import { Place, PlaceData, connect } from '@coronatab/data'
+import { Place, PlaceData, connect } from '../../src'
 import dasherize from 'dasherize'
 import moment from 'moment'
 
@@ -98,7 +98,7 @@ type NormalizedDataRow = {
     const deathsRow = deathsRows.find(dr => dr.country === casesRow.country && dr.region === casesRow.region)
     const recoveredRow = recoveredRows.find(rr => rr.country === casesRow.country && rr.region === casesRow.region)
 
-    const country = places.find(p => p.typeId === 'country' && p.code === countryCodeMap[casesRow.country])
+    const country = places.find(p => p.typeId === 'country' && p.alpha2code === countryCodeMap[casesRow.country])
     if (!country) {
       console.error(`Country not found in DB`, casesRow.country, countryCodeMap[casesRow.country])
       process.exit(1)

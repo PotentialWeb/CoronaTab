@@ -34,6 +34,9 @@ export class Place extends Model<Place> {
   @Column({ nullable: true })
   alpha3code?: string
 
+  @Column({ nullable: true })
+  dataSource?: string
+
   @Column('geography', {
     nullable: true,
     srid: 4326,
@@ -41,7 +44,7 @@ export class Place extends Model<Place> {
   })
   location?: Point
 
-  @Column()
+  @Column({ nullable: true })
   phoneCode?: string
 
   @Column('int', { nullable: true })

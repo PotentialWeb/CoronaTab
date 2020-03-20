@@ -16,7 +16,8 @@ CitiesData.map(city => {
     alpha2code: city.alpha2code,
     alpha3code: city.alpha3code,
     typeId: 'city',
-    parentId: city.parentId
+    parentId: city.parentId,
+    dataSource: city.dataSource
   })
 
   if (city.polygon) {

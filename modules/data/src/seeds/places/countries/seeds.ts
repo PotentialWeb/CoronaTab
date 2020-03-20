@@ -16,7 +16,8 @@ CountriesData.map(country => {
     alpha2code: country.alpha2code,
     alpha3code: country.alpha3code,
     typeId: 'country',
-    parentId: 'earth'
+    parentId: 'earth',
+    dataSource: country.dataSource
   })
 
   if (country.polygon) {

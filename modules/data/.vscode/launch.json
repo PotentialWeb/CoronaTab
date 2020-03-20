@@ -16,6 +16,20 @@
       }
     },
     {
+      "name": "Update data",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceRoot}/node_modules/ts-node/dist/bin.js",
+      "args": [
+        "scripts/update-data.ts"
+      ],
+      "cwd": "${workspaceRoot}",
+      "protocol": "inspector",
+      "env": {
+        "CORONATAB_ENVIRONMENT": "STAGING"
+      }
+    },
+    {
       "name": "Sync STAGING",
       "type": "node",
       "request": "launch",

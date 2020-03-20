@@ -16,7 +16,8 @@ RegionsData.map(region => {
     alpha2code: region.alpha2code,
     alpha3code: region.alpha3code,
     typeId: 'region',
-    parentId: region.parentId
+    parentId: region.parentId,
+    dataSource: region.dataSource
   })
 
   if (region.polygon) {
