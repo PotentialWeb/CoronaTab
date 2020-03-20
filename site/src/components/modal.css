@@ -1,0 +1,31 @@
+.modal {
+  @apply fixed top-0 left-0
+         w-screen h-screen
+         flex flex-col
+         bg-white
+         z-50
+         overflow-y-scroll
+         scrolling-touch;
+
+  &-content {
+    @apply flex flex-col flex-grow;
+  }
+}
+
+.modal-centered {
+  @apply fixed top-0 left-0
+         w-screen h-screen
+         z-50
+         flex
+         overflow-y-scroll
+         scrolling-touch
+         py-10;
+  background-color: rgba(theme('colors.brand-dark'), 0.8);
+
+  &-close-btn {
+    @apply fixed top-0 right-0
+           text-white
+           flex items-center justify-center
+           h-10 w-10;
+  }
+}
