@@ -99,7 +99,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [28.674670765279913,55.186838891464824],
   polygon: RegionPolygons[`united-states-of-america-us-virgin-islands`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `china-hubei`,
   locales: {
@@ -2003,7 +2003,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [0.7835596040000752,61.51689280800005],
   polygon: RegionPolygons[`united-states-of-america-alaska`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-alabama`,
   locales: {
@@ -2031,7 +2031,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-92.142816204804,34.755387388617066],
   polygon: RegionPolygons[`united-states-of-america-arkansas`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-american-samoa`,
   locales: {
@@ -2059,7 +2059,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-111.93299895849756,34.165156819218375],
   polygon: RegionPolygons[`united-states-of-america-arizona`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-colorado`,
   locales: {
@@ -2073,7 +2073,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-105.54309696705135,38.99982098225249],
   polygon: RegionPolygons[`united-states-of-america-colorado`],
   parentId: `united-states-of-america`,
-  dataSource: `https://opendata.arcgis.com/datasets/dec84f18254341419c514af8f9e784ba_0.csv`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-connecticut`,
   locales: {
@@ -2101,7 +2101,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-77.0145477695639,38.899451555326564],
   polygon: RegionPolygons[`united-states-of-america-district-of-columbia`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-delaware`,
   locales: {
@@ -2129,7 +2129,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-83.82965067998012,28.060753542550117],
   polygon: RegionPolygons[`united-states-of-america-florida`],
   parentId: `united-states-of-america`,
-  dataSource: `https://opendata.arcgis.com/datasets/b4930af3f43a48138c70bca409b5c452_0.csv`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-georgia`,
   locales: {
@@ -2143,7 +2143,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-83.22068258120515,32.68249920507424],
   polygon: RegionPolygons[`united-states-of-america-georgia`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-guam`,
   locales: {
@@ -2157,7 +2157,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: undefined,
   polygon: RegionPolygons[`united-states-of-america-guam`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-hawaii`,
   locales: {
@@ -2171,7 +2171,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-157.30113772849992,20.58419053050008],
   polygon: RegionPolygons[`united-states-of-america-hawaii`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-iowa`,
   locales: {
@@ -2185,7 +2185,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-93.38911747419203,41.94023846253498],
   polygon: RegionPolygons[`united-states-of-america-iowa`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-idaho`,
   locales: {
@@ -2199,7 +2199,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-114.12702030654191,45.49602738420207],
   polygon: RegionPolygons[`united-states-of-america-idaho`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-illinois`,
   locales: {
@@ -2241,7 +2241,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-98.33450321689992,38.49995525967745],
   polygon: RegionPolygons[`united-states-of-america-kansas`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-kentucky`,
   locales: {
@@ -2255,7 +2255,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-85.69484257237679,37.820719419565535],
   polygon: RegionPolygons[`united-states-of-america-kentucky`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-louisiana`,
   locales: {
@@ -2283,7 +2283,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-71.72305888370983,42.12038082106261],
   polygon: RegionPolygons[`united-states-of-america-massachusetts`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-maryland`,
   locales: {
@@ -2311,7 +2311,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-69.03113847999994,45.261826073000044],
   polygon: RegionPolygons[`united-states-of-america-maine`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-michigan`,
   locales: {
@@ -2325,7 +2325,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-86.2800539156174,44.99773029893432],
   polygon: RegionPolygons[`united-states-of-america-michigan`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-minnesota`,
   locales: {
@@ -2339,7 +2339,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-93.36252550514794,46.434810139826055],
   polygon: RegionPolygons[`united-states-of-america-minnesota`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-missouri`,
   locales: {
@@ -2353,7 +2353,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-92.44567264977294,38.30249432230511],
   polygon: RegionPolygons[`united-states-of-america-missouri`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-northern-mariana-islands`,
   locales: {
@@ -2395,7 +2395,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-110.04412235741086,46.70905513463874],
   polygon: RegionPolygons[`united-states-of-america-montana`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-north-carolina`,
   locales: {
@@ -2423,7 +2423,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-100.3019580214955,47.46721085597658],
   polygon: RegionPolygons[`united-states-of-america-north-dakota`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-nebraska`,
   locales: {
@@ -2437,7 +2437,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-99.68549198596634,41.50023602157509],
   polygon: RegionPolygons[`united-states-of-america-nebraska`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-new-hampshire`,
   locales: {
@@ -2451,7 +2451,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-71.64192281532604,44.002575579129676],
   polygon: RegionPolygons[`united-states-of-america-new-hampshire`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-new-jersey`,
   locales: {
@@ -2479,7 +2479,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-106.02383427161152,34.16360001562739],
   polygon: RegionPolygons[`united-states-of-america-new-mexico`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-nevada`,
   locales: {
@@ -2493,7 +2493,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-117.02047733760901,38.50182293528022],
   polygon: RegionPolygons[`united-states-of-america-nevada`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-new-york`,
   locales: {
@@ -2535,7 +2535,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-98.71994022800911,35.32361248602737],
   polygon: RegionPolygons[`united-states-of-america-oklahoma`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-oregon`,
   locales: {
@@ -2577,7 +2577,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: undefined,
   polygon: RegionPolygons[`united-states-of-america-puerto-rico`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-rhode-island`,
   locales: {
@@ -2591,7 +2591,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-71.48453225865693,41.66332011094793],
   polygon: RegionPolygons[`united-states-of-america-rhode-island`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-south-carolina`,
   locales: {
@@ -2605,7 +2605,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.96432271741013,33.619274050261765],
   polygon: RegionPolygons[`united-states-of-america-south-carolina`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-south-dakota`,
   locales: {
@@ -2619,7 +2619,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-100.2551086848679,44.230179869105655],
   polygon: RegionPolygons[`united-states-of-america-south-dakota`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-tennessee`,
   locales: {
@@ -2661,7 +2661,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-111.54443973955233,39.49994305252983],
   polygon: RegionPolygons[`united-states-of-america-utah`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-virginia`,
   locales: {
@@ -2675,7 +2675,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-79.76028754243612,37.99530438119223],
   polygon: RegionPolygons[`united-states-of-america-virginia`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-vermont`,
   locales: {
@@ -2689,7 +2689,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-72.47219594044931,43.87150381198679],
   polygon: RegionPolygons[`united-states-of-america-vermont`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-washington`,
   locales: {
@@ -2703,7 +2703,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-120.80671709265283,47.27941361449236],
   polygon: RegionPolygons[`united-states-of-america-washington`],
   parentId: `united-states-of-america`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-wisconsin`,
   locales: {
@@ -2731,7 +2731,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.1829407161911,38.92806805344787],
   polygon: RegionPolygons[`united-states-of-america-west-virginia`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-wyoming`,
   locales: {
@@ -25216,4 +25216,116 @@ export const RegionsData: PlaceSeedData[] = [{
   polygon: RegionPolygons[`united-kingdom-york`],
   parentId: `united-kingdom`,
   dataSource: `https://www.arcgis.com/sharing/rest/content/items/b684319181f94875a6879bbc833ca3a6/data`
+}, {
+  id: `canada-total`,
+  locales: {
+    en: `Total`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`canada-total`],
+  parentId: `canada`,
+  dataSource: `https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html`
+}, {
+  id: `united-states-of-america-connecticut-new-london-county`,
+  locales: {
+    en: `New London County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 266784,
+  coordinates: [-72.1271835,41.4959865],
+  polygon: RegionPolygons[`united-states-of-america-connecticut-new-london-county`],
+  parentId: `united-states-of-america-connecticut`,
+  dataSource: `https://portal.ct.gov/Coronavirus`
+}, {
+  id: `united-states-of-america-tennessee-out-of-tn-county`,
+  locales: {
+    en: `Out of TN County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-tennessee-out-of-tn-county`],
+  parentId: `united-states-of-america-tennessee`,
+  dataSource: `https://www.tn.gov/health/cedep/ncov.html`
+}, {
+  id: `united-states-of-america-tennessee--county`,
+  locales: {
+    en: ` County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-tennessee--county`],
+  parentId: `united-states-of-america-tennessee`,
+  dataSource: `https://www.tn.gov/health/cedep/ncov.html`
+}, {
+  id: `united-states-of-america-pennsylvania-centre`,
+  locales: {
+    en: `Centre`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-pennsylvania-centre`],
+  parentId: `united-states-of-america-pennsylvania`,
+  dataSource: `https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx`
+}, {
+  id: `united-states-of-america-pennsylvania-erie`,
+  locales: {
+    en: `Erie`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-pennsylvania-erie`],
+  parentId: `united-states-of-america-pennsylvania`,
+  dataSource: `https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx`
+}, {
+  id: `united-states-of-america-pennsylvania-franklin`,
+  locales: {
+    en: `Franklin`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-pennsylvania-franklin`],
+  parentId: `united-states-of-america-pennsylvania`,
+  dataSource: `https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx`
+}, {
+  id: `united-states-of-america-pennsylvania-potter`,
+  locales: {
+    en: `Potter`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-pennsylvania-potter`],
+  parentId: `united-states-of-america-pennsylvania`,
+  dataSource: `https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx`
 }]

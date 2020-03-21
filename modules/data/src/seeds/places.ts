@@ -22,8 +22,8 @@ export const FindPlaceSeedDataInDataset = ({ dataset, term }: { dataset: PlaceSe
     p.id === term
     || p.alpha3code === term
     || p.alpha2code === term
-    || p.locales.en === term
-    || p.alternativeNames?.includes(term)
+    || p.locales.en.toLowerCase() === term.toLowerCase()
+    || p.alternativeNames?.map(n => n.toLowerCase()).includes(term.toLowerCase())
   )
 }
 

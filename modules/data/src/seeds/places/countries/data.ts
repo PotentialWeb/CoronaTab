@@ -393,7 +393,7 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [-54.38839290699988,-14.236725569657125],
   polygon: CountryPolygons[`BRA`],
   parentId: 'earth',
-  dataSource: `http://plataforma.saude.gov.br/novocoronavirus/resources/scripts/database.js?v=2020-03-20`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `brunei-darussalam`,
   locales: {
