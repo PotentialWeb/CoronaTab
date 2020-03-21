@@ -12,25 +12,7 @@ class Background {
     browser.runtime.onMessage.addListener((request, sender) => {
       if (request.event) {
         switch (request.event) {
-          case 'GET_LOCATION': {
-            navigator.geolocation.getCurrentPosition(position => {
-              browser.tabs.sendMessage(sender.tab.id, {
-                event: 'LOCATION',
-                data: {
-                  lat: position.coords.latitude,
-                  lng: position.coords.longitude
-                }
-              })
-            }, err => {
-              console.error(err)
-              browser.tabs.sendMessage(sender.tab.id, {
-                event: 'LOCATION_ERROR'
-              })
-            }, {
-              enableHighAccuracy: false,
-              maximumAge: 1000 * 60 * 10
-            })
-          }
+          
         }
       }
     })

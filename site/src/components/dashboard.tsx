@@ -39,36 +39,40 @@ export class DashboardComponent extends Component<Props> {
                 </Link>
               </div>
               <div className="flex justify-end flex-1">
-                <div className="flex-shrink-0 flex-grow-0">
-                  <DateSelectComponent
-                    onChange={({ startDate, endDate }) => {
-                      pageStore.startDate = startDate
-                      pageStore.endDate = endDate
-                    }}
-                    buttonProps={{
-                      className: 'btn btn-white border border-light px-3 py-1 rounded flex items-center mr-1'
-                    }}
-                    {...(() => {
-                      let props = {
-                        startDate: pageStore.startDate,
-                        endDate: pageStore.endDate
-                      }
-                      const minDate = moment().subtract(3, 'months').toDate()
-                      const maxDate = moment().toDate()
-                      const month = maxDate
-                      const fromMonth = minDate
-                      const toMonth = maxDate
-                      return {
-                        ...props,
-                        minDate,
-                        maxDate,
-                        month,
-                        fromMonth,
-                        toMonth
-                      }
-                    })()}
-                  />
-                </div>
+                {/*
+                  // NOTE: Date selector was implemented, but dropped in favour of
+                  // graph zooming
+                  <div className="flex-shrink-0 flex-grow-0">
+                    <DateSelectComponent
+                      onChange={({ startDate, endDate }) => {
+                        pageStore.startDate = startDate
+                        pageStore.endDate = endDate
+                      }}
+                      buttonProps={{
+                        className: 'btn btn-white border border-light px-3 py-1 rounded flex items-center mr-1'
+                      }}
+                      {...(() => {
+                        let props = {
+                          startDate: pageStore.startDate,
+                          endDate: pageStore.endDate
+                        }
+                        const minDate = moment().subtract(3, 'months').toDate()
+                        const maxDate = moment().toDate()
+                        const month = maxDate
+                        const fromMonth = minDate
+                        const toMonth = maxDate
+                        return {
+                          ...props,
+                          minDate,
+                          maxDate,
+                          month,
+                          fromMonth,
+                          toMonth
+                        }
+                      })()}
+                    />
+                  </div>
+                */}
                 <div className="flex-shrink-0 flex-grow-0">
                   <ShareBtnComponent
                     tooltipPlacement="bottom"

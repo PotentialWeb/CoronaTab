@@ -177,7 +177,7 @@ places.get('/places/closest', async (req, res) => {
     query.setParameters({ point: `POINT(${lng} ${lat})` })
     query.limit(5)
   } else {
-    query.andWhere(`id = 'earth'`)
+    query.andWhere(`place.id = 'earth'`)
   }
 
   if (includes?.length) {
