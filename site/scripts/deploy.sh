@@ -1,4 +1,5 @@
 #!/bin/sh
+set -e
 
 if [ -z "$DOCKER_REGISTRY" ]; then
     echo "Need to set DOCKER_REGISTRY"

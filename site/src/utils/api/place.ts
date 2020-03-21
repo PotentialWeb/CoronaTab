@@ -9,7 +9,7 @@ export type PlaceApiQuery = {
   offset?: number
 }
 export type PlaceApiDataQuery = { compact: boolean }
-export type PlaceApiFindClosestQuery = { lng?: number, lat?: number, include?: PlaceApiQueryIncludes[] }
+export type PlaceApiFindClosestQuery = { lng?: number, lat?: number, include?: PlaceApiQueryIncludes[], typeId: string }
 
 export class PlaceApi extends Api {
   static pathForPlaces = () => `/places`

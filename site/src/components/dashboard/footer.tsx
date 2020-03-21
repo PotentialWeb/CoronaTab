@@ -17,6 +17,10 @@ export class DashboardFooterComponent extends Component {
               <a href="https://hoobu.com" target="_blank" className="font-bold underline">
                 Hoobu
               </a>
+              {' '}|{' '}
+              <a href="https://hoobu.com/privacy" target="_blank" className="font-bold underline">
+                Privacy
+              </a>
             </span>
             <div>
               <iframe
