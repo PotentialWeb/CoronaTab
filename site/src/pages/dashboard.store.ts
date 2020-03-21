@@ -50,10 +50,12 @@ export class DashboardPageStore {
   }
 
   @observable
-  startDate = moment().subtract(3, 'months').toDate()
+  startDate?: Date
+  // startDate = moment().subtract(1, 'year').toDate()
 
   @observable
-  endDate = moment().toDate()
+  endDate?: Date
+  // endDate = moment().toDate()
 
   @observable
   advice: { [key: string]: { title: string, description: string } } = {}
@@ -111,20 +113,21 @@ export class DashboardPageStore {
   @action.bound
   async fetchAndSetClosestPlace () {
     let query: PlaceApiFindClosestQuery = {
-      include: ['children' as 'children']
+      include: ['children' as 'children'],
+      typeId: 'country'
     }
-    const { lng, lat } = qs.parse(window.location.search.replace(/\?(.*)$/, '$1'))
+    // const { lng, lat } = qs.parse(window.location.search.replace(/\?(.*)$/, '$1'))
 
-    if (lng && lat) {
-      query = { ...query, lng, lat }
-    } else {
-      try {
-        const { lng, lat } = await this.requestCurrentLocation()
-        query = { ...query, lng, lat }
-      } catch (err) {
-        console.warn('User did not authorize geolocation API', err)
-      }
-    }
+    // if (lng && lat) {
+    //   query = { ...query, lng, lat }
+    // } else {
+    //   try {
+    //     const { lng, lat } = await this.requestCurrentLocation()
+    //     query = { ...query, lng, lat }
+    //   } catch (err) {
+    //     console.warn('User did not authorize geolocation API', err)
+    //   }
+    // }
 
     try {
       const { data: places } = await PlaceApi.findClosest(query)
@@ -139,13 +142,52 @@ export class DashboardPageStore {
 
   async requestCurrentLocation (): Promise<{ lng: number, lat: number}> {
     return new Promise((resolve, reject) => (
-      navigator.geolocation.getCurrentPosition(position => (
-        resolve({
-          lng: position.coords.longitude,
-          lat: position.coords.latitude
-        })
-      ), err => reject(err)
-    )))
+      navigator.geolocation.getCurrentPosition(
+        position => (
+          resolve({
+            lng: position.coords.longitude,
+            lat: position.coords.latitude
+          })
+        ),
+        err => reject(err),
+        {
+          enableHighAccuracy: false,
+          maximumAge: 1000 * 60 * 10
+        }
+      )
+    ))
+  }
+
+  static filterRawDataByDates (rawData: any[], startDate: Date, endDate: Date) {
+    return rawData.filter(([date]) => {
+      const d = new Date(date)
+      return d >= startDate && d <= endDate
+    })
+  }
+
+  static parseCumulativeSeriesData (rawData: any[]) {
+    return rawData.map(([date, cases, deaths, recovered]) => ({
+      date,
+      cases,
+      deaths,
+      recovered
+    }), [])
+  }
+
+  static calcDailySeriesData (rawData: any[]) {
+    return rawData
+      .reduce((_data, [date, cases, deaths, recovered], i, rawData) => {
+        const yesterday = rawData[_data.length - 1]
+        return [
+          ..._data,
+          {
+            date,
+            cases: cases - (yesterday?.[1] ?? 0),
+            deaths: deaths - (yesterday?.[2] ?? 0),
+            recovered: recovered - (yesterday?.[3] ?? 0)
+          }
+        ]
+      }, [])
   }
 
   @action.bound

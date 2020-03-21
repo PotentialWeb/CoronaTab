@@ -3,7 +3,7 @@ import { Api } from '../api'
 export type PlaceApiQueryIncludes = 'children'
 export type PlaceApiQuery = { typeId: string, include?: PlaceApiQueryIncludes[] }
 export type PlaceApiDataQuery = { compact: boolean }
-export type PlaceApiFindClosestQuery = { lng?: number, lat?: number, include?: PlaceApiQueryIncludes[] }
+export type PlaceApiFindClosestQuery = { lng?: number, lat?: number, include?: PlaceApiQueryIncludes[], typeId: string }
 
 export class PlaceApi extends Api {
   static pathForPlaces = () => `/places`
