@@ -51,58 +51,7 @@ InjectEnvs()
       country.dataSource = entry.url
     }
 
-    if (country.alpha3code === 'GBR') {
-      if (entry.state) {
-        // UK Region
-        const id = `${country.id}-${Strings.dasherize(entry.state)}`
-        let region = regions.find(r => r.id === id)
-
-        if (!region) {
-          region = {
-            id,
-            parentId: country.id,
-            locales: {
-              en: entry.state
-            } as any
-          }
-          regions.push(region)
-        }
-        region.coordinates = region.coordinates ?? entry.coordinates
-        region.population = region.population ?? entry.population
-        if (!region.polygon && entry.featureId) {
-          const feature = features.find(f => f.properties?.id === entry.featureId)
-          region.polygon = feature?.geometry
-        }
-        if (entry.url && region.dataSource !== entry.url) {
-          region.dataSource = entry.url
-        }
-
-      } else if (entry.county) {
-        // UK City
-        const id = `${country.id}-${Strings.dasherize(entry.county)}`
-        let city = cities.find(c => c.id === id)
-
-        if (!city) {
-          city = {
-            id,
-            parentId: country.id,
-            locales: {
-              en: entry.county
-            } as any
-          }
-          cities.push(city)
-        }
-        city.coordinates = city.coordinates ?? entry.coordinates
-        city.population = city.population ?? entry.population
-        if (!city.polygon && entry.featureId) {
-          const feature = features.find(f => f.properties?.id === entry.featureId)
-          city.polygon = feature?.geometry
-        }
-        if (entry.url && city.dataSource !== entry.url) {
-          city.dataSource = entry.url
-        }
-      }
-    } else if (country.alpha3code === 'USA') {
+    if (country.alpha3code === 'USA') {
       if (entry.state) {
 
       // US State
@@ -198,23 +147,32 @@ InjectEnvs()
 import { PlaceSeedData } from '../../places'
 const CountryPolygons = require('./polygons.json')
 
-export const CountriesData: PlaceSeedData[] = [
-  ${countries.map(({ id, locales, phoneCode, alpha2code, alpha3code, population, coordinates, alternativeNames, dataSource }) => `{
-    id: \`${id}\`,
-    locales: {
-      ${Object.entries(locales).map(([ locale, name ]) => `${locale}: \`${name}\``).join(',\n    ')}
-    },
-    phoneCode: ${phoneCode && `\`${phoneCode}\``},
-    alpha2code: ${alpha2code && `\`${alpha2code}\``},
-    alpha3code: ${alpha3code && `\`${alpha3code}\``},
-    alternativeNames: ${alternativeNames && `[${alternativeNames.map(name => `\`${name}\``).join(', ')}]`},
-    population: ${population},
-    coordinates: ${JSON.stringify(coordinates)},
-    polygon: CountryPolygons[\`${alpha3code}\`],
-    parentId: 'earth',
-    dataSource: ${dataSource && `\`${dataSource}\``}
-  }`).join(',\n  ')}
-]
+export const CountriesData: PlaceSeedData[] = [${countries.map(({
+  id,
+  locales,
+  phoneCode,
+  alpha2code,
+  alpha3code,
+  population,
+  coordinates,
+  parentId,
+  alternativeNames,
+  dataSource
+ }) => `{
+  id: \`${id}\`,
+  locales: {
+    ${Object.entries(locales).map(([ locale, name ]) => `${locale}: \`${name}\``).join(',\n    ')}
+  },
+  phoneCode: ${phoneCode && `\`${phoneCode}\``},
+  alpha2code: ${alpha2code && `\`${alpha2code}\``},
+  alpha3code: ${alpha3code && `\`${alpha3code}\``},
+  alternativeNames: ${alternativeNames && `[${alternativeNames.map(name => `\`${name}\``).join(', ')}]`},
+  population: ${population},
+  coordinates: ${JSON.stringify(coordinates)},
+  polygon: CountryPolygons[\`${alpha3code}\`],
+  parentId: 'earth',
+  dataSource: ${dataSource && `\`${dataSource}\``}
+}`).join(', ')}]
 `)
 
   // Save all Region Geometries to polygons.json file
@@ -227,23 +185,32 @@ export const CountriesData: PlaceSeedData[] = [
 import { PlaceSeedData } from '../../places'
 const RegionPolygons = require('./polygons.json')
 
-export const RegionsData: PlaceSeedData[] = [
-  ${regions.map(({ id, locales, phoneCode, alpha2code, alpha3code, population, coordinates, parentId, alternativeNames, dataSource }) => `{
-    id: \`${id}\`,
-    locales: {
-      ${Object.entries(locales).map(([ locale, name ]) => `${locale}: \`${name}\``).join(',\n    ')}
-    },
-    alternativeNames: ${alternativeNames && `[${alternativeNames.map(name => `\`${name}\``).join(', ')}]`},
-    phoneCode: ${phoneCode && `\`${phoneCode}\``},
-    alpha2code: ${alpha2code && `\`${alpha2code}\``},
-    alpha3code: ${alpha3code && `\`${alpha3code}\``},
-    population: ${population},
-    coordinates: ${JSON.stringify(coordinates)},
-    polygon: RegionPolygons[\`${id}\`],
-    parentId: \`${parentId}\`,
-    dataSource: ${dataSource && `\`${dataSource}\``}
-  }`).join(',\n  ')}
-]
+export const RegionsData: PlaceSeedData[] = [${regions.map(({
+    id,
+    locales,
+    phoneCode,
+    alpha2code,
+    alpha3code,
+    population,
+    coordinates,
+    parentId,
+    alternativeNames,
+    dataSource
+   }) => `{
+  id: \`${id}\`,
+  locales: {
+    ${Object.entries(locales).map(([ locale, name ]) => `${locale}: \`${name}\``).join(',\n    ')}
+  },
+  alternativeNames: ${alternativeNames && `[${alternativeNames.map(name => `\`${name}\``).join(', ')}]`},
+  phoneCode: ${phoneCode && `\`${phoneCode}\``},
+  alpha2code: ${alpha2code && `\`${alpha2code}\``},
+  alpha3code: ${alpha3code && `\`${alpha3code}\``},
+  population: ${population},
+  coordinates: ${JSON.stringify(coordinates)},
+  polygon: RegionPolygons[\`${id}\`],
+  parentId: \`${parentId}\`,
+  dataSource: ${dataSource && `\`${dataSource}\``}
+}`).join(', ')}]
 `)
 
   // Save all City Geometries to polygons.json file
@@ -256,23 +223,32 @@ export const RegionsData: PlaceSeedData[] = [
 import { PlaceSeedData } from '../../places'
 const CityPolygons = require('./polygons.json')
 
-export const CitiesData: PlaceSeedData[] = [
-  ${cities.map(({ id, locales, phoneCode, alpha2code, alpha3code, population, coordinates, parentId, alternativeNames, dataSource }) => `{
-    id: \`${id}\`,
-    locales: {
-      ${Object.entries(locales).map(([ locale, name ]) => `${locale}: \`${name}\``).join(',\n    ')}
-    },
-    phoneCode: ${phoneCode && `\`${phoneCode}\``},
-    alpha2code: ${alpha2code && `\`${alpha2code}\``},
-    alpha3code: ${alpha3code && `\`${alpha3code}\``},
-    alternativeNames: ${alternativeNames && `[${alternativeNames.map(name => `\`${name}\``).join(', ')}]`},
-    population: ${population},
-    coordinates: ${JSON.stringify(coordinates)},
-    polygon: CityPolygons[\`${id}\`],
-    parentId: \`${parentId}\`,
-    dataSource: ${dataSource && `\`${dataSource}\``}
-  }`).join(',\n  ')}
-]
+export const CitiesData: PlaceSeedData[] = [${cities.map(({
+  id,
+  locales,
+  phoneCode,
+  alpha2code,
+  alpha3code,
+  population,
+  coordinates,
+  parentId,
+  alternativeNames,
+  dataSource
+}) => `{
+  id: \`${id}\`,
+  locales: {
+    ${Object.entries(locales).map(([ locale, name ]) => `${locale}: \`${name}\``).join(',\n    ')}
+  },
+  phoneCode: ${phoneCode && `\`${phoneCode}\``},
+  alpha2code: ${alpha2code && `\`${alpha2code}\``},
+  alpha3code: ${alpha3code && `\`${alpha3code}\``},
+  alternativeNames: ${alternativeNames && `[${alternativeNames.map(name => `\`${name}\``).join(', ')}]`},
+  population: ${population},
+  coordinates: ${JSON.stringify(coordinates)},
+  polygon: CityPolygons[\`${id}\`],
+  parentId: \`${parentId}\`,
+  dataSource: ${dataSource && `\`${dataSource}\``}
+}`).join(', ')}]
 `)
 
   console.log('Success!')
