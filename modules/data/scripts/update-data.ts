@@ -5,6 +5,8 @@ import { CitiesData } from '../src/seeds/places/cities/data'
 import { CountriesData } from '../src/seeds/places/countries/data'
 import moment from 'moment'
 import { DATE_FORMAT } from '@coronatab/shared'
+import fs from 'fs-extra'
+import * as path from 'path'
 
 InjectEnvs()
 
@@ -19,6 +21,7 @@ InjectEnvs()
     deaths?: number
   }
   const data: Entry[] = require('../coronadatascraper/dist/data.json')
+  const date = (await fs.readFile(path.resolve(__dirname, '../coronadatascraper/dist/lastScrapeDate'))).toString()
 
   const countries = CountriesData
   const regions = RegionsData
@@ -79,7 +82,6 @@ InjectEnvs()
       parentId?: string
     }
   }
-  const date = moment().format(DATE_FORMAT)
 
   const placeDatas: PlaceSeedData = {
     ...cities.reduce((results, city) => ({ ...results, [city.id]: { parentId: city.parentId } }), {}),
@@ -115,7 +117,6 @@ InjectEnvs()
   const reaggregate = () => {
     const ids = idsToReaggregate
     idsToReaggregate = []
-    console.log(ids)
     for (const [id, placeData] of Object.entries(placeDatas).filter(([ id ]) => ids.includes(id))) {
       const children = Object.values(placeDatas).filter(({ parentId }) => parentId === id)
       const aggregated = {
@@ -123,7 +124,6 @@ InjectEnvs()
         deaths: 0,
         recovered: 0
       }
-      if (id === 'china') debugger
       for (const child of children.filter(c => c.data)) {
         aggregated.cases += child.data.cases
         aggregated.deaths += child.data.deaths
@@ -132,7 +132,6 @@ InjectEnvs()
       placeData.aggregated = aggregated
       const queueReaggregate = () => {
         if (placeData.parentId && !idsToReaggregate.includes(placeData.parentId)) {
-          console.log(`${id} -> ${placeData.parentId}`)
           idsToReaggregate.push(placeData.parentId)
         }
       }

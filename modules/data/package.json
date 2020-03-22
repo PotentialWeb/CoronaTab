@@ -5,7 +5,9 @@
   "main": "dist/src/index.js",
   "scripts": {
     "init:submodules": "git submodule update --remote --init --recursive",
-    "scrape": "cd coronadatascraper/ && source ~/.nvm/nvm.sh; nvm use 13.4; nvm current; npm i; NODE_OPTIONS='--insecure-http-parser' $(nvm which 13.4) cli.js",
+    "prepare-lazd": "",
+    "scrape-timeseries": "cd coronadatascraper/ && source ~/.nvm/nvm.sh; nvm use 13.4; nvm current; npm i; NODE_OPTIONS='--insecure-http-parser' $(nvm which 13.4) timeseries.js",
+    "scrape-today": "cd coronadatascraper/ && source ~/.nvm/nvm.sh; nvm use 13.4; nvm current; npm i; NODE_OPTIONS='--insecure-http-parser' $(nvm which 13.4) cli.js",
     "generate-seeds": "./node_modules/.bin/ts-node -P ./tsconfig.json scripts/generate-seeds.ts",
     "scrape-jhu": "./node_modules/.bin/ts-node -P ./tsconfig.json scripts/jhu/scrape.ts",
     "sync": "./node_modules/.bin/ts-node scripts/sync.ts",
