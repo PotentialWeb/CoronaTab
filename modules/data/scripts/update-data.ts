@@ -1,34 +1,31 @@
-import { connect, FindPlaceSeedDataInDataset, PlaceData, PlaceSeedData } from '../src'
+import { connect, FindPlaceSeedDataInDataset, PlaceData } from '../src'
 import { config as InjectEnvs } from 'dotenv'
 import { RegionsData } from '../src/seeds/places/regions/data'
 import { CitiesData } from '../src/seeds/places/cities/data'
 import { CountriesData } from '../src/seeds/places/countries/data'
-import moment from 'moment'
-import { DATE_FORMAT } from '@coronatab/shared'
-import fs from 'fs-extra'
-import * as path from 'path'
+import { DataScraper, TimeseriesEntry } from './data-scraper'
+import { JHU } from './jhu'
 
 InjectEnvs()
 
 ;(async () => {
-  type Entry = {
-    country: string
-    state?: string
-    county?: string
-    cases: number
-    active: number
-    recovered?: number
-    deaths?: number
-  }
-  const data: Entry[] = require('../coronadatascraper/dist/data.json')
-  const date = (await fs.readFile(path.resolve(__dirname, '../coronadatascraper/dist/lastScrapeDate'))).toString()
+  const data = DataScraper.data
+  // const jhuData = await JHU.getData()
 
   const countries = CountriesData
   const regions = RegionsData
   const cities = CitiesData
 
-  const getIDsFromEntry = (entry: Entry) => {
-    const country = FindPlaceSeedDataInDataset({ dataset: countries, term: entry.country })
+  const getIDsFromEntry = (entry: TimeseriesEntry) => {
+    let country = FindPlaceSeedDataInDataset({ dataset: countries, term: entry.country })
+
+    if (!country) {
+      country = FindPlaceSeedDataInDataset({
+        dataset: regions,
+        term: entry.country
+      })
+    }
+
     let id = country.id
     let parentId = 'earth'
 
@@ -59,6 +56,7 @@ InjectEnvs()
           dataset: regions.filter(r => r.parentId === country.id),
           term: regionName
         })
+        if (!region) debugger
         id = region.id
         parentId = country.id
       }
@@ -83,88 +81,99 @@ InjectEnvs()
     }
   }
 
-  const placeDatas: PlaceSeedData = {
-    ...cities.reduce((results, city) => ({ ...results, [city.id]: { parentId: city.parentId } }), {}),
-    ...regions.reduce((results, region) => ({ ...results, [region.id]: { parentId: region.parentId } }), {}),
-    ...countries.reduce((results, country) => ({ ...results, [country.id]: { parentId: country.parentId } }), {}),
-    earth: {
-      data: new PlaceData({
-        cases: 0,
-        deaths: 0,
-        recovered: 0,
-        date,
-        placeId: 'earth'
-      })
-    }
-  }
+  const dates: {
+    [date: string]: PlaceSeedData
+  } = {}
 
   for (const entry of data) {
     const { id, parentId } = getIDsFromEntry(entry)
-    placeDatas[id] = placeDatas[id] || {}
-    const cases = entry.cases ?? 0
-    const deaths = entry.deaths ?? 0
-    const recovered = entry.recovered ?? (entry.active && cases - entry.active) ?? 0
-    placeDatas[id].data = new PlaceData({
-      cases, deaths, recovered,
-      placeId: id,
-      date
-    })
-    placeDatas[id].parentId = parentId
-  }
 
-  let idsToReaggregate: string[] = [ ...new Set(Object.values(placeDatas).map(({ parentId }) => parentId)) ]
-
-  const reaggregate = () => {
-    const ids = idsToReaggregate
-    idsToReaggregate = []
-    for (const [id, placeData] of Object.entries(placeDatas).filter(([ id ]) => ids.includes(id))) {
-      const children = Object.values(placeDatas).filter(({ parentId }) => parentId === id)
-      const aggregated = {
-        cases: 0,
-        deaths: 0,
-        recovered: 0
-      }
-      for (const child of children.filter(c => c.data)) {
-        aggregated.cases += child.data.cases
-        aggregated.deaths += child.data.deaths
-        aggregated.recovered += child.data.recovered
-      }
-      placeData.aggregated = aggregated
-      const queueReaggregate = () => {
-        if (placeData.parentId && !idsToReaggregate.includes(placeData.parentId)) {
-          idsToReaggregate.push(placeData.parentId)
+    for (const [date, values] of Object.entries(entry.dates)) {
+      dates[date] = dates[date] || {
+        ...cities.reduce((results, city) => ({ ...results, [city.id]: { parentId: city.parentId } }), {}),
+        ...regions.reduce((results, region) => ({ ...results, [region.id]: { parentId: region.parentId } }), {}),
+        ...countries.reduce((results, country) => ({ ...results, [country.id]: { parentId: country.parentId } }), {}),
+        earth: {
+          data: new PlaceData({
+            cases: 0,
+            deaths: 0,
+            recovered: 0,
+            date,
+            placeId: 'earth'
+          })
         }
       }
 
-      if (!placeData.data) {
-        placeData.data = new PlaceData({
-          placeId: id,
-          date,
-          ...aggregated
-        })
-        queueReaggregate()
-        continue
-      }
-
-      if (placeData.data.cases < aggregated.cases) {
-        placeData.data.cases = aggregated.cases
-        queueReaggregate()
-      }
-      if (placeData.data.recovered < aggregated.recovered) {
-        placeData.data.recovered = aggregated.recovered
-        queueReaggregate()
-      }
-      if (placeData.data.deaths < aggregated.deaths) {
-        placeData.data.deaths = aggregated.deaths
-        queueReaggregate()
-      }
+      dates[date][id] = dates[date][id] || {}
+      const cases = values.cases ?? 0
+      const deaths = values.deaths ?? 0
+      const recovered = values.recovered ?? (values.active && cases - values.active) ?? 0
+      dates[date][id].data = new PlaceData({
+        cases, deaths, recovered,
+        placeId: id,
+        date
+      })
+      dates[date][id].parentId = parentId
     }
   }
 
-  reaggregate()
+  for (const date of Object.keys(dates)) {
+    const placeDatas = dates[date]
+    let idsToReaggregate: string[] = [ ...new Set(Object.values(placeDatas).map(({ parentId }) => parentId)) ]
 
-  while (idsToReaggregate.length) {
+    const reaggregate = () => {
+      const ids = idsToReaggregate
+      idsToReaggregate = []
+      for (const [id, placeData] of Object.entries(placeDatas).filter(([ id ]) => ids.includes(id))) {
+        const children = Object.values(placeDatas).filter(({ parentId }) => parentId === id)
+        const aggregated = {
+          cases: 0,
+          deaths: 0,
+          recovered: 0
+        }
+        for (const child of children.filter(c => c.data)) {
+          aggregated.cases += child.data.cases
+          aggregated.deaths += child.data.deaths
+          aggregated.recovered += child.data.recovered
+        }
+        placeData.aggregated = aggregated
+        const queueReaggregate = () => {
+          if (placeData.parentId && !idsToReaggregate.includes(placeData.parentId)) {
+            idsToReaggregate.push(placeData.parentId)
+          }
+        }
+
+        if (!placeData.data) {
+          placeData.data = new PlaceData({
+            placeId: id,
+            date,
+            ...aggregated
+          })
+          queueReaggregate()
+          continue
+        }
+
+        if (placeData.data.cases < aggregated.cases) {
+          placeData.data.cases = aggregated.cases
+          queueReaggregate()
+        }
+        if (placeData.data.recovered < aggregated.recovered) {
+          placeData.data.recovered = aggregated.recovered
+          queueReaggregate()
+        }
+        if (placeData.data.deaths < aggregated.deaths) {
+          placeData.data.deaths = aggregated.deaths
+          queueReaggregate()
+        }
+      }
+    }
+
     reaggregate()
+
+    while (idsToReaggregate.length) {
+      reaggregate()
+    }
+
   }
 
   debugger

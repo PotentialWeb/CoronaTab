@@ -24,7 +24,7 @@ interface DateValues {
 }
 interface TodayEntry extends Place, Values {}
 
-interface TimeseriesEntry extends Place {
+export interface TimeseriesEntry extends Place {
   dates: DateValues
 }
 
@@ -53,6 +53,12 @@ export class DataScraper {
         population: dataSet[id]?.population ?? place.population,
         url: dataSet[id]?.url ?? place.url,
         dates: Object.entries(dates).reduce((result, [ date, values ]) => {
+          result[date] = result[date] || {
+            cases: 0,
+            recovered: 0,
+            active: 0,
+            deaths: 0
+          }
           result[date] = {
             cases: result[date].cases > values.cases ? result[date].cases : values.cases,
             active: result[date].active > values.active ? result[date].active : values.active,

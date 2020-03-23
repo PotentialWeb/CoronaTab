@@ -3,20 +3,6 @@ import { PlaceSeedData } from '../../places'
 const RegionPolygons = require('./polygons.json')
 
 export const RegionsData: PlaceSeedData[] = [{
-  id: `france-la-réunion`,
-  locales: {
-    en: `Réunion`
-  },
-  alternativeNames: undefined,
-  phoneCode: `+262`,
-  alpha2code: `RE`,
-  alpha3code: `REU`,
-  population: 859959,
-  coordinates: [55.53996829500005,-21.115329685499916],
-  polygon: RegionPolygons[`france-la-réunion`],
-  parentId: `united-kingdom`,
-  dataSource: undefined
-}, {
   id: `united-kingdom-gibraltar`,
   locales: {
     en: `Gibraltar`
@@ -665,15 +651,15 @@ export const RegionsData: PlaceSeedData[] = [{
   locales: {
     en: `Reunion`
   },
-  alternativeNames: undefined,
+  alternativeNames: [`La Réunion`, `Réunion`, `La Reunion`],
   phoneCode: undefined,
   alpha2code: undefined,
-  alpha3code: undefined,
+  alpha3code: `REU`,
   population: undefined,
   coordinates: [55.2471,-21.1351],
   polygon: RegionPolygons[`france-reunion`],
   parentId: `france`,
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
 }, {
   id: `netherlands-aruba`,
   locales: {
@@ -2073,7 +2059,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-105.54309696705135,38.99982098225249],
   polygon: RegionPolygons[`united-states-of-america-colorado`],
   parentId: `united-states-of-america`,
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://opendata.arcgis.com/datasets/dec84f18254341419c514af8f9e784ba_0.csv`
 }, {
   id: `united-states-of-america-connecticut`,
   locales: {
@@ -2129,7 +2115,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-83.82965067998012,28.060753542550117],
   polygon: RegionPolygons[`united-states-of-america-florida`],
   parentId: `united-states-of-america`,
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://opendata.arcgis.com/datasets/b4930af3f43a48138c70bca409b5c452_0.csv`
 }, {
   id: `united-states-of-america-georgia`,
   locales: {
@@ -2269,7 +2255,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-91.53320699521313,31.022399050426287],
   polygon: RegionPolygons[`united-states-of-america-louisiana`],
   parentId: `united-states-of-america`,
-  dataSource: `https://services5.arcgis.com/O5K6bb5dZVZcTo5M/arcgis/rest/services/Cases_by_Parish_2/FeatureServer/0/query?f=json&where=PFIPS%20%3C%3E%2099999&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Deaths%20desc%2CCases%20desc%2CParish%20asc&resultOffset=0&resultRecordCount=65&cacheHint=true`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america-massachusetts`,
   locales: {
@@ -2563,7 +2549,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-77.60961308037935,41.12951166463159],
   polygon: RegionPolygons[`united-states-of-america-pennsylvania`],
   parentId: `united-states-of-america`,
-  dataSource: `https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx`
+  dataSource: `https://www.health.pa.gov/topics/disease/Pages/Coronavirus.aspx`
 }, {
   id: `united-states-of-america-puerto-rico`,
   locales: {
@@ -2619,7 +2605,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-100.2551086848679,44.230179869105655],
   polygon: RegionPolygons[`united-states-of-america-south-dakota`],
   parentId: `united-states-of-america`,
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
 }, {
   id: `united-states-of-america-tennessee`,
   locales: {
@@ -2661,7 +2647,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-111.54443973955233,39.49994305252983],
   polygon: RegionPolygons[`united-states-of-america-utah`],
   parentId: `united-states-of-america`,
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://coronavirus.utah.gov/latest/`
 }, {
   id: `united-states-of-america-virginia`,
   locales: {
@@ -2703,7 +2689,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-120.80671709265283,47.27941361449236],
   polygon: RegionPolygons[`united-states-of-america-washington`],
   parentId: `united-states-of-america`,
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
 }, {
   id: `united-states-of-america-wisconsin`,
   locales: {
@@ -25328,4 +25314,2818 @@ export const RegionsData: PlaceSeedData[] = [{
   polygon: RegionPolygons[`united-states-of-america-pennsylvania-potter`],
   parentId: `united-states-of-america-pennsylvania`,
   dataSource: `https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx`
+}, {
+  id: `united-states-of-america-pennsylvania-butler`,
+  locales: {
+    en: `Butler`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-pennsylvania-butler`],
+  parentId: `united-states-of-america-pennsylvania`,
+  dataSource: `https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx`
+}, {
+  id: `united-states-of-america-pennsylvania-columbia`,
+  locales: {
+    en: `Columbia`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-pennsylvania-columbia`],
+  parentId: `united-states-of-america-pennsylvania`,
+  dataSource: `https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx`
+}, {
+  id: `united-states-of-america-pennsylvania-dauphin`,
+  locales: {
+    en: `Dauphin`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-pennsylvania-dauphin`],
+  parentId: `united-states-of-america-pennsylvania`,
+  dataSource: `https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx`
+}, {
+  id: `united-states-of-america-pennsylvania-fayette`,
+  locales: {
+    en: `Fayette`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-pennsylvania-fayette`],
+  parentId: `united-states-of-america-pennsylvania`,
+  dataSource: `https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx`
+}, {
+  id: `united-states-of-america-pennsylvania-mercer`,
+  locales: {
+    en: `Mercer`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-pennsylvania-mercer`],
+  parentId: `united-states-of-america-pennsylvania`,
+  dataSource: `https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx`
+}, {
+  id: `united-states-of-america-pennsylvania-montour`,
+  locales: {
+    en: `Montour`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-pennsylvania-montour`],
+  parentId: `united-states-of-america-pennsylvania`,
+  dataSource: `https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx`
+}, {
+  id: `united-states-of-america-pennsylvania-schuylkill`,
+  locales: {
+    en: `Schuylkill`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-pennsylvania-schuylkill`],
+  parentId: `united-states-of-america-pennsylvania`,
+  dataSource: `https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx`
+}, {
+  id: `united-kingdom-uk`,
+  locales: {
+    en: `UK`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-3.436,55.3781],
+  polygon: RegionPolygons[`united-kingdom-uk`],
+  parentId: `united-kingdom`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `china-hong-kong`,
+  locales: {
+    en: `Hong Kong`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [114.2,22.3],
+  polygon: RegionPolygons[`china-hong-kong`],
+  parentId: `china`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `china-macau`,
+  locales: {
+    en: `Macau`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [113.55,22.1667],
+  polygon: RegionPolygons[`china-macau`],
+  parentId: `china`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `denmark-faroe-islands`,
+  locales: {
+    en: `Faroe Islands`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-6.9118,61.8926],
+  polygon: RegionPolygons[`denmark-faroe-islands`],
+  parentId: `denmark`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-massachusetts-worcester-county`,
+  locales: {
+    en: `Worcester County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-71.8571,42.4097],
+  polygon: RegionPolygons[`united-states-of-america-massachusetts-worcester-county`],
+  parentId: `united-states-of-america-massachusetts`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-georgia-gwinnett-county`,
+  locales: {
+    en: `Gwinnett County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-84.0167,33.9191],
+  polygon: RegionPolygons[`united-states-of-america-georgia-gwinnett-county`],
+  parentId: `united-states-of-america-georgia`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-georgia-dekalb-county`,
+  locales: {
+    en: `DeKalb County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-84.2279,33.7956],
+  polygon: RegionPolygons[`united-states-of-america-georgia-dekalb-county`],
+  parentId: `united-states-of-america-georgia`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-kentucky-floyd-county`,
+  locales: {
+    en: `Floyd County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-82.7779,37.5455],
+  polygon: RegionPolygons[`united-states-of-america-kentucky-floyd-county`],
+  parentId: `united-states-of-america-kentucky`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-georgia-fayette-county`,
+  locales: {
+    en: `Fayette County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-84.4803,33.4502],
+  polygon: RegionPolygons[`united-states-of-america-georgia-fayette-county`],
+  parentId: `united-states-of-america-georgia`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-pennsylvania-monroe-county`,
+  locales: {
+    en: `Monroe County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-75.2479,41.0458],
+  polygon: RegionPolygons[`united-states-of-america-pennsylvania-monroe-county`],
+  parentId: `united-states-of-america-pennsylvania`,
+  dataSource: `https://www.health.pa.gov/topics/disease/Pages/Coronavirus.aspx`
+}, {
+  id: `united-states-of-america-pennsylvania-philadelphia-county`,
+  locales: {
+    en: `Philadelphia County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-75.1652,39.9526],
+  polygon: RegionPolygons[`united-states-of-america-pennsylvania-philadelphia-county`],
+  parentId: `united-states-of-america-pennsylvania`,
+  dataSource: `https://www.health.pa.gov/topics/disease/Pages/Coronavirus.aspx`
+}, {
+  id: `united-states-of-america-virginia-norfolk-county`,
+  locales: {
+    en: `Norfolk County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-76.2859,36.8508],
+  polygon: RegionPolygons[`united-states-of-america-virginia-norfolk-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-virginia-arlington-county`,
+  locales: {
+    en: `Arlington County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-77.091,38.8816],
+  polygon: RegionPolygons[`united-states-of-america-virginia-arlington-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-virginia-spotsylvania-county`,
+  locales: {
+    en: `Spotsylvania County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-77.6078,38.2042],
+  polygon: RegionPolygons[`united-states-of-america-virginia-spotsylvania-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-virginia-loudoun-county`,
+  locales: {
+    en: `Loudoun County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-77.6536,39.0768],
+  polygon: RegionPolygons[`united-states-of-america-virginia-loudoun-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-iowa-pottawattamie-county`,
+  locales: {
+    en: `Pottawattamie County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-95.4778,41.3912],
+  polygon: RegionPolygons[`united-states-of-america-iowa-pottawattamie-county`],
+  parentId: `united-states-of-america-iowa`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-south-carolina-kershaw-county`,
+  locales: {
+    en: `Kershaw County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-80.607,34.2465],
+  polygon: RegionPolygons[`united-states-of-america-south-carolina-kershaw-county`],
+  parentId: `united-states-of-america-south-carolina`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-arizona-pima-county`,
+  locales: {
+    en: `Pima County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-111.6661,32.0575],
+  polygon: RegionPolygons[`united-states-of-america-arizona-pima-county`],
+  parentId: `united-states-of-america-arizona`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-pennsylvania-adams-county`,
+  locales: {
+    en: `Adams County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-77.2865,39.8522],
+  polygon: RegionPolygons[`united-states-of-america-pennsylvania-adams-county`],
+  parentId: `united-states-of-america-pennsylvania`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-utah-weber-county`,
+  locales: {
+    en: `Weber County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-111.9522,41.2603],
+  polygon: RegionPolygons[`united-states-of-america-utah-weber-county`],
+  parentId: `united-states-of-america-utah`,
+  dataSource: `https://coronavirus-dashboard.utah.gov/`
+}, {
+  id: `united-states-of-america-vermont-bennington-county`,
+  locales: {
+    en: `Bennington County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-73.135,43.0279],
+  polygon: RegionPolygons[`united-states-of-america-vermont-bennington-county`],
+  parentId: `united-states-of-america-vermont`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-minnesota-carver-county`,
+  locales: {
+    en: `Carver County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-93.7842,44.8254],
+  polygon: RegionPolygons[`united-states-of-america-minnesota-carver-county`],
+  parentId: `united-states-of-america-minnesota`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-georgia-cherokee-county`,
+  locales: {
+    en: `Cherokee County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-84.4803,34.2515],
+  polygon: RegionPolygons[`united-states-of-america-georgia-cherokee-county`],
+  parentId: `united-states-of-america-georgia`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-kentucky-jefferson-county`,
+  locales: {
+    en: `Jefferson County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-85.6435,38.1938],
+  polygon: RegionPolygons[`united-states-of-america-kentucky-jefferson-county`],
+  parentId: `united-states-of-america-kentucky`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-louisiana-jefferson-county`,
+  locales: {
+    en: `Jefferson County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-90.1121,29.6499],
+  polygon: RegionPolygons[`united-states-of-america-louisiana-jefferson-county`],
+  parentId: `united-states-of-america-louisiana`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-south-carolina-spartanburg-county`,
+  locales: {
+    en: `Spartanburg County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-81.9535,34.8606],
+  polygon: RegionPolygons[`united-states-of-america-south-carolina-spartanburg-county`],
+  parentId: `united-states-of-america-south-carolina`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-kentucky-harrison-county`,
+  locales: {
+    en: `Harrison County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-84.3542,38.4333],
+  polygon: RegionPolygons[`united-states-of-america-kentucky-harrison-county`],
+  parentId: `united-states-of-america-kentucky`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-iowa-johnson-county`,
+  locales: {
+    en: `Johnson County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-91.5984,41.6699],
+  polygon: RegionPolygons[`united-states-of-america-iowa-johnson-county`],
+  parentId: `united-states-of-america-iowa`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-massachusetts-berkshire-county`,
+  locales: {
+    en: `Berkshire County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-73.1822,42.3118],
+  polygon: RegionPolygons[`united-states-of-america-massachusetts-berkshire-county`],
+  parentId: `united-states-of-america-massachusetts`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-kansas-johnson-county`,
+  locales: {
+    en: `Johnson County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-94.8521,38.8454],
+  polygon: RegionPolygons[`united-states-of-america-kansas-johnson-county`],
+  parentId: `united-states-of-america-kansas`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-georgia-polk-county`,
+  locales: {
+    en: `Polk County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-85.1479,34.0132],
+  polygon: RegionPolygons[`united-states-of-america-georgia-polk-county`],
+  parentId: `united-states-of-america-georgia`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-missouri-st-louis-county`,
+  locales: {
+    en: `St. Louis County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-90.4125,38.6103],
+  polygon: RegionPolygons[`united-states-of-america-missouri-st-louis-county`],
+  parentId: `united-states-of-america-missouri`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-virginia-fairfax-county`,
+  locales: {
+    en: `Fairfax County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-77.2405,38.9085],
+  polygon: RegionPolygons[`united-states-of-america-virginia-fairfax-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-new-hampshire-rockingham-county`,
+  locales: {
+    en: `Rockingham County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-71.0498,42.9931],
+  polygon: RegionPolygons[`united-states-of-america-new-hampshire-rockingham-county`],
+  parentId: `united-states-of-america-new-hampshire`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-pennsylvania-montgomery-county`,
+  locales: {
+    en: `Montgomery County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-75.3879,40.229],
+  polygon: RegionPolygons[`united-states-of-america-pennsylvania-montgomery-county`],
+  parentId: `united-states-of-america-pennsylvania`,
+  dataSource: `https://www.health.pa.gov/topics/disease/Pages/Coronavirus.aspx`
+}, {
+  id: `united-states-of-america-arizona-pinal-county`,
+  locales: {
+    en: `Pinal County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-111.2845,32.8162],
+  polygon: RegionPolygons[`united-states-of-america-arizona-pinal-county`],
+  parentId: `united-states-of-america-arizona`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-south-carolina-charleston-county`,
+  locales: {
+    en: `Charleston County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-79.7848,32.7957],
+  polygon: RegionPolygons[`united-states-of-america-south-carolina-charleston-county`],
+  parentId: `united-states-of-america-south-carolina`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-georgia-cobb-county`,
+  locales: {
+    en: `Cobb County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-84.5641,33.8999],
+  polygon: RegionPolygons[`united-states-of-america-georgia-cobb-county`],
+  parentId: `united-states-of-america-georgia`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-utah-davis-county`,
+  locales: {
+    en: `Davis County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-112.0953,40.9629],
+  polygon: RegionPolygons[`united-states-of-america-utah-davis-county`],
+  parentId: `united-states-of-america-utah`,
+  dataSource: `https://coronavirus-dashboard.utah.gov/`
+}, {
+  id: `united-states-of-america-hawaii-honolulu-county`,
+  locales: {
+    en: `Honolulu County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-157.8584,21.307],
+  polygon: RegionPolygons[`united-states-of-america-hawaii-honolulu-county`],
+  parentId: `united-states-of-america-hawaii`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-oklahoma-tulsa-county`,
+  locales: {
+    en: `Tulsa County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-95.941,36.1593],
+  polygon: RegionPolygons[`united-states-of-america-oklahoma-tulsa-county`],
+  parentId: `united-states-of-america-oklahoma`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-rhode-island-providence-county`,
+  locales: {
+    en: `Providence County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-71.4774,41.8882],
+  polygon: RegionPolygons[`united-states-of-america-rhode-island-providence-county`],
+  parentId: `united-states-of-america-rhode-island`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-pennsylvania-delaware-county`,
+  locales: {
+    en: `Delaware County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-75.3879,39.9078],
+  polygon: RegionPolygons[`united-states-of-america-pennsylvania-delaware-county`],
+  parentId: `united-states-of-america-pennsylvania`,
+  dataSource: `https://www.health.pa.gov/topics/disease/Pages/Coronavirus.aspx`
+}, {
+  id: `united-states-of-america-nebraska-douglas-county`,
+  locales: {
+    en: `Douglas County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-96.1951,41.3148],
+  polygon: RegionPolygons[`united-states-of-america-nebraska-douglas-county`],
+  parentId: `united-states-of-america-nebraska`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-kentucky-fayette-county`,
+  locales: {
+    en: `Fayette County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-84.4803,38.0606],
+  polygon: RegionPolygons[`united-states-of-america-kentucky-fayette-county`],
+  parentId: `united-states-of-america-kentucky`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-massachusetts-middlesex-county`,
+  locales: {
+    en: `Middlesex County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-71.2874,42.4672],
+  polygon: RegionPolygons[`united-states-of-america-massachusetts-middlesex-county`],
+  parentId: `united-states-of-america-massachusetts`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-minnesota-ramsey-county`,
+  locales: {
+    en: `Ramsey County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-93.0616,44.9964],
+  polygon: RegionPolygons[`united-states-of-america-minnesota-ramsey-county`],
+  parentId: `united-states-of-america-minnesota`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-nevada-washoe-county`,
+  locales: {
+    en: `Washoe County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-119.6035,40.5608],
+  polygon: RegionPolygons[`united-states-of-america-nevada-washoe-county`],
+  parentId: `united-states-of-america-nevada`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-pennsylvania-wayne-county`,
+  locales: {
+    en: `Wayne County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-75.2479,41.6739],
+  polygon: RegionPolygons[`united-states-of-america-pennsylvania-wayne-county`],
+  parentId: `united-states-of-america-pennsylvania`,
+  dataSource: `https://www.health.pa.gov/topics/disease/Pages/Coronavirus.aspx`
+}, {
+  id: `united-states-of-america-nevada-clark-county`,
+  locales: {
+    en: `Clark County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-115.094,36.0796],
+  polygon: RegionPolygons[`united-states-of-america-nevada-clark-county`],
+  parentId: `united-states-of-america-nevada`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-massachusetts-suffolk-county`,
+  locales: {
+    en: `Suffolk County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-71.0589,42.3601],
+  polygon: RegionPolygons[`united-states-of-america-massachusetts-suffolk-county`],
+  parentId: `united-states-of-america-massachusetts`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-massachusetts-norfolk-county`,
+  locales: {
+    en: `Norfolk County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-71.1449,42.1767],
+  polygon: RegionPolygons[`united-states-of-america-massachusetts-norfolk-county`],
+  parentId: `united-states-of-america-massachusetts`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-arizona-maricopa-county`,
+  locales: {
+    en: `Maricopa County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-112.4291,33.2918],
+  polygon: RegionPolygons[`united-states-of-america-arizona-maricopa-county`],
+  parentId: `united-states-of-america-arizona`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-new-hampshire-grafton-county`,
+  locales: {
+    en: `Grafton County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-71.826,43.9088],
+  polygon: RegionPolygons[`united-states-of-america-new-hampshire-grafton-county`],
+  parentId: `united-states-of-america-new-hampshire`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-georgia-fulton-county`,
+  locales: {
+    en: `Fulton County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-84.3963,33.8034],
+  polygon: RegionPolygons[`united-states-of-america-georgia-fulton-county`],
+  parentId: `united-states-of-america-georgia`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-massachusetts-essex-county`,
+  locales: {
+    en: `Essex County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-70.7829,42.632],
+  polygon: RegionPolygons[`united-states-of-america-massachusetts-essex-county`],
+  parentId: `united-states-of-america-massachusetts`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-georgia-charlton-county`,
+  locales: {
+    en: `Charlton County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-82.0843,30.7917],
+  polygon: RegionPolygons[`united-states-of-america-georgia-charlton-county`],
+  parentId: `united-states-of-america-georgia`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-pennsylvania-bucks-county`,
+  locales: {
+    en: `Bucks County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-75.2479,40.4108],
+  polygon: RegionPolygons[`united-states-of-america-pennsylvania-bucks-county`],
+  parentId: `united-states-of-america-pennsylvania`,
+  dataSource: `https://www.health.pa.gov/topics/disease/Pages/Coronavirus.aspx`
+}, {
+  id: `united-states-of-america-virginia-hanover-county`,
+  locales: {
+    en: `Hanover County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-77.5161,37.7772],
+  polygon: RegionPolygons[`united-states-of-america-virginia-hanover-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-south-carolina-lancaster-county`,
+  locales: {
+    en: `Lancaster County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-80.6771,34.7253],
+  polygon: RegionPolygons[`united-states-of-america-south-carolina-lancaster-county`],
+  parentId: `united-states-of-america-south-carolina`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-nebraska-knox-county`,
+  locales: {
+    en: `Knox County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-97.8722,42.6712],
+  polygon: RegionPolygons[`united-states-of-america-nebraska-knox-county`],
+  parentId: `united-states-of-america-nebraska`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-minnesota-anoka-county`,
+  locales: {
+    en: `Anoka County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-93.2197,45.3293],
+  polygon: RegionPolygons[`united-states-of-america-minnesota-anoka-county`],
+  parentId: `united-states-of-america-minnesota`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-minnesota-olmsted-county`,
+  locales: {
+    en: `Olmsted County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-92.3814,43.9952],
+  polygon: RegionPolygons[`united-states-of-america-minnesota-olmsted-county`],
+  parentId: `united-states-of-america-minnesota`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-utah-summit-county`,
+  locales: {
+    en: `Summit County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-110.9984,40.8298],
+  polygon: RegionPolygons[`united-states-of-america-utah-summit-county`],
+  parentId: `united-states-of-america-utah`,
+  dataSource: `https://coronavirus-dashboard.utah.gov/`
+}, {
+  id: `united-states-of-america-louisiana-orleans-county`,
+  locales: {
+    en: `Orleans County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-90.0715,29.9511],
+  polygon: RegionPolygons[`united-states-of-america-louisiana-orleans-county`],
+  parentId: `united-states-of-america-louisiana`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-south-dakota-pennington-county`,
+  locales: {
+    en: `Pennington County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-102.2548,43.8901],
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-pennington-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-beadle-county`,
+  locales: {
+    en: `Beadle County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-98.2213,44.4797],
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-beadle-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-charles-mix-county`,
+  locales: {
+    en: `Charles Mix County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-98.3965,43.0985],
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-charles-mix-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-davison-county`,
+  locales: {
+    en: `Davison County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-98.2213,43.7242],
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-davison-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-minnehaha-county`,
+  locales: {
+    en: `Minnehaha County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-96.8351,43.6632],
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-minnehaha-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-bon-homme-county`,
+  locales: {
+    en: `Bon Homme County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-97.8722,42.9815],
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-bon-homme-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-new-mexico-socorro-county`,
+  locales: {
+    en: `Socorro County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-106.7235,33.8837],
+  polygon: RegionPolygons[`united-states-of-america-new-mexico-socorro-county`],
+  parentId: `united-states-of-america-new-mexico`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-new-mexico-bernalillo-county`,
+  locales: {
+    en: `Bernalillo County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-106.6291,35.0178],
+  polygon: RegionPolygons[`united-states-of-america-new-mexico-bernalillo-county`],
+  parentId: `united-states-of-america-new-mexico`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-michigan-oakland-county`,
+  locales: {
+    en: `Oakland County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-83.3362,42.5922],
+  polygon: RegionPolygons[`united-states-of-america-michigan-oakland-county`],
+  parentId: `united-states-of-america-michigan`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `united-states-of-america-michigan-wayne-county`,
+  locales: {
+    en: `Wayne County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-83.3362,42.2791],
+  polygon: RegionPolygons[`united-states-of-america-michigan-wayne-county`],
+  parentId: `united-states-of-america-michigan`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `france-nouvelle-aquitaine`,
+  locales: {
+    en: `Nouvelle-Aquitaine`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`france-nouvelle-aquitaine`],
+  parentId: `france`,
+  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+}, {
+  id: `france-hauts-de-france`,
+  locales: {
+    en: `Hauts-de-France`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`france-hauts-de-france`],
+  parentId: `france`,
+  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+}, {
+  id: `france-grand-est`,
+  locales: {
+    en: `Grand-Est`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`france-grand-est`],
+  parentId: `france`,
+  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+}, {
+  id: `france-auvergne-rhône-alpes`,
+  locales: {
+    en: `Auvergne Rhône-Alpes`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`france-auvergne-rhône-alpes`],
+  parentId: `france`,
+  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+}, {
+  id: `france-martinique`,
+  locales: {
+    en: `Martinique`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`france-martinique`],
+  parentId: `france`,
+  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+}, {
+  id: `france-guyane`,
+  locales: {
+    en: `Guyane`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`france-guyane`],
+  parentId: `france`,
+  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+}, {
+  id: `france-ile-de-france`,
+  locales: {
+    en: `Ile-de-France`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`france-ile-de-france`],
+  parentId: `france`,
+  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+}, {
+  id: `france-centre-val-de-loire`,
+  locales: {
+    en: `Centre-Val de Loire`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`france-centre-val-de-loire`],
+  parentId: `france`,
+  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+}, {
+  id: `france-bourgogne-franche-comté`,
+  locales: {
+    en: `Bourgogne-Franche-Comté`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`france-bourgogne-franche-comté`],
+  parentId: `france`,
+  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+}, {
+  id: `france-normandie`,
+  locales: {
+    en: `Normandie`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`france-normandie`],
+  parentId: `france`,
+  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+}, {
+  id: `france-pays-de-la-loire`,
+  locales: {
+    en: `Pays de la Loire`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`france-pays-de-la-loire`],
+  parentId: `france`,
+  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+}, {
+  id: `france-bretagne`,
+  locales: {
+    en: `Bretagne`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`france-bretagne`],
+  parentId: `france`,
+  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+}, {
+  id: `france-occitanie`,
+  locales: {
+    en: `Occitanie`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`france-occitanie`],
+  parentId: `france`,
+  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+}, {
+  id: `france-provence-alpes-côte-d’azur`,
+  locales: {
+    en: `Provence-Alpes-Côte d’Azur`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`france-provence-alpes-côte-d’azur`],
+  parentId: `france`,
+  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+}, {
+  id: `france-corse`,
+  locales: {
+    en: `Corse`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`france-corse`],
+  parentId: `france`,
+  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+}, {
+  id: `france-saint-barthélemy`,
+  locales: {
+    en: `Saint-Barthélemy`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`france-saint-barthélemy`],
+  parentId: `france`,
+  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+}, {
+  id: `france-saint-martin`,
+  locales: {
+    en: `Saint-Martin`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`france-saint-martin`],
+  parentId: `france`,
+  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+}, {
+  id: `france-saint-barthélémy`,
+  locales: {
+    en: `Saint-Barthélémy`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`france-saint-barthélémy`],
+  parentId: `france`,
+  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+}, {
+  id: `united-states-of-america-utah-beaver-county`,
+  locales: {
+    en: `Beaver County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-utah-beaver-county`],
+  parentId: `united-states-of-america-utah`,
+  dataSource: `https://coronavirus-dashboard.utah.gov/`
+}, {
+  id: `united-states-of-america-utah-box-elder-county`,
+  locales: {
+    en: `Box Elder County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-utah-box-elder-county`],
+  parentId: `united-states-of-america-utah`,
+  dataSource: `https://coronavirus-dashboard.utah.gov/`
+}, {
+  id: `united-states-of-america-utah-cache-county`,
+  locales: {
+    en: `Cache County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-utah-cache-county`],
+  parentId: `united-states-of-america-utah`,
+  dataSource: `https://coronavirus-dashboard.utah.gov/`
+}, {
+  id: `united-states-of-america-utah-carbon-county`,
+  locales: {
+    en: `Carbon County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-utah-carbon-county`],
+  parentId: `united-states-of-america-utah`,
+  dataSource: `https://coronavirus-dashboard.utah.gov/`
+}, {
+  id: `united-states-of-america-utah-daggett-county`,
+  locales: {
+    en: `Daggett County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-utah-daggett-county`],
+  parentId: `united-states-of-america-utah`,
+  dataSource: `https://coronavirus-dashboard.utah.gov/`
+}, {
+  id: `united-states-of-america-utah-duchesne-county`,
+  locales: {
+    en: `Duchesne County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-utah-duchesne-county`],
+  parentId: `united-states-of-america-utah`,
+  dataSource: `https://coronavirus-dashboard.utah.gov/`
+}, {
+  id: `united-states-of-america-utah-emery-county`,
+  locales: {
+    en: `Emery County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-utah-emery-county`],
+  parentId: `united-states-of-america-utah`,
+  dataSource: `https://coronavirus-dashboard.utah.gov/`
+}, {
+  id: `united-states-of-america-utah-garfield-county`,
+  locales: {
+    en: `Garfield County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-utah-garfield-county`],
+  parentId: `united-states-of-america-utah`,
+  dataSource: `https://coronavirus-dashboard.utah.gov/`
+}, {
+  id: `united-states-of-america-utah-grand-county`,
+  locales: {
+    en: `Grand County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-utah-grand-county`],
+  parentId: `united-states-of-america-utah`,
+  dataSource: `https://coronavirus-dashboard.utah.gov/`
+}, {
+  id: `united-states-of-america-utah-iron-county`,
+  locales: {
+    en: `Iron County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-utah-iron-county`],
+  parentId: `united-states-of-america-utah`,
+  dataSource: `https://coronavirus-dashboard.utah.gov/`
+}, {
+  id: `united-states-of-america-utah-juab-county`,
+  locales: {
+    en: `Juab County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-utah-juab-county`],
+  parentId: `united-states-of-america-utah`,
+  dataSource: `https://coronavirus-dashboard.utah.gov/`
+}, {
+  id: `united-states-of-america-utah-kane-county`,
+  locales: {
+    en: `Kane County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-utah-kane-county`],
+  parentId: `united-states-of-america-utah`,
+  dataSource: `https://coronavirus-dashboard.utah.gov/`
+}, {
+  id: `united-states-of-america-utah-millard-county`,
+  locales: {
+    en: `Millard County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-utah-millard-county`],
+  parentId: `united-states-of-america-utah`,
+  dataSource: `https://coronavirus-dashboard.utah.gov/`
+}, {
+  id: `united-states-of-america-utah-morgan-county`,
+  locales: {
+    en: `Morgan County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-utah-morgan-county`],
+  parentId: `united-states-of-america-utah`,
+  dataSource: `https://coronavirus-dashboard.utah.gov/`
+}, {
+  id: `united-states-of-america-utah-piute-county`,
+  locales: {
+    en: `Piute County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-utah-piute-county`],
+  parentId: `united-states-of-america-utah`,
+  dataSource: `https://coronavirus-dashboard.utah.gov/`
+}, {
+  id: `united-states-of-america-utah-rich-county`,
+  locales: {
+    en: `Rich County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-utah-rich-county`],
+  parentId: `united-states-of-america-utah`,
+  dataSource: `https://coronavirus-dashboard.utah.gov/`
+}, {
+  id: `united-states-of-america-utah-salt-lake-county`,
+  locales: {
+    en: `Salt Lake County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-utah-salt-lake-county`],
+  parentId: `united-states-of-america-utah`,
+  dataSource: `https://coronavirus-dashboard.utah.gov/`
+}, {
+  id: `united-states-of-america-utah-san-juan-county`,
+  locales: {
+    en: `San Juan County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-utah-san-juan-county`],
+  parentId: `united-states-of-america-utah`,
+  dataSource: `https://coronavirus-dashboard.utah.gov/`
+}, {
+  id: `united-states-of-america-utah-sanpete-county`,
+  locales: {
+    en: `Sanpete County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-utah-sanpete-county`],
+  parentId: `united-states-of-america-utah`,
+  dataSource: `https://coronavirus-dashboard.utah.gov/`
+}, {
+  id: `united-states-of-america-utah-sevier-county`,
+  locales: {
+    en: `Sevier County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-utah-sevier-county`],
+  parentId: `united-states-of-america-utah`,
+  dataSource: `https://coronavirus-dashboard.utah.gov/`
+}, {
+  id: `united-states-of-america-utah-tooele-county`,
+  locales: {
+    en: `Tooele County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-utah-tooele-county`],
+  parentId: `united-states-of-america-utah`,
+  dataSource: `https://coronavirus-dashboard.utah.gov/`
+}, {
+  id: `united-states-of-america-utah-uintah-county`,
+  locales: {
+    en: `Uintah County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-utah-uintah-county`],
+  parentId: `united-states-of-america-utah`,
+  dataSource: `https://coronavirus-dashboard.utah.gov/`
+}, {
+  id: `united-states-of-america-utah-utah-county`,
+  locales: {
+    en: `Utah County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-utah-utah-county`],
+  parentId: `united-states-of-america-utah`,
+  dataSource: `https://coronavirus-dashboard.utah.gov/`
+}, {
+  id: `united-states-of-america-utah-wasatch-county`,
+  locales: {
+    en: `Wasatch County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-utah-wasatch-county`],
+  parentId: `united-states-of-america-utah`,
+  dataSource: `https://coronavirus-dashboard.utah.gov/`
+}, {
+  id: `united-states-of-america-utah-washington-county`,
+  locales: {
+    en: `Washington County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-utah-washington-county`],
+  parentId: `united-states-of-america-utah`,
+  dataSource: `https://coronavirus-dashboard.utah.gov/`
+}, {
+  id: `united-states-of-america-utah-wayne-county`,
+  locales: {
+    en: `Wayne County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-utah-wayne-county`],
+  parentId: `united-states-of-america-utah`,
+  dataSource: `https://coronavirus-dashboard.utah.gov/`
+}, {
+  id: `united-states-of-america-pennsylvania-allegheny-county`,
+  locales: {
+    en: `Allegheny County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-pennsylvania-allegheny-county`],
+  parentId: `united-states-of-america-pennsylvania`,
+  dataSource: `https://www.health.pa.gov/topics/disease/Pages/Coronavirus.aspx`
+}, {
+  id: `united-states-of-america-pennsylvania-chester-county`,
+  locales: {
+    en: `Chester County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-pennsylvania-chester-county`],
+  parentId: `united-states-of-america-pennsylvania`,
+  dataSource: `https://www.health.pa.gov/topics/disease/Pages/Coronavirus.aspx`
+}, {
+  id: `united-states-of-america-pennsylvania-cumberland-county`,
+  locales: {
+    en: `Cumberland County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-pennsylvania-cumberland-county`],
+  parentId: `united-states-of-america-pennsylvania`,
+  dataSource: `https://www.health.pa.gov/topics/disease/Pages/Coronavirus.aspx`
+}, {
+  id: `united-states-of-america-pennsylvania-northampton-county`,
+  locales: {
+    en: `Northampton County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-pennsylvania-northampton-county`],
+  parentId: `united-states-of-america-pennsylvania`,
+  dataSource: `https://www.health.pa.gov/topics/disease/Pages/Coronavirus.aspx`
+}, {
+  id: `united-states-of-america-pennsylvania-pike-county`,
+  locales: {
+    en: `Pike County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-pennsylvania-pike-county`],
+  parentId: `united-states-of-america-pennsylvania`,
+  dataSource: `https://www.health.pa.gov/topics/disease/Pages/Coronavirus.aspx`
+}, {
+  id: `united-states-of-america-pennsylvania-washington-county`,
+  locales: {
+    en: `Washington County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-pennsylvania-washington-county`],
+  parentId: `united-states-of-america-pennsylvania`,
+  dataSource: `https://www.health.pa.gov/topics/disease/Pages/Coronavirus.aspx`
+}, {
+  id: `united-states-of-america-south-dakota-mccook-county`,
+  locales: {
+    en: `McCook County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-mccook-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-aurora-county`,
+  locales: {
+    en: `Aurora County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-aurora-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-bennett-county`,
+  locales: {
+    en: `Bennett County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-bennett-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-brookings-county`,
+  locales: {
+    en: `Brookings County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-brookings-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-brown-county`,
+  locales: {
+    en: `Brown County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-brown-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-brule-county`,
+  locales: {
+    en: `Brule County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-brule-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-buffalo-county`,
+  locales: {
+    en: `Buffalo County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-buffalo-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-butte-county`,
+  locales: {
+    en: `Butte County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-butte-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-campbell-county`,
+  locales: {
+    en: `Campbell County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-campbell-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-clark-county`,
+  locales: {
+    en: `Clark County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-clark-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-clay-county`,
+  locales: {
+    en: `Clay County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-clay-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-codington-county`,
+  locales: {
+    en: `Codington County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-codington-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-corson-county`,
+  locales: {
+    en: `Corson County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-corson-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-custer-county`,
+  locales: {
+    en: `Custer County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-custer-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-day-county`,
+  locales: {
+    en: `Day County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-day-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-deuel-county`,
+  locales: {
+    en: `Deuel County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-deuel-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-dewey-county`,
+  locales: {
+    en: `Dewey County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-dewey-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-douglas-county`,
+  locales: {
+    en: `Douglas County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-douglas-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-edmunds-county`,
+  locales: {
+    en: `Edmunds County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-edmunds-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-fall-river-county`,
+  locales: {
+    en: `Fall River County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-fall-river-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-faulk-county`,
+  locales: {
+    en: `Faulk County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-faulk-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-grant-county`,
+  locales: {
+    en: `Grant County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-grant-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-gregory-county`,
+  locales: {
+    en: `Gregory County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-gregory-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-haakon-county`,
+  locales: {
+    en: `Haakon County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-haakon-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-hamlin-county`,
+  locales: {
+    en: `Hamlin County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-hamlin-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-hand-county`,
+  locales: {
+    en: `Hand County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-hand-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-hanson-county`,
+  locales: {
+    en: `Hanson County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-hanson-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-harding-county`,
+  locales: {
+    en: `Harding County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-harding-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-hughes-county`,
+  locales: {
+    en: `Hughes County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-hughes-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-hutchinson-county`,
+  locales: {
+    en: `Hutchinson County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-hutchinson-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-hyde-county`,
+  locales: {
+    en: `Hyde County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-hyde-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-jackson-county`,
+  locales: {
+    en: `Jackson County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-jackson-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-jerauld-county`,
+  locales: {
+    en: `Jerauld County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-jerauld-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-jones-county`,
+  locales: {
+    en: `Jones County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-jones-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-kingsbury-county`,
+  locales: {
+    en: `Kingsbury County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-kingsbury-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-lake-county`,
+  locales: {
+    en: `Lake County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-lake-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-lawrence-county`,
+  locales: {
+    en: `Lawrence County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-lawrence-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-lincoln-county`,
+  locales: {
+    en: `Lincoln County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-lincoln-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-lyman-county`,
+  locales: {
+    en: `Lyman County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-lyman-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-marshall-county`,
+  locales: {
+    en: `Marshall County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-marshall-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-mcpherson-county`,
+  locales: {
+    en: `McPherson County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-mcpherson-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-meade-county`,
+  locales: {
+    en: `Meade County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-meade-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-mellette-county`,
+  locales: {
+    en: `Mellette County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-mellette-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-miner-county`,
+  locales: {
+    en: `Miner County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-miner-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-moody-county`,
+  locales: {
+    en: `Moody County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-moody-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-oglala-lakota-county`,
+  locales: {
+    en: `Oglala Lakota County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-oglala-lakota-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-perkins-county`,
+  locales: {
+    en: `Perkins County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-perkins-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-potter-county`,
+  locales: {
+    en: `Potter County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-potter-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-roberts-county`,
+  locales: {
+    en: `Roberts County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-roberts-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-sanborn-county`,
+  locales: {
+    en: `Sanborn County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-sanborn-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-spink-county`,
+  locales: {
+    en: `Spink County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-spink-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-stanley-county`,
+  locales: {
+    en: `Stanley County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-stanley-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-sully-county`,
+  locales: {
+    en: `Sully County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-sully-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-todd-county`,
+  locales: {
+    en: `Todd County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-todd-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-tripp-county`,
+  locales: {
+    en: `Tripp County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-tripp-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-turner-county`,
+  locales: {
+    en: `Turner County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-turner-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-union-county`,
+  locales: {
+    en: `Union County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-union-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-walworth-county`,
+  locales: {
+    en: `Walworth County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-walworth-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-yankton-county`,
+  locales: {
+    en: `Yankton County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-yankton-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-south-dakota-ziebach-county`,
+  locales: {
+    en: `Ziebach County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-south-dakota-ziebach-county`],
+  parentId: `united-states-of-america-south-dakota`,
+  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+}, {
+  id: `united-states-of-america-utah-tri-county`,
+  locales: {
+    en: `Tri County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-utah-tri-county`],
+  parentId: `united-states-of-america-utah`,
+  dataSource: `https://coronavirus.utah.gov/latest/`
+}, {
+  id: `united-states-of-america-pennsylvania-lehigh-county`,
+  locales: {
+    en: `Lehigh County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-pennsylvania-lehigh-county`],
+  parentId: `united-states-of-america-pennsylvania`,
+  dataSource: `https://www.health.pa.gov/topics/disease/Pages/Coronavirus.aspx`
+}, {
+  id: `united-states-of-america-pennsylvania-luzerne-county`,
+  locales: {
+    en: `Luzerne County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-pennsylvania-luzerne-county`],
+  parentId: `united-states-of-america-pennsylvania`,
+  dataSource: `https://www.health.pa.gov/topics/disease/Pages/Coronavirus.aspx`
+}, {
+  id: `spain-comunitat-valenciana`,
+  locales: {
+    en: `Comunitat Valenciana`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`spain-comunitat-valenciana`],
+  parentId: `spain`,
+  dataSource: `https://opendata.arcgis.com/datasets/48fac2d7de0f43f9af938852e3748845_0.csv`
+}, {
+  id: `united-states-of-america-pennsylvania--county`,
+  locales: {
+    en: ` County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-pennsylvania--county`],
+  parentId: `united-states-of-america-pennsylvania`,
+  dataSource: `https://www.health.pa.gov/topics/disease/Pages/Coronavirus.aspx`
+}, {
+  id: `united-states-of-america-us-virgin-islands`,
+  locales: {
+    en: `U.S. Virgin Islands`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: `VI`,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-us-virgin-islands`],
+  parentId: `united-states-of-america`,
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+}, {
+  id: `france-grand-est`,
+  locales: {
+    en: `Grand Est`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`france-grand-est`],
+  parentId: `france`,
+  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+}, {
+  id: `france-auvergne-rhône-alpes`,
+  locales: {
+    en: `Auvergne-Rhône-Alpes`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`france-auvergne-rhône-alpes`],
+  parentId: `france`,
+  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+}, {
+  id: `france-centre-val-de-loire`,
+  locales: {
+    en: `Centre Val de Loire`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`france-centre-val-de-loire`],
+  parentId: `france`,
+  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
 }]

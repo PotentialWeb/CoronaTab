@@ -514,7 +514,7 @@ export const CountriesData: PlaceSeedData[] = [{
   phoneCode: `+238`,
   alpha2code: `CV`,
   alpha3code: `CPV`,
-  alternativeNames: ['Cape Verde'],
+  alternativeNames: [`Cape Verde`],
   population: 555987,
   coordinates: undefined,
   polygon: CountryPolygons[`CPV`],
@@ -981,7 +981,7 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [-2.9882706369999426,14.862000781359463],
   polygon: CountryPolygons[`FRA`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
 }, {
   id: `french-guiana`,
   locales: {
@@ -992,10 +992,10 @@ export const CountriesData: PlaceSeedData[] = [{
   alpha3code: `GUF`,
   alternativeNames: undefined,
   population: 298682,
-  coordinates: undefined,
+  coordinates: [-53.1258,3.9339],
   polygon: CountryPolygons[`GUF`],
   parentId: 'earth',
-  dataSource: undefined
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `french-polynesia`,
   locales: {
@@ -2908,7 +2908,7 @@ export const CountriesData: PlaceSeedData[] = [{
   phoneCode: `+670`,
   alpha2code: `TL`,
   alpha3code: `TLS`,
-  alternativeNames: ['East Timor'],
+  alternativeNames: [`East Timor`],
   population: 1318445,
   coordinates: undefined,
   polygon: CountryPolygons[`TLS`],
@@ -3095,7 +3095,7 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [-3.192432722499916,55.19161611550004],
   polygon: CountryPolygons[`GBR`],
   parentId: 'earth',
-  dataSource: `https://www.arcgis.com/sharing/rest/content/items/b684319181f94875a6879bbc833ca3a6/data`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `united-states-of-america`,
   locales: {
@@ -3109,7 +3109,7 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [-91.212524,39.9787775],
   polygon: CountryPolygons[`USA`],
   parentId: 'earth',
-  dataSource: `https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/`
+  dataSource: `https://www.tn.gov/health/cedep/ncov.html`
 }, {
   id: `uruguay`,
   locales: {

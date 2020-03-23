@@ -16,18 +16,24 @@ InjectEnvs()
   const { features: lazdFeatures } = require('../coronadatascraper/dist/features.json')
   const USStatesCodeMap = require('./us-states-code-map.json')
 
-  const ScrapedData = DataScraper.data
-  const JHUData = await JHU.getData()
+  const data = DataScraper.data
 
   const countries = CountriesData
   const regions = RegionsData
   const cities = CitiesData
 
-  for (const entry of ScrapedData) {
+  for (const entry of data) {
     let country = FindPlaceSeedDataInDataset({
       dataset: countries,
       term: entry.country
     })
+
+    if (!country) {
+      country = FindPlaceSeedDataInDataset({
+        dataset: regions,
+        term: entry.country
+      })
+    }
 
     if (!country) {
       console.error(`No country for entry: ${JSON.stringify(entry)}`)
@@ -50,11 +56,15 @@ InjectEnvs()
           debugger
           process.exit(1)
         }
-        const stateSubId = Strings.dasherize(stateName)
-        const stateId = `${country.id}-${stateSubId}`
-        let state = regions.find(r => r.id === stateId)
+
+        let state = FindPlaceSeedDataInDataset({
+          dataset: regions.filter(r => r.parentId === country.id),
+          term: stateName
+        })
 
         if (!state) {
+          const stateSubId = Strings.dasherize(stateName)
+          const stateId = `${country.id}-${stateSubId}`
           state = {
             id: stateId,
             parentId: country.id,
@@ -65,6 +75,7 @@ InjectEnvs()
           }
           regions.push(state)
         }
+
         state.coordinates = state.coordinates ?? entry.coordinates
         state.population = state.population ?? entry.population
         if (!state.polygon && entry.featureId) {
@@ -76,16 +87,19 @@ InjectEnvs()
         }
       // County
         if (entry.county) {
-          const countyId = `${state.id}-${Strings.dasherize(entry.county)}`
-          let county = regions.find(r => r.parentId === state.id && r.id === countyId)
+          let county = FindPlaceSeedDataInDataset({
+            dataset: regions.filter(r => r.parentId === state.id),
+            term: entry.county
+          })
 
           if (!county) {
+            const countyId = `${state.id}-${Strings.dasherize(entry.county)}`
             county = {
               id: countyId,
               locales: {
                 en: entry.county
               },
-              parentId: stateId
+              parentId: state.id
             }
             regions.push(county)
           }
@@ -104,10 +118,13 @@ InjectEnvs()
       const regionName = entry.county || entry.state
       if (regionName) {
         // Country Region
-        const id = `${country.id}-${Strings.dasherize(regionName)}`
-        let region = regions.find(r => r.id === id)
+        let region = FindPlaceSeedDataInDataset({
+          dataset: regions.filter(r => r.parentId === country.id),
+          term: regionName
+        })
 
         if (!region) {
+          const id = `${country.id}-${Strings.dasherize(regionName)}`
           region = {
             id,
             parentId: country.id,

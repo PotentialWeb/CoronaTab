@@ -67,13 +67,15 @@ export class JHU {
     const data: NormalizedDataRow[] = casesRawRows
     .filter(r => !['Princess', 'Cruise Ship'].some(ignore => r['Country/Region'].includes(ignore) || r['Province/State'].includes(ignore)))
     .map(casesRow => {
-      const country = SeededCountries.find(c => c.alpha2code === this.COUNTRY_CODE_MAP[casesRow.country])
-      if (!country) throw new Error(`Country not found in DB: ${casesRow.country} ${this.COUNTRY_CODE_MAP[casesRow.country]}`)
-      const deathsRow = deathsRawRows.find(r => r['Country/Region'] === casesRow['Country/Region'] && r['Province/State'] === casesRow['Province/State'])
-      const recoveredRow = recoveredRawRows.find(r => r['Country/Region'] === casesRow['Country/Region'] && r['Province/State'] === casesRow['Province/State'])
+      const countryName = casesRow['Country/Region']
+      const region = casesRow['Province/State']
+      const country = SeededCountries.find(c => c.alpha2code === this.COUNTRY_CODE_MAP[countryName])
+      if (!country) throw new Error(`Country not found in DB: ${countryName} ${this.COUNTRY_CODE_MAP[casesRow.country]}`)
+      const deathsRow = deathsRawRows.find(r => r['Country/Region'] === countryName && r['Province/State'] === region)
+      const recoveredRow = recoveredRawRows.find(r => r['Country/Region'] === countryName && r['Province/State'] === region)
       return {
         countryId: country.id,
-        region: casesRow['Province/State'],
+        region,
         lat: parseFloat(casesRow.Lat),
         lng: parseFloat(casesRow.Long),
         data: Object.entries(casesRow)
