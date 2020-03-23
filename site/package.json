@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "PORT=8080 node server.js",
     "dev:local": "NODE_ENV=development npm run dev",
+    "dev:production": "API_HOST=https://api.coronatab.com npm run dev:local",
     "build": "next build",
     "build:development": "npm run build",
     "build:production": "NODE_ENV=production npm run build",
@@ -34,7 +35,7 @@
     "react-table": "^7.0.0",
     "react-tabs": "^3.1.0",
     "react-transition-group": "^4.3.0",
-    "recharts": "^2.0.0-beta.2",
+    "recharts": "^1.8.5",
     "sitemap": "^6.1.0",
     "swiper": "^5.3.6",
     "ua-parser-js": "^0.7.21"

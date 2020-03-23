@@ -30,15 +30,15 @@ export class FooterComponent extends Component<Props> {
                   Hoobu
                 </a>
               </div>
-              {/*<div className="text-xs">
-                <Link href="/terms">
+              <div className="text-xs">
+                {/* <Link href="/terms">
                   <a className="font-bold underline hover:text-highlight" target="_blank">Terms</a>
                 </Link>
-                {' '}|{' '}
-                <Link href="/privacy">
+                {' '}|{' '} */}
+                <Link href="https://hoobu.com/privacy">
                   <a className="font-bold underline hover:text-highlight" target="_blank">Privacy</a>
                 </Link>
-              </div>*/}
+              </div>
             </div>
             <div className="flex-1 flex flex-col lg:flex-row">
               <div className={listClasses}>
