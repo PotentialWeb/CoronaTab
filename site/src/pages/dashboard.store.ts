@@ -80,7 +80,7 @@ export class DashboardPageStore {
       const placesPromise = this.fetchPlaces({ cached: true })
       const globalDataPromise = this.fetchGlobalData({ cached: true })
       const closestPlacePromise = (() => {
-        if (!this.selectedPlace) return PlaceApi.findClosest({ include: ['children'] })
+        if (!this.selectedPlace) return PlaceApi.findClosest({ typeId: 'country', include: ['children'] })
       })
 
       const [
