@@ -51,13 +51,17 @@ export class DashboardGlobalComponent extends Component<Props, State> {
                   View stats by country
                 </button>
               </div>
-              <div className="px-1">
-                <button
-                  className="btn btn-white px-3 py-1 rounded-sm border border-light text-sm 2xl:text-base"
-                >
-                  View heatmap
-                </button>
-              </div>
+              {
+                /*
+                  <div className="px-1">
+                    <button
+                      className="btn btn-white px-3 py-1 rounded-sm border border-light text-sm 2xl:text-base"
+                    >
+                      View heatmap
+                    </button>
+                  </div>
+                */
+              }
             </div>
           </div>
           <DashboardStatsComponent
