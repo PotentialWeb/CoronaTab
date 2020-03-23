@@ -1,5 +1,5 @@
 import { Component, HTMLAttributes } from 'react'
-import Tippy from '@tippy.js/react'
+import Tippy, { TippyProps } from '@tippy.js/react'
 import { Meta } from '../utils/meta'
 import {
   EmailShareButton,
@@ -34,15 +34,18 @@ export class ShareBtnComponent extends Component<Props> {
     const shareUrl = `${Meta.BASE_PATH}/dashboard`
     const title = `${Meta.APP_NAME} - ${Meta.STRAPLINE}`
     const buttonClassName = ''
-    const tippyProps = {
+    const tippyProps: Partial<TippyProps> = {
       animation: 'shift-away',
       theme: 'light',
+      allowHTML: true,
       arrow: true,
       duration: 100,
       interactive: true,
       trigger: 'click',
       placement: tooltipPlacement ?? 'top'
     }
+
+    if (typeof window !== 'undefined') tippyProps.appendTo = document.body
 
     return (
       <Tippy
