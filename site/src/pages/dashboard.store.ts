@@ -76,12 +76,6 @@ export class DashboardPageStore {
   @action.bound
   async fetchPageData () {
     try {
-      const advicePromise = this.fetchAdvice({ cached: true })
-      const placesPromise = this.fetchPlaces({ cached: true })
-      const globalDataPromise = this.fetchGlobalData({ cached: true })
-      const closestPlacePromise = (() => {
-        if (!this.selectedPlace) return PlaceApi.findClosest({ typeId: 'country', include: ['children'] })
-      })
 
       const [
         placesResult,
@@ -89,10 +83,10 @@ export class DashboardPageStore {
         globalDataResult,
         selectedPlaceResult
       ] = await allSettled([
-        placesPromise,
-        advicePromise,
-        globalDataPromise,
-        closestPlacePromise
+        this.fetchPlaces({ cached: true }),
+        this.fetchAdvice({ cached: true }),
+        this.fetchGlobalData({ cached: true }),
+        !this.selectedPlace && PlaceApi.findClosest({ typeId: 'country', include: ['children'] })
       ])
 
       if (placesResult.status === 'fulfilled') {
@@ -110,9 +104,10 @@ export class DashboardPageStore {
           earth: rawGlobalData
         }
       }
+
       if (selectedPlaceResult.status === 'fulfilled') {
-        if (selectedPlaceResult.value?.length) {
-          this.selectedPlaceTree = [selectedPlaceResult.value[0]]
+        if (selectedPlaceResult.value?.data?.length) {
+          this.selectedPlaceTree = [selectedPlaceResult.value.data[0]]
         }
       }
 
@@ -239,7 +234,7 @@ export class DashboardPageStore {
     }
   }
 
-  static filterRawDataByDates(rawData: any[], startDate: Date, endDate: Date) {
+  static filterRawDataByDates (rawData: any[], startDate: Date, endDate: Date) {
     return rawData.filter(([date]) => {
       const d = new Date(date)
       return d >= startDate && d <= endDate

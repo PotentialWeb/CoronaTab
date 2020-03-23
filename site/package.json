@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "PORT=8080 node server.js",
     "dev:local": "NODE_ENV=development npm run dev",
-    "dev:production": "API_HOST=https://api.coronatab.com npm run dev:local",
+    "dev:production": "API_HOST=https://api.coronatab.app npm run dev:local",
     "build": "next build",
     "build:development": "npm run build",
     "build:production": "NODE_ENV=production npm run build",
