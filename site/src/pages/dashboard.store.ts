@@ -1,10 +1,9 @@
 import { action, observable, computed } from 'mobx'
 import allSettled from 'promise.allsettled'
 import { Place } from '@coronatab/shared'
-import { PlaceApi, PlaceApiFindClosestQuery } from '../utils/api/place'
+import { PlaceApi } from '../utils/api/place'
 import { LocalStorage } from '../utils/storage'
 import { HTTP } from '../utils/http'
-import qs from 'qs'
 import moment from 'moment'
 
 export enum LoadingStatus {
@@ -20,7 +19,20 @@ export class DashboardPageStore {
   loadingStatus = LoadingStatus.IS_LOADING
 
   @observable
-  lastUpdated: Date
+  private _lastFetched: string
+
+  @computed
+  get lastFetched (): Date {
+    const dateStr = this._lastFetched ?? LocalStorage.get('lastFetched')
+    return dateStr && new Date(dateStr)
+  }
+
+  set lastFetched (date: Date) {
+    this._lastFetched = date.toString()
+    LocalStorage.set('lastFetched', date.toString())
+  }
+
+  static lastFetchedTTL = 600
 
   @observable
   private _places: Place[]
@@ -103,11 +115,57 @@ export class DashboardPageStore {
           this.selectedPlaceTree = [selectedPlaceResult.value[0]]
         }
       }
-      this.lastUpdated = new Date()
+
+      // Data may be cached. Make a fresh request for
+      // any cached data if cache is expired
+      this.fetchUpdatedPageData()
+
       this.loadingStatus = LoadingStatus.HAS_LOADED
     } catch (err) {
       console.error(err)
       this.loadingStatus = LoadingStatus.HAS_ERRORED
+    }
+  }
+
+  @action.bound
+  async fetchUpdatedPageData () {
+    if (this.lastFetched) {
+      const expiry = moment(this.lastFetched).add(DashboardPageStore.lastFetchedTTL, 'seconds').toDate()
+      if (expiry > new Date()) {
+        console.info(`Not fetching new data until: ${expiry.toString()}`)
+        return
+      }
+    }
+
+    try {
+      const placesPromise = this.fetchPlaces({ cached: false })
+      const globalDataPromise = this.fetchGlobalData({ cached: false })
+      const [
+        placesResult,
+        globalDataResult
+      ] = await allSettled([
+        placesPromise,
+        globalDataPromise
+      ])
+
+      if (placesResult.status === 'fulfilled') {
+        const { data: places } = placesResult.value
+        this.places = places
+      }
+
+      if (globalDataResult.status === 'fulfilled') {
+        const { data: rawGlobalData } = globalDataResult.value
+        this.rawPlaceData = {
+          ...this.rawPlaceData,
+          earth: rawGlobalData
+        }
+      }
+
+      if (placesResult.status === 'fulfilled' && globalDataResult.status === 'fulfilled') {
+        this.lastFetched = new Date()
+      }
+    } catch (err) {
+      console.error(err)
     }
   }
 
