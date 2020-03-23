@@ -4,6 +4,7 @@ import { scaleLog, scaleLinear } from 'd3-scale'
 import tailwindConfig from '../../../utils/tailwind'
 import moment from 'moment'
 import CloseSvg from '../../../../public/icons/close.svg'
+import { LoadingComponent } from '../../loading'
 
 const {
   theme: {
@@ -173,67 +174,78 @@ export class DashboardCumulativeGraphComponent extends Component<Props, State> {
             </div>
           </div>
         </div>
-        <div style={{ height: '360px' }}>
-          <ResponsiveContainer>
-            <LineChart
-              data={data}
-              onMouseDown={e => {
-                if (e?.activeLabel) this.setState({ startDate: moment(e.activeLabel).toDate() })
-              }}
-              onMouseMove={e => {
-                if (e?.activeLabel && this.state.startDate) {
-                  this.setState({ endDate: moment(e.activeLabel).toDate() })
-                }
-              }}
-              onMouseUp={this.onMouseUp}
-            >
-              <Line type="monotone" dataKey="cases" name="Cases" stroke={brand} dot={{ r: 1}} strokeWidth="2" isAnimationActive={true} animationDuration={200} />
-              <Line type="monotone" dataKey="deaths" name="Deaths" stroke={red} dot={{ r: 1 }} strokeWidth="2" isAnimationActive={true} animationDuration={200} />
-              <Line type="monotone" dataKey="recovered" name="Recovered" dot={{ r: 1 }} stroke={green} strokeWidth="2" isAnimationActive={true} animationDuration={200} />
-              <CartesianGrid stroke={brandDull} strokeDasharray="5 5" />
-              <XAxis
-                allowDataOverflow
-                dataKey="date"
-                domain={[left, right]}
-                stroke={brand}
-              />
-              <YAxis
-                allowDataOverflow
-                scale={(() => {
-                  switch (this.state.yAxisScaleType) {
-                    case (YAxisScaleType.LINEAR):
-                      return scaleLinear()
-                    case (YAxisScaleType.LOGARITHMIC):
-                      return scaleLog().clamp(true)
-                  }
-                })()}
-                domain={[
-                  (() => {
-                    if (this.state.yAxisScaleType === YAxisScaleType.LOGARITHMIC) {
-                      return 1
+        <div className="flex flex-col" style={{ height: '360px' }}>
+          {(() => {
+            if (!Array.isArray(data)) {
+              return (
+                <div className="flex flex-1 items-center justify-center">
+                  <LoadingComponent className="h-8" />
+                </div>
+              )
+            }
+            return (
+              <ResponsiveContainer>
+                <LineChart
+                  data={data}
+                  onMouseDown={e => {
+                    if (e?.activeLabel) this.setState({ startDate: moment(e.activeLabel).toDate() })
+                  }}
+                  onMouseMove={e => {
+                    if (e?.activeLabel && this.state.startDate) {
+                      this.setState({ endDate: moment(e.activeLabel).toDate() })
                     }
-                    return bottom
-                  })(),
-                  top
-                ]}
-                type="number"
-                stroke={brand}
-              />
-              <Tooltip />
-              <Legend />
-              {
-                startDate && endDate && zoomEnabled
-                  ? (
-                    <ReferenceArea
-                      x1={moment(startDate).format('YYYY-MM-DD')}
-                      x2={moment(endDate).format('YYYY-MM-DD')}
-                      strokeOpacity={0.3}
-                    />
-                  )
-                  : null
-              }
-            </LineChart>
-          </ResponsiveContainer>
+                  }}
+                  onMouseUp={this.onMouseUp}
+                >
+                  <Line type="monotone" dataKey="cases" name="Cases" stroke={brand} dot={{ r: 1}} strokeWidth="2" isAnimationActive={true} animationDuration={200} />
+                  <Line type="monotone" dataKey="deaths" name="Deaths" stroke={red} dot={{ r: 1 }} strokeWidth="2" isAnimationActive={true} animationDuration={200} />
+                  <Line type="monotone" dataKey="recovered" name="Recovered" dot={{ r: 1 }} stroke={green} strokeWidth="2" isAnimationActive={true} animationDuration={200} />
+                  <CartesianGrid stroke={brandDull} strokeDasharray="5 5" />
+                  <XAxis
+                    allowDataOverflow
+                    dataKey="date"
+                    domain={[left, right]}
+                    stroke={brand}
+                  />
+                  <YAxis
+                    allowDataOverflow
+                    scale={(() => {
+                      switch (this.state.yAxisScaleType) {
+                        case (YAxisScaleType.LINEAR):
+                          return scaleLinear()
+                        case (YAxisScaleType.LOGARITHMIC):
+                          return scaleLog().clamp(true)
+                      }
+                    })()}
+                    domain={[
+                      (() => {
+                        if (this.state.yAxisScaleType === YAxisScaleType.LOGARITHMIC) {
+                          return 1
+                        }
+                        return bottom
+                      })(),
+                      top
+                    ]}
+                    type="number"
+                    stroke={brand}
+                  />
+                  <Tooltip />
+                  <Legend />
+                  {
+                    startDate && endDate && zoomEnabled
+                      ? (
+                        <ReferenceArea
+                          x1={moment(startDate).format('YYYY-MM-DD')}
+                          x2={moment(endDate).format('YYYY-MM-DD')}
+                          strokeOpacity={0.3}
+                        />
+                      )
+                      : null
+                  }
+                </LineChart>
+              </ResponsiveContainer>
+            )
+          })()}
         </div>
       </div>
     )
