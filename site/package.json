@@ -14,6 +14,7 @@
   "dependencies": {
     "@coronatab/shared": "file:../modules/shared",
     "@tippy.js/react": "^3.1.1",
+    "d3-scale": "^3.2.1",
     "downshift": "^5.0.4",
     "isomorphic-unfetch": "^3.0.0",
     "mobx": "^5.15.4",
@@ -42,6 +43,7 @@
     "@babel/plugin-proposal-decorators": "^7.8.3",
     "@fullhuman/postcss-purgecss": "^2.1.0",
     "@svgr/webpack": "^5.2.0",
+    "@types/d3-scale": "^2.2.0",
     "@types/moment": "^2.13.0",
     "@types/node": "^13.9.1",
     "@types/numeral": "0.0.26",

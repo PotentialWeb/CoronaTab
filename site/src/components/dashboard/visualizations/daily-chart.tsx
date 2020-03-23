@@ -19,9 +19,9 @@ export class DashboardDailyChartComponent extends Component<{
   render () {
     return (
       <div className="dashboard-panel select-none">
-        <div className="flex items-center">
+        <div className="flex items-center mb-2">
           <div className="flex-1">
-            <h2 className="font-bold">
+            <h2 className="text-lg font-bold">
               Daily
             </h2>
           </div>

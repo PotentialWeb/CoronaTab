@@ -1,5 +1,6 @@
 import { Component } from 'react'
 import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, ResponsiveContainer, BarChart, Legend, Bar, ReferenceArea } from 'recharts'
+import { scaleLog, scaleLinear } from 'd3-scale'
 import tailwindConfig from '../../../utils/tailwind'
 import moment from 'moment'
 import CloseSvg from '../../../../public/icons/close.svg'
@@ -19,6 +20,11 @@ interface Props {
   data: any
 }
 
+enum YAxisScaleType {
+  LINEAR = 'linear',
+  LOGARITHMIC = 'logarithmic'
+}
+
 interface State {
   data: any[]
   top: string | number
@@ -30,11 +36,13 @@ interface State {
   selectedStartDate?: Date
   selectedEndDate?: Date
   zoomEnabled?: boolean
+  yAxisScaleType?: 'linear' | 'logarithmic'
 }
 
 export class DashboardCumulativeGraphComponent extends Component<Props, State> {
   state: State = {
-    ...this.defaultState
+    ...this.defaultState,
+    yAxisScaleType: YAxisScaleType.LINEAR
   }
 
   get defaultState (): State {
@@ -107,6 +115,13 @@ export class DashboardCumulativeGraphComponent extends Component<Props, State> {
     this.zoomOut()
   }
 
+  onToggleYAxisScaleTypeClick = () => {
+    let yAxisScaleType = this.state.yAxisScaleType === YAxisScaleType.LINEAR
+      ? YAxisScaleType.LOGARITHMIC
+      : YAxisScaleType.LINEAR
+    this.setState({ yAxisScaleType })
+  }
+
   zoomOut = () => {
     this.setState(() => this.defaultState);
   }
@@ -118,31 +133,44 @@ export class DashboardCumulativeGraphComponent extends Component<Props, State> {
 
     return (
       <div className="dashboard-panel select-none">
-        <div className="flex items-center">
+        <div className="flex items-center mb-2">
           <div className="flex-1">
-            <h2 className="font-bold">
+            <h2 className="text-lg font-bold">
               Cumulative
             </h2>
           </div>
-          <div className="justify-end flex-shrink-0 flex-grow-0">
-            {
-              selectedStartDate && selectedEndDate
-                ? (
-                  <>
-                    <span className="text-xs font-bold mr-2">Zoomed:</span>
-                    <div className="inline-flex items-center rounded bg-lighter text-sm px-2 py-1 font-bold">
-                      <span>{Date.rangeToString(selectedStartDate, selectedEndDate)}</span>
-                      <button
-                        onClick={this.onZoomOutClick}
-                        className="hover:opacity-50 pl-2 pr-1 py-1"
-                      >
-                        <CloseSvg className="h-line-sm" />
-                      </button>
-                    </div>
-                  </>
-                )
-                : <span className="text-xs font-bold mr-2">Drag to zoom</span>
-            }
+          <div className="flex items-center justify-end flex-shrink-0 flex-grow-0">
+            <div className="mr-2">
+              {
+                selectedStartDate && selectedEndDate
+                  ? (
+                    <>
+                      <span className="text-xs font-bold mr-2">Zoomed:</span>
+                      <div className="inline-flex items-center rounded bg-lighter text-sm px-2 py-1 font-bold">
+                        <span>{Date.rangeToString(selectedStartDate, selectedEndDate)}</span>
+                        <button
+                          onClick={this.onZoomOutClick}
+                          className="hover:opacity-50 pl-2 pr-1 py-1"
+                        >
+                          <CloseSvg className="h-line-sm" />
+                        </button>
+                      </div>
+                    </>
+                  )
+                  : <span className="text-xs font-bold">Drag to zoom</span>
+              }
+            </div>
+            <div>
+              <button
+                className="btn btn-white border border-light px-2 py-1 rounded text-sm"
+                onClick={this.onToggleYAxisScaleTypeClick}
+              >
+                {this.state.yAxisScaleType === YAxisScaleType.LINEAR
+                  ? 'View logarithmic scale'
+                  : 'View linear scale'
+                }
+              </button>
+            </div>
           </div>
         </div>
         <div style={{ height: '360px' }}>
@@ -171,7 +199,23 @@ export class DashboardCumulativeGraphComponent extends Component<Props, State> {
               />
               <YAxis
                 allowDataOverflow
-                domain={[bottom, top]}
+                scale={(() => {
+                  switch (this.state.yAxisScaleType) {
+                    case (YAxisScaleType.LINEAR):
+                      return scaleLinear()
+                    case (YAxisScaleType.LOGARITHMIC):
+                      return scaleLog().clamp(true)
+                  }
+                })()}
+                domain={[
+                  (() => {
+                    if (this.state.yAxisScaleType === YAxisScaleType.LOGARITHMIC) {
+                      return 1
+                    }
+                    return bottom
+                  })(),
+                  top
+                ]}
                 type="number"
                 stroke={brand}
               />
