@@ -11,8 +11,15 @@ interface Props extends HTMLAttributes<HTMLDivElement> {
 
 export class DashboardStatsComponent extends Component<Props> {
   render () {
-    const { rawData } = this.props
-    console.log(rawData.length)
+    const {
+      title,
+      rawData,
+      className = '',
+      ...props
+    } = this.props
+
+    if (!rawData) return ''
+
     const latestSnapshot = rawData[rawData.length - 1]
     if (!latestSnapshot) return ''
 
@@ -53,12 +60,12 @@ export class DashboardStatsComponent extends Component<Props> {
     }
 
     return (
-      <div className="dashboard-stats flex-col">
+      <div className={`dashboard-stats ${className}`} {...props}>
         {
-          this.props.title
+          title
             ? (
               <h2 className="font-bold">
-                {this.props.title}
+                {title}
               </h2>
             )
             : ''

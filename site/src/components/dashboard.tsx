@@ -1,18 +1,14 @@
 import { Component } from 'react'
 import Link from 'next/link'
-import moment from 'moment'
 import { inject, observer } from 'mobx-react'
 import { DashboardPageStore } from '../pages/dashboard.store'
-import { DashboardStatsComponent } from './dashboard/stats'
-import { DateSelectComponent } from './date-select'
-import { PlaceSelectComponent } from './place-select'
 import { DashboardQuickLinksComponent } from './dashboard/quick-links'
-import { DashboardSelectedPlaceComponent } from './dashboard/selected-place'
 import { DashboardGeneralAdviceComponent } from './dashboard/general-advice'
-import { DashboardFooterComponent } from './dashboard/footer'
 import { ShareBtnComponent } from './share-btn'
-import { ExtensionDownloadBtnComponent } from './extension-download-btn'
+import { DashboardGlobalComponent } from './dashboard/global'
+import { DashboardPlaceComponent } from './dashboard/place'
 import LogoTextSvg from '../../public/icons/logo-text.svg'
+import ExternalLinkSvg from '../../public/icons/external-link.svg'
 
 interface Props {
   pageStore?: DashboardPageStore
@@ -27,156 +23,86 @@ export class DashboardComponent extends Component<Props> {
 
     return (
       <div className="dashboard">
-        <div className="dashboard-col w-3/5">
-
-          <div className="dashboard-panel-container">
-            <div className="dashboard-nav">
-              <div className="flex-shrink-0">
-                <Link href="/">
-                  <a target={iFramed ? '_blank' : null} className="btn">
-                    <LogoTextSvg className="h-10" />
-                  </a>
-                </Link>
-              </div>
-              <div className="flex justify-end flex-1">
-                {/*
-                  // NOTE: Date selector was implemented, but dropped in favour of
-                  // graph zooming
-                  <div className="flex-shrink-0 flex-grow-0">
-                    <DateSelectComponent
-                      onChange={({ startDate, endDate }) => {
-                        pageStore.startDate = startDate
-                        pageStore.endDate = endDate
-                      }}
-                      buttonProps={{
-                        className: 'btn btn-white border border-light px-3 py-1 rounded flex items-center mr-1'
-                      }}
-                      {...(() => {
-                        let props = {
-                          startDate: pageStore.startDate,
-                          endDate: pageStore.endDate
-                        }
-                        const minDate = moment().subtract(3, 'months').toDate()
-                        const maxDate = moment().toDate()
-                        const month = maxDate
-                        const fromMonth = minDate
-                        const toMonth = maxDate
-                        return {
-                          ...props,
-                          minDate,
-                          maxDate,
-                          month,
-                          fromMonth,
-                          toMonth
-                        }
-                      })()}
-                    />
-                  </div>
-                */}
-                <div className="flex-shrink-0 flex-grow-0">
-                  <ShareBtnComponent
-                    tooltipPlacement="bottom"
-                    className="btn btn-white flex items-center border border-light px-6 py-1 rounded"
-                  />
-                </div>
-                {/*<span className="text-xs">
-                  Last Updated: {pageStore.lastUpdated?.toISOString()}
-                 </span>*/}
-              </div>
-            </div>
+        <div className="dashboard-content">
+          <div>
+            <Link href="/">
+              <a target={iFramed ? '_blank' : null} className="btn inline-block">
+                <LogoTextSvg className="h-10" />
+              </a>
+            </Link>
           </div>
 
-          {
-            pageStore.rawGlobalData.length
-              ? (
-                <div className="dashboard-panel-container">
-                  <div className="dashboard-panel dashboard-global-stats-panel">
-                    <DashboardStatsComponent
-                      title="Global Stats"
-                      rawData={pageStore.rawGlobalData}
-                    />
-                  </div>
-                </div>
-              )
-              : ''
-          }
-
-          <div className="dashboard-panel-container flex-1 min-h-0">
-            <div className="dashboard-panel dashboard-place-panel">
-              <div className="flex flex-shrink-0 flex-grow-0">
-                <PlaceSelectComponent
-                  initialValue={pageStore.selectedPlace?.length ? pageStore.selectedPlace[0] : null}
-                  options={pageStore.places}
-                  onChange={place => {
-                    pageStore.selectedPlace = place ? [place] : []
-                    pageStore.selectedPlaceDetail = place ? place : null
-                  }}
-                />
-                {
-                  pageStore.selectedPlace?.[0]?.children?.length
-                    ? (
-                      <PlaceSelectComponent
-                        initialValue={pageStore.selectedPlace.length === 2 ? pageStore.selectedPlace[1] : null}
-                        options={pageStore.selectedPlace[0].children}
-                        onChange={place => {
-                          pageStore.selectedPlace = place ? [pageStore.selectedPlace[0], place] : [pageStore.selectedPlace[0]]
-                          pageStore.selectedPlaceDetail = place ? place : pageStore.selectedPlace[0]
-                        }}
-                        inputPlaceholder="Select a region"
-                        className="ml-2"
-                      />
-                    )
-                    : ''
-                }
-              </div>
-
-              {
-                pageStore.selectedPlaceDetail
-                  ? (
-                    <DashboardSelectedPlaceComponent
-                      place={pageStore.selectedPlaceDetail}
-                    />
-                  )
-                  : ''
-              }
-            </div>
+          <div className="dashboard-spacer-y">
+            <DashboardGlobalComponent />
           </div>
+          <div className="dashboard-spacer-y">
+            <DashboardPlaceComponent />
+          </div>
+
         </div>
 
-        <div className="dashboard-col w-2/5">
-
-          <div className="dashboard-panel-container">
-            <div className="dashboard-panel p-0">
-              <DashboardGeneralAdviceComponent />
+        <div className="dashboard-aside">
+          <div className="dashboard-aside-sticky">
+            <div className="flex justify-end flex-1">
+              <div className="flex items-center flex-shrink-0 flex-grow-0">
+                <iframe
+                  src={`https://ghbtns.com/github-btn.html?user=PotentialWeb&repo=CoronaTab&type=star&count=true`}
+                  scrolling="0"
+                  width="80px"
+                  height="20px"
+                  className="inline-block"
+                />
+                <iframe
+                  src={`https://ghbtns.com/github-btn.html?user=PotentialWeb&repo=CoronaTab&type=fork&count=true`}
+                  scrolling="0"
+                  width="80px"
+                  height="20px"
+                  className="inline-block mr-2"
+                />
+              </div>
+              <div className="flex-shrink-0 flex-grow-0">
+                <ShareBtnComponent
+                  tooltipPlacement="bottom"
+                  className="btn btn-white flex items-center border border-light px-6 py-1 rounded"
+                />
+              </div>
+              {/*<span className="text-xs">
+                Last Updated: {pageStore.lastUpdated?.toISOString()}
+              </span>*/}
             </div>
-          </div>
 
-          {
-            // TODO: Add regionalised information for how to take action if you or a loved one are ill.
-          }
+            <div className="dashboard-spacer-y">
+              <div className="dashboard-panel p-0">
+                <DashboardGeneralAdviceComponent />
+              </div>
+            </div>
 
-          <div className="dashboard-panel-container flex-1 min-h-0">
-            <div className="dashboard-panel overflow-y-scroll">
+            <div className="dashboard-spacer-y">
+              <a href="https://hoobu.com" target="_blank" className="dashboard-panel p-0">
+                <div
+                  style={{ transition: 'background-color .2s' }}
+                  className="px-4 py-3 bg-brand-light hover:bg-brand-lighter text-white rounded-lg leading-tight font-bold"
+                >
+                  <span className="text-sm mr-4">
+                    Made with ❤️ by the team at{' '}
+                    <span className="underline">
+                      Hoobu.com
+                    </span>
+                    . Plan your post-pandemic trip now with our awesome real-time collaborative trip planner
+                    <ExternalLinkSvg className="inline-block h-line ml-2" />
+                  </span>
+                </div>
+              </a>
+            </div>
+
+            {
+              // TODO: Add regionalised information for how to take action if you or a loved one are ill.
+            }
+
+            <div className="dashboard-spacer">
               <DashboardQuickLinksComponent />
             </div>
           </div>
-
-          <div className="dashboard-panel-container">
-            <div className="dashboard-panel p-0">
-              {
-                !iFramed
-                  ? (
-                    <ExtensionDownloadBtnComponent
-                      logoClassName="h-line-lg mr-2"
-                      className="dashboard-download-browser-extension btn"
-                    />
-                  )
-                  : ''
-              }
-              <DashboardFooterComponent />
-            </div>
-          </div>
-
         </div>
       </div>
     )

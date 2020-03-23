@@ -4,6 +4,11 @@ export interface Place {
   code: string
   typeId: string
   parentPlaceId: string
+  latestData: {
+    cases: number
+    deaths: number
+    recovered: number
+  }
   location: {
     type: string
     coordinates: number[]

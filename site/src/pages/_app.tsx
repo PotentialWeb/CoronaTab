@@ -22,6 +22,14 @@ export const getStaticProps: GetStaticProps = async context => {
   }
 }
 
+if (typeof window !== 'undefined' && 'serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/service-worker.js', { scope: '/' })
+      .then(registration => console.log('SW registered: ', registration))
+      .catch(err => console.warn('SW registration failed: ', err))
+  })
+}
+
 export default class App extends NextApp<Props, State> {
   state: State = {
     appStore: new AppStore()

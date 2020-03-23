@@ -1,4 +1,5 @@
 .dashboard-stats {
+  max-width: 750px;
   > ul {
     @apply flex my-2;
     > li {

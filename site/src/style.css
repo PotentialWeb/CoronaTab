@@ -11,17 +11,20 @@
 @import "./styles/buttons.css";
 @import "./styles/fonts.css";
 @import "./styles/inputs.css";
+@import "./styles/select.css";
 @import "./styles/swiper.css";
+@import "./styles/table.css";
 @import "./styles/tabs.css";
+@import "./styles/transitions.css";
 
 @import "./pages/_app.css";
 
 @import "./components/dashboard.css";
 @import "./components/dashboard/general-advice.css";
 @import "./components/dashboard/quick-links.css";
-@import "./components/dashboard/selected-place.css";
 @import "./components/dashboard/stats.css";
 @import "./components/day-picker.css";
+@import "./components/modal.css";
 @import "./components/place-select.css";
 @import "./components/share-btn.css";
 

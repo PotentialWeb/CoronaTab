@@ -1,10 +1,9 @@
 import { action, observable, computed } from 'mobx'
 import allSettled from 'promise.allsettled'
 import { Place } from '@coronatab/shared'
-import { PlaceApi, PlaceApiFindClosestQuery } from '../utils/api/place'
+import { PlaceApi } from '../utils/api/place'
 import { LocalStorage } from '../utils/storage'
 import { HTTP } from '../utils/http'
-import qs from 'qs'
 import moment from 'moment'
 
 export enum LoadingStatus {
@@ -13,40 +12,39 @@ export enum LoadingStatus {
   HAS_ERRORED = 'hasErrored'
 }
 
+export type AdviceObj = { [key: string]: { title: string, description: string } }
+
 export class DashboardPageStore {
   @observable
   loadingStatus = LoadingStatus.IS_LOADING
 
   @observable
-  lastUpdated: Date
-
-  @observable
-  places: Place[] = []
-
-  @observable
-  private _selectedPlace: Place[]
+  private _lastFetched: string
 
   @computed
-  get selectedPlace (): Place[] {
-    return this._selectedPlace ?? LocalStorage.get('selectedPlace')
+  get lastFetched (): Date {
+    const dateStr = this._lastFetched ?? LocalStorage.get('lastFetched')
+    return dateStr && new Date(dateStr)
   }
 
-  set selectedPlace (place: Place[]) {
-    this._selectedPlace = place
-    LocalStorage.set('selectedPlace', place)
+  set lastFetched (date: Date) {
+    this._lastFetched = date.toString()
+    LocalStorage.set('lastFetched', date.toString())
   }
+
+  static lastFetchedTTL = 600
 
   @observable
-  private _selectedPlaceDetail: Place
+  private _places: Place[]
 
   @computed
-  get selectedPlaceDetail (): Place {
-    return this._selectedPlaceDetail ?? LocalStorage.get('selectedPlaceDetail')
+  get places (): Place[] {
+    return this._places ?? LocalStorage.get('places') ?? []
   }
 
-  set selectedPlaceDetail (place: Place) {
-    this._selectedPlaceDetail = place
-    LocalStorage.set('selectedPlaceDetail', place)
+  set places (places: Place[]) {
+    this._places = places
+    LocalStorage.set('places', places)
   }
 
   @observable
@@ -58,35 +56,37 @@ export class DashboardPageStore {
   // endDate = moment().toDate()
 
   @observable
-  advice: { [key: string]: { title: string, description: string } } = {}
+  private _advice: AdviceObj
 
-  @observable
-  rawGlobalData: any[]
+  @computed
+  get advice (): AdviceObj {
+    return this._advice ?? LocalStorage.get('advice')
+  }
 
-  @action.bound
-  async init () {
-    this.fetchData()
+  set advice (advice: AdviceObj) {
+    this._advice = advice
+    LocalStorage.set('advice', advice)
   }
 
   @action.bound
-  async fetchData () {
-    try {
-      if (!this.selectedPlaceDetail) {
-        await this.fetchAndSetClosestPlace()
-      }
+  async init () {
+    this.fetchPageData()
+  }
 
-      const advicePromise = HTTP.request('GET', `/data/general-advice/${LocalStorage.get('locale') ?? 'en'}.json`)
-      const placesPromise = PlaceApi.query({ typeId: 'country', include: ['children'] })
-      const globalDataPromise = PlaceApi.queryData('earth', { compact: true })
+  @action.bound
+  async fetchPageData () {
+    try {
 
       const [
         placesResult,
         adviceResult,
-        globalDataResult
+        globalDataResult,
+        selectedPlaceResult
       ] = await allSettled([
-        placesPromise,
-        advicePromise,
-        globalDataPromise
+        this.fetchPlaces({ cached: true }),
+        this.fetchAdvice({ cached: true }),
+        this.fetchGlobalData({ cached: true }),
+        !this.selectedPlace && PlaceApi.findClosest({ typeId: 'country', include: ['children'] })
       ])
 
       if (placesResult.status === 'fulfilled') {
@@ -99,10 +99,22 @@ export class DashboardPageStore {
       if (adviceResult.status === 'fulfilled') this.advice = adviceResult.value
       if (globalDataResult.status === 'fulfilled') {
         const { data: rawGlobalData } = globalDataResult.value
-        this.rawGlobalData = rawGlobalData
+        this.rawPlaceData = {
+          ...this.rawPlaceData,
+          earth: rawGlobalData
+        }
       }
 
-      this.lastUpdated = new Date()
+      if (selectedPlaceResult.status === 'fulfilled') {
+        if (selectedPlaceResult.value?.data?.length) {
+          this.selectedPlaceTree = [selectedPlaceResult.value.data[0]]
+        }
+      }
+
+      // Data may be cached. Make a fresh request for
+      // any cached data if cache is expired
+      this.fetchUpdatedPageData()
+
       this.loadingStatus = LoadingStatus.HAS_LOADED
     } catch (err) {
       console.error(err)
@@ -111,86 +123,118 @@ export class DashboardPageStore {
   }
 
   @action.bound
-  async fetchAndSetClosestPlace () {
-    let query: PlaceApiFindClosestQuery = {
-      include: ['children' as 'children'],
-      typeId: 'country'
+  async fetchUpdatedPageData () {
+    if (this.lastFetched) {
+      const expiry = moment(this.lastFetched).add(DashboardPageStore.lastFetchedTTL, 'seconds').toDate()
+      if (expiry > new Date()) {
+        console.info(`Not fetching new data until: ${expiry.toString()}`)
+        return
+      }
     }
-    // const { lng, lat } = qs.parse(window.location.search.replace(/\?(.*)$/, '$1'))
-
-    // if (lng && lat) {
-    //   query = { ...query, lng, lat }
-    // } else {
-    //   try {
-    //     const { lng, lat } = await this.requestCurrentLocation()
-    //     query = { ...query, lng, lat }
-    //   } catch (err) {
-    //     console.warn('User did not authorize geolocation API', err)
-    //   }
-    // }
 
     try {
-      const { data: places } = await PlaceApi.findClosest(query)
-      if (!places?.length) throw new Error('No closest places returned')
-      const selectedPlace = places[0]
-      this.selectedPlace = [selectedPlace]
-      this.selectedPlaceDetail = selectedPlace
+      const placesPromise = this.fetchPlaces({ cached: false })
+      const globalDataPromise = this.fetchGlobalData({ cached: false })
+      const [
+        placesResult,
+        globalDataResult
+      ] = await allSettled([
+        placesPromise,
+        globalDataPromise
+      ])
+
+      if (placesResult.status === 'fulfilled') {
+        const { data: places } = placesResult.value
+        this.places = places
+      }
+
+      if (globalDataResult.status === 'fulfilled') {
+        const { data: rawGlobalData } = globalDataResult.value
+        this.rawPlaceData = {
+          ...this.rawPlaceData,
+          earth: rawGlobalData
+        }
+      }
+
+      if (placesResult.status === 'fulfilled' && globalDataResult.status === 'fulfilled') {
+        this.lastFetched = new Date()
+      }
     } catch (err) {
-      console.warn(err)
+      console.error(err)
     }
   }
 
-  async requestCurrentLocation (): Promise<{ lng: number, lat: number}> {
-    return new Promise((resolve, reject) => (
-      navigator.geolocation.getCurrentPosition(
-        position => (
-          resolve({
-            lng: position.coords.longitude,
-            lat: position.coords.latitude
-          })
-        ),
-        err => reject(err),
-        {
-          enableHighAccuracy: false,
-          maximumAge: 1000 * 60 * 10
-        }
-      )
-    ))
+  @action.bound
+  async fetchAdvice ({ cached }: { cached: boolean }) {
+    if (cached && this.advice) return this.advice
+    return HTTP.request('GET', `/data/general-advice/${LocalStorage.get('locale') ?? 'en'}.json`)
+  }
+
+  @action.bound
+  async fetchPlaces ({ cached }: { cached: boolean }) {
+    if (cached && this.places.length) return { data: this.places }
+    return PlaceApi.query({ typeId: 'country', include: ['children'] })
+  }
+
+  @action.bound
+  async fetchGlobalData ({ cached }: { cached: boolean }) {
+    if (cached && this.rawPlaceData.earth) return { data: this.rawPlaceData.earth }
+    return PlaceApi.queryData('earth', { compact: true })
+  }
+
+  @observable
+  private _selectedPlaceTree: Place[]
+
+  @computed
+  get selectedPlaceTree (): Place[] {
+    return this._selectedPlaceTree ?? LocalStorage.get('selectedPlaceTree') ?? []
+  }
+
+  set selectedPlaceTree (place: Place[]) {
+    this._selectedPlaceTree = place
+    LocalStorage.set('selectedPlaceTree', place)
+  }
+
+  @computed
+  get selectedPlace () {
+    const t = this.selectedPlaceTree
+    return t.length > 0 && t[t.length - 1]
+  }
+
+  @observable
+  private _rawPlaceData: { [key: string]: any[] }
+
+  @computed
+  get rawPlaceData (): { [key: string]: any[] } {
+    return this._rawPlaceData ?? LocalStorage.get('rawPlaceData') ?? {}
+  }
+
+  set rawPlaceData (data: { [key: string]: any[] }) {
+    this._rawPlaceData = data
+    LocalStorage.set('rawPlaceData', data)
+  }
+
+  @observable
+  selectedPlaceDataLoadingStatus: LoadingStatus = LoadingStatus.IS_LOADING
+
+  @action.bound
+  async fetchSelectedPlaceData () {
+    try {
+      this.selectedPlaceDataLoadingStatus = LoadingStatus.IS_LOADING
+      const { data: rawData } = await PlaceApi.queryData(this.selectedPlace.id, { compact: true })
+      if (!Array.isArray(rawData)) throw new Error('rawData is not an array')
+      this.rawPlaceData = {
+        ...this.rawPlaceData,
+        [this.selectedPlace.id]: rawData
+      }
+      this.selectedPlaceDataLoadingStatus = LoadingStatus.HAS_LOADED
+      return rawData
+    } catch (err) {
+      this.selectedPlaceDataLoadingStatus = LoadingStatus.HAS_ERRORED
+    }
   }
 
   static filterRawDataByDates (rawData: any[], startDate: Date, endDate: Date) {
-    return rawData.filter(([date]) => {
-      const d = new Date(date)
-      return d >= startDate && d <= endDate
-    })
-  }
-
-  static parseCumulativeSeriesData (rawData: any[]) {
-    return rawData.map(([date, cases, deaths, recovered]) => ({
-      date,
-      cases,
-      deaths,
-      recovered
-    }), [])
-  }
-
-  static calcDailySeriesData (rawData: any[]) {
-    return rawData
-      .reduce((_data, [date, cases, deaths, recovered], i, rawData) => {
-        const yesterday = rawData[_data.length - 1]
-        return [
-          ..._data,
-          {
-            date,
-            cases: cases - (yesterday?.[1] ?? 0),
-            deaths: deaths - (yesterday?.[2] ?? 0),
-            recovered: recovered - (yesterday?.[3] ?? 0)
-          }
-        ]
-      }, [])
-  }
-
-  static filterRawDataByDates(rawData: any[], startDate: Date, endDate: Date) {
     return rawData.filter(([date]) => {
       const d = new Date(date)
       return d >= startDate && d <= endDate
