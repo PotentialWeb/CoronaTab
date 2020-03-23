@@ -6,39 +6,28 @@ import { CountriesData } from '../src/seeds/places/countries/data'
 import { Strings } from '@coronatab/shared'
 import * as fs from 'fs-extra'
 import * as path from 'path'
+import { JHU } from './jhu'
+import { DataScraper } from './data-scraper'
 
 InjectEnvs()
 
 ;(async () => {
-  const data: {
-    country: string
-    state?: string
-    county?: string
-    coordinates?: [number, number]
-    featureId?: number
-    population?: number
-    url?: string
-  }[] = require('../coronadatascraper/dist/data.json')
-  const { features } = require('../coronadatascraper/dist/features.json')
+
+  const { features: lazdFeatures } = require('../coronadatascraper/dist/features.json')
   const USStatesCodeMap = require('./us-states-code-map.json')
+
+  const ScrapedData = DataScraper.data
+  const JHUData = await JHU.getData()
 
   const countries = CountriesData
   const regions = RegionsData
   const cities = CitiesData
 
-  for (const entry of data) {
+  for (const entry of ScrapedData) {
     let country = FindPlaceSeedDataInDataset({
       dataset: countries,
       term: entry.country
     })
-
-    if (!country) {
-      // If no country found then try to search for regions in case some of it is Dependency of another country
-      country = FindPlaceSeedDataInDataset({
-        dataset: regions,
-        term: entry.country
-      })
-    }
 
     if (!country) {
       console.error(`No country for entry: ${JSON.stringify(entry)}`)
@@ -79,7 +68,7 @@ InjectEnvs()
         state.coordinates = state.coordinates ?? entry.coordinates
         state.population = state.population ?? entry.population
         if (!state.polygon && entry.featureId) {
-          const feature = features.find(f => f.properties?.id === entry.featureId)
+          const feature = lazdFeatures.find(f => f.properties?.id === entry.featureId)
           state.polygon = feature?.geometry
         }
         if (entry.url && state.dataSource !== entry.url) {
@@ -103,7 +92,7 @@ InjectEnvs()
           county.coordinates = county.coordinates ?? entry.coordinates
           county.population = county.population ?? entry.population
           if (!county.polygon && entry.featureId) {
-            const feature = features.find(f => f.properties?.id === entry.featureId)
+            const feature = lazdFeatures.find(f => f.properties?.id === entry.featureId)
             county.polygon = feature?.geometry
           }
           if (entry.url && county.dataSource !== entry.url) {
@@ -131,7 +120,7 @@ InjectEnvs()
         region.coordinates = region.coordinates ?? entry.coordinates
         region.population = region.population ?? entry.population
         if (!region.polygon && entry.featureId) {
-          const feature = features.find(f => f.properties?.id === entry.featureId)
+          const feature = lazdFeatures.find(f => f.properties?.id === entry.featureId)
           region.polygon = feature?.geometry
         }
         if (entry.url && region.dataSource !== entry.url) {
@@ -155,7 +144,6 @@ export const CountriesData: PlaceSeedData[] = [${countries.map(({
   alpha3code,
   population,
   coordinates,
-  parentId,
   alternativeNames,
   dataSource
  }) => `{

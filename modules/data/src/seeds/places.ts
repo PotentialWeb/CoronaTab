@@ -2,6 +2,9 @@ import { Place } from '../models/place'
 
 import type { LocaleTranslations } from '@coronatab/shared'
 import type { Polygon, MultiPolygon } from 'geojson'
+import { SeededCountries } from './places/countries/seeds'
+import { SeededRegions } from './places/regions/seeds'
+import { SeededCities } from './places/cities/seeds'
 
 export interface PlaceSeedData {
   id: string
@@ -27,12 +30,17 @@ export const FindPlaceSeedDataInDataset = ({ dataset, term }: { dataset: PlaceSe
   )
 }
 
+export const EarthPlace = new Place({
+  id: 'earth',
+  locales: {
+    en: 'Earth'
+  },
+  typeId: 'planet'
+})
+
 export const SeededPlaces = [
-  new Place({
-    id: 'earth',
-    locales: {
-      en: 'Earth'
-    },
-    typeId: 'planet'
-  })
+  EarthPlace,
+  ...SeededCountries,
+  ...SeededRegions,
+  ...SeededCities
 ]
