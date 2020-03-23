@@ -7,7 +7,6 @@ import { DashboardGeneralAdviceComponent } from './dashboard/general-advice'
 import { ShareBtnComponent } from './share-btn'
 import { DashboardGlobalComponent } from './dashboard/global'
 import { DashboardPlaceComponent } from './dashboard/place'
-// import { StickyContainer, Sticky } from 'react-sticky'
 import LogoTextSvg from '../../public/icons/logo-text.svg'
 
 interface Props {

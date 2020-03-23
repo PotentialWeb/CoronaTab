@@ -1,0 +1,34 @@
+.table-flex {
+  @apply flex flex-col;
+  border-spacing: 0;
+
+  .thead {
+    @apply flex-shrink-0
+           overflow-y-auto
+           overflow-x-hidden;
+  }
+
+  .tbody {
+    @apply flex-1 min-h-0
+           overflow-y-scroll
+           overflow-x-hidden;
+  }
+
+  .tr {
+    @apply border-b border-light;
+    &:last-child {
+      .td {
+        @apply border-b-0;
+      }
+    }
+  }
+
+  .th {
+    @apply font-bold;
+  }
+
+  .th,
+  .td {
+    @apply m-0 p-1 relative;
+  }
+}

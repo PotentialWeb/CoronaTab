@@ -10,7 +10,13 @@ const ContentComponent = dynamic<ContentProps>(() => (
   import('./content').then((_) => _.DashboardGlobalStatsByCountryContentComponent)
 ), {
   ssr: false,
-  loading: () => <LoadingComponent className="h-8" />
+  loading: () => (
+    <div className="container m-auto flex justify-center">
+      <div className="bg-white rounded depth-lg p-12">
+        <LoadingComponent className="h-8" />
+      </div>
+    </div>
+  )
 })
 
 interface Props {
