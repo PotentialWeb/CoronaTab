@@ -39,8 +39,5 @@ export const EarthPlace = new Place({
 })
 
 export const SeededPlaces = [
-  EarthPlace,
-  ...SeededCountries,
-  ...SeededRegions,
-  ...SeededCities
+  EarthPlace
 ]

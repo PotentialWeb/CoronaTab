@@ -1,9 +1,12 @@
-import { connection, connect, Locale, PlaceType, Place, PlacePolygon } from '../src'
+import { connection, connect, Locale, PlaceType, Place, PlacePolygon, PlaceData } from '../src'
 import { PlaceTypes } from '../src/seeds/places/types'
 import { Locales } from '../src/seeds/locales'
 import { config as injectEnvs } from 'dotenv'
 import { SeededPlaces } from '../src/seeds/places'
-import { SeededCountries, SeededCountryPolygons } from '../src/seeds/places/countries'
+import { SeededCountries, SeededCountryPolygons } from '../src/seeds/places/countries/seeds'
+import { SeededRegions, SeededRegionPolygons } from '../src/seeds/places/regions/seeds'
+import { SeededCities, SeededCityPolygons } from '../src/seeds/places/cities/seeds'
+import { SeededPlaceDatas } from '../src/seeds/places/data'
 injectEnvs()
 
 ;(async () => {
@@ -15,8 +18,17 @@ injectEnvs()
   ])
 
   await Place.save(SeededPlaces)
+
   await Place.save(SeededCountries)
   await PlacePolygon.save(SeededCountryPolygons)
+
+  await Place.save(SeededRegions)
+  await PlacePolygon.save(SeededRegionPolygons)
+
+  await Place.save(SeededCities)
+  await PlacePolygon.save(SeededCityPolygons)
+
+  await PlaceData.save(SeededPlaceDatas, { chunk: 5000 })
 
   console.log(`Seeded successfuly`)
   connection.close()

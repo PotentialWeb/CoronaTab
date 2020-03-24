@@ -3,7 +3,6 @@ import CSV from 'csvtojson'
 import moment from 'moment'
 import { DATE_FORMAT } from '@coronatab/shared'
 import { SeededCountries } from '../src/seeds/places/countries/seeds'
-import { CountriesData } from '../src/seeds/places/countries/data'
 import { SeededRegions } from '../src'
 
 export class JHU {

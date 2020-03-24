@@ -5,6 +5,10 @@ import { CitiesData } from '../src/seeds/places/cities/data'
 import { CountriesData } from '../src/seeds/places/countries/data'
 import { DataScraper, TimeseriesEntry } from './data-scraper'
 import { JHU } from './jhu'
+import * as fs from 'fs-extra'
+import * as path from 'path'
+import moment from 'moment'
+import { DATE_FORMAT } from '@coronatab/shared'
 
 InjectEnvs()
 
@@ -222,7 +226,28 @@ InjectEnvs()
 
   }
 
-  debugger
+  await fs.writeFile(path.resolve(__dirname, '../src/seeds/places/data.ts'), `
+import { PlaceData } from '../../'
+
+export const SeededPlaceDatas: PlaceData[] = [
+  ${Object.entries(dates)
+    .filter(([date]) => date !== moment().format(DATE_FORMAT))
+    .map(([date, data]) => {
+      return Object.entries(data)
+      .filter(([ placeId, { data }]) => data && (data.cases || data.deaths || data.recovered))
+      .map(([placeId, { data }]) => {
+        return `new PlaceData({
+    placeId: \`${placeId}\`,
+    date: \`${date}\`,
+    cases: ${data.cases},
+    deaths: ${data.deaths},
+    recovered: ${data.recovered}
+  })`
+      }).join(',\n  ')
+    }).join(',\n  ')
+  }
+]
+`)
 
   // await connect()
 

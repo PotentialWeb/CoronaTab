@@ -73,7 +73,9 @@ InjectEnvs()
               en: stateName
             } as any
           }
-          regions.push(state)
+          if (!regions.find(r => r.id === stateId)) {
+            regions.push(state)
+          }
         }
 
         state.coordinates = state.coordinates ?? entry.coordinates
@@ -101,7 +103,9 @@ InjectEnvs()
               },
               parentId: state.id
             }
-            regions.push(county)
+            if (!regions.find(r => r.id === countyId)) {
+              regions.push(county)
+            }
           }
           county.coordinates = county.coordinates ?? entry.coordinates
           county.population = county.population ?? entry.population
@@ -132,7 +136,9 @@ InjectEnvs()
               en: regionName
             } as any
           }
-          regions.push(region)
+          if (!regions.find(r => r.id === id)) {
+            regions.push(region)
+          }
         }
         region.coordinates = region.coordinates ?? entry.coordinates
         region.population = region.population ?? entry.population
