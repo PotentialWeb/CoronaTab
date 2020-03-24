@@ -16,12 +16,12 @@
       }
     },
     {
-      "name": "Update data",
+      "name": "Generate past place data seeds",
       "type": "node",
       "request": "launch",
       "program": "${workspaceRoot}/node_modules/ts-node/dist/bin.js",
       "args": [
-        "scripts/update-data.ts"
+        "scripts/generate-past-data-seeds.ts"
       ],
       "cwd": "${workspaceRoot}",
       "protocol": "inspector",
