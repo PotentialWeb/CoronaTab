@@ -187,6 +187,7 @@ export class DashboardCumulativeGraphComponent extends Component<Props, State> {
               <ResponsiveContainer>
                 <LineChart
                   data={data}
+
                   onMouseDown={e => {
                     if (e?.activeLabel) this.setState({ startDate: moment(e.activeLabel).toDate() })
                   }}
@@ -204,6 +205,7 @@ export class DashboardCumulativeGraphComponent extends Component<Props, State> {
                   <XAxis
                     allowDataOverflow
                     dataKey="date"
+                    padding={{ left: 5, right: 5 }}
                     domain={[left, right]}
                     stroke={brand}
                   />
@@ -217,6 +219,7 @@ export class DashboardCumulativeGraphComponent extends Component<Props, State> {
                           return scaleLog().clamp(true)
                       }
                     })()}
+                    padding={{ top: 5, bottom: 0 }}
                     domain={[
                       (() => {
                         if (this.state.yAxisScaleType === YAxisScaleType.LOGARITHMIC) {
