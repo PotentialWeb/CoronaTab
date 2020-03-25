@@ -103,7 +103,7 @@ export class DashboardDailyChartComponent extends Component<Props, State> {
                 className="select-input-area"
               >
                 <button
-                  className="btn btn-white flex items-center border border-light rounded px-2 py-1 text-sm"
+                  className="btn btn-white flex items-center border border-light rounded-sm px-2 py-1 text-xs"
                   onClick={() => setState({ isOpen: true })}
                 >
                   <span className="mr-2">Last {selectedItem} days</span>
@@ -122,7 +122,7 @@ export class DashboardDailyChartComponent extends Component<Props, State> {
 
     return (
       <div className="dashboard-panel select-none">
-        <div className="flex items-center mb-2">
+        <div className="flex flex-col md:flex-row md:items-center mb-2">
           <div className="flex-1">
             <h2 className="text-lg font-bold">
               Daily

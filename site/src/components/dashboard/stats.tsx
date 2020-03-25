@@ -89,7 +89,7 @@ export class DashboardStatsComponent extends Component<Props> {
                     >
                       <span data-metric="24hr" className="flex items-center">
                         {(() => {
-                          if (diffs.cases[1] === 0) return 'No change'
+                          if (diffs.cases[1] === 0) return ''
                           const metric = (<span style={{ marginLeft: '0.2em'}}>
                             {numeral(diffs.cases[1]).format('0.00%')}
                           </span>)
@@ -129,7 +129,7 @@ export class DashboardStatsComponent extends Component<Props> {
                     >
                     <span data-metric="24hr" className="flex items-center">
                       {(() => {
-                        if (diffs.deaths[1] === 0) return 'No change'
+                        if (diffs.deaths[1] === 0) return ''
                         const metric = (<span style={{ marginLeft: '0.2em'}}>
                           {numeral(diffs.deaths[1]).format('0.00%')}
                         </span>)
@@ -169,7 +169,7 @@ export class DashboardStatsComponent extends Component<Props> {
                     >
                       <span data-metric="24hr" className="flex items-center">
                         {(() => {
-                          if (diffs.recovered[1] === 0) return 'No change'
+                          if (diffs.recovered[1] === 0) return ''
                           const metric = (<span style={{ marginLeft: '0.2em'}}>
                             {numeral(diffs.recovered[1]).format('0.00%')}
                           </span>)

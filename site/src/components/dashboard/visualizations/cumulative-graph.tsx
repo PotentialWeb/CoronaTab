@@ -3,6 +3,11 @@ import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, ResponsiveContai
 import { scaleLog, scaleLinear } from 'd3-scale'
 import tailwindConfig from '../../../utils/tailwind'
 import moment from 'moment'
+import Downshift from 'downshift'
+import Tippy from '@tippy.js/react'
+import capitalize from 'lodash.capitalize'
+import CaretDownSvg from '../../../../public/icons/caret-down.svg'
+import CaretUpSvg from '../../../../public/icons/caret-up.svg'
 import CloseSvg from '../../../../public/icons/close.svg'
 import { LoadingComponent } from '../../loading'
 
@@ -37,7 +42,7 @@ interface State {
   selectedStartDate?: Date
   selectedEndDate?: Date
   zoomEnabled?: boolean
-  yAxisScaleType?: 'linear' | 'logarithmic'
+  yAxisScaleType?: YAxisScaleType
 }
 
 export class DashboardCumulativeGraphComponent extends Component<Props, State> {
@@ -116,13 +121,6 @@ export class DashboardCumulativeGraphComponent extends Component<Props, State> {
     this.zoomOut()
   }
 
-  onToggleYAxisScaleTypeClick = () => {
-    let yAxisScaleType = this.state.yAxisScaleType === YAxisScaleType.LINEAR
-      ? YAxisScaleType.LOGARITHMIC
-      : YAxisScaleType.LINEAR
-    this.setState({ yAxisScaleType })
-  }
-
   zoomOut = () => {
     this.setState(() => this.defaultState);
   }
@@ -132,22 +130,99 @@ export class DashboardCumulativeGraphComponent extends Component<Props, State> {
       data, left, right, startDate, endDate, selectedStartDate, selectedEndDate, top, bottom, zoomEnabled
     } = this.state
 
+    const yAxisScaleTypeSelect = (
+      <Downshift
+        selectedItem={this.state.yAxisScaleType}
+        onChange={(yAxisScaleType: YAxisScaleType) => this.setState({ yAxisScaleType })}
+      >
+        {({
+          getItemProps,
+          getMenuProps,
+          selectedItem,
+          isOpen,
+          highlightedIndex,
+          getRootProps,
+          setState
+        }) => (
+          <div className="select">
+            <Tippy
+              visible={isOpen}
+              animation="shift-away"
+              theme="light"
+              className="select-list-tooltip"
+              allowHTML={true}
+              content={(
+                <ul
+                  {...getMenuProps({}, { suppressRefError: true })}
+                  className="select-list"
+                >
+                  {
+                    isOpen
+                      ? Object.values(YAxisScaleType)
+                        .map((scaleType, index) => {
+                          return (
+                            <li
+                              key={index}
+                              {...getItemProps({
+                                index,
+                                item: scaleType
+                              })}
+                              data-highlighted={highlightedIndex === index}
+                              className="select-list-item"
+                            >
+                              <span className="font-bold">{scaleType}</span>{' '}
+                            </li>
+                          )
+                        })
+                      : ''
+                  }
+                </ul>
+              )}
+              arrow={true}
+              placement="bottom-start"
+              duration={100}
+              trigger="manual"
+              onHidden={() => setState({ isOpen: false })}
+              interactive
+            >
+              <div
+                {...getRootProps({} as any, { suppressRefError: true })}
+                className="select-input-area"
+              >
+                <button
+                  className="btn btn-white flex items-center border border-light rounded-sm px-2 py-1 text-xs"
+                  onClick={() => setState({ isOpen: true })}
+                >
+                  <span className="mr-2">Scale: {capitalize(selectedItem)}</span>
+                  {
+                    isOpen
+                      ? (<CaretUpSvg className="h-line-sm" />)
+                      : (<CaretDownSvg className="h-line-sm" />)
+                  }
+                </button>
+              </div>
+            </Tippy>
+          </div>
+        )}
+      </Downshift>
+    )
+
     return (
       <div className="dashboard-panel select-none">
-        <div className="flex items-center mb-2">
+        <div className="flex flex-col md:flex-row md:items-center mb-2">
           <div className="flex-1">
             <h2 className="text-lg font-bold">
               Cumulative
             </h2>
           </div>
-          <div className="flex items-center justify-end flex-shrink-0 flex-grow-0">
+          <div className="flex flex-wrap items-center justify-end flex-shrink-0 flex-grow-0">
             <div className="mr-2">
               {
                 selectedStartDate && selectedEndDate
                   ? (
                     <>
                       <span className="text-xs font-bold mr-2">Zoomed:</span>
-                      <div className="inline-flex items-center rounded bg-lighter text-sm px-2 py-1 font-bold">
+                      <div className="inline-flex items-center rounded-sm bg-lighter text-xs px-2 py-1 font-bold">
                         <span>{Date.rangeToString(selectedStartDate, selectedEndDate)}</span>
                         <button
                           onClick={this.onZoomOutClick}
@@ -162,15 +237,7 @@ export class DashboardCumulativeGraphComponent extends Component<Props, State> {
               }
             </div>
             <div>
-              <button
-                className="btn btn-white border border-light px-2 py-1 rounded text-sm"
-                onClick={this.onToggleYAxisScaleTypeClick}
-              >
-                {this.state.yAxisScaleType === YAxisScaleType.LINEAR
-                  ? 'View logarithmic scale'
-                  : 'View linear scale'
-                }
-              </button>
+              {yAxisScaleTypeSelect}
             </div>
           </div>
         </div>
