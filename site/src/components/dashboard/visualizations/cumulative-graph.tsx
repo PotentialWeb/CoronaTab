@@ -6,6 +6,7 @@ import moment from 'moment'
 import Downshift from 'downshift'
 import Tippy from '@tippyjs/react'
 import capitalize from 'lodash.capitalize'
+import numeral from 'numeral'
 import CaretDownSvg from '../../../../public/icons/caret-down.svg'
 import CaretUpSvg from '../../../../public/icons/caret-up.svg'
 import CloseSvg from '../../../../public/icons/close.svg'
@@ -275,6 +276,7 @@ export class DashboardCumulativeGraphComponent extends Component<Props, State> {
                     <XAxis
                       allowDataOverflow
                       dataKey="date"
+                      tickFormatter={(value: string) => moment(value).format('DD MMM')}
                       padding={{ left: 5, right: 5 }}
                       domain={[left, right]}
                       stroke={brand}
@@ -289,6 +291,7 @@ export class DashboardCumulativeGraphComponent extends Component<Props, State> {
                             return scaleLog().clamp(true)
                         }
                       })()}
+                      tickFormatter={(value: number) => numeral(value).format(value >= 1000 ? '0.[0]a' : '0,0')}
                       padding={{ top: 5, bottom: 0 }}
                       domain={[
                         (() => {

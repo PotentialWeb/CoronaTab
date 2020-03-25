@@ -7,6 +7,7 @@ import { scaleTime } from 'd3-scale'
 import CaretDownSvg from '../../../../public/icons/caret-down.svg'
 import CaretUpSvg from '../../../../public/icons/caret-up.svg'
 import moment from 'moment'
+import numeral from 'numeral'
 import { LoadingComponent } from '../../loading'
 import { SvgRectComponent } from '../../svg-rect'
 
@@ -159,11 +160,13 @@ export class DashboardDailyChartComponent extends Component<Props, State> {
                     <CartesianGrid strokeDasharray="3 3" stroke={brandDull} />
                     <XAxis
                       allowDataOverflow
+                      tickFormatter={(value: string) => moment(value).format('DD MMM')}
                       dataKey="date"
                       stroke={brand}
                     />
                     <YAxis
                       allowDataOverflow
+                      tickFormatter={(value: number) => numeral(value).format(value >= 1000 ? '0.[0]a' : '0,0')}
                       domain={[0, 'dataMax']}
                       stroke={brand}
                     />
