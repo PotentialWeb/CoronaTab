@@ -110,7 +110,7 @@ export class DashboardGlobalCountryLeaderboardComponent extends PureComponent<Pr
           getRootProps,
           setState
         }) => (
-          <div className="select">
+          <div className="select inline-block">
             <Tippy
               visible={isOpen}
               animation="shift-away"
