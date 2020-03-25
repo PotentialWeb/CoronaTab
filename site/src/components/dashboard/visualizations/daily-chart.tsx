@@ -96,7 +96,6 @@ export class DashboardDailyChartComponent extends Component<Props, State> {
               placement="bottom-start"
               duration={100}
               maxWidth="none"
-              trigger="manual"
               onHidden={() => setState({ isOpen: false })}
               interactive
             >

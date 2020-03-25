@@ -183,7 +183,6 @@ export class DashboardCumulativeGraphComponent extends Component<Props, State> {
               arrow={true}
               placement="bottom-start"
               duration={100}
-              trigger="manual"
               onHidden={() => setState({ isOpen: false })}
               interactive
             >

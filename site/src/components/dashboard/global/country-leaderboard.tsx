@@ -176,7 +176,7 @@ export class DashboardGlobalCountryLeaderboardComponent extends PureComponent<Pr
     return (
       <div className="dashboard-panel select-none">
         <div className="flex flex-col md:flex-row md:items-center mb-2">
-          <div className="flex-1">
+          <div className="flex-shrink-0">
             {leaderboardTypeSelect}
           </div>
           {/*<div className="flex items-center justify-end flex-shrink-0 flex-grow-0">
