@@ -170,7 +170,7 @@ export class DashboardCumulativeGraphComponent extends Component<Props, State> {
                               data-highlighted={highlightedIndex === index}
                               className="select-list-item"
                             >
-                              <span className="font-bold">{scaleType}</span>{' '}
+                              <span className="font-bold">{capitalize(scaleType)}</span>{' '}
                             </li>
                           )
                         })
