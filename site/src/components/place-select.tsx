@@ -1,7 +1,7 @@
 import { Component, createRef, RefObject } from 'react'
 import Downshift from 'downshift'
 import { Place } from '@coronatab/shared'
-import Tippy from '@tippy.js/react'
+import Tippy from '@tippyjs/react'
 import CaretUpSvg from '../../public/icons/caret-up.svg'
 import CaretDownSvg from '../../public/icons/caret-down.svg'
 import CloseSvg from '../../public/icons/close.svg'

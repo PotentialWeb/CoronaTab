@@ -1,5 +1,5 @@
 import { Component, HTMLAttributes } from 'react'
-import Tippy, { TippyProps } from '@tippy.js/react'
+import Tippy, { TippyProps } from '@tippyjs/react'
 import { Meta } from '../utils/meta'
 import {
   EmailShareButton,

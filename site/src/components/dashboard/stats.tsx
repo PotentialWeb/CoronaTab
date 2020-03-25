@@ -1,5 +1,5 @@
 import { Component, HTMLAttributes } from 'react'
-import Tippy from '@tippy.js/react'
+import Tippy from '@tippyjs/react'
 import numeral from 'numeral'
 import CaretUpSvg from '../../../public/icons/caret-up.svg'
 import CaretDownSvg from '../../../public/icons/caret-down.svg'

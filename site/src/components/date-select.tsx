@@ -1,5 +1,5 @@
 import { Component, HTMLAttributes } from 'react'
-import Tippy from '@tippy.js/react'
+import Tippy from '@tippyjs/react'
 import { DayPickerComponent } from './day-picker'
 import CalendarSvg from '../../public/icons/calendar.svg'
 
