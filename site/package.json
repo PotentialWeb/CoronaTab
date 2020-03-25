@@ -39,6 +39,7 @@
     "recharts": "^1.8.5",
     "sitemap": "^6.1.0",
     "swiper": "^5.3.6",
+    "tippy.js": "^6.1.0",
     "ua-parser-js": "^0.7.21"
   },
   "devDependencies": {
@@ -46,7 +47,7 @@
     "@fullhuman/postcss-purgecss": "^2.1.0",
     "@svgr/webpack": "^5.2.0",
     "@types/d3-scale": "^2.2.0",
-    "@types/lodash": "^4.14.149",
+    "@types/lodash.capitalize": "^4.2.6",
     "@types/node": "^13.9.1",
     "@types/numeral": "0.0.26",
     "@types/promise.allsettled": "^1.0.3",
