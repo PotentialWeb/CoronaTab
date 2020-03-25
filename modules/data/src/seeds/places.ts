@@ -35,6 +35,7 @@ export const EarthPlace = new Place({
   locales: {
     en: 'Earth'
   },
+  population: 7_800_000_000,
   typeId: 'planet'
 })
 
