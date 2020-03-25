@@ -226,23 +226,21 @@ InjectEnvs()
 
   }
 
-  await fs.writeFile(path.resolve(__dirname, '../src/seeds/places/data.ts'), `
-import { PlaceData } from '../../'
-
-export const SeededPlaceDatas: PlaceData[] = [
+  await fs.writeFile(path.resolve(__dirname, '../src/seeds/places/data.json'), `
+[
   ${Object.entries(dates)
     .filter(([date]) => date !== moment().format(DATE_FORMAT))
     .map(([date, data]) => {
       return Object.entries(data)
       .filter(([ placeId, { data }]) => data && (data.cases || data.deaths || data.recovered))
       .map(([placeId, { data }]) => {
-        return `new PlaceData({
-    placeId: \`${placeId}\`,
-    date: \`${date}\`,
-    cases: ${data.cases},
-    deaths: ${data.deaths},
-    recovered: ${data.recovered}
-  })`
+        return `{
+    "placeId": "${placeId}",
+    "date": "${date}",
+    "cases": ${data.cases},
+    "deaths": ${data.deaths},
+    "recovered": ${data.recovered}
+  }`
       }).join(',\n  ')
     }).join(',\n  ')
   }

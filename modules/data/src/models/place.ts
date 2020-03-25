@@ -50,7 +50,7 @@ export class Place extends Model<Place> {
   @Column({ nullable: true })
   phoneCode?: string
 
-  @Column('int', { nullable: true })
+  @Column('int8', { nullable: true })
   population?: number
 
   @OneToMany(() => PlacePolygon, geometry => geometry.place)

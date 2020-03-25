@@ -2,7 +2,7 @@
   "name": "@coronatab/data",
   "version": "1.0.0",
   "description": "CoronaTab data models and seeds",
-  "main": "dist/src/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "init:submodules": "git submodule update --remote --init --recursive",
     "prepare-lazd": "",
