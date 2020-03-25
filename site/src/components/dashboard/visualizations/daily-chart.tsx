@@ -8,6 +8,7 @@ import CaretDownSvg from '../../../../public/icons/caret-down.svg'
 import CaretUpSvg from '../../../../public/icons/caret-up.svg'
 import moment from 'moment'
 import { LoadingComponent } from '../../loading'
+import { SvgRectComponent } from '../../svg-rect'
 
 const {
   theme: {
@@ -134,42 +135,45 @@ export class DashboardDailyChartComponent extends Component<Props, State> {
             </div>
           </div>
         </div>
-        <div className="flex flex-col" style={{ height: '360px' }}>
-          {(() => {
-            if (!this.props?.data?.length) {
+        <div className="relative">
+          <SvgRectComponent ratio="16:9" />
+          <div className="absolute inset-0 flex flex-col">
+            {(() => {
+              if (!this.props?.data?.length) {
+                return (
+                  <div className="flex flex-1 items-center justify-center">
+                    <LoadingComponent className="h-8" />
+                  </div>
+                )
+              }
+              const fromDate = moment().subtract(this.state.timeframe, 'days')
+              const data = this.props.data.filter(({ date }) => moment(date) > fromDate)
               return (
-                <div className="flex flex-1 items-center justify-center">
-                  <LoadingComponent className="h-8" />
-                </div>
+                <ResponsiveContainer>
+                  <BarChart
+                    data={data}
+                  >
+                    <Bar dataKey="cases" name="Cases" fill={brand} isAnimationActive={false} />
+                    <Bar dataKey="deaths" name="Deaths" fill={red} isAnimationActive={false} />
+                    <Bar dataKey="recovered" name="Recovered" fill={green} isAnimationActive={false} />
+                    <CartesianGrid strokeDasharray="3 3" stroke={brandDull} />
+                    <XAxis
+                      allowDataOverflow
+                      dataKey="date"
+                      stroke={brand}
+                    />
+                    <YAxis
+                      allowDataOverflow
+                      domain={[0, 'dataMax']}
+                      stroke={brand}
+                    />
+                    <Tooltip cursor={{ fill: 'transparent' }} />
+                    <Legend />
+                  </BarChart>
+                </ResponsiveContainer>
               )
-            }
-            const fromDate = moment().subtract(this.state.timeframe, 'days')
-            const data = this.props.data.filter(({ date }) => moment(date) > fromDate)
-            return (
-              <ResponsiveContainer>
-                <BarChart
-                  data={data}
-                >
-                  <Bar dataKey="cases" name="Cases" fill={brand} isAnimationActive={false} />
-                  <Bar dataKey="deaths" name="Deaths" fill={red} isAnimationActive={false} />
-                  <Bar dataKey="recovered" name="Recovered" fill={green} isAnimationActive={false} />
-                  <CartesianGrid strokeDasharray="3 3" stroke={brandDull} />
-                  <XAxis
-                    allowDataOverflow
-                    dataKey="date"
-                    stroke={brand}
-                  />
-                  <YAxis
-                    allowDataOverflow
-                    domain={[0, 'dataMax']}
-                    stroke={brand}
-                  />
-                  <Tooltip cursor={{ fill: 'transparent' }} />
-                  <Legend />
-                </BarChart>
-              </ResponsiveContainer>
-            )
-          })()}
+            })()}
+          </div>
         </div>
       </div>
     )
