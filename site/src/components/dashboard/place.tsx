@@ -111,56 +111,57 @@ export class DashboardPlaceComponent extends Component<Props, State> {
               className="pl-2"
             />
           </div>
-        </div>
-        {
-          (() => {
-            if (!pageStore.selectedPlace) return ''
 
-            const visualizations = (
-              <div className="dashboard-spacer-y dashboard-place-visualizations flex flex-row flex-wrap min-w-0">
-                <div className="w-full 2xl:w-1/2 dashboard-spacer">
-                  <DashboardCumulativeGraphComponent
-                    data={this.state.data?.cumulativeSeries}
-                  />
+          {
+            (() => {
+              if (!pageStore.selectedPlace) return ''
+
+              const visualizations = (
+                <div className="dashboard-place-visualizations flex flex-row flex-wrap min-w-0">
+                  <div className="w-full 2xl:w-1/2 dashboard-spacer">
+                    <DashboardCumulativeGraphComponent
+                      data={this.state.data?.cumulativeSeries}
+                    />
+                  </div>
+                  <div className="w-full 2xl:w-1/2 dashboard-spacer">
+                    <DashboardDailyChartComponent
+                      data={this.state.data?.dailySeries}
+                    />
+                  </div>
                 </div>
-                <div className="w-full 2xl:w-1/2 dashboard-spacer">
-                  <DashboardDailyChartComponent
-                    data={this.state.data?.dailySeries}
-                  />
-                </div>
-              </div>
-            )
+              )
 
-            if (this.state.ignoreLoadingStatus) {
-              return visualizations
-            }
+              if (this.state.ignoreLoadingStatus) {
+                return visualizations
+              }
 
-            switch (pageStore.selectedPlaceDataLoadingStatus) {
-              case LoadingStatus.HAS_LOADED:
-                return this.state.data.raw?.length > 0
-                  ? visualizations
-                  : (
-                    <div className="my-2 flex items-center">
-                      No data for this place
+              switch (pageStore.selectedPlaceDataLoadingStatus) {
+                case LoadingStatus.HAS_LOADED:
+                  return this.state.data.raw?.length > 0
+                    ? visualizations
+                    : (
+                      <div className="my-2 flex items-center">
+                        No data for this place
+                      </div>
+                    )
+                case LoadingStatus.HAS_ERRORED:
+                  return (
+                    <div>
+                      <button onClick={this.fetchAndSetData}>
+                        Try again
+                      </button>
                     </div>
                   )
-              case LoadingStatus.HAS_ERRORED:
-                return (
-                  <div>
-                    <button onClick={this.fetchAndSetData}>
-                      Try again
-                    </button>
-                  </div>
-                )
-              case LoadingStatus.IS_LOADING:
-                return (
-                  <div className="dashboard-spacer flex items-center justify-center h-24">
-                    <LoadingComponent className="h-8 ml-2" />
-                  </div>
-                )
-            }
-          })()
-        }
+                case LoadingStatus.IS_LOADING:
+                  return (
+                    <div className="dashboard-spacer flex items-center justify-center h-24">
+                      <LoadingComponent className="h-8 ml-2" />
+                    </div>
+                  )
+              }
+            })()
+          }
+        </div>
       </div>
     )
   }

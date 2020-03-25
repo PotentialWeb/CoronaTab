@@ -22,6 +22,7 @@ html {
 }
 
 body {
+  @apply overflow-x-hidden;
   -webkit-font-smoothing: antialiased;
   &.no-scroll {
     @apply overflow-hidden;
