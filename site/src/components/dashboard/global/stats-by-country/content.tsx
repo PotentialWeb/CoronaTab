@@ -51,13 +51,14 @@ export class DashboardGlobalStatsByCountryContentComponent extends Component<Pro
         >
           <Table
             data={this.props.pageStore.places.map(place => ({
-              code: place.code,
+              code: place.alpha2code,
               name: place.name,
               cases: place.latestData.cases,
               deaths: place.latestData.deaths,
               deathRate: place.latestData.deaths / place.latestData.cases,
               recovered: place.latestData.recovered,
-              recoveryRate: place.latestData.recovered / place.latestData.cases
+              recoveryRate: place.latestData.recovered / place.latestData.cases,
+              population: place.population
             }))}
             onSortClick={this.onSortClick}
           />
@@ -86,11 +87,18 @@ function Table ({ data, onSortClick }) {
         id: 'name',
         Header: 'Name',
         Cell: ({ cell }) => {
-          return <span className="font-bold">{cell.value}</span>
+          return <span className="font-bold truncate">{cell.value}</span>
         },
         accessor: 'name',
         sortType: 'alphanumeric',
         width: 75,
+      },
+      {
+        id: 'population',
+        Header: 'Population',
+        Cell: ({ cell }) => FormatNumberCell(cell.value, cell.value > 1000 ? '0.0a' : '0,0'),
+        accessor: 'population',
+        sortType: 'basic'
       }
     ]
   }, {
@@ -121,7 +129,7 @@ function Table ({ data, onSortClick }) {
         id: 'recovered',
         Header: 'Recovered',
         Cell: ({ cell }) => FormatNumberCell(cell.value, '0,0'),
-        accessor: 'latestData.recovered',
+        accessor: 'recovered',
         sortType: 'basic'
       },
       {
