@@ -108,7 +108,9 @@ places.get('/places', async (req, res) => {
               'id', child.id,
               'locales', child.locales,
               'typeId', child."typeId",
-              'code', child.code,
+              'alpha2code', child.alpha2code,
+              'alpha3code', child.alpha3code,
+              'dataSource', child."dataSource",
               'location', ST_AsGeoJSON(child.location),
               'population', child.population,
               'latestData', ${getLatestDataQuery('child')}
@@ -189,7 +191,9 @@ places.get('/places/closest', async (req, res) => {
               'id', child.id,
               'locales', child.locales,
               'typeId', child."typeId",
-              'code', child.code,
+              'alpha2code', child.alpha2code,
+              'alpha3code', child.alpha3code,
+              'dataSource', child."dataSource",
               'location', ST_AsGeoJSON(child.location),
               'population', child.population,
               'latestData', ${getLatestDataQuery('child')}

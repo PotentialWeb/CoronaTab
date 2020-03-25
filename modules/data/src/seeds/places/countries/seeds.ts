@@ -13,10 +13,18 @@ CountriesData.map(country => {
     locales: country.locales,
     alpha2code: country.alpha2code,
     alpha3code: country.alpha3code,
+    population: country.population,
     typeId: 'country',
     parentId: 'earth',
     dataSource: country.dataSource
   })
+
+  if (country.coordinates) {
+    Country.location = {
+      type: 'Point',
+      coordinates: country.coordinates
+    }
+  }
 
   if (country.polygon) {
     const CountryPolygon = new PlacePolygon({
