@@ -80,27 +80,42 @@ export class DashboardPlaceComponent extends Component<Props, State> {
   render () {
     const { pageStore } = this.props
     const selectedParentPlace = pageStore.selectedPlaceTree?.length > 0 ? pageStore.selectedPlaceTree[0] : null
+    const selectedChildPlace = pageStore.selectedPlaceTree?.length === 2 ? pageStore.selectedPlaceTree[1] : null
+    const selectedChildChildPlace = pageStore.selectedPlaceTree?.length === 3 ? pageStore.selectedPlaceTree[2] : null
     return (
       <div className="dashboard-place">
         <div className="dashboard-panel dashboard-spacer-y">
-          <div className="dashboard-place-select flex items-center pb-2">
+          <div className="dashboard-place-select flex flex-wrap items-center pb-2">
             <PlaceSelectComponent
               selectedPlace={selectedParentPlace}
               options={pageStore.places}
               onChange={place => {
                 pageStore.selectedPlaceTree = place ? [place] : []
               }}
+              className="my-1 mr-2"
             />
             {(() => {
               if (!selectedParentPlace?.children?.length) return ''
               return (<PlaceSelectComponent
-                selectedPlace={pageStore.selectedPlaceTree.length === 2 && pageStore.selectedPlaceTree[1]}
+                selectedPlace={selectedChildPlace}
                 options={selectedParentPlace.children}
                 onChange={place => {
                   pageStore.selectedPlaceTree = place ? [selectedParentPlace, place] : [selectedParentPlace]
                 }}
                 inputPlaceholder="Select a region"
-                className="ml-2"
+                className="my-1 mr-2"
+              />)
+            })()}
+            {(() => {
+              if (!selectedChildPlace?.children?.length) return ''
+              return (<PlaceSelectComponent
+                selectedPlace={selectedChildChildPlace}
+                options={selectedChildPlace.children}
+                onChange={place => {
+                  pageStore.selectedPlaceTree = place ? [selectedParentPlace, selectedChildPlace, place] : [selectedParentPlace, selectedChildPlace]
+                }}
+                inputPlaceholder="Select a place"
+                className="my-1 mr-2"
               />)
             })()}
           </div>
