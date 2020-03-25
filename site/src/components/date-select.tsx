@@ -63,7 +63,6 @@ export class DateSelectComponent extends Component<Props,State> {
           animation="shift-away"
           theme="light"
           allowHTML={true}
-          boundary="window"
           appendTo={document.body}
           content={
             isOpen
