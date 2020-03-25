@@ -82,10 +82,10 @@ export const CountriesData: PlaceSeedData[] = [{
   alpha3code: `AGO`,
   alternativeNames: undefined,
   population: 32866272,
-  coordinates: undefined,
+  coordinates: [17.89885628300003,-11.211304219499908],
   polygon: CountryPolygons[`AGO`],
   parentId: 'earth',
-  dataSource: undefined
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `anguilla`,
   locales: {
@@ -169,7 +169,7 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [133.43764789150003,-27.17176685949994],
   polygon: CountryPolygons[`AUS`],
   parentId: 'earth',
-  dataSource: `https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-current-situation-and-case-numbers`
+  dataSource: `https://www.dhhs.vic.gov.au/media-hub-coronavirus-disease-covid-19`
 }, {
   id: `austria`,
   locales: {
@@ -278,10 +278,10 @@ export const CountriesData: PlaceSeedData[] = [{
   alpha3code: `BLZ`,
   alternativeNames: undefined,
   population: 397628,
-  coordinates: undefined,
+  coordinates: [-88.66402716449991,17.18921030650006],
   polygon: CountryPolygons[`BLZ`],
   parentId: 'earth',
-  dataSource: undefined
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `benin`,
   locales: {
@@ -516,10 +516,10 @@ export const CountriesData: PlaceSeedData[] = [{
   alpha3code: `CPV`,
   alternativeNames: [`Cape Verde`],
   population: 555987,
-  coordinates: undefined,
+  coordinates: [-23.999460415499925,16.066066799000083],
   polygon: CountryPolygons[`CPV`],
   parentId: 'earth',
-  dataSource: undefined
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `cayman-islands`,
   locales: {
@@ -768,10 +768,10 @@ export const CountriesData: PlaceSeedData[] = [{
   alpha3code: `DMA`,
   alternativeNames: undefined,
   population: 71986,
-  coordinates: undefined,
+  coordinates: [-61.37279212149994,15.390529689500056],
   polygon: CountryPolygons[`DMA`],
   parentId: 'earth',
-  dataSource: undefined
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `dominican-republic`,
   locales: {
@@ -852,10 +852,10 @@ export const CountriesData: PlaceSeedData[] = [{
   alpha3code: `ERI`,
   alternativeNames: undefined,
   population: 3546421,
-  coordinates: undefined,
+  coordinates: [39.77066674450006,15.182425031500067],
   polygon: CountryPolygons[`ERI`],
   parentId: 'earth',
-  dataSource: undefined
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `estonia`,
   locales: {
@@ -981,7 +981,7 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [-2.9882706369999426,14.862000781359463],
   polygon: CountryPolygons[`FRA`],
   parentId: 'earth',
-  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `french-guiana`,
   locales: {
@@ -1051,7 +1051,7 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [10.473758178500105,51.09924480150008],
   polygon: CountryPolygons[`DEU`],
   parentId: 'earth',
-  dataSource: `https://covid19-germany.appspot.com/now`
+  dataSource: `https://raw.githubusercontent.com/jgehrcke/covid-19-germany-gae/master/data.csv`
 }, {
   id: `ghana`,
   locales: {
@@ -1093,7 +1093,7 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [-42.211435513499936,71.81159088750007],
   polygon: CountryPolygons[`GRL`],
   parentId: 'earth',
-  dataSource: undefined
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `grenada`,
   locales: {
@@ -1104,10 +1104,10 @@ export const CountriesData: PlaceSeedData[] = [{
   alpha3code: `GRD`,
   alternativeNames: undefined,
   population: 112523,
-  coordinates: undefined,
+  coordinates: [-61.68468176999994,12.158229885000054],
   polygon: CountryPolygons[`GRD`],
   parentId: 'earth',
-  dataSource: undefined
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `guadeloupe`,
   locales: {
@@ -1118,10 +1118,10 @@ export const CountriesData: PlaceSeedData[] = [{
   alpha3code: `GLP`,
   alternativeNames: undefined,
   population: 400124,
-  coordinates: undefined,
+  coordinates: [-61.551,16.265],
   polygon: CountryPolygons[`GLP`],
   parentId: 'earth',
-  dataSource: undefined
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `guam`,
   locales: {
@@ -1132,10 +1132,10 @@ export const CountriesData: PlaceSeedData[] = [{
   alpha3code: `GUM`,
   alternativeNames: undefined,
   population: 168775,
-  coordinates: undefined,
+  coordinates: [144.7937,13.4443],
   polygon: CountryPolygons[`GUM`],
   parentId: 'earth',
-  dataSource: undefined
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `guatemala`,
   locales: {
@@ -1202,10 +1202,10 @@ export const CountriesData: PlaceSeedData[] = [{
   alpha3code: `HTI`,
   alternativeNames: undefined,
   population: 11402528,
-  coordinates: undefined,
+  coordinates: [-73.06413834999991,18.99158356300007],
   polygon: CountryPolygons[`HTI`],
   parentId: 'earth',
-  dataSource: undefined
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `honduras`,
   locales: {
@@ -1275,7 +1275,7 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [82.74863427400004,21.151850284000083],
   polygon: CountryPolygons[`IND`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://www.mohfw.gov.in/`
 }, {
   id: `indonesia`,
   locales: {
@@ -1359,7 +1359,7 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [12.56007714450007,41.826061709500074],
   polygon: CountryPolygons[`ITA`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-regioni/dpc-covid19-ita-regioni.csv`
 }, {
   id: `jamaica`,
   locales: {
@@ -1496,10 +1496,10 @@ export const CountriesData: PlaceSeedData[] = [{
   alpha3code: `LAO`,
   alternativeNames: undefined,
   population: 7275560,
-  coordinates: undefined,
+  coordinates: [103.87844445800008,18.18079060900007],
   polygon: CountryPolygons[`LAO`],
   parentId: 'earth',
-  dataSource: undefined
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `latvia`,
   locales: {
@@ -1566,10 +1566,10 @@ export const CountriesData: PlaceSeedData[] = [{
   alpha3code: `LBY`,
   alternativeNames: undefined,
   population: 6871292,
-  coordinates: undefined,
+  coordinates: [17.21871667100008,26.33867453700003],
   polygon: CountryPolygons[`LBY`],
   parentId: 'earth',
-  dataSource: undefined
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `liechtenstein`,
   locales: {
@@ -1650,10 +1650,10 @@ export const CountriesData: PlaceSeedData[] = [{
   alpha3code: `MDG`,
   alternativeNames: undefined,
   population: 27691018,
-  coordinates: undefined,
+  coordinates: [46.863413933500084,-18.792128187999936],
   polygon: CountryPolygons[`MDG`],
   parentId: 'earth',
-  dataSource: undefined
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `malawi`,
   locales: {
@@ -1790,10 +1790,10 @@ export const CountriesData: PlaceSeedData[] = [{
   alpha3code: `MYT`,
   alternativeNames: undefined,
   population: 272815,
-  coordinates: undefined,
+  coordinates: [45.1662,-12.8275],
   polygon: CountryPolygons[`MYT`],
   parentId: 'earth',
-  dataSource: undefined
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `mexico`,
   locales: {
@@ -1902,10 +1902,10 @@ export const CountriesData: PlaceSeedData[] = [{
   alpha3code: `MOZ`,
   alternativeNames: undefined,
   population: 31255435,
-  coordinates: undefined,
+  coordinates: [35.52850264150007,-18.660455010999897],
   polygon: CountryPolygons[`MOZ`],
   parentId: 'earth',
-  dataSource: undefined
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `namibia`,
   locales: {
@@ -2028,10 +2028,10 @@ export const CountriesData: PlaceSeedData[] = [{
   alpha3code: `NER`,
   alternativeNames: undefined,
   population: 24206644,
-  coordinates: undefined,
+  coordinates: [8.053466634000088,17.606562093000058],
   polygon: CountryPolygons[`NER`],
   parentId: 'earth',
-  dataSource: undefined
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `nigeria`,
   locales: {
@@ -2196,10 +2196,10 @@ export const CountriesData: PlaceSeedData[] = [{
   alpha3code: `PNG`,
   alternativeNames: undefined,
   population: 8947024,
-  coordinates: undefined,
+  coordinates: [148.39132633100002,-6.775160414499936],
   polygon: CountryPolygons[`PNG`],
   parentId: 'earth',
-  dataSource: undefined
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `paraguay`,
   locales: {
@@ -2280,10 +2280,10 @@ export const CountriesData: PlaceSeedData[] = [{
   alpha3code: `PRI`,
   alternativeNames: undefined,
   population: 2860853,
-  coordinates: undefined,
+  coordinates: [-66.5,18.2],
   polygon: CountryPolygons[`PRI`],
   parentId: 'earth',
-  dataSource: undefined
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `qatar`,
   locales: {
@@ -2801,7 +2801,7 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [8.258983805500094,46.840811259500086],
   polygon: CountryPolygons[`CHE`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_ZH_total.csv`
 }, {
   id: `syrian-arab-republic`,
   locales: {
@@ -2810,12 +2810,12 @@ export const CountriesData: PlaceSeedData[] = [{
   phoneCode: `+963`,
   alpha2code: `SY`,
   alpha3code: `SYR`,
-  alternativeNames: undefined,
+  alternativeNames: [`Syria`],
   population: 17070135,
-  coordinates: undefined,
+  coordinates: [39.05741437600011,34.811545512000066],
   polygon: CountryPolygons[`SYR`],
   parentId: 'earth',
-  dataSource: undefined
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `taiwan`,
   locales: {
@@ -2910,10 +2910,10 @@ export const CountriesData: PlaceSeedData[] = [{
   alpha3code: `TLS`,
   alternativeNames: [`East Timor`],
   population: 1318445,
-  coordinates: undefined,
+  coordinates: [125.56,-8.55],
   polygon: CountryPolygons[`TLS`],
   parentId: 'earth',
-  dataSource: undefined
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `togo`,
   locales: {
@@ -3050,10 +3050,10 @@ export const CountriesData: PlaceSeedData[] = [{
   alpha3code: `UGA`,
   alternativeNames: undefined,
   population: 45741007,
-  coordinates: undefined,
+  coordinates: [32.26733748400008,1.3750334680000833],
   polygon: CountryPolygons[`UGA`],
   parentId: 'earth',
-  dataSource: undefined
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `ukraine`,
   locales: {
@@ -3095,7 +3095,7 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [-3.192432722499916,55.19161611550004],
   polygon: CountryPolygons[`GBR`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://www.gov.scot/coronavirus-covid-19/`
 }, {
   id: `united-states-of-america`,
   locales: {
@@ -3109,7 +3109,7 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [-91.212524,39.9787775],
   polygon: CountryPolygons[`USA`],
   parentId: 'earth',
-  dataSource: `https://www.tn.gov/health/cedep/ncov.html`
+  dataSource: `https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/`
 }, {
   id: `uruguay`,
   locales: {
@@ -3246,8 +3246,8 @@ export const CountriesData: PlaceSeedData[] = [{
   alpha3code: `ZWE`,
   alternativeNames: undefined,
   population: 14862924,
-  coordinates: undefined,
+  coordinates: [29.12944116200009,-19.0060739139999],
   polygon: CountryPolygons[`ZWE`],
   parentId: 'earth',
-  dataSource: undefined
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }]

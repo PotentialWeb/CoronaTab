@@ -21,6 +21,8 @@ export interface PlaceSeedData {
 }
 
 export const FindPlaceSeedDataInDataset = ({ dataset, term }: { dataset: PlaceSeedData[], term: string }) => {
+  // tslint:disable-next-line:ter-no-irregular-whitespace
+  term = term.replace(/ /g, ' ') // Replace weird spaces with normal spaces
   return dataset.find(p =>
     p.id === term
     || p.alpha3code === term

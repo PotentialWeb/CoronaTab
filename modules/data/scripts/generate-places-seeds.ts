@@ -13,14 +13,15 @@ InjectEnvs()
 
 ;(async () => {
 
-  const { features: lazdFeatures } = require('../coronadatascraper/dist/features.json')
+  const { features } = require('../coronadatascraper/dist/features.json')
   const USStatesCodeMap = require('./us-states-code-map.json')
 
-  const data = DataScraper.data
+  const data = DataScraper.latest
+  const jhuData = await JHU.getLatestData()
 
   const countries = CountriesData
-  const regions = RegionsData
-  const cities = CitiesData
+  let regions = RegionsData
+  let cities = CitiesData
 
   for (const entry of data) {
     let country = FindPlaceSeedDataInDataset({
@@ -34,6 +35,9 @@ InjectEnvs()
         term: entry.country
       })
     }
+    let jhuEntry = jhuData.find(r => r.countryId === country.id || r.region === country.locales.en)
+
+    if (!jhuEntry && !entry.state && !entry.county) debugger
 
     if (!country) {
       console.error(`No country for entry: ${JSON.stringify(entry)}`)
@@ -41,7 +45,7 @@ InjectEnvs()
       process.exit(1)
     }
 
-    country.coordinates = country.coordinates ?? entry.coordinates
+    country.coordinates = country.coordinates ?? entry.coordinates ?? (jhuEntry && [jhuEntry.lat, jhuEntry.lng])
     if (entry.url && country.dataSource !== entry.url) {
       country.dataSource = entry.url
     }
@@ -77,17 +81,18 @@ InjectEnvs()
             regions.push(state)
           }
         }
+        jhuEntry = jhuData.find(r => r.countryId === country.id && r.region === state.locales.en)
 
-        state.coordinates = state.coordinates ?? entry.coordinates
+        state.coordinates = state.coordinates ?? entry.coordinates ?? (jhuEntry && [jhuEntry.lat, jhuEntry.lng])
         state.population = state.population ?? entry.population
         if (!state.polygon && entry.featureId) {
-          const feature = lazdFeatures.find(f => f.properties?.id === entry.featureId)
+          const feature = features.find(f => f.properties?.id === entry.featureId)
           state.polygon = feature?.geometry
         }
         if (entry.url && state.dataSource !== entry.url) {
           state.dataSource = entry.url
         }
-      // County
+        // County
         if (entry.county) {
           let county = FindPlaceSeedDataInDataset({
             dataset: regions.filter(r => r.parentId === state.id),
@@ -107,10 +112,12 @@ InjectEnvs()
               regions.push(county)
             }
           }
-          county.coordinates = county.coordinates ?? entry.coordinates
+          jhuEntry = jhuData.find(r => r.countryId === country.id && r.region === state.locales.en && r.region === county.locales.en)
+
+          county.coordinates = county.coordinates ?? entry.coordinates ?? (jhuEntry && [jhuEntry.lat, jhuEntry.lng])
           county.population = county.population ?? entry.population
           if (!county.polygon && entry.featureId) {
-            const feature = lazdFeatures.find(f => f.properties?.id === entry.featureId)
+            const feature = features.find(f => f.properties?.id === entry.featureId)
             county.polygon = feature?.geometry
           }
           if (entry.url && county.dataSource !== entry.url) {
@@ -140,10 +147,12 @@ InjectEnvs()
             regions.push(region)
           }
         }
-        region.coordinates = region.coordinates ?? entry.coordinates
+        jhuEntry = jhuData.find(r => r.countryId === country.id && r.region === region.locales.en)
+
+        region.coordinates = region.coordinates ?? entry.coordinates ?? (jhuEntry && [jhuEntry.lat, jhuEntry.lng])
         region.population = region.population ?? entry.population
         if (!region.polygon && entry.featureId) {
-          const feature = lazdFeatures.find(f => f.properties?.id === entry.featureId)
+          const feature = features.find(f => f.properties?.id === entry.featureId)
           region.polygon = feature?.geometry
         }
         if (entry.url && region.dataSource !== entry.url) {
@@ -152,7 +161,48 @@ InjectEnvs()
       }
 
     }
+    if (jhuEntry) {
+      jhuData.splice(jhuData.indexOf(jhuEntry), 1)
+    }
   }
+
+  // Save JHU places that werent part of the original data
+  for (const entry of jhuData.filter(e => e.region)) {
+    // Region
+    const regionId = `${entry.countryId}-${Strings.dasherize(entry.region)}`
+    const region: PlaceSeedData = {
+      id: regionId,
+      parentId: entry.countryId,
+      locales: {
+        en: entry.region
+      } as any,
+      coordinates: [entry.lat, entry.lng]
+    }
+    if (!regions.find(r => r.id === regionId)) {
+      regions.push(region)
+    }
+    if (entry.city) {
+      // City
+      const cityId = `${region.id}-${Strings.dasherize(entry.city)}`
+
+      const city: PlaceSeedData = {
+        id: cityId,
+        parentId: regionId,
+        locales: {
+          en: entry.city
+        } as any,
+        coordinates: [entry.lat, entry.lng]
+      }
+      if (!cities.find(c => c.id === cityId)) {
+        cities.push(city)
+      }
+
+    }
+  }
+
+  regions = regions.filter(r => ![
+    'united-kingdom-uk'
+  ].includes(r.id))
 
   // Save all countries data to file
   await fs.writeFile(path.resolve(__dirname, '../src/seeds/places/countries/data.ts'), `
