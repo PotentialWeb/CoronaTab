@@ -3,7 +3,20 @@ import CSV from 'csvtojson'
 import moment from 'moment'
 import { DATE_FORMAT } from '@coronatab/shared'
 import { SeededCountries } from '../src/seeds/places/countries/seeds'
-import { SeededRegions } from '../src'
+import { SeededRegions, FindPlaceSeedDataInDataset } from '../src'
+import { RegionsData } from '../src/seeds/places/regions/data'
+import { CitiesData } from '../src/seeds/places/cities/data'
+
+export type JHUDataRow = {
+  countryId: string
+  region?: string
+  city?: string
+  lat: number
+  lng: number
+  cases: number
+  deaths: number
+  recovered: number
+}
 
 export class JHU {
 
@@ -40,20 +53,10 @@ export class JHU {
     type RawRowMetaColumn = typeof RAW_ROW_META_COLUMNS[number]
     type RawDataRow = { [meta in RawRowMetaColumn]: string } & { [date: string]: string }
 
-    type NormalizedDataRowDates = {
-      [date: string]: {
-        cases: number
-        deaths: number
-        recovered: number
-      }
+    type DataRowDates = {
+      [date: string]: JHUDataRow[]
     }
-    type NormalizedDataRow = {
-      countryId: string
-      region: string
-      lat: number
-      lng: number
-      dates: NormalizedDataRowDates
-    }
+
     const [
       casesRawRows,
       recoveredRawRows,
@@ -64,7 +67,7 @@ export class JHU {
       CSV().fromStream(deathsStream as any)
     ])
 
-    const data: NormalizedDataRow[] = []
+    const data: DataRowDates = {}
     casesRawRows
     .filter(r => !['Princess', 'Cruise Ship'].some(ignore => r['Country/Region'].includes(ignore) || r['Province/State'].includes(ignore)))
     .forEach(casesRow => {
@@ -82,28 +85,30 @@ export class JHU {
       if (region === countryName || region === '') {
         region = undefined
       }
-      data.push({
-        countryId: country.id,
-        region,
-        lat: parseFloat(casesRow.Lat),
-        lng: parseFloat(casesRow.Long),
-        dates: Object.entries(casesRow)
-              .filter(([key, cases]) => !RAW_ROW_META_COLUMNS.includes(key as RawRowMetaColumn) && parseInt(cases) > 0)
-              .reduce((dates, [ date, casesString ]) => {
 
-                const [ _, deathsString ] = Object.entries(deathsRow).find(([ deathsDate ]) => deathsDate === date)
-                const [ __, recoveredString ] = Object.entries(recoveredRow).find(([ recoveredDate ]) => recoveredDate === date)
-                const cases = parseInt(casesString) || 0
-                const deaths = parseInt(deathsString) || 0
-                const recovered = parseInt(recoveredString) || 0
-                dates[moment(new Date(date)).format(DATE_FORMAT)] = {
-                  recovered,
-                  cases,
-                  deaths
-                }
-                return dates
-              }, {} as NormalizedDataRowDates)
-      })
+      Object.entries(casesRow)
+        .filter(([key, cases]) => !RAW_ROW_META_COLUMNS.includes(key as RawRowMetaColumn) && parseInt(cases) > 0)
+        .forEach(([ date, casesString ]) => {
+
+          const [ _, deathsString ] = Object.entries(deathsRow).find(([ deathsDate ]) => deathsDate === date)
+          const [ __, recoveredString ] = Object.entries(recoveredRow).find(([ recoveredDate ]) => recoveredDate === date)
+          const cases = parseInt(casesString) || 0
+          const deaths = parseInt(deathsString) || 0
+          const recovered = parseInt(recoveredString) || 0
+          date = moment(new Date(date)).format(DATE_FORMAT)
+          data[date] = data[date] || []
+
+          ;(data[date] as JHUDataRow[]).push({
+            countryId: country.id,
+            region,
+            lat: parseFloat(casesRow.Lat),
+            lng: parseFloat(casesRow.Long),
+            cases,
+            deaths,
+            recovered
+          })
+
+        })
     })
 
     return data
@@ -132,26 +137,21 @@ export class JHU {
       Combined_Key: string
     }
 
-    type NormalizedDataRow = {
-      countryId: string
-      region?: string
-      city?: string
-      lat: number
-      lng: number
-      cases: number
-      deaths: number
-      recovered: number
-    }
-
     const rawRows: RawDataRow[] = await CSV().fromStream(downloadStream as any)
 
-    const data: NormalizedDataRow[] = rawRows
-      .filter(r => !['Princess', 'Cruise Ship'].some(ignore => r['Country/Region'].includes(ignore) || r['Province/State'].includes(ignore)))
+    const data: JHUDataRow[] = rawRows
+      .filter(r => !['Princess', 'Cruise Ship', 'Recovered'].some(ignore => r.Country_Region?.includes(ignore) || r.Province_State?.includes(ignore)))
       .map(row => {
         const countryName = row.Country_Region
-        const region = row.Province_State
+        let region = row.Province_State
+        if (region === 'Unassigned' || region === '') {
+          region = null
+        }
+        if (region === 'Macau') {
+          region = 'Macao'
+        }
         let city = row.Admin2
-        if (city === 'Unassigned') {
+        if (city === 'Unassigned' || city === '') {
           city = null
         }
         const country = SeededCountries.find(c => c.alpha2code === this.COUNTRY_CODE_MAP[countryName])
@@ -181,33 +181,35 @@ export class JHU {
 
   static getPlaceFromEntry ({
     countryId,
-    region
+    region,
+    city
   }: {
     countryId: string
-    region?: string
+    region?: string,
+    city?: string
   }) {
     const country = SeededCountries.find(c => c.id === countryId)
 
     if (!region || region === country.locales.en) {
       return country
-    }
-
-    if (countryId === 'united-states-of-america') {
-      const match = /(.*), ([A-Z]{2})$/g.exec(region)
-      if (!match) {
-        // State
-        const state = SeededRegions.find(r => r.parentId === country.id && r.locales.en === region)
-        return state
-      } else {
-        // City or County
-        const [_, placeName, stateCode ] = match
-        const state = SeededRegions.find(r => r.parentId === country.id && r.alpha2code === stateCode)
-        const region = SeededRegions.find(r => r.parentId === state.id && r.locales.en === placeName)
-        return region
-      }
     } else {
-      const place = SeededRegions.find(r => r.parentId === country.id && r.locales.en === region)
-      return place
+      // Region
+      const regionPlace = FindPlaceSeedDataInDataset({
+        dataset: RegionsData.filter(r => r.parentId === country.id),
+        term: region
+      })
+
+      if (!city) {
+        return regionPlace
+      } else {
+        const cityPlace = FindPlaceSeedDataInDataset({
+          dataset: CitiesData.filter(c => c.parentId === regionPlace.id),
+          term: city
+        })
+
+        return cityPlace
+      }
+
     }
 
   }
@@ -258,7 +260,7 @@ export class JHU {
     'Canada': 'CA',
     'Cayman Islands': 'KY',
     'Central African Republic': 'CF',
-    'Chad': 'ID',
+    'Chad': 'TD',
     'Chile': 'CL',
     'China': 'CN',
     'Colombia': 'CO',
@@ -389,7 +391,7 @@ export class JHU {
     'Palau': 'PW',
     'Palestine': 'PS',
     'occupied Palestinian territory': 'PS',
-    'Panama': 'PS',
+    'Panama': 'PA',
     'Papua New Guinea': 'PG',
     'Paraguay': 'PY',
     'Peru': 'PE',
