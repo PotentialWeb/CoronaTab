@@ -47,7 +47,7 @@ export class DashboardGlobalStatsByCountryContentComponent extends Component<Pro
       >
         <div
           ref={this.scrollRef}
-          className="h-full bg-white rounded md:mx-6 cursor-default depth-lg overflow-y-scroll scrolling-touch dashboard-spacer-x"
+          className="h-full bg-white rounded md:mx-6 cursor-default depth-lg overflow-scroll scrolling-touch dashboard-spacer-x"
         >
           <Table
             data={this.props.pageStore.places.map(place => ({
@@ -170,7 +170,7 @@ const defaultColumn = useMemo(
   )
 
   return (
-    <div {...getTableProps()} className="table-flex relative overflow-x-scroll">
+    <div {...getTableProps()} className="table-flex relative">
       <div className="sticky top-0 z-20 bg-white border-b-2 border-lighter pt-4" style={{ minWidth: '780px' }}>
         {headerGroups.map((headerGroup, i) => (
           <div

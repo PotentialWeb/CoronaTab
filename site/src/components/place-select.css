@@ -1,4 +1,5 @@
 .place-select {
+  min-width: 250px;
   &-list {
     @apply overflow-y-scroll rounded;
     @apply rounded-sm;
@@ -39,5 +40,11 @@
     &[aria-expanded="false"] > input {
       @apply cursor-pointer;
     }
+  }
+}
+
+@screen xl {
+  .place-select {
+    min-width: 300px;
   }
 }
