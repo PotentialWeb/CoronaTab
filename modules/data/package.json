@@ -2,8 +2,14 @@
   "name": "@coronatab/data",
   "version": "1.0.0",
   "description": "CoronaTab data models and seeds",
-  "main": "dist/index.js",
+  "main": "dist/src/index.js",
   "scripts": {
+    "init:submodules": "git submodule update --remote --init --recursive",
+    "prepare-lazd": "",
+    "scrape-timeseries": "cd coronadatascraper/ && source ~/.nvm/nvm.sh; nvm use 13.4; nvm current; yarn install; yarn timeseries",
+    "scrape-today": "cd coronadatascraper/ && source ~/.nvm/nvm.sh; nvm use 13.4; nvm current; yarn install; yarn start",
+    "generate-seeds": "./node_modules/.bin/ts-node -P ./tsconfig.json scripts/generate-seeds.ts",
+    "scrape-jhu": "./node_modules/.bin/ts-node -P ./tsconfig.json scripts/jhu/scrape.ts",
     "sync": "./node_modules/.bin/ts-node scripts/sync.ts",
     "seed": "./node_modules/.bin/ts-node scripts/seed.ts",
     "build": "./node_modules/.bin/tsc -p ."
@@ -19,8 +25,15 @@
     "typeorm": "^0.2.24"
   },
   "devDependencies": {
+    "@coronatab/node-utils": "file:../node-utils",
+    "@types/csvtojson": "^1.1.5",
+    "@types/fs-extra": "^8.1.0",
     "@types/node": "^13.9.1",
+    "csvtojson": "^2.0.10",
     "dotenv": "^8.2.0",
+    "fs-extra": "^9.0.0",
+    "fuse.js": "^5.0.7-beta",
+    "moment": "^2.24.0",
     "ts-node": "^8.6.2",
     "typescript": "^3.8.3"
   }

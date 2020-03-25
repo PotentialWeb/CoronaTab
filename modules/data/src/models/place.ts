@@ -29,7 +29,16 @@ export class Place extends Model<Place> {
   typeId: PlaceTypeId
 
   @Column({ nullable: true })
+  alpha2code?: string
+
+  @Column({ nullable: true })
   code?: string
+
+  @Column({ nullable: true })
+  alpha3code?: string
+
+  @Column({ nullable: true })
+  dataSource?: string
 
   @Column('geography', {
     nullable: true,
@@ -37,6 +46,9 @@ export class Place extends Model<Place> {
     spatialFeatureType: 'Geometry'
   })
   location?: Point
+
+  @Column({ nullable: true })
+  phoneCode?: string
 
   @Column('int', { nullable: true })
   population?: number

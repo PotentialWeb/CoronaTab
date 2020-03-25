@@ -6,6 +6,7 @@ interface ConnectOptions {
   url?: string
   synchronize?: boolean
   ssl?: boolean
+  database?: string
 }
 
 declare global {
@@ -21,8 +22,14 @@ const connect = async (opts: ConnectOptions = {}) => {
 
   global.MODELS_CONNECTION = global.MODELS_CONNECTION || (async () => {
     if (!url || typeof url !== 'string') throw new Error('PostgreSQL Connection URL not provided')
-    console.info(`⚠️ Models package is connecting to the database`)
-
+    const DATABASE = opts.database ?? (() => {
+      switch (process.env.CORONATAB_ENVIRONMENT) {
+        case 'STAGING': return 'CoronaTab-staging'
+        default: return 'CoronaTab'
+      }
+    })()
+    console.warn(`⚠️ Data module is conneting to database: ${DATABASE}`)
+    url += `/${DATABASE}`
     connection = await createConnection({
       type: 'postgres',
       url,
@@ -58,4 +65,6 @@ export * from './models/locale'
 export * from './seeds/locales'
 export * from './seeds/places'
 export * from './seeds/places/types'
-export * from './seeds/places/countries'
+export * from './seeds/places/countries/seeds'
+export * from './seeds/places/regions/seeds'
+export * from './seeds/places/cities/seeds'

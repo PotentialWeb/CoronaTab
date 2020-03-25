@@ -1,0 +1,3 @@
+[submodule "modules/data/coronadatascraper"]
+	path = modules/data/coronadatascraper
+	url = https://github.com/lazd/coronadatascraper.git
