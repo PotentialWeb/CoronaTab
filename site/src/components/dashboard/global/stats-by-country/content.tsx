@@ -87,7 +87,15 @@ function Table ({ data, onSortClick }) {
         id: 'name',
         Header: 'Name',
         Cell: ({ cell }) => {
-          return <span className="font-bold truncate">{cell.value}</span>
+          const code = cell.row?.values?.code
+          return (
+            <span className="flex items-center">
+              {
+                code ? <img src={`/flags/${code.toLowerCase()}.svg`} className="h-line mr-2" /> : ''
+              }
+              <span className="font-bold truncate">{cell.value}</span>
+            </span>
+          )
         },
         accessor: 'name',
         sortType: 'alphanumeric',
