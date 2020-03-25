@@ -170,8 +170,8 @@ const defaultColumn = useMemo(
   )
 
   return (
-    <div {...getTableProps()} className="table-flex relative">
-      <div className="sticky top-0 z-20 bg-white border-b-2 border-lighter pt-4">
+    <div {...getTableProps()} className="table-flex relative overflow-x-scroll">
+      <div className="sticky top-0 z-20 bg-white border-b-2 border-lighter pt-4" style={{ minWidth: '780px' }}>
         {headerGroups.map((headerGroup, i) => (
           <div
             {...headerGroup.getHeaderGroupProps()}
@@ -206,7 +206,7 @@ const defaultColumn = useMemo(
           </div>
         ))}
       </div>
-      <div className="tbody z-10" {...getTableBodyProps()}>
+      <div className="tbody z-10" style={{ minWidth: '780px' }} {...getTableBodyProps()}>
         {rows.map(row => {
           prepareRow(row)
           return (
