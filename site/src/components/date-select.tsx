@@ -1,5 +1,5 @@
 import { Component, HTMLAttributes } from 'react'
-import Tippy from '@tippy.js/react'
+import Tippy from '@tippyjs/react'
 import { DayPickerComponent } from './day-picker'
 import CalendarSvg from '../../public/icons/calendar.svg'
 
@@ -63,7 +63,6 @@ export class DateSelectComponent extends Component<Props,State> {
           animation="shift-away"
           theme="light"
           allowHTML={true}
-          boundary="window"
           appendTo={document.body}
           content={
             isOpen

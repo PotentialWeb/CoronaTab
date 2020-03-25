@@ -80,27 +80,47 @@ export class DashboardPlaceComponent extends Component<Props, State> {
   render () {
     const { pageStore } = this.props
     const selectedParentPlace = pageStore.selectedPlaceTree?.length > 0 ? pageStore.selectedPlaceTree[0] : null
+    const selectedChildPlace = pageStore.selectedPlaceTree?.length === 2 ? pageStore.selectedPlaceTree[1] : null
+    const selectedChildChildPlace = pageStore.selectedPlaceTree?.length === 3 ? pageStore.selectedPlaceTree[2] : null
     return (
       <div className="dashboard-place">
         <div className="dashboard-panel dashboard-spacer-y">
-          <div className="dashboard-place-select flex items-center pb-2">
+          <div className="dashboard-place-select flex flex-wrap items-center pb-2">
+            {
+              selectedParentPlace?.alpha2code
+                ? <img src={`/flags/${selectedParentPlace.alpha2code}.svg`} className="h-line-xl my-1 mr-2" />
+                : ''
+            }
             <PlaceSelectComponent
               selectedPlace={selectedParentPlace}
               options={pageStore.places}
               onChange={place => {
                 pageStore.selectedPlaceTree = place ? [place] : []
               }}
+              className="my-1 mr-2"
             />
             {(() => {
               if (!selectedParentPlace?.children?.length) return ''
               return (<PlaceSelectComponent
-                selectedPlace={pageStore.selectedPlaceTree.length === 2 && pageStore.selectedPlaceTree[1]}
+                selectedPlace={selectedChildPlace}
                 options={selectedParentPlace.children}
                 onChange={place => {
                   pageStore.selectedPlaceTree = place ? [selectedParentPlace, place] : [selectedParentPlace]
                 }}
                 inputPlaceholder="Select a region"
-                className="ml-2"
+                className="my-1 mr-2"
+              />)
+            })()}
+            {(() => {
+              if (!selectedChildPlace?.children?.length) return ''
+              return (<PlaceSelectComponent
+                selectedPlace={selectedChildChildPlace}
+                options={selectedChildPlace.children}
+                onChange={place => {
+                  pageStore.selectedPlaceTree = place ? [selectedParentPlace, selectedChildPlace, place] : [selectedParentPlace, selectedChildPlace]
+                }}
+                inputPlaceholder="Select a place"
+                className="my-1 mr-2"
               />)
             })()}
           </div>
@@ -111,71 +131,57 @@ export class DashboardPlaceComponent extends Component<Props, State> {
               className="pl-2"
             />
           </div>
-        </div>
-        {
-          (() => {
-            if (!pageStore.selectedPlace) return ''
 
-            const visualizations = (
-              <div className="dashboard-spacer-y dashboard-place-visualizations flex flex-row flex-wrap min-w-0">
-                <div className="w-full 2xl:w-1/2 dashboard-spacer">
-                  <DashboardCumulativeGraphComponent
-                    data={this.state.data?.cumulativeSeries}
-                  />
+          {
+            (() => {
+              if (!pageStore.selectedPlace) return ''
+
+              const visualizations = (
+                <div className="dashboard-place-visualizations flex flex-row flex-wrap min-w-0">
+                  <div className="w-full xl:w-1/2 4xl:w-1/3 dashboard-spacer">
+                    <DashboardCumulativeGraphComponent
+                      data={this.state.data?.cumulativeSeries}
+                    />
+                  </div>
+                  <div className="w-full xl:w-1/2 4xl:w-1/3 dashboard-spacer">
+                    <DashboardDailyChartComponent
+                      data={this.state.data?.dailySeries}
+                    />
+                  </div>
                 </div>
-                <div className="w-full 2xl:w-1/2 dashboard-spacer">
-                  <DashboardDailyChartComponent
-                    data={this.state.data?.dailySeries}
-                  />
-                </div>
-              </div>
-            )
+              )
 
-            if (this.state.ignoreLoadingStatus) {
-              return visualizations
-            }
+              if (this.state.ignoreLoadingStatus) {
+                return visualizations
+              }
 
-            switch (pageStore.selectedPlaceDataLoadingStatus) {
-              case LoadingStatus.HAS_LOADED:
-                return this.state.data.raw?.length > 0
-                  ? (
-                    <>
-                      <div className="dashboard-spacer-y dashboard-place-visualizations flex flex-row flex-wrap min-w-0">
-                        <div className="w-full 2xl:w-1/2 dashboard-spacer">
-                          <DashboardCumulativeGraphComponent
-                            data={this.state.data?.cumulativeSeries}
-                          />
-                        </div>
-                        <div className="w-full 2xl:w-1/2 dashboard-spacer">
-                          <DashboardDailyChartComponent
-                            data={this.state.data?.dailySeries}
-                          />
-                        </div>
+              switch (pageStore.selectedPlaceDataLoadingStatus) {
+                case LoadingStatus.HAS_LOADED:
+                  return this.state.data.raw?.length > 0
+                    ? visualizations
+                    : (
+                      <div className="my-2 flex items-center">
+                        No data for this place
                       </div>
-                    </>
-                  )
-                  : (
-                    <div className="my-2 flex items-center">
-                      No data for this place
+                    )
+                case LoadingStatus.HAS_ERRORED:
+                  return (
+                    <div>
+                      <button onClick={this.fetchAndSetData}>
+                        Try again
+                      </button>
                     </div>
                   )
-              case LoadingStatus.HAS_ERRORED:
-                return (
-                  <div>
-                    <button onClick={this.fetchAndSetData}>
-                      Try again
-                    </button>
-                  </div>
-                )
-              case LoadingStatus.IS_LOADING:
-                return (
-                  <div className="dashboard-spacer flex items-center justify-center h-24">
-                    <LoadingComponent className="h-8 ml-2" />
-                  </div>
-                )
-            }
-          })()
-        }
+                case LoadingStatus.IS_LOADING:
+                  return (
+                    <div className="dashboard-spacer flex items-center justify-center h-24">
+                      <LoadingComponent className="h-8 ml-2" />
+                    </div>
+                  )
+              }
+            })()
+          }
+        </div>
       </div>
     )
   }

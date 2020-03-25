@@ -2,12 +2,14 @@ import { Component } from 'react'
 import { CartesianGrid, XAxis, YAxis, Tooltip, ResponsiveContainer, BarChart, Legend, Bar } from 'recharts'
 import tailwindConfig from '../../../utils/tailwind'
 import Downshift from 'downshift'
-import Tippy from '@tippy.js/react'
+import Tippy from '@tippyjs/react'
 import { scaleTime } from 'd3-scale'
 import CaretDownSvg from '../../../../public/icons/caret-down.svg'
 import CaretUpSvg from '../../../../public/icons/caret-up.svg'
 import moment from 'moment'
+import numeral from 'numeral'
 import { LoadingComponent } from '../../loading'
+import { SvgRectComponent } from '../../svg-rect'
 
 const {
   theme: {
@@ -103,7 +105,7 @@ export class DashboardDailyChartComponent extends Component<Props, State> {
                 className="select-input-area"
               >
                 <button
-                  className="btn btn-white flex items-center border border-light rounded px-2 py-1 text-sm"
+                  className="btn btn-white flex items-center border border-light rounded-sm px-2 py-1 text-xs"
                   onClick={() => setState({ isOpen: true })}
                 >
                   <span className="mr-2">Last {selectedItem} days</span>
@@ -122,7 +124,7 @@ export class DashboardDailyChartComponent extends Component<Props, State> {
 
     return (
       <div className="dashboard-panel select-none">
-        <div className="flex items-center mb-2">
+        <div className="flex flex-col md:flex-row md:items-center mb-2">
           <div className="flex-1">
             <h2 className="text-lg font-bold">
               Daily
@@ -134,42 +136,47 @@ export class DashboardDailyChartComponent extends Component<Props, State> {
             </div>
           </div>
         </div>
-        <div className="flex flex-col" style={{ height: '360px' }}>
-          {(() => {
-            if (!Array.isArray(this.props.data)) {
+        <div className="relative">
+          <SvgRectComponent ratio="16:9" />
+          <div className="absolute inset-0 flex flex-col">
+            {(() => {
+              if (!this.props?.data?.length) {
+                return (
+                  <div className="flex flex-1 items-center justify-center">
+                    <LoadingComponent className="h-8" />
+                  </div>
+                )
+              }
+              const fromDate = moment().subtract(this.state.timeframe, 'days')
+              const data = this.props.data.filter(({ date }) => moment(date) > fromDate)
               return (
-                <div className="flex flex-1 items-center justify-center">
-                  <LoadingComponent className="h-8" />
-                </div>
+                <ResponsiveContainer>
+                  <BarChart
+                    data={data}
+                  >
+                    <Bar dataKey="cases" name="Cases" fill={brand} isAnimationActive={false} />
+                    <Bar dataKey="deaths" name="Deaths" fill={red} isAnimationActive={false} />
+                    <Bar dataKey="recovered" name="Recovered" fill={green} isAnimationActive={false} />
+                    <CartesianGrid strokeDasharray="3 3" stroke={brandDull} />
+                    <XAxis
+                      allowDataOverflow
+                      tickFormatter={(value: string) => moment(value).format('DD MMM')}
+                      dataKey="date"
+                      stroke={brand}
+                    />
+                    <YAxis
+                      allowDataOverflow
+                      tickFormatter={(value: number) => numeral(value).format(value >= 1000 ? '0.[0]a' : '0,0')}
+                      domain={[0, 'dataMax']}
+                      stroke={brand}
+                    />
+                    <Tooltip cursor={{ fill: 'transparent' }} />
+                    <Legend />
+                  </BarChart>
+                </ResponsiveContainer>
               )
-            }
-            const fromDate = moment().subtract(this.state.timeframe, 'days')
-            const data = this.props.data.filter(({ date }) => moment(date) > fromDate)
-            return (
-              <ResponsiveContainer>
-                <BarChart
-                  data={data}
-                >
-                  <Bar dataKey="cases" name="Cases" fill={brand} isAnimationActive={false} />
-                  <Bar dataKey="deaths" name="Deaths" fill={red} isAnimationActive={false} />
-                  <Bar dataKey="recovered" name="Recovered" fill={green} isAnimationActive={false} />
-                  <CartesianGrid strokeDasharray="3 3" stroke={brandDull} />
-                  <XAxis
-                    allowDataOverflow
-                    dataKey="date"
-                    stroke={brand}
-                  />
-                  <YAxis
-                    allowDataOverflow
-                    domain={[0, 'dataMax']}
-                    stroke={brand}
-                  />
-                  <Tooltip cursor={{ fill: 'transparent' }} />
-                  <Legend />
-                </BarChart>
-              </ResponsiveContainer>
-            )
-          })()}
+            })()}
+          </div>
         </div>
       </div>
     )

@@ -3,6 +3,8 @@ import { DashboardStatsComponent } from './stats'
 import { observer, inject } from 'mobx-react'
 import { DashboardPageStore } from '../../pages/dashboard.store'
 import { DashboardGlobalStatsByCountryModalComponent } from './global/stats-by-country/modal'
+import { DashboardCumulativeGraphComponent } from './visualizations/cumulative-graph'
+import { DashboardDailyChartComponent } from './visualizations/daily-chart'
 
 export interface Props extends HTMLAttributes<HTMLDivElement> {
   pageStore?: DashboardPageStore
@@ -22,6 +24,16 @@ export interface State {
 export class DashboardGlobalComponent extends Component<Props, State> {
   state: State = {
     modalStatus: ModalStatus.IDLE
+  }
+
+  get data () {
+    const { pageStore } = this.props
+    if (!pageStore.rawPlaceData?.earth) return {}
+    return {
+      raw: pageStore.rawPlaceData.earth,
+      cumulativeSeries: DashboardPageStore.parseCumulativeSeriesData(pageStore.rawPlaceData.earth),
+      dailySeries: DashboardPageStore.calcDailySeriesData(pageStore.rawPlaceData.earth)
+    }
   }
 
   render () {
@@ -65,9 +77,21 @@ export class DashboardGlobalComponent extends Component<Props, State> {
             </div>
           </div>
           <DashboardStatsComponent
-            rawData={pageStore.rawPlaceData.earth}
+            rawData={this.data?.raw}
             className="pl-2"
           />
+          <div className="dashboard-global-visualizations flex flex-row flex-wrap min-w-0">
+            <div className="w-full xl:w-1/2 4xl:w-1/3 dashboard-spacer">
+              <DashboardCumulativeGraphComponent
+                data={this.data?.cumulativeSeries}
+              />
+            </div>
+            <div className="w-full xl:w-1/2 4xl:w-1/3 dashboard-spacer">
+              <DashboardDailyChartComponent
+                data={this.data?.dailySeries}
+              />
+            </div>
+          </div>
         </div>
         <DashboardGlobalStatsByCountryModalComponent
           isVisible={modalStatus === ModalStatus.STATS_BY_COUNTRY}

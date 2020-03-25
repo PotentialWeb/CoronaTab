@@ -1,9 +1,9 @@
 .dashboard-stats {
   max-width: 750px;
   > ul {
-    @apply flex my-2;
+    @apply flex flex-wrap my-2;
     > li {
-      @apply flex flex-col flex-1;
+      @apply flex flex-col flex-1 my-1;
       h3 {
         @apply text-sm font-bold leading-none;
       }

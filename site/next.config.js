@@ -33,10 +33,9 @@ module.exports = withPlugins([
         urlPattern: /^https*:\/\/[www.]*coronatab\.app?.*/,
         handler: 'NetworkFirst',
         options: {
-          cacheName: 'offlineCache',
+          cacheName: 'asset-cache',
           expiration: {
-            maxEntries: 200,
-            name: 'asset-cache'
+            maxEntries: 200
           }
         }
       }

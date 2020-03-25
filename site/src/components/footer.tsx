@@ -35,9 +35,9 @@ export class FooterComponent extends Component<Props> {
                   <a className="font-bold underline hover:text-highlight" target="_blank">Terms</a>
                 </Link>
                 {' '}|{' '} */}
-                <Link href="https://hoobu.com/privacy">
-                  <a className="font-bold underline hover:text-highlight" target="_blank">Privacy</a>
-                </Link>
+                <a href="https://hoobu.com/privacy" className="font-bold underline hover:text-highlight" target="_blank">
+                  Privacy
+                </a>
               </div>
             </div>
             <div className="flex-1 flex flex-col lg:flex-row">

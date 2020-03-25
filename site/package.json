@@ -14,10 +14,11 @@
   },
   "dependencies": {
     "@coronatab/shared": "file:../modules/shared",
-    "@tippy.js/react": "^3.1.1",
+    "@tippyjs/react": "^4.0.0-alpha.4",
     "d3-scale": "^3.2.1",
     "downshift": "^5.0.4",
     "isomorphic-unfetch": "^3.0.0",
+    "lodash.capitalize": "^4.2.1",
     "mobx": "^5.15.4",
     "mobx-react": "^6.1.8",
     "moment": "^2.24.0",
@@ -38,6 +39,7 @@
     "recharts": "^1.8.5",
     "sitemap": "^6.1.0",
     "swiper": "^5.3.6",
+    "tippy.js": "^6.1.0",
     "ua-parser-js": "^0.7.21"
   },
   "devDependencies": {
@@ -45,7 +47,7 @@
     "@fullhuman/postcss-purgecss": "^2.1.0",
     "@svgr/webpack": "^5.2.0",
     "@types/d3-scale": "^2.2.0",
-    "@types/moment": "^2.13.0",
+    "@types/lodash.capitalize": "^4.2.6",
     "@types/node": "^13.9.1",
     "@types/numeral": "0.0.26",
     "@types/promise.allsettled": "^1.0.3",

@@ -47,7 +47,7 @@ export class DashboardGlobalStatsByCountryContentComponent extends Component<Pro
       >
         <div
           ref={this.scrollRef}
-          className="h-full bg-white rounded md:mx-6 cursor-default depth-lg overflow-y-scroll scrolling-touch dashboard-spacer-x"
+          className="h-full bg-white rounded md:mx-6 cursor-default depth-lg overflow-scroll scrolling-touch dashboard-spacer-x"
         >
           <Table
             data={this.props.pageStore.places.map(place => ({
@@ -87,7 +87,15 @@ function Table ({ data, onSortClick }) {
         id: 'name',
         Header: 'Name',
         Cell: ({ cell }) => {
-          return <span className="font-bold truncate">{cell.value}</span>
+          const code = cell.row?.values?.code
+          return (
+            <span className="flex items-center">
+              {
+                code ? <img src={`/flags/${code.toLowerCase()}.svg`} className="h-line mr-2" /> : ''
+              }
+              <span className="font-bold truncate">{cell.value}</span>
+            </span>
+          )
         },
         accessor: 'name',
         sortType: 'alphanumeric',
@@ -171,7 +179,7 @@ const defaultColumn = useMemo(
 
   return (
     <div {...getTableProps()} className="table-flex relative">
-      <div className="sticky top-0 z-20 bg-white border-b-2 border-lighter pt-4">
+      <div className="sticky top-0 z-20 bg-white border-b-2 border-lighter pt-4" style={{ minWidth: '780px' }}>
         {headerGroups.map((headerGroup, i) => (
           <div
             {...headerGroup.getHeaderGroupProps()}
@@ -206,7 +214,7 @@ const defaultColumn = useMemo(
           </div>
         ))}
       </div>
-      <div className="tbody z-10" {...getTableBodyProps()}>
+      <div className="tbody z-10" style={{ minWidth: '780px' }} {...getTableBodyProps()}>
         {rows.map(row => {
           prepareRow(row)
           return (
