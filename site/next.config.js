@@ -26,5 +26,20 @@ module.exports = withPlugins([
     })
     return config
   },
-  dontAutoRegisterSw: true
+  dontAutoRegisterSw: true,
+  workboxOpts: {
+    runtimeCaching: [
+      {
+        urlPattern: /^https*:\/\/[www.]*coronatab\.app?.*/,
+        handler: 'NetworkFirst',
+        options: {
+          cacheName: 'offlineCache',
+          expiration: {
+            maxEntries: 200,
+            name: 'asset-cache'
+          }
+        }
+      }
+    ]
+  }
 })
