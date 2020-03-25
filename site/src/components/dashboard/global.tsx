@@ -5,6 +5,7 @@ import { DashboardPageStore } from '../../pages/dashboard.store'
 import { DashboardGlobalStatsByCountryModalComponent } from './global/stats-by-country/modal'
 import { DashboardCumulativeGraphComponent } from './visualizations/cumulative-graph'
 import { DashboardDailyChartComponent } from './visualizations/daily-chart'
+import { DashboardGlobalCountryLeaderboardComponent } from './global/country-leaderboard'
 
 export interface Props extends HTMLAttributes<HTMLDivElement> {
   pageStore?: DashboardPageStore
@@ -81,6 +82,9 @@ export class DashboardGlobalComponent extends Component<Props, State> {
             className="pl-2"
           />
           <div className="dashboard-global-visualizations flex flex-row flex-wrap min-w-0">
+            <div className="w-full xl:w-1/2 4xl:w-1/3 dashboard-spacer">
+              <DashboardGlobalCountryLeaderboardComponent />
+            </div>
             <div className="w-full xl:w-1/2 4xl:w-1/3 dashboard-spacer">
               <DashboardCumulativeGraphComponent
                 data={this.data?.cumulativeSeries}

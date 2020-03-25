@@ -1,7 +1,6 @@
 import { Component } from 'react'
 import { inject, observer } from 'mobx-react'
-import { Place } from '@coronatab/shared'
-import { DashboardPageStore, LoadingStatus } from '../../pages/dashboard.store'
+import { DashboardPageStore, Place, LoadingStatus } from '../../pages/dashboard.store'
 import { PlaceSelectComponent } from '../place-select'
 import { DashboardCumulativeGraphComponent } from './visualizations/cumulative-graph'
 import { DashboardDailyChartComponent } from './visualizations/daily-chart'

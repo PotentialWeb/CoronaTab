@@ -1,14 +1,15 @@
 import { Component, createRef, RefObject } from 'react'
 import Downshift from 'downshift'
-import { Place } from '@coronatab/shared'
+import { Place as PlaceShape } from '@coronatab/shared'
+import { Place } from '../pages/dashboard.store'
 import Tippy from '@tippyjs/react'
 import CaretUpSvg from '../../public/icons/caret-up.svg'
 import CaretDownSvg from '../../public/icons/caret-down.svg'
 import CloseSvg from '../../public/icons/close.svg'
 
 interface Props extends Omit<React.HTMLAttributes<HTMLDivElement>, 'onChange'> {
-  options: Place[]
-  selectedPlace?: Place
+  options: Place[] | PlaceShape[]
+  selectedPlace?: Place | PlaceShape
   inputClassName?: string
   inputPlaceholder?: string
   listClassName?: string
@@ -17,7 +18,7 @@ interface Props extends Omit<React.HTMLAttributes<HTMLDivElement>, 'onChange'> {
 }
 
 interface State {
-  selectedPlace: Place
+  selectedPlace: Place | PlaceShape
 }
 
 export class PlaceSelectComponent extends Component<Props, State> {
