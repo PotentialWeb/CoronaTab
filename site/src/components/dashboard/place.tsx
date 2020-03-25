@@ -138,22 +138,7 @@ export class DashboardPlaceComponent extends Component<Props, State> {
             switch (pageStore.selectedPlaceDataLoadingStatus) {
               case LoadingStatus.HAS_LOADED:
                 return this.state.data.raw?.length > 0
-                  ? (
-                    <>
-                      <div className="dashboard-spacer-y dashboard-place-visualizations flex flex-row flex-wrap min-w-0">
-                        <div className="w-full 2xl:w-1/2 dashboard-spacer">
-                          <DashboardCumulativeGraphComponent
-                            data={this.state.data?.cumulativeSeries}
-                          />
-                        </div>
-                        <div className="w-full 2xl:w-1/2 dashboard-spacer">
-                          <DashboardDailyChartComponent
-                            data={this.state.data?.dailySeries}
-                          />
-                        </div>
-                      </div>
-                    </>
-                  )
+                  ? visualizations
                   : (
                     <div className="my-2 flex items-center">
                       No data for this place

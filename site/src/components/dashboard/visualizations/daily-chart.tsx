@@ -136,7 +136,7 @@ export class DashboardDailyChartComponent extends Component<Props, State> {
         </div>
         <div className="flex flex-col" style={{ height: '360px' }}>
           {(() => {
-            if (!Array.isArray(this.props.data)) {
+            if (!this.props?.data?.length) {
               return (
                 <div className="flex flex-1 items-center justify-center">
                   <LoadingComponent className="h-8" />
