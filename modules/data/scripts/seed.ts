@@ -12,23 +12,23 @@ injectEnvs()
 ;(async () => {
 
   await connect()
-  // await Promise.all([
-  //   Locale.save(Locales),
-  //   PlaceType.save(PlaceTypes)
-  // ])
+  await Promise.all([
+    Locale.save(Locales),
+    PlaceType.save(PlaceTypes)
+  ])
 
-  // await Place.save(SeededPlaces)
+  await Place.save(SeededPlaces)
 
-  // await Place.save(SeededCountries)
+  await Place.save(SeededCountries)
   // await PlacePolygon.save(SeededCountryPolygons)
 
-  // await Place.save(SeededRegions)
+  await Place.save(SeededRegions)
   // await PlacePolygon.save(SeededRegionPolygons)
 
-  // await Place.save(SeededCities)
+  await Place.save(SeededCities)
   // await PlacePolygon.save(SeededCityPolygons)
 
-  await PlaceData.save(SeededPlaceDatas, { chunk: 10_000 })
+  // await PlaceData.save(SeededPlaceDatas, { chunk: 10_000 })
 
   console.log(`Seeded successfuly`)
   connection.close()

@@ -19,6 +19,13 @@ CitiesData.map(city => {
     dataSource: city.dataSource
   })
 
+  if (city.coordinates) {
+    City.location = {
+      type: 'Point',
+      coordinates: city.coordinates
+    }
+  }
+
   if (city.polygon) {
     const CityPolygon = new PlacePolygon({
       placeId: city.id,

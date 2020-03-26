@@ -25431,7 +25431,7 @@ export const RegionsData: PlaceSeedData[] = [{
   locales: {
     en: `Macau`
   },
-  alternativeNames: undefined,
+  alternativeNames: ['Macao'],
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,

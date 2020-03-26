@@ -40,7 +40,6 @@
       "cwd": "${workspaceRoot}",
       "protocol": "inspector",
       "env": {
-        "CORONATAB_ENVIRONMENT": "STAGING"
       }
     },
     {

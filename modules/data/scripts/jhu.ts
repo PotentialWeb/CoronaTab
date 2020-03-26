@@ -141,6 +141,7 @@ export class JHU {
 
     const data: JHUDataRow[] = rawRows
       .filter(r => !['Princess', 'Cruise Ship', 'Recovered'].some(ignore => r.Country_Region?.includes(ignore) || r.Province_State?.includes(ignore)))
+      .filter(r => r.Admin2 !== 'Unassigned')
       .map(row => {
         const countryName = row.Country_Region
         let region = row.Province_State
@@ -415,6 +416,7 @@ export class JHU {
     'Pakistan': 'PK',
     'Palau': 'PW',
     'Palestine': 'PS',
+    'West Bank and Gaza': 'PS',
     'occupied Palestinian territory': 'PS',
     'Panama': 'PA',
     'Papua New Guinea': 'PG',

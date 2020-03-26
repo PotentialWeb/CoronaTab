@@ -169,7 +169,9 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [133.43764789150003,-27.17176685949994],
   polygon: CountryPolygons[`AUS`],
   parentId: 'earth',
-  dataSource: `https://www.dhhs.vic.gov.au/media-hub-coronavirus-disease-covid-19`
+  dataSource: `https://www.dhhs.vic.gov.au/media-hub-coronavirus-disease-covid-19`,
+  hospitalBeds: 97920,
+  icuBeds: 2320
 }, {
   id: `austria`,
   locales: {
@@ -183,7 +185,10 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [13.334746337500093,47.71313527500007],
   polygon: CountryPolygons[`AUT`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBeds: 66_377,
+  hospitalBedOccupancy: 0.738,
+  icuBeds: 1_963
 }, {
   id: `azerbaijan`,
   locales: {
@@ -267,7 +272,10 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [4.4297657472728815,50.49042053300006],
   polygon: CountryPolygons[`BEL`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBedOccupancy: 0.818,
+  hospitalBeds: 66756,
+  icuBeds: 1843
 }, {
   id: `belize`,
   locales: {
@@ -505,7 +513,10 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [-126.56202337499991,54.15716767014678],
   polygon: CountryPolygons[`CAN`],
   parentId: 'earth',
-  dataSource: `https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html`
+  dataSource: `https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html`,
+  hospitalBedOccupancy: 0.916,
+  hospitalBeds: 95110,
+  icuBeds: 5095
 }, {
   id: `cabo-verde`,
   locales: {
@@ -575,7 +586,9 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [-71.3604937374999,-36.567062457499944],
   polygon: CountryPolygons[`CHL`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBedOccupancy: 0.791,
+  hospitalBeds: 40335
 }, {
   id: `china`,
   locales: {
@@ -589,7 +602,9 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [112.26392825753302,31.166405443456426],
   polygon: CountryPolygons[`CHN`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBeds: 6246665,
+  icuBeds: 51816
 }, {
   id: `colombia`,
   locales: {
@@ -603,7 +618,8 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [-72.93652033249992,4.114416812000066],
   polygon: CountryPolygons[`COL`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBeds: 86501
 }, {
   id: `comoros`,
   locales: {
@@ -719,7 +735,7 @@ export const CountriesData: PlaceSeedData[] = [{
 }, {
   id: `czechia`,
   locales: {
-    en: `Czechia`
+    en: `Czech Republic`
   },
   phoneCode: `+420`,
   alpha2code: `CZ`,
@@ -729,7 +745,10 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [15.540038086000095,49.80312398300006],
   polygon: CountryPolygons[`CZE`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBeds: 71_001,
+  icuBeds: 1_242,
+  hospitalBedOccupancy: 0.701
 }, {
   id: `denmark`,
   locales: {
@@ -743,7 +762,9 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [11.628916862500091,56.10986969600006],
   polygon: CountryPolygons[`DNK`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBeds: 15118,
+  icuBeds: 388
 }, {
   id: `djibouti`,
   locales: {
@@ -869,7 +890,10 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [24.943451368500064,58.572233381000025],
   polygon: CountryPolygons[`EST`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBedOccupancy: 0.704,
+  hospitalBeds: 6221,
+  icuBeds: 194
 }, {
   id: `eswatini`,
   locales: {
@@ -967,7 +991,9 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [26.09634464500006,64.9866635165001],
   polygon: CountryPolygons[`FIN`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBeds: 18174,
+  icuBeds: 338
 }, {
   id: `france`,
   locales: {
@@ -981,7 +1007,10 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [-2.9882706369999426,14.862000781359463],
   polygon: CountryPolygons[`FRA`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBedOccupancy: 0.756,
+  hospitalBeds: 390_336,
+  icuBeds: 7_572
 }, {
   id: `french-guiana`,
   locales: {
@@ -1051,7 +1080,10 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [10.473758178500105,51.09924480150008],
   polygon: CountryPolygons[`DEU`],
   parentId: 'earth',
-  dataSource: `https://raw.githubusercontent.com/jgehrcke/covid-19-germany-gae/master/data.csv`
+  dataSource: `https://raw.githubusercontent.com/jgehrcke/covid-19-germany-gae/master/data.csv`,
+  hospitalBeds: 670_272,
+  hospitalBedOccupancy: 0.798,
+  icuBeds: 24_465
 }, {
   id: `ghana`,
   locales: {
@@ -1079,7 +1111,10 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [24.119802279500078,38.322331546000065],
   polygon: CountryPolygons[`GRC`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBedOccupancy: 0.616,
+  hospitalBeds: 43881,
+  icuBeds: 625
 }, {
   id: `greenland`,
   locales: {
@@ -1233,7 +1268,9 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [114.2,22.3],
   polygon: CountryPolygons[`HKG`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBeds: 40484,
+  icuBeds: 532
 }, {
   id: `hungary`,
   locales: {
@@ -1247,7 +1284,10 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [19.485817912000087,47.156127930000025],
   polygon: CountryPolygons[`HUN`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBeds: 67_816,
+  hospitalBedOccupancy: 0.655,
+  icuBeds: 1_333
 }, {
   id: `iceland`,
   locales: {
@@ -1261,7 +1301,9 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [-18.861826138499936,64.96666087450004],
   polygon: CountryPolygons[`ISL`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBeds: 1044,
+  icuBeds: 31
 }, {
   id: `india`,
   locales: {
@@ -1331,7 +1373,10 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [-8.136179165499925,53.46108633000006],
   polygon: CountryPolygons[`IRL`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBedOccupancy: 0.949,
+  hospitalBeds: 14616,
+  icuBeds: 321
 }, {
   id: `israel`,
   locales: {
@@ -1345,7 +1390,9 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [35.06821170350008,31.448389692000035],
   polygon: CountryPolygons[`ISR`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBedOccupancy: 0.933,
+  hospitalBeds: 26140
 }, {
   id: `italy`,
   locales: {
@@ -1359,7 +1406,10 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [12.56007714450007,41.826061709500074],
   polygon: CountryPolygons[`ITA`],
   parentId: 'earth',
-  dataSource: `https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-regioni/dpc-covid19-ita-regioni.csv`
+  dataSource: `https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-regioni/dpc-covid19-ita-regioni.csv`,
+  hospitalBedOccupancy: 0.789,
+  hospitalBeds: 192269,
+  icuBeds: 7558
 }, {
   id: `jamaica`,
   locales: {
@@ -1383,11 +1433,14 @@ export const CountriesData: PlaceSeedData[] = [{
   alpha2code: `JP`,
   alpha3code: `JPN`,
   alternativeNames: undefined,
-  population: 126476461,
+  population: 126_476_461,
   coordinates: [137.65978516150005,37.87307291750005],
   polygon: CountryPolygons[`JPN`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBeds: 1_650_517,
+  hospitalBedOccupancy: 0.755,
+  icuBeds: 9_233
 }, {
   id: `jordan`,
   locales: {
@@ -1513,7 +1566,10 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [24.59194014100008,56.862861023500045],
   polygon: CountryPolygons[`LVA`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBedOccupancy: 0.711,
+  hospitalBeds: 10506,
+  icuBeds: 183
 }, {
   id: `lebanon`,
   locales: {
@@ -1597,7 +1653,10 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [23.911012610500066,55.16278391600002],
   polygon: CountryPolygons[`LTU`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBedOccupancy: 0.732,
+  hospitalBeds: 17_858,
+  icuBeds: 422
 }, {
   id: `luxembourg`,
   locales: {
@@ -1611,7 +1670,10 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [6.1075130615000575,49.80347279900003],
   polygon: CountryPolygons[`LUX`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBedOccupancy: 0.707,
+  hospitalBeds: 2917,
+  icuBeds: 155
 }, {
   id: `macao`,
   locales: {
@@ -1807,7 +1869,10 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [-101.93334401247205,23.629557940500092],
   polygon: CountryPolygons[`MEX`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBedOccupancy: 0.74,
+  hospitalBeds: 177927,
+  icuBeds: 1547
 }, {
   id: `moldova`,
   locales: {
@@ -1961,7 +2026,10 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [5.272002682500101,52.105282697500066],
   polygon: CountryPolygons[`NLD`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBedOccupancy: 0.654,
+  hospitalBeds: 56888,
+  icuBeds: 1097
 }, {
   id: `netherlands-antilles`,
   locales: {
@@ -2003,7 +2071,8 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [172.51685631600003,-40.878065687999936],
   polygon: CountryPolygons[`NZL`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBeds: 13068
 }, {
   id: `nicaragua`,
   locales: {
@@ -2115,7 +2184,10 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [18.013723178000077,69.25525543850006],
   polygon: CountryPolygons[`NOR`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBedOccupancy: 0.807,
+  hospitalBeds: 19516,
+  icuBeds: 434
 }, {
   id: `oman`,
   locales: {
@@ -2255,7 +2327,9 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [19.125478149000088,51.93482900350006],
   polygon: CountryPolygons[`POL`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBeds: 250_545,
+  icuBeds: 2_611
 }, {
   id: `portugal`,
   locales: {
@@ -2269,7 +2343,10 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [-15.94334102749994,37.400416263500055],
   polygon: CountryPolygons[`PRT`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBedOccupancy: 0.668,
+  hospitalBeds: 34567,
+  icuBeds: 428
 }, {
   id: `puerto-rico`,
   locales: {
@@ -2353,7 +2430,9 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [4.263256414560601e-14,61.240742495500065],
   polygon: CountryPolygons[`RUS`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBeds: 1_174_772,
+  icuBeds: 12_113
 }, {
   id: `rwanda`,
   locales: {
@@ -2605,7 +2684,10 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [19.692058553000123,48.67589304650005],
   polygon: CountryPolygons[`SVK`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBedOccupancy: 0.678,
+  hospitalBeds: 31_775,
+  icuBeds: 502
 }, {
   id: `slovenia`,
   locales: {
@@ -2619,7 +2701,10 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [14.940281412500084,46.14379954050001],
   polygon: CountryPolygons[`SVN`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBedOccupancy: 0.695,
+  hospitalBeds: 9355,
+  icuBeds: 133
 }, {
   id: `solomon-islands`,
   locales: {
@@ -2675,7 +2760,9 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [127.85698489700007,35.91235993050006],
   polygon: CountryPolygons[`KOR`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBeds: 629_073,
+  icuBeds: 5_435
 }, {
   id: `south-sudan`,
   locales: {
@@ -2703,7 +2790,10 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [-6.849639452499929,35.73847077050007],
   polygon: CountryPolygons[`ESP`],
   parentId: 'earth',
-  dataSource: `https://opendata.arcgis.com/datasets/48fac2d7de0f43f9af938852e3748845_0.csv`
+  dataSource: `https://opendata.arcgis.com/datasets/48fac2d7de0f43f9af938852e3748845_0.csv`,
+  hospitalBedOccupancy: 0.753,
+  hospitalBeds: 138862,
+  icuBeds: 4535
 }, {
   id: `sri-lanka`,
   locales: {
@@ -2787,7 +2877,9 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [17.635630730000088,62.191185204500094],
   polygon: CountryPolygons[`SWE`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBeds: 22420,
+  icuBeds: 586
 }, {
   id: `switzerland`,
   locales: {
@@ -2801,7 +2893,10 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [8.258983805500094,46.840811259500086],
   polygon: CountryPolygons[`CHE`],
   parentId: 'earth',
-  dataSource: `https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_ZH_total.csv`
+  dataSource: `https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_ZH_total.csv`,
+  hospitalBedOccupancy: 0.82,
+  hospitalBeds: 39205,
+  icuBeds: 952
 }, {
   id: `syrian-arab-republic`,
   locales: {
@@ -2997,7 +3092,10 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [35.425474377000086,38.95576283850008],
   polygon: CountryPolygons[`TUR`],
   parentId: 'earth',
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`,
+  hospitalBedOccupancy: 0.68,
+  hospitalBeds: 236993,
+  icuBeds: 8434
 }, {
   id: `turkmenistan`,
   locales: {
@@ -3095,7 +3193,10 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [-3.192432722499916,55.19161611550004],
   polygon: CountryPolygons[`GBR`],
   parentId: 'earth',
-  dataSource: `https://www.gov.scot/coronavirus-covid-19/`
+  dataSource: `https://www.gov.scot/coronavirus-covid-19/`,
+  hospitalBedOccupancy: 0.843,
+  hospitalBeds: 172430,
+  icuBeds: 4480
 }, {
   id: `united-states-of-america`,
   locales: {
@@ -3109,7 +3210,10 @@ export const CountriesData: PlaceSeedData[] = [{
   coordinates: [-91.212524,39.9787775],
   polygon: CountryPolygons[`USA`],
   parentId: 'earth',
-  dataSource: `https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/`
+  dataSource: `https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/`,
+  hospitalBedOccupancy: 0.64,
+  hospitalBeds: 916877,
+  icuBeds: 114858
 }, {
   id: `uruguay`,
   locales: {
