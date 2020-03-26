@@ -8,10 +8,9 @@ const SeededCityPolygons: PlacePolygon[] = []
 const SeededCities: Place[] = []
 
 CitiesData.map(city => {
-  const id = Strings.dasherize(city.locales.en)
 
   const City = new Place({
-    id,
+    id: city.id,
     locales: city.locales,
     alpha2code: city.alpha2code,
     alpha3code: city.alpha3code,
@@ -22,7 +21,7 @@ CitiesData.map(city => {
 
   if (city.polygon) {
     const CityPolygon = new PlacePolygon({
-      placeId: id,
+      placeId: city.id,
       polygon: city.polygon
     })
     SeededCityPolygons.push(CityPolygon)
