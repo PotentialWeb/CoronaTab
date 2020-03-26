@@ -47,3 +47,9 @@ export const EarthPlace = new Place({
 export const SeededPlaces = [
   EarthPlace
 ]
+
+export {
+  SeededCountries,
+  SeededRegions,
+  SeededCities
+}
