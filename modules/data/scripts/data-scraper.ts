@@ -26,30 +26,29 @@ export class DataScraper {
   }
 
   static get timeseries () {
-    interface TimeseriesEntry extends Exclude<DataScraperRow, 'cases' | 'active' | 'recovered' | 'deaths'> {
+    interface TimeseriesRow extends Exclude<DataScraperRow, 'cases' | 'active' | 'recovered' | 'deaths'> {
       dates: {
         [date: string]: DataScraperValues
       }
     }
-    const timeseries: TimeseriesEntry[] = Object.values(require('../coronadatascraper/dist/timeseries-byLocation.json'))
+    const timeseries: TimeseriesRow[] = Object.values(require('../coronadatascraper/dist/timeseries-byLocation.json'))
 
     const data: { [date: string]: DataScraperRow[] } = {}
 
     timeseries
     .filter(entry => this.filterCruiseShips(entry))
-    .forEach(place => {
-      Object.entries(place.dates)
+    .forEach(row => {
+      Object.entries(row.dates)
       .forEach(([date, values]) => {
         date = moment(date, 'YYYY-M-DD').format(DATE_FORMAT)
         data[date] = data[date] || []
-
-          ;(data[date] as DataScraperRow[]).push({
-            ...place,
-            cases: values.cases ?? 0,
-            deaths: values.deaths ?? 0,
-            recovered: values.recovered ?? 0,
-            active: values.active ?? 0
-          })
+        ;(data[date] as DataScraperRow[]).push({
+          ...this.normalizeRow(row),
+          cases: values.cases ?? 0,
+          deaths: values.deaths ?? 0,
+          recovered: values.recovered ?? 0,
+          active: values.active ?? 0
+        })
       })
     })
 
@@ -60,6 +59,7 @@ export class DataScraper {
     const latest: DataScraperRow[] = require('../coronadatascraper/dist/data.json')
     return latest
       .filter(entry => this.filterCruiseShips(entry))
+      .map(row => this.normalizeRow(row))
   }
 
   static filterCruiseShips (entry: DataScraperRow) {
@@ -68,5 +68,14 @@ export class DataScraper {
     || entry.state?.includes(ignore)
     || entry.county?.includes(ignore)
     )
+  }
+
+  static normalizeRow (row: DataScraperRow) {
+    row = { ...row }
+    if (row.country === 'GBR' && row.state === 'UK') {
+      delete row.state
+    }
+
+    return row
   }
 }

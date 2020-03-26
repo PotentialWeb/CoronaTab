@@ -10,17 +10,24 @@ InjectEnvs()
   const jhuDatas = await JHU.getOldTimeseriesData()
 
   const dates = [
-    ...new Set(
+    ...new Set([
       ...Object.keys(scraperDatas),
       ...Object.keys(jhuDatas)
-    )
+    ])
   ]
+  .filter(date => date >= '2020-03-20') // TODO: Remove this
 
-  await Promise.all(dates.map(date => Data.recalculate({
-    date,
-    jhuData: jhuDatas[date] ?? [],
-    scraperData: scraperDatas[date] ?? []
-  })))
+  for (const date of dates) {
+    console.log(`Recalculating for date: ${date}`)
+    await Data.recalculate({
+      date,
+      jhuData: (jhuDatas[date] ?? [])
+      // .filter(row => row.countryId === 'united-states-of-america')
+      ,
+      scraperData: (scraperDatas[date] ?? [])
+      // .filter(row => row.country === 'USA')
+    })
+  }
 
   console.log('Success!')
   process.exit(0)

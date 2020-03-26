@@ -14,8 +14,11 @@ InjectEnvs()
 
   await Data.recalculate({
     date,
-    scraperData,
-    jhuData
+    scraperData: scraperData
+    // .filter(row => row.country === 'USA')
+    ,
+    jhuData: jhuData
+    // .filter(row => row.countryId === 'united-states-of-america')
   })
 
   console.log('Success!')

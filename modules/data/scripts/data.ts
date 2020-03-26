@@ -1,9 +1,9 @@
+import { FindPlaceSeedDataInDataset, PlaceData, Place, EarthPlace } from '../src'
 import { JHUDataRow, JHU } from './jhu'
 import { DataScraperRow } from './data-scraper'
 import { CountriesData } from '../src/seeds/places/countries/data'
 import { RegionsData } from '../src/seeds/places/regions/data'
 import { CitiesData } from '../src/seeds/places/cities/data'
-import { FindPlaceSeedDataInDataset, PlaceData, Place, EarthPlace } from '../src'
 import * as fs from 'fs-extra'
 import * as path from 'path'
 export class Data {
@@ -20,13 +20,13 @@ export class Data {
     const regions = RegionsData
     const cities = CitiesData
 
-    const getIDsFromEntry = (entry: typeof scraperData[number]) => {
-      let country = FindPlaceSeedDataInDataset({ dataset: countries, term: entry.country })
+    const getPlacesFromRow = (row: DataScraperRow) => {
+      let country = FindPlaceSeedDataInDataset({ dataset: countries, term: row.country })
 
       if (!country) {
         country = FindPlaceSeedDataInDataset({
           dataset: regions,
-          term: entry.country
+          term: row.country
         })
       }
 
@@ -34,35 +34,32 @@ export class Data {
         debugger
       }
 
-      let id = country.id
-      let parentId = country.parentId
-      let jhuEntry = jhuData.find(r => r.countryId === country.id)
+      let place = country
+      let jhuPlace = jhuData.find(r => r.countryId === country.id)
 
       if (country.id === 'united-states-of-america') {
-        if (entry.state) {
+        if (row.state) {
           // US State
           const state = FindPlaceSeedDataInDataset({
             dataset: regions.filter(r => r.parentId === country.id),
-            term: entry.state
+            term: row.state
           })
-          id = state.id
-          parentId = country.id
-          jhuEntry = jhuData.find(r => r.countryId === country.id && r.region?.split(', ').pop() === state.alpha2code)
+          place = state
+          jhuPlace = jhuData.find(r => r.countryId === country.id && r.region?.split(', ').pop() === state.alpha2code)
 
-          if (entry.county) {
+          if (row.county) {
             // US County
             const county = FindPlaceSeedDataInDataset({
               dataset: regions.filter(r => r.parentId === state.id),
-              term: entry.county
+              term: row.county
             })
-            jhuEntry = jhuData.find(r => r.countryId === country.id && r.region?.includes(state.locales.en) && r.city?.includes(entry.county))
-            id = county.id
-            parentId = state.id
+            jhuPlace = jhuData.find(r => r.countryId === country.id && r.region?.includes(state.locales.en) && r.city?.includes(row.county))
+            place = county
           }
         }
       } else {
         // Region
-        const regionName = entry.county || entry.state
+        const regionName = row.county || row.state
 
         if (regionName) {
           const region = FindPlaceSeedDataInDataset({
@@ -70,13 +67,14 @@ export class Data {
             term: regionName
           })
 
-          jhuEntry = jhuData.find(r => r.countryId === country.id && r.region === region.locales.en)
-          id = region.id
-          parentId = country.id
+          jhuPlace = jhuData.find(r => r.countryId === country.id && r.region === region.locales.en)
+          if (!region) debugger
+          place = region
         }
       }
+      if (!place) debugger
 
-      return { id, parentId, jhuEntry }
+      return { place, jhuPlace }
     }
 
     type PlaceSeedData = {
@@ -88,15 +86,14 @@ export class Data {
           deaths: number
           recovered: number
         }
-        parentId?: string
-        jhuEntry?: typeof jhuData[number]
+        jhuPlace?: typeof jhuData[number]
       }
     }
 
     const data: PlaceSeedData = {
-      ...cities.reduce((results, city) => ({ ...results, [city.id]: { parentId: city.parentId, place: city } }), {}),
-      ...regions.reduce((results, region) => ({ ...results, [region.id]: { parentId: region.parentId, place: region } }), {}),
-      ...countries.reduce((results, country) => ({ ...results, [country.id]: { parentId: country.parentId, place: country } }), {}),
+      ...cities.reduce((results, city) => ({ ...results, [city.id]: {  place: city } }), {}),
+      ...regions.reduce((results, region) => ({ ...results, [region.id]: { place: region } }), {}),
+      ...countries.reduce((results, country) => ({ ...results, [country.id]: { place: country } }), {}),
       earth: {
         data: new PlaceData({
           cases: 0,
@@ -110,28 +107,27 @@ export class Data {
     }
 
     for (const entry of scraperData) {
-      const { id, parentId, jhuEntry } = getIDsFromEntry(entry)
-
+      const { place, jhuPlace } = getPlacesFromRow(entry)
+      const { id } = place
       let cases = entry.cases ?? 0
       let deaths = entry.deaths ?? 0
       let recovered = entry.recovered ?? (entry.active && cases - entry.active) ?? 0
 
-      if (jhuEntry) {
-        const jhuValues = jhuEntry
+      if (jhuPlace) {
+        const jhuValues = jhuPlace
         if (cases < jhuValues.cases) cases = jhuValues.cases
         if (deaths < jhuValues.deaths) deaths = jhuValues.deaths
         if (recovered < jhuValues.recovered) recovered = jhuValues.recovered
-        data[id].jhuEntry = { ...jhuEntry }
+        data[id].jhuPlace = { ...jhuPlace }
       }
       data[id].data = new PlaceData({
         cases, deaths, recovered,
         placeId: id,
         date
       })
-      data[id].parentId = parentId
 
-      if (jhuEntry) {
-        const index = jhuData.indexOf(jhuEntry)
+      if (jhuPlace) {
+        const index = jhuData.indexOf(jhuPlace)
         if (index > -1) {
           jhuData.splice(index, 1)
         }
@@ -157,14 +153,16 @@ export class Data {
         placeId: id,
         date
       })
-      data[id].parentId = parentId
     }
 
     let idsToReaggregate: string[] = [
       ...new Set(
         Object.values(data)
-        .filter(({ parentId, place }) => parentId && place.typeId !== 'city' && !place.locales.en.includes('County'))
-        .map(({ parentId }) => parentId)
+        .filter(({ place }) => place.parentId
+          // && place.typeId !== 'city'
+          // && !place.locales.en.includes('County')
+        )
+        .map(({ place }) => place.parentId)
         )
     ]
 
@@ -172,7 +170,7 @@ export class Data {
       const ids = idsToReaggregate
       idsToReaggregate = []
       for (const [id, placeData] of Object.entries(data).filter(([ id ]) => ids.includes(id))) {
-        const children = Object.values(data).filter(({ parentId }) => parentId === id)
+        const children = Object.values(data).filter(({ place }) => place.parentId === id)
         const aggregated = {
           cases: 0,
           deaths: 0,
@@ -185,8 +183,8 @@ export class Data {
         }
         placeData.aggregated = aggregated
         const queueReaggregate = () => {
-          if (placeData.parentId && !idsToReaggregate.includes(placeData.parentId)) {
-            idsToReaggregate.push(placeData.parentId)
+          if (placeData.place.parentId && !idsToReaggregate.includes(placeData.place.parentId)) {
+            idsToReaggregate.push(placeData.place.parentId)
           }
         }
 
@@ -221,23 +219,15 @@ export class Data {
       reaggregate()
     }
 
-    debugger
-
-    const dataPath = path.resolve(__dirname, '../src/seeds/places/data.json')
+    const dataPath = path.resolve(__dirname, '../src/seeds/places/place-data.json')
     const result: PlaceData[] = require(dataPath)
 
     for (const { data: newData } of Object.values(data).filter(({ data }) => data)) {
       const existingEntry = result.find(r => r.placeId === newData.placeId && r.date === date)
       if (existingEntry) {
-        if (existingEntry.cases < newData.cases) {
-          existingEntry.cases = newData.cases
-        }
-        if (existingEntry.recovered < newData.recovered) {
-          existingEntry.recovered = newData.recovered
-        }
-        if (existingEntry.deaths < newData.deaths) {
-          existingEntry.deaths = newData.deaths
-        }
+        existingEntry.cases = newData.cases
+        existingEntry.recovered = newData.recovered
+        existingEntry.deaths = newData.deaths
       } else {
         result.push(newData)
       }
@@ -248,14 +238,14 @@ export class Data {
     ${result
         .filter(data => data && (data.cases || data.deaths || data.recovered))
         .map(data => `{
-      "placeId": "${data.placeId}",
-      "date": "${data.date}",
-      "cases": ${data.cases},
-      "deaths": ${data.deaths},
-      "recovered": ${data.recovered}
-    }`).join(',\n  ')
+    "placeId": "${data.placeId}",
+    "date": "${data.date}",
+    "cases": ${Math.round(data.cases)},
+    "deaths": ${Math.round(data.deaths)},
+    "recovered": ${Math.round(data.recovered)}
+  }`).join(',\n  ')
     }
-  ]
+]
   `)
 
   }
