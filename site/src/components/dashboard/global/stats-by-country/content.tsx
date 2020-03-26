@@ -97,7 +97,7 @@ function Table ({ data, onSortClick }) {
         Header: 'Population',
         Cell: ({ cell }) => FormatNumberCell(cell.value, cell.value > 1000 ? '0.0a' : '0,0'),
         accessor: 'population',
-        sortType: 'basic'
+        sortType: 'alphanumeric'
       }
     ]
   }, {
