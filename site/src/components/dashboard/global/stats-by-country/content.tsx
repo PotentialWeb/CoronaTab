@@ -25,7 +25,8 @@ export class DashboardGlobalStatsByCountryContentComponent extends Component<Pro
   }
 
   onDocumentClick = (e: MouseEvent) => {
-    if (!this.contentRef.current.contains(e.target as Node)) {
+    const { current } = this.contentRef
+    if (current && !current.contains(e.target as Node)) {
       this.props.onClose?.()
     }
   }
