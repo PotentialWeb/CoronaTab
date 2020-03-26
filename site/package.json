@@ -3,14 +3,14 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "PORT=8080 node server.js",
-    "dev:local": "NODE_ENV=development npm run dev",
-    "dev:production": "API_HOST=https://api.coronatab.app npm run dev:local",
+    "dev": "env PORT=8080 node server.js",
+    "dev:local": "env NODE_ENV=development npm run dev",
+    "dev:production": "env API_HOST=https://api.coronatab.app npm run dev:local",
     "build": "next build",
     "build:development": "npm run build",
-    "build:production": "NODE_ENV=production npm run build",
+    "build:production": "env NODE_ENV=production npm run build",
     "deploy": "export $(egrep -v '^#' .env | xargs) && cd ../ && ./site/scripts/deploy.sh",
-    "start": "NODE_ENV=production node server.js"
+    "start": "env NODE_ENV=production node server.js"
   },
   "dependencies": {
     "@coronatab/shared": "file:../modules/shared",

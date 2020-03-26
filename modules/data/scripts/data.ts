@@ -159,8 +159,8 @@ export class Data {
       ...new Set(
         Object.values(data)
         .filter(({ place }) => place.parentId
-          // && place.typeId !== 'city'
-          // && !place.locales.en.includes('County')
+          && place.typeId !== 'city'
+          && !place.locales.en.includes('County')
         )
         .map(({ place }) => place.parentId)
         )
