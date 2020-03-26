@@ -72,19 +72,25 @@ function Table ({ data, onSortClick }) {
         Header: 'Code',
         accessor: 'alpha2code',
         sortType: 'alphanumeric',
-        width: 25
+        width: 20
       },
       {
         id: 'name',
         Header: 'Name',
         Cell: ({ cell }) => {
-          const code = cell.row?.values?.alpha2code
+          const code = cell.row?.values?.code
           return (
-            <span className="flex items-center">
+            <span className="flex items-center min-w-0">
               {
-                code ? <img src={`/flags/${code.toLowerCase()}.svg`} className="h-line mr-2" /> : ''
+                code
+                  ? (
+                    <span className="flex-shrink-0">
+                      <img src={`/flags/${code.toLowerCase()}.svg`} className="h-line mr-2" />
+                    </span>
+                  )
+                  : ''
               }
-              <span className="font-bold truncate">{cell.value}</span>
+              <span className="flex-1 min-w-0 font-bold truncate">{cell.value}</span>
             </span>
           )
         },
