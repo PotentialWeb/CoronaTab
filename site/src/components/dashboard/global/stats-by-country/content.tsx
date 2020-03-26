@@ -50,16 +50,7 @@ export class DashboardGlobalStatsByCountryContentComponent extends Component<Pro
           className="h-full bg-white rounded md:mx-6 cursor-default depth-lg overflow-scroll scrolling-touch dashboard-spacer-x"
         >
           <Table
-            data={this.props.pageStore.places.map(place => ({
-              code: place.alpha2code,
-              name: place.name,
-              cases: place.latestData.cases,
-              deaths: place.latestData.deaths,
-              deathRate: place.latestData.deaths / place.latestData.cases,
-              recovered: place.latestData.recovered,
-              recoveryRate: place.latestData.recovered / place.latestData.cases,
-              population: place.population
-            }))}
+            data={this.props.pageStore.places}
             onSortClick={this.onSortClick}
           />
         </div>
@@ -79,7 +70,7 @@ function Table ({ data, onSortClick }) {
       {
         id: 'code',
         Header: 'Code',
-        accessor: 'code',
+        accessor: 'alpha2code',
         sortType: 'alphanumeric',
         width: 25
       },
@@ -87,7 +78,7 @@ function Table ({ data, onSortClick }) {
         id: 'name',
         Header: 'Name',
         Cell: ({ cell }) => {
-          const code = cell.row?.values?.code
+          const code = cell.row?.values?.alpha2code
           return (
             <span className="flex items-center">
               {
@@ -116,35 +107,35 @@ function Table ({ data, onSortClick }) {
         id: 'cases',
         Header: 'Cases',
         Cell: ({ cell }) => FormatNumberCell(cell.value, '0,0'),
-        accessor: 'cases',
+        accessor: 'latestData.cases',
         sortType: 'basic'
       },
       {
         id: 'deaths',
         Header: 'Deaths',
         Cell: ({ cell }) => FormatNumberCell(cell.value, '0,0'),
-        accessor: 'deaths',
+        accessor: 'latestData.deaths',
         sortType: 'basic'
       },
       {
         id: 'death-rate',
         Header: 'Death Rate',
         Cell: ({ cell }) => FormatNumberCell(cell.value, '0.00%'),
-        accessor: 'deathRate',
+        accessor: 'latestData.deathRate',
         sortType: 'basic'
       },
       {
         id: 'recovered',
         Header: 'Recovered',
         Cell: ({ cell }) => FormatNumberCell(cell.value, '0,0'),
-        accessor: 'recovered',
+        accessor: 'latestData.recovered',
         sortType: 'basic'
       },
       {
         id: 'recovery-rate',
         Header: 'Recoverty Rate',
         Cell: ({ cell }) => FormatNumberCell(cell.value, '0.00%'),
-        accessor: 'recoveryRate',
+        accessor: 'latestData.recoveryRate',
         sortType: 'basic'
       }
     ]

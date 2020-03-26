@@ -183,7 +183,6 @@ export class DashboardCumulativeGraphComponent extends Component<Props, State> {
               arrow={true}
               placement="bottom-start"
               duration={100}
-              trigger="manual"
               onHidden={() => setState({ isOpen: false })}
               interactive
             >
@@ -222,18 +221,15 @@ export class DashboardCumulativeGraphComponent extends Component<Props, State> {
               {
                 selectedStartDate && selectedEndDate
                   ? (
-                    <>
-                      <span className="text-xs font-bold mr-2">Zoomed:</span>
-                      <div className="inline-flex items-center rounded-sm bg-lighter text-xs px-2 py-1 font-bold">
-                        <span>{Date.rangeToString(selectedStartDate, selectedEndDate)}</span>
-                        <button
-                          onClick={this.onZoomOutClick}
-                          className="hover:opacity-50 pl-2 pr-1 py-1"
-                        >
-                          <CloseSvg className="h-line-sm" />
-                        </button>
-                      </div>
-                    </>
+                    <div className="inline-flex items-center rounded-sm bg-lighter text-xs px-2 py-1 font-bold">
+                      <span>{Date.rangeToString(selectedStartDate, selectedEndDate)}</span>
+                      <button
+                        onClick={this.onZoomOutClick}
+                        className="hover:opacity-50 pl-2 pr-1 py-1"
+                      >
+                        <CloseSvg className="h-line-sm" />
+                      </button>
+                    </div>
                   )
                   : <span className="text-xs font-bold">Drag to zoom</span>
               }

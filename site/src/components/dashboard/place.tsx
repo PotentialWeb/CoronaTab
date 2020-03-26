@@ -1,7 +1,6 @@
 import { Component } from 'react'
 import { inject, observer } from 'mobx-react'
-import { Place } from '@coronatab/shared'
-import { DashboardPageStore, LoadingStatus } from '../../pages/dashboard.store'
+import { DashboardPageStore, Place, LoadingStatus } from '../../pages/dashboard.store'
 import { PlaceSelectComponent } from '../place-select'
 import { DashboardCumulativeGraphComponent } from './visualizations/cumulative-graph'
 import { DashboardDailyChartComponent } from './visualizations/daily-chart'
@@ -88,7 +87,7 @@ export class DashboardPlaceComponent extends Component<Props, State> {
           <div className="dashboard-place-select flex flex-wrap items-center pb-2">
             {
               selectedParentPlace?.alpha2code
-                ? <img src={`/flags/${selectedParentPlace.alpha2code}.svg`} className="h-line-xl my-1 mr-2" />
+                ? <img src={`/flags/${selectedParentPlace.alpha2code.toLowerCase()}.svg`} className="h-line-xl my-1 mr-2" />
                 : ''
             }
             <PlaceSelectComponent

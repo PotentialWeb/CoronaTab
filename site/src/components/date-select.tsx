@@ -86,7 +86,6 @@ export class DateSelectComponent extends Component<Props,State> {
           arrow={true}
           placement="bottom-start"
           duration={100}
-          trigger="manual"
           interactive
           onHidden={() => this.setState({ isOpen: false })}
           maxWidth="none"

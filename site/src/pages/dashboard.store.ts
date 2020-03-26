@@ -1,6 +1,6 @@
 import { action, observable, computed } from 'mobx'
 import allSettled from 'promise.allsettled'
-import { Place } from '@coronatab/shared'
+import { Place as PlaceShape } from '@coronatab/shared'
 import { PlaceApi } from '../utils/api/place'
 import { LocalStorage } from '../utils/storage'
 import { HTTP } from '../utils/http'
@@ -13,6 +13,20 @@ export enum LoadingStatus {
 }
 
 export type AdviceObj = { [key: string]: { title: string, description: string } }
+
+export interface Place extends PlaceShape {
+  latestData: {
+    cases: number
+    casesAsPercentageOfPopulation: number
+    deaths: number
+    deathsAsPercentageOfPopulation: number
+    deathRate: number
+    recovered: number
+    recoveryRate: number
+  }
+
+  children: PlaceShape[]
+}
 
 export class DashboardPageStore {
   @observable
@@ -76,7 +90,6 @@ export class DashboardPageStore {
   @action.bound
   async fetchPageData () {
     try {
-
       const [
         placesResult,
         adviceResult,
@@ -145,7 +158,7 @@ export class DashboardPageStore {
 
       if (placesResult.status === 'fulfilled') {
         const { data: places } = placesResult.value
-        this.places = places
+        this.places = places.map((place: PlaceShape) => DashboardPageStore.calcPlaceLatestDataComputedValues(place))
       }
 
       if (globalDataResult.status === 'fulfilled') {
@@ -231,6 +244,19 @@ export class DashboardPageStore {
       return rawData
     } catch (err) {
       this.selectedPlaceDataLoadingStatus = LoadingStatus.HAS_ERRORED
+    }
+  }
+
+  static calcPlaceLatestDataComputedValues (place: PlaceShape): Place {
+    return {
+      ...place,
+      latestData: {
+        ...place.latestData,
+        casesAsPercentageOfPopulation: place.latestData.cases / place.population,
+        deathRate: place.latestData.deaths / place.latestData.cases,
+        deathsAsPercentageOfPopulation: place.latestData.deaths / place.population,
+        recoveryRate: place.latestData.recovered / place.latestData.cases
+      }
     }
   }
 
