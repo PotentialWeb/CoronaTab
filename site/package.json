@@ -16,6 +16,7 @@
     "@coronatab/shared": "file:../modules/shared",
     "@tippyjs/react": "^4.0.0-alpha.4",
     "d3-scale": "^3.2.1",
+    "dotenv": "^8.2.0",
     "downshift": "^5.0.4",
     "isomorphic-unfetch": "^3.0.0",
     "lodash.capitalize": "^4.2.1",
