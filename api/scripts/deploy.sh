@@ -19,3 +19,5 @@ gcloud beta run deploy coronatab-api \
 --allow-unauthenticated \
 --platform=managed \
 --region=europe-west1
+
+./api/node_modules/.bin/ts-node scripts/purge-cache.ts || echo "❌ Failed to purge Cloudflare cache"
