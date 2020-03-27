@@ -1,19 +1,29 @@
 
 process.on('uncaughtException', console.error)
+import { config as injectEnvs } from 'dotenv'
+injectEnvs()
+
 import express from 'express'
 import cors from 'cors'
 import { connect } from '@coronatab/data'
 import { places } from './places'
 import 'express-async-errors'
-import { config as injectEnvs } from 'dotenv'
-injectEnvs()
+import bodyParser from 'body-parser'
 
 ;(async () => {
   await connect()
 
   const api = express()
 
-  api.use(cors())
+  api.use(bodyParser.json())
+
+  api.use(cors({
+    origin: [
+      'http://localhost:8000',
+      'https://staging.coronatab.app',
+      'https://coronatab.app'
+    ]
+  }))
 
   api.get('/', (req, res) => {
     res.send('Hello World!')
@@ -27,6 +37,7 @@ injectEnvs()
 
   api.use((err: Error, req: express.Request, res: express.Response, next: express.NextFunction) => {
     if (process.env.NODE_ENV === 'development') {
+      console.error(err)
       res.status(500).json({
         error: err
       })

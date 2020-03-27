@@ -1,18 +1,19 @@
 
-import { Router, Request as ExpressRequest } from 'express'
+import { Router, Request } from 'express'
 import { Place, PlaceTypeIds, PlaceTypeId, PlaceData } from '@coronatab/data'
 import { LocaleId, Types } from '@coronatab/shared'
-import { Request } from './utils/request'
+import { Requests } from './utils/requests'
 import 'express-async-errors'
 import { data } from './places/data'
+import { types } from './places/types'
 const places = Router()
 
-export interface PlaceRequest extends ExpressRequest {
+export interface PlaceRequest extends Request {
   place: Place
 }
 
 const SerializePlace = (place: Place, { locale }: { locale: LocaleId }) => {
-  place.name = place.locales[locale]
+  place.name = place.locales[locale] || place.locales.en
   if (typeof place.location === 'string') {
     place.location = JSON.parse(place.location)
   }
@@ -45,7 +46,7 @@ type AllowedIncludesArray = typeof AllowedIncludes[number][]
 const AllowedIncludes = ['children'] as const
 
 places.get('/places', async (req, res) => {
-  const locale = Request.getLocale(req)
+  const locale = Requests.getLocale(req)
   let { typeId, include: includes, offset, limit, name }: {
     typeId?: PlaceTypeId,
     include?: AllowedIncludesArray,
@@ -138,6 +139,8 @@ places.get('/places', async (req, res) => {
   })
 })
 
+places.use('/places/types', types)
+
 places.get('/places/closest', async (req, res) => {
   const { typeId, include: includes }: { typeId: PlaceTypeId, include?: AllowedIncludesArray } = req.query
 
@@ -160,7 +163,7 @@ places.get('/places/closest', async (req, res) => {
     })
   }
   if (!lng || !lat) {
-    const lookup = Request.getGeo(req)
+    const lookup = Requests.getGeo(req)
     lng = lookup?.ll?.[1]
     lat = lookup?.ll?.[0]
   }
@@ -217,7 +220,7 @@ places.get('/places/closest', async (req, res) => {
 
   res.json({
     data: places
-      .map(p => SerializePlace(p, { locale: Request.getLocale(req) }))
+      .map(p => SerializePlace(p, { locale: Requests.getLocale(req) }))
   })
 })
 
@@ -257,7 +260,7 @@ places.get('/places/:id', async (req: PlaceRequest, res) => {
   }
 
   res.json({
-    data: SerializePlace(place, { locale: Request.getLocale(req) })
+    data: SerializePlace(place, { locale: Requests.getLocale(req) })
   })
 })
 

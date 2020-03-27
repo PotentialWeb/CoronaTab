@@ -61,6 +61,7 @@ export * from './models/place/polygon'
 export * from './models/place/type'
 export * from './models/place/data'
 export * from './models/locale'
+export * from './models/token'
 
 export * from './seeds/locales'
 export * from './seeds/places'
