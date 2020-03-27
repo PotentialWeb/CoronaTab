@@ -1,0 +1,5 @@
+.ol-control {
+  button {
+    @apply bg-brand !important;
+  }
+}
