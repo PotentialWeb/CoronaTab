@@ -16,7 +16,7 @@ Free & Open source platform for COVID19 data. Dashboard - REST API - Browser Ext
 
 ### Adding Quick Links
 
-* Edit [this file](https://github.com/PotentialWeb/CoronaTab/blob/master/site/public/data/quick-links.json) (`/site/public/data/quick-links.json`), ensuring any new entries have at least an English title entry (`en`).
+* Edit [/site/public/data/quick-links.json](https://github.com/PotentialWeb/CoronaTab/blob/master/site/public/data/quick-links.json) , ensuring any new entries have at least an English title entry (`en`).
 * Submit a PR
 
 ### Add Datapoints
@@ -25,4 +25,4 @@ Coming soon...
 
 ### Contributors
 
-Made with ♥ by the team at [Hoobu](https://hoobu.com).
+Made with ❤️, 🩸, 😭 and 😰 by the team at [Hoobu](https://hoobu.com).
