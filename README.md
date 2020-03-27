@@ -1,7 +1,7 @@
 CoronaTab
 ======
 
-Open source browser extension showing localized Coronavirus statistics, news & advice every time you open a new tab.
+Free & Open source platform for COVID19 data. Dashboard - REST API - Browser Extension - Localised into all languages!
 
 [Website](https://coronatab.app) | [Dashboard](https://coronatab.app/dashboard)
 
