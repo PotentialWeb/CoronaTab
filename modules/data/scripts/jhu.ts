@@ -1,9 +1,9 @@
+import { FindPlaceSeedDataInDataset } from '../src'
 import { File } from '@coronatab/node-utils'
 import CSV from 'csvtojson'
 import moment from 'moment'
 import { DATE_FORMAT } from '@coronatab/shared'
 import { SeededCountries } from '../src/seeds/places/countries/seeds'
-import { SeededRegions, FindPlaceSeedDataInDataset } from '../src'
 import { RegionsData } from '../src/seeds/places/regions/data'
 import { CitiesData } from '../src/seeds/places/cities/data'
 
@@ -141,6 +141,7 @@ export class JHU {
 
     const data: JHUDataRow[] = rawRows
       .filter(r => !['Princess', 'Cruise Ship', 'Recovered'].some(ignore => r.Country_Region?.includes(ignore) || r.Province_State?.includes(ignore)))
+      .filter(r => r.Admin2 !== 'Unassigned')
       .map(row => {
         const countryName = row.Country_Region
         let region = row.Province_State
@@ -193,8 +194,33 @@ export class JHU {
     if (!region || region === country.locales.en) {
       return country
     } else {
+      if (country.id === 'united-states-of-america') {
+        const match = /(.*), ([A-Z]{2})$/g.exec(region)
+        if (match) {
+          // City or County
+          const [_, placeName, stateCode ] = match
+          const state = FindPlaceSeedDataInDataset({
+            dataset: RegionsData.filter(r => r.parentId === country.id),
+            term: stateCode
+          })
+          let regionPlace = FindPlaceSeedDataInDataset({
+            dataset: RegionsData.filter(r => r.parentId === state.id),
+            term: placeName
+          })
+
+          if (!regionPlace) {
+          // Look through cities if maybe there's a hit
+            regionPlace = FindPlaceSeedDataInDataset({
+              dataset: CitiesData.filter(r => r.parentId === state.id),
+              term: placeName
+            })
+          }
+          return regionPlace
+        }
+      }
+
       // Region
-      const regionPlace = FindPlaceSeedDataInDataset({
+      let regionPlace = FindPlaceSeedDataInDataset({
         dataset: RegionsData.filter(r => r.parentId === country.id),
         term: region
       })
@@ -390,6 +416,7 @@ export class JHU {
     'Pakistan': 'PK',
     'Palau': 'PW',
     'Palestine': 'PS',
+    'West Bank and Gaza': 'PS',
     'occupied Palestinian territory': 'PS',
     'Panama': 'PA',
     'Papua New Guinea': 'PG',

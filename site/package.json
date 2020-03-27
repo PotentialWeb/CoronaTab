@@ -3,19 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "PORT=8080 node server.js",
-    "dev:local": "NODE_ENV=development npm run dev",
-    "dev:production": "API_HOST=https://api.coronatab.app npm run dev:local",
+    "dev": "env PORT=8080 node server.js",
+    "dev:local": "env NODE_ENV=development npm run dev",
+    "dev:production": "env API_HOST=https://api.coronatab.app npm run dev:local",
     "build": "next build",
     "build:development": "npm run build",
-    "build:production": "NODE_ENV=production npm run build",
+    "build:production": "env NODE_ENV=production npm run build",
     "deploy": "export $(egrep -v '^#' .env | xargs) && cd ../ && ./site/scripts/deploy.sh",
-    "start": "NODE_ENV=production node server.js"
+    "start": "env NODE_ENV=production node server.js"
   },
   "dependencies": {
     "@coronatab/shared": "file:../modules/shared",
     "@tippyjs/react": "^4.0.0-alpha.4",
     "d3-scale": "^3.2.1",
+    "dotenv": "^8.2.0",
     "downshift": "^5.0.4",
     "isomorphic-unfetch": "^3.0.0",
     "lodash.capitalize": "^4.2.1",
@@ -64,6 +65,7 @@
     "@typescript-eslint/eslint-plugin": "^2.23.0",
     "@typescript-eslint/parser": "^2.23.0",
     "autoprefixer": "^9.7.4",
+    "cloudflare": "^2.7.0",
     "eslint": "^6.8.0",
     "eslint-config-standard": "^14.1.0",
     "eslint-plugin-import": "^2.20.1",
@@ -77,6 +79,7 @@
     "postcss-nested": "^4.2.1",
     "stylelint-config-recommended": "^3.0.0",
     "tailwindcss": "^1.2.0",
+    "ts-node": "^8.8.1",
     "typescript": "^3.8.3"
   },
   "browserslist": [

@@ -56,7 +56,8 @@ const leaderboardTypes: LeaderboardType[] = [{
   id: LeaderboardTypeId.HIGHEST_DEATH_RATE,
   label: 'Highest Death Rate',
   accessor: 'latestData.deathRate',
-  formatter: (value: number) => numeral(value).format('0.000%')
+  formatter: (value: number) => numeral(value).format('0.000%'),
+  filter: (place: Place) => isFinite(place.latestData.deathRate)
 }, {
   id: LeaderboardTypeId.LOWEST_DEATH_RATE,
   label: 'Lowest Death Rate',
@@ -68,7 +69,8 @@ const leaderboardTypes: LeaderboardType[] = [{
   id: LeaderboardTypeId.HIGHEST_RECOVERY_RATE,
   label: 'Highest Recovery Rate',
   accessor: 'latestData.recoveryRate',
-  formatter: (value: number) => numeral(value).format('0.000%')
+  formatter: (value: number) => numeral(value).format('0.000%'),
+  filter: (place: Place) => isFinite(place.latestData.deathRate)
 }, {
   id: LeaderboardTypeId.LOWEST_RECOVERY_RATE,
   label: 'Lowest Recovery Rate',

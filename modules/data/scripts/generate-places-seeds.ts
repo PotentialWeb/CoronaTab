@@ -218,7 +218,10 @@ export const CountriesData: PlaceSeedData[] = [${countries.map(({
   population,
   coordinates,
   alternativeNames,
-  dataSource
+  dataSource,
+  hospitalBedOccupancy,
+  hospitalBeds,
+  icuBeds
  }) => `{
   id: \`${id}\`,
   locales: {
@@ -229,6 +232,9 @@ export const CountriesData: PlaceSeedData[] = [${countries.map(({
   alpha3code: ${alpha3code && `\`${alpha3code}\``},
   alternativeNames: ${alternativeNames && `[${alternativeNames.map(name => `\`${name}\``).join(', ')}]`},
   population: ${population},
+  hospitalBedOccupancy: ${hospitalBedOccupancy},
+  hospitalBeds: ${hospitalBeds},
+  icuBeds: ${icuBeds},
   coordinates: ${JSON.stringify(coordinates)},
   polygon: CountryPolygons[\`${alpha3code}\`],
   parentId: 'earth',

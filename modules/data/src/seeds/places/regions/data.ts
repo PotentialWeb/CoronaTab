@@ -2079,7 +2079,7 @@ export const RegionsData: PlaceSeedData[] = [{
   locales: {
     en: `District of Columbia`
   },
-  alternativeNames: undefined,
+  alternativeNames: ['Washington, D.C.'],
   phoneCode: undefined,
   alpha2code: `DC`,
   alpha3code: undefined,
@@ -25431,7 +25431,7 @@ export const RegionsData: PlaceSeedData[] = [{
   locales: {
     en: `Macau`
   },
-  alternativeNames: undefined,
+  alternativeNames: ['Macao'],
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
@@ -28049,7 +28049,7 @@ export const RegionsData: PlaceSeedData[] = [{
   locales: {
     en: `Centre Val de Loire`
   },
-  alternativeNames: undefined,
+  alternativeNames: [`Centre-Val de Loire`],
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
@@ -49791,7 +49791,7 @@ export const RegionsData: PlaceSeedData[] = [{
   locales: {
     en: `Virgin Islands`
   },
-  alternativeNames: undefined,
+  alternativeNames: [`United States Virgin Islands`, `US Virgin Islands`, `U.S. Virgin Islands`],
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,

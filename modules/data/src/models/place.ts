@@ -37,6 +37,15 @@ export class Place extends Model<Place> {
   @Column({ nullable: true })
   alpha3code?: string
 
+  @Column('int4', { nullable: true })
+  hospitalBedOccupancy?: number
+
+  @Column('int4', { nullable: true })
+  hospitalBeds?: number
+
+  @Column('int4', { nullable: true })
+  icuBeds?: number
+
   @Column({ nullable: true })
   dataSource?: string
 

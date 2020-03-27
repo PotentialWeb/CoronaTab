@@ -20,6 +20,12 @@ RegionsData.map(region => {
     dataSource: region.dataSource
   })
 
+  if (region.coordinates) {
+    Region.location = {
+      type: 'Point',
+      coordinates: region.coordinates
+    }
+  }
   if (region.polygon) {
     const RegionPolygon = new PlacePolygon({
       placeId: id,
