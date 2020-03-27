@@ -7,7 +7,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Adams`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21,7 +20,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Adams`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35,7 +33,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Alamosa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -49,7 +46,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Albemarle`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -63,7 +59,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Alcorn`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -77,7 +72,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Aleutians West`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -91,7 +85,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Alexander`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -105,7 +98,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Alexander`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -119,7 +111,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Alexandria`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -133,7 +124,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Alfalfa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -147,7 +137,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Alger`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -161,7 +150,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Allamakee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -175,7 +163,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Allegan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -189,7 +176,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Alleghany`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -203,7 +189,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Alleghany`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -217,7 +202,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Allegheny`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -231,7 +215,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Allen`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -245,7 +228,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Allen`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -259,7 +241,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Allen`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -273,7 +254,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Allendale`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -287,7 +267,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Alpena`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -301,7 +280,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Alpine`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -315,7 +293,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Amador`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -329,7 +306,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Amelia`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -343,7 +319,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Amherst`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -357,7 +332,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Amite`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -371,7 +345,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Anchorage`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -385,7 +358,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Anderson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -399,7 +371,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Anderson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -413,7 +384,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Anderson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -427,7 +397,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Andrew`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -441,7 +410,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Andrews`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -455,7 +423,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Angelina`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -469,7 +436,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Anne Arundel`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -483,7 +449,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Anoka`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -497,7 +462,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Anson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -511,7 +475,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Antelope`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -525,7 +488,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Antrim`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -539,7 +501,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Appanoose`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -553,7 +514,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Appomattox`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -567,7 +527,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Aransas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -581,7 +540,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Arapahoe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -595,7 +553,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Archer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -609,7 +566,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Archuleta`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -623,7 +579,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Arenac`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -637,7 +592,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Arlington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -651,7 +605,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Armstrong`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -665,7 +618,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Armstrong`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -679,7 +631,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Aroostook`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -693,7 +644,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Arthur`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -707,7 +657,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ascension`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -721,7 +670,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ashe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -735,7 +683,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ashland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -749,7 +696,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ashland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -763,7 +709,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ashley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -777,7 +722,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ashtabula`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -791,7 +735,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Asotin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -805,7 +748,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Assumption`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -819,7 +761,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Atascosa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -833,7 +774,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Atchison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -847,7 +787,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Atchison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -861,7 +800,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Athens`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -875,7 +813,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Atoka`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -889,7 +826,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Attala`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -903,7 +839,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Audrain`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -917,7 +852,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Audubon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -931,7 +865,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Auglaize`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -945,7 +878,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Augusta`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -959,7 +891,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Austin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -973,7 +904,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Avery`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -987,7 +917,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Avoyelles`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1001,7 +930,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Baca`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1015,7 +943,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bacon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1029,7 +956,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bailey`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1043,7 +969,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Baker`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1057,7 +982,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Baker`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1071,7 +995,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Baldwin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1085,7 +1008,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Baldwin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1099,7 +1021,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ballard`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1113,7 +1034,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Baltimore`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1127,7 +1047,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Baltimore City`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1141,7 +1060,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bamberg`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1155,7 +1073,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bandera`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1169,7 +1086,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Banks`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1183,7 +1099,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Banner`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1197,7 +1112,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bannock`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1211,7 +1125,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Baraga`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1225,7 +1138,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Barber`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1239,7 +1151,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Barbour`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1253,7 +1164,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Barnes`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1267,7 +1177,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Barnwell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1281,7 +1190,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Barren`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1295,7 +1203,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Barron`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1309,7 +1216,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Barrow`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1323,7 +1229,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Barry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1337,7 +1242,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Barry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1351,7 +1255,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bartholomew`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1365,7 +1268,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Barton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1379,7 +1281,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Barton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1393,7 +1294,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bartow`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1407,7 +1307,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bastrop`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1421,7 +1320,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bates`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1435,7 +1333,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bath`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1449,7 +1346,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bath`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1463,7 +1359,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Baxter`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1477,7 +1372,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bay`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1491,7 +1385,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bay`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1505,7 +1398,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bayfield`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1519,7 +1411,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Baylor`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1533,7 +1424,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Beadle`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1547,7 +1437,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bear Lake`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1561,7 +1450,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Beaufort`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1575,7 +1463,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Beaufort`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1589,7 +1476,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Beauregard`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1603,7 +1489,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Beaver`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1617,7 +1502,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Beaver`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1631,7 +1515,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Becker`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1645,7 +1528,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Beckham`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1659,7 +1541,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bedford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1673,7 +1554,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bedford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1687,7 +1567,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bedford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1701,7 +1580,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1715,7 +1593,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1729,7 +1606,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1743,7 +1619,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Belmont`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1757,7 +1632,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Beltrami`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1771,7 +1645,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ben Hill`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1785,7 +1658,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Benewah`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1799,7 +1671,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bennett`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1813,7 +1684,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bennington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1827,7 +1697,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Benson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1841,7 +1710,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bent`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1855,7 +1723,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Benton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1869,7 +1736,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Benton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1883,7 +1749,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Benton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1897,7 +1762,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Benton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1911,7 +1775,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Benton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1925,7 +1788,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Benton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1939,7 +1801,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Benton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1953,7 +1814,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Benton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1967,7 +1827,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Benton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1981,7 +1840,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Benzie`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -1995,7 +1853,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bergen`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2009,7 +1866,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Berkeley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2023,7 +1879,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Berkeley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2037,7 +1892,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Berks`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2051,7 +1905,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Berkshire`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2065,7 +1918,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Berrien`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2079,7 +1931,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Berrien`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2093,7 +1944,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bertie`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2107,7 +1957,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bethel`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2121,7 +1970,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bexar`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2135,7 +1983,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bibb`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2149,7 +1996,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bibb`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2163,7 +2009,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bienville`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2177,7 +2022,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Big Horn`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2191,7 +2035,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Big Horn`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2205,7 +2048,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Big Stone`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2219,7 +2061,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Billings`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2233,7 +2074,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bingham`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2247,7 +2087,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Black Hawk`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2261,7 +2100,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Blackford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2275,7 +2113,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bladen`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2289,7 +2126,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Blaine`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2303,7 +2139,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Blaine`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2317,7 +2152,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Blaine`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2331,7 +2165,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Blaine`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2345,7 +2178,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Blair`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2359,7 +2191,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Blanco`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2373,7 +2204,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2387,7 +2217,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bleckley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2401,7 +2230,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bledsoe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2415,7 +2243,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Blount`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2429,7 +2256,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Blount`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2443,7 +2269,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Blue Earth`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2457,7 +2282,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Boise`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2471,7 +2295,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bolivar`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2485,7 +2308,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bollinger`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2499,7 +2321,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bon Homme`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2513,7 +2334,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bond`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2527,7 +2347,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bonner`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2541,7 +2360,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bonneville`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2555,7 +2373,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Boone`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2569,7 +2386,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Boone`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2583,7 +2399,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Boone`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2597,7 +2412,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Boone`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2611,7 +2425,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Boone`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2625,7 +2438,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Boone`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2639,7 +2451,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Boone`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2653,7 +2464,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Boone`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2667,7 +2477,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Borden`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2681,7 +2490,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bosque`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2695,7 +2503,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bossier`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2709,7 +2516,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Botetourt`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2723,7 +2529,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bottineau`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2737,7 +2542,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Boulder`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2751,7 +2555,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Boundary`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2765,7 +2568,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bourbon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2779,7 +2581,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bourbon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2793,7 +2594,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bowie`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2807,7 +2607,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bowman`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2821,7 +2620,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Box Butte`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2835,7 +2633,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Box Elder`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2849,7 +2646,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Boyd`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2863,7 +2659,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Boyd`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2877,7 +2672,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Boyle`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2891,7 +2685,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bracken`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2905,7 +2698,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bradford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2919,7 +2711,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bradford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2933,7 +2724,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bradley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2947,7 +2737,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bradley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2961,7 +2750,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Branch`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2975,7 +2763,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Brantley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -2989,7 +2776,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Braxton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3003,7 +2789,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Brazoria`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3017,7 +2802,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Brazos`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3031,7 +2815,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Breathitt`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3045,7 +2828,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Breckinridge`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3059,7 +2841,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bremer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3073,7 +2854,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Brevard`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3087,7 +2867,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Brewster`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3101,7 +2880,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Briscoe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3115,7 +2893,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bristol`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3129,7 +2906,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bristol`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3143,7 +2919,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bristol Bay`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3157,7 +2932,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Broadwater`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3171,7 +2945,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bronx`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3185,7 +2958,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Brooke`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3199,7 +2971,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Brookings`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3213,7 +2984,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Brooks`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3227,7 +2997,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Brooks`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3241,7 +3010,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Broome`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3255,7 +3023,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Broomfield`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3269,7 +3036,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Broward`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3283,7 +3049,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Brown`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3297,7 +3062,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Brown`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3311,7 +3075,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Brown`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3325,7 +3088,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Brown`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3339,7 +3101,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Brown`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3353,7 +3114,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Brown`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3367,7 +3127,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Brown`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3381,7 +3140,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Brown`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3395,7 +3153,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Brown`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3409,7 +3166,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Brule`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3423,7 +3179,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Brunswick`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3437,7 +3192,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Brunswick`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3451,7 +3205,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bryan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3465,7 +3218,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bryan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3479,7 +3231,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Buchanan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3493,7 +3244,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Buchanan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3507,7 +3257,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Buchanan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3521,7 +3270,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Buckingham`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3535,7 +3283,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bucks`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3549,7 +3296,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Buena Vista`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3563,7 +3309,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Buena Vista`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3577,7 +3322,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Buffalo`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3591,7 +3335,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Buffalo`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3605,7 +3348,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Buffalo`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3619,7 +3361,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bullitt`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3633,7 +3374,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bulloch`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3647,7 +3387,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bullock`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3661,7 +3400,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Buncombe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3675,7 +3413,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Bureau`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3689,7 +3426,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Burke`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3703,7 +3439,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Burke`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3717,7 +3452,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Burke`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3731,7 +3465,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Burleigh`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3745,7 +3478,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Burleson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3759,7 +3491,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Burlington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3773,7 +3504,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Burnet`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3787,7 +3517,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Burnett`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3801,7 +3530,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Burt`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3815,7 +3543,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Butler`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3829,7 +3556,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Butler`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3843,7 +3569,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Butler`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3857,7 +3582,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Butler`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3871,7 +3595,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Butler`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3885,7 +3608,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Butler`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3899,7 +3621,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Butler`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3913,7 +3634,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Butler`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3927,7 +3647,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Butte`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3941,7 +3660,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Butte`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3955,7 +3673,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Butte`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3969,7 +3686,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Butts`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3983,7 +3699,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cabarrus`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -3997,7 +3712,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cabell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4011,7 +3725,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cache`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4025,7 +3738,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Caddo`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4039,7 +3751,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Caddo`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4053,7 +3764,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Calaveras`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4067,7 +3777,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Calcasieu`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4081,7 +3790,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Caldwell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4095,7 +3803,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Caldwell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4109,7 +3816,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Caldwell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4123,7 +3829,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Caldwell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4137,7 +3842,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Caldwell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4151,7 +3855,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Caledonia`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4165,7 +3868,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Calhoun`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4179,7 +3881,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Calhoun`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4193,7 +3894,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Calhoun`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4207,7 +3907,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Calhoun`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4221,7 +3920,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Calhoun`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4235,7 +3933,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Calhoun`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4249,7 +3946,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Calhoun`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4263,7 +3959,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Calhoun`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4277,7 +3972,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Calhoun`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4291,7 +3985,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Calhoun`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4305,7 +3998,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Calhoun`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4319,7 +4011,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Callahan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4333,7 +4024,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Callaway`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4347,7 +4037,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Calloway`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4361,7 +4050,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Calumet`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4375,7 +4063,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Calvert`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4389,7 +4076,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Camas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4403,7 +4089,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cambria`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4417,7 +4102,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Camden`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4431,7 +4115,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Camden`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4445,7 +4128,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Camden`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4459,7 +4141,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Camden`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4473,7 +4154,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cameron`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4487,7 +4167,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cameron`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4501,7 +4180,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cameron`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4515,7 +4193,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Camp`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4529,7 +4206,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Campbell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4543,7 +4219,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Campbell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4557,7 +4232,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Campbell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4571,7 +4245,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Campbell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4585,7 +4258,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Campbell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4599,7 +4271,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Canadian`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4613,7 +4284,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Candler`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4627,7 +4297,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cannon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4641,7 +4310,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Canyon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4655,7 +4323,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cape Girardeau`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4669,7 +4336,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cape May`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4683,7 +4349,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Carbon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4697,7 +4362,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Carbon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4711,7 +4375,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Carbon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4725,7 +4388,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Carbon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4739,7 +4401,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Caribou`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4753,7 +4414,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Carlisle`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4767,7 +4427,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Carlton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4781,7 +4440,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Caroline`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4795,7 +4453,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Caroline`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4809,7 +4466,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Carroll`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4823,7 +4479,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Carroll`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4837,7 +4492,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Carroll`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4851,7 +4505,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Carroll`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4865,7 +4518,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Carroll`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4879,7 +4531,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Carroll`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4893,7 +4544,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Carroll`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4907,7 +4557,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Carroll`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4921,7 +4570,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Carroll`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4935,7 +4583,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Carroll`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4949,7 +4596,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Carroll`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4963,7 +4609,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Carroll`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4977,7 +4622,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Carroll`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -4991,7 +4635,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Carson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5005,7 +4648,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Carter`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5019,7 +4661,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Carter`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5033,7 +4674,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Carter`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5047,7 +4687,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Carter`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5061,7 +4700,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Carter`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5075,7 +4713,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Carteret`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5089,7 +4726,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Carver`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5103,7 +4739,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cascade`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5117,7 +4752,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Casey`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5131,7 +4765,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cass`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5145,7 +4778,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cass`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5159,7 +4791,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cass`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5173,7 +4804,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cass`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5187,7 +4817,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cass`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5201,7 +4830,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cass`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5215,7 +4843,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cass`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5229,7 +4856,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cass`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5243,7 +4869,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cass`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5257,7 +4882,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cassia`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5271,7 +4895,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Castro`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5285,7 +4908,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Caswell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5299,7 +4921,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Catahoula`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5313,7 +4934,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Catawba`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5327,7 +4947,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Catoosa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5341,7 +4960,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Catron`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5355,7 +4973,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cattaraugus`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5369,7 +4986,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cavalier`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5383,7 +4999,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cayuga`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5397,7 +5012,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cecil`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5411,7 +5025,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cedar`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5425,7 +5038,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cedar`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5439,7 +5051,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cedar`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5453,7 +5064,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Centre`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5467,7 +5077,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cerro Gordo`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5481,7 +5090,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chaffee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5495,7 +5103,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chambers`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5509,7 +5116,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chambers`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5523,7 +5129,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Champaign`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5537,7 +5142,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Champaign`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5551,7 +5155,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chariton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5565,7 +5168,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Charles`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5579,7 +5181,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Charles City`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5593,7 +5194,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Charles Mix`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5607,7 +5207,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Charleston`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5621,7 +5220,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Charlevoix`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5635,7 +5233,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Charlotte`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5649,7 +5246,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Charlotte`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5663,7 +5259,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Charlottesville`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5677,7 +5272,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Charlton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5691,7 +5285,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chase`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5705,7 +5298,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chase`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5719,7 +5311,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chatham`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5733,7 +5324,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chatham`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5747,7 +5337,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chattahoochee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5761,7 +5350,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chattooga`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5775,7 +5363,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chautauqua`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5789,7 +5376,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chautauqua`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5803,7 +5389,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chaves`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5817,7 +5402,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cheatham`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5831,7 +5415,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cheboygan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5845,7 +5428,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chelan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5859,7 +5441,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chemung`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5873,7 +5454,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chenango`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5887,7 +5467,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cherokee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5901,7 +5480,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cherokee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5915,7 +5493,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cherokee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5929,7 +5506,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cherokee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5943,7 +5519,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cherokee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5957,7 +5532,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cherokee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5971,7 +5545,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cherokee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5985,7 +5558,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cherokee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -5999,7 +5571,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cherry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6013,7 +5584,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chesapeake`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6027,7 +5597,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cheshire`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6041,7 +5610,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chester`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6055,7 +5623,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chester`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6069,7 +5636,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chester`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6083,7 +5649,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chesterfield`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6097,7 +5662,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chesterfield`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6111,7 +5675,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cheyenne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6125,7 +5688,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cheyenne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6139,7 +5701,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cheyenne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6153,7 +5714,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chickasaw`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6167,7 +5727,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chickasaw`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6181,7 +5740,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chicot`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6195,7 +5753,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Childress`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6209,7 +5766,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chilton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6223,7 +5779,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chippewa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6237,7 +5792,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chippewa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6251,7 +5805,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chippewa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6265,7 +5818,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chisago`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6279,7 +5831,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chittenden`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6293,7 +5844,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Choctaw`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6307,7 +5857,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Choctaw`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6321,7 +5870,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Choctaw`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6335,7 +5883,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chouteau`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6349,7 +5896,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Chowan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6363,7 +5909,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Christian`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6377,7 +5922,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Christian`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6391,7 +5935,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Christian`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6405,7 +5948,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Churchill`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6419,7 +5961,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cibola`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6433,7 +5974,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cimarron`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6447,7 +5987,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Citrus`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6461,7 +6000,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clackamas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6475,7 +6013,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Claiborne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6489,7 +6026,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Claiborne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6503,7 +6039,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Claiborne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6517,7 +6052,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clallam`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6531,7 +6065,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clare`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6545,7 +6078,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clarendon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6559,7 +6091,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clarion`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6573,7 +6104,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clark`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6587,7 +6117,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clark`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6601,7 +6130,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clark`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6615,7 +6143,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clark`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6629,7 +6156,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clark`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6643,7 +6169,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clark`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6657,7 +6182,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clark`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6671,7 +6195,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clark`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6685,7 +6208,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clark`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6699,7 +6221,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clark`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6713,7 +6234,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clark`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6727,7 +6247,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clark`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6741,7 +6260,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clarke`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6755,7 +6273,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clarke`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6769,7 +6286,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clarke`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6783,7 +6299,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clarke`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6797,7 +6312,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clarke`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6811,7 +6325,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clatsop`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6825,7 +6338,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clay`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6839,7 +6351,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clay`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6853,7 +6364,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clay`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6867,7 +6377,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clay`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6881,7 +6390,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clay`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6895,7 +6403,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clay`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6909,7 +6416,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clay`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6923,7 +6429,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clay`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6937,7 +6442,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clay`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6951,7 +6455,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clay`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6965,7 +6468,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clay`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6979,7 +6481,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clay`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -6993,7 +6494,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clay`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7007,7 +6507,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clay`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7021,7 +6520,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clay`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7035,7 +6533,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clay`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7049,7 +6546,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clay`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7063,7 +6559,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clay`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7077,7 +6572,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clayton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7091,7 +6585,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clayton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7105,7 +6598,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clear Creek`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7119,7 +6611,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clearfield`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7133,7 +6624,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clearwater`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7147,7 +6637,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clearwater`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7161,7 +6650,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cleburne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7175,7 +6663,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cleburne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7189,7 +6676,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clermont`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7203,7 +6689,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cleveland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7217,7 +6702,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cleveland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7231,7 +6715,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cleveland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7245,7 +6728,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clinch`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7259,7 +6741,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clinton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7273,7 +6754,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clinton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7287,7 +6767,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clinton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7301,7 +6780,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clinton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7315,7 +6793,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clinton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7329,7 +6806,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clinton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7343,7 +6819,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clinton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7357,7 +6832,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clinton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7371,7 +6845,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Clinton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7385,7 +6858,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cloud`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7399,7 +6871,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Coahoma`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7413,7 +6884,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Coal`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7427,7 +6897,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cobb`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7441,7 +6910,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cochise`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7455,7 +6923,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cochran`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7469,7 +6936,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cocke`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7483,7 +6949,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Coconino`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7497,7 +6962,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Codington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7511,7 +6975,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Coffee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7525,7 +6988,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Coffee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7539,7 +7001,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Coffee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7553,7 +7014,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Coffey`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7567,7 +7027,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Coke`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7581,7 +7040,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Colbert`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7595,7 +7053,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cole`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7609,7 +7066,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Coleman`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7623,7 +7079,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Coles`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7637,7 +7092,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Colfax`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7651,7 +7105,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Colfax`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7665,7 +7118,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Colleton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7679,7 +7131,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Collier`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7693,7 +7144,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Collin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7707,7 +7157,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Collingsworth`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7721,7 +7170,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Colonial Heights`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7735,7 +7183,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Colorado`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7749,7 +7196,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Colquitt`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7763,7 +7209,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Columbia`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7777,7 +7222,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Columbia`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7791,7 +7235,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Columbia`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7805,7 +7248,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Columbia`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7819,7 +7261,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Columbia`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7833,7 +7274,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Columbia`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7847,7 +7287,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Columbia`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7861,7 +7300,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Columbia`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7875,7 +7313,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Columbiana`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7889,7 +7326,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Columbus`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7903,7 +7339,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Colusa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7917,7 +7352,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Comal`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7931,7 +7365,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Comanche`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7945,7 +7378,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Comanche`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7959,7 +7391,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Comanche`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7973,7 +7404,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Concho`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -7987,7 +7417,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Concordia`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8001,7 +7430,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Conecuh`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8015,7 +7443,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Conejos`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8029,7 +7456,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Contra Costa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8043,7 +7469,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Converse`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8057,7 +7482,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Conway`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8071,7 +7495,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cook`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8085,7 +7508,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cook`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8099,7 +7521,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cook`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8113,7 +7534,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cooke`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8127,7 +7547,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cooper`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8141,7 +7560,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Coos`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8155,7 +7573,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Coos`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8169,7 +7586,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Coosa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8183,7 +7599,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Copiah`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8197,7 +7612,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Corson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8211,7 +7625,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cortland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8225,7 +7638,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Coryell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8239,7 +7651,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Coshocton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8253,7 +7664,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Costilla`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8267,7 +7677,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cottle`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8281,7 +7690,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cotton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8295,7 +7703,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cottonwood`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8309,7 +7716,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Covington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8323,7 +7729,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Covington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8337,7 +7742,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Covington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8351,7 +7755,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Coweta`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8365,7 +7768,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cowley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8379,7 +7781,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cowlitz`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8393,7 +7794,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Craig`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8407,7 +7807,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Craig`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8421,7 +7820,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Craighead`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8435,7 +7833,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Crane`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8449,7 +7846,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Craven`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8463,7 +7859,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Crawford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8477,7 +7872,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Crawford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8491,7 +7885,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Crawford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8505,7 +7898,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Crawford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8519,7 +7911,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Crawford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8533,7 +7924,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Crawford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8547,7 +7937,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Crawford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8561,7 +7950,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Crawford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8575,7 +7963,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Crawford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8589,7 +7976,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Crawford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8603,7 +7989,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Crawford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8617,7 +8002,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Creek`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8631,7 +8015,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Crenshaw`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8645,7 +8028,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Crisp`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8659,7 +8041,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Crittenden`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8673,7 +8054,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Crittenden`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8687,7 +8067,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Crockett`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8701,7 +8080,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Crockett`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8715,7 +8093,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Crook`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8729,7 +8106,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Crook`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8743,7 +8119,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Crosby`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8757,7 +8132,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cross`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8771,7 +8145,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Crow Wing`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8785,7 +8158,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Crowley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8799,7 +8171,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Culberson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8813,7 +8184,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cullman`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8827,7 +8197,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Culpeper`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8841,7 +8210,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cumberland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8855,7 +8223,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cumberland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8869,7 +8236,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cumberland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8883,7 +8249,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cumberland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8897,7 +8262,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cumberland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8911,7 +8275,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cumberland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8925,7 +8288,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cumberland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8939,7 +8301,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cumberland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8953,7 +8314,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cuming`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8967,7 +8327,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Currituck`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8981,7 +8340,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Curry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -8995,7 +8353,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Curry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9009,7 +8366,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Custer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9023,7 +8379,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Custer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9037,7 +8392,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Custer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9051,7 +8405,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Custer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9065,7 +8418,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Custer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9079,7 +8431,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Custer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9093,7 +8444,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Cuyahoga`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9107,7 +8457,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dade`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9121,7 +8470,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dade`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9135,7 +8483,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Daggett`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9149,7 +8496,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dakota`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9163,7 +8509,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dakota`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9177,7 +8522,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dale`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9191,7 +8535,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dallam`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9205,7 +8548,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dallas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9219,7 +8561,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dallas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9233,7 +8574,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dallas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9247,7 +8587,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dallas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9261,7 +8600,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dallas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9275,7 +8613,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dane`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9289,7 +8626,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Daniels`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9303,7 +8639,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Danville`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9317,7 +8652,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dare`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9331,7 +8665,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Darke`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9345,7 +8678,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Darlington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9359,7 +8691,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dauphin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9373,7 +8704,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Davidson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9387,7 +8717,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Davidson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9401,7 +8730,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Davie`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9415,7 +8743,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Daviess`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9429,7 +8756,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Daviess`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9443,7 +8769,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Daviess`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9457,7 +8782,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Davis`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9471,7 +8795,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Davis`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9485,7 +8808,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Davison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9499,7 +8821,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dawes`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9513,7 +8834,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dawson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9527,7 +8847,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dawson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9541,7 +8860,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dawson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9555,7 +8873,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dawson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9569,7 +8886,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Day`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9583,7 +8899,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `De Baca`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9597,7 +8912,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `De Soto`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9611,7 +8925,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `De Witt`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9625,7 +8938,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `DeKalb`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9639,7 +8951,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `DeKalb`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9653,7 +8964,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `DeKalb`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9667,7 +8977,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `DeKalb`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9681,7 +8990,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `DeKalb`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9695,7 +9003,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `DeKalb`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9709,7 +9016,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `DeSoto`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9723,7 +9029,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `DeSoto`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9737,7 +9042,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `DeWitt`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9751,7 +9055,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Deaf Smith`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9765,7 +9068,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dearborn`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9779,7 +9081,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Decatur`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9793,7 +9094,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Decatur`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9807,7 +9107,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Decatur`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9821,7 +9120,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Decatur`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9835,7 +9133,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Decatur`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9849,7 +9146,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Deer Lodge`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9863,7 +9159,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Defiance`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9877,7 +9172,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Del Norte`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9891,7 +9185,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Delaware`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9905,7 +9198,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Delaware`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9919,7 +9211,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Delaware`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9933,7 +9224,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Delaware`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9947,7 +9237,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Delaware`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9961,7 +9250,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Delaware`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9975,7 +9263,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Delta`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -9989,7 +9276,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Delta`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10003,7 +9289,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Delta`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10017,7 +9302,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Denali`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10031,7 +9315,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dent`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10045,7 +9328,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Denton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10059,7 +9341,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Denver`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10073,7 +9354,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Des Moines`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10087,7 +9367,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Deschutes`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10101,7 +9380,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Desha`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10115,7 +9393,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Deuel`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10129,7 +9406,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Deuel`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10143,7 +9419,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dewey`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10157,7 +9432,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dewey`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10171,7 +9445,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dickens`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10185,7 +9458,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dickenson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10199,7 +9471,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dickey`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10213,7 +9484,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dickinson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10227,7 +9497,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dickinson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10241,7 +9510,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dickinson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10255,7 +9523,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dickson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10269,7 +9536,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dillingham`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10283,7 +9549,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dillon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10297,7 +9562,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dimmit`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10311,7 +9575,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dinwiddie`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10325,7 +9588,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Divide`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10339,7 +9601,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dixie`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10353,7 +9614,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dixon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10367,7 +9627,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Doddridge`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10381,7 +9640,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dodge`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10395,7 +9653,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dodge`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10409,7 +9666,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dodge`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10423,7 +9679,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dodge`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10437,7 +9692,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dolores`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10451,7 +9705,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dona Ana`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10465,7 +9718,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Doniphan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10479,7 +9731,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Donley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10493,7 +9744,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dooly`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10507,7 +9757,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Door`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10521,7 +9770,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dorchester`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10535,7 +9783,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dorchester`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10549,7 +9796,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dougherty`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10563,7 +9809,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Douglas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10577,7 +9822,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Douglas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10591,7 +9835,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Douglas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10605,7 +9848,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Douglas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10619,7 +9861,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Douglas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10633,7 +9874,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Douglas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10647,7 +9887,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Douglas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10661,7 +9900,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Douglas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10675,7 +9913,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Douglas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10689,7 +9926,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Douglas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10703,7 +9939,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Douglas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10717,7 +9952,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Douglas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10731,7 +9965,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Doña Ana`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10745,7 +9978,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Drew`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10759,7 +9991,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `DuPage`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10773,7 +10004,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dubois`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10787,7 +10017,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dubuque`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10801,7 +10030,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Duchesne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10815,7 +10043,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dukes`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10829,7 +10056,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dukes and Nantucket`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10843,7 +10069,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dundy`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10857,7 +10082,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dunklin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10871,7 +10095,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dunn`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10885,7 +10108,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dunn`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10899,7 +10121,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Duplin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10913,7 +10134,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Durham`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10927,7 +10147,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dutchess`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10941,7 +10160,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Duval`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10955,7 +10173,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Duval`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10969,7 +10186,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Dyer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10983,7 +10199,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Eagle`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -10997,7 +10212,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Early`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11011,7 +10225,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `East Baton Rouge`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11025,7 +10238,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `East Carroll`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11039,7 +10251,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `East Feliciana`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11053,7 +10264,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Eastland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11067,7 +10277,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Eaton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11081,7 +10290,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Eau Claire`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11095,7 +10303,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Echols`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11109,7 +10316,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ector`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11123,7 +10329,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Eddy`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11137,7 +10342,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Eddy`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11151,7 +10355,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Edgar`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11165,7 +10368,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Edgecombe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11179,7 +10381,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Edgefield`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11193,7 +10394,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Edmonson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11207,7 +10407,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Edmunds`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11221,7 +10420,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Edwards`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11235,7 +10433,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Edwards`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11249,7 +10446,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Edwards`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11263,7 +10459,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Effingham`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11277,7 +10472,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Effingham`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11291,7 +10485,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `El Dorado`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11305,7 +10498,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `El Paso`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11319,7 +10511,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `El Paso`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11333,7 +10524,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Elbert`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11347,7 +10537,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Elbert`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11361,7 +10550,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Elk`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11375,7 +10563,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Elk`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11389,7 +10576,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Elkhart`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11403,7 +10589,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Elko`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11417,7 +10602,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Elko County`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11431,7 +10615,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Elliott`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11445,7 +10628,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ellis`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11459,7 +10641,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ellis`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11473,7 +10654,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ellis`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11487,7 +10667,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ellsworth`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11501,7 +10680,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Elmore`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11515,7 +10693,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Elmore`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11529,7 +10706,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Emanuel`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11543,7 +10719,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Emery`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11557,7 +10732,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Emmet`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11571,7 +10745,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Emmet`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11585,7 +10758,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Emmons`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11599,7 +10771,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Emporia`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11613,7 +10784,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Erath`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11627,7 +10797,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Erie`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11641,7 +10810,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Erie`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11655,7 +10823,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Erie`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11669,7 +10836,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Escambia`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11683,7 +10849,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Escambia`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11697,7 +10862,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Esmeralda`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11711,7 +10875,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Essex`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11725,7 +10888,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Essex`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11739,7 +10901,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Essex`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11753,7 +10914,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Essex`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11767,7 +10927,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Essex`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11781,7 +10940,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Estill`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11795,7 +10953,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Etowah`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11809,7 +10966,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Eureka`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11823,7 +10979,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Evangeline`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11837,7 +10992,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Evans`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11851,7 +11005,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fairbanks North Star`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11865,7 +11018,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fairfax`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11879,7 +11031,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fairfax City`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11893,7 +11044,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fairfield`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11907,7 +11057,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fairfield`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11921,7 +11070,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fall River`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11935,7 +11083,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fallon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11949,7 +11096,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Falls`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11963,7 +11109,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Falls Church`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11977,7 +11122,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fannin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -11991,7 +11135,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fannin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12005,7 +11148,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Faribault`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12019,7 +11161,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Faulk`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12033,7 +11174,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Faulkner`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12047,7 +11187,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fauquier`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12061,7 +11200,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fayette`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12075,7 +11213,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fayette`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12089,7 +11226,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fayette`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12103,7 +11239,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fayette`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12117,7 +11252,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fayette`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12131,7 +11265,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fayette`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12145,7 +11278,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fayette`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12159,7 +11291,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fayette`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12173,7 +11304,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fayette`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12187,7 +11317,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fayette`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12201,7 +11330,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fayette`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12215,7 +11343,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fentress`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12229,7 +11356,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fergus`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12243,7 +11369,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ferry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12257,7 +11382,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fillmore`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12271,7 +11395,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fillmore`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12285,7 +11408,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Finney`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12299,7 +11421,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fisher`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12313,7 +11434,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Flagler`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12327,7 +11447,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Flathead`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12341,7 +11460,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fleming`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12355,7 +11473,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Florence`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12369,7 +11486,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Florence`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12383,7 +11499,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Floyd`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12397,7 +11512,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Floyd`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12411,7 +11525,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Floyd`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12425,7 +11538,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Floyd`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12439,7 +11551,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Floyd`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12453,7 +11564,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Floyd`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12467,7 +11577,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fluvanna`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12481,7 +11590,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Foard`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12495,7 +11603,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fond du Lac`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12509,7 +11616,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12523,7 +11629,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12537,7 +11642,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Forest`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12551,7 +11655,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Forest`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12565,7 +11668,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Forrest`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12579,7 +11681,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Forsyth`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12593,7 +11694,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Forsyth`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12607,7 +11707,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fort Bend`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12621,7 +11720,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Foster`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12635,7 +11733,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fountain`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12649,7 +11746,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Franklin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12663,7 +11759,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Franklin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12677,7 +11772,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Franklin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12691,7 +11785,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Franklin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12705,7 +11798,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Franklin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12719,7 +11811,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Franklin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12733,7 +11824,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Franklin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12747,7 +11837,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Franklin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12761,7 +11850,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Franklin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12775,7 +11863,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Franklin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12789,7 +11876,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Franklin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12803,7 +11889,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Franklin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12817,7 +11902,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Franklin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12831,7 +11915,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Franklin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12845,7 +11928,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Franklin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12859,7 +11941,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Franklin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12873,7 +11954,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Franklin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12887,7 +11967,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Franklin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12901,7 +11980,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Franklin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12915,7 +11993,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Franklin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12929,7 +12006,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Franklin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12943,7 +12019,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Franklin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12957,7 +12032,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Franklin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12971,7 +12045,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Franklin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12985,7 +12058,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Franklin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -12999,7 +12071,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Franklin City`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13013,7 +12084,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Frederick`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13027,7 +12097,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Frederick`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13041,7 +12110,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fredericksburg`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13055,7 +12123,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Freeborn`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13069,7 +12136,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Freestone`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13083,7 +12149,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fremont`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13097,7 +12162,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fremont`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13111,7 +12175,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fremont`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13125,7 +12188,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fremont`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13139,7 +12201,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fresno`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13153,7 +12214,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Frio`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13167,7 +12227,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Frontier`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13181,7 +12240,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fulton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13195,7 +12253,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fulton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13209,7 +12266,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fulton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13223,7 +12279,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fulton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13237,7 +12292,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fulton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13251,7 +12305,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fulton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13265,7 +12318,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fulton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13279,7 +12331,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Fulton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13293,7 +12344,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Furnas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13307,7 +12357,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gadsden`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13321,7 +12370,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gage`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13335,7 +12383,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gaines`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13349,7 +12396,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Galax`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13363,7 +12409,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gallatin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13377,7 +12422,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gallatin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13391,7 +12435,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gallatin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13405,7 +12448,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gallia`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13419,7 +12461,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Galveston`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13433,7 +12474,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Garden`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13447,7 +12487,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Garfield`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13461,7 +12500,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Garfield`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13475,7 +12513,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Garfield`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13489,7 +12526,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Garfield`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13503,7 +12539,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Garfield`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13517,7 +12552,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Garfield`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13531,7 +12565,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Garland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13545,7 +12578,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Garrard`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13559,7 +12591,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Garrett`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13573,7 +12604,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Garvin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13587,7 +12617,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Garza`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13601,7 +12630,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gasconade`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13615,7 +12643,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gaston`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13629,7 +12656,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gates`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13643,7 +12669,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Geary`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13657,7 +12682,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Geauga`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13671,7 +12695,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gem`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13685,7 +12708,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Genesee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13699,7 +12721,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Genesee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13713,7 +12734,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Geneva`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13727,7 +12747,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gentry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13741,7 +12760,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `George`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13755,7 +12773,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Georgetown`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13769,7 +12786,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gibson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13783,7 +12799,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gibson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13797,7 +12812,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gila`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13811,7 +12825,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gilchrist`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13825,7 +12838,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Giles`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13839,7 +12851,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Giles`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13853,7 +12864,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gillespie`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13867,7 +12877,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gilliam`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13881,7 +12890,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gilmer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13895,7 +12903,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gilmer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13909,7 +12916,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gilpin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13923,7 +12929,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Glacier`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13937,7 +12942,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Glades`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13951,7 +12955,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gladwin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13965,7 +12968,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Glascock`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13979,7 +12981,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Glasscock`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -13993,7 +12994,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Glenn`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14007,7 +13007,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gloucester`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14021,7 +13020,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gloucester`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14035,7 +13033,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Glynn`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14049,7 +13046,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gogebic`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14063,7 +13059,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Golden Valley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14077,7 +13072,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Golden Valley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14091,7 +13085,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Goliad`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14105,7 +13098,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gonzales`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14119,7 +13111,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Goochland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14133,7 +13124,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Goodhue`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14147,7 +13137,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gooding`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14161,7 +13150,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gordon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14175,7 +13163,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Goshen`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14189,7 +13176,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gosper`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14203,7 +13189,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gove`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14217,7 +13202,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grady`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14231,7 +13215,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grady`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14245,7 +13228,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grafton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14259,7 +13241,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Graham`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14273,7 +13254,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Graham`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14287,7 +13267,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Graham`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14301,7 +13280,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grainger`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14315,7 +13293,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grand`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14329,7 +13306,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grand`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14343,7 +13319,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grand Forks`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14357,7 +13332,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grand Isle`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14371,7 +13345,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grand Traverse`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14385,7 +13358,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Granite`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14399,7 +13371,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grant`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14413,7 +13384,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grant`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14427,7 +13397,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grant`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14441,7 +13410,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grant`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14455,7 +13423,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grant`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14469,7 +13436,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grant`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14483,7 +13449,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grant`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14497,7 +13462,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grant`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14511,7 +13475,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grant`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14525,7 +13488,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grant`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14539,7 +13501,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grant`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14553,7 +13514,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grant`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14567,7 +13527,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grant`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14581,7 +13540,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grant`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14595,7 +13553,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grant`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14609,7 +13566,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Granville`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14623,7 +13579,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gratiot`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14637,7 +13592,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Graves`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14651,7 +13605,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gray`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14665,7 +13618,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gray`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14679,7 +13631,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grays Harbor`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14693,7 +13644,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grayson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14707,7 +13657,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grayson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14721,7 +13670,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grayson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14735,7 +13683,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Greeley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14749,7 +13696,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Greeley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14763,7 +13709,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Green`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14777,7 +13722,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Green`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14791,7 +13735,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Green Lake`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14805,7 +13748,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Greenbrier`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14819,7 +13761,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Greene`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14833,7 +13774,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Greene`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14847,7 +13787,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Greene`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14861,7 +13800,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Greene`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14875,7 +13813,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Greene`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14889,7 +13826,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Greene`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14903,7 +13839,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Greene`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14917,7 +13852,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Greene`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14931,7 +13865,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Greene`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14945,7 +13878,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Greene`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14959,7 +13891,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Greene`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14973,7 +13904,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Greene`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -14987,7 +13917,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Greene`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15001,7 +13930,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Greene`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15015,7 +13943,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Greenlee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15029,7 +13956,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Greensville`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15043,7 +13969,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Greenup`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15057,7 +13982,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Greenville`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15071,7 +13995,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Greenwood`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15085,7 +14008,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Greenwood`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15099,7 +14021,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Greer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15113,7 +14034,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gregg`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15127,7 +14047,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gregory`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15141,7 +14060,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grenada`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15155,7 +14073,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Griggs`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15169,7 +14086,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grimes`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15183,7 +14099,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grundy`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15197,7 +14112,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grundy`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15211,7 +14125,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grundy`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15225,7 +14138,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Grundy`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15239,7 +14151,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Guadalupe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15253,7 +14164,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Guadalupe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15267,7 +14177,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Guernsey`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15281,7 +14190,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Guilford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15295,7 +14203,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gulf`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15309,7 +14216,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gunnison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15323,7 +14229,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Guthrie`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15337,7 +14242,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Gwinnett`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15351,7 +14255,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Haakon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15365,7 +14268,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Habersham`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15379,7 +14281,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Haines`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15393,7 +14294,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hale`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15407,7 +14307,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hale`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15421,7 +14320,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Halifax`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15435,7 +14333,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Halifax`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15449,7 +14346,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hall`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15463,7 +14359,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hall`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15477,7 +14372,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hall`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15491,7 +14385,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hamblen`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15505,7 +14398,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hamilton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15519,7 +14411,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hamilton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15533,7 +14424,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hamilton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15547,7 +14437,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hamilton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15561,7 +14450,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hamilton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15575,7 +14463,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hamilton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15589,7 +14476,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hamilton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15603,7 +14489,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hamilton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15617,7 +14502,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hamilton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15631,7 +14515,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hamilton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15645,7 +14528,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hamlin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15659,7 +14541,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hampden`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15673,7 +14554,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hampshire`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15687,7 +14567,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hampshire`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15701,7 +14580,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hampton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15715,7 +14593,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hampton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15729,7 +14606,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hancock`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15743,7 +14619,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hancock`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15757,7 +14632,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hancock`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15771,7 +14645,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hancock`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15785,7 +14658,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hancock`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15799,7 +14671,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hancock`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15813,7 +14684,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hancock`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15827,7 +14697,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hancock`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15841,7 +14710,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hancock`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15855,7 +14723,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hancock`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15869,7 +14736,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hand`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15883,7 +14749,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hanover`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15897,7 +14762,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hansford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15911,7 +14775,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hanson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15925,7 +14788,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Haralson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15939,7 +14801,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hardee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15953,7 +14814,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hardeman`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15967,7 +14827,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hardeman`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15981,7 +14840,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hardin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -15995,7 +14853,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hardin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16009,7 +14866,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hardin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16023,7 +14879,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hardin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16037,7 +14892,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hardin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16051,7 +14905,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hardin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16065,7 +14918,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Harding`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16079,7 +14931,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Harding`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16093,7 +14944,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hardy`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16107,7 +14957,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Harford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16121,7 +14970,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Harlan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16135,7 +14983,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Harlan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16149,7 +14996,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Harmon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16163,7 +15009,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Harnett`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16177,7 +15022,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Harney`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16191,7 +15035,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Harper`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16205,7 +15048,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Harper`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16219,7 +15061,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Harris`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16233,7 +15074,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Harris`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16247,7 +15087,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Harrison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16261,7 +15100,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Harrison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16275,7 +15113,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Harrison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16289,7 +15126,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Harrison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16303,7 +15139,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Harrison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16317,7 +15152,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Harrison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16331,7 +15165,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Harrison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16345,7 +15178,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Harrison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16359,7 +15191,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Harrisonburg`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16373,7 +15204,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hart`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16387,7 +15217,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hart`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16401,7 +15230,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hartford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16415,7 +15243,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hartley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16429,7 +15256,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Harvey`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16443,7 +15269,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Haskell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16457,7 +15282,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Haskell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16471,7 +15295,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Haskell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16485,7 +15308,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hawkins`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16499,7 +15321,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hayes`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16513,7 +15334,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hays`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16527,7 +15347,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Haywood`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16541,7 +15360,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Haywood`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16555,7 +15373,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Heard`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16569,7 +15386,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hemphill`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16583,7 +15399,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hempstead`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16597,7 +15412,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Henderson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16611,7 +15425,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Henderson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16625,7 +15438,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Henderson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16639,7 +15451,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Henderson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16653,7 +15464,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Henderson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16667,7 +15477,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hendricks`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16681,7 +15490,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hendry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16695,7 +15503,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hennepin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16709,7 +15516,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Henrico`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16723,7 +15529,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Henry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16737,7 +15542,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Henry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16751,7 +15555,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Henry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16765,7 +15568,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Henry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16779,7 +15581,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Henry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16793,7 +15594,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Henry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16807,7 +15607,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Henry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16821,7 +15620,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Henry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16835,7 +15633,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Henry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16849,7 +15646,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Henry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16863,7 +15659,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Herkimer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16877,7 +15672,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hernando`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16891,7 +15685,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hertford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16905,7 +15698,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hettinger`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16919,7 +15711,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hickman`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16933,7 +15724,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hickman`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16947,7 +15737,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hickory`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16961,7 +15750,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hidalgo`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16975,7 +15763,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hidalgo`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -16989,7 +15776,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Highland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17003,7 +15789,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Highland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17017,7 +15802,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Highlands`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17031,7 +15815,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hill`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17045,7 +15828,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hill`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17059,7 +15841,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hillsborough`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17073,7 +15854,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hillsborough`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17087,7 +15867,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hillsdale`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17101,7 +15880,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hinds`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17115,7 +15893,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hinsdale`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17129,7 +15906,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hitchcock`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17143,7 +15919,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hocking`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17157,7 +15932,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hockley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17171,7 +15945,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hodgeman`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17185,7 +15958,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hoke`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17199,7 +15971,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Holmes`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17213,7 +15984,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Holmes`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17227,7 +15997,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Holmes`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17241,7 +16010,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Holt`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17255,7 +16023,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Holt`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17269,7 +16036,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Honolulu`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17283,7 +16049,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hood`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17297,7 +16062,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hood River`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17311,7 +16075,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hooker`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17325,7 +16088,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hoonah-Angoon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17339,7 +16101,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hopewell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17353,7 +16114,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hopkins`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17367,7 +16127,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hopkins`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17381,7 +16140,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Horry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17395,7 +16153,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hot Spring`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17409,7 +16166,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hot Springs`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17423,7 +16179,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Houghton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17437,7 +16192,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Houston`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17451,7 +16205,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Houston`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17465,7 +16218,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Houston`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17479,7 +16231,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Houston`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17493,7 +16244,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Houston`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17507,7 +16257,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Howard`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17521,7 +16270,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Howard`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17535,7 +16283,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Howard`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17549,7 +16296,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Howard`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17563,7 +16309,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Howard`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17577,7 +16322,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Howard`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17591,7 +16335,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Howard`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17605,7 +16348,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Howell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17619,7 +16361,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hubbard`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17633,7 +16374,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hudson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17647,7 +16387,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hudspeth`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17661,7 +16400,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Huerfano`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17675,7 +16413,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hughes`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17689,7 +16426,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hughes`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17703,7 +16439,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Humboldt`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17717,7 +16452,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Humboldt`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17731,7 +16465,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Humboldt`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17745,7 +16478,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Humphreys`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17759,7 +16491,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Humphreys`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17773,7 +16504,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hunt`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17787,7 +16517,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hunterdon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17801,7 +16530,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Huntingdon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17815,7 +16543,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Huntington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17829,7 +16556,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Huron`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17843,7 +16569,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Huron`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17857,7 +16582,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hutchinson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17871,7 +16595,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hutchinson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17885,7 +16608,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hyde`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17899,7 +16621,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Hyde`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17913,7 +16634,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Iberia`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17927,7 +16647,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Iberville`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17941,7 +16660,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ida`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17955,7 +16673,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Idaho`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17969,7 +16686,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Imperial`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17983,7 +16699,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Independence`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -17997,7 +16712,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Indian River`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18011,7 +16725,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Indiana`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18025,7 +16738,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ingham`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18039,7 +16751,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Inyo`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18053,7 +16764,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ionia`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18067,7 +16777,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Iosco`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18081,7 +16790,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Iowa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18095,7 +16803,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Iowa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18109,7 +16816,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Iredell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18123,7 +16829,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Irion`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18137,7 +16842,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Iron`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18151,7 +16855,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Iron`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18165,7 +16868,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Iron`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18179,7 +16881,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Iron`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18193,7 +16894,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Iroquois`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18207,7 +16907,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Irwin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18221,7 +16920,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Isabella`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18235,7 +16933,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Isanti`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18249,7 +16946,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Island`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18263,7 +16959,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Isle of Wight`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18277,7 +16972,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Issaquena`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18291,7 +16985,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Itasca`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18305,7 +16998,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Itawamba`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18319,7 +17011,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Izard`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18333,7 +17024,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jack`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18347,7 +17037,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jackson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18361,7 +17050,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jackson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18375,7 +17063,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jackson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18389,7 +17076,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jackson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18403,7 +17089,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jackson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18417,7 +17102,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jackson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18431,7 +17115,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jackson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18445,7 +17128,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jackson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18459,7 +17141,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jackson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18473,7 +17154,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jackson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18487,7 +17167,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jackson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18501,7 +17180,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jackson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18515,7 +17193,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jackson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18529,7 +17206,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jackson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18543,7 +17219,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jackson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18557,7 +17232,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jackson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18571,7 +17245,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jackson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18585,7 +17258,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jackson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18599,7 +17271,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jackson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18613,7 +17284,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jackson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18627,7 +17297,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jackson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18641,7 +17310,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jackson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18655,7 +17323,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jackson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18669,7 +17336,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jackson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18683,7 +17349,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `James City`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18697,7 +17362,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jasper`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18711,7 +17375,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jasper`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18725,7 +17388,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jasper`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18739,7 +17401,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jasper`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18753,7 +17414,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jasper`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18767,7 +17427,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jasper`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18781,7 +17440,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jasper`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18795,7 +17453,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jasper`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18809,7 +17466,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jay`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18823,7 +17479,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jeff Davis`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18837,7 +17492,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jeff Davis`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18851,7 +17505,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jefferson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18865,7 +17518,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jefferson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18879,7 +17531,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jefferson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18893,7 +17544,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jefferson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18907,7 +17557,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jefferson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18921,7 +17570,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jefferson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18935,7 +17583,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jefferson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18949,7 +17596,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jefferson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18963,7 +17609,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jefferson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18977,7 +17622,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jefferson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -18991,7 +17635,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jefferson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19005,7 +17648,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jefferson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19019,7 +17661,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jefferson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19033,7 +17674,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jefferson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19047,7 +17687,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jefferson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19061,7 +17700,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jefferson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19075,7 +17713,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jefferson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19089,7 +17726,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jefferson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19103,7 +17739,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jefferson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19117,7 +17752,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jefferson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19131,7 +17765,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jefferson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19145,7 +17778,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jefferson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19159,7 +17791,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jefferson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19173,7 +17804,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jefferson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19187,7 +17817,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jefferson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19201,7 +17830,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jefferson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19215,7 +17843,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jefferson Davis`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19229,7 +17856,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jefferson Davis`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19243,7 +17869,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jenkins`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19257,7 +17882,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jennings`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19271,7 +17895,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jerauld`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19285,7 +17908,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jerome`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19299,7 +17921,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jersey`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19313,7 +17934,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jessamine`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19327,7 +17947,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jewell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19341,7 +17960,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jim Hogg`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19355,7 +17973,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jim Wells`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19369,7 +17986,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jo Daviess`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19383,7 +17999,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Johnson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19397,7 +18012,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Johnson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19411,7 +18025,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Johnson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19425,7 +18038,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Johnson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19439,7 +18051,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Johnson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19453,7 +18064,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Johnson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19467,7 +18077,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Johnson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19481,7 +18090,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Johnson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19495,7 +18103,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Johnson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19509,7 +18116,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Johnson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19523,7 +18129,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Johnson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19537,7 +18142,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Johnson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19551,7 +18155,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Johnston`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19565,7 +18168,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Johnston`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19579,7 +18181,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jones`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19593,7 +18194,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jones`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19607,7 +18207,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jones`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19621,7 +18220,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jones`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19635,7 +18233,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jones`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19649,7 +18246,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Jones`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19663,7 +18259,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Josephine`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19677,7 +18272,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Juab`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19691,7 +18285,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Judith Basin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19705,7 +18298,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Juneau`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19719,7 +18311,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Juneau`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19733,7 +18324,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Juniata`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19747,7 +18337,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kalamazoo`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19761,7 +18350,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kalawao`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19775,7 +18363,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kalkaska`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19789,7 +18376,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kanabec`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19803,7 +18389,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kanawha`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19817,7 +18402,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kandiyohi`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19831,7 +18415,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kane`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19845,7 +18428,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kane`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19859,7 +18441,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kankakee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19873,7 +18454,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kansas City`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19887,7 +18467,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Karnes`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19901,7 +18480,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kauai`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19915,7 +18493,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kaufman`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19929,7 +18506,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kay`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19943,7 +18519,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kearney`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19957,7 +18532,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kearny`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19971,7 +18545,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Keith`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19985,7 +18558,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kemper`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -19999,7 +18571,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kenai Peninsula`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20013,7 +18584,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kendall`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20027,7 +18597,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kendall`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20041,7 +18610,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kenedy`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20055,7 +18623,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kennebec`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20069,7 +18636,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kenosha`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20083,7 +18649,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kent`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20097,7 +18662,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kent`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20111,7 +18675,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kent`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20125,7 +18688,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kent`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20139,7 +18701,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kenton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20153,7 +18714,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Keokuk`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20167,7 +18727,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kern`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20181,7 +18740,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kerr`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20195,7 +18753,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kershaw`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20209,7 +18766,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ketchikan Gateway`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20223,7 +18779,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kewaunee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20237,7 +18792,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Keweenaw`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20251,7 +18805,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Keya Paha`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20265,7 +18818,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kidder`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20279,7 +18831,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kimball`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20293,7 +18844,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kimble`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20307,7 +18857,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `King`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20321,7 +18870,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `King`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20335,7 +18883,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `King George`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20349,7 +18896,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `King William`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20363,7 +18909,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `King and Queen`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20377,7 +18922,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kingfisher`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20391,7 +18935,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kingman`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20405,7 +18948,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kings`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20419,7 +18961,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kings`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20433,7 +18974,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kingsbury`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20447,7 +18987,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kinney`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20461,7 +19000,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kiowa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20475,7 +19013,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kiowa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20489,7 +19026,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kiowa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20503,7 +19039,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kit Carson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20517,7 +19052,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kitsap`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20531,7 +19065,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kittitas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20545,7 +19078,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kittson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20559,7 +19091,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Klamath`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20573,7 +19104,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kleberg`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20587,7 +19117,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Klickitat`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20601,7 +19130,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Knott`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20615,7 +19143,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Knox`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20629,7 +19156,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Knox`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20643,7 +19169,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Knox`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20657,7 +19182,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Knox`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20671,7 +19195,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Knox`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20685,7 +19208,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Knox`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20699,7 +19221,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Knox`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20713,7 +19234,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Knox`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20727,7 +19247,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Knox`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20741,7 +19260,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kodiak Island`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20755,7 +19273,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Koochiching`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20769,7 +19286,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kootenai`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20783,7 +19299,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kosciusko`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20797,7 +19312,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kossuth`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20811,7 +19325,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Kusilvak`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20825,7 +19338,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `La Crosse`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20839,7 +19351,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `La Paz`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20853,7 +19364,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `La Plata`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20867,7 +19377,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `La Salle`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20881,7 +19390,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `LaGrange`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20895,7 +19403,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `LaMoure`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20909,7 +19416,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `LaPorte`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20923,7 +19429,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `LaSalle`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20937,7 +19442,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `LaSalle`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20951,7 +19455,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Labette`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20965,7 +19468,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lac qui Parle`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20979,7 +19481,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lackawanna`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -20993,7 +19494,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Laclede`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21007,7 +19507,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lafayette`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21021,7 +19520,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lafayette`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21035,7 +19533,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lafayette`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21049,7 +19546,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lafayette`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21063,7 +19559,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lafayette`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21077,7 +19572,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lafayette`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21091,7 +19585,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lafourche`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21105,7 +19598,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lake`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21119,7 +19611,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lake`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21133,7 +19624,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lake`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21147,7 +19637,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lake`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21161,7 +19650,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lake`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21175,7 +19663,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lake`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21189,7 +19676,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lake`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21203,7 +19689,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lake`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21217,7 +19702,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lake`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21231,7 +19715,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lake`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21245,7 +19728,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lake`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21259,7 +19741,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lake`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21273,7 +19754,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lake and Peninsula`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21287,7 +19767,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lake of the Woods`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21301,7 +19780,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lamar`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21315,7 +19793,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lamar`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21329,7 +19806,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lamar`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21343,7 +19819,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lamar`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21357,7 +19832,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lamb`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21371,7 +19845,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lamoille`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21385,7 +19858,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lampasas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21399,7 +19871,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lancaster`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21413,7 +19884,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lancaster`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21427,7 +19897,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lancaster`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21441,7 +19910,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lancaster`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21455,7 +19923,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lander`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21469,7 +19936,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lane`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21483,7 +19949,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lane`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21497,7 +19962,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Langlade`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21511,7 +19975,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lanier`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21525,7 +19988,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lapeer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21539,7 +20001,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Laramie`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21553,7 +20014,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Larimer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21567,7 +20027,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Larue`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21581,7 +20040,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Las Animas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21595,7 +20053,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lassen`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21609,7 +20066,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Latah`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21623,7 +20079,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Latimer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21637,7 +20092,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lauderdale`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21651,7 +20105,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lauderdale`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21665,7 +20118,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lauderdale`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21679,7 +20131,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Laurel`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21693,7 +20144,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Laurens`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21707,7 +20157,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Laurens`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21721,7 +20170,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lavaca`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21735,7 +20183,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lawrence`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21749,7 +20196,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lawrence`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21763,7 +20209,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lawrence`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21777,7 +20222,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lawrence`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21791,7 +20235,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lawrence`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21805,7 +20248,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lawrence`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21819,7 +20261,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lawrence`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21833,7 +20274,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lawrence`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21847,7 +20287,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lawrence`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21861,7 +20300,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lawrence`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21875,7 +20313,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lawrence`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21889,7 +20326,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Le Flore`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21903,7 +20339,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Le Sueur`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21917,7 +20352,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lea`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21931,7 +20365,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Leake`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21945,7 +20378,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Leavenworth`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21959,7 +20391,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lebanon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21973,7 +20404,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -21987,7 +20417,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22001,7 +20430,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22015,7 +20443,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22029,7 +20456,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22043,7 +20469,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22057,7 +20482,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22071,7 +20495,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22085,7 +20508,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22099,7 +20521,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22113,7 +20534,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22127,7 +20547,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22141,7 +20560,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Leelanau`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22155,7 +20573,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Leflore`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22169,7 +20586,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lehigh`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22183,7 +20599,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lemhi`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22197,7 +20612,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lenawee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22211,7 +20625,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lenoir`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22225,7 +20638,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Leon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22239,7 +20651,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Leon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22253,7 +20664,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Leslie`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22267,7 +20677,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Letcher`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22281,7 +20690,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Levy`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22295,7 +20703,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lewis`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22309,7 +20716,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lewis`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22323,7 +20729,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lewis`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22337,7 +20742,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lewis`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22351,7 +20755,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lewis`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22365,7 +20768,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lewis`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22379,7 +20781,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lewis`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22393,7 +20794,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lewis and Clark`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22407,7 +20807,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lexington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22421,7 +20820,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lexington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22435,7 +20833,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Liberty`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22449,7 +20846,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Liberty`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22463,7 +20859,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Liberty`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22477,7 +20872,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Liberty`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22491,7 +20885,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Licking`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22505,7 +20898,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Limestone`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22519,7 +20911,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Limestone`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22533,7 +20924,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lincoln`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22547,7 +20937,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lincoln`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22561,7 +20950,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lincoln`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22575,7 +20963,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lincoln`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22589,7 +20976,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lincoln`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22603,7 +20989,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lincoln`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22617,7 +21002,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lincoln`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22631,7 +21015,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lincoln`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22645,7 +21028,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lincoln`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22659,7 +21041,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lincoln`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22673,7 +21054,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lincoln`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22687,7 +21067,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lincoln`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22701,7 +21080,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lincoln`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22715,7 +21093,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lincoln`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22729,7 +21106,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lincoln`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22743,7 +21119,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lincoln`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22757,7 +21132,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lincoln`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22771,7 +21145,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lincoln`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22785,7 +21158,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lincoln`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22799,7 +21171,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lincoln`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22813,7 +21184,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lincoln`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22827,7 +21197,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lincoln`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22841,7 +21210,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lincoln`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22855,7 +21223,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lincoln`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22869,7 +21236,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Linn`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22883,7 +21249,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Linn`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22897,7 +21262,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Linn`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22911,7 +21275,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Linn`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22925,7 +21288,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lipscomb`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22939,7 +21301,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Litchfield`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22953,7 +21314,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Little River`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22967,7 +21327,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Live Oak`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22981,7 +21340,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Livingston`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -22995,7 +21353,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Livingston`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23009,7 +21366,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Livingston`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23023,7 +21379,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Livingston`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23037,7 +21392,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Livingston`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23051,7 +21405,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Livingston`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23065,7 +21418,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Llano`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23079,7 +21431,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Logan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23093,7 +21444,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Logan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23107,7 +21457,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Logan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23121,7 +21470,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Logan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23135,7 +21483,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Logan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23149,7 +21496,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Logan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23163,7 +21509,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Logan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23177,7 +21522,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Logan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23191,7 +21535,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Logan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23205,7 +21548,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Logan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23219,7 +21561,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Long`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23233,7 +21574,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lonoke`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23247,7 +21587,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lorain`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23261,7 +21600,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Los Alamos`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23275,7 +21613,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Los Angeles`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23289,7 +21626,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Loudon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23303,7 +21639,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Loudoun`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23317,7 +21652,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Louisa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23331,7 +21665,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Louisa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23345,7 +21678,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Loup`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23359,7 +21691,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Love`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23373,7 +21704,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Loving`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23387,7 +21717,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lowndes`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23401,7 +21730,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lowndes`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23415,7 +21743,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lowndes`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23429,7 +21756,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lubbock`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23443,7 +21769,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lucas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23457,7 +21782,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lucas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23471,7 +21795,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Luce`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23485,7 +21808,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lumpkin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23499,7 +21821,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Luna`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23513,7 +21834,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lunenburg`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23527,7 +21847,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Luzerne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23541,7 +21860,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lycoming`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23555,7 +21873,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lyman`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23569,7 +21886,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lynchburg`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23583,7 +21899,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lynn`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23597,7 +21912,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lyon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23611,7 +21925,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lyon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23625,7 +21938,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lyon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23639,7 +21951,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lyon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23653,7 +21964,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Lyon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23667,7 +21977,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mackinac`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23681,7 +21990,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Macomb`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23695,7 +22003,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Macon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23709,7 +22016,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Macon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23723,7 +22029,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Macon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23737,7 +22042,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Macon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23751,7 +22055,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Macon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23765,7 +22068,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Macon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23779,7 +22081,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Macoupin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23793,7 +22094,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Madera`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23807,7 +22107,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Madison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23821,7 +22120,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Madison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23835,7 +22133,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Madison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23849,7 +22146,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Madison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23863,7 +22159,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Madison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23877,7 +22172,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Madison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23891,7 +22185,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Madison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23905,7 +22198,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Madison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23919,7 +22211,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Madison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23933,7 +22224,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Madison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23947,7 +22237,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Madison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23961,7 +22250,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Madison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23975,7 +22263,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Madison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -23989,7 +22276,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Madison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24003,7 +22289,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Madison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24017,7 +22302,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Madison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24031,7 +22315,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Madison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24045,7 +22328,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Madison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24059,7 +22341,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Madison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24073,7 +22354,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Madison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24087,7 +22367,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Magoffin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24101,7 +22380,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mahaska`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24115,7 +22393,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mahnomen`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24129,7 +22406,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mahoning`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24143,7 +22419,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Major`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24157,7 +22432,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Malheur`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24171,7 +22445,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Manassas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24185,7 +22458,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Manassas Park`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24199,7 +22471,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Manatee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24213,7 +22484,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Manistee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24227,7 +22497,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Manitowoc`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24241,7 +22510,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marathon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24255,7 +22523,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marengo`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24269,7 +22536,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Maricopa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24283,7 +22549,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Maries`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24297,7 +22562,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24311,7 +22575,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marinette`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24325,7 +22588,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marion`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24339,7 +22601,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marion`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24353,7 +22614,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marion`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24367,7 +22627,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marion`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24381,7 +22640,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marion`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24395,7 +22653,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marion`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24409,7 +22666,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marion`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24423,7 +22679,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marion`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24437,7 +22692,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marion`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24451,7 +22705,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marion`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24465,7 +22718,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marion`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24479,7 +22731,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marion`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24493,7 +22744,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marion`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24507,7 +22757,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marion`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24521,7 +22770,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marion`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24535,7 +22783,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marion`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24549,7 +22796,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marion`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24563,7 +22809,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mariposa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24577,7 +22822,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marlboro`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24591,7 +22835,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marquette`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24605,7 +22848,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marquette`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24619,7 +22861,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marshall`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24633,7 +22874,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marshall`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24647,7 +22887,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marshall`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24661,7 +22900,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marshall`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24675,7 +22913,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marshall`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24689,7 +22926,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marshall`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24703,7 +22939,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marshall`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24717,7 +22952,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marshall`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24731,7 +22965,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marshall`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24745,7 +22978,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marshall`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24759,7 +22991,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marshall`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24773,7 +23004,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Marshall`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24787,7 +23017,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Martin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24801,7 +23030,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Martin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24815,7 +23043,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Martin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24829,7 +23056,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Martin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24843,7 +23069,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Martin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24857,7 +23082,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Martin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24871,7 +23095,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Martinsville`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24885,7 +23108,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mason`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24899,7 +23121,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mason`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24913,7 +23134,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mason`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24927,7 +23147,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mason`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24941,7 +23160,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mason`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24955,7 +23173,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mason`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24969,7 +23186,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Massac`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24983,7 +23199,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Matagorda`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -24997,7 +23212,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Matanuska-Susitna`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25011,7 +23225,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mathews`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25025,7 +23238,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Maui`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25039,7 +23251,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Maury`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25053,7 +23264,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Maverick`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25067,7 +23277,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mayes`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25081,7 +23290,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McClain`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25095,7 +23303,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McCone`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25109,7 +23316,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McCook`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25123,7 +23329,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McCormick`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25137,7 +23342,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McCracken`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25151,7 +23355,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McCreary`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25165,7 +23368,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McCulloch`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25179,7 +23381,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McCurtain`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25193,7 +23394,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McDonald`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25207,7 +23407,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McDonough`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25221,7 +23420,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McDowell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25235,7 +23433,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McDowell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25249,7 +23446,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McDuffie`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25263,7 +23459,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McHenry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25277,7 +23472,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McHenry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25291,7 +23485,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McIntosh`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25305,7 +23498,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McIntosh`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25319,7 +23511,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McIntosh`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25333,7 +23524,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McKean`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25347,7 +23537,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McKenzie`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25361,7 +23550,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McKinley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25375,7 +23563,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McLean`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25389,7 +23576,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McLean`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25403,7 +23589,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McLean`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25417,7 +23602,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McLennan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25431,7 +23615,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McLeod`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25445,7 +23628,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McMinn`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25459,7 +23641,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McMullen`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25473,7 +23654,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McNairy`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25487,7 +23667,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McPherson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25501,7 +23680,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McPherson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25515,7 +23693,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `McPherson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25529,7 +23706,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Meade`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25543,7 +23719,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Meade`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25557,7 +23732,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Meade`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25571,7 +23745,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Meagher`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25585,7 +23758,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mecklenburg`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25599,7 +23771,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mecklenburg`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25613,7 +23784,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mecosta`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25627,7 +23797,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Medina`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25641,7 +23810,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Medina`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25655,7 +23823,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Meeker`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25669,7 +23836,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Meigs`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25683,7 +23849,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Meigs`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25697,7 +23862,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mellette`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25711,7 +23875,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Menard`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25725,7 +23888,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Menard`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25739,7 +23901,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mendocino`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25753,7 +23914,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Menifee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25767,7 +23927,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Menominee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25781,7 +23940,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Menominee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25795,7 +23953,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Merced`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25809,7 +23966,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mercer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25823,7 +23979,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mercer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25837,7 +23992,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mercer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25851,7 +24005,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mercer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25865,7 +24018,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mercer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25879,7 +24031,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mercer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25893,7 +24044,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mercer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25907,7 +24057,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mercer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25921,7 +24070,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Meriwether`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25935,7 +24083,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Merrick`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25949,7 +24096,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Merrimack`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25963,7 +24109,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mesa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25977,7 +24122,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Metcalfe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -25991,7 +24135,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Miami`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26005,7 +24148,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Miami`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26019,7 +24161,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Miami`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26033,7 +24174,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Miami-Dade`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26047,7 +24187,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Middlesex`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26061,7 +24200,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Middlesex`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26075,7 +24213,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Middlesex`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26089,7 +24226,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Middlesex`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26103,7 +24239,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Midland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26117,7 +24252,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Midland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26131,7 +24265,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mifflin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26145,7 +24278,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Milam`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26159,7 +24291,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Millard`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26173,7 +24304,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mille Lacs`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26187,7 +24317,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Miller`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26201,7 +24330,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Miller`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26215,7 +24343,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Miller`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26229,7 +24356,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mills`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26243,7 +24369,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mills`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26257,7 +24382,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Milwaukee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26271,7 +24395,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Miner`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26285,7 +24408,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mineral`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26299,7 +24421,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mineral`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26313,7 +24434,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mineral`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26327,7 +24447,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mineral`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26341,7 +24460,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mingo`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26355,7 +24473,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Minidoka`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26369,7 +24486,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Minnehaha`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26383,7 +24499,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Missaukee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26397,7 +24512,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mississippi`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26411,7 +24525,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mississippi`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26425,7 +24538,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Missoula`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26439,7 +24551,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mitchell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26453,7 +24564,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mitchell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26467,7 +24577,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mitchell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26481,7 +24590,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mitchell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26495,7 +24603,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mitchell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26509,7 +24616,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mobile`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26523,7 +24629,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Modoc`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26537,7 +24642,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Moffat`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26551,7 +24655,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mohave`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26565,7 +24668,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Moniteau`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26579,7 +24681,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Monmouth`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26593,7 +24694,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mono`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26607,7 +24707,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Monona`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26621,7 +24720,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Monongalia`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26635,7 +24733,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Monroe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26649,7 +24746,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Monroe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26663,7 +24759,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Monroe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26677,7 +24772,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Monroe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26691,7 +24785,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Monroe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26705,7 +24798,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Monroe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26719,7 +24811,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Monroe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26733,7 +24824,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Monroe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26747,7 +24837,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Monroe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26761,7 +24850,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Monroe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26775,7 +24863,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Monroe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26789,7 +24876,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Monroe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26803,7 +24889,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Monroe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26817,7 +24902,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Monroe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26831,7 +24915,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Monroe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26845,7 +24928,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Monroe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26859,7 +24941,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Monroe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26873,7 +24954,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Montague`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26887,7 +24967,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Montcalm`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26901,7 +24980,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Monterey`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26915,7 +24993,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Montezuma`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26929,7 +25006,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Montgomery`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26943,7 +25019,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Montgomery`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26957,7 +25032,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Montgomery`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26971,7 +25045,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Montgomery`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26985,7 +25058,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Montgomery`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -26999,7 +25071,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Montgomery`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27013,7 +25084,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Montgomery`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27027,7 +25097,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Montgomery`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27041,7 +25110,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Montgomery`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27055,7 +25123,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Montgomery`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27069,7 +25136,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Montgomery`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27083,7 +25149,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Montgomery`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27097,7 +25162,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Montgomery`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27111,7 +25175,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Montgomery`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27125,7 +25188,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Montgomery`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27139,7 +25201,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Montgomery`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27153,7 +25214,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Montgomery`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27167,7 +25227,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Montgomery`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27181,7 +25240,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Montmorency`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27195,7 +25253,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Montour`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27209,7 +25266,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Montrose`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27223,7 +25279,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Moody`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27237,7 +25292,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Moore`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27251,7 +25305,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Moore`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27265,7 +25318,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Moore`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27279,7 +25331,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mora`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27293,7 +25344,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Morehouse`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27307,7 +25357,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Morgan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27321,7 +25370,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Morgan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27335,7 +25383,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Morgan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27349,7 +25396,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Morgan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27363,7 +25409,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Morgan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27377,7 +25422,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Morgan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27391,7 +25435,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Morgan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27405,7 +25448,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Morgan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27419,7 +25461,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Morgan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27433,7 +25474,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Morgan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27447,7 +25487,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Morgan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27461,7 +25500,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Morrill`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27475,7 +25513,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Morris`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27489,7 +25526,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Morris`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27503,7 +25539,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Morris`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27517,7 +25552,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Morrison`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27531,7 +25565,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Morrow`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27545,7 +25578,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Morrow`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27559,7 +25591,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Morton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27573,7 +25604,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Morton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27587,7 +25617,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Motley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27601,7 +25630,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Moultrie`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27615,7 +25643,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mountrail`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27629,7 +25656,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Mower`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27643,7 +25669,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Muhlenberg`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27657,7 +25682,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Multnomah`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27671,7 +25695,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Murray`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27685,7 +25708,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Murray`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27699,7 +25721,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Murray`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27713,7 +25734,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Muscatine`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27727,7 +25747,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Muscogee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27741,7 +25760,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Muskegon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27755,7 +25773,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Muskingum`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27769,7 +25786,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Muskogee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27783,7 +25799,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Musselshell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27797,7 +25812,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Nacogdoches`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27811,7 +25825,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Nance`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27825,7 +25838,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Nantucket`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27839,7 +25851,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Napa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27853,7 +25864,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Nash`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27867,7 +25877,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Nassau`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27881,7 +25890,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Nassau`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27895,7 +25903,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Natchitoches`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27909,7 +25916,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Natrona`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27923,7 +25929,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Navajo`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27937,7 +25942,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Navarro`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27951,7 +25955,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Nelson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27965,7 +25968,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Nelson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27979,7 +25981,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Nelson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -27993,7 +25994,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Nemaha`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28007,7 +26007,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Nemaha`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28021,7 +26020,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Neosho`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28035,7 +26033,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Neshoba`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28049,7 +26046,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ness`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28063,7 +26059,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Nevada`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28077,7 +26072,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Nevada`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28091,7 +26085,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `New Castle`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28105,7 +26098,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `New Hanover`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28119,7 +26111,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `New Haven`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28133,7 +26124,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `New Kent`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28147,7 +26137,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `New London`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28161,7 +26150,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `New Madrid`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28175,7 +26163,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `New York City`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28189,7 +26176,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Newaygo`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28203,7 +26189,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Newberry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28217,7 +26202,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Newport`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28231,7 +26215,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Newport News`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28245,7 +26228,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Newton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28259,7 +26241,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Newton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28273,7 +26254,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Newton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28287,7 +26267,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Newton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28301,7 +26280,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Newton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28315,7 +26293,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Newton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28329,7 +26306,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Nez Perce`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28343,7 +26319,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Niagara`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28357,7 +26332,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Nicholas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28371,7 +26345,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Nicholas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28385,7 +26358,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Nicollet`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28399,7 +26371,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Niobrara`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28413,7 +26384,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Noble`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28427,7 +26397,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Noble`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28441,7 +26410,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Noble`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28455,7 +26423,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Nobles`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28469,7 +26436,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Nodaway`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28483,7 +26449,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Nolan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28497,7 +26462,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Nome`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28511,7 +26475,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Norfolk`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28525,7 +26488,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Norfolk`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28539,7 +26501,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Norman`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28553,7 +26514,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `North Slope`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28567,7 +26527,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Northampton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28581,7 +26540,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Northampton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28595,7 +26553,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Northampton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28609,7 +26566,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Northumberland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28623,7 +26579,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Northumberland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28637,7 +26592,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Northwest Arctic`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28651,7 +26605,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Norton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28665,7 +26618,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Norton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28679,7 +26631,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Nottoway`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28693,7 +26644,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Nowata`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28707,7 +26657,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Noxubee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28721,7 +26670,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Nuckolls`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28735,7 +26683,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Nueces`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28749,7 +26696,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Nye`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28763,7 +26709,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `O'Brien`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28777,7 +26722,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Oakland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28791,7 +26735,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Obion`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28805,7 +26748,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ocean`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28819,7 +26761,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Oceana`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28833,7 +26774,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ochiltree`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28847,7 +26787,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Oconee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28861,7 +26800,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Oconee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28875,7 +26813,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Oconto`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28889,7 +26826,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ogemaw`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28903,7 +26839,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Oglala Lakota`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28917,7 +26852,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ogle`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28931,7 +26865,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Oglethorpe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28945,7 +26878,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ohio`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28959,7 +26891,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ohio`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28973,7 +26904,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ohio`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -28987,7 +26917,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Okaloosa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29001,7 +26930,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Okanogan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29015,7 +26943,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Okeechobee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29029,7 +26956,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Okfuskee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29043,7 +26969,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Oklahoma`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29057,7 +26982,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Okmulgee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29071,7 +26995,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Oktibbeha`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29085,7 +27008,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Oldham`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29099,7 +27021,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Oldham`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29113,7 +27034,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Oliver`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29127,7 +27047,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Olmsted`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29141,7 +27060,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Oneida`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29155,7 +27073,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Oneida`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29169,7 +27086,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Oneida`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29183,7 +27099,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Onondaga`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29197,7 +27112,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Onslow`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29211,7 +27125,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ontario`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29225,7 +27138,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ontonagon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29239,7 +27151,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Orange`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29253,7 +27164,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Orange`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29267,7 +27177,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Orange`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29281,7 +27190,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Orange`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29295,7 +27203,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Orange`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29309,7 +27216,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Orange`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29323,7 +27229,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Orange`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29337,7 +27242,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Orange`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29351,7 +27255,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Orangeburg`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29365,7 +27268,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Oregon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29379,7 +27281,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Orleans`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29393,7 +27294,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Orleans`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29407,7 +27307,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Orleans`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29421,7 +27320,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Osage`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29435,7 +27333,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Osage`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29449,7 +27346,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Osage`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29463,7 +27359,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Osborne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29477,7 +27372,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Osceola`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29491,7 +27385,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Osceola`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29505,7 +27398,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Osceola`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29519,7 +27411,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Oscoda`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29533,7 +27424,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Oswego`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29547,7 +27437,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Otero`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29561,7 +27450,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Otero`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29575,7 +27463,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Otoe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29589,7 +27476,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Otsego`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29603,7 +27489,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Otsego`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29617,7 +27502,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ottawa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29631,7 +27515,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ottawa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29645,7 +27528,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ottawa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29659,7 +27541,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ottawa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29673,7 +27554,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Otter Tail`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29687,7 +27567,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ouachita`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29701,7 +27580,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ouachita`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29715,7 +27593,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ouray`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29729,7 +27606,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Out of MI`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29743,7 +27619,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Out of TN`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29757,7 +27632,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Out of UT`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29771,7 +27645,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Outagamie`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29785,7 +27658,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Overton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29799,7 +27671,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Owen`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29813,7 +27684,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Owen`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29827,7 +27697,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Owsley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29841,7 +27710,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Owyhee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29855,7 +27723,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Oxford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29869,7 +27736,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ozark`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29883,7 +27749,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ozaukee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29897,7 +27762,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pacific`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29911,7 +27775,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Page`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29925,7 +27788,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Page`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29939,7 +27801,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Palm Beach`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29953,7 +27814,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Palo Alto`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29967,7 +27827,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Palo Pinto`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29981,7 +27840,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pamlico`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -29995,7 +27853,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Panola`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30009,7 +27866,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Panola`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30023,7 +27879,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Park`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30037,7 +27892,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Park`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30051,7 +27905,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Park`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30065,7 +27918,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Parke`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30079,7 +27931,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Parker`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30093,7 +27944,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Parmer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30107,7 +27957,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pasco`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30121,7 +27970,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pasquotank`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30135,7 +27983,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Passaic`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30149,7 +27996,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Patrick`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30163,7 +28009,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Paulding`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30177,7 +28022,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Paulding`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30191,7 +28035,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pawnee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30205,7 +28048,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pawnee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30219,7 +28061,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pawnee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30233,7 +28074,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Payette`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30247,7 +28087,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Payne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30261,7 +28100,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Peach`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30275,7 +28113,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pearl River`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30289,7 +28126,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pecos`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30303,7 +28139,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pembina`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30317,7 +28152,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pemiscot`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30331,7 +28165,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pend Oreille`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30345,7 +28178,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pender`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30359,7 +28191,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pendleton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30373,7 +28204,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pendleton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30387,7 +28217,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pennington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30401,7 +28230,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pennington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30415,7 +28243,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Penobscot`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30429,7 +28256,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Peoria`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30443,7 +28269,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pepin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30457,7 +28282,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Perkins`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30471,7 +28295,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Perkins`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30485,7 +28308,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Perquimans`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30499,7 +28321,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Perry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30513,7 +28334,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Perry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30527,7 +28347,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Perry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30541,7 +28360,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Perry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30555,7 +28373,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Perry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30569,7 +28386,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Perry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30583,7 +28399,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Perry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30597,7 +28412,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Perry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30611,7 +28425,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Perry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30625,7 +28438,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Perry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30639,7 +28451,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pershing`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30653,7 +28464,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Person`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30667,7 +28477,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Petersburg`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30681,7 +28490,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Petersburg`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30695,7 +28503,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Petroleum`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30709,7 +28516,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pettis`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30723,7 +28529,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Phelps`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30737,7 +28542,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Phelps`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30751,7 +28555,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Philadelphia`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30765,7 +28568,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Phillips`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30779,7 +28581,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Phillips`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30793,7 +28594,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Phillips`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30807,7 +28607,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Phillips`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30821,7 +28620,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Piatt`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30835,7 +28633,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pickaway`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30849,7 +28646,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pickens`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30863,7 +28659,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pickens`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30877,7 +28672,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pickens`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30891,7 +28685,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pickett`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30905,7 +28698,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pierce`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30919,7 +28711,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pierce`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30933,7 +28724,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pierce`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30947,7 +28737,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pierce`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30961,7 +28750,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pierce`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30975,7 +28763,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pike`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -30989,7 +28776,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pike`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31003,7 +28789,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pike`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31017,7 +28802,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pike`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31031,7 +28815,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pike`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31045,7 +28828,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pike`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31059,7 +28841,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pike`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31073,7 +28854,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pike`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31087,7 +28867,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pike`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31101,7 +28880,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pike`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31115,7 +28893,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pima`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31129,7 +28906,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pinal`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31143,7 +28919,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pine`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31157,7 +28932,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pinellas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31171,7 +28945,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pipestone`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31185,7 +28958,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Piscataquis`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31199,7 +28971,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pitkin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31213,7 +28984,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pitt`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31227,7 +28997,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pittsburg`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31241,7 +29010,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pittsylvania`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31255,7 +29023,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Piute`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31269,7 +29036,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Placer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31283,7 +29049,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Plaquemines`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31297,7 +29062,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Platte`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31311,7 +29075,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Platte`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31325,7 +29088,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Platte`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31339,7 +29101,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pleasants`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31353,7 +29114,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Plumas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31367,7 +29127,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Plymouth`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31381,7 +29140,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Plymouth`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31395,7 +29153,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pocahontas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31409,7 +29166,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pocahontas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31423,7 +29179,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Poinsett`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31437,7 +29192,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pointe Coupee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31451,7 +29205,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Polk`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31465,7 +29218,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Polk`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31479,7 +29231,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Polk`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31493,7 +29244,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Polk`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31507,7 +29257,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Polk`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31521,7 +29270,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Polk`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31535,7 +29283,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Polk`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31549,7 +29296,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Polk`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31563,7 +29309,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Polk`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31577,7 +29322,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Polk`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31591,7 +29335,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Polk`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31605,7 +29348,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Polk`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31619,7 +29361,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pondera`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31633,7 +29374,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pontotoc`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31647,7 +29387,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pontotoc`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31661,7 +29400,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pope`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31675,7 +29413,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pope`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31689,7 +29426,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pope`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31703,7 +29439,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Poquoson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31717,7 +29452,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Portage`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31731,7 +29465,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Portage`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31745,7 +29478,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Porter`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31759,7 +29491,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Portsmouth`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31773,7 +29504,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Posey`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31787,7 +29517,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pottawatomie`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31801,7 +29530,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pottawatomie`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31815,7 +29543,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pottawattamie`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31829,7 +29556,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Potter`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31843,7 +29569,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Potter`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31857,7 +29582,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Potter`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31871,7 +29595,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Powder River`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31885,7 +29608,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Powell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31899,7 +29621,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Powell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31913,7 +29634,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Power`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31927,7 +29647,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Poweshiek`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31941,7 +29660,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Powhatan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31955,7 +29673,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Prairie`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31969,7 +29686,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Prairie`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31983,7 +29699,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pratt`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -31997,7 +29712,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Preble`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32011,7 +29725,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Prentiss`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32025,7 +29738,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Presidio`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32039,7 +29751,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Presque Isle`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32053,7 +29764,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Preston`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32067,7 +29777,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Price`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32081,7 +29790,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Prince Edward`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32095,7 +29803,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Prince George`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32109,7 +29816,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Prince George's`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32123,7 +29829,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Prince William`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32137,7 +29842,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Prince of Wales-Hyder`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32151,7 +29855,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Providence`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32165,7 +29868,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Prowers`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32179,7 +29881,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pueblo`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32193,7 +29894,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pulaski`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32207,7 +29907,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pulaski`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32221,7 +29920,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pulaski`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32235,7 +29933,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pulaski`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32249,7 +29946,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pulaski`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32263,7 +29959,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pulaski`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32277,7 +29972,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pulaski`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32291,7 +29985,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Pushmataha`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32305,7 +29998,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Putnam`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32319,7 +30011,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Putnam`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32333,7 +30024,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Putnam`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32347,7 +30037,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Putnam`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32361,7 +30050,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Putnam`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32375,7 +30063,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Putnam`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32389,7 +30076,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Putnam`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32403,7 +30089,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Putnam`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32417,7 +30102,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Putnam`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32431,7 +30115,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Quay`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32445,7 +30128,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Queen Anne's`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32459,7 +30141,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Queens`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32473,7 +30154,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Quitman`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32487,7 +30167,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Quitman`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32501,7 +30180,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rabun`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32515,7 +30193,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Racine`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32529,7 +30206,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Radford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32543,7 +30219,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rains`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32557,7 +30232,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Raleigh`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32571,7 +30245,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ralls`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32585,7 +30258,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ramsey`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32599,7 +30271,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ramsey`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32613,7 +30284,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Randall`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32627,7 +30297,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Randolph`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32641,7 +30310,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Randolph`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32655,7 +30323,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Randolph`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32669,7 +30336,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Randolph`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32683,7 +30349,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Randolph`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32697,7 +30362,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Randolph`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32711,7 +30375,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Randolph`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32725,7 +30388,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Randolph`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32739,7 +30401,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rankin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32753,7 +30414,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ransom`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32767,7 +30427,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rapides`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32781,7 +30440,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rappahannock`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32795,7 +30453,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ravalli`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32809,7 +30466,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rawlins`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32823,7 +30479,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ray`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32837,7 +30492,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Reagan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32851,7 +30505,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Real`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32865,7 +30518,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Red Lake`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32879,7 +30531,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Red River`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32893,7 +30544,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Red River`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32907,7 +30557,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Red Willow`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32921,7 +30570,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Redwood`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32935,7 +30583,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Reeves`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32949,7 +30596,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Refugio`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32963,7 +30609,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Reno`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32977,7 +30622,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rensselaer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -32991,7 +30635,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Renville`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33005,7 +30648,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Renville`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33019,7 +30661,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Republic`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33033,7 +30674,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Reynolds`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33047,7 +30687,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rhea`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33061,7 +30700,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rice`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33075,7 +30713,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rice`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33089,7 +30726,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rich`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33103,7 +30739,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Richardson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33117,7 +30752,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Richland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33131,7 +30765,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Richland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33145,7 +30778,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Richland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33159,7 +30791,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Richland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33173,7 +30804,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Richland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33187,7 +30817,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Richland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33201,7 +30830,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Richland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33215,7 +30843,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Richmond`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33229,7 +30856,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Richmond`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33243,7 +30869,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Richmond`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33257,7 +30882,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Richmond`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33271,7 +30895,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Richmond City`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33285,7 +30908,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Riley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33299,7 +30921,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ringgold`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33313,7 +30934,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rio Arriba`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33327,7 +30947,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rio Blanco`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33341,7 +30960,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rio Grande`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33355,7 +30973,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ripley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33369,7 +30986,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ripley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33383,7 +30999,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ritchie`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33397,7 +31012,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Riverside`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33411,7 +31025,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Roane`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33425,7 +31038,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Roane`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33439,7 +31051,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Roanoke`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33453,7 +31064,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Roanoke City`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33467,7 +31077,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Roberts`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33481,7 +31090,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Roberts`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33495,7 +31103,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Robertson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33509,7 +31116,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Robertson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33523,7 +31129,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Robertson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33537,7 +31142,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Robeson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33551,7 +31155,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rock`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33565,7 +31168,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rock`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33579,7 +31181,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rock`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33593,7 +31194,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rock Island`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33607,7 +31207,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rockbridge`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33621,7 +31220,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rockcastle`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33635,7 +31233,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rockdale`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33649,7 +31246,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rockingham`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33663,7 +31259,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rockingham`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33677,7 +31272,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rockingham`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33691,7 +31285,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rockland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33705,7 +31298,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rockwall`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33719,7 +31311,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Roger Mills`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33733,7 +31324,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rogers`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33747,7 +31337,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rolette`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33761,7 +31350,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rooks`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33775,7 +31363,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Roosevelt`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33789,7 +31376,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Roosevelt`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33803,7 +31389,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Roscommon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33817,7 +31402,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Roseau`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33831,7 +31415,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rosebud`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33845,7 +31428,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ross`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33859,7 +31441,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Routt`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33873,7 +31454,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rowan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33887,7 +31467,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rowan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33901,7 +31480,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Runnels`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33915,7 +31493,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rush`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33929,7 +31506,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rush`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33943,7 +31519,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rusk`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33957,7 +31532,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rusk`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33971,7 +31545,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Russell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33985,7 +31558,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Russell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -33999,7 +31571,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Russell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34013,7 +31584,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Russell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34027,7 +31597,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rutherford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34041,7 +31610,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rutherford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34055,7 +31623,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Rutland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34069,7 +31636,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sabine`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34083,7 +31649,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sabine`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34097,7 +31662,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sac`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34111,7 +31675,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sacramento`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34125,7 +31688,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sagadahoc`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34139,7 +31701,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Saginaw`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34153,7 +31714,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Saguache`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34167,7 +31727,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Salem`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34181,7 +31740,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Salem`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34195,7 +31753,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Saline`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34209,7 +31766,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Saline`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34223,7 +31779,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Saline`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34237,7 +31792,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Saline`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34251,7 +31805,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Saline`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34265,7 +31818,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Salt Lake`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34279,7 +31831,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Saluda`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34293,7 +31844,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sampson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34307,7 +31857,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `San Augustine`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34321,7 +31870,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `San Benito`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34335,7 +31883,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `San Bernardino`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34349,7 +31896,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `San Diego`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34363,7 +31909,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `San Francisco`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34377,7 +31922,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `San Jacinto`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34391,7 +31935,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `San Joaquin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34405,7 +31948,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `San Juan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34419,7 +31961,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `San Juan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34433,7 +31974,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `San Juan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34447,7 +31987,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `San Juan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34461,7 +32000,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `San Luis Obispo`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34475,7 +32013,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `San Mateo`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34489,7 +32026,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `San Miguel`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34503,7 +32039,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `San Miguel`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34517,7 +32052,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `San Patricio`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34531,7 +32065,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `San Saba`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34545,7 +32078,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sanborn`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34559,7 +32091,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sanders`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34573,7 +32104,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sandoval`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34587,7 +32117,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sandusky`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34601,7 +32130,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sangamon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34615,7 +32143,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sanilac`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34629,7 +32156,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sanpete`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34643,7 +32169,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Santa Barbara`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34657,7 +32182,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Santa Clara`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34671,7 +32195,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Santa Cruz`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34685,7 +32208,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Santa Cruz`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34699,7 +32221,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Santa Fe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34713,7 +32234,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Santa Rosa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34727,7 +32247,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sarasota`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34741,7 +32260,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Saratoga`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34755,7 +32273,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sargent`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34769,7 +32286,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sarpy`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34783,7 +32299,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sauk`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34797,7 +32312,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Saunders`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34811,7 +32325,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sawyer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34825,7 +32338,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Schenectady`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34839,7 +32351,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Schleicher`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34853,7 +32364,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Schley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34867,7 +32377,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Schoharie`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34881,7 +32390,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Schoolcraft`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34895,7 +32403,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Schuyler`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34909,7 +32416,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Schuyler`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34923,7 +32429,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Schuyler`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34937,7 +32442,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Schuylkill`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34951,7 +32455,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Scioto`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34965,7 +32468,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Scotland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34979,7 +32481,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Scotland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -34993,7 +32494,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Scott`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35007,7 +32507,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Scott`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35021,7 +32520,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Scott`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35035,7 +32533,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Scott`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35049,7 +32546,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Scott`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35063,7 +32559,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Scott`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35077,7 +32572,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Scott`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35091,7 +32585,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Scott`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35105,7 +32598,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Scott`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35119,7 +32611,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Scott`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35133,7 +32624,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Scott`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35147,7 +32637,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Scotts Bluff`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35161,7 +32650,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Screven`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35175,7 +32663,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Scurry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35189,7 +32676,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Searcy`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35203,7 +32689,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sebastian`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35217,7 +32702,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sedgwick`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35231,7 +32715,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sedgwick`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35245,7 +32728,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Seminole`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35259,7 +32741,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Seminole`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35273,7 +32754,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Seminole`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35287,7 +32767,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Seneca`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35301,7 +32780,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Seneca`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35315,7 +32793,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sequatchie`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35329,7 +32806,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sequoyah`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35343,7 +32819,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sevier`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35357,7 +32832,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sevier`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35371,7 +32845,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sevier`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35385,7 +32858,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Seward`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35399,7 +32871,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Seward`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35413,7 +32884,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Shackelford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35427,7 +32897,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Shannon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35441,7 +32910,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sharkey`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35455,7 +32923,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sharp`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35469,7 +32936,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Shasta`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35483,7 +32949,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Shawano`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35497,7 +32962,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Shawnee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35511,7 +32975,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sheboygan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35525,7 +32988,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Shelby`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35539,7 +33001,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Shelby`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35553,7 +33014,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Shelby`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35567,7 +33027,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Shelby`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35581,7 +33040,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Shelby`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35595,7 +33053,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Shelby`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35609,7 +33066,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Shelby`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35623,7 +33079,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Shelby`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35637,7 +33092,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Shelby`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35651,7 +33105,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Shenandoah`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35665,7 +33118,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sherburne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35679,7 +33131,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sheridan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35693,7 +33144,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sheridan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35707,7 +33157,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sheridan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35721,7 +33170,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sheridan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35735,7 +33183,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sheridan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35749,7 +33196,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sherman`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35763,7 +33209,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sherman`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35777,7 +33222,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sherman`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35791,7 +33235,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sherman`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35805,7 +33248,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Shiawassee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35819,7 +33261,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Shoshone`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35833,7 +33274,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sibley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35847,7 +33287,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sierra`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35861,7 +33300,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sierra`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35875,7 +33313,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Silver Bow`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35889,7 +33326,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Simpson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35903,7 +33339,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Simpson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35917,7 +33352,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sioux`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35931,7 +33365,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sioux`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35945,7 +33378,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sioux`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35959,7 +33391,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Siskiyou`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35973,7 +33404,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sitka`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -35987,7 +33417,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Skagit`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36001,7 +33430,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Skagway`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36015,7 +33443,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Skamania`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36029,7 +33456,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Slope`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36043,7 +33469,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Smith`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36057,7 +33482,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Smith`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36071,7 +33495,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Smith`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36085,7 +33508,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Smith`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36099,7 +33521,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Smyth`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36113,7 +33534,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Snohomish`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36127,7 +33547,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Snyder`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36141,7 +33560,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Socorro`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36155,7 +33573,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Solano`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36169,7 +33586,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Somerset`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36183,7 +33599,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Somerset`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36197,7 +33612,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Somerset`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36211,7 +33625,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Somerset`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36225,7 +33638,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Somervell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36239,7 +33651,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sonoma`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36253,7 +33664,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Southampton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36267,7 +33677,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Southeast Fairbanks`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36281,7 +33690,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Spalding`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36295,7 +33703,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Spartanburg`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36309,7 +33716,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Spencer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36323,7 +33729,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Spencer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36337,7 +33742,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Spink`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36351,7 +33755,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Spokane`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36365,7 +33768,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Spotsylvania`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36379,7 +33781,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `St. Bernard`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36393,7 +33794,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `St. Charles`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36407,7 +33807,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `St. Charles`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36421,7 +33820,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `St. Clair`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36435,7 +33833,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `St. Clair`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36449,7 +33846,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `St. Clair`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36463,7 +33859,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `St. Clair`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36477,7 +33872,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `St. Croix`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36491,7 +33885,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `St. Francis`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36505,7 +33898,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `St. Francois`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36519,7 +33911,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `St. Helena`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36533,7 +33924,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `St. James`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36547,7 +33937,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `St. John the Baptist`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36561,7 +33950,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `St. Johns`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36575,7 +33963,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `St. Joseph`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36589,7 +33976,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `St. Joseph`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36603,7 +33989,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `St. Landry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36617,7 +34002,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `St. Lawrence`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36631,7 +34015,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `St. Louis`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36645,7 +34028,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `St. Louis`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36659,7 +34041,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `St. Louis City`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36673,7 +34054,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `St. Lucie`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36687,7 +34067,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `St. Martin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36701,7 +34080,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `St. Mary`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36715,7 +34093,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `St. Mary's`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36729,7 +34106,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `St. Tammany`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36743,7 +34119,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Stafford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36757,7 +34132,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Stafford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36771,7 +34145,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Stanislaus`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36785,7 +34158,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Stanley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36799,7 +34171,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Stanly`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36813,7 +34184,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Stanton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36827,7 +34197,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Stanton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36841,7 +34210,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Stark`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36855,7 +34223,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Stark`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36869,7 +34236,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Stark`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36883,7 +34249,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Starke`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36897,7 +34262,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Starr`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36911,7 +34275,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Staunton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36925,7 +34288,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ste. Genevieve`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36939,7 +34301,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Stearns`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36953,7 +34314,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Steele`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36967,7 +34327,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Steele`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36981,7 +34340,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Stephens`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -36995,7 +34353,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Stephens`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37009,7 +34366,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Stephens`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37023,7 +34379,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Stephenson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37037,7 +34392,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sterling`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37051,7 +34405,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Steuben`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37065,7 +34418,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Steuben`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37079,7 +34431,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Stevens`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37093,7 +34444,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Stevens`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37107,7 +34457,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Stevens`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37121,7 +34470,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Stewart`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37135,7 +34483,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Stewart`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37149,7 +34496,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Stillwater`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37163,7 +34509,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Stoddard`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37177,7 +34522,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Stokes`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37191,7 +34535,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Stone`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37205,7 +34548,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Stone`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37219,7 +34561,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Stone`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37233,7 +34574,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Stonewall`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37247,7 +34587,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Storey`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37261,7 +34600,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Story`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37275,7 +34613,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Strafford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37289,7 +34626,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Stutsman`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37303,7 +34639,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sublette`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37317,7 +34652,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Suffolk`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37331,7 +34665,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Suffolk`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37345,7 +34678,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Suffolk`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37359,7 +34691,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sullivan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37373,7 +34704,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sullivan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37387,7 +34717,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sullivan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37401,7 +34730,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sullivan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37415,7 +34743,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sullivan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37429,7 +34756,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sullivan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37443,7 +34769,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sully`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37457,7 +34782,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Summers`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37471,7 +34795,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Summit`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37485,7 +34808,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Summit`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37499,7 +34821,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Summit`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37513,7 +34834,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sumner`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37527,7 +34847,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sumner`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37541,7 +34860,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sumter`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37555,7 +34873,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sumter`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37569,7 +34886,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sumter`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37583,7 +34899,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sumter`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37597,7 +34912,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sunflower`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37611,7 +34925,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Surry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37625,7 +34938,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Surry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37639,7 +34951,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Susquehanna`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37653,7 +34964,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sussex`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37667,7 +34977,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sussex`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37681,7 +34990,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sussex`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37695,7 +35003,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sutter`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37709,7 +35016,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sutton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37723,7 +35029,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Suwannee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37737,7 +35042,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Swain`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37751,7 +35055,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sweet Grass`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37765,7 +35068,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Sweetwater`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37779,7 +35081,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Swift`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37793,7 +35094,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Swisher`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37807,7 +35107,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Switzerland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37821,7 +35120,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Talbot`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37835,7 +35133,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Talbot`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37849,7 +35146,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Taliaferro`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37863,7 +35159,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Talladega`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37877,7 +35172,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tallahatchie`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37891,7 +35185,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tallapoosa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37905,7 +35198,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tama`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37919,7 +35211,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Taney`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37933,7 +35224,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tangipahoa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37947,7 +35237,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Taos`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37961,7 +35250,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tarrant`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37975,7 +35263,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tate`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -37989,7 +35276,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tattnall`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38003,7 +35289,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Taylor`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38017,7 +35302,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Taylor`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38031,7 +35315,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Taylor`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38045,7 +35328,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Taylor`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38059,7 +35341,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Taylor`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38073,7 +35354,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Taylor`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38087,7 +35367,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Taylor`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38101,7 +35380,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tazewell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38115,7 +35393,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tazewell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38129,7 +35406,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tehama`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38143,7 +35419,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Telfair`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38157,7 +35432,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Teller`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38171,7 +35445,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tensas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38185,7 +35458,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Terrebonne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38199,7 +35471,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Terrell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38213,7 +35484,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Terrell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38227,7 +35497,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Terry`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38241,7 +35510,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Teton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38255,7 +35523,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Teton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38269,7 +35536,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Teton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38283,7 +35549,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Texas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38297,7 +35562,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Texas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38311,7 +35575,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Thayer`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38325,7 +35588,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Thomas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38339,7 +35601,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Thomas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38353,7 +35614,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Thomas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38367,7 +35627,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Throckmorton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38381,7 +35640,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Thurston`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38395,7 +35653,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Thurston`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38409,7 +35666,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tift`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38423,7 +35679,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tillamook`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38437,7 +35692,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tillman`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38451,7 +35705,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tioga`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38465,7 +35718,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tioga`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38479,7 +35731,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tippah`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38493,7 +35744,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tippecanoe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38507,7 +35757,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tipton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38521,7 +35770,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tipton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38535,7 +35783,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tishomingo`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38549,7 +35796,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Titus`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38563,7 +35809,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Todd`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38577,7 +35822,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Todd`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38591,7 +35835,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Todd`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38605,7 +35848,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tolland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38619,7 +35861,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tom Green`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38633,7 +35874,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tompkins`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38647,7 +35887,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tooele`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38661,7 +35900,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Toole`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38675,7 +35913,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Toombs`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38689,7 +35926,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Torrance`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38703,7 +35939,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Towner`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38717,7 +35952,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Towns`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38731,7 +35965,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Traill`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38745,7 +35978,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Transylvania`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38759,7 +35991,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Traverse`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38773,7 +36004,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Travis`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38787,7 +36017,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Treasure`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38801,7 +36030,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Trego`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38815,7 +36043,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Trempealeau`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38829,7 +36056,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Treutlen`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38843,7 +36069,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Trigg`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38857,7 +36082,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Trimble`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38871,7 +36095,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Trinity`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38885,7 +36108,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Trinity`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38899,7 +36121,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tripp`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38913,7 +36134,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Troup`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38927,7 +36147,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Trousdale`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38941,7 +36160,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Trumbull`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38955,7 +36173,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tucker`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38969,7 +36186,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tulare`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38983,7 +36199,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tulsa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -38997,7 +36212,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tunica`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39011,7 +36225,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tuolumne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39025,7 +36238,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Turner`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39039,7 +36251,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Turner`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39053,7 +36264,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tuscaloosa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39067,7 +36277,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tuscarawas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39081,7 +36290,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tuscola`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39095,7 +36303,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Twiggs`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39109,7 +36316,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Twin Falls`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39123,7 +36329,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tyler`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39137,7 +36342,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tyler`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39151,7 +36355,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Tyrrell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39165,7 +36368,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Uinta`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39179,7 +36381,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Uintah`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39193,7 +36394,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ulster`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39207,7 +36407,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Umatilla`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39221,7 +36420,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Unicoi`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39235,7 +36433,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Union`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39249,7 +36446,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Union`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39263,7 +36459,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Union`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39277,7 +36472,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Union`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39291,7 +36485,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Union`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39305,7 +36498,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Union`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39319,7 +36511,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Union`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39333,7 +36524,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Union`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39347,7 +36537,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Union`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39361,7 +36550,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Union`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39375,7 +36563,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Union`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39389,7 +36576,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Union`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39403,7 +36589,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Union`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39417,7 +36602,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Union`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39431,7 +36615,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Union`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39445,7 +36628,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Union`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39459,7 +36641,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Union`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39473,7 +36654,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Union`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39487,7 +36667,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Upshur`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39501,7 +36680,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Upshur`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39515,7 +36693,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Upson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39529,7 +36706,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Upton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39543,7 +36719,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Utah`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39557,7 +36732,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Uvalde`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39571,7 +36745,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Val Verde`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39585,7 +36758,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Valdez-Cordova`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39599,7 +36771,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Valencia`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39613,7 +36784,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Valley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39627,7 +36797,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Valley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39641,7 +36810,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Valley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39655,7 +36823,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Van Buren`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39669,7 +36836,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Van Buren`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39683,7 +36849,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Van Buren`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39697,7 +36862,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Van Buren`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39711,7 +36875,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Van Wert`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39725,7 +36888,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Van Zandt`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39739,7 +36901,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Vance`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39753,7 +36914,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Vanderburgh`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39767,7 +36927,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Venango`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39781,7 +36940,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ventura`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39795,7 +36953,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Vermilion`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39809,7 +36966,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Vermilion`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39823,7 +36979,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Vermillion`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39837,7 +36992,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Vernon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39851,7 +37005,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Vernon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39865,7 +37018,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Vernon`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39879,7 +37031,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Victoria`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39893,7 +37044,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Vigo`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39907,7 +37057,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Vilas`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39921,7 +37070,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Vinton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39935,7 +37083,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Virginia Beach`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39949,7 +37096,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Volusia`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39963,7 +37109,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wabash`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39977,7 +37122,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wabash`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -39991,7 +37135,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wabasha`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40005,7 +37148,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wabaunsee`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40019,7 +37161,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wadena`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40033,7 +37174,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wagoner`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40047,7 +37187,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wahkiakum`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40061,7 +37200,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wake`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40075,7 +37213,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wakulla`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40089,7 +37226,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Waldo`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40103,7 +37239,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Walker`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40117,7 +37252,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Walker`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40131,7 +37265,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Walker`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40145,7 +37278,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Walla Walla`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40159,7 +37291,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wallace`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40173,7 +37304,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Waller`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40187,7 +37317,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wallowa`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40201,7 +37330,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Walsh`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40215,7 +37343,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Walthall`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40229,7 +37356,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Walton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40243,7 +37369,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Walton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40257,7 +37382,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Walworth`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40271,7 +37395,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Walworth`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40285,7 +37408,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wapello`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40299,7 +37421,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ward`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40313,7 +37434,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ward`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40327,7 +37447,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ware`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40341,7 +37460,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Warren`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40355,7 +37473,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Warren`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40369,7 +37486,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Warren`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40383,7 +37499,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Warren`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40397,7 +37512,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Warren`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40411,7 +37525,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Warren`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40425,7 +37538,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Warren`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40439,7 +37551,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Warren`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40453,7 +37564,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Warren`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40467,7 +37577,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Warren`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40481,7 +37590,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Warren`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40495,7 +37603,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Warren`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40509,7 +37616,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Warren`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40523,7 +37629,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Warren`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40537,7 +37642,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Warrick`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40551,7 +37655,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wasatch`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40565,7 +37668,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wasco`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40579,7 +37681,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Waseca`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40593,7 +37694,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washakie`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40607,7 +37707,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washburn`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40621,7 +37720,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40635,7 +37733,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40649,7 +37746,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40663,7 +37759,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40677,7 +37772,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40691,7 +37785,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40705,7 +37798,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40719,7 +37811,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40733,7 +37824,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40747,7 +37837,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40761,7 +37850,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40775,7 +37863,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40789,7 +37876,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40803,7 +37889,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40817,7 +37902,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40831,7 +37915,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40845,7 +37928,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40859,7 +37941,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40873,7 +37954,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40887,7 +37967,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40901,7 +37980,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40915,7 +37993,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40929,7 +38006,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40943,7 +38019,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40957,7 +38032,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40971,7 +38045,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40985,7 +38058,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -40999,7 +38071,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41013,7 +38084,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41027,7 +38097,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41041,7 +38110,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washington`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41055,7 +38123,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washita`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41069,7 +38136,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washoe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41083,7 +38149,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Washtenaw`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41097,7 +38162,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Watauga`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41111,7 +38175,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Watonwan`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41125,7 +38188,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Waukesha`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41139,7 +38201,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Waupaca`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41153,7 +38214,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Waushara`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41167,7 +38227,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wayne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41181,7 +38240,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wayne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41195,7 +38253,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wayne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41209,7 +38266,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wayne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41223,7 +38279,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wayne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41237,7 +38292,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wayne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41251,7 +38305,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wayne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41265,7 +38318,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wayne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41279,7 +38331,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wayne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41293,7 +38344,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wayne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41307,7 +38357,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wayne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41321,7 +38370,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wayne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41335,7 +38383,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wayne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41349,7 +38396,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wayne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41363,7 +38409,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wayne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41377,7 +38422,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wayne`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41391,7 +38435,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Waynesboro`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41405,7 +38448,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Weakley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41419,7 +38461,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Webb`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41433,7 +38474,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Weber`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41447,7 +38487,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Webster`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41461,7 +38500,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Webster`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41475,7 +38513,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Webster`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41489,7 +38526,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Webster`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41503,7 +38539,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Webster`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41517,7 +38552,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Webster`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41531,7 +38565,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Webster`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41545,7 +38578,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Webster`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41559,7 +38591,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Weld`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41573,7 +38604,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wells`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41587,7 +38617,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wells`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41601,7 +38630,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `West Baton Rouge`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41615,7 +38643,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `West Carroll`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41629,7 +38656,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `West Feliciana`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41643,7 +38669,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Westchester`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41657,7 +38682,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Westmoreland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41671,7 +38695,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Westmoreland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41685,7 +38708,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Weston`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41699,7 +38721,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wetzel`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41713,7 +38734,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wexford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41727,7 +38747,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wharton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41741,7 +38760,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Whatcom`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41755,7 +38773,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wheatland`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41769,7 +38786,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wheeler`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41783,7 +38799,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wheeler`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41797,7 +38812,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wheeler`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41811,7 +38825,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wheeler`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41825,7 +38838,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `White`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41839,7 +38851,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `White`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41853,7 +38864,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `White`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41867,7 +38877,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `White`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41881,7 +38890,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `White`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41895,7 +38903,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `White Pine`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41909,7 +38916,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Whiteside`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41923,7 +38929,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Whitfield`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41937,7 +38942,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Whitley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41951,7 +38955,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Whitley`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41965,7 +38968,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Whitman`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41979,7 +38981,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wibaux`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -41993,7 +38994,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wichita`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42007,7 +39007,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wichita`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42021,7 +39020,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wicomico`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42035,7 +39033,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wilbarger`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42049,7 +39046,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wilcox`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42063,7 +39059,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wilcox`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42077,7 +39072,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wilkes`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42091,7 +39085,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wilkes`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42105,7 +39098,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wilkin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42119,7 +39111,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wilkinson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42133,7 +39124,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wilkinson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42147,7 +39137,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Will`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42161,7 +39150,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Willacy`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42175,7 +39163,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Williams`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42189,7 +39176,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Williams`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42203,7 +39189,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Williamsburg`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42217,7 +39202,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Williamsburg`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42231,7 +39215,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Williamson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42245,7 +39228,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Williamson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42259,7 +39241,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Williamson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42273,7 +39254,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wilson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42287,7 +39267,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wilson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42301,7 +39280,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wilson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42315,7 +39293,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wilson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42329,7 +39306,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Winchester`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42343,7 +39319,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Windham`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42357,7 +39332,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Windham`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42371,7 +39345,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Windsor`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42385,7 +39358,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Winkler`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42399,7 +39371,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Winn`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42413,7 +39384,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Winnebago`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42427,7 +39397,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Winnebago`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42441,7 +39410,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Winnebago`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42455,7 +39423,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Winneshiek`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42469,7 +39436,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Winona`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42483,7 +39449,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Winston`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42497,7 +39462,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Winston`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42511,7 +39475,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wirt`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42525,7 +39488,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wise`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42539,7 +39501,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wise`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42553,7 +39514,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wolfe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42567,7 +39527,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wood`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42581,7 +39540,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wood`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42595,7 +39553,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wood`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42609,7 +39566,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wood`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42623,7 +39579,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Woodbury`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42637,7 +39592,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Woodford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42651,7 +39605,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Woodford`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42665,7 +39618,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Woodruff`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42679,7 +39631,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Woods`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42693,7 +39644,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Woodson`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42707,7 +39657,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Woodward`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42721,7 +39670,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Worcester`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42735,7 +39683,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Worcester`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42749,7 +39696,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Worth`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42763,7 +39709,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Worth`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42777,7 +39722,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Worth`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42791,7 +39735,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wrangell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42805,7 +39748,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wright`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42819,7 +39761,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wright`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42833,7 +39774,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wright`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42847,7 +39787,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wyandot`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42861,7 +39800,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wyandotte`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42875,7 +39813,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wyoming`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42889,7 +39826,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wyoming`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42903,7 +39839,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wyoming`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42917,7 +39852,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Wythe`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42931,7 +39865,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Yadkin`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42945,7 +39878,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Yakima`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42959,7 +39891,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Yakutat`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42973,7 +39904,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Yalobusha`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -42987,7 +39917,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Yamhill`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -43001,7 +39930,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Yancey`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -43015,7 +39943,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Yankton`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -43029,7 +39956,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Yates`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -43043,7 +39969,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Yavapai`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -43057,7 +39982,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Yazoo`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -43071,7 +39995,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Yell`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -43085,7 +40008,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Yellow Medicine`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -43099,7 +40021,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Yellowstone`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -43113,7 +40034,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Yoakum`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -43127,7 +40047,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Yolo`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -43141,7 +40060,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `York`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -43155,7 +40073,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `York`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -43169,7 +40086,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `York`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -43183,7 +40099,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `York`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -43197,7 +40112,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `York`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -43211,7 +40125,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Young`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -43225,7 +40138,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Yuba`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -43239,7 +40151,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Yukon-Koyukuk`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -43253,7 +40164,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Yuma`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -43267,7 +40177,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Yuma`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -43281,7 +40190,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Zapata`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -43295,7 +40203,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Zavala`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -43309,7 +40216,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Ziebach`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,
@@ -43323,7 +40229,6 @@ export const CitiesData: PlaceSeedData[] = [{
   locales: {
     en: `Allen`
   },
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   alternativeNames: undefined,

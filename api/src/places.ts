@@ -23,6 +23,12 @@ const SerializePlace = (place: Place, { locale }: { locale: LocaleId }) => {
       .map(child => SerializePlace(child, { locale }))
   }
   delete place.locales
+  for (const [key, value] of Object.entries(place)) {
+    if (value === null) {
+      delete place[key]
+    }
+  }
+  if (place.population) place.population = parseInt(place.population as any)
   return place
 }
 
@@ -112,6 +118,9 @@ places.get('/places', async (req, res) => {
               'alpha2code', child.alpha2code,
               'alpha3code', child.alpha3code,
               'dataSource', child."dataSource",
+              'hospitalBeds', child."hospitalBeds",
+              'icuBeds', child."icuBeds",
+              'hospitalBedOccupancy', child."hospitalBedOccupancy",
               'location', ST_AsGeoJSON(child.location),
               'population', child.population,
               'latestData', ${getLatestDataQuery('child')}
@@ -197,6 +206,9 @@ places.get('/places/closest', async (req, res) => {
               'alpha2code', child.alpha2code,
               'alpha3code', child.alpha3code,
               'dataSource', child."dataSource",
+              'hospitalBeds', child."hospitalBeds",
+              'icuBeds', child."icuBeds",
+              'hospitalBedOccupancy', child."hospitalBedOccupancy",
               'location', ST_AsGeoJSON(child.location),
               'population', child.population,
               'latestData', ${getLatestDataQuery('child')}

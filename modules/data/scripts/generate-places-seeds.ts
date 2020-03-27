@@ -222,7 +222,6 @@ const CountryPolygons = require('./polygons.json')
 export const CountriesData: PlaceSeedData[] = [${countries.map(({
   id,
   locales,
-  phoneCode,
   alpha2code,
   alpha3code,
   population,
@@ -237,7 +236,6 @@ export const CountriesData: PlaceSeedData[] = [${countries.map(({
   locales: {
     ${Object.entries(locales).map(([ locale, name ]) => `${locale}: \`${name}\``).join(',\n    ')}
   },
-  phoneCode: ${phoneCode && `\`${phoneCode}\``},
   alpha2code: ${alpha2code && `\`${alpha2code}\``},
   alpha3code: ${alpha3code && `\`${alpha3code}\``},
   alternativeNames: ${alternativeNames && `[${alternativeNames.map(name => `\`${name}\``).join(', ')}]`},
@@ -265,7 +263,6 @@ const RegionPolygons = require('./polygons.json')
 export const RegionsData: PlaceSeedData[] = [${regions.map(({
     id,
     locales,
-    phoneCode,
     alpha2code,
     alpha3code,
     population,
@@ -279,7 +276,6 @@ export const RegionsData: PlaceSeedData[] = [${regions.map(({
     ${Object.entries(locales).map(([ locale, name ]) => `${locale}: \`${name}\``).join(',\n    ')}
   },
   alternativeNames: ${alternativeNames && `[${alternativeNames.map(name => `\`${name}\``).join(', ')}]`},
-  phoneCode: ${phoneCode && `\`${phoneCode}\``},
   alpha2code: ${alpha2code && `\`${alpha2code}\``},
   alpha3code: ${alpha3code && `\`${alpha3code}\``},
   population: ${population},
@@ -303,7 +299,6 @@ const CityPolygons = require('./polygons.json')
 export const CitiesData: PlaceSeedData[] = [${cities.map(({
   id,
   locales,
-  phoneCode,
   alpha2code,
   alpha3code,
   population,
@@ -316,7 +311,6 @@ export const CitiesData: PlaceSeedData[] = [${cities.map(({
   locales: {
     ${Object.entries(locales).map(([ locale, name ]) => `${locale}: \`${name}\``).join(',\n    ')}
   },
-  phoneCode: ${phoneCode && `\`${phoneCode}\``},
   alpha2code: ${alpha2code && `\`${alpha2code}\``},
   alpha3code: ${alpha3code && `\`${alpha3code}\``},
   alternativeNames: ${alternativeNames && `[${alternativeNames.map(name => `\`${name}\``).join(', ')}]`},

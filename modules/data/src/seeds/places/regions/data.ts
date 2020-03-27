@@ -8,7 +8,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gibraltar`
   },
   alternativeNames: undefined,
-  phoneCode: `+350`,
   alpha2code: `GI`,
   alpha3code: `GIB`,
   population: 33691,
@@ -22,7 +21,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jersey`
   },
   alternativeNames: undefined,
-  phoneCode: `+44`,
   alpha2code: `JE`,
   alpha3code: `JEY`,
   population: 97857,
@@ -36,7 +34,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Guernsey`
   },
   alternativeNames: undefined,
-  phoneCode: `+44`,
   alpha2code: `GG`,
   alpha3code: `GGY`,
   population: 67052,
@@ -50,7 +47,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `British Indian Ocean Territory`
   },
   alternativeNames: undefined,
-  phoneCode: `+246`,
   alpha2code: `IO`,
   alpha3code: `IOT`,
   population: 2500,
@@ -64,7 +60,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `British Virgin Islands`
   },
   alternativeNames: undefined,
-  phoneCode: `+1`,
   alpha2code: `VG`,
   alpha3code: `VGB`,
   population: 30231,
@@ -78,7 +73,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `US Virgin Islands`
   },
   alternativeNames: undefined,
-  phoneCode: `+1`,
   alpha2code: `VI`,
   alpha3code: `VIR`,
   population: 104425,
@@ -92,7 +86,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hubei`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 59170000,
@@ -106,7 +99,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Guangdong`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 113460000,
@@ -120,7 +112,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Henan`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 96050000,
@@ -134,7 +125,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Zhejiang`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 57370000,
@@ -148,7 +138,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hunan`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 68990000,
@@ -162,7 +151,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Anhui`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 63240000,
@@ -176,7 +164,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jiangxi`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 46480000,
@@ -190,7 +177,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Shandong`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 100470000,
@@ -204,7 +190,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jiangsu`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 80510000,
@@ -218,7 +203,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chongqing`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 31020000,
@@ -232,7 +216,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sichuan`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 83410000,
@@ -246,7 +229,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Heilongjiang`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 37730000,
@@ -260,7 +242,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Beijing`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21540000,
@@ -274,7 +255,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Shanghai`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24240000,
@@ -288,7 +268,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hebei`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 75560000,
@@ -302,7 +281,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fujian`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 39410000,
@@ -316,7 +294,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Guangxi`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 49260000,
@@ -330,7 +307,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Shaanxi`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 38640000,
@@ -344,7 +320,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Yunnan`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 48300000,
@@ -358,7 +333,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hainan`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9340000,
@@ -372,7 +346,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Guizhou`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 36000000,
@@ -386,7 +359,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tianjin`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15600000,
@@ -400,7 +372,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Shanxi`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 37180000,
@@ -414,7 +385,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gansu`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26370000,
@@ -428,7 +398,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Liaoning`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 43590000,
@@ -442,7 +411,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jilin`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 27040000,
@@ -456,7 +424,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Xinjiang`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24870000,
@@ -470,7 +437,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Inner Mongolia`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25000034,
@@ -484,7 +450,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ningxia`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6880000,
@@ -498,7 +463,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Qinghai`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6030000,
@@ -512,7 +476,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `St Martin`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -526,7 +489,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Channel Islands`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -540,7 +502,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tibet`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3440000,
@@ -554,7 +515,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Saint Barthelemy`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9793,
@@ -568,7 +528,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `French Polynesia`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -582,7 +541,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `French Guiana`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -596,7 +554,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mayotte`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 270372,
@@ -610,7 +567,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Guadeloupe`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 390253,
@@ -624,7 +580,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Curacao`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -638,7 +593,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cayman Islands`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -652,7 +606,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Reunion`
   },
   alternativeNames: [`La Réunion`, `Réunion`, `La Reunion`],
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: `REU`,
   population: 853659,
@@ -666,7 +619,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Aruba`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -680,7 +632,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Montserrat`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -694,7 +645,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Greenland`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -708,7 +658,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `New Caledonia`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -722,7 +671,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bermuda`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -736,7 +684,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Australian Capital Territory`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 426709,
@@ -750,7 +697,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `New South Wales`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8089526,
@@ -764,7 +710,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Northern Territory`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 245869,
@@ -778,7 +723,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Queensland`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5095100,
@@ -792,7 +736,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `South Australia`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1751693,
@@ -806,7 +749,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tasmania`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 534281,
@@ -820,7 +762,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Victoria`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6594804,
@@ -834,7 +775,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Western Australia`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2621680,
@@ -848,7 +788,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `RO`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1777225,
@@ -862,7 +801,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `AC`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 881935,
@@ -876,7 +814,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `AM`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4144597,
@@ -890,7 +827,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `RR`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 60576,
@@ -904,7 +840,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `PA`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11433957,
@@ -918,7 +853,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `AP`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 845731,
@@ -932,7 +866,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `TO`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1572866,
@@ -946,7 +879,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `MA`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7075181,
@@ -960,7 +892,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `PI`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3273227,
@@ -974,7 +905,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `CE`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9132078,
@@ -988,7 +918,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `RN`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3506853,
@@ -1002,7 +931,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `PB`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4018127,
@@ -1016,7 +944,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `PE`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9557071,
@@ -1030,7 +957,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `AL`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3337357,
@@ -1044,7 +970,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `SE`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2298696,
@@ -1058,7 +983,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `BA`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14873064,
@@ -1072,7 +996,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `MG`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21168791,
@@ -1086,7 +1009,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `ES`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4018650,
@@ -1100,7 +1022,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `RJ`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17264943,
@@ -1114,7 +1035,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `SP`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 45919049,
@@ -1128,7 +1048,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `PR`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11433957,
@@ -1142,7 +1061,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `SC`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7164788,
@@ -1156,7 +1074,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `RS`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11377239,
@@ -1170,7 +1087,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `MS`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2778986,
@@ -1184,7 +1100,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `MT`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3484466,
@@ -1198,7 +1113,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `GO`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7018354,
@@ -1212,7 +1126,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `DF`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3015268,
@@ -1226,7 +1139,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `British Columbia`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5071000,
@@ -1240,7 +1152,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Alberta`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4067175,
@@ -1254,7 +1165,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Saskatchewan`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1098352,
@@ -1268,7 +1178,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Manitoba`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1278365,
@@ -1282,7 +1191,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ontario`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13448494,
@@ -1296,7 +1204,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Quebec`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8164361,
@@ -1310,7 +1217,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Newfoundland and Labrador`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 519716,
@@ -1324,7 +1230,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `New Brunswick`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 747101,
@@ -1338,7 +1243,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nova Scotia`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 923598,
@@ -1352,7 +1256,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Prince Edward Island`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 142907,
@@ -1366,7 +1269,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Yukon`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 35874,
@@ -1380,7 +1282,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Northwest Territories`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 41786,
@@ -1394,7 +1295,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nunavut`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 35944,
@@ -1408,7 +1308,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Zurich`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -1422,7 +1321,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Andalucía`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8446561,
@@ -1436,7 +1334,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Aragón`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1324397,
@@ -1450,7 +1347,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Principado de Asturias`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -1464,7 +1360,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Illes Balears`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -1478,7 +1373,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Canarias`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2220270,
@@ -1492,7 +1386,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cantabria`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 581949,
@@ -1506,7 +1399,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Castilla y León`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2402877,
@@ -1520,7 +1412,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Castilla-La Mancha`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2038440,
@@ -1534,7 +1425,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cataluña`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7609499,
@@ -1548,7 +1438,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Comunidad Valenciana`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -1562,7 +1451,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Extremadura`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1062797,
@@ -1576,7 +1464,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Galicia`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2698764,
@@ -1590,7 +1477,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Comunidad de Madrid`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -1604,7 +1490,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Región de Murcia`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -1618,7 +1503,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Comunidad Foral de Navarra`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -1632,7 +1516,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `País Vasco`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2181919,
@@ -1646,7 +1529,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `La Rioja`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 314487,
@@ -1660,7 +1542,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ceuta`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 84434,
@@ -1674,7 +1555,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Melilla`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 84286,
@@ -1688,7 +1568,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Abruzzo`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1311580,
@@ -1702,7 +1581,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Basilicata`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 562869,
@@ -1716,7 +1594,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `P.A. Bolzano`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 107436,
@@ -1730,7 +1607,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Calabria`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1947131,
@@ -1744,7 +1620,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Campania`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5801692,
@@ -1758,7 +1633,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Emilia Romagna`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4459477,
@@ -1772,7 +1646,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Friuli Venezia Giulia`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1215220,
@@ -1786,7 +1659,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lazio`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5879082,
@@ -1800,7 +1672,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Liguria`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1550640,
@@ -1814,7 +1685,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lombardia`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10060574,
@@ -1828,7 +1698,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marche`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1525271,
@@ -1842,7 +1711,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Molise`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 305617,
@@ -1856,7 +1724,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Piemonte`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4356406,
@@ -1870,7 +1737,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Puglia`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4029053,
@@ -1884,7 +1750,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sardegna`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1639591,
@@ -1898,7 +1763,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sicilia`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4999891,
@@ -1912,7 +1776,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Toscana`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3729641,
@@ -1926,7 +1789,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `P.A. Trento`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1072276,
@@ -1940,7 +1802,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Umbria`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 882015,
@@ -1954,7 +1815,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Valle d'Aosta`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 125666,
@@ -1968,7 +1828,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Veneto`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4905854,
@@ -1982,7 +1841,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Alaska`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `AK`,
   alpha3code: undefined,
   population: 731545,
@@ -1996,7 +1854,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Alabama`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `AL`,
   alpha3code: undefined,
   population: 4903185,
@@ -2010,7 +1867,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Arkansas`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `AR`,
   alpha3code: undefined,
   population: 3017804,
@@ -2024,7 +1880,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `American Samoa`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `AS`,
   alpha3code: undefined,
   population: undefined,
@@ -2038,7 +1893,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Arizona`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `AZ`,
   alpha3code: undefined,
   population: 7278717,
@@ -2052,7 +1906,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Colorado`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `CO`,
   alpha3code: undefined,
   population: 5758736,
@@ -2066,7 +1919,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Connecticut`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `CT`,
   alpha3code: undefined,
   population: 3565287,
@@ -2080,7 +1932,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `District of Columbia`
   },
   alternativeNames: [`Washington, D.C.`],
-  phoneCode: undefined,
   alpha2code: `DC`,
   alpha3code: undefined,
   population: 705749,
@@ -2094,7 +1945,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Delaware`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `DE`,
   alpha3code: undefined,
   population: 973764,
@@ -2108,7 +1958,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Florida`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `FL`,
   alpha3code: undefined,
   population: 21477737,
@@ -2122,7 +1971,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Georgia`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `GA`,
   alpha3code: undefined,
   population: 10617423,
@@ -2136,7 +1984,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Guam`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `GU`,
   alpha3code: undefined,
   population: undefined,
@@ -2150,7 +1997,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hawaii`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `HI`,
   alpha3code: undefined,
   population: 1415872,
@@ -2164,7 +2010,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Iowa`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `IA`,
   alpha3code: undefined,
   population: 3155070,
@@ -2178,7 +2023,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Idaho`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `ID`,
   alpha3code: undefined,
   population: 1787065,
@@ -2192,7 +2036,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Illinois`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `IL`,
   alpha3code: undefined,
   population: 12671821,
@@ -2206,7 +2049,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Indiana`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `IN`,
   alpha3code: undefined,
   population: 6732219,
@@ -2220,7 +2062,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kansas`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `KS`,
   alpha3code: undefined,
   population: 2913314,
@@ -2234,7 +2075,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kentucky`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `KY`,
   alpha3code: undefined,
   population: 4467673,
@@ -2248,7 +2088,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Louisiana`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `LA`,
   alpha3code: undefined,
   population: 4648794,
@@ -2262,7 +2101,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Massachusetts`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `MA`,
   alpha3code: undefined,
   population: 6892503,
@@ -2276,7 +2114,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Maryland`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `MD`,
   alpha3code: undefined,
   population: 6045680,
@@ -2290,7 +2127,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Maine`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `ME`,
   alpha3code: undefined,
   population: 1344212,
@@ -2304,7 +2140,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Michigan`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `MI`,
   alpha3code: undefined,
   population: 9986857,
@@ -2318,7 +2153,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Minnesota`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `MN`,
   alpha3code: undefined,
   population: 5639632,
@@ -2332,7 +2166,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Missouri`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `MO`,
   alpha3code: undefined,
   population: 6137428,
@@ -2346,7 +2179,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Northern Mariana Islands`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `MP`,
   alpha3code: undefined,
   population: undefined,
@@ -2360,7 +2192,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mississippi`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `MS`,
   alpha3code: undefined,
   population: 2976149,
@@ -2374,7 +2205,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Montana`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `MT`,
   alpha3code: undefined,
   population: 1068778,
@@ -2388,7 +2218,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `North Carolina`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `NC`,
   alpha3code: undefined,
   population: 10488084,
@@ -2402,7 +2231,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `North Dakota`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `ND`,
   alpha3code: undefined,
   population: 762062,
@@ -2416,7 +2244,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nebraska`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `NE`,
   alpha3code: undefined,
   population: 1934408,
@@ -2430,7 +2257,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `New Hampshire`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `NH`,
   alpha3code: undefined,
   population: 1359711,
@@ -2444,7 +2270,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `New Jersey`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `NJ`,
   alpha3code: undefined,
   population: 8882190,
@@ -2458,7 +2283,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `New Mexico`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `NM`,
   alpha3code: undefined,
   population: 2096829,
@@ -2472,7 +2296,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nevada`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `NV`,
   alpha3code: undefined,
   population: 3080156,
@@ -2486,7 +2309,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `New York`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `NY`,
   alpha3code: undefined,
   population: 19453561,
@@ -2500,7 +2322,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ohio`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `OH`,
   alpha3code: undefined,
   population: 11689100,
@@ -2514,7 +2335,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Oklahoma`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `OK`,
   alpha3code: undefined,
   population: 3956971,
@@ -2528,7 +2348,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Oregon`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `OR`,
   alpha3code: undefined,
   population: 4217737,
@@ -2542,7 +2361,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pennsylvania`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `PA`,
   alpha3code: undefined,
   population: 12801989,
@@ -2556,7 +2374,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Puerto Rico`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `PR`,
   alpha3code: undefined,
   population: 3193694,
@@ -2570,7 +2387,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rhode Island`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `RI`,
   alpha3code: undefined,
   population: 1059361,
@@ -2584,7 +2400,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `South Carolina`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `SC`,
   alpha3code: undefined,
   population: 5148714,
@@ -2598,7 +2413,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `South Dakota`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `SD`,
   alpha3code: undefined,
   population: 884659,
@@ -2612,7 +2426,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tennessee`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `TN`,
   alpha3code: undefined,
   population: 6829174,
@@ -2626,7 +2439,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Texas`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `TX`,
   alpha3code: undefined,
   population: 28995881,
@@ -2640,7 +2452,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Utah`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `UT`,
   alpha3code: undefined,
   population: 3205958,
@@ -2654,7 +2465,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Virginia`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `VA`,
   alpha3code: undefined,
   population: 8535519,
@@ -2668,7 +2478,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Vermont`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `VT`,
   alpha3code: undefined,
   population: 623989,
@@ -2682,7 +2491,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `WA`,
   alpha3code: undefined,
   population: 7614893,
@@ -2696,7 +2504,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wisconsin`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `WI`,
   alpha3code: undefined,
   population: 5822434,
@@ -2710,7 +2517,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `West Virginia`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `WV`,
   alpha3code: undefined,
   population: 1792147,
@@ -2724,7 +2530,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wyoming`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `WY`,
   alpha3code: undefined,
   population: 578759,
@@ -2738,7 +2543,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Baldwin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 218022,
@@ -2752,7 +2556,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Calhoun County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 114277,
@@ -2766,7 +2569,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chambers County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 33615,
@@ -2780,7 +2582,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Elmore County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 81887,
@@ -2794,7 +2595,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 163941,
@@ -2808,7 +2608,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jefferson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 659300,
@@ -2822,7 +2621,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Limestone County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 96174,
@@ -2836,7 +2634,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Madison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 366519,
@@ -2850,7 +2647,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mobile County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 413757,
@@ -2864,7 +2660,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Montgomery County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 225763,
@@ -2878,7 +2673,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Shelby County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 215707,
@@ -2892,7 +2686,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `St. Clair County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 88690,
@@ -2906,7 +2699,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Talladega County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 79828,
@@ -2920,7 +2712,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tuscaloosa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 208911,
@@ -2934,7 +2725,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Walker County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 63711,
@@ -2948,7 +2738,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Autauga County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 55601,
@@ -2962,7 +2751,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Barbour County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24881,
@@ -2976,7 +2764,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bibb County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22400,
@@ -2990,7 +2777,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Blount County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 57840,
@@ -3004,7 +2790,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bullock County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10138,
@@ -3018,7 +2803,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Butler County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19680,
@@ -3032,7 +2816,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cherokee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26032,
@@ -3046,7 +2829,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chilton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 44153,
@@ -3060,7 +2842,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Choctaw County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12841,
@@ -3074,7 +2855,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clarke County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23920,
@@ -3088,7 +2868,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clay County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13275,
@@ -3102,7 +2881,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cleburne County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14987,
@@ -3116,7 +2894,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Coffee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 51909,
@@ -3130,7 +2907,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Colbert County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 54762,
@@ -3144,7 +2920,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Conecuh County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12277,
@@ -3158,7 +2933,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Coosa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10715,
@@ -3172,7 +2946,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Covington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 36986,
@@ -3186,7 +2959,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Crenshaw County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13824,
@@ -3200,7 +2972,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cullman County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 83442,
@@ -3214,7 +2985,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dale County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 48956,
@@ -3228,7 +2998,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dallas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 38310,
@@ -3242,7 +3011,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `DeKalb County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 71385,
@@ -3256,7 +3024,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Escambia County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 36748,
@@ -3270,7 +3037,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Etowah County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 102501,
@@ -3284,7 +3050,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fayette County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16433,
@@ -3298,7 +3063,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Franklin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 31363,
@@ -3312,7 +3076,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Geneva County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26314,
@@ -3326,7 +3089,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Greene County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8233,
@@ -3340,7 +3102,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hale County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14726,
@@ -3354,7 +3115,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Henry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17209,
@@ -3368,7 +3128,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Houston County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 104722,
@@ -3382,7 +3141,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jackson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 51736,
@@ -3396,7 +3154,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lamar County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13844,
@@ -3410,7 +3167,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lauderdale County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 92387,
@@ -3424,7 +3180,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lawrence County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 32957,
@@ -3438,7 +3193,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lowndes County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9974,
@@ -3452,7 +3206,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Macon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18439,
@@ -3466,7 +3219,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marengo County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19066,
@@ -3480,7 +3232,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marion County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 29763,
@@ -3494,7 +3245,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marshall County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 96109,
@@ -3508,7 +3258,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Monroe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21067,
@@ -3522,7 +3271,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Morgan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 119089,
@@ -3536,7 +3284,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Perry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9140,
@@ -3550,7 +3297,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pickens County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19938,
@@ -3564,7 +3310,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pike County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 33338,
@@ -3578,7 +3323,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Randolph County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22725,
@@ -3592,7 +3336,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Russell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 57781,
@@ -3606,7 +3349,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sumter County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12691,
@@ -3620,7 +3362,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tallapoosa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40497,
@@ -3634,7 +3375,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16378,
@@ -3648,7 +3388,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wilcox County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10627,
@@ -3662,7 +3401,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Winston County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23660,
@@ -3676,7 +3414,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `California`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: `CA`,
   alpha3code: undefined,
   population: 1666753,
@@ -3690,7 +3427,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Alameda County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1666753,
@@ -3704,7 +3440,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Alpine County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1101,
@@ -3718,7 +3453,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Amador County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 39383,
@@ -3732,7 +3466,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Butte County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 231256,
@@ -3746,7 +3479,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Calaveras County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 45602,
@@ -3760,7 +3492,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Colusa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21627,
@@ -3774,7 +3505,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Contra Costa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1150215,
@@ -3788,7 +3518,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Del Norte County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 27828,
@@ -3802,7 +3531,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `El Dorado County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 190678,
@@ -3816,7 +3544,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fresno County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 994400,
@@ -3830,7 +3557,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Glenn County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28047,
@@ -3844,7 +3570,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Humboldt County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 136373,
@@ -3858,7 +3583,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Imperial County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 181827,
@@ -3872,7 +3596,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Inyo County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17987,
@@ -3886,7 +3609,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kern County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 896764,
@@ -3900,7 +3622,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kings County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 151366,
@@ -3914,7 +3635,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lake County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 64382,
@@ -3928,7 +3648,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lassen County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 30802,
@@ -3942,7 +3661,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Los Angeles County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10105518,
@@ -3956,7 +3674,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Madera County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 157672,
@@ -3970,7 +3687,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 259666,
@@ -3984,7 +3700,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mariposa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17471,
@@ -3998,7 +3713,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mendocino County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 87606,
@@ -4012,7 +3726,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Merced County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 274765,
@@ -4026,7 +3739,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Modoc County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8777,
@@ -4040,7 +3752,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mono County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14250,
@@ -4054,7 +3765,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Monterey County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 435594,
@@ -4068,7 +3778,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Napa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 139417,
@@ -4082,7 +3791,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nevada County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 99696,
@@ -4096,7 +3804,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Orange County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3185968,
@@ -4110,7 +3817,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Placer County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 393149,
@@ -4124,7 +3830,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Plumas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18804,
@@ -4138,7 +3843,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Riverside County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2450758,
@@ -4152,7 +3856,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sacramento County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1540975,
@@ -4166,7 +3869,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `San Benito County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 61537,
@@ -4180,7 +3882,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `San Bernardino County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2171603,
@@ -4194,7 +3895,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `San Diego County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3343364,
@@ -4208,7 +3908,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `San Francisco County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 883305,
@@ -4222,7 +3921,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `San Joaquin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 752660,
@@ -4236,7 +3934,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `San Luis Obispo County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 284010,
@@ -4250,7 +3947,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `San Mateo County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 769545,
@@ -4264,7 +3960,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Santa Barbara County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 446527,
@@ -4278,7 +3973,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Santa Clara County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1937570,
@@ -4292,7 +3986,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Santa Cruz County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 274255,
@@ -4306,7 +3999,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Shasta County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 180040,
@@ -4320,7 +4012,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sierra County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2987,
@@ -4334,7 +4025,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Siskiyou County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 43724,
@@ -4348,7 +4038,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Solano County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 446610,
@@ -4362,7 +4051,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sonoma County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 499942,
@@ -4376,7 +4064,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Stanislaus County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 549815,
@@ -4390,7 +4077,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sutter County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 96807,
@@ -4404,7 +4090,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tehama County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 63916,
@@ -4418,7 +4103,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Trinity County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12535,
@@ -4432,7 +4116,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tulare County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 465861,
@@ -4446,7 +4129,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tuolumne County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 54539,
@@ -4460,7 +4142,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ventura County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 850967,
@@ -4474,7 +4155,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Yolo County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 220408,
@@ -4488,7 +4168,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Yuba County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 78041,
@@ -4502,7 +4181,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Saguache County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6829,
@@ -4516,7 +4194,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sedgwick County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2275,
@@ -4530,7 +4207,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cheyenne County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1867,
@@ -4544,7 +4220,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Custer County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4934,
@@ -4558,7 +4233,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `La Plata County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 56446,
@@ -4572,7 +4246,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `San Juan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 747,
@@ -4586,7 +4259,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pitkin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17926,
@@ -4600,7 +4272,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Park County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18545,
@@ -4614,7 +4285,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Alamosa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16178,
@@ -4628,7 +4298,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Prowers County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12076,
@@ -4642,7 +4311,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Moffat County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13201,
@@ -4656,7 +4324,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jefferson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 579877,
@@ -4670,7 +4337,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Summit County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 30978,
@@ -4684,7 +4350,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pueblo County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 167081,
@@ -4698,7 +4363,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Boulder County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 325520,
@@ -4712,7 +4376,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Denver County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 717862,
@@ -4726,7 +4389,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Montrose County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 42280,
@@ -4740,7 +4402,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Eagle County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 54895,
@@ -4754,7 +4415,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `San Miguel County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8196,
@@ -4768,7 +4428,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Costilla County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3819,
@@ -4782,7 +4441,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Broomfield County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 69130,
@@ -4796,7 +4454,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chaffee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20010,
@@ -4810,7 +4467,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Crowley County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5855,
@@ -4824,7 +4480,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fremont County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 47921,
@@ -4838,7 +4493,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Huerfano County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6850,
@@ -4852,7 +4506,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Delta County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 30936,
@@ -4866,7 +4519,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Garfield County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 59854,
@@ -4880,7 +4532,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rio Blanco County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6293,
@@ -4894,7 +4545,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Morgan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28436,
@@ -4908,7 +4558,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lincoln County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5574,
@@ -4922,7 +4571,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Montezuma County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26121,
@@ -4936,7 +4584,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Adams County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 511720,
@@ -4950,7 +4597,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mineral County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 754,
@@ -4964,7 +4610,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Otero County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18352,
@@ -4978,7 +4623,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Phillips County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4280,
@@ -4992,7 +4636,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ouray County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4812,
@@ -5006,7 +4649,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bent County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5833,
@@ -5020,7 +4662,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Archuleta County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13764,
@@ -5034,7 +4675,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Routt County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25716,
@@ -5048,7 +4688,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hinsdale County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 804,
@@ -5062,7 +4701,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Weld County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 314288,
@@ -5076,7 +4714,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Larimer County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 350424,
@@ -5090,7 +4727,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lake County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7766,
@@ -5104,7 +4740,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rio Grande County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11213,
@@ -5118,7 +4753,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gilpin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6096,
@@ -5132,7 +4766,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Yuma County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10037,
@@ -5146,7 +4779,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jackson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1394,
@@ -5160,7 +4792,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kit Carson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7169,
@@ -5174,7 +4805,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clear Creek County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9659,
@@ -5188,7 +4818,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Logan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21858,
@@ -5202,7 +4831,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4716,
@@ -5216,7 +4844,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Douglas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 342937,
@@ -5230,7 +4857,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Conejos County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8151,
@@ -5244,7 +4870,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `El Paso County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 714536,
@@ -5258,7 +4883,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kiowa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1373,
@@ -5272,7 +4896,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Teller County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25068,
@@ -5286,7 +4909,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gunnison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17182,
@@ -5300,7 +4922,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Baca County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3551,
@@ -5314,7 +4935,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Elbert County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26243,
@@ -5328,7 +4948,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mesa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 153628,
@@ -5342,7 +4961,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dolores County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2050,
@@ -5356,7 +4974,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Arapahoe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 651513,
@@ -5370,7 +4987,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Las Animas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14529,
@@ -5384,7 +5000,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grand County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15503,
@@ -5398,7 +5013,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fairfield County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 943823,
@@ -5412,7 +5026,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hartford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 892697,
@@ -5426,7 +5039,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Litchfield County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 181111,
@@ -5440,7 +5052,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Middlesex County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 162682,
@@ -5454,7 +5065,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `New Haven County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 857620,
@@ -5468,7 +5078,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tolland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 150921,
@@ -5482,7 +5091,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Windham County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 117027,
@@ -5496,7 +5104,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `New Castle County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 559335,
@@ -5510,7 +5117,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kent County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 178550,
@@ -5524,7 +5130,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pea Patch County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -5538,7 +5143,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sussex County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 229286,
@@ -5552,7 +5156,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Reedy Island County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -5566,7 +5169,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `DE/NJ County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -5580,7 +5182,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Alachua County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 269956,
@@ -5594,7 +5195,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Brevard County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 596849,
@@ -5608,7 +5208,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Broward County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1951260,
@@ -5622,7 +5221,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Charlotte County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 184998,
@@ -5636,7 +5234,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Citrus County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 147929,
@@ -5650,7 +5247,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clay County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 216072,
@@ -5664,7 +5260,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Collier County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 378488,
@@ -5678,7 +5273,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Miami-Dade County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2761581,
@@ -5692,7 +5286,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Duval County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 950181,
@@ -5706,7 +5299,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Escambia County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 315534,
@@ -5720,7 +5312,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gadsden County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 45894,
@@ -5734,7 +5325,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hillsborough County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1436888,
@@ -5748,7 +5338,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lake County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 356495,
@@ -5762,7 +5351,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 754610,
@@ -5776,7 +5364,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Leon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 292502,
@@ -5790,7 +5377,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Manatee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 394855,
@@ -5804,7 +5390,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nassau County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 85832,
@@ -5818,7 +5403,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Okaloosa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 207269,
@@ -5832,7 +5416,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Orange County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1380645,
@@ -5846,7 +5429,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Osceola County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 367990,
@@ -5860,7 +5442,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Palm Beach County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1485941,
@@ -5874,7 +5455,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pasco County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 539630,
@@ -5888,7 +5468,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pinellas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 975280,
@@ -5902,7 +5481,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Polk County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 708009,
@@ -5916,7 +5494,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Santa Rosa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 179349,
@@ -5930,7 +5507,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sarasota County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 426718,
@@ -5944,7 +5520,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Seminole County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 467832,
@@ -5958,7 +5533,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `St. Johns County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 254261,
@@ -5972,7 +5546,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sumter County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 128754,
@@ -5986,7 +5559,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Volusia County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 547538,
@@ -6000,7 +5572,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Walton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 71375,
@@ -6014,7 +5585,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Baker County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28355,
@@ -6028,7 +5598,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bay County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 185287,
@@ -6042,7 +5611,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bradford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 27732,
@@ -6056,7 +5624,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Calhoun County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14587,
@@ -6070,7 +5637,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Columbia County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 70503,
@@ -6084,7 +5650,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `DeSoto County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 37489,
@@ -6098,7 +5663,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dixie County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16700,
@@ -6112,7 +5676,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Flagler County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 112067,
@@ -6126,7 +5689,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Franklin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11736,
@@ -6140,7 +5702,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gilchrist County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18256,
@@ -6154,7 +5715,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Glades County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13724,
@@ -6168,7 +5728,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gulf County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16164,
@@ -6182,7 +5741,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hamilton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14310,
@@ -6196,7 +5754,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hardee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 27245,
@@ -6210,7 +5767,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hendry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 41556,
@@ -6224,7 +5780,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hernando County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 190865,
@@ -6238,7 +5793,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Highlands County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 105424,
@@ -6252,7 +5806,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Holmes County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19477,
@@ -6266,7 +5819,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Indian River County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 157413,
@@ -6280,7 +5832,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jackson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 48305,
@@ -6294,7 +5845,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jefferson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14288,
@@ -6308,7 +5858,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lafayette County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8732,
@@ -6322,7 +5871,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Levy County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40770,
@@ -6336,7 +5884,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Liberty County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8457,
@@ -6350,7 +5897,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Madison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18529,
@@ -6364,7 +5910,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marion County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 359977,
@@ -6378,7 +5923,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Martin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 160912,
@@ -6392,7 +5936,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Monroe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 75027,
@@ -6406,7 +5949,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Okeechobee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 41537,
@@ -6420,7 +5962,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Putnam County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 74163,
@@ -6434,7 +5975,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `St. Lucie County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 321128,
@@ -6448,7 +5988,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Suwannee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 44191,
@@ -6462,7 +6001,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Taylor County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21623,
@@ -6476,7 +6014,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Union County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14940,
@@ -6490,7 +6027,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wakulla County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 32461,
@@ -6504,7 +6040,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24880,
@@ -6518,7 +6053,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Illinois County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -6532,7 +6066,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chicago County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -6546,7 +6079,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Suburban Cook County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -6560,7 +6092,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Adams County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 65691,
@@ -6574,7 +6105,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Alexander County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6060,
@@ -6588,7 +6118,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bond County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16630,
@@ -6602,7 +6131,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Boone County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 53577,
@@ -6616,7 +6144,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Brown County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6556,
@@ -6630,7 +6157,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bureau County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 32993,
@@ -6644,7 +6170,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Calhoun County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4802,
@@ -6658,7 +6183,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Carroll County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14312,
@@ -6672,7 +6196,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cass County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12260,
@@ -6686,7 +6209,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Champaign County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 209983,
@@ -6700,7 +6222,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Christian County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 32661,
@@ -6714,7 +6235,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clark County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15596,
@@ -6728,7 +6248,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clay County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13253,
@@ -6742,7 +6261,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clinton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 37639,
@@ -6756,7 +6274,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Coles County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 50885,
@@ -6770,7 +6287,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cook County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5180493,
@@ -6784,7 +6300,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Crawford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18807,
@@ -6798,7 +6313,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cumberland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10808,
@@ -6812,7 +6326,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `DeKalb County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 104143,
@@ -6826,7 +6339,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `De Witt County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15769,
@@ -6840,7 +6352,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Douglas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19479,
@@ -6854,7 +6365,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `DuPage County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 928589,
@@ -6868,7 +6378,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Edgar County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17360,
@@ -6882,7 +6391,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Edwards County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6392,
@@ -6896,7 +6404,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Effingham County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 34208,
@@ -6910,7 +6417,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fayette County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21416,
@@ -6924,7 +6430,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13264,
@@ -6938,7 +6443,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Franklin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 38701,
@@ -6952,7 +6456,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fulton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 34844,
@@ -6966,7 +6469,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gallatin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5058,
@@ -6980,7 +6482,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Greene County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13044,
@@ -6994,7 +6495,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grundy County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 50972,
@@ -7008,7 +6508,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hamilton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8163,
@@ -7022,7 +6521,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hancock County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17844,
@@ -7036,7 +6534,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hardin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3910,
@@ -7050,7 +6547,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Henderson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6709,
@@ -7064,7 +6560,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Henry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 49090,
@@ -7078,7 +6573,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Iroquois County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 27604,
@@ -7092,7 +6586,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jackson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 57419,
@@ -7106,7 +6599,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jasper County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9611,
@@ -7120,7 +6612,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jefferson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 37820,
@@ -7134,7 +6625,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jersey County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21847,
@@ -7148,7 +6638,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jo Daviess County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21366,
@@ -7162,7 +6651,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Johnson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12456,
@@ -7176,7 +6664,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kane County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 534216,
@@ -7190,7 +6677,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kankakee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 110024,
@@ -7204,7 +6690,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kendall County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 127915,
@@ -7218,7 +6703,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Knox County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 50112,
@@ -7232,7 +6716,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lake County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 700832,
@@ -7246,7 +6729,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `LaSalle County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 109430,
@@ -7260,7 +6742,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lawrence County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15765,
@@ -7274,7 +6755,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 34223,
@@ -7288,7 +6768,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Livingston County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 35761,
@@ -7302,7 +6781,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Logan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28925,
@@ -7316,7 +6794,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `McDonough County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 29955,
@@ -7330,7 +6807,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `McHenry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 308570,
@@ -7344,7 +6820,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `McLean County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 172828,
@@ -7358,7 +6833,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Macon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 104712,
@@ -7372,7 +6846,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Macoupin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 45313,
@@ -7386,7 +6859,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Madison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 264461,
@@ -7400,7 +6872,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marion County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 37620,
@@ -7414,7 +6885,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marshall County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11534,
@@ -7428,7 +6898,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mason County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13565,
@@ -7442,7 +6911,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Massac County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14080,
@@ -7456,7 +6924,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Menard County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12288,
@@ -7470,7 +6937,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mercer County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15601,
@@ -7484,7 +6950,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Monroe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 34335,
@@ -7498,7 +6963,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Montgomery County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28601,
@@ -7512,7 +6976,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Morgan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 33976,
@@ -7526,7 +6989,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Moultrie County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14717,
@@ -7540,7 +7002,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ogle County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 50923,
@@ -7554,7 +7015,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Peoria County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 180621,
@@ -7568,7 +7028,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Perry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21174,
@@ -7582,7 +7041,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Piatt County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16396,
@@ -7596,7 +7054,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pike County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15611,
@@ -7610,7 +7067,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pope County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4212,
@@ -7624,7 +7080,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pulaski County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5463,
@@ -7638,7 +7093,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Putnam County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5740,
@@ -7652,7 +7106,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Randolph County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 32106,
@@ -7666,7 +7119,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Richland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15763,
@@ -7680,7 +7132,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rock Island County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 143477,
@@ -7694,7 +7145,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `St. Clair County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 261059,
@@ -7708,7 +7158,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Saline County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23906,
@@ -7722,7 +7171,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sangamon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 195348,
@@ -7736,7 +7184,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Schuyler County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6907,
@@ -7750,7 +7197,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Scott County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4926,
@@ -7764,7 +7210,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Shelby County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21741,
@@ -7778,7 +7223,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Stark County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5427,
@@ -7792,7 +7236,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Stephenson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 44753,
@@ -7806,7 +7249,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tazewell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 132328,
@@ -7820,7 +7262,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Union County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16841,
@@ -7834,7 +7275,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Vermilion County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 76806,
@@ -7848,7 +7288,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wabash County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11549,
@@ -7862,7 +7301,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Warren County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17032,
@@ -7876,7 +7314,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13995,
@@ -7890,7 +7327,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wayne County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16332,
@@ -7904,7 +7340,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `White County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13665,
@@ -7918,7 +7353,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Whiteside County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 55626,
@@ -7932,7 +7366,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Will County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 692310,
@@ -7946,7 +7379,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Williamson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 67056,
@@ -7960,7 +7392,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Winnebago County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 284081,
@@ -7974,7 +7405,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Woodford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 38463,
@@ -7988,7 +7418,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `DeKalb County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 43226,
@@ -8002,7 +7431,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Boone County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 66999,
@@ -8016,7 +7444,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tippecanoe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 193048,
@@ -8030,7 +7457,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Johnson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 156225,
@@ -8044,7 +7470,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Elkhart County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 205560,
@@ -8058,7 +7483,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Adams County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 35636,
@@ -8072,7 +7496,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Noble County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 47532,
@@ -8086,7 +7509,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Madison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 129641,
@@ -8100,7 +7522,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `St. Joseph County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 270771,
@@ -8114,7 +7535,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jackson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 44111,
@@ -8128,7 +7548,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Vanderburgh County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 180974,
@@ -8142,7 +7561,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grant County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 65936,
@@ -8156,7 +7574,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Porter County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 169594,
@@ -8170,7 +7587,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marion County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 954670,
@@ -8184,7 +7600,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hamilton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 330086,
@@ -8198,7 +7613,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lake County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 484411,
@@ -8212,7 +7626,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Morgan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 70116,
@@ -8226,7 +7639,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hendricks County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 167009,
@@ -8240,7 +7652,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `LaPorte County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 110007,
@@ -8254,7 +7665,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Floyd County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 77781,
@@ -8268,7 +7678,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Shelby County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 44593,
@@ -8282,7 +7691,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Allen County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 375351,
@@ -8296,7 +7704,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tipton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15128,
@@ -8310,7 +7717,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rush County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16663,
@@ -8324,7 +7730,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Orange County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19489,
@@ -8338,7 +7743,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Crawford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10558,
@@ -8352,7 +7756,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Owen County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20845,
@@ -8366,7 +7769,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fountain County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16351,
@@ -8380,7 +7782,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Decatur County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26794,
@@ -8394,7 +7795,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fulton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20092,
@@ -8408,7 +7808,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `LaGrange County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 39330,
@@ -8422,7 +7821,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Knox County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 36895,
@@ -8436,7 +7834,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Monroe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 146917,
@@ -8450,7 +7847,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cass County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 37955,
@@ -8464,7 +7860,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Randolph County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24851,
@@ -8478,7 +7873,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Martin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10217,
@@ -8492,7 +7886,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 27943,
@@ -8506,7 +7899,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Parke County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16927,
@@ -8520,7 +7912,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kosciusko County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 79344,
@@ -8534,7 +7925,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wayne County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 65936,
@@ -8548,7 +7938,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Montgomery County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 38346,
@@ -8562,7 +7951,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hancock County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 76351,
@@ -8576,7 +7964,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Vigo County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 107386,
@@ -8590,7 +7977,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jefferson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 32208,
@@ -8604,7 +7990,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Huntington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 36240,
@@ -8618,7 +8003,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Harrison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40350,
@@ -8632,7 +8016,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wabash County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 31280,
@@ -8646,7 +8029,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Delaware County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 114772,
@@ -8660,7 +8042,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Posey County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25540,
@@ -8674,7 +8055,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Spencer County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20327,
@@ -8688,7 +8068,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ohio County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5844,
@@ -8702,7 +8081,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Carroll County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20127,
@@ -8716,7 +8094,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Warren County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8263,
@@ -8730,7 +8107,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Franklin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22736,
@@ -8744,7 +8120,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pulaski County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12469,
@@ -8758,7 +8133,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jay County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20764,
@@ -8772,7 +8146,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wells County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28206,
@@ -8786,7 +8159,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marshall County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 46248,
@@ -8800,7 +8172,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sullivan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20690,
@@ -8814,7 +8185,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Brown County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15234,
@@ -8828,7 +8198,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ripley County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28523,
@@ -8842,7 +8211,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Henry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 48271,
@@ -8856,7 +8224,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Howard County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 82366,
@@ -8870,7 +8237,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Whitley County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 34074,
@@ -8884,7 +8250,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dearborn County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 49568,
@@ -8898,7 +8263,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Blackford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11930,
@@ -8912,7 +8276,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Scott County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23878,
@@ -8926,7 +8289,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bartholomew County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 82753,
@@ -8940,7 +8302,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jasper County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 33370,
@@ -8954,7 +8315,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Union County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7037,
@@ -8968,7 +8328,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Vermillion County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15479,
@@ -8982,7 +8341,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Benton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8653,
@@ -8996,7 +8354,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clay County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26170,
@@ -9010,7 +8367,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lawrence County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 45668,
@@ -9024,7 +8380,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clark County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 117360,
@@ -9038,7 +8393,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Miami County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 35567,
@@ -9052,7 +8406,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fayette County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23047,
@@ -9066,7 +8419,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Newton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14011,
@@ -9080,7 +8432,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Perry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19102,
@@ -9094,7 +8445,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Putnam County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 37779,
@@ -9108,7 +8458,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Starke County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22935,
@@ -9122,7 +8471,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Greene County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 32006,
@@ -9136,7 +8484,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pike County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12410,
@@ -9150,7 +8497,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Warrick County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 62567,
@@ -9164,7 +8510,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Daviess County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 33147,
@@ -9178,7 +8523,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dubois County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 42565,
@@ -9192,7 +8536,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clinton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 32250,
@@ -9206,7 +8549,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `White County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24133,
@@ -9220,7 +8562,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Switzerland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10717,
@@ -9234,7 +8575,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Steuben County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 34586,
@@ -9248,7 +8588,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gibson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 33452,
@@ -9262,7 +8601,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jennings County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 27611,
@@ -9276,7 +8614,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Orleans Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 391006,
@@ -9290,7 +8627,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jefferson Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 434051,
@@ -9304,7 +8640,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `St. James Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21037,
@@ -9318,7 +8653,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Caddo Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 242922,
@@ -9332,7 +8666,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `St. Tammany Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 258111,
@@ -9346,7 +8679,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `East Baton Rouge Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 440956,
@@ -9360,7 +8692,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bossier Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 127185,
@@ -9374,7 +8705,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lafourche Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 98115,
@@ -9388,7 +8718,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `St. Bernard Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 46721,
@@ -9402,7 +8731,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `St. Charles Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 52879,
@@ -9416,7 +8744,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Terrebonne Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 111021,
@@ -9430,7 +8757,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lafayette Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 242782,
@@ -9444,7 +8770,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `St. John the Baptist Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 43184,
@@ -9458,7 +8783,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ascension Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 124672,
@@ -9472,7 +8796,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `St. Landry Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 82764,
@@ -9486,7 +8809,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 46582,
@@ -9500,7 +8822,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `West Baton Rouge Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26427,
@@ -9514,7 +8835,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Acadia Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 62190,
@@ -9528,7 +8848,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Assumption Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22300,
@@ -9542,7 +8861,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Calcasieu Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 203112,
@@ -9556,7 +8874,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Iberia Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 70941,
@@ -9570,7 +8887,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Iberville Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 32721,
@@ -9584,7 +8900,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Livingston Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 139567,
@@ -9598,7 +8913,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Plaquemines Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23410,
@@ -9612,7 +8926,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rapides Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 130562,
@@ -9626,7 +8939,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Webster Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 38798,
@@ -9640,7 +8952,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Allen Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25605,
@@ -9654,7 +8965,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Avoyelles Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40462,
@@ -9668,7 +8978,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Beauregard Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 37253,
@@ -9682,7 +8991,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bienville Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13308,
@@ -9696,7 +9004,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Caldwell Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9960,
@@ -9710,7 +9017,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cameron Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6968,
@@ -9724,7 +9030,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Catahoula Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9608,
@@ -9738,7 +9043,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Claiborne Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15944,
@@ -9752,7 +9056,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Concordia Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19572,
@@ -9766,7 +9069,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `De Soto Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 27436,
@@ -9780,7 +9082,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `East Carroll Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7037,
@@ -9794,7 +9095,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `East Feliciana Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19305,
@@ -9808,7 +9108,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Evangeline Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 33443,
@@ -9822,7 +9121,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Franklin Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20156,
@@ -9836,7 +9134,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grant Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22482,
@@ -9850,7 +9147,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jackson Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15902,
@@ -9864,7 +9160,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jefferson Davis Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 31582,
@@ -9878,7 +9173,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `LaSalle Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14917,
@@ -9892,7 +9186,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lincoln Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 47196,
@@ -9906,7 +9199,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Madison Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11161,
@@ -9920,7 +9212,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Morehouse Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25398,
@@ -9934,7 +9225,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Natchitoches Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 38659,
@@ -9948,7 +9238,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ouachita Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 154475,
@@ -9962,7 +9251,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pointe Coupee Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21940,
@@ -9976,7 +9264,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Red River Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8477,
@@ -9990,7 +9277,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Richland Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20192,
@@ -10004,7 +9290,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sabine Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24032,
@@ -10018,7 +9303,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `St. Helena Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10262,
@@ -10032,7 +9316,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `St. Martin Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 53621,
@@ -10046,7 +9329,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `St. Mary Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 49774,
@@ -10060,7 +9342,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tangipahoa Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 133777,
@@ -10074,7 +9355,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tensas Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4462,
@@ -10088,7 +9368,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Union Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22330,
@@ -10102,7 +9381,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Vermilion Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 59830,
@@ -10116,7 +9394,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Vernon Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 48860,
@@ -10130,7 +9407,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `West Carroll Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10982,
@@ -10144,7 +9420,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `West Feliciana Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15460,
@@ -10158,7 +9433,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Winn Parish`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14134,
@@ -10172,7 +9446,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `(unassigned)`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -10186,7 +9459,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Allegany County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 70975,
@@ -10200,7 +9472,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Anne Arundel County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 576031,
@@ -10214,7 +9485,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Baltimore County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 828431,
@@ -10228,7 +9498,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Baltimore City`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -10242,7 +9511,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Calvert County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 92003,
@@ -10256,7 +9524,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Caroline County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 33304,
@@ -10270,7 +9537,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Carroll County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 168429,
@@ -10284,7 +9550,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cecil County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 102826,
@@ -10298,7 +9563,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Charles County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 161503,
@@ -10312,7 +9576,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dorchester County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 31998,
@@ -10326,7 +9589,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Frederick County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 255648,
@@ -10340,7 +9602,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Garrett County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 29163,
@@ -10354,7 +9615,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Harford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 253956,
@@ -10368,7 +9628,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Howard County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 323196,
@@ -10382,7 +9641,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kent County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19383,
@@ -10396,7 +9654,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Montgomery County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1052567,
@@ -10410,7 +9667,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Prince George's County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 909308,
@@ -10424,7 +9680,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Queen Anne's County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 50251,
@@ -10438,7 +9693,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Somerset County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25675,
@@ -10452,7 +9706,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `St. Mary's County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 112664,
@@ -10466,7 +9719,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Talbot County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 36968,
@@ -10480,7 +9732,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 150926,
@@ -10494,7 +9745,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wicomico County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 103195,
@@ -10508,7 +9758,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Worcester County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 51823,
@@ -10522,7 +9771,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bolivar County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 31333,
@@ -10536,7 +9784,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Coahoma County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22628,
@@ -10550,7 +9797,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Copiah County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28543,
@@ -10564,7 +9810,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `DeSoto County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 182001,
@@ -10578,7 +9823,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Forrest County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 75036,
@@ -10592,7 +9836,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hancock County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 47334,
@@ -10606,7 +9849,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Harrison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 206650,
@@ -10620,7 +9862,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hinds County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 237085,
@@ -10634,7 +9875,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Holmes County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17622,
@@ -10648,7 +9888,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jackson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 143277,
@@ -10662,7 +9901,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jones County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 68461,
@@ -10676,7 +9914,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Leflore County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28919,
@@ -10690,7 +9927,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Madison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 105630,
@@ -10704,7 +9940,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Monroe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 35564,
@@ -10718,7 +9953,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pearl River County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 55387,
@@ -10732,7 +9966,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Perry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11931,
@@ -10746,7 +9979,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Smith County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16002,
@@ -10760,7 +9992,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Walthall County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14465,
@@ -10774,7 +10005,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wilkinson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8792,
@@ -10788,7 +10018,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Winston County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18165,
@@ -10802,7 +10031,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Yazoo County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28248,
@@ -10816,7 +10044,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Total County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -10830,7 +10057,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Adams County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 31192,
@@ -10844,7 +10070,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Alcorn County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 36925,
@@ -10858,7 +10083,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Amite County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12326,
@@ -10872,7 +10096,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Attala County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18365,
@@ -10886,7 +10109,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Benton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8271,
@@ -10900,7 +10122,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Calhoun County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14436,
@@ -10914,7 +10135,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Carroll County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9911,
@@ -10928,7 +10148,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chickasaw County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17171,
@@ -10942,7 +10161,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Choctaw County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8278,
@@ -10956,7 +10174,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Claiborne County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9002,
@@ -10970,7 +10187,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clarke County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15604,
@@ -10984,7 +10200,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clay County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19386,
@@ -10998,7 +10213,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Covington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18853,
@@ -11012,7 +10226,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Franklin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7788,
@@ -11026,7 +10239,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `George County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24250,
@@ -11040,7 +10252,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Greene County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13586,
@@ -11054,7 +10265,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grenada County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21055,
@@ -11068,7 +10278,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Humphreys County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8257,
@@ -11082,7 +10291,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Issaquena County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1308,
@@ -11096,7 +10304,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Itawamba County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23517,
@@ -11110,7 +10317,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jasper County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16428,
@@ -11124,7 +10330,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jefferson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7106,
@@ -11138,7 +10343,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jefferson Davis County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11234,
@@ -11152,7 +10356,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kemper County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10027,
@@ -11166,7 +10369,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lafayette County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 54793,
@@ -11180,7 +10382,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lamar County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 62447,
@@ -11194,7 +10395,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lauderdale County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 75317,
@@ -11208,7 +10408,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lawrence County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12455,
@@ -11222,7 +10421,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Leake County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22763,
@@ -11236,7 +10434,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 85202,
@@ -11250,7 +10447,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lincoln County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 34205,
@@ -11264,7 +10460,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lowndes County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 58930,
@@ -11278,7 +10473,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marion County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24715,
@@ -11292,7 +10486,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marshall County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 35451,
@@ -11306,7 +10499,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Montgomery County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10023,
@@ -11320,7 +10512,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Neshoba County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 29125,
@@ -11334,7 +10525,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Newton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21443,
@@ -11348,7 +10538,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Noxubee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10535,
@@ -11362,7 +10551,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Oktibbeha County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 49599,
@@ -11376,7 +10564,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Panola County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 34178,
@@ -11390,7 +10577,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pike County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 39563,
@@ -11404,7 +10590,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pontotoc County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 31833,
@@ -11418,7 +10603,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Prentiss County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25315,
@@ -11432,7 +10616,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Quitman County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7051,
@@ -11446,7 +10629,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rankin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 153902,
@@ -11460,7 +10642,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Scott County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28287,
@@ -11474,7 +10655,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sharkey County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4377,
@@ -11488,7 +10668,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Simpson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26758,
@@ -11502,7 +10681,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Stone County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18717,
@@ -11516,7 +10694,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sunflower County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25735,
@@ -11530,7 +10707,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tallahatchie County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13987,
@@ -11544,7 +10720,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tate County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28759,
@@ -11558,7 +10733,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tippah County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21995,
@@ -11572,7 +10746,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tishomingo County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19454,
@@ -11586,7 +10759,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tunica County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9944,
@@ -11600,7 +10772,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Union County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28606,
@@ -11614,7 +10785,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Warren County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 46176,
@@ -11628,7 +10798,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 45063,
@@ -11642,7 +10811,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wayne County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20298,
@@ -11656,7 +10824,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Webster County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9788,
@@ -11670,7 +10837,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Yalobusha County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12392,
@@ -11684,7 +10850,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rockingham County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 90690,
@@ -11698,7 +10863,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Guilford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 533670,
@@ -11712,7 +10876,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Alamance County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 166436,
@@ -11726,7 +10889,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Alexander County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 37353,
@@ -11740,7 +10902,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Randolph County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 143351,
@@ -11754,7 +10915,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wayne County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 123248,
@@ -11768,7 +10928,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ashe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 27109,
@@ -11782,7 +10941,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Alleghany County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11161,
@@ -11796,7 +10954,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Currituck County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 27072,
@@ -11810,7 +10967,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Camden County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10710,
@@ -11824,7 +10980,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Surry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 71948,
@@ -11838,7 +10993,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gates County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11573,
@@ -11852,7 +11006,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hertford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23659,
@@ -11866,7 +11019,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Northampton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19676,
@@ -11880,7 +11032,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Stokes County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 45467,
@@ -11894,7 +11045,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Warren County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19807,
@@ -11908,7 +11058,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Vance County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 44582,
@@ -11922,7 +11071,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Granville County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 60115,
@@ -11936,7 +11084,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Caswell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22698,
@@ -11950,7 +11097,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Person County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 39507,
@@ -11964,7 +11110,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pasquotank County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 39639,
@@ -11978,7 +11123,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Halifax County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 50574,
@@ -11992,7 +11136,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wilkes County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 68557,
@@ -12006,7 +11149,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Watauga County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 55945,
@@ -12020,7 +11162,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Perquimans County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13422,
@@ -12034,7 +11175,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chowan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14029,
@@ -12048,7 +11188,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Avery County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17505,
@@ -12062,7 +11201,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Yadkin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 37543,
@@ -12076,7 +11214,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dare County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 36501,
@@ -12090,7 +11227,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Forsyth County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 379099,
@@ -12104,7 +11240,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Franklin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 67560,
@@ -12118,7 +11253,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bertie County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19026,
@@ -12132,7 +11266,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Orange County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 146027,
@@ -12146,7 +11279,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Durham County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 316739,
@@ -12160,7 +11292,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nash County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 94016,
@@ -12174,7 +11305,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mitchell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15000,
@@ -12188,7 +11318,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Edgecombe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 52005,
@@ -12202,7 +11331,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Caldwell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 82029,
@@ -12216,7 +11344,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tyrrell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4131,
@@ -12230,7 +11357,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Yancey County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17903,
@@ -12244,7 +11370,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Madison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21763,
@@ -12258,7 +11383,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Martin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22671,
@@ -12272,7 +11396,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wake County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1092305,
@@ -12286,7 +11409,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Davie County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 42733,
@@ -12300,7 +11422,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11859,
@@ -12314,7 +11435,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Burke County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 90382,
@@ -12328,7 +11448,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Davidson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 166614,
@@ -12342,7 +11461,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `McDowell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 45507,
@@ -12356,7 +11474,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chatham County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 73139,
@@ -12370,7 +11487,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wilson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 81455,
@@ -12384,7 +11500,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Buncombe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 259103,
@@ -12398,7 +11513,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Haywood County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 61971,
@@ -12412,7 +11526,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Catawba County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 158652,
@@ -12426,7 +11539,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pitt County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 179914,
@@ -12440,7 +11552,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Johnston County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 202675,
@@ -12454,7 +11565,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Swain County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14245,
@@ -12468,7 +11578,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Beaufort County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 47079,
@@ -12482,7 +11591,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hyde County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5230,
@@ -12496,7 +11604,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Greene County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21012,
@@ -12510,7 +11617,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rutherford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 66826,
@@ -12524,7 +11630,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 61452,
@@ -12538,7 +11643,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cleveland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 97645,
@@ -12552,7 +11656,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jackson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 43327,
@@ -12566,7 +11669,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Harnett County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 134214,
@@ -12580,7 +11682,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Graham County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8484,
@@ -12594,7 +11695,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Henderson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 116748,
@@ -12608,7 +11708,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Moore County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 98682,
@@ -12622,7 +11721,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Montgomery County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 27271,
@@ -12636,7 +11734,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Stanly County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 62075,
@@ -12650,7 +11747,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Transylvania County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 34215,
@@ -12664,7 +11760,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Polk County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20611,
@@ -12678,7 +11773,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lenoir County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 55976,
@@ -12692,7 +11786,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Craven County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 102912,
@@ -12706,7 +11799,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Macon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 35285,
@@ -12720,7 +11812,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cherokee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28383,
@@ -12734,7 +11825,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pamlico County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12670,
@@ -12748,7 +11838,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sampson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 63626,
@@ -12762,7 +11851,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cumberland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 332330,
@@ -12776,7 +11864,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clay County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11139,
@@ -12790,7 +11877,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jones County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9637,
@@ -12804,7 +11890,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Carteret County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 69524,
@@ -12818,7 +11903,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Union County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 235908,
@@ -12832,7 +11916,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Anson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24877,
@@ -12846,7 +11929,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hoke County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 54764,
@@ -12860,7 +11942,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Duplin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 58856,
@@ -12874,7 +11955,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Richmond County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 44887,
@@ -12888,7 +11968,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Scotland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 34810,
@@ -12902,7 +11981,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Onslow County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 197683,
@@ -12916,7 +11994,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Robeson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 131831,
@@ -12930,7 +12007,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bladen County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 33190,
@@ -12944,7 +12020,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pender County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 62162,
@@ -12958,7 +12033,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Columbus County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 55655,
@@ -12972,7 +12046,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `New Hanover County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 232274,
@@ -12986,7 +12059,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Brunswick County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 136744,
@@ -13000,7 +12072,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Iredell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 178435,
@@ -13014,7 +12085,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rowan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 141262,
@@ -13028,7 +12098,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lincoln County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 83770,
@@ -13042,7 +12111,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mecklenburg County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1093901,
@@ -13056,7 +12124,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cabarrus County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 211342,
@@ -13070,7 +12137,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gaston County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 222846,
@@ -13084,7 +12150,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Atlantic County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 265429,
@@ -13098,7 +12163,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bergen County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 936692,
@@ -13112,7 +12176,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Burlington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 445384,
@@ -13126,7 +12189,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Camden County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 507078,
@@ -13140,7 +12202,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cape May County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 92560,
@@ -13154,7 +12215,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Essex County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 799767,
@@ -13168,7 +12228,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gloucester County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 291408,
@@ -13182,7 +12241,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hudson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 676061,
@@ -13196,7 +12254,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hunterdon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 124714,
@@ -13210,7 +12267,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mercer County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 369811,
@@ -13224,7 +12280,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Monmouth County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 621354,
@@ -13238,7 +12293,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ocean County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 601651,
@@ -13252,7 +12306,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Passaic County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 503310,
@@ -13266,7 +12319,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Somerset County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 331164,
@@ -13280,7 +12332,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sussex County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 140799,
@@ -13294,7 +12345,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Union County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 558067,
@@ -13308,7 +12358,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Warren County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 105779,
@@ -13322,7 +12371,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Morris County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 494228,
@@ -13336,7 +12384,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Middlesex County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 829685,
@@ -13350,7 +12397,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cumberland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 150972,
@@ -13364,7 +12410,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Salem County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 62607,
@@ -13378,7 +12423,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Albany County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 307117,
@@ -13392,7 +12436,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Allegany County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 46430,
@@ -13406,7 +12449,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Broome County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 191659,
@@ -13420,7 +12462,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chenango County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 47536,
@@ -13434,7 +12475,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clinton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 80695,
@@ -13448,7 +12488,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Delaware County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 44527,
@@ -13462,7 +12501,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dutchess County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 293718,
@@ -13476,7 +12514,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Erie County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 919719,
@@ -13490,7 +12527,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Essex County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 37300,
@@ -13504,7 +12540,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fulton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 53591,
@@ -13518,7 +12553,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Genesee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 57511,
@@ -13532,7 +12566,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Greene County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 47491,
@@ -13546,7 +12579,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hamilton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4434,
@@ -13560,7 +12592,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Herkimer County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 61833,
@@ -13574,7 +12605,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jefferson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 111755,
@@ -13588,7 +12618,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Monroe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 742474,
@@ -13602,7 +12631,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Montgomery County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 49455,
@@ -13616,7 +12644,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nassau County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1358343,
@@ -13630,7 +12657,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Niagara County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 210433,
@@ -13644,7 +12670,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `New York County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1628701,
@@ -13658,7 +12683,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Oneida County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 229577,
@@ -13672,7 +12696,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Onondaga County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 461809,
@@ -13686,7 +12709,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ontario County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 109864,
@@ -13700,7 +12722,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Orange County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 381951,
@@ -13714,7 +12735,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Putnam County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 98892,
@@ -13728,7 +12748,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rensselaer County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 159442,
@@ -13742,7 +12761,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rockland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 325695,
@@ -13756,7 +12774,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Saratoga County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 230163,
@@ -13770,7 +12787,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Schenectady County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 155350,
@@ -13784,7 +12800,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Schoharie County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 31097,
@@ -13798,7 +12813,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Suffolk County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1481093,
@@ -13812,7 +12826,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sullivan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 75498,
@@ -13826,7 +12839,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tioga County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 48560,
@@ -13840,7 +12852,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tompkins County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 102793,
@@ -13854,7 +12865,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ulster County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 178599,
@@ -13868,7 +12878,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Warren County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 64265,
@@ -13882,7 +12891,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 61197,
@@ -13896,7 +12904,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wayne County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 90064,
@@ -13910,7 +12917,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Westchester County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 967612,
@@ -13924,7 +12930,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wyoming County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40085,
@@ -13938,7 +12943,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Total Number of Positive Cases County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -13952,7 +12956,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bronx County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1432132,
@@ -13966,7 +12969,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cattaraugus County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 76840,
@@ -13980,7 +12982,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cayuga County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 77145,
@@ -13994,7 +12995,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chautauqua County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 127939,
@@ -14008,7 +13008,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chemung County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 84254,
@@ -14022,7 +13021,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Columbia County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 59916,
@@ -14036,7 +13034,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cortland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 47823,
@@ -14050,7 +13047,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Franklin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 50293,
@@ -14064,7 +13060,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kings County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2582830,
@@ -14078,7 +13073,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lewis County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26447,
@@ -14092,7 +13086,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Livingston County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 63227,
@@ -14106,7 +13099,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Madison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 70795,
@@ -14120,7 +13112,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Orleans County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40612,
@@ -14134,7 +13125,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Oswego County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 117898,
@@ -14148,7 +13138,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Otsego County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 59749,
@@ -14162,7 +13151,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Queens County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2278906,
@@ -14176,7 +13164,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Richmond County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 476179,
@@ -14190,7 +13177,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `St. Lawrence County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 108047,
@@ -14204,7 +13190,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Schuyler County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17912,
@@ -14218,7 +13203,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Seneca County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 34300,
@@ -14232,7 +13216,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Steuben County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 95796,
@@ -14246,7 +13229,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Yates County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24841,
@@ -14260,7 +13242,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ashland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 53745,
@@ -14274,7 +13255,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Belmont County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 67505,
@@ -14288,7 +13268,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Butler County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 382378,
@@ -14302,7 +13281,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clark County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 134585,
@@ -14316,7 +13294,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Coshocton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 36629,
@@ -14330,7 +13307,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cuyahoga County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1243857,
@@ -14344,7 +13320,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Darke County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 51323,
@@ -14358,7 +13333,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Delaware County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 204826,
@@ -14372,7 +13346,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Franklin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1310300,
@@ -14386,7 +13359,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Geauga County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 94031,
@@ -14400,7 +13372,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hamilton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 816684,
@@ -14414,7 +13385,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Huron County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 58504,
@@ -14428,7 +13398,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lake County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 230514,
@@ -14442,7 +13411,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lorain County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 309461,
@@ -14456,7 +13424,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lucas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 429899,
@@ -14470,7 +13437,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mahoning County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 229642,
@@ -14484,7 +13450,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Medina County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 179146,
@@ -14498,7 +13463,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Miami County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 106222,
@@ -14512,7 +13476,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Montgomery County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 532331,
@@ -14526,7 +13489,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Richland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 121099,
@@ -14540,7 +13502,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Stark County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 371574,
@@ -14554,7 +13515,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Summit County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 541918,
@@ -14568,7 +13528,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Trumbull County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 198627,
@@ -14582,7 +13541,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tuscarawas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 92176,
@@ -14596,7 +13554,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Adams County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 27724,
@@ -14610,7 +13567,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Allen County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 102663,
@@ -14624,7 +13580,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ashtabula County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 97493,
@@ -14638,7 +13593,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Athens County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 65818,
@@ -14652,7 +13606,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Auglaize County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 45804,
@@ -14666,7 +13619,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Brown County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 43602,
@@ -14680,7 +13632,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Carroll County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 27081,
@@ -14694,7 +13645,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Champaign County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 38754,
@@ -14708,7 +13658,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clermont County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 205466,
@@ -14722,7 +13671,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clinton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 42057,
@@ -14736,7 +13684,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Columbiana County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 102665,
@@ -14750,7 +13697,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Crawford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 41550,
@@ -14764,7 +13710,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Defiance County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 38165,
@@ -14778,7 +13723,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Erie County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 74615,
@@ -14792,7 +13736,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fairfield County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 155782,
@@ -14806,7 +13749,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fayette County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28666,
@@ -14820,7 +13762,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fulton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 42276,
@@ -14834,7 +13775,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gallia County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 29979,
@@ -14848,7 +13788,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Greene County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 167995,
@@ -14862,7 +13801,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Guernsey County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 39022,
@@ -14876,7 +13814,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hancock County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 75930,
@@ -14890,7 +13827,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hardin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 31480,
@@ -14904,7 +13840,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Harrison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15174,
@@ -14918,7 +13853,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Henry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 27086,
@@ -14932,7 +13866,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Highland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 43058,
@@ -14946,7 +13879,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hocking County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28385,
@@ -14960,7 +13892,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Holmes County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 43892,
@@ -14974,7 +13905,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jackson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 32384,
@@ -14988,7 +13918,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jefferson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 65767,
@@ -15002,7 +13931,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Knox County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 61893,
@@ -15016,7 +13944,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lawrence County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 59866,
@@ -15030,7 +13957,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Licking County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 175769,
@@ -15044,7 +13970,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Logan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 45358,
@@ -15058,7 +13983,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Madison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 44413,
@@ -15072,7 +13996,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marion County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 65256,
@@ -15086,7 +14009,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Meigs County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23106,
@@ -15100,7 +14022,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mercer County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40959,
@@ -15114,7 +14035,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Monroe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13790,
@@ -15128,7 +14048,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Morgan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14604,
@@ -15142,7 +14061,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Morrow County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 35112,
@@ -15156,7 +14074,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Muskingum County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 86183,
@@ -15170,7 +14087,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Noble County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14354,
@@ -15184,7 +14100,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ottawa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40769,
@@ -15198,7 +14113,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Paulding County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18760,
@@ -15212,7 +14126,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Perry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 36033,
@@ -15226,7 +14139,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pickaway County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 58086,
@@ -15240,7 +14152,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pike County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28067,
@@ -15254,7 +14165,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Portage County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 162927,
@@ -15268,7 +14178,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Preble County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40997,
@@ -15282,7 +14191,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Putnam County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 33780,
@@ -15296,7 +14204,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ross County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 76931,
@@ -15310,7 +14217,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sandusky County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 58799,
@@ -15324,7 +14230,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Scioto County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 75502,
@@ -15338,7 +14243,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Seneca County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 55207,
@@ -15352,7 +14256,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Shelby County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 48627,
@@ -15366,7 +14269,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Union County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 57835,
@@ -15380,7 +14282,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Van Wert County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28281,
@@ -15394,7 +14295,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Vinton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13139,
@@ -15408,7 +14308,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Warren County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 232173,
@@ -15422,7 +14321,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 60155,
@@ -15436,7 +14334,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wayne County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 115967,
@@ -15450,7 +14347,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Williams County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 36804,
@@ -15464,7 +14360,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wood County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 130696,
@@ -15478,7 +14373,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wyandot County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21935,
@@ -15492,7 +14386,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Benton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 92101,
@@ -15506,7 +14399,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clackamas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 416075,
@@ -15520,7 +14412,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Deschutes County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 191996,
@@ -15534,7 +14425,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Douglas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 110283,
@@ -15548,7 +14438,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jackson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 219564,
@@ -15562,7 +14451,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Klamath County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 67653,
@@ -15576,7 +14464,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lane County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 379611,
@@ -15590,7 +14477,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Linn County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 127335,
@@ -15604,7 +14490,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marion County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 346868,
@@ -15618,7 +14503,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Multnomah County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 811880,
@@ -15632,7 +14516,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Polk County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 85234,
@@ -15646,7 +14529,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Umatilla County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 77516,
@@ -15660,7 +14542,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 597695,
@@ -15674,7 +14555,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Yamhill County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 107002,
@@ -15688,7 +14568,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Baker County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16006,
@@ -15702,7 +14581,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clatsop County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 39764,
@@ -15716,7 +14594,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Columbia County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 52377,
@@ -15730,7 +14607,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Coos County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 64389,
@@ -15744,7 +14620,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Crook County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23867,
@@ -15758,7 +14633,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Curry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22813,
@@ -15772,7 +14646,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gilliam County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1894,
@@ -15786,7 +14659,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grant County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7176,
@@ -15800,7 +14672,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Harney County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7329,
@@ -15814,7 +14685,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hood River County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23428,
@@ -15828,7 +14698,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jefferson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24192,
@@ -15842,7 +14711,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Josephine County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 87393,
@@ -15856,7 +14724,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lake County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7879,
@@ -15870,7 +14737,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lincoln County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 49388,
@@ -15884,7 +14750,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Malheur County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 30725,
@@ -15898,7 +14763,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Morrow County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11372,
@@ -15912,7 +14776,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sherman County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1708,
@@ -15926,7 +14789,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tillamook County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26787,
@@ -15940,7 +14802,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Union County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26461,
@@ -15954,7 +14815,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wallowa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7081,
@@ -15968,7 +14828,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wasco County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26505,
@@ -15982,7 +14841,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wheeler County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1366,
@@ -15996,7 +14854,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Adams`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -16010,7 +14867,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Allegheny`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -16024,7 +14880,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Beaver`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -16038,7 +14893,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Berks`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -16052,7 +14906,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bucks`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -16066,7 +14919,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chester`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -16080,7 +14932,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cumberland`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -16094,7 +14945,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Delaware`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -16108,7 +14958,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lackawanna`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -16122,7 +14971,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lancaster`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -16136,7 +14984,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lebanon`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -16150,7 +14997,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lehigh`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -16164,7 +15010,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Luzerne`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -16178,7 +15023,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Monroe`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -16192,7 +15036,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Montgomery`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -16206,7 +15049,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Northampton`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -16220,7 +15062,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Philadelphia`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -16234,7 +15075,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pike`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -16248,7 +15088,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -16262,7 +15101,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wayne`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -16276,7 +15114,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Westmoreland`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -16290,7 +15127,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `York`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -16304,7 +15140,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Campbell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 39583,
@@ -16318,7 +15153,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cheatham County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40439,
@@ -16332,7 +15166,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cumberland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 59673,
@@ -16346,7 +15179,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Davidson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 692587,
@@ -16360,7 +15192,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dyer County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 37320,
@@ -16374,7 +15205,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hamilton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 364286,
@@ -16388,7 +15218,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jefferson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 54012,
@@ -16402,7 +15231,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Knox County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 465289,
@@ -16416,7 +15244,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Montgomery County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 205950,
@@ -16430,7 +15257,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Robertson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 71012,
@@ -16444,7 +15270,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rutherford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 324890,
@@ -16458,7 +15283,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sevier County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 97892,
@@ -16472,7 +15296,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Shelby County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 935764,
@@ -16486,7 +15309,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sullivan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 157668,
@@ -16500,7 +15322,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sumner County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 187149,
@@ -16514,7 +15335,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Williamson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 231729,
@@ -16528,7 +15348,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wilson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 140625,
@@ -16542,7 +15361,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Residents of Other States/Countries County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -16556,7 +15374,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Unknown County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -16570,7 +15387,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grand Total County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -16584,7 +15400,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Anderson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 76482,
@@ -16598,7 +15413,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bedford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 49038,
@@ -16612,7 +15426,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Benton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16184,
@@ -16626,7 +15439,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bledsoe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14755,
@@ -16640,7 +15452,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Blount County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 131349,
@@ -16654,7 +15465,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bradley County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 106727,
@@ -16668,7 +15478,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cannon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14462,
@@ -16682,7 +15491,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Carroll County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28020,
@@ -16696,7 +15504,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Carter County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 56351,
@@ -16710,7 +15517,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chester County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17276,
@@ -16724,7 +15530,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Claiborne County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 31756,
@@ -16738,7 +15543,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clay County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7717,
@@ -16752,7 +15556,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cocke County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 35774,
@@ -16766,7 +15569,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Coffee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 55700,
@@ -16780,7 +15582,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Crockett County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14328,
@@ -16794,7 +15595,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Decatur County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11706,
@@ -16808,7 +15608,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `DeKalb County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20138,
@@ -16822,7 +15621,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dickson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 53446,
@@ -16836,7 +15634,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fayette County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40507,
@@ -16850,7 +15647,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fentress County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18217,
@@ -16864,7 +15660,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Franklin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 41890,
@@ -16878,7 +15673,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gibson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 49045,
@@ -16892,7 +15686,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Giles County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 29503,
@@ -16906,7 +15699,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grainger County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23145,
@@ -16920,7 +15712,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Greene County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 69087,
@@ -16934,7 +15725,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grundy County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13346,
@@ -16948,7 +15738,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hamblen County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 64569,
@@ -16962,7 +15751,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hancock County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6549,
@@ -16976,7 +15764,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hardeman County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25220,
@@ -16990,7 +15777,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hardin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25776,
@@ -17004,7 +15790,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hawkins County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 56530,
@@ -17018,7 +15803,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Haywood County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17335,
@@ -17032,7 +15816,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Henderson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 27847,
@@ -17046,7 +15829,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Henry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 32358,
@@ -17060,7 +15842,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hickman County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25063,
@@ -17074,7 +15855,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Houston County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8263,
@@ -17088,7 +15868,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Humphreys County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18486,
@@ -17102,7 +15881,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jackson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11758,
@@ -17116,7 +15894,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Johnson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17778,
@@ -17130,7 +15907,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lake County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7411,
@@ -17144,7 +15920,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lauderdale County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25825,
@@ -17158,7 +15933,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lawrence County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 43734,
@@ -17172,7 +15946,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lewis County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12086,
@@ -17186,7 +15959,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lincoln County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 34117,
@@ -17200,7 +15972,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Loudon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 53054,
@@ -17214,7 +15985,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Macon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24265,
@@ -17228,7 +15998,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Madison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 97605,
@@ -17242,7 +16011,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marion County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28575,
@@ -17256,7 +16024,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marshall County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 33683,
@@ -17270,7 +16037,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Maury County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 94340,
@@ -17284,7 +16050,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `McMinn County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 53285,
@@ -17298,7 +16063,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `McNairy County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25832,
@@ -17312,7 +16076,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Meigs County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12306,
@@ -17326,7 +16089,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Monroe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 46357,
@@ -17340,7 +16102,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Moore County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6411,
@@ -17354,7 +16115,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Morgan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21579,
@@ -17368,7 +16128,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Obion County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 30267,
@@ -17382,7 +16141,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Overton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22068,
@@ -17396,7 +16154,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Perry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8064,
@@ -17410,7 +16167,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pickett County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5082,
@@ -17424,7 +16180,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Polk County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16898,
@@ -17438,7 +16193,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Putnam County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 78843,
@@ -17452,7 +16206,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rhea County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 33044,
@@ -17466,7 +16219,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Roane County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 53140,
@@ -17480,7 +16232,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Scott County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22039,
@@ -17494,7 +16245,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sequatchie County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14876,
@@ -17508,7 +16258,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Smith County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19942,
@@ -17522,7 +16271,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Stewart County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13561,
@@ -17536,7 +16284,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tipton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 61581,
@@ -17550,7 +16297,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Trousdale County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11012,
@@ -17564,7 +16310,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Unicoi County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17761,
@@ -17578,7 +16323,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Union County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19688,
@@ -17592,7 +16336,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Van Buren County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5765,
@@ -17606,7 +16349,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Warren County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40878,
@@ -17620,7 +16362,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 128607,
@@ -17634,7 +16375,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wayne County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16558,
@@ -17648,7 +16388,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Weakley County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 33415,
@@ -17662,7 +16401,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `White County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 27107,
@@ -17676,7 +16414,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 355642,
@@ -17690,7 +16427,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bexar County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1986049,
@@ -17704,7 +16440,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bowie County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 94324,
@@ -17718,7 +16453,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Brazoria County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 370200,
@@ -17732,7 +16466,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Brazos County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 226758,
@@ -17746,7 +16479,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Collin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1005146,
@@ -17760,7 +16492,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dallas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2637772,
@@ -17774,7 +16505,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Denton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 859064,
@@ -17788,7 +16518,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `DeWitt County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20187,
@@ -17802,7 +16531,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `El Paso County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 840758,
@@ -17816,7 +16544,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fort Bend County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 787858,
@@ -17830,7 +16557,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Galveston County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 337890,
@@ -17844,7 +16570,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gregg County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 123707,
@@ -17858,7 +16583,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Harris County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4698619,
@@ -17872,7 +16596,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hays County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 222631,
@@ -17886,7 +16609,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Johnson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 171361,
@@ -17900,7 +16622,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lavaca County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20110,
@@ -17914,7 +16635,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Matagorda County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 36552,
@@ -17928,7 +16648,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `McLennan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 254607,
@@ -17942,7 +16661,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Medina County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 50921,
@@ -17956,7 +16674,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Montgomery County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 590925,
@@ -17970,7 +16687,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rusk County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 54450,
@@ -17984,7 +16700,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Smith County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 230221,
@@ -17998,7 +16713,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tarrant County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2084931,
@@ -18012,7 +16726,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Travis County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1248743,
@@ -18026,7 +16739,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Webb County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 275910,
@@ -18040,7 +16752,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Williamson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 566719,
@@ -18054,7 +16765,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Anderson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 58057,
@@ -18068,7 +16778,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Andrews County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18128,
@@ -18082,7 +16791,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Angelina County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 87092,
@@ -18096,7 +16804,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Aransas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23792,
@@ -18110,7 +16817,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Archer County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8786,
@@ -18124,7 +16830,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Armstrong County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1892,
@@ -18138,7 +16843,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Atascosa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 50310,
@@ -18152,7 +16856,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Austin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 29989,
@@ -18166,7 +16869,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bailey County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7027,
@@ -18180,7 +16882,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bandera County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22824,
@@ -18194,7 +16895,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bastrop County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 86976,
@@ -18208,7 +16908,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Baylor County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3582,
@@ -18222,7 +16921,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 32587,
@@ -18236,7 +16934,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Blanco County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11702,
@@ -18250,7 +16947,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Borden County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 648,
@@ -18264,7 +16960,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bosque County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18691,
@@ -18278,7 +16973,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Brewster County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9267,
@@ -18292,7 +16986,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Briscoe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1516,
@@ -18306,7 +16999,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Brooks County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7114,
@@ -18320,7 +17012,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Brown County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 37924,
@@ -18334,7 +17025,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Burleson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18389,
@@ -18348,7 +17038,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Burnet County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 47542,
@@ -18362,7 +17051,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Caldwell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 43247,
@@ -18376,7 +17064,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Calhoun County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21561,
@@ -18390,7 +17077,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Callahan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13994,
@@ -18404,7 +17090,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cameron County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 423908,
@@ -18418,7 +17103,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Camp County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13033,
@@ -18432,7 +17116,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Carson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6005,
@@ -18446,7 +17129,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cass County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 30119,
@@ -18460,7 +17142,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Castro County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7665,
@@ -18474,7 +17155,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chambers County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 42454,
@@ -18488,7 +17168,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cherokee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 52592,
@@ -18502,7 +17181,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Childress County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7291,
@@ -18516,7 +17194,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clay County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10456,
@@ -18530,7 +17207,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cochran County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2836,
@@ -18544,7 +17220,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Coke County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3370,
@@ -18558,7 +17233,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Coleman County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8397,
@@ -18572,7 +17246,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Collingsworth County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2962,
@@ -18586,7 +17259,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Colorado County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21217,
@@ -18600,7 +17272,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Comal County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 148373,
@@ -18614,7 +17285,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Comanche County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13534,
@@ -18628,7 +17298,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Concho County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4276,
@@ -18642,7 +17311,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cooke County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40574,
@@ -18656,7 +17324,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Coryell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 74808,
@@ -18670,7 +17337,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cottle County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1389,
@@ -18684,7 +17350,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Crane County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4794,
@@ -18698,7 +17363,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Crockett County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3499,
@@ -18712,7 +17376,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Crosby County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5779,
@@ -18726,7 +17389,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Culberson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2204,
@@ -18740,7 +17402,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dallam County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7200,
@@ -18754,7 +17415,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dawson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12619,
@@ -18768,7 +17428,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Deaf Smith County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18760,
@@ -18782,7 +17441,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Delta County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5349,
@@ -18796,7 +17454,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dickens County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2249,
@@ -18810,7 +17467,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dimmit County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10308,
@@ -18824,7 +17480,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Donley County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3319,
@@ -18838,7 +17493,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Duval County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11212,
@@ -18852,7 +17506,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Eastland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18322,
@@ -18866,7 +17519,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ector County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 162124,
@@ -18880,7 +17532,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Edwards County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1928,
@@ -18894,7 +17545,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ellis County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 179436,
@@ -18908,7 +17558,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Erath County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 42446,
@@ -18922,7 +17571,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Falls County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17335,
@@ -18936,7 +17584,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fannin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 35286,
@@ -18950,7 +17597,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fayette County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25349,
@@ -18964,7 +17610,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fisher County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3839,
@@ -18978,7 +17623,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Floyd County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5837,
@@ -18992,7 +17636,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Foard County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1200,
@@ -19006,7 +17649,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Franklin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10766,
@@ -19020,7 +17662,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Freestone County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19808,
@@ -19034,7 +17675,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Frio County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19816,
@@ -19048,7 +17688,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gaines County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20901,
@@ -19062,7 +17701,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Garza County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6578,
@@ -19076,7 +17714,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gillespie County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26804,
@@ -19090,7 +17727,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Glasscock County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1388,
@@ -19104,7 +17740,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Goliad County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7584,
@@ -19118,7 +17753,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gonzales County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20826,
@@ -19132,7 +17766,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gray County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21895,
@@ -19146,7 +17779,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grayson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 133991,
@@ -19160,7 +17792,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grimes County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28360,
@@ -19174,7 +17805,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Guadalupe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 163694,
@@ -19188,7 +17818,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hale County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 33830,
@@ -19202,7 +17831,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hall County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3028,
@@ -19216,7 +17844,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hamilton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8484,
@@ -19230,7 +17857,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hansford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5463,
@@ -19244,7 +17870,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hardeman County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3922,
@@ -19258,7 +17883,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hardin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 57207,
@@ -19272,7 +17896,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Harrison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 66726,
@@ -19286,7 +17909,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hartley County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5619,
@@ -19300,7 +17922,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Haskell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5813,
@@ -19314,7 +17935,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hemphill County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3825,
@@ -19328,7 +17948,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Henderson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 82299,
@@ -19342,7 +17961,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hidalgo County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 865939,
@@ -19356,7 +17974,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hill County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 36354,
@@ -19370,7 +17987,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hockley County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22980,
@@ -19384,7 +18000,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hood County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 60537,
@@ -19398,7 +18013,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hopkins County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 36810,
@@ -19412,7 +18026,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Houston County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23169,
@@ -19426,7 +18039,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Howard County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 36459,
@@ -19440,7 +18052,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hudspeth County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4795,
@@ -19454,7 +18065,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hunt County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 96493,
@@ -19468,7 +18078,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hutchinson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21198,
@@ -19482,7 +18091,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Irion County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1522,
@@ -19496,7 +18104,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jack County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8843,
@@ -19510,7 +18117,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jackson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14874,
@@ -19524,7 +18130,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jasper County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 35872,
@@ -19538,7 +18143,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jeff Davis County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2252,
@@ -19552,7 +18156,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jefferson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 255001,
@@ -19566,7 +18169,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jim Hogg County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5248,
@@ -19580,7 +18182,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jim Wells County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40822,
@@ -19594,7 +18195,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jones County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19817,
@@ -19608,7 +18208,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Karnes County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15650,
@@ -19622,7 +18221,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kaufman County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 128622,
@@ -19636,7 +18234,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kendall County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 45641,
@@ -19650,7 +18247,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kenedy County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 442,
@@ -19664,7 +18260,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kent County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 726,
@@ -19678,7 +18273,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kerr County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 52405,
@@ -19692,7 +18286,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kimble County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4362,
@@ -19706,7 +18299,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `King County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 277,
@@ -19720,7 +18312,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kinney County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3767,
@@ -19734,7 +18325,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kleberg County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 31129,
@@ -19748,7 +18338,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Knox County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3653,
@@ -19762,7 +18351,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lamar County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 49728,
@@ -19776,7 +18364,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lamb County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13158,
@@ -19790,7 +18377,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lampasas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21229,
@@ -19804,7 +18390,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `La Salle County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7531,
@@ -19818,7 +18403,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17144,
@@ -19832,7 +18416,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Leon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17270,
@@ -19846,7 +18429,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Liberty County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 86323,
@@ -19860,7 +18442,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Limestone County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23519,
@@ -19874,7 +18455,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lipscomb County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3355,
@@ -19888,7 +18468,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Live Oak County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12166,
@@ -19902,7 +18481,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Llano County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21646,
@@ -19916,7 +18494,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Loving County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 152,
@@ -19930,7 +18507,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lubbock County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 307412,
@@ -19944,7 +18520,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lynn County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5877,
@@ -19958,7 +18533,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `McCulloch County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7987,
@@ -19972,7 +18546,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `McMullen County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 749,
@@ -19986,7 +18559,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Madison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14422,
@@ -20000,7 +18572,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marion County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9928,
@@ -20014,7 +18585,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Martin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5753,
@@ -20028,7 +18598,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mason County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4280,
@@ -20042,7 +18611,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Maverick County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 58485,
@@ -20056,7 +18624,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Menard County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2139,
@@ -20070,7 +18637,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Midland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 172578,
@@ -20084,7 +18650,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Milam County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25131,
@@ -20098,7 +18663,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mills County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4921,
@@ -20112,7 +18676,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mitchell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8145,
@@ -20126,7 +18689,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Montague County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19596,
@@ -20140,7 +18702,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Moore County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21485,
@@ -20154,7 +18715,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Morris County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12339,
@@ -20168,7 +18728,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Motley County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1234,
@@ -20182,7 +18741,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nacogdoches County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 65711,
@@ -20196,7 +18754,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Navarro County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 49565,
@@ -20210,7 +18767,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Newton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13746,
@@ -20224,7 +18780,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nolan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14751,
@@ -20238,7 +18793,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nueces County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 362265,
@@ -20252,7 +18806,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ochiltree County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9947,
@@ -20266,7 +18819,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Oldham County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2131,
@@ -20280,7 +18832,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Orange County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 83572,
@@ -20294,7 +18845,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Palo Pinto County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28875,
@@ -20308,7 +18858,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Panola County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23148,
@@ -20322,7 +18871,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Parker County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 138371,
@@ -20336,7 +18884,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Parmer County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9864,
@@ -20350,7 +18897,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pecos County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15673,
@@ -20364,7 +18910,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Polk County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 50031,
@@ -20378,7 +18923,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Potter County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 119648,
@@ -20392,7 +18936,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Presidio County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6948,
@@ -20406,7 +18949,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rains County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12159,
@@ -20420,7 +18962,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Randall County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 136271,
@@ -20434,7 +18975,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Reagan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3741,
@@ -20448,7 +18988,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Real County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3478,
@@ -20462,7 +19001,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Red River County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12175,
@@ -20476,7 +19014,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Reeves County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15695,
@@ -20490,7 +19027,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Refugio County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7032,
@@ -20504,7 +19040,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Roberts County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 903,
@@ -20518,7 +19053,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Robertson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17284,
@@ -20532,7 +19066,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rockwall County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 100657,
@@ -20546,7 +19079,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Runnels County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10234,
@@ -20560,7 +19092,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sabine County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10589,
@@ -20574,7 +19105,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `San Augustine County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8232,
@@ -20588,7 +19118,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `San Jacinto County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28719,
@@ -20602,7 +19131,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `San Patricio County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 66893,
@@ -20616,7 +19144,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `San Saba County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6054,
@@ -20630,7 +19157,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Schleicher County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2895,
@@ -20644,7 +19170,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Scurry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16866,
@@ -20658,7 +19183,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Shackelford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3253,
@@ -20672,7 +19196,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Shelby County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25418,
@@ -20686,7 +19209,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sherman County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3079,
@@ -20700,7 +19222,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Somervell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9016,
@@ -20714,7 +19235,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Starr County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 64525,
@@ -20728,7 +19248,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Stephens County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9433,
@@ -20742,7 +19261,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sterling County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1311,
@@ -20756,7 +19274,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Stonewall County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1362,
@@ -20770,7 +19287,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sutton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3758,
@@ -20784,7 +19300,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Swisher County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7462,
@@ -20798,7 +19313,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Taylor County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 137640,
@@ -20812,7 +19326,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Terrell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 823,
@@ -20826,7 +19339,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Terry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12287,
@@ -20840,7 +19352,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Throckmorton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1515,
@@ -20854,7 +19365,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Titus County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 33033,
@@ -20868,7 +19378,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tom Green County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 118189,
@@ -20882,7 +19391,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Trinity County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14740,
@@ -20896,7 +19404,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tyler County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21696,
@@ -20910,7 +19417,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Upshur County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 41260,
@@ -20924,7 +19430,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Upton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3671,
@@ -20938,7 +19443,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Uvalde County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26846,
@@ -20952,7 +19456,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Val Verde County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 49208,
@@ -20966,7 +19469,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Van Zandt County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 56019,
@@ -20980,7 +19482,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Victoria County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 92035,
@@ -20994,7 +19495,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Walker County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 72480,
@@ -21008,7 +19508,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Waller County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 53126,
@@ -21022,7 +19521,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ward County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11720,
@@ -21036,7 +19534,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 35108,
@@ -21050,7 +19547,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wharton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 41619,
@@ -21064,7 +19560,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wheeler County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5191,
@@ -21078,7 +19573,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wichita County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 132064,
@@ -21092,7 +19586,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wilbarger County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12820,
@@ -21106,7 +19599,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Willacy County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21515,
@@ -21120,7 +19612,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wilson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 50224,
@@ -21134,7 +19625,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Winkler County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7720,
@@ -21148,7 +19638,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wise County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 68305,
@@ -21162,7 +19651,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wood County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 45129,
@@ -21176,7 +19664,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Yoakum County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8591,
@@ -21190,7 +19677,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Young County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18045,
@@ -21204,7 +19690,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Zapata County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14190,
@@ -21218,7 +19703,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Zavala County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11983,
@@ -21232,7 +19716,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chelan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 77036,
@@ -21246,7 +19729,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clallam County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 76737,
@@ -21260,7 +19742,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clark County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 481857,
@@ -21274,7 +19755,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Columbia County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4059,
@@ -21288,7 +19768,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Franklin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 94347,
@@ -21302,7 +19781,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grant County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 97331,
@@ -21316,7 +19794,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grays Harbor County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 73901,
@@ -21330,7 +19807,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Island County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 84460,
@@ -21344,7 +19820,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jefferson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 31729,
@@ -21358,7 +19833,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `King County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2233163,
@@ -21372,7 +19846,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kitsap County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 269805,
@@ -21386,7 +19859,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kittitas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 47364,
@@ -21400,7 +19872,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Klickitat County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22107,
@@ -21414,7 +19885,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lewis County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 79604,
@@ -21428,7 +19898,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lincoln County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10740,
@@ -21442,7 +19911,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mason County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 65507,
@@ -21456,7 +19924,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pierce County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 891299,
@@ -21470,7 +19937,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Skagit County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 128206,
@@ -21484,7 +19950,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Snohomish County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 814901,
@@ -21498,7 +19963,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Spokane County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 514631,
@@ -21512,7 +19976,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Thurston County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 286419,
@@ -21526,7 +19989,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Whatcom County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 225685,
@@ -21540,7 +20002,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Yakima County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 251446,
@@ -21554,7 +20015,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `(unassigned)`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -21568,7 +20028,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Skamania County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11924,
@@ -21582,7 +20041,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wahkiakum County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4426,
@@ -21596,7 +20054,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Garfield County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2247,
@@ -21610,7 +20067,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Stevens County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 45260,
@@ -21624,7 +20080,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Walla Walla County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 60922,
@@ -21638,7 +20093,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Whitman County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 49791,
@@ -21652,7 +20106,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Adams County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19759,
@@ -21666,7 +20119,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Asotin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22610,
@@ -21680,7 +20132,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Benton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 201877,
@@ -21694,7 +20145,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cowlitz County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 108987,
@@ -21708,7 +20158,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Douglas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 42907,
@@ -21722,7 +20171,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ferry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7649,
@@ -21736,7 +20184,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Okanogan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 42132,
@@ -21750,7 +20197,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pacific County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22036,
@@ -21764,7 +20210,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pend Oreille County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13602,
@@ -21778,7 +20223,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `San Juan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17128,
@@ -21792,7 +20236,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bayfield County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15042,
@@ -21806,7 +20249,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Brown County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 263378,
@@ -21820,7 +20262,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Calumet County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 50159,
@@ -21834,7 +20275,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Columbia County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 57358,
@@ -21848,7 +20288,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dane County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 542364,
@@ -21862,7 +20301,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Eau Claire County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 104534,
@@ -21876,7 +20314,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fond du Lac County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 103066,
@@ -21890,7 +20327,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kenosha County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 169290,
@@ -21904,7 +20340,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `La Crosse County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 118230,
@@ -21918,7 +20353,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Milwaukee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 948201,
@@ -21932,7 +20366,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Outagamie County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 187365,
@@ -21946,7 +20379,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ozaukee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 89147,
@@ -21960,7 +20392,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pierce County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 42555,
@@ -21974,7 +20405,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Racine County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 196584,
@@ -21988,7 +20418,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sauk County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 64249,
@@ -22002,7 +20431,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sheboygan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 115456,
@@ -22016,7 +20444,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Walworth County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 103718,
@@ -22030,7 +20457,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 135693,
@@ -22044,7 +20470,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Waukesha County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 403072,
@@ -22058,7 +20483,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Winnebago County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 171020,
@@ -22072,7 +20496,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wood County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 73055,
@@ -22086,7 +20509,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Adams County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20348,
@@ -22100,7 +20522,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ashland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15600,
@@ -22114,7 +20535,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Barron County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 45164,
@@ -22128,7 +20548,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Buffalo County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13125,
@@ -22142,7 +20561,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Burnett County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15392,
@@ -22156,7 +20574,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chippewa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 64135,
@@ -22170,7 +20587,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clark County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 34709,
@@ -22184,7 +20600,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Crawford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16291,
@@ -22198,7 +20613,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dodge County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 87847,
@@ -22212,7 +20626,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Door County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 27610,
@@ -22226,7 +20639,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Douglas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 43208,
@@ -22240,7 +20652,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dunn County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 45131,
@@ -22254,7 +20665,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Florence County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4321,
@@ -22268,7 +20678,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Forest County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8991,
@@ -22282,7 +20691,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grant County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 51554,
@@ -22296,7 +20704,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Green County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 36929,
@@ -22310,7 +20717,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Green Lake County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18918,
@@ -22324,7 +20730,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Iowa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23771,
@@ -22338,7 +20743,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Iron County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5676,
@@ -22352,7 +20756,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jackson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20478,
@@ -22366,7 +20769,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jefferson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 85129,
@@ -22380,7 +20782,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Juneau County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26617,
@@ -22394,7 +20795,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kewaunee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20383,
@@ -22408,7 +20808,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lafayette County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16665,
@@ -22422,7 +20821,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Langlade County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19268,
@@ -22436,7 +20834,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lincoln County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 27689,
@@ -22450,7 +20847,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Manitowoc County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 79074,
@@ -22464,7 +20860,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marathon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 135428,
@@ -22478,7 +20873,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marinette County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40434,
@@ -22492,7 +20886,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marquette County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15434,
@@ -22506,7 +20899,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Menominee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4658,
@@ -22520,7 +20912,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Monroe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 46051,
@@ -22534,7 +20925,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Oconto County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 37830,
@@ -22548,7 +20938,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Oneida County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 35470,
@@ -22562,7 +20951,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pepin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7289,
@@ -22576,7 +20964,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Polk County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 43598,
@@ -22590,7 +20977,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Portage County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 70942,
@@ -22604,7 +20990,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Price County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13397,
@@ -22618,7 +21003,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Richland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17377,
@@ -22632,7 +21016,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rock County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 163129,
@@ -22646,7 +21029,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rusk County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14147,
@@ -22660,7 +21042,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sawyer County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16489,
@@ -22674,7 +21055,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Shawano County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40796,
@@ -22688,7 +21068,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `St. Croix County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 89694,
@@ -22702,7 +21081,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Taylor County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20412,
@@ -22716,7 +21094,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Trempealeau County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 29442,
@@ -22730,7 +21107,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Vernon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 30785,
@@ -22744,7 +21120,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Vilas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21938,
@@ -22758,7 +21133,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washburn County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15878,
@@ -22772,7 +21146,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Waupaca County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 51128,
@@ -22786,7 +21159,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Waushara County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24263,
@@ -22800,7 +21172,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Albany County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 38601,
@@ -22814,7 +21185,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Big Horn County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11881,
@@ -22828,7 +21198,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Campbell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 46140,
@@ -22842,7 +21211,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Carbon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14971,
@@ -22856,7 +21224,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Converse County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13640,
@@ -22870,7 +21237,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Crook County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7450,
@@ -22884,7 +21250,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fremont County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 39531,
@@ -22898,7 +21263,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Goshen County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13376,
@@ -22912,7 +21276,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hot Springs County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4555,
@@ -22926,7 +21289,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Johnson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8460,
@@ -22940,7 +21302,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Laramie County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 98976,
@@ -22954,7 +21315,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lincoln County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19434,
@@ -22968,7 +21328,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Natrona County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 79115,
@@ -22982,7 +21341,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Niobrara County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2388,
@@ -22996,7 +21354,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Park County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 29324,
@@ -23010,7 +21367,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Platte County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8566,
@@ -23024,7 +21380,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sheridan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 30233,
@@ -23038,7 +21393,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sublette County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9813,
@@ -23052,7 +21406,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sweetwater County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 43051,
@@ -23066,7 +21419,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Teton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23081,
@@ -23080,7 +21432,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Uinta County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20299,
@@ -23094,7 +21445,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washakie County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7885,
@@ -23108,7 +21458,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Weston County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6967,
@@ -23122,7 +21471,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Barking and Dagenham`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23136,7 +21484,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Barnet`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23150,7 +21497,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Barnsley`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23164,7 +21510,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bath and North East Somerset`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23178,7 +21523,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bedford`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23192,7 +21536,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bexley`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23206,7 +21549,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Birmingham`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23220,7 +21562,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Blackburn with Darwen`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23234,7 +21575,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Blackpool`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23248,7 +21588,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bolton`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23262,7 +21601,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bournemouth, Christchurch and Poole`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23276,7 +21614,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bracknell Forest`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23290,7 +21627,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bradford`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23304,7 +21640,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Brent`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23318,7 +21653,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Brighton and Hove`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23332,7 +21666,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bristol, City of`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23346,7 +21679,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bromley`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23360,7 +21692,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Buckinghamshire`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 781167,
@@ -23374,7 +21705,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bury`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23388,7 +21718,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Calderdale`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23402,7 +21731,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cambridgeshire`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 830279,
@@ -23416,7 +21744,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Camden`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23430,7 +21757,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Central Bedfordshire`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23444,7 +21770,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cheshire East`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23458,7 +21783,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cheshire West and Chester`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23472,7 +21796,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cornwall and Isles of Scilly`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23486,7 +21809,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `County Durham`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23500,7 +21822,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Coventry`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23514,7 +21835,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Croydon`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23528,7 +21848,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cumbria`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 497874,
@@ -23542,7 +21861,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Darlington`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23556,7 +21874,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Derby`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23570,7 +21887,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Derbyshire`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1032267,
@@ -23584,7 +21900,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Devon`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1159832,
@@ -23598,7 +21913,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Doncaster`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23612,7 +21926,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dorset`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 759768,
@@ -23626,7 +21939,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dudley`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23640,7 +21952,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ealing`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23654,7 +21965,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `East Riding of Yorkshire`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 594825,
@@ -23668,7 +21978,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `East Sussex`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 820842,
@@ -23682,7 +21991,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Enfield`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23696,7 +22004,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Essex`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1773154,
@@ -23710,7 +22017,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gateshead`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23724,7 +22030,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gloucestershire`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 882888,
@@ -23738,7 +22043,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Greenwich`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23752,7 +22056,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hackney and City of London`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23766,7 +22069,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Halton`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23780,7 +22082,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hammersmith and Fulham`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23794,7 +22095,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hampshire`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1800511,
@@ -23808,7 +22108,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Haringey`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23822,7 +22121,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Harrow`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23836,7 +22134,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hartlepool`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23850,7 +22147,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Havering`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23864,7 +22160,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Herefordshire, County of`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23878,7 +22173,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hertfordshire`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1154766,
@@ -23892,7 +22186,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hillingdon`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23906,7 +22199,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hounslow`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23920,7 +22212,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Isle of Wight`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 139105,
@@ -23934,7 +22225,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Islington`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23948,7 +22238,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kensington and Chelsea`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23962,7 +22251,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kent`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1784369,
@@ -23976,7 +22264,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kingston upon Hull, City of`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -23990,7 +22277,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kingston upon Thames`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24004,7 +22290,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kirklees`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24018,7 +22303,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Knowsley`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24032,7 +22316,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lambeth`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24046,7 +22329,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lancashire`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1471979,
@@ -24060,7 +22342,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Leeds`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24074,7 +22355,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Leicester`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24088,7 +22368,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Leicestershire`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1005558,
@@ -24102,7 +22381,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lewisham`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24116,7 +22394,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lincolnshire`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1060567,
@@ -24130,7 +22407,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Liverpool`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24144,7 +22420,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Luton`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24158,7 +22433,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Manchester`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24172,7 +22446,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Medway`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24186,7 +22459,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Merton`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24200,7 +22472,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Middlesbrough`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24214,7 +22485,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Milton Keynes`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24228,7 +22498,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Newcastle upon Tyne`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24242,7 +22511,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Newham`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24256,7 +22524,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Norfolk`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 877710,
@@ -24270,7 +22537,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `North East Lincolnshire`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24284,7 +22550,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `North Lincolnshire`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24298,7 +22563,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `North Somerset`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24312,7 +22576,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `North Tyneside`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24326,7 +22589,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `North Yorkshire`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1080136,
@@ -24340,7 +22602,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Northamptonshire`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 714392,
@@ -24354,7 +22615,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Northumberland`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 315987,
@@ -24368,7 +22628,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nottingham`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24382,7 +22641,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nottinghamshire`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1115658,
@@ -24396,7 +22654,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Oldham`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24410,7 +22667,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Oxfordshire`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 672516,
@@ -24424,7 +22680,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Peterborough`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24438,7 +22693,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Plymouth`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24452,7 +22706,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Portsmouth`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24466,7 +22719,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Reading`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24480,7 +22732,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Redbridge`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24494,7 +22745,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Redcar and Cleveland`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24508,7 +22758,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Richmond upon Thames`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24522,7 +22771,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rochdale`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24536,7 +22784,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rotherham`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24550,7 +22797,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rutland`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 38022,
@@ -24564,7 +22810,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Salford`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24578,7 +22823,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sandwell`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24592,7 +22836,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sefton`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24606,7 +22849,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sheffield`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24620,7 +22862,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Shropshire`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 479561,
@@ -24634,7 +22875,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Slough`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24648,7 +22888,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Solihull`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24662,7 +22901,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Somerset`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 931784,
@@ -24676,7 +22914,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `South Gloucestershire`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24690,7 +22927,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `South Tyneside`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24704,7 +22940,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Southampton`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24718,7 +22953,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Southend-on-Sea`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24732,7 +22966,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Southwark`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24746,7 +22979,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `St. Helens`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24760,7 +22992,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Staffordshire`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1111192,
@@ -24774,7 +23005,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Stockport`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24788,7 +23018,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Stockton-on-Tees`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24802,7 +23031,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Stoke-on-Trent`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24816,7 +23044,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Suffolk`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 738512,
@@ -24830,7 +23057,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sunderland`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24844,7 +23070,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Surrey`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1161256,
@@ -24858,7 +23083,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sutton`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24872,7 +23096,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Swindon`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24886,7 +23109,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tameside`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24900,7 +23122,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Telford and Wrekin`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24914,7 +23135,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Thurrock`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24928,7 +23148,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Torbay`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24942,7 +23161,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tower Hamlets`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24956,7 +23174,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Trafford`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24970,7 +23187,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wakefield`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24984,7 +23200,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Walsall`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -24998,7 +23213,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Waltham Forest`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25012,7 +23226,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wandsworth`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25026,7 +23239,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Warrington`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25040,7 +23252,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Warwickshire`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 551594,
@@ -25054,7 +23265,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `West Berkshire`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25068,7 +23278,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `West Sussex`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 828398,
@@ -25082,7 +23291,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Westminster`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25096,7 +23304,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wigan`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25110,7 +23317,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wiltshire`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 698942,
@@ -25124,7 +23330,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Windsor and Maidenhead`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25138,7 +23343,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wirral`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25152,7 +23356,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wokingham`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25166,7 +23369,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wolverhampton`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25180,7 +23382,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Worcestershire`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 575421,
@@ -25194,7 +23395,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `York`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25208,7 +23408,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Total`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25222,7 +23421,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `New London County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 266784,
@@ -25236,7 +23434,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Out of TN County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25250,7 +23447,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: ` County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25264,7 +23460,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Centre`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25278,7 +23473,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Erie`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25292,7 +23486,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Franklin`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25306,7 +23499,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Potter`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25320,7 +23512,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Butler`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25334,7 +23525,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Columbia`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25348,7 +23538,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dauphin`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25362,7 +23551,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fayette`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25376,7 +23564,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mercer`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25390,7 +23577,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Montour`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25404,7 +23590,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Schuylkill`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25418,7 +23603,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hong Kong`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25432,7 +23616,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Macau`
   },
   alternativeNames: [`Macao`],
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25446,7 +23629,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Faroe Islands`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25460,7 +23642,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Worcester County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25474,7 +23655,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gwinnett County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 927781,
@@ -25488,7 +23668,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `DeKalb County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 756558,
@@ -25502,7 +23681,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Floyd County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 35845,
@@ -25516,7 +23694,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fayette County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 113459,
@@ -25530,7 +23707,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Monroe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 169507,
@@ -25544,7 +23720,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Philadelphia County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1584138,
@@ -25558,7 +23733,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Norfolk County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 244076,
@@ -25572,7 +23746,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Arlington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 237521,
@@ -25586,7 +23759,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Spotsylvania County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 134238,
@@ -25600,7 +23772,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Loudoun County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 406850,
@@ -25614,7 +23785,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pottawattamie County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 93533,
@@ -25628,7 +23798,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kershaw County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 65592,
@@ -25642,7 +23811,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pima County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1039073,
@@ -25656,7 +23824,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Adams County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 102811,
@@ -25670,7 +23837,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Weber County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25684,7 +23850,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bennington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25698,7 +23863,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Carver County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 103551,
@@ -25712,7 +23876,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cherokee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 254149,
@@ -25726,7 +23889,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jefferson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 770517,
@@ -25740,7 +23902,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jefferson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25754,7 +23915,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Spartanburg County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 313888,
@@ -25768,7 +23928,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Harrison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18778,
@@ -25782,7 +23941,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Johnson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 151260,
@@ -25796,7 +23954,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Berkshire County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25810,7 +23967,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Johnson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25824,7 +23980,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Polk County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 42470,
@@ -25838,7 +23993,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `St. Louis County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 996945,
@@ -25852,7 +24006,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fairfax County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1150795,
@@ -25866,7 +24019,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rockingham County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 309176,
@@ -25880,7 +24032,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Montgomery County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 828604,
@@ -25894,7 +24045,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pinal County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 447138,
@@ -25908,7 +24058,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Charleston County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 405905,
@@ -25922,7 +24071,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cobb County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 756865,
@@ -25936,7 +24084,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Davis County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -25950,7 +24097,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Honolulu County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 980080,
@@ -25964,7 +24110,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tulsa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 648360,
@@ -25978,7 +24123,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Providence County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 636084,
@@ -25992,7 +24136,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Delaware County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 564751,
@@ -26006,7 +24149,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Douglas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 566880,
@@ -26020,7 +24162,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fayette County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 323780,
@@ -26034,7 +24175,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Middlesex County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26048,7 +24188,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ramsey County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 550210,
@@ -26062,7 +24201,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washoe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 465735,
@@ -26076,7 +24214,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wayne County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 51276,
@@ -26090,7 +24227,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clark County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2231647,
@@ -26104,7 +24240,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Suffolk County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26118,7 +24253,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Norfolk County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26132,7 +24266,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Maricopa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4410824,
@@ -26146,7 +24279,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grafton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 89786,
@@ -26160,7 +24292,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fulton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1050114,
@@ -26174,7 +24305,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Essex County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26188,7 +24318,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Charlton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12968,
@@ -26202,7 +24331,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bucks County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 628195,
@@ -26216,7 +24344,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hanover County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 107239,
@@ -26230,7 +24357,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lancaster County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 95380,
@@ -26244,7 +24370,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Knox County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8419,
@@ -26258,7 +24383,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Anoka County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 353813,
@@ -26272,7 +24396,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Olmsted County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 156277,
@@ -26286,7 +24409,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Summit County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26300,7 +24422,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Orleans County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26314,7 +24435,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pennington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26328,7 +24448,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Beadle County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26342,7 +24461,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Charles Mix County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26356,7 +24474,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Davison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26370,7 +24487,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Minnehaha County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26384,7 +24500,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bon Homme County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26398,7 +24513,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Socorro County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16735,
@@ -26412,7 +24526,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bernalillo County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 678701,
@@ -26426,7 +24539,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Oakland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1259201,
@@ -26440,7 +24552,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wayne County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1753893,
@@ -26454,7 +24565,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nouvelle-Aquitaine`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5994336,
@@ -26468,7 +24578,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hauts-de-France`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6023336,
@@ -26482,7 +24591,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Auvergne Rhône-Alpes`
   },
   alternativeNames: [`Auvergne-Rhône-Alpes`, `Auvergne Rhone Alpes`],
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8037059,
@@ -26496,7 +24604,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Martinique`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 376480,
@@ -26510,7 +24617,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Guyane`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 290691,
@@ -26524,7 +24630,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ile-de-France`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12246234,
@@ -26538,7 +24643,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bourgogne-Franche-Comté`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2813289,
@@ -26552,7 +24656,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Normandie`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3342467,
@@ -26566,7 +24669,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pays de la Loire`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3787411,
@@ -26580,7 +24682,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bretagne`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3336643,
@@ -26594,7 +24695,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Occitanie`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5903190,
@@ -26608,7 +24708,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Provence-Alpes-Côte d’Azur`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5065723,
@@ -26622,7 +24721,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Corse`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 337796,
@@ -26636,7 +24734,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Saint-Barthélemy`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26650,7 +24747,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Saint-Martin`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26664,7 +24760,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Saint-Barthélémy`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26678,7 +24773,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Beaver County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26692,7 +24786,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Box Elder County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26706,7 +24799,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cache County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26720,7 +24812,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Carbon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26734,7 +24825,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Daggett County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26748,7 +24838,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Duchesne County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26762,7 +24851,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Emery County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26776,7 +24864,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Garfield County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26790,7 +24877,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grand County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26804,7 +24890,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Iron County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26818,7 +24903,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Juab County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26832,7 +24916,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kane County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26846,7 +24929,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Millard County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26860,7 +24942,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Morgan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26874,7 +24955,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Piute County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26888,7 +24968,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rich County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26902,7 +24981,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Salt Lake County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26916,7 +24994,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `San Juan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26930,7 +25007,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sanpete County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26944,7 +25020,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sevier County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26958,7 +25033,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tooele County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26972,7 +25046,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Uintah County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -26986,7 +25059,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Utah County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27000,7 +25072,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wasatch County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27014,7 +25085,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27028,7 +25098,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wayne County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27042,7 +25111,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Allegheny County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1218452,
@@ -27056,7 +25124,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chester County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 522046,
@@ -27070,7 +25137,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cumberland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 251423,
@@ -27084,7 +25150,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Northampton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 304807,
@@ -27098,7 +25163,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pike County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 55933,
@@ -27112,7 +25176,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 207346,
@@ -27126,7 +25189,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `McCook County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27140,7 +25202,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Aurora County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27154,7 +25215,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bennett County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27168,7 +25228,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Brookings County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27182,7 +25241,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Brown County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27196,7 +25254,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Brule County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27210,7 +25267,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Buffalo County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27224,7 +25280,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Butte County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27238,7 +25293,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Campbell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27252,7 +25306,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clark County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27266,7 +25319,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clay County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27280,7 +25332,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Codington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27294,7 +25345,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Corson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27308,7 +25358,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Custer County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27322,7 +25371,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Day County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27336,7 +25384,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Deuel County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27350,7 +25397,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dewey County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27364,7 +25410,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Douglas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27378,7 +25423,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Edmunds County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27392,7 +25436,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fall River County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27406,7 +25449,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Faulk County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27420,7 +25462,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grant County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27434,7 +25475,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gregory County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27448,7 +25488,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Haakon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27462,7 +25501,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hamlin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27476,7 +25514,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hand County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27490,7 +25527,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hanson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27504,7 +25540,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Harding County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27518,7 +25553,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hughes County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27532,7 +25566,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hutchinson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27546,7 +25579,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hyde County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27560,7 +25592,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jackson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27574,7 +25605,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jerauld County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27588,7 +25618,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jones County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27602,7 +25631,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kingsbury County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27616,7 +25644,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lake County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27630,7 +25657,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lawrence County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27644,7 +25670,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lincoln County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27658,7 +25683,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lyman County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27672,7 +25696,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marshall County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27686,7 +25709,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `McPherson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27700,7 +25722,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Meade County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27714,7 +25735,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mellette County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27728,7 +25748,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Miner County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27742,7 +25761,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Moody County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27756,7 +25774,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Oglala Lakota County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27770,7 +25787,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Perkins County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27784,7 +25800,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Potter County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27798,7 +25813,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Roberts County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27812,7 +25826,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sanborn County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27826,7 +25839,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Spink County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27840,7 +25852,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Stanley County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27854,7 +25865,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sully County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27868,7 +25878,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Todd County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27882,7 +25891,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tripp County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27896,7 +25904,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Turner County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27910,7 +25917,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Union County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27924,7 +25930,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Walworth County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27938,7 +25943,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Yankton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27952,7 +25956,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ziebach County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27966,7 +25969,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tri County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -27980,7 +25982,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lehigh County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 368100,
@@ -27994,7 +25995,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Luzerne County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 317646,
@@ -28008,7 +26008,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Comunitat Valenciana`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -28022,7 +26021,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: ` County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -28036,7 +26034,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grand Est`
   },
   alternativeNames: [`Grand-Est`],
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5548090,
@@ -28050,7 +26047,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Centre Val de Loire`
   },
   alternativeNames: [`Centre-Val de Loire`],
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2582522,
@@ -28064,7 +26060,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cambria`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -28078,7 +26073,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Polynésie française`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -28092,7 +26086,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Île-de-France`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12246234,
@@ -28106,7 +26099,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Provence-Alpes-Côte d'Azur`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5065723,
@@ -28120,7 +26112,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nouvelle-Calédonie`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -28134,7 +26125,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Accomack County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 32412,
@@ -28148,7 +26138,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Albemarle County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 108718,
@@ -28162,7 +26151,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Alexandria city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 160530,
@@ -28176,7 +26164,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Alleghany County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14910,
@@ -28190,7 +26177,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Amelia County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13013,
@@ -28204,7 +26190,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Amherst County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 31666,
@@ -28218,7 +26203,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Appomattox County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15841,
@@ -28232,7 +26216,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Augusta County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 75457,
@@ -28246,7 +26229,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bath County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4292,
@@ -28260,7 +26242,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bedford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 78747,
@@ -28274,7 +26255,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6293,
@@ -28288,7 +26268,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Botetourt County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 33277,
@@ -28302,7 +26281,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bristol city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16482,
@@ -28316,7 +26294,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Brunswick County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16384,
@@ -28330,7 +26307,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Buchanan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21221,
@@ -28344,7 +26320,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Buckingham County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16999,
@@ -28358,7 +26333,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Buena Vista city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6237,
@@ -28372,7 +26346,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Campbell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 54973,
@@ -28386,7 +26359,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Caroline County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 30772,
@@ -28400,7 +26372,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Carroll County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 29636,
@@ -28414,7 +26385,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Charles City County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6941,
@@ -28428,7 +26398,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Charlotte County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11938,
@@ -28442,7 +26411,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Charlottesville city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 48117,
@@ -28456,7 +26424,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chesapeake city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 242634,
@@ -28470,7 +26437,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chesterfield County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 348556,
@@ -28484,7 +26450,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clarke County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14523,
@@ -28498,7 +26463,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Colonial Heights city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17833,
@@ -28512,7 +26476,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Covington city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5460,
@@ -28526,7 +26489,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Craig County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5064,
@@ -28540,7 +26502,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Culpeper County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 51859,
@@ -28554,7 +26515,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cumberland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9809,
@@ -28568,7 +26528,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Danville city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40693,
@@ -28582,7 +26541,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dickenson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14523,
@@ -28596,7 +26554,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dinwiddie County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28529,
@@ -28610,7 +26567,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Emporia city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5121,
@@ -28624,7 +26580,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Essex County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10919,
@@ -28638,7 +26593,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fairfax city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24574,
@@ -28652,7 +26606,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Falls Church city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14772,
@@ -28666,7 +26619,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fauquier County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 70675,
@@ -28680,7 +26632,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Floyd County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15795,
@@ -28694,7 +26645,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fluvanna County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26783,
@@ -28708,7 +26658,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Franklin city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8013,
@@ -28722,7 +26671,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Franklin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 56195,
@@ -28736,7 +26684,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Frederick County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 88355,
@@ -28750,7 +26697,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fredericksburg city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 29144,
@@ -28764,7 +26710,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Galax city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6423,
@@ -28778,7 +26723,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Giles County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16844,
@@ -28792,7 +26736,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gloucester County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 37349,
@@ -28806,7 +26749,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Goochland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23244,
@@ -28820,7 +26762,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grayson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15631,
@@ -28834,7 +26775,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Greene County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19779,
@@ -28848,7 +26788,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Greensville County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11627,
@@ -28862,7 +26801,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Halifax County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 34120,
@@ -28876,7 +26814,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hampton city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 134313,
@@ -28890,7 +26827,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Harrisonburg city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 54033,
@@ -28904,7 +26840,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Henrico County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 329261,
@@ -28918,7 +26853,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Henry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 50953,
@@ -28932,7 +26866,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Highland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2210,
@@ -28946,7 +26879,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hopewell city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22596,
@@ -28960,7 +26892,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Isle of Wight County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 36953,
@@ -28974,7 +26905,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `James City County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 76397,
@@ -28988,7 +26918,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `King and Queen County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7042,
@@ -29002,7 +26931,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `King George County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26575,
@@ -29016,7 +26944,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `King William County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16939,
@@ -29030,7 +26957,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lancaster County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10783,
@@ -29044,7 +26970,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23541,
@@ -29058,7 +26983,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lexington city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7136,
@@ -29072,7 +26996,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Louisa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 36778,
@@ -29086,7 +27009,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lunenburg County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12086,
@@ -29100,7 +27022,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Madison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13295,
@@ -29114,7 +27035,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Manassas city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 41641,
@@ -29128,7 +27048,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Manassas Park city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17307,
@@ -29142,7 +27061,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Martinsville city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12902,
@@ -29156,7 +27074,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mathews County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8802,
@@ -29170,7 +27087,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mecklenburg County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 30650,
@@ -29184,7 +27100,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Middlesex County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10769,
@@ -29198,7 +27113,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Montgomery County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 98985,
@@ -29212,7 +27126,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nelson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14836,
@@ -29226,7 +27139,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `New Kent County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22391,
@@ -29240,7 +27152,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Newport News city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 178626,
@@ -29254,7 +27165,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Northampton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11735,
@@ -29268,7 +27178,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Northumberland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12147,
@@ -29282,7 +27191,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Norton city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3968,
@@ -29296,7 +27204,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nottoway County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15420,
@@ -29310,7 +27217,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Orange County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 36644,
@@ -29324,7 +27230,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Page County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23933,
@@ -29338,7 +27243,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Patrick County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17673,
@@ -29352,7 +27256,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Petersburg city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 31567,
@@ -29366,7 +27269,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pittsylvania County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 60949,
@@ -29380,7 +27282,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Poquoson city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12190,
@@ -29394,7 +27295,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Portsmouth city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 94632,
@@ -29408,7 +27308,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Powhatan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 29189,
@@ -29422,7 +27321,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Prince Edward County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22950,
@@ -29436,7 +27334,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Prince George County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 38082,
@@ -29450,7 +27347,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Prince William County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 468011,
@@ -29464,7 +27360,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pulaski County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 34066,
@@ -29478,7 +27373,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Radford city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18339,
@@ -29492,7 +27386,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rappahannock County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7252,
@@ -29506,7 +27399,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Richmond city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 228783,
@@ -29520,7 +27412,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Richmond County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9038,
@@ -29534,7 +27425,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Roanoke city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 99920,
@@ -29548,7 +27438,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Roanoke County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 94073,
@@ -29562,7 +27451,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rockbridge County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22752,
@@ -29576,7 +27464,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rockingham County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 81244,
@@ -29590,7 +27477,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Russell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26748,
@@ -29604,7 +27490,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Salem city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25643,
@@ -29618,7 +27503,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Scott County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21534,
@@ -29632,7 +27516,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Shenandoah County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 43497,
@@ -29646,7 +27529,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Smyth County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 30472,
@@ -29660,7 +27542,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Southampton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17586,
@@ -29674,7 +27555,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Stafford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 149960,
@@ -29688,7 +27568,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Staunton city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24922,
@@ -29702,7 +27581,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Suffolk city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 91185,
@@ -29716,7 +27594,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Surry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6474,
@@ -29730,7 +27607,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sussex County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11237,
@@ -29744,7 +27620,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tazewell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40855,
@@ -29758,7 +27633,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Virginia Beach city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 450189,
@@ -29772,7 +27646,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Warren County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40003,
@@ -29786,7 +27659,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 54402,
@@ -29800,7 +27672,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Waynesboro city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22628,
@@ -29814,7 +27685,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Westmoreland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17830,
@@ -29828,7 +27698,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Williamsburg city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14896,
@@ -29842,7 +27711,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Winchester city`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28108,
@@ -29856,7 +27724,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wise County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 38012,
@@ -29870,7 +27737,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wythe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28754,
@@ -29884,7 +27750,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `York County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 67846,
@@ -29898,7 +27763,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `AG`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 678207,
@@ -29912,7 +27776,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `AI`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16145,
@@ -29926,7 +27789,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `AR`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 55234,
@@ -29940,7 +27802,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `BE`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1034977,
@@ -29954,7 +27815,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `BL`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 288132,
@@ -29968,7 +27828,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `BS`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 194766,
@@ -29982,7 +27841,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `FR`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 318714,
@@ -29996,7 +27854,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `GE`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 495249,
@@ -30010,7 +27867,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `GL`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40403,
@@ -30024,7 +27880,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `GR`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 198379,
@@ -30038,7 +27893,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `JU`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 73419,
@@ -30052,7 +27906,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `LU`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 409557,
@@ -30066,7 +27919,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `NE`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 177964,
@@ -30080,7 +27932,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `NW`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 43223,
@@ -30094,7 +27945,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `OW`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 37841,
@@ -30108,7 +27958,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `SG`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 507697,
@@ -30122,7 +27971,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `SH`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 81991,
@@ -30136,7 +27984,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `SO`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 273194,
@@ -30150,7 +27997,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `SZ`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 159165,
@@ -30164,7 +28010,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `TG`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 276472,
@@ -30178,7 +28023,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `TI`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 353343,
@@ -30192,7 +28036,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `UR`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 36433,
@@ -30206,7 +28049,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `VD`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 799145,
@@ -30220,7 +28062,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `VS`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 343955,
@@ -30234,7 +28075,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `ZG`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 126837,
@@ -30248,7 +28088,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `ZH`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1520968,
@@ -30262,7 +28101,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `DE-BB`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3740000,
@@ -30276,7 +28114,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `DE-BE`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3740000,
@@ -30290,7 +28127,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `DE-BY`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13000000,
@@ -30304,7 +28140,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `DE-BW`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11020000,
@@ -30318,7 +28153,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `DE-HB`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 548000,
@@ -30332,7 +28166,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `DE-HE`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6240000,
@@ -30346,7 +28179,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `DE-HH`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1822000,
@@ -30360,7 +28192,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `DE-MV`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1635000,
@@ -30374,7 +28205,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `DE-NI`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7960000,
@@ -30388,7 +28218,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `DE-RP`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4070000.0000000005,
@@ -30402,7 +28231,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `DE-NW`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17910000,
@@ -30416,7 +28244,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `DE-SH`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2890000,
@@ -30430,7 +28257,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `DE-SL`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 990000,
@@ -30444,7 +28270,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `DE-SN`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4080000,
@@ -30458,7 +28283,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `DE-ST`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2280000,
@@ -30472,7 +28296,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `DE-TH`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2140000,
@@ -30486,7 +28309,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sint Maarten`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -30500,7 +28322,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Isle of Man`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -30514,7 +28335,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Armstrong County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 65263,
@@ -30528,7 +28348,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Beaver County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 164742,
@@ -30542,7 +28361,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bedford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 48176,
@@ -30556,7 +28374,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Berks County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 420152,
@@ -30570,7 +28387,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Blair County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 122492,
@@ -30584,7 +28400,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bradford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 60833,
@@ -30598,7 +28413,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Butler County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 187888,
@@ -30612,7 +28426,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cambria County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 131730,
@@ -30626,7 +28439,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cameron County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4492,
@@ -30640,7 +28452,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Carbon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 64227,
@@ -30654,7 +28465,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Centre County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 162805,
@@ -30668,7 +28478,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clarion County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 38779,
@@ -30682,7 +28491,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clearfield County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 79388,
@@ -30696,7 +28504,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clinton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 38684,
@@ -30710,7 +28517,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Columbia County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 65456,
@@ -30724,7 +28530,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Crawford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 85063,
@@ -30738,7 +28543,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dauphin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 277097,
@@ -30752,7 +28556,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Elk County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 30169,
@@ -30766,7 +28569,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Erie County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 272061,
@@ -30780,7 +28582,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fayette County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 130441,
@@ -30794,7 +28595,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Forest County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7279,
@@ -30808,7 +28608,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Franklin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 154835,
@@ -30822,7 +28621,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fulton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14523,
@@ -30836,7 +28634,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Greene County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 36506,
@@ -30850,7 +28647,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Huntingdon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 45168,
@@ -30864,7 +28660,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Indiana County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 84501,
@@ -30878,7 +28673,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jefferson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 43641,
@@ -30892,7 +28686,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Juniata County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24704,
@@ -30906,7 +28699,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lackawanna County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 210793,
@@ -30920,7 +28712,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lancaster County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 543557,
@@ -30934,7 +28725,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lawrence County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 86184,
@@ -30948,7 +28738,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lebanon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 141314,
@@ -30962,7 +28751,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lycoming County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 113664,
@@ -30976,7 +28764,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `McKean County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40968,
@@ -30990,7 +28777,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mercer County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 110683,
@@ -31004,7 +28790,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mifflin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 46222,
@@ -31018,7 +28803,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Montour County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18240,
@@ -31032,7 +28816,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Northumberland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 91083,
@@ -31046,7 +28829,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Perry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 46139,
@@ -31060,7 +28842,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Potter County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16622,
@@ -31074,7 +28855,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Schuylkill County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 142067,
@@ -31088,7 +28868,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Snyder County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40540,
@@ -31102,7 +28881,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Somerset County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 73952,
@@ -31116,7 +28894,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sullivan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6071,
@@ -31130,7 +28907,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Susquehanna County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40589,
@@ -31144,7 +28920,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tioga County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40763,
@@ -31158,7 +28933,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Union County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 44785,
@@ -31172,7 +28946,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Venango County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 51266,
@@ -31186,7 +28959,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Warren County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 39498,
@@ -31200,7 +28972,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Westmoreland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 350611,
@@ -31214,7 +28985,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wyoming County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 27046,
@@ -31228,7 +28998,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `York County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 448273,
@@ -31242,7 +29011,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `(unassigned)`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -31256,7 +29024,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Carroll County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20154,
@@ -31270,7 +29037,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Harrison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14134,
@@ -31284,7 +29050,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Barnstable County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -31298,7 +29063,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bristol County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -31312,7 +29076,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dukes County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -31326,7 +29089,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Franklin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -31340,7 +29102,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hampden County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -31354,7 +29115,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hampshire County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -31368,7 +29128,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nantucket County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -31382,7 +29141,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Plymouth County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -31396,7 +29154,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dallas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 90180,
@@ -31410,7 +29167,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Allamakee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13832,
@@ -31424,7 +29180,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Polk County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 487204,
@@ -31438,7 +29193,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Adair County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7063,
@@ -31452,7 +29206,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Black Hawk County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 132408,
@@ -31466,7 +29219,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22141,
@@ -31480,7 +29232,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Winneshiek County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20029,
@@ -31494,7 +29245,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Yuma County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 212128,
@@ -31508,7 +29258,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Yavapai County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 231993,
@@ -31522,7 +29271,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Santa Cruz County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 46511,
@@ -31536,7 +29284,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Navajo County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 110445,
@@ -31550,7 +29297,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mohave County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 209550,
@@ -31564,7 +29310,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `La Paz County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21098,
@@ -31578,7 +29323,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Greenlee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9483,
@@ -31592,7 +29336,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Graham County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 38072,
@@ -31606,7 +29349,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gila County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 53889,
@@ -31620,7 +29362,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Coconino County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 142854,
@@ -31634,7 +29375,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cochise County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 126770,
@@ -31648,7 +29388,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Apache County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 71818,
@@ -31662,7 +29401,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bartow County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 106408,
@@ -31676,7 +29414,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dougherty County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 91243,
@@ -31690,7 +29427,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 29764,
@@ -31704,7 +29440,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clarke County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 127330,
@@ -31718,7 +29453,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clayton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 289615,
@@ -31732,7 +29466,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Richmond County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 201554,
@@ -31746,7 +29479,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Carroll County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 118121,
@@ -31760,7 +29492,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Floyd County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 97927,
@@ -31774,7 +29505,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lowndes County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 116321,
@@ -31788,7 +29518,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Coweta County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 145864,
@@ -31802,7 +29531,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hall County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 202148,
@@ -31816,7 +29544,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Henry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 230220,
@@ -31830,7 +29557,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Newton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 109541,
@@ -31844,7 +29570,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Forsyth County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 236612,
@@ -31858,7 +29583,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gordon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 57685,
@@ -31872,7 +29596,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Paulding County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 164044,
@@ -31886,7 +29609,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chatham County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 289195,
@@ -31900,7 +29622,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Early County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10247,
@@ -31914,7 +29635,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Glynn County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 85219,
@@ -31928,7 +29648,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Houston County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 155469,
@@ -31942,7 +29661,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Laurens County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 47325,
@@ -31956,7 +29674,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pickens County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 31980,
@@ -31970,7 +29687,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Spalding County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 66100,
@@ -31984,7 +29700,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sumter County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 29733,
@@ -31998,7 +29713,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Terrell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8611,
@@ -32012,7 +29726,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Troup County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 70034,
@@ -32026,7 +29739,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Worth County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20299,
@@ -32040,7 +29752,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Barrow County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 80809,
@@ -32054,7 +29765,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bibb County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 153095,
@@ -32068,7 +29778,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Columbia County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 154291,
@@ -32082,7 +29791,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dawson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25083,
@@ -32096,7 +29804,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Douglas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 145331,
@@ -32110,7 +29817,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Effingham County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 62190,
@@ -32124,7 +29830,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Heard County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11879,
@@ -32138,7 +29843,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lamar County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19000,
@@ -32152,7 +29856,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Miller County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5686,
@@ -32166,7 +29869,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Monroe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 27520,
@@ -32180,7 +29882,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Muscogee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 194160,
@@ -32194,7 +29895,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Oconee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 39272,
@@ -32208,7 +29908,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Peach County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 27297,
@@ -32222,7 +29921,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Randolph County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6833,
@@ -32236,7 +29934,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rockdale County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 90594,
@@ -32250,7 +29947,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tift County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40571,
@@ -32264,7 +29960,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Turner County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7912,
@@ -32278,7 +29973,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Whitfield County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 104062,
@@ -32292,7 +29986,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `(unassigned)`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -32306,7 +29999,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Appling County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18507,
@@ -32320,7 +30012,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Atkinson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8297,
@@ -32334,7 +30025,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bacon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11185,
@@ -32348,7 +30038,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Baker County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3092,
@@ -32362,7 +30051,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Baldwin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 44823,
@@ -32376,7 +30064,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Banks County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18988,
@@ -32390,7 +30077,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ben Hill County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16787,
@@ -32404,7 +30090,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Berrien County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19252,
@@ -32418,7 +30103,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bleckley County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12838,
@@ -32432,7 +30116,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Brantley County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18897,
@@ -32446,7 +30129,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Brooks County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15513,
@@ -32460,7 +30142,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bryan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 38109,
@@ -32474,7 +30155,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bulloch County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 77296,
@@ -32488,7 +30168,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Burke County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22423,
@@ -32502,7 +30181,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Butts County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24193,
@@ -32516,7 +30194,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Calhoun County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6352,
@@ -32530,7 +30207,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Camden County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 53677,
@@ -32544,7 +30220,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Candler County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10836,
@@ -32558,7 +30233,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Catoosa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 67420,
@@ -32572,7 +30246,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chattahoochee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10684,
@@ -32586,7 +30259,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chattooga County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24790,
@@ -32600,7 +30272,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clay County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2887,
@@ -32614,7 +30285,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clinch County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6648,
@@ -32628,7 +30298,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Coffee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 43093,
@@ -32642,7 +30311,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Colquitt County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 45592,
@@ -32656,7 +30324,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cook County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17162,
@@ -32670,7 +30337,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Crawford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12318,
@@ -32684,7 +30350,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Crisp County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22601,
@@ -32698,7 +30363,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dade County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16226,
@@ -32712,7 +30376,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Decatur County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26575,
@@ -32726,7 +30389,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dodge County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20705,
@@ -32740,7 +30402,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dooly County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13706,
@@ -32754,7 +30415,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Echols County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4000,
@@ -32768,7 +30428,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Elbert County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19120,
@@ -32782,7 +30441,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Emanuel County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22612,
@@ -32796,7 +30454,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Evans County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10721,
@@ -32810,7 +30467,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fannin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25964,
@@ -32824,7 +30480,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Franklin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23023,
@@ -32838,7 +30493,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gilmer County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 30816,
@@ -32852,7 +30506,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Glascock County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2995,
@@ -32866,7 +30519,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grady County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24748,
@@ -32880,7 +30532,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Greene County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17698,
@@ -32894,7 +30545,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Habersham County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 45388,
@@ -32908,7 +30558,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hancock County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8348,
@@ -32922,7 +30571,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Haralson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 29533,
@@ -32936,7 +30584,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Harris County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 34475,
@@ -32950,7 +30597,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hart County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26099,
@@ -32964,7 +30610,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Irwin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9398,
@@ -32978,7 +30623,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jackson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 70422,
@@ -32992,7 +30636,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jasper County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14040,
@@ -33006,7 +30649,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jeff Davis County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15029,
@@ -33020,7 +30662,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jefferson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15430,
@@ -33034,7 +30675,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jenkins County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8683,
@@ -33048,7 +30688,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Johnson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9708,
@@ -33062,7 +30701,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jones County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28616,
@@ -33076,7 +30714,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lanier County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10340,
@@ -33090,7 +30727,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Liberty County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 61497,
@@ -33104,7 +30740,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lincoln County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7915,
@@ -33118,7 +30753,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Long County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18998,
@@ -33132,7 +30766,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lumpkin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 32955,
@@ -33146,7 +30779,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Macon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13143,
@@ -33160,7 +30792,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Madison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 29650,
@@ -33174,7 +30805,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marion County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8351,
@@ -33188,7 +30818,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `McDuffie County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21531,
@@ -33202,7 +30831,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `McIntosh County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14340,
@@ -33216,7 +30844,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Meriwether County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21068,
@@ -33230,7 +30857,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mitchell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22192,
@@ -33244,7 +30870,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Montgomery County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9193,
@@ -33258,7 +30883,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Morgan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18853,
@@ -33272,7 +30896,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Murray County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 39921,
@@ -33286,7 +30909,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Oglethorpe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15054,
@@ -33300,7 +30922,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pierce County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19389,
@@ -33314,7 +30935,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pike County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18634,
@@ -33328,7 +30948,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pulaski County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11069,
@@ -33342,7 +30961,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Putnam County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21809,
@@ -33356,7 +30974,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Quitman County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2279,
@@ -33370,7 +30987,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rabun County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16867,
@@ -33384,7 +31000,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Schley County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5236,
@@ -33398,7 +31013,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Screven County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13938,
@@ -33412,7 +31026,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Seminole County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8315,
@@ -33426,7 +31039,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Stephens County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26035,
@@ -33440,7 +31052,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Stewart County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6199,
@@ -33454,7 +31065,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Talbot County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6272,
@@ -33468,7 +31078,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Taliaferro County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1608,
@@ -33482,7 +31091,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tattnall County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25391,
@@ -33496,7 +31104,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Taylor County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8039,
@@ -33510,7 +31117,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Telfair County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15876,
@@ -33524,7 +31130,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Thomas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 44448,
@@ -33538,7 +31143,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Toombs County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26887,
@@ -33552,7 +31156,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Towns County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11852,
@@ -33566,7 +31169,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Treutlen County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6809,
@@ -33580,7 +31182,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Twiggs County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8188,
@@ -33594,7 +31195,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Union County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24001,
@@ -33608,7 +31208,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Upson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26215,
@@ -33622,7 +31221,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Walker County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 69410,
@@ -33636,7 +31234,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Walton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 93503,
@@ -33650,7 +31247,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ware County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 35680,
@@ -33664,7 +31260,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Warren County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5251,
@@ -33678,7 +31273,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20386,
@@ -33692,7 +31286,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wayne County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 29808,
@@ -33706,7 +31299,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Webster County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2611,
@@ -33720,7 +31312,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wheeler County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7879,
@@ -33734,7 +31325,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `White County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 29970,
@@ -33748,7 +31338,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wilcox County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8812,
@@ -33762,7 +31351,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wilkes County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9876,
@@ -33776,7 +31364,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wilkinson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9036,
@@ -33790,7 +31377,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lyon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11811,
@@ -33804,7 +31390,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Osceola County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6040,
@@ -33818,7 +31403,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dickinson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17153,
@@ -33832,7 +31416,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Emmet County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9253,
@@ -33846,7 +31429,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kossuth County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14908,
@@ -33860,7 +31442,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Howard County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9187,
@@ -33874,7 +31455,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Winnebago County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10518,
@@ -33888,7 +31468,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mitchell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10569,
@@ -33902,7 +31481,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Worth County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7453,
@@ -33916,7 +31494,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sioux County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 34909,
@@ -33930,7 +31507,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `O'Brien County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13840,
@@ -33944,7 +31520,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clay County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16134,
@@ -33958,7 +31533,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Palo Alto County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8929,
@@ -33972,7 +31546,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hancock County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10712,
@@ -33986,7 +31559,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cerro Gordo County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 42647,
@@ -34000,7 +31572,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chickasaw County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11964,
@@ -34014,7 +31585,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Floyd County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15761,
@@ -34028,7 +31598,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clayton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17556,
@@ -34042,7 +31611,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fayette County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19660,
@@ -34056,7 +31624,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Plymouth County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25095,
@@ -34070,7 +31637,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cherokee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11321,
@@ -34084,7 +31650,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Buena Vista County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19874,
@@ -34098,7 +31663,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pocahontas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6740,
@@ -34112,7 +31676,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Humboldt County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9547,
@@ -34126,7 +31689,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wright County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12690,
@@ -34140,7 +31702,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bremer County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24947,
@@ -34154,7 +31715,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Franklin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10124,
@@ -34168,7 +31728,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Butler County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14539,
@@ -34182,7 +31741,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dubuque County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 96854,
@@ -34196,7 +31754,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Delaware County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17069,
@@ -34210,7 +31767,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Webster County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 36277,
@@ -34224,7 +31780,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Buchanan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21199,
@@ -34238,7 +31793,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Woodbury County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 102539,
@@ -34252,7 +31806,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ida County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6841,
@@ -34266,7 +31819,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sac County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9719,
@@ -34280,7 +31832,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Calhoun County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9699,
@@ -34294,7 +31845,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hamilton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14952,
@@ -34308,7 +31858,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hardin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16868,
@@ -34322,7 +31871,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grundy County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12304,
@@ -34336,7 +31884,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jackson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19432,
@@ -34350,7 +31897,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jones County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20744,
@@ -34364,7 +31910,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Linn County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 225909,
@@ -34378,7 +31923,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Benton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25642,
@@ -34392,7 +31936,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tama County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16904,
@@ -34406,7 +31949,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Monona County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8679,
@@ -34420,7 +31962,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Crawford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17158,
@@ -34434,7 +31975,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Greene County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8981,
@@ -34448,7 +31988,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Boone County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26346,
@@ -34462,7 +32001,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Story County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 98105,
@@ -34476,7 +32014,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marshall County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 39981,
@@ -34490,7 +32027,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clinton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 46518,
@@ -34504,7 +32040,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cedar County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18627,
@@ -34518,7 +32053,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Shelby County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11578,
@@ -34532,7 +32066,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Audubon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5506,
@@ -34546,7 +32079,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Guthrie County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10720,
@@ -34560,7 +32092,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Iowa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16141,
@@ -34574,7 +32105,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Poweshiek County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18699,
@@ -34588,7 +32118,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jasper County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 37147,
@@ -34602,7 +32131,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Scott County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 173283,
@@ -34616,7 +32144,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Muscatine County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 42929,
@@ -34630,7 +32157,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cass County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12930,
@@ -34644,7 +32170,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Keokuk County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10225,
@@ -34658,7 +32183,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Warren County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 51056,
@@ -34672,7 +32196,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Madison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16249,
@@ -34686,7 +32209,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mahaska County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22000,
@@ -34700,7 +32222,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marion County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 33407,
@@ -34714,7 +32235,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Louisa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11169,
@@ -34728,7 +32248,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mills County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15063,
@@ -34742,7 +32261,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Montgomery County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10003,
@@ -34756,7 +32274,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Adams County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3645,
@@ -34770,7 +32287,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Henry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20067,
@@ -34784,7 +32300,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jefferson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18381,
@@ -34798,7 +32313,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Union County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12359,
@@ -34812,7 +32326,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wapello County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 35205,
@@ -34826,7 +32339,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clarke County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9423,
@@ -34840,7 +32352,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lucas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8645,
@@ -34854,7 +32365,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Monroe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7790,
@@ -34868,7 +32378,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Des Moines County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 39138,
@@ -34882,7 +32391,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fremont County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6993,
@@ -34896,7 +32404,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Page County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15249,
@@ -34910,7 +32417,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Taylor County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6191,
@@ -34924,7 +32430,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ringgold County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4968,
@@ -34938,7 +32443,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Van Buren County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7020,
@@ -34952,7 +32456,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Davis County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9017,
@@ -34966,7 +32469,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Decatur County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7890,
@@ -34980,7 +32482,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wayne County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6401,
@@ -34994,7 +32495,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Appanoose County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12437,
@@ -35008,7 +32508,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 34055,
@@ -35022,7 +32521,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Boone County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 180005,
@@ -35036,7 +32534,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cass County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 104954,
@@ -35050,7 +32547,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Christian County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 86983,
@@ -35064,7 +32560,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cole County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 76796,
@@ -35078,7 +32573,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dunklin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 29423,
@@ -35092,7 +32586,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Greene County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 291923,
@@ -35106,7 +32599,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Henry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21792,
@@ -35120,7 +32612,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jackson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 700307,
@@ -35134,7 +32625,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pulaski County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 52014,
@@ -35148,7 +32638,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Scott County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 38458,
@@ -35162,7 +32651,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `St. Charles County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 399182,
@@ -35176,7 +32664,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `(unassigned)`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -35190,7 +32677,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Adair County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25339,
@@ -35204,7 +32690,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Andrew County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17607,
@@ -35218,7 +32703,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Atchison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5171,
@@ -35232,7 +32716,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Audrain County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25473,
@@ -35246,7 +32729,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Barry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 35886,
@@ -35260,7 +32742,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Barton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11798,
@@ -35274,7 +32755,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bates County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16320,
@@ -35288,7 +32768,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Benton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19278,
@@ -35302,7 +32781,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bollinger County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12169,
@@ -35316,7 +32794,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Buchanan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 88571,
@@ -35330,7 +32807,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Butler County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 42639,
@@ -35344,7 +32820,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Caldwell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9108,
@@ -35358,7 +32833,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Callaway County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 44889,
@@ -35372,7 +32846,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Camden County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 45815,
@@ -35386,7 +32859,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cape Girardeau County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 78753,
@@ -35400,7 +32872,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Carroll County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8743,
@@ -35414,7 +32885,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Carter County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6054,
@@ -35428,7 +32898,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cedar County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14165,
@@ -35442,7 +32911,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chariton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7451,
@@ -35456,7 +32924,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clark County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6842,
@@ -35470,7 +32937,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clay County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 246365,
@@ -35484,7 +32950,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clinton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20470,
@@ -35498,7 +32963,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cooper County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17603,
@@ -35512,7 +32976,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Crawford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23957,
@@ -35526,7 +32989,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dade County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7569,
@@ -35540,7 +33002,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dallas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16762,
@@ -35554,7 +33015,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Daviess County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8313,
@@ -35568,7 +33028,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `DeKalb County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12630,
@@ -35582,7 +33041,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dent County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15441,
@@ -35596,7 +33054,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Douglas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13373,
@@ -35610,7 +33067,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Franklin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 103670,
@@ -35624,7 +33080,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gasconade County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14705,
@@ -35638,7 +33093,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gentry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6628,
@@ -35652,7 +33106,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grundy County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9914,
@@ -35666,7 +33119,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Harrison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8414,
@@ -35680,7 +33132,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hickory County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9509,
@@ -35694,7 +33145,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Holt County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4404,
@@ -35708,7 +33158,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Howard County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10137,
@@ -35722,7 +33171,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Howell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40076,
@@ -35736,7 +33184,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Iron County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10177,
@@ -35750,7 +33197,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jasper County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 120636,
@@ -35764,7 +33210,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jefferson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 224347,
@@ -35778,7 +33223,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Johnson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 53652,
@@ -35792,7 +33236,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Knox County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3947,
@@ -35806,7 +33249,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Laclede County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 35713,
@@ -35820,7 +33262,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lafayette County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 32598,
@@ -35834,7 +33275,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lawrence County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 38359,
@@ -35848,7 +33288,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lewis County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9855,
@@ -35862,7 +33301,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lincoln County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 57686,
@@ -35876,7 +33314,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Linn County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12037,
@@ -35890,7 +33327,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Livingston County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15146,
@@ -35904,7 +33340,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Macon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15153,
@@ -35918,7 +33353,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Madison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12188,
@@ -35932,7 +33366,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Maries County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8769,
@@ -35946,7 +33379,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marion County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28592,
@@ -35960,7 +33392,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `McDonald County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23078,
@@ -35974,7 +33405,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mercer County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3641,
@@ -35988,7 +33418,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Miller County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25336,
@@ -36002,7 +33431,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mississippi County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13336,
@@ -36016,7 +33444,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Moniteau County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16121,
@@ -36030,7 +33457,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Monroe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8664,
@@ -36044,7 +33470,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Montgomery County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11534,
@@ -36058,7 +33483,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Morgan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20358,
@@ -36072,7 +33496,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `New Madrid County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17296,
@@ -36086,7 +33509,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Newton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 58266,
@@ -36100,7 +33522,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nodaway County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22304,
@@ -36114,7 +33535,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Oregon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10541,
@@ -36128,7 +33548,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Osage County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13714,
@@ -36142,7 +33561,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ozark County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9017,
@@ -36156,7 +33574,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pemiscot County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16272,
@@ -36170,7 +33587,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Perry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19150,
@@ -36184,7 +33600,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pettis County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 42542,
@@ -36198,7 +33613,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Phelps County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 44732,
@@ -36212,7 +33626,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pike County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18504,
@@ -36226,7 +33639,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Platte County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 102985,
@@ -36240,7 +33652,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Polk County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 32201,
@@ -36254,7 +33665,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Putnam County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4757,
@@ -36268,7 +33678,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ralls County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10212,
@@ -36282,7 +33691,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Randolph County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24763,
@@ -36296,7 +33704,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ray County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22883,
@@ -36310,7 +33717,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Reynolds County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6254,
@@ -36324,7 +33730,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ripley County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13401,
@@ -36338,7 +33743,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `St. Clair County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9395,
@@ -36352,7 +33756,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `St. Francois County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 66692,
@@ -36366,7 +33769,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ste. Genevieve County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17888,
@@ -36380,7 +33782,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Saline County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22895,
@@ -36394,7 +33795,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Schuyler County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4599,
@@ -36408,7 +33808,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Scotland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4966,
@@ -36422,7 +33821,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Shannon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8189,
@@ -36436,7 +33834,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Shelby County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6050,
@@ -36450,7 +33847,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Stoddard County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 29206,
@@ -36464,7 +33860,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Stone County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 31749,
@@ -36478,7 +33873,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sullivan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6221,
@@ -36492,7 +33886,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Taney County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 55852,
@@ -36506,7 +33899,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Texas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25571,
@@ -36520,7 +33912,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Vernon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20528,
@@ -36534,7 +33925,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Warren County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 34711,
@@ -36548,7 +33938,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24943,
@@ -36562,7 +33951,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wayne County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13122,
@@ -36576,7 +33964,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Webster County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 39109,
@@ -36590,7 +33977,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Worth County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2040,
@@ -36604,7 +33990,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wright County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18378,
@@ -36618,7 +34003,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Canadian County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 144447,
@@ -36632,7 +34016,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cleveland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 281669,
@@ -36646,7 +34029,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Custer County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 29036,
@@ -36660,7 +34042,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Garvin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 27811,
@@ -36674,7 +34055,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grady County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 55551,
@@ -36688,7 +34068,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jackson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24949,
@@ -36702,7 +34081,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kay County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 44161,
@@ -36716,7 +34094,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Logan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 47291,
@@ -36730,7 +34107,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `McClain County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 39985,
@@ -36744,7 +34120,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Oklahoma County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 792582,
@@ -36758,7 +34133,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pawnee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16390,
@@ -36772,7 +34146,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Payne County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 82040,
@@ -36786,7 +34159,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 51843,
@@ -36800,7 +34172,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Adair County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22082,
@@ -36814,7 +34185,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Alfalfa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5754,
@@ -36828,7 +34198,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Atoka County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13838,
@@ -36842,7 +34211,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Beaver County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5319,
@@ -36856,7 +34224,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Beckham County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21709,
@@ -36870,7 +34237,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Blaine County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9485,
@@ -36884,7 +34250,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bryan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 47192,
@@ -36898,7 +34263,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Caddo County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28977,
@@ -36912,7 +34276,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Carter County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 48177,
@@ -36926,7 +34289,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cherokee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 48675,
@@ -36940,7 +34302,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Choctaw County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14668,
@@ -36954,7 +34315,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cimarron County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2153,
@@ -36968,7 +34328,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Coal County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5520,
@@ -36982,7 +34341,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Comanche County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 120422,
@@ -36996,7 +34354,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cotton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5776,
@@ -37010,7 +34367,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Craig County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14306,
@@ -37024,7 +34380,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Creek County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 71604,
@@ -37038,7 +34393,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Delaware County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 42733,
@@ -37052,7 +34406,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dewey County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4894,
@@ -37066,7 +34419,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ellis County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3952,
@@ -37080,7 +34432,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Garfield County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 60913,
@@ -37094,7 +34445,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grant County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4326,
@@ -37108,7 +34458,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Greer County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5821,
@@ -37122,7 +34471,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Harmon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2664,
@@ -37136,7 +34484,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Harper County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3797,
@@ -37150,7 +34497,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Haskell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12668,
@@ -37164,7 +34510,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hughes County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13335,
@@ -37178,7 +34523,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jefferson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6123,
@@ -37192,7 +34536,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Johnston County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10949,
@@ -37206,7 +34549,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kingfisher County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15816,
@@ -37220,7 +34562,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kiowa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8729,
@@ -37234,7 +34575,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Latimer County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10231,
@@ -37248,7 +34588,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Le Flore County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 49980,
@@ -37262,7 +34601,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lincoln County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 34920,
@@ -37276,7 +34614,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Love County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10134,
@@ -37290,7 +34627,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Major County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7644,
@@ -37304,7 +34640,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marshall County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16806,
@@ -37318,7 +34653,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mayes County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 41107,
@@ -37332,7 +34666,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `McCurtain County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 32703,
@@ -37346,7 +34679,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `McIntosh County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19815,
@@ -37360,7 +34692,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Murray County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13953,
@@ -37374,7 +34705,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Muskogee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 68362,
@@ -37388,7 +34718,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Noble County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11289,
@@ -37402,7 +34731,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nowata County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10218,
@@ -37416,7 +34744,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Okfuskee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12098,
@@ -37430,7 +34757,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Okmulgee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 38335,
@@ -37444,7 +34770,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Osage County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 47014,
@@ -37458,7 +34783,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ottawa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 31175,
@@ -37472,7 +34796,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pittsburg County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 43877,
@@ -37486,7 +34809,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pontotoc County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 38247,
@@ -37500,7 +34822,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pottawatomie County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 72679,
@@ -37514,7 +34835,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pushmataha County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11179,
@@ -37528,7 +34848,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Roger Mills County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3656,
@@ -37542,7 +34861,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rogers County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 91984,
@@ -37556,7 +34874,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Seminole County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24578,
@@ -37570,7 +34887,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sequoyah County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 41179,
@@ -37584,7 +34900,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Stephens County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 43265,
@@ -37598,7 +34913,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Texas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20455,
@@ -37612,7 +34926,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tillman County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7348,
@@ -37626,7 +34939,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wagoner County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 80110,
@@ -37640,7 +34952,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washita County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11127,
@@ -37654,7 +34965,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Woods County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8897,
@@ -37668,7 +34978,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Woodward County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20222,
@@ -37682,7 +34991,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `(unassigned)`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -37696,7 +35004,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kootenai County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 161505,
@@ -37710,7 +35017,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Canyon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 223499,
@@ -37724,7 +35030,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ada County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 469966,
@@ -37738,7 +35043,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Blaine County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22601,
@@ -37752,7 +35056,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Twin Falls County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 86081,
@@ -37766,7 +35069,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bingham County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 46236,
@@ -37780,7 +35082,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Madison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 39304,
@@ -37794,7 +35095,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Teton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11640,
@@ -37808,7 +35108,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Adams County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4250,
@@ -37822,7 +35121,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bannock County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 87138,
@@ -37836,7 +35134,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bear Lake County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6050,
@@ -37850,7 +35147,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Benewah County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9226,
@@ -37864,7 +35160,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Boise County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7634,
@@ -37878,7 +35173,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bonner County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 44727,
@@ -37892,7 +35186,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bonneville County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 116854,
@@ -37906,7 +35199,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Boundary County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11948,
@@ -37920,7 +35212,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Butte County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2611,
@@ -37934,7 +35225,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Camas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1127,
@@ -37948,7 +35238,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Caribou County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7060,
@@ -37962,7 +35251,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cassia County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23864,
@@ -37976,7 +35264,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clark County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 852,
@@ -37990,7 +35277,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clearwater County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8758,
@@ -38004,7 +35290,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Custer County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4280,
@@ -38018,7 +35303,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Elmore County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 27259,
@@ -38032,7 +35316,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Franklin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13726,
@@ -38046,7 +35329,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fremont County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13168,
@@ -38060,7 +35342,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gem County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17634,
@@ -38074,7 +35355,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gooding County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15196,
@@ -38088,7 +35368,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Idaho County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16513,
@@ -38102,7 +35381,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jefferson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 29439,
@@ -38116,7 +35394,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jerome County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24015,
@@ -38130,7 +35407,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Latah County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40134,
@@ -38144,7 +35420,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lemhi County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7961,
@@ -38158,7 +35433,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lewis County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3861,
@@ -38172,7 +35446,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lincoln County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5360,
@@ -38186,7 +35459,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Minidoka County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20825,
@@ -38200,7 +35472,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nez Perce County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40408,
@@ -38214,7 +35485,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Oneida County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4488,
@@ -38228,7 +35498,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Owyhee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11693,
@@ -38242,7 +35511,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Payette County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23551,
@@ -38256,7 +35524,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Power County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7768,
@@ -38270,7 +35537,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Shoshone County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12796,
@@ -38284,7 +35550,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Valley County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11041,
@@ -38298,7 +35563,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10161,
@@ -38312,7 +35576,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Adair County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19215,
@@ -38326,7 +35589,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Allen County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21122,
@@ -38340,7 +35602,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Anderson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22663,
@@ -38354,7 +35615,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ballard County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7979,
@@ -38368,7 +35628,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Barren County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 44176,
@@ -38382,7 +35641,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bath County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12383,
@@ -38396,7 +35654,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26569,
@@ -38410,7 +35667,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Boone County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 131533,
@@ -38424,7 +35680,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bourbon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20184,
@@ -38438,7 +35693,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Boyd County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 47240,
@@ -38452,7 +35706,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Boyle County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 30100,
@@ -38466,7 +35719,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bracken County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8239,
@@ -38480,7 +35732,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Breathitt County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12726,
@@ -38494,7 +35745,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Breckinridge County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20388,
@@ -38508,7 +35758,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bullitt County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 81069,
@@ -38522,7 +35771,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Butler County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12772,
@@ -38536,7 +35784,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Caldwell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12715,
@@ -38550,7 +35797,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Calloway County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 39135,
@@ -38564,7 +35810,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Campbell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 93152,
@@ -38578,7 +35823,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Carlisle County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4771,
@@ -38592,7 +35836,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Carroll County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10737,
@@ -38606,7 +35849,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Carter County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 27004,
@@ -38620,7 +35862,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Casey County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15888,
@@ -38634,7 +35875,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Christian County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 71671,
@@ -38648,7 +35888,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clark County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 36249,
@@ -38662,7 +35901,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clay County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20105,
@@ -38676,7 +35914,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clinton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10206,
@@ -38690,7 +35927,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Crittenden County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8915,
@@ -38704,7 +35940,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cumberland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6659,
@@ -38718,7 +35953,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Daviess County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 101104,
@@ -38732,7 +35966,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Edmonson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12274,
@@ -38746,7 +35979,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Elliott County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7508,
@@ -38760,7 +35992,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Estill County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14198,
@@ -38774,7 +36005,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fleming County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14432,
@@ -38788,7 +36018,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Franklin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 50815,
@@ -38802,7 +36031,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fulton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6120,
@@ -38816,7 +36044,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gallatin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8832,
@@ -38830,7 +36057,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Garrard County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17560,
@@ -38844,7 +36070,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grant County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25121,
@@ -38858,7 +36083,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Graves County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 37317,
@@ -38872,7 +36096,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grayson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26321,
@@ -38886,7 +36109,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Green County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11049,
@@ -38900,7 +36122,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Greenup County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 35268,
@@ -38914,7 +36135,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hancock County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8758,
@@ -38928,7 +36148,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hardin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 110356,
@@ -38942,7 +36161,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Harlan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26409,
@@ -38956,7 +36174,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hart County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18906,
@@ -38970,7 +36187,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Henderson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 45591,
@@ -38984,7 +36200,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Henry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16106,
@@ -38998,7 +36213,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hickman County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4421,
@@ -39012,7 +36226,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hopkins County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 45068,
@@ -39026,7 +36239,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jackson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13442,
@@ -39040,7 +36252,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jessamine County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 53920,
@@ -39054,7 +36265,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Johnson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22386,
@@ -39068,7 +36278,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kenton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 166051,
@@ -39082,7 +36291,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Knott County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15126,
@@ -39096,7 +36304,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Knox County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 31304,
@@ -39110,7 +36317,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Larue County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14307,
@@ -39124,7 +36330,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Laurel County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 60669,
@@ -39138,7 +36343,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lawrence County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15571,
@@ -39152,7 +36356,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7033,
@@ -39166,7 +36369,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Leslie County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10143,
@@ -39180,7 +36382,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Letcher County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21899,
@@ -39194,7 +36395,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lewis County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13257,
@@ -39208,7 +36408,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lincoln County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24644,
@@ -39222,7 +36421,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Livingston County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9242,
@@ -39236,7 +36434,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Logan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26989,
@@ -39250,7 +36447,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lyon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8009,
@@ -39264,7 +36460,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Madison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 92368,
@@ -39278,7 +36473,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Magoffin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12362,
@@ -39292,7 +36486,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marion County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19404,
@@ -39306,7 +36499,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marshall County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 31191,
@@ -39320,7 +36512,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Martin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11323,
@@ -39334,7 +36525,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mason County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17150,
@@ -39348,7 +36538,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `McCracken County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 65346,
@@ -39362,7 +36551,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `McCreary County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17408,
@@ -39376,7 +36564,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `McLean County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9252,
@@ -39390,7 +36577,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Meade County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28715,
@@ -39404,7 +36590,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Menifee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6451,
@@ -39418,7 +36603,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mercer County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21774,
@@ -39432,7 +36616,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Metcalfe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10030,
@@ -39446,7 +36629,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Monroe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10718,
@@ -39460,7 +36642,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Montgomery County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28203,
@@ -39474,7 +36655,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Morgan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13345,
@@ -39488,7 +36668,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Muhlenberg County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 30774,
@@ -39502,7 +36681,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nelson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 45851,
@@ -39516,7 +36694,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nicholas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7166,
@@ -39530,7 +36707,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ohio County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24087,
@@ -39544,7 +36720,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Oldham County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 66470,
@@ -39558,7 +36733,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Owen County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10880,
@@ -39572,7 +36746,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Owsley County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4472,
@@ -39586,7 +36759,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pendleton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14529,
@@ -39600,7 +36772,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Perry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26092,
@@ -39614,7 +36785,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pike County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 58402,
@@ -39628,7 +36798,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Powell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12442,
@@ -39642,7 +36811,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pulaski County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 64623,
@@ -39656,7 +36824,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Robertson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2135,
@@ -39670,7 +36837,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rockcastle County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16750,
@@ -39684,7 +36850,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rowan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24583,
@@ -39698,7 +36863,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Russell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17821,
@@ -39712,7 +36876,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Scott County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 56031,
@@ -39726,7 +36889,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Shelby County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 48518,
@@ -39740,7 +36902,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Simpson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18529,
@@ -39754,7 +36915,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Spencer County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18794,
@@ -39768,7 +36928,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Taylor County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25549,
@@ -39782,7 +36941,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Todd County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12311,
@@ -39796,7 +36954,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Trigg County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14643,
@@ -39810,7 +36967,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Trimble County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8515,
@@ -39824,7 +36980,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Union County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14505,
@@ -39838,7 +36993,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Warren County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 131264,
@@ -39852,7 +37006,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12084,
@@ -39866,7 +37019,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wayne County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20468,
@@ -39880,7 +37032,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Webster County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13111,
@@ -39894,7 +37045,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Whitley County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 36242,
@@ -39908,7 +37058,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wolfe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7177,
@@ -39922,7 +37071,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Woodford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26533,
@@ -39936,7 +37084,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dukes and Nantucket County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -39950,7 +37097,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Androscoggin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 107679,
@@ -39964,7 +37110,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Aroostook County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 67111,
@@ -39978,7 +37123,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cumberland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 293557,
@@ -39992,7 +37136,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Franklin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 29897,
@@ -40006,7 +37149,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hancock County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 54811,
@@ -40020,7 +37162,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kennebec County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 122083,
@@ -40034,7 +37175,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Knox County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 39771,
@@ -40048,7 +37188,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lincoln County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 34342,
@@ -40062,7 +37201,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Oxford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 57618,
@@ -40076,7 +37214,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Penobscot County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 151096,
@@ -40090,7 +37227,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Piscataquis County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16800,
@@ -40104,7 +37240,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sagadahoc County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 35634,
@@ -40118,7 +37253,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Somerset County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 50592,
@@ -40132,7 +37266,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Waldo County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 39694,
@@ -40146,7 +37279,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 31490,
@@ -40160,7 +37292,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `York County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 206229,
@@ -40174,7 +37305,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `(unassigned)`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -40188,7 +37318,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Barry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 61157,
@@ -40202,7 +37331,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bay County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 103923,
@@ -40216,7 +37344,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Berrien County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 154141,
@@ -40230,7 +37357,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Calhoun County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 134487,
@@ -40244,7 +37370,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Charlevoix County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26244,
@@ -40258,7 +37383,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clare County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 30757,
@@ -40272,7 +37396,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clinton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 79332,
@@ -40286,7 +37409,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Eaton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 109826,
@@ -40300,7 +37422,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Genesee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 406892,
@@ -40314,7 +37435,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ingham County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 292735,
@@ -40328,7 +37448,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jackson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 158823,
@@ -40342,7 +37461,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kent County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 653786,
@@ -40356,7 +37474,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Leelanau County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21764,
@@ -40370,7 +37487,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Livingston County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 191224,
@@ -40384,7 +37500,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Macomb County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 874759,
@@ -40398,7 +37513,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Midland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 83209,
@@ -40412,7 +37526,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Monroe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 150439,
@@ -40426,7 +37539,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Montcalm County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 63968,
@@ -40440,7 +37552,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Otsego County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24665,
@@ -40454,7 +37565,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ottawa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 290494,
@@ -40468,7 +37578,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Saginaw County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 190800,
@@ -40482,7 +37591,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `St. Clair County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 159337,
@@ -40496,7 +37604,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tuscola County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 52516,
@@ -40510,7 +37617,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washtenaw County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 370963,
@@ -40524,7 +37630,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wexford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 33466,
@@ -40538,7 +37643,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `(unassigned)`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -40552,7 +37656,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Alcona County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10362,
@@ -40566,7 +37669,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Alger County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9097,
@@ -40580,7 +37682,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Allegan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 117327,
@@ -40594,7 +37695,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Alpena County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28360,
@@ -40608,7 +37708,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Antrim County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23365,
@@ -40622,7 +37721,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Arenac County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15041,
@@ -40636,7 +37734,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Baraga County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8320,
@@ -40650,7 +37747,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Benzie County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17753,
@@ -40664,7 +37760,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Branch County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 43622,
@@ -40678,7 +37773,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cass County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 51653,
@@ -40692,7 +37786,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cheboygan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25413,
@@ -40706,7 +37799,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chippewa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 37517,
@@ -40720,7 +37812,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Crawford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13901,
@@ -40734,7 +37825,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Delta County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 35857,
@@ -40748,7 +37838,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dickinson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25383,
@@ -40762,7 +37851,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Emmet County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 33308,
@@ -40776,7 +37864,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gladwin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25337,
@@ -40790,7 +37877,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gogebic County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15096,
@@ -40804,7 +37890,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grand Traverse County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 92573,
@@ -40818,7 +37903,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gratiot County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40599,
@@ -40832,7 +37916,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hillsdale County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 45749,
@@ -40846,7 +37929,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Houghton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 36219,
@@ -40860,7 +37942,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Huron County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 31166,
@@ -40874,7 +37955,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ionia County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 64210,
@@ -40888,7 +37968,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Iosco County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25081,
@@ -40902,7 +37981,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Iron County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11117,
@@ -40916,7 +37994,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Isabella County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 70562,
@@ -40930,7 +38007,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kalamazoo County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 264870,
@@ -40944,7 +38020,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kalkaska County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17824,
@@ -40958,7 +38033,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Keweenaw County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2113,
@@ -40972,7 +38046,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lake County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11881,
@@ -40986,7 +38059,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lapeer County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 88028,
@@ -41000,7 +38072,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lenawee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 98266,
@@ -41014,7 +38085,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Luce County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6283,
@@ -41028,7 +38098,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mackinac County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10787,
@@ -41042,7 +38111,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Manistee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24528,
@@ -41056,7 +38124,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marquette County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 66516,
@@ -41070,7 +38137,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mason County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 29100,
@@ -41084,7 +38150,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mecosta County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 43545,
@@ -41098,7 +38163,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Menominee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22983,
@@ -41112,7 +38176,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Missaukee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15113,
@@ -41126,7 +38189,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Montmorency County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9265,
@@ -41140,7 +38202,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Muskegon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 173588,
@@ -41154,7 +38215,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Newaygo County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 48892,
@@ -41168,7 +38228,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Oceana County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26625,
@@ -41182,7 +38241,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ogemaw County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20952,
@@ -41196,7 +38254,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ontonagon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5795,
@@ -41210,7 +38267,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Osceola County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23341,
@@ -41224,7 +38280,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Oscoda County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8276,
@@ -41238,7 +38293,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Presque Isle County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12738,
@@ -41252,7 +38306,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Roscommon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23884,
@@ -41266,7 +38319,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `St. Joseph County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 61043,
@@ -41280,7 +38332,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sanilac County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 41182,
@@ -41294,7 +38345,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Schoolcraft County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8068,
@@ -41308,7 +38358,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Shiawassee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 68192,
@@ -41322,7 +38371,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Van Buren County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 75448,
@@ -41336,7 +38384,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Benton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40545,
@@ -41350,7 +38397,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Blue Earth County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 67427,
@@ -41364,7 +38410,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chisago County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 55922,
@@ -41378,7 +38423,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clay County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 63955,
@@ -41392,7 +38436,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dakota County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 425423,
@@ -41406,7 +38449,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dodge County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20822,
@@ -41420,7 +38462,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Filmore County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -41434,7 +38475,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hennepin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1259428,
@@ -41448,7 +38488,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jackson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9911,
@@ -41462,7 +38501,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Martin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19785,
@@ -41476,7 +38514,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mower County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40011,
@@ -41490,7 +38527,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nicollet County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 34220,
@@ -41504,7 +38540,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Renville County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14612,
@@ -41518,7 +38553,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rice County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 66523,
@@ -41532,7 +38566,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Scott County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 147381,
@@ -41546,7 +38579,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Stearns County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 159256,
@@ -41560,7 +38592,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `St. Louis County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 199754,
@@ -41574,7 +38605,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Steele County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 36803,
@@ -41588,7 +38618,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wabasha County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21645,
@@ -41602,7 +38631,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Waseca County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18691,
@@ -41616,7 +38644,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 259201,
@@ -41630,7 +38657,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wright County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 136349,
@@ -41644,7 +38670,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Aitkin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15902,
@@ -41658,7 +38683,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Becker County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 34371,
@@ -41672,7 +38696,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Beltrami County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 46847,
@@ -41686,7 +38709,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Big Stone County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4989,
@@ -41700,7 +38722,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Brown County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25111,
@@ -41714,7 +38735,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Carlton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 35837,
@@ -41728,7 +38748,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cass County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 29519,
@@ -41742,7 +38761,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chippewa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11924,
@@ -41756,7 +38774,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clearwater County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8810,
@@ -41770,7 +38787,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cook County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5393,
@@ -41784,7 +38800,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cottonwood County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11277,
@@ -41798,7 +38813,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Crow Wing County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 64889,
@@ -41812,7 +38826,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Douglas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 37964,
@@ -41826,7 +38839,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Faribault County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13758,
@@ -41840,7 +38852,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fillmore County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21058,
@@ -41854,7 +38865,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Freeborn County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 30444,
@@ -41868,7 +38878,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Goodhue County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 46403,
@@ -41882,7 +38891,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grant County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6021,
@@ -41896,7 +38904,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Houston County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18578,
@@ -41910,7 +38917,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hubbard County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21332,
@@ -41924,7 +38930,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Isanti County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 39966,
@@ -41938,7 +38943,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Itasca County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 45108,
@@ -41952,7 +38956,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kanabec County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16207,
@@ -41966,7 +38969,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kandiyohi County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 42855,
@@ -41980,7 +38982,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kittson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4248,
@@ -41994,7 +38995,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Koochiching County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12440,
@@ -42008,7 +39008,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lac qui Parle County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6658,
@@ -42022,7 +39021,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lake County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10658,
@@ -42036,7 +39034,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lake of the Woods County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3758,
@@ -42050,7 +39047,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Le Sueur County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28494,
@@ -42064,7 +39060,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lincoln County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5673,
@@ -42078,7 +39073,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lyon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25629,
@@ -42092,7 +39086,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `McLeod County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 35873,
@@ -42106,7 +39099,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mahnomen County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5519,
@@ -42120,7 +39112,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marshall County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9390,
@@ -42134,7 +39125,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Meeker County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23141,
@@ -42148,7 +39138,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mille Lacs County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26139,
@@ -42162,7 +39151,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Morrison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 33169,
@@ -42176,7 +39164,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Murray County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8276,
@@ -42190,7 +39177,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nobles County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21924,
@@ -42204,7 +39190,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Norman County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6475,
@@ -42218,7 +39203,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Otter Tail County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 58812,
@@ -42232,7 +39216,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pennington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14178,
@@ -42246,7 +39229,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pine County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 29483,
@@ -42260,7 +39242,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pipestone County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9047,
@@ -42274,7 +39255,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Polk County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 31529,
@@ -42288,7 +39268,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pope County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11097,
@@ -42302,7 +39281,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Red Lake County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3999,
@@ -42316,7 +39294,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Redwood County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15249,
@@ -42330,7 +39307,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rock County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9414,
@@ -42344,7 +39320,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Roseau County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15150,
@@ -42358,7 +39333,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sherburne County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 96036,
@@ -42372,7 +39346,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sibley County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15028,
@@ -42386,7 +39359,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Stevens County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9753,
@@ -42400,7 +39372,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Swift County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9345,
@@ -42414,7 +39385,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Todd County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24582,
@@ -42428,7 +39398,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Traverse County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3308,
@@ -42442,7 +39411,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wadena County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13773,
@@ -42456,7 +39424,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Watonwan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10980,
@@ -42470,7 +39437,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wilkin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6254,
@@ -42484,7 +39450,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Winona County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 50825,
@@ -42498,7 +39463,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Yellow Medicine County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9795,
@@ -42512,7 +39476,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Broadwater County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6085,
@@ -42526,7 +39489,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Flathead County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 102106,
@@ -42540,7 +39502,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gallatin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 111876,
@@ -42554,7 +39515,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lewis and Clark County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 68700,
@@ -42568,7 +39528,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Madison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8768,
@@ -42582,7 +39541,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Missoula County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 118791,
@@ -42596,7 +39554,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ravalli County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 43172,
@@ -42610,7 +39567,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Roosevelt County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11059,
@@ -42624,7 +39580,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Silver Bow County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 34993,
@@ -42638,7 +39593,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Yellowstone County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 160137,
@@ -42652,7 +39606,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Beaverhead County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9404,
@@ -42666,7 +39619,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Big Horn County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13338,
@@ -42680,7 +39632,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Blaine County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6807,
@@ -42694,7 +39645,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Carbon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10714,
@@ -42708,7 +39658,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Carter County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1238,
@@ -42722,7 +39671,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cascade County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 81643,
@@ -42736,7 +39684,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chouteau County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5745,
@@ -42750,7 +39697,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Custer County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11586,
@@ -42764,7 +39710,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Daniels County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1747,
@@ -42778,7 +39723,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dawson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8680,
@@ -42792,7 +39736,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Deer Lodge County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9131,
@@ -42806,7 +39749,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fallon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2920,
@@ -42820,7 +39762,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fergus County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11113,
@@ -42834,7 +39775,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Garfield County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1268,
@@ -42848,7 +39788,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Glacier County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13747,
@@ -42862,7 +39801,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Golden Valley County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 826,
@@ -42876,7 +39814,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Granite County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3378,
@@ -42890,7 +39827,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hill County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16347,
@@ -42904,7 +39840,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jefferson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12097,
@@ -42918,7 +39853,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Judith Basin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1952,
@@ -42932,7 +39866,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lake County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 30250,
@@ -42946,7 +39879,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Liberty County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2430,
@@ -42960,7 +39892,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lincoln County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19794,
@@ -42974,7 +39905,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `McCone County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1675,
@@ -42988,7 +39918,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Meagher County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1866,
@@ -43002,7 +39931,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mineral County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4316,
@@ -43016,7 +39944,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Musselshell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4651,
@@ -43030,7 +39957,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Park County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16736,
@@ -43044,7 +39970,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Petroleum County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 513,
@@ -43058,7 +39983,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Phillips County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4074,
@@ -43072,7 +39996,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pondera County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5972,
@@ -43086,7 +40009,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Powder River County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1716,
@@ -43100,7 +40022,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Powell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6968,
@@ -43114,7 +40035,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Prairie County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1087,
@@ -43128,7 +40048,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Richland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10913,
@@ -43142,7 +40061,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rosebud County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9063,
@@ -43156,7 +40074,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sanders County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11844,
@@ -43170,7 +40087,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sheridan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3424,
@@ -43184,7 +40100,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Stillwater County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9534,
@@ -43198,7 +40113,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sweet Grass County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3710,
@@ -43212,7 +40126,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Teton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6162,
@@ -43226,7 +40139,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Toole County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4853,
@@ -43240,7 +40152,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Treasure County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 679,
@@ -43254,7 +40165,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Valley County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7437,
@@ -43268,7 +40178,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wheatland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2236,
@@ -43282,7 +40191,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wibaux County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1034,
@@ -43296,7 +40204,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Richland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 414576,
@@ -43310,7 +40217,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Greenville County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 514213,
@@ -43324,7 +40230,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Beaufort County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 188715,
@@ -43338,7 +40243,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lexington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 295032,
@@ -43352,7 +40256,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Anderson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 200482,
@@ -43366,7 +40269,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Horry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 344147,
@@ -43380,7 +40282,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Greenwood County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 70741,
@@ -43394,7 +40295,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Orangeburg County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 86934,
@@ -43408,7 +40308,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sumter County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 106512,
@@ -43422,7 +40321,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Darlington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 66802,
@@ -43436,7 +40334,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `York County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 274118,
@@ -43450,7 +40347,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Abbeville County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24541,
@@ -43464,7 +40360,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Aiken County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 169401,
@@ -43478,7 +40373,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Berkeley County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 221091,
@@ -43492,7 +40386,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Calhoun County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14520,
@@ -43506,7 +40399,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clarendon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 33700,
@@ -43520,7 +40412,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Colleton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 37660,
@@ -43534,7 +40425,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dillon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 30599,
@@ -43548,7 +40438,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dorchester County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 160647,
@@ -43562,7 +40451,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Edgefield County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 27052,
@@ -43576,7 +40464,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fairfield County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22402,
@@ -43590,7 +40477,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Florence County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 138159,
@@ -43604,7 +40490,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17142,
@@ -43618,7 +40503,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marlboro County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26398,
@@ -43632,7 +40516,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Newberry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 38520,
@@ -43646,7 +40529,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Saluda County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20544,
@@ -43660,7 +40542,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Allendale County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8903,
@@ -43674,7 +40555,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bamberg County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14275,
@@ -43688,7 +40568,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Barnwell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21112,
@@ -43702,7 +40581,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cherokee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 57078,
@@ -43716,7 +40594,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chester County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 32251,
@@ -43730,7 +40607,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chesterfield County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 45754,
@@ -43744,7 +40620,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Georgetown County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 62249,
@@ -43758,7 +40633,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hampton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19351,
@@ -43772,7 +40646,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jasper County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28971,
@@ -43786,7 +40659,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Laurens County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 66994,
@@ -43800,7 +40672,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `McCormick County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9410,
@@ -43814,7 +40685,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marion County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 31039,
@@ -43828,7 +40698,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Oconee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 78374,
@@ -43842,7 +40711,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pickens County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 124937,
@@ -43856,7 +40724,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Union County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 27410,
@@ -43870,7 +40737,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Williamsburg County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 30606,
@@ -43884,7 +40750,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jackson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28706,
@@ -43898,7 +40763,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jefferson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 56811,
@@ -43912,7 +40776,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kanawha County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 180454,
@@ -43926,7 +40789,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marshall County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 30785,
@@ -43940,7 +40802,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mercer County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 59131,
@@ -43954,7 +40815,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Monongalia County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 106420,
@@ -43968,7 +40828,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Putnam County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 56682,
@@ -43982,7 +40841,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tucker County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6955,
@@ -43996,7 +40854,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Barbour County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16535,
@@ -44010,7 +40867,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Berkeley County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 117123,
@@ -44024,7 +40880,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Boone County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21951,
@@ -44038,7 +40893,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Braxton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14089,
@@ -44052,7 +40906,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Brooke County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22203,
@@ -44066,7 +40919,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cabell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 93224,
@@ -44080,7 +40932,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Calhoun County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7254,
@@ -44094,7 +40945,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clay County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8632,
@@ -44108,7 +40958,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Doddridge County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8406,
@@ -44122,7 +40971,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fayette County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 43018,
@@ -44136,7 +40984,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gilmer County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8026,
@@ -44150,7 +40997,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grant County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11626,
@@ -44164,7 +41010,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Greenbrier County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 34786,
@@ -44178,7 +41023,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hampshire County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23347,
@@ -44192,7 +41036,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hancock County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 29094,
@@ -44206,7 +41049,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hardy County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13775,
@@ -44220,7 +41062,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Harrison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 67554,
@@ -44234,7 +41075,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lewis County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16024,
@@ -44248,7 +41088,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lincoln County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20599,
@@ -44262,7 +41101,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Logan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 32607,
@@ -44276,7 +41114,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `McDowell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18223,
@@ -44290,7 +41127,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marion County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 56097,
@@ -44304,7 +41140,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mason County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26718,
@@ -44318,7 +41153,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mineral County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26940,
@@ -44332,7 +41166,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mingo County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23785,
@@ -44346,7 +41179,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Monroe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13280,
@@ -44360,7 +41192,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Morgan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17787,
@@ -44374,7 +41205,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nicholas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24842,
@@ -44388,7 +41218,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ohio County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 41755,
@@ -44402,7 +41231,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pendleton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6997,
@@ -44416,7 +41244,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pleasants County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7507,
@@ -44430,7 +41257,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pocahontas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8414,
@@ -44444,7 +41270,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Preston County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 33839,
@@ -44458,7 +41283,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Raleigh County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 74254,
@@ -44472,7 +41296,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Randolph County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28823,
@@ -44486,7 +41309,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ritchie County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9721,
@@ -44500,7 +41322,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Roane County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13932,
@@ -44514,7 +41335,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Summers County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12760,
@@ -44528,7 +41348,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Taylor County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16862,
@@ -44542,7 +41361,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tyler County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8746,
@@ -44556,7 +41374,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Upshur County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24415,
@@ -44570,7 +41387,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wayne County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 39944,
@@ -44584,7 +41400,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Webster County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8285,
@@ -44598,7 +41413,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wetzel County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15270,
@@ -44612,7 +41426,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wirt County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5830,
@@ -44626,7 +41439,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wood County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 84203,
@@ -44640,7 +41452,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wyoming County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20786,
@@ -44654,7 +41465,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ayrshire and Arran`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -44668,7 +41478,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Borders`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -44682,7 +41491,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dumfries and Galloway`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -44696,7 +41504,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fife`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -44710,7 +41517,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Forth Valley`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -44724,7 +41530,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grampian`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -44738,7 +41543,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Greater Glasgow and Clyde`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -44752,7 +41556,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Highland`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -44766,7 +41569,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lanarkshire`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -44780,7 +41582,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lothian`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -44794,7 +41595,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Shetland`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -44808,7 +41608,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tayside`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -44822,7 +41621,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `LeSeur County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -44836,7 +41634,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Coos County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 31589,
@@ -44850,7 +41647,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Carroll County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 48779,
@@ -44864,7 +41660,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Belknap County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 61022,
@@ -44878,7 +41673,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Merrimack County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 151132,
@@ -44892,7 +41686,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sullivan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 43144,
@@ -44906,7 +41699,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cheshire County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 76493,
@@ -44920,7 +41712,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hillsborough County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 415247,
@@ -44934,7 +41725,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Strafford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 130090,
@@ -44948,7 +41738,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Catron County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3578,
@@ -44962,7 +41751,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chaves County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 64689,
@@ -44976,7 +41764,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cibola County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26746,
@@ -44990,7 +41777,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Colfax County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12110,
@@ -45004,7 +41790,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Curry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 49437,
@@ -45018,7 +41803,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `De Baca County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1781,
@@ -45032,7 +41816,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Doña Ana County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 217522,
@@ -45046,7 +41829,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Eddy County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 57900,
@@ -45060,7 +41842,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grant County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 27346,
@@ -45074,7 +41855,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Guadalupe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4341,
@@ -45088,7 +41868,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Harding County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 655,
@@ -45102,7 +41881,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hidalgo County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4240,
@@ -45116,7 +41894,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lea County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 69611,
@@ -45130,7 +41907,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lincoln County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19556,
@@ -45144,7 +41920,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Los Alamos County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 19101,
@@ -45158,7 +41933,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Luna County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23963,
@@ -45172,7 +41946,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `McKinley County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 72290,
@@ -45186,7 +41959,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mora County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4506,
@@ -45200,7 +41972,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Otero County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 66781,
@@ -45214,7 +41985,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Quay County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8253,
@@ -45228,7 +41998,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rio Arriba County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 39006,
@@ -45242,7 +42011,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Roosevelt County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18743,
@@ -45256,7 +42024,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `San Juan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 125043,
@@ -45270,7 +42037,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `San Miguel County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 27591,
@@ -45284,7 +42050,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sandoval County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 145179,
@@ -45298,7 +42063,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Santa Fe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 150056,
@@ -45312,7 +42076,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sierra County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10968,
@@ -45326,7 +42089,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Taos County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 32835,
@@ -45340,7 +42102,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Torrance County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15591,
@@ -45354,7 +42115,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Union County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4118,
@@ -45368,7 +42128,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Valencia County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 76456,
@@ -45382,7 +42141,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wallis et Futuna`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -45396,7 +42154,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Andhra Pradesh`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 49577103,
@@ -45410,7 +42167,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bihar`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 104099452,
@@ -45424,7 +42180,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chhattisgarh`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25545198,
@@ -45438,7 +42193,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Delhi`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16787941,
@@ -45452,7 +42206,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gujarat`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 60439692,
@@ -45466,7 +42219,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Haryana`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25351462,
@@ -45480,7 +42232,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Himachal Pradesh`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6864602,
@@ -45494,7 +42245,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Karnataka`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 61095297,
@@ -45508,7 +42258,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kerala`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 33406061,
@@ -45522,7 +42271,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Madhya Pradesh`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 72626809,
@@ -45536,7 +42284,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Maharashtra`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 112374333,
@@ -45550,7 +42297,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Odisha`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 41974218,
@@ -45564,7 +42310,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Puducherry`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1247953,
@@ -45578,7 +42323,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Punjab`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 27743338,
@@ -45592,7 +42336,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rajasthan`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 68548437,
@@ -45606,7 +42349,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Tamil Nadu`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 72147030,
@@ -45620,7 +42362,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Telengana`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 35003674,
@@ -45634,7 +42375,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chandigarh`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1055450,
@@ -45648,7 +42388,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jammu and Kashmir`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12267032,
@@ -45662,7 +42401,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ladakh`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 274000,
@@ -45676,7 +42414,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Uttar Pradesh`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 199812341,
@@ -45690,7 +42427,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Uttarakhand`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10086292,
@@ -45704,7 +42440,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `West Bengal`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 91276115,
@@ -45718,7 +42453,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `(unassigned)`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -45732,7 +42466,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Howard County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13341,
@@ -45746,7 +42479,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pulaski County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 392680,
@@ -45760,7 +42492,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lonoke County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 73657,
@@ -45774,7 +42505,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Prairie County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8074,
@@ -45788,7 +42518,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Desha County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 11512,
@@ -45802,7 +42531,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Phillips County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18029,
@@ -45816,7 +42544,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Searcy County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7958,
@@ -45830,7 +42557,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Independence County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 37678,
@@ -45844,7 +42570,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jackson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16811,
@@ -45858,7 +42583,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mississippi County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 41239,
@@ -45872,7 +42596,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Greene County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 45325,
@@ -45886,7 +42609,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clay County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14847,
@@ -45900,7 +42622,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Randolph County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17948,
@@ -45914,7 +42635,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lawrence County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16434,
@@ -45928,7 +42648,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Baxter County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 41619,
@@ -45942,7 +42661,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marion County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16722,
@@ -45956,7 +42674,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Perry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10352,
@@ -45970,7 +42687,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jefferson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 68114,
@@ -45984,7 +42700,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 236961,
@@ -45998,7 +42713,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Crawford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 63406,
@@ -46012,7 +42726,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Little River County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12326,
@@ -46026,7 +42739,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Miller County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 43592,
@@ -46040,7 +42752,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lafayette County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6682,
@@ -46054,7 +42765,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Columbia County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23537,
@@ -46068,7 +42778,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Union County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 39126,
@@ -46082,7 +42791,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ashley County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20046,
@@ -46096,7 +42804,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chicot County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10438,
@@ -46110,7 +42817,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Benton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 272608,
@@ -46124,7 +42830,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Carroll County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28223,
@@ -46138,7 +42843,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Madison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16481,
@@ -46152,7 +42856,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sebastian County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 127753,
@@ -46166,7 +42869,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Polk County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20049,
@@ -46180,7 +42882,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sevier County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17139,
@@ -46194,7 +42895,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Garland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 99154,
@@ -46208,7 +42908,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Saline County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 121421,
@@ -46222,7 +42921,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Franklin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17810,
@@ -46236,7 +42934,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Scott County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10319,
@@ -46250,7 +42947,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Logan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21737,
@@ -46264,7 +42960,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Yell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21535,
@@ -46278,7 +42973,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Montgomery County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8924,
@@ -46292,7 +42986,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pike County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10673,
@@ -46306,7 +42999,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hempstead County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21741,
@@ -46320,7 +43012,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Drew County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18328,
@@ -46334,7 +43025,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bradley County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10897,
@@ -46348,7 +43038,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Calhoun County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5277,
@@ -46362,7 +43051,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ouachita County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23606,
@@ -46376,7 +43064,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nevada County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8326,
@@ -46390,7 +43077,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clark County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22061,
@@ -46404,7 +43090,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dallas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7182,
@@ -46418,7 +43103,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cleveland County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8018,
@@ -46432,7 +43116,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lincoln County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13383,
@@ -46446,7 +43129,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Arkansas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17769,
@@ -46460,7 +43142,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grant County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18188,
@@ -46474,7 +43155,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Monroe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6900,
@@ -46488,7 +43168,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8985,
@@ -46502,7 +43181,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hot Spring County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 33701,
@@ -46516,7 +43194,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `St. Francis County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25439,
@@ -46530,7 +43207,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Crittenden County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 48342,
@@ -46544,7 +43220,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cross County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16676,
@@ -46558,7 +43233,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Woodruff County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6490,
@@ -46572,7 +43246,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `White County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 78727,
@@ -46586,7 +43259,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Faulkner County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 124806,
@@ -46600,7 +43272,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Conway County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20891,
@@ -46614,7 +43285,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Newton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7805,
@@ -46628,7 +43298,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pope County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 64000,
@@ -46642,7 +43311,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Johnson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26742,
@@ -46656,7 +43324,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Van Buren County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16603,
@@ -46670,7 +43337,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cleburne County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24965,
@@ -46684,7 +43350,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Poinsett County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23974,
@@ -46698,7 +43363,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Craighead County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 108558,
@@ -46712,7 +43376,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sharp County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17366,
@@ -46726,7 +43389,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Izard County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13593,
@@ -46740,7 +43402,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fulton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12269,
@@ -46754,7 +43415,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Stone County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12457,
@@ -46768,7 +43428,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Boone County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 37480,
@@ -46782,7 +43441,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hawaii County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 200983,
@@ -46796,7 +43454,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kauai County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 72133,
@@ -46810,7 +43467,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Maui County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 167207,
@@ -46824,7 +43480,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kalawao County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 88,
@@ -46838,7 +43493,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Butler County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -46852,7 +43506,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lyon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -46866,7 +43519,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cherokee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -46880,7 +43532,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mitchell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -46894,7 +43545,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Douglas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -46908,7 +43558,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Morris County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -46922,7 +43571,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jackson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -46936,7 +43584,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Reno County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -46950,7 +43597,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sedgwick County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -46964,7 +43610,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Leavenworth County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -46978,7 +43623,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wyandotte County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -46992,7 +43636,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Allen County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47006,7 +43649,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Anderson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47020,7 +43662,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Atchison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47034,7 +43675,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Barber County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47048,7 +43688,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Barton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47062,7 +43701,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bourbon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47076,7 +43714,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Brown County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47090,7 +43727,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chase County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47104,7 +43740,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chautauqua County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47118,7 +43753,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cheyenne County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47132,7 +43766,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clark County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47146,7 +43779,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clay County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47160,7 +43792,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cloud County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47174,7 +43805,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Coffey County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47188,7 +43818,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Comanche County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47202,7 +43831,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cowley County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47216,7 +43844,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Crawford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47230,7 +43857,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Decatur County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47244,7 +43870,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dickinson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47258,7 +43883,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Doniphan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47272,7 +43896,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Edwards County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47286,7 +43909,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Elk County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47300,7 +43922,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ellis County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47314,7 +43935,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ellsworth County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47328,7 +43948,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Finney County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47342,7 +43961,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47356,7 +43974,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Franklin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47370,7 +43987,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Geary County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47384,7 +44000,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gove County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47398,7 +44013,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Graham County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47412,7 +44026,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grant County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47426,7 +44039,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gray County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47440,7 +44052,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Greeley County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47454,7 +44065,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Greenwood County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47468,7 +44078,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hamilton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47482,7 +44091,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Harper County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47496,7 +44104,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Harvey County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47510,7 +44117,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Haskell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47524,7 +44130,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hodgeman County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47538,7 +44143,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jefferson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47552,7 +44156,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jewell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47566,7 +44169,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kearny County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47580,7 +44182,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kingman County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47594,7 +44195,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kiowa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47608,7 +44208,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Labette County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47622,7 +44221,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lane County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47636,7 +44234,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lincoln County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47650,7 +44247,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Linn County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47664,7 +44260,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Logan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47678,7 +44273,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marion County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47692,7 +44286,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Marshall County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47706,7 +44299,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `McPherson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47720,7 +44312,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Meade County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47734,7 +44325,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Miami County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47748,7 +44338,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Montgomery County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47762,7 +44351,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Morton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47776,7 +44364,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nemaha County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47790,7 +44377,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Neosho County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47804,7 +44390,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ness County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47818,7 +44403,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Norton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47832,7 +44416,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Osage County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47846,7 +44429,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Osborne County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47860,7 +44442,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ottawa County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47874,7 +44455,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pawnee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47888,7 +44468,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Phillips County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47902,7 +44481,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pottawatomie County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47916,7 +44494,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pratt County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47930,7 +44507,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rawlins County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47944,7 +44520,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Republic County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47958,7 +44533,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rice County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47972,7 +44546,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Riley County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -47986,7 +44559,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rooks County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -48000,7 +44572,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rush County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -48014,7 +44585,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Russell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -48028,7 +44598,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Saline County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -48042,7 +44611,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Scott County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -48056,7 +44624,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Seward County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -48070,7 +44637,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Shawnee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -48084,7 +44650,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sheridan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -48098,7 +44663,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sherman County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -48112,7 +44676,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Smith County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -48126,7 +44689,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Stafford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -48140,7 +44702,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Stanton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -48154,7 +44715,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Stevens County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -48168,7 +44728,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sumner County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -48182,7 +44741,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Thomas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -48196,7 +44754,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Trego County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -48210,7 +44767,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wabaunsee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -48224,7 +44780,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wallace County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -48238,7 +44793,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -48252,7 +44806,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wichita County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -48266,7 +44819,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wilson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -48280,7 +44832,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Woodson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -48294,7 +44845,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bristol County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 48649,
@@ -48308,7 +44858,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kent County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 163861,
@@ -48322,7 +44871,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Newport County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 82542,
@@ -48336,7 +44884,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 126179,
@@ -48350,7 +44897,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Manipur`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3351200,
@@ -48364,7 +44910,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mizoram`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1668800,
@@ -48378,7 +44923,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Anchorage Economic Region`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 294356,
@@ -48392,7 +44936,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gulf Coast Economic Region`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 80866,
@@ -48406,7 +44949,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Interior Economic Region`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 109847,
@@ -48420,7 +44962,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mat-Su Economic Region`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 107610,
@@ -48434,7 +44975,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Northern Economic Region`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 27432,
@@ -48448,7 +44988,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Southeast Economic Region`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 72373,
@@ -48462,7 +45001,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Southwest Economic Region`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 42206,
@@ -48476,7 +45014,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Not Reported County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -48490,7 +45027,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lancaster County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 317272,
@@ -48504,7 +45040,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cass County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 26159,
@@ -48518,7 +45053,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sarpy County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 184459,
@@ -48532,7 +45066,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lincoln County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 35185,
@@ -48546,7 +45079,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Adams County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 31511,
@@ -48560,7 +45092,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nemaha County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6958,
@@ -48574,7 +45105,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Buffalo County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 49615,
@@ -48588,7 +45118,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dawson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 23709,
@@ -48602,7 +45131,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Madison County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 35392,
@@ -48616,7 +45144,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Washington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20667,
@@ -48630,7 +45157,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Antelope County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6336,
@@ -48644,7 +45170,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Arthur County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 465,
@@ -48658,7 +45183,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Banner County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 730,
@@ -48672,7 +45196,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Blaine County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 476,
@@ -48686,7 +45209,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Boone County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5239,
@@ -48700,7 +45222,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Box Butte County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10772,
@@ -48714,7 +45235,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Boyd County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1955,
@@ -48728,7 +45248,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Brown County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2973,
@@ -48742,7 +45261,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Burt County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6488,
@@ -48756,7 +45274,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Butler County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8058,
@@ -48770,7 +45287,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cedar County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8446,
@@ -48784,7 +45300,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chase County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3977,
@@ -48798,7 +45313,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cherry County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5761,
@@ -48812,7 +45326,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cheyenne County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9310,
@@ -48826,7 +45339,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Clay County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6214,
@@ -48840,7 +45352,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Colfax County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10881,
@@ -48854,7 +45365,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cuming County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8940,
@@ -48868,7 +45378,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Custer County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10840,
@@ -48882,7 +45391,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dakota County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 20083,
@@ -48896,7 +45404,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dawes County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8716,
@@ -48910,7 +45417,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Deuel County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1825,
@@ -48924,7 +45430,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dixon County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5709,
@@ -48938,7 +45443,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dodge County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 36791,
@@ -48952,7 +45456,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Dundy County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1770,
@@ -48966,7 +45469,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fillmore County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5527,
@@ -48980,7 +45482,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Franklin County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3023,
@@ -48994,7 +45495,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Frontier County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2608,
@@ -49008,7 +45508,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Furnas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4715,
@@ -49022,7 +45521,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gage County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21493,
@@ -49036,7 +45534,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Garden County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1897,
@@ -49050,7 +45547,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Garfield County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1987,
@@ -49064,7 +45560,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gosper County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1996,
@@ -49078,7 +45573,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Grant County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 660,
@@ -49092,7 +45586,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Greeley County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2356,
@@ -49106,7 +45599,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hall County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 61607,
@@ -49120,7 +45612,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hamilton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9280,
@@ -49134,7 +45625,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Harlan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3401,
@@ -49148,7 +45638,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hayes County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 916,
@@ -49162,7 +45651,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hitchcock County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2806,
@@ -49176,7 +45664,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Holt County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10178,
@@ -49190,7 +45677,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hooker County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 682,
@@ -49204,7 +45690,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Howard County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6468,
@@ -49218,7 +45703,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Jefferson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7097,
@@ -49232,7 +45716,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Johnson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5134,
@@ -49246,7 +45729,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kearney County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6544,
@@ -49260,7 +45742,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Keith County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8021,
@@ -49274,7 +45755,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Keya Paha County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 810,
@@ -49288,7 +45768,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Kimball County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3618,
@@ -49302,7 +45781,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Logan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 749,
@@ -49316,7 +45794,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Loup County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 618,
@@ -49330,7 +45807,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `McPherson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 492,
@@ -49344,7 +45820,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Merrick County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7733,
@@ -49358,7 +45833,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Morrill County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4686,
@@ -49372,7 +45846,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nance County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3532,
@@ -49386,7 +45859,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Nuckolls County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4195,
@@ -49400,7 +45872,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Otoe County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 15985,
@@ -49414,7 +45885,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pawnee County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2632,
@@ -49428,7 +45898,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Perkins County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2929,
@@ -49442,7 +45911,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Phelps County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8996,
@@ -49456,7 +45924,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pierce County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7142,
@@ -49470,7 +45937,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Platte County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 33363,
@@ -49484,7 +45950,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Polk County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5278,
@@ -49498,7 +45963,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Red Willow County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 10726,
@@ -49512,7 +45976,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Richardson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7937,
@@ -49526,7 +45989,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Rock County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1360,
@@ -49540,7 +46002,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Saline County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14350,
@@ -49554,7 +46015,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Saunders County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 21303,
@@ -49568,7 +46028,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Scotts Bluff County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 35989,
@@ -49582,7 +46041,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Seward County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17318,
@@ -49596,7 +46054,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sheridan County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5190,
@@ -49610,7 +46067,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sherman County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3038,
@@ -49624,7 +46080,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sioux County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1187,
@@ -49638,7 +46093,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Stanton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5970,
@@ -49652,7 +46106,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Thayer County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5039,
@@ -49666,7 +46119,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Thomas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 720,
@@ -49680,7 +46132,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Thurston County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7303,
@@ -49694,7 +46145,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Valley County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4190,
@@ -49708,7 +46158,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wayne County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 9403,
@@ -49722,7 +46171,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Webster County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3533,
@@ -49736,7 +46184,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wheeler County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 805,
@@ -49750,7 +46197,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `York County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 13772,
@@ -49764,7 +46210,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Pending County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -49778,7 +46223,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: ` County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -49792,7 +46236,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Virgin Islands`
   },
   alternativeNames: [`United States Virgin Islands`, `US Virgin Islands`, `U.S. Virgin Islands`],
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -49806,7 +46249,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Asturias`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1019993,
@@ -49820,7 +46262,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Baleares`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1198576,
@@ -49834,7 +46275,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `C. Valenciana`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4998711,
@@ -49848,7 +46288,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Madrid`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6685471,
@@ -49862,7 +46301,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Murcia`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1494442,
@@ -49876,7 +46314,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Navarra`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 652526,
@@ -49890,7 +46327,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Andaman and Nicobar Islands`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 380520,
@@ -49904,7 +46340,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Goa`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1500000,
@@ -49918,7 +46353,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Москва`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12692466,
@@ -49932,7 +46366,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Московская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7687647,
@@ -49946,7 +46379,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Санкт-Петербург`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5392992,
@@ -49960,7 +46392,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Самарская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3179026,
@@ -49974,7 +46405,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Республика Саха (Якутия)`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 970105,
@@ -49988,7 +46418,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Свердловская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4310861,
@@ -50002,7 +46431,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Калининградская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1012253,
@@ -50016,7 +46444,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Кировская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1262549,
@@ -50030,7 +46457,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Новосибирская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2798251,
@@ -50044,7 +46470,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Красноярский край`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2867875,
@@ -50058,7 +46483,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Тамбовская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1006962,
@@ -50072,7 +46496,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Липецкая область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1139492,
@@ -50086,7 +46509,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Тверская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1260345,
@@ -50100,7 +46522,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Хабаровский край`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1315310,
@@ -50114,7 +46535,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Тюменская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1537684,
@@ -50128,7 +46548,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Тульская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1466025,
@@ -50142,7 +46561,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Пермский край`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2599301,
@@ -50156,7 +46574,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Нижегородская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3203818,
@@ -50170,7 +46587,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Краснодарский край`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5677786,
@@ -50184,7 +46600,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Воронежская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2323657,
@@ -50198,7 +46613,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Кемеровская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2657758,
@@ -50212,7 +46626,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Республика Хакасия`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 534186,
@@ -50226,7 +46639,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Мурманская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 741511,
@@ -50240,7 +46652,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Республика Коми`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 820171,
@@ -50254,7 +46665,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Калужская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1000070,
@@ -50268,7 +46678,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ивановская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 997196,
@@ -50282,7 +46691,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Забайкальский край`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1059657,
@@ -50296,7 +46704,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Томская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1079051,
@@ -50310,7 +46717,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Архангельская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1092277,
@@ -50324,7 +46730,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Рязанская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1108924,
@@ -50338,7 +46743,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Чувашская Республика`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1217820,
@@ -50352,7 +46756,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ульяновская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1229687,
@@ -50366,7 +46769,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ярославская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1253189,
@@ -50380,7 +46782,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Пензенская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1304825,
@@ -50394,7 +46795,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Белгородская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1547532,
@@ -50408,7 +46808,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ханты-Мансийский АО`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1674086,
@@ -50422,7 +46821,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ленинградская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1876392,
@@ -50436,7 +46834,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Оренбургская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1956256,
@@ -50450,7 +46847,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Саратовская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2421785,
@@ -50464,7 +46860,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Республика Татарстан`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3902642,
@@ -50478,7 +46873,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Курганская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 826941,
@@ -50492,7 +46886,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Кабардино-Балкарская Республика`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 868174,
@@ -50506,7 +46899,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Челябинская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3466960,
@@ -50520,7 +46912,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ставропольский край`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2803021,
@@ -50534,7 +46925,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Брянская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1192570,
@@ -50548,7 +46938,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Удмуртская Республика`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1501005,
@@ -50562,7 +46951,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Новгородская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 596173,
@@ -50576,7 +46964,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Республика Крым`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1912025,
@@ -50590,7 +46977,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Республика Башкортостан`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4037811,
@@ -50604,7 +46990,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Чеченская Республика`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1476752,
@@ -50618,7 +47003,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Приморский край`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1895305,
@@ -50632,7 +47016,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Волгоградская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2491751,
@@ -50646,7 +47029,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Орловская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 733682,
@@ -50660,7 +47042,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Псковская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 626046,
@@ -50674,7 +47055,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Ростовская область`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4195327,
@@ -50688,7 +47068,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Республика Бурятия`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 986109,
@@ -50702,7 +47081,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Республика Мордовия`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 790829,
@@ -50716,7 +47094,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Республика Дагестан`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3111353,
@@ -50730,7 +47107,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Cairns and Hinterland`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -50744,7 +47120,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Central Queensland`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -50758,7 +47133,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Central West`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -50772,7 +47146,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Darling Downs`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -50786,7 +47159,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Gold Coast`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -50800,7 +47172,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Mackay`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -50814,7 +47185,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Metro North`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -50828,7 +47198,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Metro South`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -50842,7 +47211,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `North West`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -50856,7 +47224,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `South West`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -50870,7 +47237,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Sunshine Coast`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -50884,7 +47250,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Torres and Cape`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -50898,7 +47263,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Townsville`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -50912,7 +47276,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `West Moreton`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -50926,7 +47289,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Wide Bay`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -50940,7 +47302,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Overseas`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -50954,7 +47315,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Other County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: undefined,
@@ -50968,7 +47328,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Alexandria County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 160530,
@@ -50982,7 +47341,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Bristol County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16482,
@@ -50996,7 +47354,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Chesapeake County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 242634,
@@ -51010,7 +47367,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Danville County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 40693,
@@ -51024,7 +47380,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Harrisonburg County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 54033,
@@ -51038,7 +47393,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lynchburg County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 82126,
@@ -51052,7 +47406,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Manassas Park County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17307,
@@ -51066,7 +47419,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Martinsville County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12902,
@@ -51080,7 +47432,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Newport News County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 178626,
@@ -51094,7 +47445,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Salem County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 25643,
@@ -51108,7 +47458,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Waynesboro County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22628,
@@ -51122,7 +47471,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Williamsburg County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14896,
@@ -51136,7 +47484,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Winchester County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 28108,
@@ -51150,7 +47497,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Buena Vista County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6237,
@@ -51164,7 +47510,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Charlottesville County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 48117,
@@ -51178,7 +47523,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Colonial Heights County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 17833,
@@ -51192,7 +47536,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Covington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5460,
@@ -51206,7 +47549,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Emporia County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5121,
@@ -51220,7 +47562,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Falls Church County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 14772,
@@ -51234,7 +47575,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Fredericksburg County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 29144,
@@ -51248,7 +47588,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Galax County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6423,
@@ -51262,7 +47601,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hampton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 134313,
@@ -51276,7 +47614,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Hopewell County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 22596,
@@ -51290,7 +47627,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Lexington County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7136,
@@ -51304,7 +47640,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Manassas County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 41641,
@@ -51318,7 +47653,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Norton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3968,
@@ -51332,7 +47666,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Petersburg County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 31567,
@@ -51346,7 +47679,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Poquoson County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12190,
@@ -51360,7 +47692,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Portsmouth County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 94632,
@@ -51374,7 +47705,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Radford County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18339,
@@ -51388,7 +47718,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Staunton County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24922,
@@ -51402,7 +47731,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Suffolk County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 91185,
@@ -51416,7 +47744,6 @@ export const RegionsData: PlaceSeedData[] = [{
     en: `Virginia Beach County`
   },
   alternativeNames: undefined,
-  phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
   population: 450189,

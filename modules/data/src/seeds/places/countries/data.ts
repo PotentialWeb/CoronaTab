@@ -7,7 +7,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Afghanistan`
   },
-  phoneCode: `+93`,
   alpha2code: `AF`,
   alpha3code: `AFG`,
   alternativeNames: undefined,
@@ -24,7 +23,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Albania`
   },
-  phoneCode: `+355`,
   alpha2code: `AL`,
   alpha3code: `ALB`,
   alternativeNames: undefined,
@@ -41,7 +39,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Algeria`
   },
-  phoneCode: `+213`,
   alpha2code: `DZ`,
   alpha3code: `DZA`,
   alternativeNames: undefined,
@@ -58,7 +55,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `American Samoa`
   },
-  phoneCode: `+1`,
   alpha2code: `AS`,
   alpha3code: `ASM`,
   alternativeNames: undefined,
@@ -75,7 +71,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Andorra`
   },
-  phoneCode: `+376`,
   alpha2code: `AD`,
   alpha3code: `AND`,
   alternativeNames: undefined,
@@ -92,7 +87,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Angola`
   },
-  phoneCode: `+244`,
   alpha2code: `AO`,
   alpha3code: `AGO`,
   alternativeNames: undefined,
@@ -109,7 +103,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Anguilla`
   },
-  phoneCode: `+1`,
   alpha2code: `AI`,
   alpha3code: `AIA`,
   alternativeNames: undefined,
@@ -126,7 +119,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Antigua and Barbuda`
   },
-  phoneCode: `+1`,
   alpha2code: `AG`,
   alpha3code: `ATG`,
   alternativeNames: undefined,
@@ -143,7 +135,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Argentina`
   },
-  phoneCode: `+54`,
   alpha2code: `AR`,
   alpha3code: `ARG`,
   alternativeNames: undefined,
@@ -160,7 +151,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Armenia`
   },
-  phoneCode: `+374`,
   alpha2code: `AM`,
   alpha3code: `ARM`,
   alternativeNames: undefined,
@@ -177,7 +167,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Aruba`
   },
-  phoneCode: `+297`,
   alpha2code: `AW`,
   alpha3code: `ABW`,
   alternativeNames: undefined,
@@ -194,7 +183,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Australia`
   },
-  phoneCode: `+61`,
   alpha2code: `AU`,
   alpha3code: `AUS`,
   alternativeNames: undefined,
@@ -211,7 +199,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Austria`
   },
-  phoneCode: `+43`,
   alpha2code: `AT`,
   alpha3code: `AUT`,
   alternativeNames: undefined,
@@ -228,7 +215,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Azerbaijan`
   },
-  phoneCode: `+994`,
   alpha2code: `AZ`,
   alpha3code: `AZE`,
   alternativeNames: undefined,
@@ -245,7 +231,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Bahrain`
   },
-  phoneCode: `+973`,
   alpha2code: `BH`,
   alpha3code: `BHR`,
   alternativeNames: undefined,
@@ -262,7 +247,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Bangladesh`
   },
-  phoneCode: `+880`,
   alpha2code: `BD`,
   alpha3code: `BGD`,
   alternativeNames: undefined,
@@ -279,7 +263,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Barbados`
   },
-  phoneCode: `+1`,
   alpha2code: `BB`,
   alpha3code: `BRB`,
   alternativeNames: undefined,
@@ -296,7 +279,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Belarus`
   },
-  phoneCode: `+375`,
   alpha2code: `BY`,
   alpha3code: `BLR`,
   alternativeNames: undefined,
@@ -313,7 +295,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Belgium`
   },
-  phoneCode: `+32`,
   alpha2code: `BE`,
   alpha3code: `BEL`,
   alternativeNames: undefined,
@@ -330,7 +311,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Belize`
   },
-  phoneCode: `+501`,
   alpha2code: `BZ`,
   alpha3code: `BLZ`,
   alternativeNames: undefined,
@@ -347,7 +327,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Benin`
   },
-  phoneCode: `+229`,
   alpha2code: `BJ`,
   alpha3code: `BEN`,
   alternativeNames: undefined,
@@ -364,7 +343,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Bermuda`
   },
-  phoneCode: `+1`,
   alpha2code: `BM`,
   alpha3code: `BMU`,
   alternativeNames: undefined,
@@ -381,7 +359,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Bhutan`
   },
-  phoneCode: `+975`,
   alpha2code: `BT`,
   alpha3code: `BTN`,
   alternativeNames: undefined,
@@ -398,7 +375,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Bolivia`
   },
-  phoneCode: `+591`,
   alpha2code: `BO`,
   alpha3code: `BOL`,
   alternativeNames: undefined,
@@ -415,7 +391,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Bonaire, Sint Eustatius and Saba`
   },
-  phoneCode: `+599`,
   alpha2code: `BQ`,
   alpha3code: `BES`,
   alternativeNames: undefined,
@@ -432,7 +407,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Bosnia and Herzegovina`
   },
-  phoneCode: `+387`,
   alpha2code: `BA`,
   alpha3code: `BIH`,
   alternativeNames: undefined,
@@ -449,7 +423,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Botswana`
   },
-  phoneCode: `+267`,
   alpha2code: `BW`,
   alpha3code: `BWA`,
   alternativeNames: undefined,
@@ -466,7 +439,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Brazil`
   },
-  phoneCode: `+55`,
   alpha2code: `BR`,
   alpha3code: `BRA`,
   alternativeNames: undefined,
@@ -483,7 +455,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Brunei Darussalam`
   },
-  phoneCode: `+673`,
   alpha2code: `BN`,
   alpha3code: `BRN`,
   alternativeNames: undefined,
@@ -500,7 +471,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Bulgaria`
   },
-  phoneCode: `+359`,
   alpha2code: `BG`,
   alpha3code: `BGR`,
   alternativeNames: undefined,
@@ -517,7 +487,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Burkina Faso`
   },
-  phoneCode: `+226`,
   alpha2code: `BF`,
   alpha3code: `BFA`,
   alternativeNames: undefined,
@@ -534,7 +503,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Myanmar`
   },
-  phoneCode: `+95`,
   alpha2code: `MM`,
   alpha3code: `MMR`,
   alternativeNames: undefined,
@@ -551,7 +519,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Burundi`
   },
-  phoneCode: `+257`,
   alpha2code: `BI`,
   alpha3code: `BDI`,
   alternativeNames: undefined,
@@ -568,7 +535,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Cambodia`
   },
-  phoneCode: `+855`,
   alpha2code: `KH`,
   alpha3code: `KHM`,
   alternativeNames: undefined,
@@ -585,7 +551,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Cameroon`
   },
-  phoneCode: `+237`,
   alpha2code: `CM`,
   alpha3code: `CMR`,
   alternativeNames: undefined,
@@ -602,7 +567,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Canada`
   },
-  phoneCode: `+1`,
   alpha2code: `CA`,
   alpha3code: `CAN`,
   alternativeNames: undefined,
@@ -619,7 +583,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Cabo Verde`
   },
-  phoneCode: `+238`,
   alpha2code: `CV`,
   alpha3code: `CPV`,
   alternativeNames: [`Cape Verde`],
@@ -636,7 +599,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Cayman Islands`
   },
-  phoneCode: `+1`,
   alpha2code: `KY`,
   alpha3code: `CYM`,
   alternativeNames: undefined,
@@ -653,7 +615,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Central African Republic`
   },
-  phoneCode: `+236`,
   alpha2code: `CF`,
   alpha3code: `CAF`,
   alternativeNames: undefined,
@@ -670,7 +631,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Chad`
   },
-  phoneCode: `+235`,
   alpha2code: `TD`,
   alpha3code: `TCD`,
   alternativeNames: undefined,
@@ -687,7 +647,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Chile`
   },
-  phoneCode: `+56`,
   alpha2code: `CL`,
   alpha3code: `CHL`,
   alternativeNames: undefined,
@@ -704,7 +663,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `China`
   },
-  phoneCode: `+86`,
   alpha2code: `CN`,
   alpha3code: `CHN`,
   alternativeNames: undefined,
@@ -721,7 +679,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Colombia`
   },
-  phoneCode: `+57`,
   alpha2code: `CO`,
   alpha3code: `COL`,
   alternativeNames: undefined,
@@ -738,7 +695,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Comoros`
   },
-  phoneCode: `+269`,
   alpha2code: `KM`,
   alpha3code: `COM`,
   alternativeNames: undefined,
@@ -755,7 +711,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Cook Islands`
   },
-  phoneCode: `+682`,
   alpha2code: `CK`,
   alpha3code: `COK`,
   alternativeNames: undefined,
@@ -772,7 +727,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Costa Rica`
   },
-  phoneCode: `+506`,
   alpha2code: `CR`,
   alpha3code: `CRI`,
   alternativeNames: undefined,
@@ -789,7 +743,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Cote dIvoire`
   },
-  phoneCode: `+225`,
   alpha2code: `CI`,
   alpha3code: `CIV`,
   alternativeNames: undefined,
@@ -806,7 +759,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Croatia`
   },
-  phoneCode: `+385`,
   alpha2code: `HR`,
   alpha3code: `HRV`,
   alternativeNames: undefined,
@@ -823,7 +775,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Cuba`
   },
-  phoneCode: `+53`,
   alpha2code: `CU`,
   alpha3code: `CUB`,
   alternativeNames: undefined,
@@ -840,7 +791,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Curacao`
   },
-  phoneCode: `+599`,
   alpha2code: `CW`,
   alpha3code: `CUW`,
   alternativeNames: undefined,
@@ -857,7 +807,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Cyprus`
   },
-  phoneCode: `+357`,
   alpha2code: `CY`,
   alpha3code: `CYP`,
   alternativeNames: undefined,
@@ -874,7 +823,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Czech Republic`
   },
-  phoneCode: `+420`,
   alpha2code: `CZ`,
   alpha3code: `CZE`,
   alternativeNames: undefined,
@@ -891,7 +839,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Denmark`
   },
-  phoneCode: `+45`,
   alpha2code: `DK`,
   alpha3code: `DNK`,
   alternativeNames: undefined,
@@ -908,7 +855,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Djibouti`
   },
-  phoneCode: `+253`,
   alpha2code: `DJ`,
   alpha3code: `DJI`,
   alternativeNames: undefined,
@@ -925,7 +871,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Dominica`
   },
-  phoneCode: `+1`,
   alpha2code: `DM`,
   alpha3code: `DMA`,
   alternativeNames: undefined,
@@ -942,7 +887,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Dominican Republic`
   },
-  phoneCode: `+1`,
   alpha2code: `DO`,
   alpha3code: `DOM`,
   alternativeNames: undefined,
@@ -959,7 +903,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Ecuador`
   },
-  phoneCode: `+593`,
   alpha2code: `EC`,
   alpha3code: `ECU`,
   alternativeNames: undefined,
@@ -976,7 +919,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Egypt`
   },
-  phoneCode: `+20`,
   alpha2code: `EG`,
   alpha3code: `EGY`,
   alternativeNames: undefined,
@@ -993,7 +935,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `El Salvador`
   },
-  phoneCode: `+503`,
   alpha2code: `SV`,
   alpha3code: `SLV`,
   alternativeNames: undefined,
@@ -1010,7 +951,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Equatorial Guinea`
   },
-  phoneCode: `+240`,
   alpha2code: `GQ`,
   alpha3code: `GNQ`,
   alternativeNames: undefined,
@@ -1027,7 +967,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Eritrea`
   },
-  phoneCode: `+291`,
   alpha2code: `ER`,
   alpha3code: `ERI`,
   alternativeNames: undefined,
@@ -1044,7 +983,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Estonia`
   },
-  phoneCode: `+372`,
   alpha2code: `EE`,
   alpha3code: `EST`,
   alternativeNames: undefined,
@@ -1061,7 +999,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Eswatini`
   },
-  phoneCode: `+268`,
   alpha2code: `SZ`,
   alpha3code: `SWZ`,
   alternativeNames: undefined,
@@ -1078,7 +1015,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Ethiopia`
   },
-  phoneCode: `+251`,
   alpha2code: `ET`,
   alpha3code: `ETH`,
   alternativeNames: undefined,
@@ -1095,7 +1031,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Falkland Islands`
   },
-  phoneCode: `+500`,
   alpha2code: `FK`,
   alpha3code: `FLK`,
   alternativeNames: undefined,
@@ -1112,7 +1047,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Faroe Islands`
   },
-  phoneCode: `+298`,
   alpha2code: `FO`,
   alpha3code: `FRO`,
   alternativeNames: undefined,
@@ -1129,7 +1063,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Federated States of Micronesia`
   },
-  phoneCode: `+691`,
   alpha2code: `FM`,
   alpha3code: `FSM`,
   alternativeNames: undefined,
@@ -1146,7 +1079,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Fiji`
   },
-  phoneCode: `+679`,
   alpha2code: `FJ`,
   alpha3code: `FJI`,
   alternativeNames: undefined,
@@ -1163,7 +1095,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Finland`
   },
-  phoneCode: `+358`,
   alpha2code: `FI`,
   alpha3code: `FIN`,
   alternativeNames: undefined,
@@ -1180,7 +1111,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `France`
   },
-  phoneCode: `+33`,
   alpha2code: `FR`,
   alpha3code: `FRA`,
   alternativeNames: undefined,
@@ -1197,7 +1127,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `French Guiana`
   },
-  phoneCode: `+594`,
   alpha2code: `GF`,
   alpha3code: `GUF`,
   alternativeNames: undefined,
@@ -1214,7 +1143,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `French Polynesia`
   },
-  phoneCode: `+689`,
   alpha2code: `PF`,
   alpha3code: `PYF`,
   alternativeNames: undefined,
@@ -1231,7 +1159,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Gabon`
   },
-  phoneCode: `+241`,
   alpha2code: `GA`,
   alpha3code: `GAB`,
   alternativeNames: undefined,
@@ -1248,7 +1175,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Georgia`
   },
-  phoneCode: `+995`,
   alpha2code: `GE`,
   alpha3code: `GEO`,
   alternativeNames: undefined,
@@ -1265,7 +1191,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Germany`
   },
-  phoneCode: `+49`,
   alpha2code: `DE`,
   alpha3code: `DEU`,
   alternativeNames: undefined,
@@ -1282,7 +1207,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Ghana`
   },
-  phoneCode: `+233`,
   alpha2code: `GH`,
   alpha3code: `GHA`,
   alternativeNames: undefined,
@@ -1299,7 +1223,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Greece`
   },
-  phoneCode: `+30`,
   alpha2code: `GR`,
   alpha3code: `GRC`,
   alternativeNames: undefined,
@@ -1316,7 +1239,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Greenland`
   },
-  phoneCode: `+299`,
   alpha2code: `GL`,
   alpha3code: `GRL`,
   alternativeNames: undefined,
@@ -1333,7 +1255,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Grenada`
   },
-  phoneCode: `+1`,
   alpha2code: `GD`,
   alpha3code: `GRD`,
   alternativeNames: undefined,
@@ -1350,7 +1271,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Guadeloupe`
   },
-  phoneCode: `+590`,
   alpha2code: `GP`,
   alpha3code: `GLP`,
   alternativeNames: undefined,
@@ -1367,7 +1287,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Guam`
   },
-  phoneCode: `+1`,
   alpha2code: `GU`,
   alpha3code: `GUM`,
   alternativeNames: undefined,
@@ -1384,7 +1303,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Guatemala`
   },
-  phoneCode: `+502`,
   alpha2code: `GT`,
   alpha3code: `GTM`,
   alternativeNames: undefined,
@@ -1401,7 +1319,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Guinea`
   },
-  phoneCode: `+224`,
   alpha2code: `GN`,
   alpha3code: `GIN`,
   alternativeNames: undefined,
@@ -1418,7 +1335,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Guinea-Bissau`
   },
-  phoneCode: `+245`,
   alpha2code: `GW`,
   alpha3code: `GNB`,
   alternativeNames: undefined,
@@ -1435,7 +1351,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Guyana`
   },
-  phoneCode: `+592`,
   alpha2code: `GY`,
   alpha3code: `GUY`,
   alternativeNames: undefined,
@@ -1452,7 +1367,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Haiti`
   },
-  phoneCode: `+509`,
   alpha2code: `HT`,
   alpha3code: `HTI`,
   alternativeNames: undefined,
@@ -1469,7 +1383,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Honduras`
   },
-  phoneCode: `+504`,
   alpha2code: `HN`,
   alpha3code: `HND`,
   alternativeNames: undefined,
@@ -1486,7 +1399,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Hong Kong`
   },
-  phoneCode: `+852`,
   alpha2code: `HK`,
   alpha3code: `HKG`,
   alternativeNames: undefined,
@@ -1503,7 +1415,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Hungary`
   },
-  phoneCode: `+36`,
   alpha2code: `HU`,
   alpha3code: `HUN`,
   alternativeNames: undefined,
@@ -1520,7 +1431,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Iceland`
   },
-  phoneCode: `+354`,
   alpha2code: `IS`,
   alpha3code: `ISL`,
   alternativeNames: undefined,
@@ -1537,7 +1447,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `India`
   },
-  phoneCode: `+91`,
   alpha2code: `IN`,
   alpha3code: `IND`,
   alternativeNames: undefined,
@@ -1554,7 +1463,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Indonesia`
   },
-  phoneCode: `+62`,
   alpha2code: `ID`,
   alpha3code: `IDN`,
   alternativeNames: undefined,
@@ -1571,7 +1479,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Iran`
   },
-  phoneCode: `+98`,
   alpha2code: `IR`,
   alpha3code: `IRN`,
   alternativeNames: undefined,
@@ -1588,7 +1495,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Iraq`
   },
-  phoneCode: `+964`,
   alpha2code: `IQ`,
   alpha3code: `IRQ`,
   alternativeNames: undefined,
@@ -1605,7 +1511,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Ireland`
   },
-  phoneCode: `+353`,
   alpha2code: `IE`,
   alpha3code: `IRL`,
   alternativeNames: undefined,
@@ -1622,7 +1527,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Israel`
   },
-  phoneCode: `+972`,
   alpha2code: `IL`,
   alpha3code: `ISR`,
   alternativeNames: undefined,
@@ -1639,7 +1543,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Italy`
   },
-  phoneCode: `+39`,
   alpha2code: `IT`,
   alpha3code: `ITA`,
   alternativeNames: undefined,
@@ -1656,7 +1559,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Jamaica`
   },
-  phoneCode: `+1`,
   alpha2code: `JM`,
   alpha3code: `JAM`,
   alternativeNames: undefined,
@@ -1673,7 +1575,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Japan`
   },
-  phoneCode: `+81`,
   alpha2code: `JP`,
   alpha3code: `JPN`,
   alternativeNames: undefined,
@@ -1690,7 +1591,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Jordan`
   },
-  phoneCode: `+962`,
   alpha2code: `JO`,
   alpha3code: `JOR`,
   alternativeNames: undefined,
@@ -1707,7 +1607,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Kazakhstan`
   },
-  phoneCode: `+7`,
   alpha2code: `KZ`,
   alpha3code: `KAZ`,
   alternativeNames: undefined,
@@ -1724,7 +1623,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Kenya`
   },
-  phoneCode: `+254`,
   alpha2code: `KE`,
   alpha3code: `KEN`,
   alternativeNames: undefined,
@@ -1741,7 +1639,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Kiribati`
   },
-  phoneCode: `+686`,
   alpha2code: `KI`,
   alpha3code: `KIR`,
   alternativeNames: undefined,
@@ -1758,7 +1655,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Kosovo`
   },
-  phoneCode: `+383`,
   alpha2code: `XK`,
   alpha3code: `XKX`,
   alternativeNames: undefined,
@@ -1775,7 +1671,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Kuwait`
   },
-  phoneCode: `+965`,
   alpha2code: `KW`,
   alpha3code: `KWT`,
   alternativeNames: undefined,
@@ -1792,7 +1687,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Kyrgyzstan`
   },
-  phoneCode: `+996`,
   alpha2code: `KG`,
   alpha3code: `KGZ`,
   alternativeNames: undefined,
@@ -1809,7 +1703,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Laos`
   },
-  phoneCode: `+856`,
   alpha2code: `LA`,
   alpha3code: `LAO`,
   alternativeNames: undefined,
@@ -1826,7 +1719,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Latvia`
   },
-  phoneCode: `+371`,
   alpha2code: `LV`,
   alpha3code: `LVA`,
   alternativeNames: undefined,
@@ -1843,7 +1735,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Lebanon`
   },
-  phoneCode: `+961`,
   alpha2code: `LB`,
   alpha3code: `LBN`,
   alternativeNames: undefined,
@@ -1860,7 +1751,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Lesotho`
   },
-  phoneCode: `+266`,
   alpha2code: `LS`,
   alpha3code: `LSO`,
   alternativeNames: undefined,
@@ -1877,7 +1767,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Liberia`
   },
-  phoneCode: `+231`,
   alpha2code: `LR`,
   alpha3code: `LBR`,
   alternativeNames: undefined,
@@ -1894,7 +1783,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Libya`
   },
-  phoneCode: `+218`,
   alpha2code: `LY`,
   alpha3code: `LBY`,
   alternativeNames: undefined,
@@ -1911,7 +1799,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Liechtenstein`
   },
-  phoneCode: `+423`,
   alpha2code: `LI`,
   alpha3code: `LIE`,
   alternativeNames: undefined,
@@ -1928,7 +1815,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Lithuania`
   },
-  phoneCode: `+370`,
   alpha2code: `LT`,
   alpha3code: `LTU`,
   alternativeNames: undefined,
@@ -1945,7 +1831,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Luxembourg`
   },
-  phoneCode: `+352`,
   alpha2code: `LU`,
   alpha3code: `LUX`,
   alternativeNames: undefined,
@@ -1962,7 +1847,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Macao`
   },
-  phoneCode: `+853`,
   alpha2code: `MO`,
   alpha3code: `MAC`,
   alternativeNames: undefined,
@@ -1979,7 +1863,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Macedonia`
   },
-  phoneCode: `+389`,
   alpha2code: `MK`,
   alpha3code: `MKD`,
   alternativeNames: undefined,
@@ -1996,7 +1879,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Madagascar`
   },
-  phoneCode: `+261`,
   alpha2code: `MG`,
   alpha3code: `MDG`,
   alternativeNames: undefined,
@@ -2013,7 +1895,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Malawi`
   },
-  phoneCode: `+265`,
   alpha2code: `MW`,
   alpha3code: `MWI`,
   alternativeNames: undefined,
@@ -2030,7 +1911,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Malaysia`
   },
-  phoneCode: `+60`,
   alpha2code: `MY`,
   alpha3code: `MYS`,
   alternativeNames: undefined,
@@ -2047,7 +1927,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Maldives`
   },
-  phoneCode: `+960`,
   alpha2code: `MV`,
   alpha3code: `MDV`,
   alternativeNames: undefined,
@@ -2064,7 +1943,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Mali`
   },
-  phoneCode: `+223`,
   alpha2code: `ML`,
   alpha3code: `MLI`,
   alternativeNames: undefined,
@@ -2081,7 +1959,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Malta`
   },
-  phoneCode: `+356`,
   alpha2code: `MT`,
   alpha3code: `MLT`,
   alternativeNames: undefined,
@@ -2098,7 +1975,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Marshall Islands`
   },
-  phoneCode: `+692`,
   alpha2code: `MH`,
   alpha3code: `MHL`,
   alternativeNames: undefined,
@@ -2115,7 +1991,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Martinique`
   },
-  phoneCode: `+596`,
   alpha2code: `MQ`,
   alpha3code: `MTQ`,
   alternativeNames: undefined,
@@ -2132,7 +2007,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Mauritania`
   },
-  phoneCode: `+222`,
   alpha2code: `MR`,
   alpha3code: `MRT`,
   alternativeNames: undefined,
@@ -2149,7 +2023,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Mauritius`
   },
-  phoneCode: `+230`,
   alpha2code: `MU`,
   alpha3code: `MUS`,
   alternativeNames: undefined,
@@ -2166,7 +2039,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Mayotte`
   },
-  phoneCode: `+262`,
   alpha2code: `YT`,
   alpha3code: `MYT`,
   alternativeNames: undefined,
@@ -2183,7 +2055,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Mexico`
   },
-  phoneCode: `+52`,
   alpha2code: `MX`,
   alpha3code: `MEX`,
   alternativeNames: undefined,
@@ -2200,7 +2071,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Moldova`
   },
-  phoneCode: `+373`,
   alpha2code: `MD`,
   alpha3code: `MDA`,
   alternativeNames: undefined,
@@ -2217,7 +2087,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Monaco`
   },
-  phoneCode: `+377`,
   alpha2code: `MC`,
   alpha3code: `MCO`,
   alternativeNames: undefined,
@@ -2234,7 +2103,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Mongolia`
   },
-  phoneCode: `+976`,
   alpha2code: `MN`,
   alpha3code: `MNG`,
   alternativeNames: undefined,
@@ -2251,7 +2119,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Montenegro`
   },
-  phoneCode: `+382`,
   alpha2code: `ME`,
   alpha3code: `MNE`,
   alternativeNames: undefined,
@@ -2268,7 +2135,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Montserrat`
   },
-  phoneCode: `+1`,
   alpha2code: `MS`,
   alpha3code: `MSR`,
   alternativeNames: undefined,
@@ -2285,7 +2151,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Morocco`
   },
-  phoneCode: `+212`,
   alpha2code: `MA`,
   alpha3code: `MAR`,
   alternativeNames: undefined,
@@ -2302,7 +2167,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Mozambique`
   },
-  phoneCode: `+258`,
   alpha2code: `MZ`,
   alpha3code: `MOZ`,
   alternativeNames: undefined,
@@ -2319,7 +2183,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Namibia`
   },
-  phoneCode: `+264`,
   alpha2code: `NA`,
   alpha3code: `NAM`,
   alternativeNames: undefined,
@@ -2336,7 +2199,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Nauru`
   },
-  phoneCode: `+674`,
   alpha2code: `NR`,
   alpha3code: `NRU`,
   alternativeNames: undefined,
@@ -2353,7 +2215,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Nepal`
   },
-  phoneCode: `+977`,
   alpha2code: `NP`,
   alpha3code: `NPL`,
   alternativeNames: undefined,
@@ -2370,7 +2231,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Netherlands`
   },
-  phoneCode: `+31`,
   alpha2code: `NL`,
   alpha3code: `NLD`,
   alternativeNames: undefined,
@@ -2387,7 +2247,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Netherlands Antilles`
   },
-  phoneCode: `+599`,
   alpha2code: `AN`,
   alpha3code: `ANT`,
   alternativeNames: undefined,
@@ -2404,7 +2263,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `New Caledonia`
   },
-  phoneCode: `+687`,
   alpha2code: `NC`,
   alpha3code: `NCL`,
   alternativeNames: undefined,
@@ -2421,7 +2279,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `New Zealand`
   },
-  phoneCode: `+64`,
   alpha2code: `NZ`,
   alpha3code: `NZL`,
   alternativeNames: undefined,
@@ -2438,7 +2295,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Nicaragua`
   },
-  phoneCode: `+505`,
   alpha2code: `NI`,
   alpha3code: `NIC`,
   alternativeNames: undefined,
@@ -2455,7 +2311,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Niger`
   },
-  phoneCode: `+227`,
   alpha2code: `NE`,
   alpha3code: `NER`,
   alternativeNames: undefined,
@@ -2472,7 +2327,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Nigeria`
   },
-  phoneCode: `+234`,
   alpha2code: `NG`,
   alpha3code: `NGA`,
   alternativeNames: undefined,
@@ -2489,7 +2343,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Niue`
   },
-  phoneCode: `+683`,
   alpha2code: `NU`,
   alpha3code: `NIU`,
   alternativeNames: undefined,
@@ -2506,7 +2359,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Norfolk Island`
   },
-  phoneCode: `+672`,
   alpha2code: `NF`,
   alpha3code: `NFK`,
   alternativeNames: undefined,
@@ -2523,7 +2375,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `North Korea`
   },
-  phoneCode: `+850`,
   alpha2code: `KP`,
   alpha3code: `PRK`,
   alternativeNames: undefined,
@@ -2540,7 +2391,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Northern Mariana Islands`
   },
-  phoneCode: `+1`,
   alpha2code: `MP`,
   alpha3code: `MNP`,
   alternativeNames: undefined,
@@ -2557,7 +2407,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Norway`
   },
-  phoneCode: `+47`,
   alpha2code: `NO`,
   alpha3code: `NOR`,
   alternativeNames: undefined,
@@ -2574,7 +2423,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Oman`
   },
-  phoneCode: `+968`,
   alpha2code: `OM`,
   alpha3code: `OMN`,
   alternativeNames: undefined,
@@ -2591,7 +2439,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Pakistan`
   },
-  phoneCode: `+92`,
   alpha2code: `PK`,
   alpha3code: `PAK`,
   alternativeNames: undefined,
@@ -2608,7 +2455,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Palau`
   },
-  phoneCode: `+680`,
   alpha2code: `PW`,
   alpha3code: `PLW`,
   alternativeNames: undefined,
@@ -2625,7 +2471,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Palestine`
   },
-  phoneCode: `+970`,
   alpha2code: `PS`,
   alpha3code: `PSE`,
   alternativeNames: undefined,
@@ -2642,7 +2487,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Panama`
   },
-  phoneCode: `+507`,
   alpha2code: `PA`,
   alpha3code: `PAN`,
   alternativeNames: undefined,
@@ -2659,7 +2503,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Papua New Guinea`
   },
-  phoneCode: `+675`,
   alpha2code: `PG`,
   alpha3code: `PNG`,
   alternativeNames: undefined,
@@ -2676,7 +2519,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Paraguay`
   },
-  phoneCode: `+595`,
   alpha2code: `PY`,
   alpha3code: `PRY`,
   alternativeNames: undefined,
@@ -2693,7 +2535,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Peru`
   },
-  phoneCode: `+51`,
   alpha2code: `PE`,
   alpha3code: `PER`,
   alternativeNames: undefined,
@@ -2710,7 +2551,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Philippines`
   },
-  phoneCode: `+63`,
   alpha2code: `PH`,
   alpha3code: `PHL`,
   alternativeNames: undefined,
@@ -2727,7 +2567,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Poland`
   },
-  phoneCode: `+48`,
   alpha2code: `PL`,
   alpha3code: `POL`,
   alternativeNames: undefined,
@@ -2744,7 +2583,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Portugal`
   },
-  phoneCode: `+351`,
   alpha2code: `PT`,
   alpha3code: `PRT`,
   alternativeNames: undefined,
@@ -2761,7 +2599,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Puerto Rico`
   },
-  phoneCode: `+1`,
   alpha2code: `PR`,
   alpha3code: `PRI`,
   alternativeNames: undefined,
@@ -2778,7 +2615,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Qatar`
   },
-  phoneCode: `+974`,
   alpha2code: `QA`,
   alpha3code: `QAT`,
   alternativeNames: undefined,
@@ -2795,7 +2631,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Democratic Republic of the Congo`
   },
-  phoneCode: `+243`,
   alpha2code: `CD`,
   alpha3code: `COD`,
   alternativeNames: undefined,
@@ -2812,7 +2647,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Republic of the Congo`
   },
-  phoneCode: `+242`,
   alpha2code: `CG`,
   alpha3code: `COG`,
   alternativeNames: undefined,
@@ -2829,7 +2663,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Romania`
   },
-  phoneCode: `+40`,
   alpha2code: `RO`,
   alpha3code: `ROU`,
   alternativeNames: undefined,
@@ -2846,7 +2679,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Russia`
   },
-  phoneCode: `+7`,
   alpha2code: `RU`,
   alpha3code: `RUS`,
   alternativeNames: undefined,
@@ -2863,7 +2695,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Rwanda`
   },
-  phoneCode: `+250`,
   alpha2code: `RW`,
   alpha3code: `RWA`,
   alternativeNames: undefined,
@@ -2880,7 +2711,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Saint Barthelemy`
   },
-  phoneCode: `+590`,
   alpha2code: `BL`,
   alpha3code: `BLM`,
   alternativeNames: undefined,
@@ -2897,7 +2727,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Saint Helena`
   },
-  phoneCode: `+290`,
   alpha2code: `SH`,
   alpha3code: `SHN`,
   alternativeNames: undefined,
@@ -2914,7 +2743,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Saint Kitts and Nevis`
   },
-  phoneCode: `+1`,
   alpha2code: `KN`,
   alpha3code: `KNA`,
   alternativeNames: undefined,
@@ -2931,7 +2759,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Saint Martin`
   },
-  phoneCode: `+590`,
   alpha2code: `MF`,
   alpha3code: `MAF`,
   alternativeNames: undefined,
@@ -2948,7 +2775,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Saint Pierre and Miquelon`
   },
-  phoneCode: `+508`,
   alpha2code: `PM`,
   alpha3code: `SPM`,
   alternativeNames: undefined,
@@ -2965,7 +2791,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Saint Vincent and the Grenadines`
   },
-  phoneCode: `+1`,
   alpha2code: `VC`,
   alpha3code: `VCT`,
   alternativeNames: undefined,
@@ -2982,7 +2807,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Samoa`
   },
-  phoneCode: `+685`,
   alpha2code: `WS`,
   alpha3code: `WSM`,
   alternativeNames: undefined,
@@ -2999,7 +2823,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `San Marino`
   },
-  phoneCode: `+378`,
   alpha2code: `SM`,
   alpha3code: `SMR`,
   alternativeNames: undefined,
@@ -3016,7 +2839,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Sao Tome and Principe`
   },
-  phoneCode: `+239`,
   alpha2code: `ST`,
   alpha3code: `STP`,
   alternativeNames: undefined,
@@ -3033,7 +2855,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Saudi Arabia`
   },
-  phoneCode: `+966`,
   alpha2code: `SA`,
   alpha3code: `SAU`,
   alternativeNames: undefined,
@@ -3050,7 +2871,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Senegal`
   },
-  phoneCode: `+221`,
   alpha2code: `SN`,
   alpha3code: `SEN`,
   alternativeNames: undefined,
@@ -3067,7 +2887,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Serbia`
   },
-  phoneCode: `+381`,
   alpha2code: `RS`,
   alpha3code: `SRB`,
   alternativeNames: undefined,
@@ -3084,7 +2903,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Seychelles`
   },
-  phoneCode: `+248`,
   alpha2code: `SC`,
   alpha3code: `SYC`,
   alternativeNames: undefined,
@@ -3101,7 +2919,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Sierra Leone`
   },
-  phoneCode: `+232`,
   alpha2code: `SL`,
   alpha3code: `SLE`,
   alternativeNames: undefined,
@@ -3118,7 +2935,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Singapore`
   },
-  phoneCode: `+65`,
   alpha2code: `SG`,
   alpha3code: `SGP`,
   alternativeNames: undefined,
@@ -3135,7 +2951,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Sint Maarten (Dutch part)`
   },
-  phoneCode: `+1`,
   alpha2code: `SX`,
   alpha3code: `SXM`,
   alternativeNames: undefined,
@@ -3152,7 +2967,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Slovakia`
   },
-  phoneCode: `+421`,
   alpha2code: `SK`,
   alpha3code: `SVK`,
   alternativeNames: undefined,
@@ -3169,7 +2983,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Slovenia`
   },
-  phoneCode: `+386`,
   alpha2code: `SI`,
   alpha3code: `SVN`,
   alternativeNames: undefined,
@@ -3186,7 +2999,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Solomon Islands`
   },
-  phoneCode: `+677`,
   alpha2code: `SB`,
   alpha3code: `SLB`,
   alternativeNames: undefined,
@@ -3203,7 +3015,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Somalia`
   },
-  phoneCode: `+252`,
   alpha2code: `SO`,
   alpha3code: `SOM`,
   alternativeNames: undefined,
@@ -3220,7 +3031,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `South Africa`
   },
-  phoneCode: `+27`,
   alpha2code: `ZA`,
   alpha3code: `ZAF`,
   alternativeNames: undefined,
@@ -3237,7 +3047,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `South Korea`
   },
-  phoneCode: `+82`,
   alpha2code: `KR`,
   alpha3code: `KOR`,
   alternativeNames: undefined,
@@ -3254,7 +3063,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `South Sudan`
   },
-  phoneCode: `+211`,
   alpha2code: `SS`,
   alpha3code: `SSD`,
   alternativeNames: undefined,
@@ -3271,7 +3079,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Spain`
   },
-  phoneCode: `+34`,
   alpha2code: `ES`,
   alpha3code: `ESP`,
   alternativeNames: undefined,
@@ -3288,7 +3095,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Sri Lanka`
   },
-  phoneCode: `+94`,
   alpha2code: `LK`,
   alpha3code: `LKA`,
   alternativeNames: undefined,
@@ -3305,7 +3111,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Saint Lucia`
   },
-  phoneCode: `+1`,
   alpha2code: `LC`,
   alpha3code: `LCA`,
   alternativeNames: undefined,
@@ -3322,7 +3127,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Sudan`
   },
-  phoneCode: `+249`,
   alpha2code: `SD`,
   alpha3code: `SDN`,
   alternativeNames: undefined,
@@ -3339,7 +3143,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Suriname`
   },
-  phoneCode: `+597`,
   alpha2code: `SR`,
   alpha3code: `SUR`,
   alternativeNames: undefined,
@@ -3356,7 +3159,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Swaziland`
   },
-  phoneCode: `+268`,
   alpha2code: `SZ`,
   alpha3code: `SWZ`,
   alternativeNames: undefined,
@@ -3373,7 +3175,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Sweden`
   },
-  phoneCode: `+46`,
   alpha2code: `SE`,
   alpha3code: `SWE`,
   alternativeNames: undefined,
@@ -3390,7 +3191,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Switzerland`
   },
-  phoneCode: `+41`,
   alpha2code: `CH`,
   alpha3code: `CHE`,
   alternativeNames: undefined,
@@ -3407,7 +3207,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Syrian Arab Republic`
   },
-  phoneCode: `+963`,
   alpha2code: `SY`,
   alpha3code: `SYR`,
   alternativeNames: [`Syria`],
@@ -3424,7 +3223,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Taiwan`
   },
-  phoneCode: `+886`,
   alpha2code: `TW`,
   alpha3code: `TWN`,
   alternativeNames: undefined,
@@ -3441,7 +3239,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Tajikistan`
   },
-  phoneCode: `+992`,
   alpha2code: `TJ`,
   alpha3code: `TJK`,
   alternativeNames: undefined,
@@ -3458,7 +3255,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Tanzania`
   },
-  phoneCode: `+255`,
   alpha2code: `TZ`,
   alpha3code: `TZA`,
   alternativeNames: undefined,
@@ -3475,7 +3271,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Thailand`
   },
-  phoneCode: `+66`,
   alpha2code: `TH`,
   alpha3code: `THA`,
   alternativeNames: undefined,
@@ -3492,7 +3287,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `The Bahamas`
   },
-  phoneCode: `+1`,
   alpha2code: `BS`,
   alpha3code: `BHS`,
   alternativeNames: [`Bahamas, The`, `Bahamas`],
@@ -3509,7 +3303,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `The Gambia`
   },
-  phoneCode: `+220`,
   alpha2code: `GM`,
   alpha3code: `GMB`,
   alternativeNames: [`Gambia, The`, `Gambia`],
@@ -3526,7 +3319,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Timor-Leste`
   },
-  phoneCode: `+670`,
   alpha2code: `TL`,
   alpha3code: `TLS`,
   alternativeNames: [`East Timor`],
@@ -3543,7 +3335,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Togo`
   },
-  phoneCode: `+228`,
   alpha2code: `TG`,
   alpha3code: `TGO`,
   alternativeNames: undefined,
@@ -3560,7 +3351,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Tokelau`
   },
-  phoneCode: `+690`,
   alpha2code: `TK`,
   alpha3code: `TKL`,
   alternativeNames: undefined,
@@ -3577,7 +3367,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Tonga`
   },
-  phoneCode: `+676`,
   alpha2code: `TO`,
   alpha3code: `TON`,
   alternativeNames: undefined,
@@ -3594,7 +3383,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Trinidad and Tobago`
   },
-  phoneCode: `+1`,
   alpha2code: `TT`,
   alpha3code: `TTO`,
   alternativeNames: undefined,
@@ -3611,7 +3399,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Tunisia`
   },
-  phoneCode: `+216`,
   alpha2code: `TN`,
   alpha3code: `TUN`,
   alternativeNames: undefined,
@@ -3628,7 +3415,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Turkey`
   },
-  phoneCode: `+90`,
   alpha2code: `TR`,
   alpha3code: `TUR`,
   alternativeNames: undefined,
@@ -3645,7 +3431,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Turkmenistan`
   },
-  phoneCode: `+993`,
   alpha2code: `TM`,
   alpha3code: `TKM`,
   alternativeNames: undefined,
@@ -3662,7 +3447,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Turks and Caicos Islands`
   },
-  phoneCode: `+1`,
   alpha2code: `TC`,
   alpha3code: `TCA`,
   alternativeNames: undefined,
@@ -3679,7 +3463,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Tuvalu`
   },
-  phoneCode: `+688`,
   alpha2code: `TV`,
   alpha3code: `TUV`,
   alternativeNames: undefined,
@@ -3696,7 +3479,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Uganda`
   },
-  phoneCode: `+256`,
   alpha2code: `UG`,
   alpha3code: `UGA`,
   alternativeNames: undefined,
@@ -3713,7 +3495,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Ukraine`
   },
-  phoneCode: `+380`,
   alpha2code: `UA`,
   alpha3code: `UKR`,
   alternativeNames: undefined,
@@ -3730,7 +3511,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `United Arab Emirates`
   },
-  phoneCode: `+971`,
   alpha2code: `AE`,
   alpha3code: `ARE`,
   alternativeNames: undefined,
@@ -3747,7 +3527,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `United Kingdom`
   },
-  phoneCode: `+44`,
   alpha2code: `GB`,
   alpha3code: `GBR`,
   alternativeNames: undefined,
@@ -3764,7 +3543,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `United States of America`
   },
-  phoneCode: `+1`,
   alpha2code: `US`,
   alpha3code: `USA`,
   alternativeNames: undefined,
@@ -3781,7 +3559,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Uruguay`
   },
-  phoneCode: `+598`,
   alpha2code: `UY`,
   alpha3code: `URY`,
   alternativeNames: undefined,
@@ -3798,7 +3575,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Uzbekistan`
   },
-  phoneCode: `+998`,
   alpha2code: `UZ`,
   alpha3code: `UZB`,
   alternativeNames: undefined,
@@ -3815,7 +3591,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Vanuatu`
   },
-  phoneCode: `+678`,
   alpha2code: `VU`,
   alpha3code: `VUT`,
   alternativeNames: undefined,
@@ -3832,7 +3607,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Vatican City`
   },
-  phoneCode: `+39`,
   alpha2code: `VA`,
   alpha3code: `VAT`,
   alternativeNames: undefined,
@@ -3849,7 +3623,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Venezuela`
   },
-  phoneCode: `+58`,
   alpha2code: `VE`,
   alpha3code: `VEN`,
   alternativeNames: undefined,
@@ -3866,7 +3639,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Vietnam`
   },
-  phoneCode: `+84`,
   alpha2code: `VN`,
   alpha3code: `VNM`,
   alternativeNames: undefined,
@@ -3883,7 +3655,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Wallis and Futuna`
   },
-  phoneCode: `+681`,
   alpha2code: `WF`,
   alpha3code: `WLF`,
   alternativeNames: undefined,
@@ -3900,7 +3671,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Yemen`
   },
-  phoneCode: `+967`,
   alpha2code: `YE`,
   alpha3code: `YEM`,
   alternativeNames: undefined,
@@ -3917,7 +3687,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Zambia`
   },
-  phoneCode: `+260`,
   alpha2code: `ZM`,
   alpha3code: `ZMB`,
   alternativeNames: undefined,
@@ -3934,7 +3703,6 @@ export const CountriesData: PlaceSeedData[] = [{
   locales: {
     en: `Zimbabwe`
   },
-  phoneCode: `+263`,
   alpha2code: `ZW`,
   alpha3code: `ZWE`,
   alternativeNames: undefined,
