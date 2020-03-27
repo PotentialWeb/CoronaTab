@@ -43,6 +43,19 @@
       }
     },
     {
+      "name": "Purge Cache",
+      "type": "node",
+      "request": "launch",
+      "program": "${workspaceRoot}/node_modules/ts-node/dist/bin.js",
+      "args": [
+        "scripts/purge-cache.ts"
+      ],
+      "cwd": "${workspaceRoot}",
+      "protocol": "inspector",
+      "env": {
+      }
+    },
+    {
       "name": "Sync STAGING",
       "type": "node",
       "request": "launch",
