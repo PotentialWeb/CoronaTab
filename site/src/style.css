@@ -3,7 +3,7 @@
 @import "tailwindcss/utilities";
 
 /* purgecss start ignore */
-
+@import "../node_modules/ol/ol.css";
 @import "../node_modules/tippy.js/dist/tippy.css";
 @import "../node_modules/tippy.js/themes/light.css";
 @import "../node_modules/tippy.js/animations/shift-away.css";
