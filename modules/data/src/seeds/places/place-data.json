@@ -841,6 +841,13 @@
     "recovered": 4
   },
   {
+    "placeId": "united-kingdom-sutton",
+    "date": "2020-03-17",
+    "cases": 10,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
     "placeId": "united-states-of-america-massachusetts",
     "date": "2020-03-17",
     "cases": 218,
@@ -1453,6 +1460,13 @@
     "placeId": "united-states-of-america-florida-nassau-county",
     "date": "2020-03-17",
     "cases": 1,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-kingdom-swindon",
+    "date": "2020-03-17",
+    "cases": 2,
     "deaths": 0,
     "recovered": 0
   },
@@ -3980,20 +3994,6 @@
     "placeId": "united-kingdom-surrey",
     "date": "2020-03-17",
     "cases": 30,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-kingdom-sutton",
-    "date": "2020-03-17",
-    "cases": 10,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-kingdom-swindon",
-    "date": "2020-03-17",
-    "cases": 2,
     "deaths": 0,
     "recovered": 0
   },
@@ -6560,6 +6560,13 @@
     "recovered": 0
   },
   {
+    "placeId": "belgium",
+    "date": "2020-03-18",
+    "cases": 1486,
+    "deaths": 14,
+    "recovered": 31
+  },
+  {
     "placeId": "united-states-of-america-alabama-tuscaloosa-county",
     "date": "2020-03-18",
     "cases": 3,
@@ -8306,6 +8313,13 @@
     "placeId": "united-states-of-america-oregon-clackamas-county",
     "date": "2020-03-18",
     "cases": 6,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
+    "placeId": "benin",
+    "date": "2020-03-18",
+    "cases": 2,
     "deaths": 0,
     "recovered": 0
   },
@@ -10396,20 +10410,6 @@
     "recovered": 5
   },
   {
-    "placeId": "belgium",
-    "date": "2020-03-18",
-    "cases": 1486,
-    "deaths": 14,
-    "recovered": 31
-  },
-  {
-    "placeId": "benin",
-    "date": "2020-03-18",
-    "cases": 2,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
     "placeId": "bhutan",
     "date": "2020-03-18",
     "cases": 1,
@@ -12235,6 +12235,13 @@
     "cases": 214,
     "deaths": 1,
     "recovered": 1
+  },
+  {
+    "placeId": "liberia",
+    "date": "2020-03-19",
+    "cases": 2,
+    "deaths": 0,
+    "recovered": 0
   },
   {
     "placeId": "united-states-of-america-maine",
@@ -17480,13 +17487,6 @@
     "recovered": 4
   },
   {
-    "placeId": "liberia",
-    "date": "2020-03-19",
-    "cases": 2,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
     "placeId": "liechtenstein",
     "date": "2020-03-19",
     "cases": 28,
@@ -20329,6 +20329,13 @@
     "recovered": 0
   },
   {
+    "placeId": "brunei-darussalam",
+    "date": "2020-03-20",
+    "cases": 78,
+    "deaths": 0,
+    "recovered": 1
+  },
+  {
     "placeId": "united-states-of-america-north-carolina-union-county",
     "date": "2020-03-20",
     "cases": 2,
@@ -21502,6 +21509,13 @@
     "date": "2020-03-20",
     "cases": 1,
     "deaths": 0,
+    "recovered": 0
+  },
+  {
+    "placeId": "bulgaria",
+    "date": "2020-03-20",
+    "cases": 127,
+    "deaths": 3,
     "recovered": 0
   },
   {
@@ -23612,20 +23626,6 @@
     "recovered": 2
   },
   {
-    "placeId": "brunei-darussalam",
-    "date": "2020-03-20",
-    "cases": 78,
-    "deaths": 0,
-    "recovered": 1
-  },
-  {
-    "placeId": "bulgaria",
-    "date": "2020-03-20",
-    "cases": 127,
-    "deaths": 3,
-    "recovered": 0
-  },
-  {
     "placeId": "burkina-faso",
     "date": "2020-03-20",
     "cases": 40,
@@ -24422,13 +24422,6 @@
     "cases": 140,
     "deaths": 2,
     "recovered": 31
-  },
-  {
-    "placeId": "united-states-of-america",
-    "date": "2020-03-20",
-    "cases": 19151,
-    "deaths": 245,
-    "recovered": 3
   },
   {
     "placeId": "uruguay",
@@ -26622,6 +26615,13 @@
     "recovered": 0
   },
   {
+    "placeId": "united-kingdom-hounslow",
+    "date": "2020-03-21",
+    "cases": 52,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
     "placeId": "united-states-of-america-louisiana-tangipahoa-parish",
     "date": "2020-03-21",
     "cases": 3,
@@ -28386,6 +28386,13 @@
     "recovered": 0
   },
   {
+    "placeId": "italy-calabria",
+    "date": "2020-03-22",
+    "cases": 273,
+    "deaths": 8,
+    "recovered": 5
+  },
+  {
     "placeId": "united-states-of-america-washington-stevens-county",
     "date": "2020-03-21",
     "cases": 1,
@@ -29054,13 +29061,6 @@
     "placeId": "united-kingdom-hillingdon",
     "date": "2020-03-21",
     "cases": 50,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-kingdom-hounslow",
-    "date": "2020-03-21",
-    "cases": 52,
     "deaths": 0,
     "recovered": 0
   },
@@ -30752,6 +30752,13 @@
     "recovered": 27
   },
   {
+    "placeId": "italy-campania",
+    "date": "2020-03-22",
+    "cases": 936,
+    "deaths": 29,
+    "recovered": 41
+  },
+  {
     "placeId": "democratic-republic-of-the-congo",
     "date": "2020-03-21",
     "cases": 23,
@@ -30967,13 +30974,6 @@
     "cases": 153,
     "deaths": 2,
     "recovered": 38
-  },
-  {
-    "placeId": "united-states-of-america",
-    "date": "2020-03-21",
-    "cases": 25934,
-    "deaths": 310,
-    "recovered": 9
   },
   {
     "placeId": "uruguay",
@@ -31646,20 +31646,6 @@
     "cases": 678,
     "deaths": 23,
     "recovered": 7
-  },
-  {
-    "placeId": "italy-calabria",
-    "date": "2020-03-22",
-    "cases": 273,
-    "deaths": 8,
-    "recovered": 5
-  },
-  {
-    "placeId": "italy-campania",
-    "date": "2020-03-22",
-    "cases": 936,
-    "deaths": 29,
-    "recovered": 41
   },
   {
     "placeId": "italy-emilia-romagna",
@@ -33503,6 +33489,13 @@
     "recovered": 0
   },
   {
+    "placeId": "sweden",
+    "date": "2020-03-22",
+    "cases": 1934,
+    "deaths": 21,
+    "recovered": 16
+  },
+  {
     "placeId": "united-states-of-america-north-carolina-moore-county",
     "date": "2020-03-22",
     "cases": 2,
@@ -35274,6 +35267,13 @@
     "recovered": 0
   },
   {
+    "placeId": "syrian-arab-republic",
+    "date": "2020-03-22",
+    "cases": 1,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
     "placeId": "united-states-of-america-wisconsin-winnebago-county",
     "date": "2020-03-22",
     "cases": 5,
@@ -36737,6 +36737,13 @@
     "recovered": 0
   },
   {
+    "placeId": "taiwan",
+    "date": "2020-03-22",
+    "cases": 169,
+    "deaths": 2,
+    "recovered": 28
+  },
+  {
     "placeId": "united-states-of-america-utah-tooele-county",
     "date": "2020-03-22",
     "cases": 2,
@@ -37710,27 +37717,6 @@
     "recovered": 0
   },
   {
-    "placeId": "sweden",
-    "date": "2020-03-22",
-    "cases": 1934,
-    "deaths": 21,
-    "recovered": 16
-  },
-  {
-    "placeId": "syrian-arab-republic",
-    "date": "2020-03-22",
-    "cases": 1,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "taiwan",
-    "date": "2020-03-22",
-    "cases": 169,
-    "deaths": 2,
-    "recovered": 28
-  },
-  {
     "placeId": "tanzania",
     "date": "2020-03-22",
     "cases": 12,
@@ -37799,13 +37785,6 @@
     "cases": 153,
     "deaths": 2,
     "recovered": 38
-  },
-  {
-    "placeId": "united-states-of-america",
-    "date": "2020-03-22",
-    "cases": 33522,
-    "deaths": 418,
-    "recovered": 9
   },
   {
     "placeId": "uruguay",
@@ -38613,6 +38592,13 @@
     "recovered": 0
   },
   {
+    "placeId": "united-kingdom-barnsley",
+    "date": "2020-03-23",
+    "cases": 11,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
     "placeId": "united-states-of-america-arkansas",
     "date": "2020-03-23",
     "cases": 201,
@@ -39246,6 +39232,13 @@
     "placeId": "united-states-of-america-california-mono-county",
     "date": "2020-03-23",
     "cases": 1,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
+    "placeId": "el-salvador",
+    "date": "2020-03-23",
+    "cases": 3,
     "deaths": 0,
     "recovered": 0
   },
@@ -40979,6 +40972,13 @@
     "recovered": 0
   },
   {
+    "placeId": "equatorial-guinea",
+    "date": "2020-03-23",
+    "cases": 6,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
     "placeId": "united-states-of-america-ohio-ashland-county",
     "date": "2020-03-23",
     "cases": 1,
@@ -42186,13 +42186,6 @@
     "placeId": "united-kingdom-barnet",
     "date": "2020-03-23",
     "cases": 94,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-kingdom-barnsley",
-    "date": "2020-03-23",
-    "cases": 11,
     "deaths": 0,
     "recovered": 0
   },
@@ -43765,20 +43758,6 @@
     "recovered": 56
   },
   {
-    "placeId": "el-salvador",
-    "date": "2020-03-23",
-    "cases": 3,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "equatorial-guinea",
-    "date": "2020-03-23",
-    "cases": 6,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
     "placeId": "eritrea",
     "date": "2020-03-23",
     "cases": 1,
@@ -44512,13 +44491,6 @@
     "cases": 153,
     "deaths": 2,
     "recovered": 38
-  },
-  {
-    "placeId": "united-states-of-america",
-    "date": "2020-03-23",
-    "cases": 42937,
-    "deaths": 481,
-    "recovered": 178
   },
   {
     "placeId": "uruguay",
@@ -52732,6 +52704,13 @@
     "recovered": 0
   },
   {
+    "placeId": "china-guangdong",
+    "date": "2020-02-10",
+    "cases": 1159,
+    "deaths": 1,
+    "recovered": 167
+  },
+  {
     "placeId": "united-states-of-america-illinois",
     "date": "2020-02-08",
     "cases": 2,
@@ -53598,13 +53577,6 @@
     "cases": 31728,
     "deaths": 974,
     "recovered": 2222
-  },
-  {
-    "placeId": "china-guangdong",
-    "date": "2020-02-10",
-    "cases": 1159,
-    "deaths": 1,
-    "recovered": 167
   },
   {
     "placeId": "china-henan",
@@ -59676,6 +59648,13 @@
     "recovered": 0
   },
   {
+    "placeId": "china-beijing",
+    "date": "2020-02-22",
+    "cases": 399,
+    "deaths": 4,
+    "recovered": 178
+  },
+  {
     "placeId": "france-auvergne-rhône-alpes",
     "date": "2020-02-20",
     "cases": 6,
@@ -60577,13 +60556,6 @@
     "cases": 479,
     "deaths": 12,
     "recovered": 204
-  },
-  {
-    "placeId": "china-beijing",
-    "date": "2020-02-22",
-    "cases": 399,
-    "deaths": 4,
-    "recovered": 178
   },
   {
     "placeId": "china-shanghai",
@@ -82839,6 +82811,13 @@
     "recovered": 0
   },
   {
+    "placeId": "serbia",
+    "date": "2020-03-10",
+    "cases": 5,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
     "placeId": "united-states-of-america-pennsylvania-montgomery-county",
     "date": "2020-03-10",
     "cases": 8,
@@ -83719,13 +83698,6 @@
     "cases": 4,
     "deaths": 0,
     "recovered": 1
-  },
-  {
-    "placeId": "serbia",
-    "date": "2020-03-10",
-    "cases": 5,
-    "deaths": 0,
-    "recovered": 0
   },
   {
     "placeId": "singapore",
@@ -85758,6 +85730,13 @@
     "recovered": 0
   },
   {
+    "placeId": "martinique",
+    "date": "2020-03-11",
+    "cases": 3,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
     "placeId": "united-states-of-america-pennsylvania-delaware-county",
     "date": "2020-03-11",
     "cases": 1,
@@ -86566,13 +86545,6 @@
     "placeId": "malta",
     "date": "2020-03-11",
     "cases": 6,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "martinique",
-    "date": "2020-03-11",
-    "cases": 3,
     "deaths": 0,
     "recovered": 0
   },
@@ -88124,6 +88096,13 @@
     "recovered": 0
   },
   {
+    "placeId": "tunisia",
+    "date": "2020-03-13",
+    "cases": 16,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
     "placeId": "united-states-of-america-indiana-marion-county",
     "date": "2020-03-13",
     "cases": 2,
@@ -89660,13 +89639,6 @@
     "placeId": "togo",
     "date": "2020-03-13",
     "cases": 1,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "tunisia",
-    "date": "2020-03-13",
-    "cases": 16,
     "deaths": 0,
     "recovered": 0
   },
@@ -91694,6 +91666,13 @@
     "recovered": 0
   },
   {
+    "placeId": "france-occitanie",
+    "date": "2020-03-14",
+    "cases": 214,
+    "deaths": 0,
+    "recovered": 3
+  },
+  {
     "placeId": "united-states-of-america-oregon-linn-county",
     "date": "2020-03-14",
     "cases": 9,
@@ -92307,13 +92286,6 @@
     "date": "2020-03-14",
     "cases": 182,
     "deaths": 3,
-    "recovered": 3
-  },
-  {
-    "placeId": "france-occitanie",
-    "date": "2020-03-14",
-    "cases": 214,
-    "deaths": 0,
     "recovered": 3
   },
   {
@@ -95299,6 +95271,13 @@
     "recovered": 0
   },
   {
+    "placeId": "palestine",
+    "date": "2020-03-15",
+    "cases": 43,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
     "placeId": "united-states-of-america-ohio-cuyahoga-county",
     "date": "2020-03-15",
     "cases": 14,
@@ -95890,6 +95869,13 @@
     "placeId": "united-states-of-america-pennsylvania-bucks-county",
     "date": "2020-03-15",
     "cases": 4,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
+    "placeId": "paraguay",
+    "date": "2020-03-15",
+    "cases": 6,
     "deaths": 0,
     "recovered": 0
   },
@@ -96788,20 +96774,6 @@
     "cases": 53,
     "deaths": 0,
     "recovered": 2
-  },
-  {
-    "placeId": "palestine",
-    "date": "2020-03-15",
-    "cases": 43,
-    "deaths": 1,
-    "recovered": 0
-  },
-  {
-    "placeId": "paraguay",
-    "date": "2020-03-15",
-    "cases": 6,
-    "deaths": 0,
-    "recovered": 0
   },
   {
     "placeId": "peru",
@@ -98967,6 +98939,13 @@
     "recovered": 0
   },
   {
+    "placeId": "france-grand-est",
+    "date": "2020-03-16",
+    "cases": 1543,
+    "deaths": 51,
+    "recovered": 51
+  },
+  {
     "placeId": "united-states-of-america-north-carolina-chatham-county",
     "date": "2020-03-16",
     "cases": 1,
@@ -100960,13 +100939,6 @@
     "cases": 587,
     "deaths": 39,
     "recovered": 39
-  },
-  {
-    "placeId": "france-grand-est",
-    "date": "2020-03-16",
-    "cases": 1543,
-    "deaths": 51,
-    "recovered": 51
   },
   {
     "placeId": "france-auvergne-rhône-alpes",
@@ -106894,6 +106866,13 @@
     "placeId": "united-states-of-america-maryland-wicomico-county",
     "date": "2020-03-25",
     "cases": 4,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
+    "placeId": "switzerland-fr",
+    "date": "2020-03-08",
+    "cases": 8,
     "deaths": 0,
     "recovered": 0
   },
@@ -114283,6 +114262,13 @@
     "recovered": 0
   },
   {
+    "placeId": "switzerland-ge",
+    "date": "2020-03-08",
+    "cases": 35,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
     "placeId": "united-states-of-america-south-carolina-saluda-county",
     "date": "2020-03-25",
     "cases": 1,
@@ -114934,6 +114920,13 @@
     "recovered": 0
   },
   {
+    "placeId": "switzerland-gr",
+    "date": "2020-03-08",
+    "cases": 17,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
     "placeId": "united-states-of-america-arkansas-clark-county",
     "date": "2020-03-25",
     "cases": 6,
@@ -115270,20 +115263,6 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america",
-    "date": "2020-03-25",
-    "cases": 56136,
-    "deaths": 486,
-    "recovered": 35
-  },
-  {
-    "placeId": "earth",
-    "date": "2020-03-25",
-    "cases": 226780,
-    "deaths": 11044,
-    "recovered": 13769
-  },
-  {
     "placeId": "united-states-of-america-california-los-angeles",
     "date": "2020-01-26",
     "cases": 1,
@@ -115548,6 +115527,13 @@
     "cases": 2,
     "deaths": 0,
     "recovered": 0
+  },
+  {
+    "placeId": "earth",
+    "date": "2020-03-25",
+    "cases": 435352,
+    "deaths": 11044,
+    "recovered": 110342
   },
   {
     "placeId": "united-states-of-america-california-los-angeles",
@@ -116288,27 +116274,6 @@
     "placeId": "switzerland-bs",
     "date": "2020-03-08",
     "cases": 25,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "switzerland-fr",
-    "date": "2020-03-08",
-    "cases": 8,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "switzerland-ge",
-    "date": "2020-03-08",
-    "cases": 35,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "switzerland-gr",
-    "date": "2020-03-08",
-    "cases": 17,
     "deaths": 0,
     "recovered": 0
   },
@@ -118070,6 +118035,13 @@
     "recovered": 0
   },
   {
+    "placeId": "switzerland-vs",
+    "date": "2020-03-18",
+    "cases": 129,
+    "deaths": 3,
+    "recovered": 0
+  },
+  {
     "placeId": "united-states-of-america-iowa-dallas-county",
     "date": "2020-03-14",
     "cases": 1,
@@ -119537,13 +119509,6 @@
     "date": "2020-03-18",
     "cases": 796,
     "deaths": 5,
-    "recovered": 0
-  },
-  {
-    "placeId": "switzerland-vs",
-    "date": "2020-03-18",
-    "cases": 129,
-    "deaths": 3,
     "recovered": 0
   },
   {
@@ -125252,6 +125217,13 @@
     "recovered": 0
   },
   {
+    "placeId": "switzerland-ag",
+    "date": "2020-03-22",
+    "cases": 232,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
     "placeId": "united-states-of-america-minnesota-filmore-county",
     "date": "2020-03-21",
     "cases": 2,
@@ -127569,13 +127541,6 @@
     "recovered": 0
   },
   {
-    "placeId": "switzerland-ag",
-    "date": "2020-03-22",
-    "cases": 232,
-    "deaths": 1,
-    "recovered": 0
-  },
-  {
     "placeId": "switzerland-ai",
     "date": "2020-03-22",
     "cases": 3,
@@ -128874,6 +128839,13 @@
     "placeId": "united-states-of-america-idaho-bingham-county",
     "date": "2020-03-22",
     "cases": 2,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
+    "placeId": "france-new-caledonia",
+    "date": "2020-03-24",
+    "cases": 10,
     "deaths": 0,
     "recovered": 0
   },
@@ -134870,6 +134842,13 @@
     "recovered": 0
   },
   {
+    "placeId": "united-states-of-america-arkansas-independence-county",
+    "date": "2020-03-23",
+    "cases": 3,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
     "placeId": "united-states-of-america-south-carolina-greenville-county",
     "date": "2020-03-23",
     "cases": 31,
@@ -135510,13 +135489,6 @@
     "placeId": "united-states-of-america-arkansas-searcy-county",
     "date": "2020-03-23",
     "cases": 2,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-arkansas-independence-county",
-    "date": "2020-03-23",
-    "cases": 3,
     "deaths": 0,
     "recovered": 0
   },
@@ -136231,13 +136203,6 @@
     "placeId": "denmark-greenland",
     "date": "2020-03-24",
     "cases": 5,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "france-new-caledonia",
-    "date": "2020-03-24",
-    "cases": 10,
     "deaths": 0,
     "recovered": 0
   },
@@ -139364,6 +139329,13 @@
     "recovered": 0
   },
   {
+    "placeId": "united-kingdom-bury",
+    "date": "2020-03-24",
+    "cases": 17,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
     "placeId": "united-states-of-america-mississippi-franklin-county",
     "date": "2020-03-24",
     "cases": 3,
@@ -139920,6 +139892,13 @@
     "placeId": "united-states-of-america-north-carolina-gaston-county",
     "date": "2020-03-24",
     "cases": 3,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-kingdom-torbay",
+    "date": "2020-03-24",
+    "cases": 17,
     "deaths": 0,
     "recovered": 0
   },
@@ -141716,6 +141695,13 @@
     "recovered": 0
   },
   {
+    "placeId": "switzerland-ur",
+    "date": "2020-03-24",
+    "cases": 25,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
     "placeId": "united-states-of-america-washington-clark-county",
     "date": "2020-03-24",
     "cases": 16,
@@ -142321,13 +142307,6 @@
     "placeId": "united-kingdom-buckinghamshire",
     "date": "2020-03-24",
     "cases": 50,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-kingdom-bury",
-    "date": "2020-03-24",
-    "cases": 17,
     "deaths": 0,
     "recovered": 0
   },
@@ -143095,13 +143074,6 @@
     "recovered": 0
   },
   {
-    "placeId": "united-kingdom-torbay",
-    "date": "2020-03-24",
-    "cases": 17,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
     "placeId": "united-kingdom-tower-hamlets",
     "date": "2020-03-24",
     "cases": 70,
@@ -143715,6 +143687,13 @@
     "date": "2020-03-24",
     "cases": 43,
     "deaths": 0,
+    "recovered": 0
+  },
+  {
+    "placeId": "switzerland-vd",
+    "date": "2020-03-24",
+    "cases": 0,
+    "deaths": 17,
     "recovered": 0
   },
   {
@@ -144387,20 +144366,6 @@
     "date": "2020-03-24",
     "cases": 1211,
     "deaths": 53,
-    "recovered": 0
-  },
-  {
-    "placeId": "switzerland-ur",
-    "date": "2020-03-24",
-    "cases": 25,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "switzerland-vd",
-    "date": "2020-03-24",
-    "cases": 0,
-    "deaths": 17,
     "recovered": 0
   },
   {
@@ -145650,6 +145615,13 @@
     "recovered": 0
   },
   {
+    "placeId": "india-maharashtra",
+    "date": "2020-03-24",
+    "cases": 98,
+    "deaths": 2,
+    "recovered": 0
+  },
+  {
     "placeId": "united-states-of-america-missouri-pulaski-county",
     "date": "2020-03-24",
     "cases": 4,
@@ -146236,6 +146208,13 @@
     "cases": 74,
     "deaths": 0,
     "recovered": 5
+  },
+  {
+    "placeId": "india-odisha",
+    "date": "2020-03-24",
+    "cases": 2,
+    "deaths": 0,
+    "recovered": 0
   },
   {
     "placeId": "united-states-of-america-maine-kennebec-county",
@@ -147431,20 +147410,6 @@
     "placeId": "india-madhya-pradesh",
     "date": "2020-03-24",
     "cases": 9,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "india-maharashtra",
-    "date": "2020-03-24",
-    "cases": 98,
-    "deaths": 2,
-    "recovered": 0
-  },
-  {
-    "placeId": "india-odisha",
-    "date": "2020-03-24",
-    "cases": 2,
     "deaths": 0,
     "recovered": 0
   },
@@ -149080,13 +149045,6 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america",
-    "date": "2020-03-24",
-    "cases": 53740,
-    "deaths": 706,
-    "recovered": 35
-  },
-  {
     "placeId": "uruguay",
     "date": "2020-03-24",
     "cases": 162,
@@ -149136,13 +149094,6 @@
     "recovered": 0
   },
   {
-    "placeId": "earth",
-    "date": "2020-03-24",
-    "cases": 418662,
-    "deaths": 18479,
-    "recovered": 15454
-  },
-  {
     "placeId": "united-states-of-america-north-dakota",
     "date": "2020-03-25",
     "cases": 36,
@@ -149180,7 +149131,7 @@
   {
     "placeId": "united-states-of-america-maryland-baltimore-city",
     "date": "2020-03-26",
-    "cases": 53,
+    "cases": 72,
     "deaths": 0,
     "recovered": 0
   },
@@ -149199,20 +149150,6 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-alaska",
-    "date": "2020-03-26",
-    "cases": 42,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-alabama",
-    "date": "2020-03-26",
-    "cases": 242,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
     "placeId": "united-states-of-america-arkansas",
     "date": "2020-03-26",
     "cases": 232,
@@ -149220,100 +149157,23 @@
     "recovered": 10
   },
   {
-    "placeId": "united-states-of-america-arizona",
-    "date": "2020-03-26",
-    "cases": 326,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-colorado",
-    "date": "2020-03-26",
-    "cases": 894,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-connecticut",
-    "date": "2020-03-26",
-    "cases": 2,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-district-of-columbia",
-    "date": "2020-03-26",
-    "cases": 187,
-    "deaths": 2,
-    "recovered": 0
-  },
-  {
     "placeId": "united-states-of-america-delaware",
     "date": "2020-03-26",
     "cases": 104,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-florida",
-    "date": "2020-03-26",
-    "cases": 1467,
-    "deaths": 20,
-    "recovered": 20
-  },
-  {
-    "placeId": "united-states-of-america-georgia",
-    "date": "2020-03-26",
-    "cases": 990,
-    "deaths": 0,
+    "deaths": 1,
     "recovered": 0
   },
   {
     "placeId": "united-states-of-america-guam",
     "date": "2020-03-26",
-    "cases": 37,
+    "cases": 45,
     "deaths": 1,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-hawaii",
-    "date": "2020-03-26",
-    "cases": 70,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-iowa",
-    "date": "2020-03-26",
-    "cases": 124,
-    "deaths": 0,
     "recovered": 0
   },
   {
     "placeId": "united-states-of-america-idaho",
     "date": "2020-03-26",
     "cases": 73,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-illinois",
-    "date": "2020-03-26",
-    "cases": 753,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-indiana",
-    "date": "2020-03-26",
-    "cases": 365,
-    "deaths": 12,
-    "recovered": 11
-  },
-  {
-    "placeId": "united-states-of-america-kansas",
-    "date": "2020-03-26",
-    "cases": 27,
     "deaths": 2,
     "recovered": 0
   },
@@ -149325,72 +149185,9 @@
     "recovered": 2
   },
   {
-    "placeId": "united-states-of-america-louisiana",
-    "date": "2020-03-26",
-    "cases": 1388,
-    "deaths": 46,
-    "recovered": 45
-  },
-  {
-    "placeId": "united-states-of-america-massachusetts",
-    "date": "2020-03-26",
-    "cases": 129,
-    "deaths": 2,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-maryland",
-    "date": "2020-03-26",
-    "cases": 361,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-maine",
-    "date": "2020-03-26",
-    "cases": 118,
-    "deaths": 0,
-    "recovered": 7
-  },
-  {
-    "placeId": "united-states-of-america-michigan",
-    "date": "2020-03-26",
-    "cases": 1791,
-    "deaths": 24,
-    "recovered": 24
-  },
-  {
-    "placeId": "united-states-of-america-minnesota",
-    "date": "2020-03-26",
-    "cases": 262,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-missouri",
-    "date": "2020-03-26",
-    "cases": 255,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-mississippi",
-    "date": "2020-03-26",
-    "cases": 320,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
     "placeId": "united-states-of-america-montana",
     "date": "2020-03-26",
     "cases": 51,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-north-carolina",
-    "date": "2020-03-26",
-    "cases": 398,
     "deaths": 0,
     "recovered": 0
   },
@@ -149402,79 +149199,9 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-new-hampshire",
-    "date": "2020-03-26",
-    "cases": 108,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-new-jersey",
-    "date": "2020-03-26",
-    "cases": 634,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-new-mexico",
-    "date": "2020-03-26",
-    "cases": 100,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-nevada",
-    "date": "2020-03-26",
-    "cases": 299,
-    "deaths": 6,
-    "recovered": 10
-  },
-  {
-    "placeId": "united-states-of-america-new-york",
-    "date": "2020-03-26",
-    "cases": 26350,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-ohio",
-    "date": "2020-03-26",
-    "cases": 564,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-oklahoma",
-    "date": "2020-03-26",
-    "cases": 106,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-oregon",
-    "date": "2020-03-26",
-    "cases": 209,
-    "deaths": 8,
-    "recovered": 8
-  },
-  {
-    "placeId": "united-states-of-america-pennsylvania",
-    "date": "2020-03-26",
-    "cases": 851,
-    "deaths": 7,
-    "recovered": 7
-  },
-  {
-    "placeId": "united-states-of-america-puerto-rico",
-    "date": "2020-03-26",
-    "cases": 51,
-    "deaths": 2,
-    "recovered": 0
-  },
-  {
     "placeId": "united-states-of-america-rhode-island",
     "date": "2020-03-26",
-    "cases": 66,
+    "cases": 91,
     "deaths": 0,
     "recovered": 0
   },
@@ -149483,55 +149210,6 @@
     "date": "2020-03-26",
     "cases": 342,
     "deaths": 7,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-tennessee",
-    "date": "2020-03-26",
-    "cases": 666,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-texas",
-    "date": "2020-03-26",
-    "cases": 715,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-utah",
-    "date": "2020-03-26",
-    "cases": 10,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-virginia",
-    "date": "2020-03-26",
-    "cases": 290,
-    "deaths": 7,
-    "recovered": 7
-  },
-  {
-    "placeId": "united-states-of-america-vermont",
-    "date": "2020-03-26",
-    "cases": 17,
-    "deaths": 1,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-washington",
-    "date": "2020-03-26",
-    "cases": 2469,
-    "deaths": 123,
-    "recovered": 123
-  },
-  {
-    "placeId": "united-states-of-america-wisconsin",
-    "date": "2020-03-26",
-    "cases": 457,
-    "deaths": 0,
     "recovered": 0
   },
   {
@@ -149731,20 +149409,6 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-california",
-    "date": "2020-03-26",
-    "cases": 5200,
-    "deaths": 52,
-    "recovered": 62
-  },
-  {
-    "placeId": "united-states-of-america-california-alameda-county",
-    "date": "2020-03-26",
-    "cases": 135,
-    "deaths": 2,
-    "recovered": 2
-  },
-  {
     "placeId": "united-states-of-america-california-amador-county",
     "date": "2020-03-26",
     "cases": 2,
@@ -149759,18 +149423,18 @@
     "recovered": 0
   },
   {
+    "placeId": "united-states-of-america-alaska",
+    "date": "2020-03-26",
+    "cases": 42,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
     "placeId": "united-states-of-america-california-calaveras-county",
     "date": "2020-03-26",
     "cases": 2,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-california-contra-costa-county",
-    "date": "2020-03-26",
-    "cases": 86,
-    "deaths": 1,
-    "recovered": 1
   },
   {
     "placeId": "united-states-of-america-california-el-dorado-county",
@@ -149808,13 +149472,6 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-california-los-angeles-county",
-    "date": "2020-03-26",
-    "cases": 665,
-    "deaths": 11,
-    "recovered": 11
-  },
-  {
     "placeId": "united-states-of-america-california-madera-county",
     "date": "2020-03-26",
     "cases": 5,
@@ -149850,13 +149507,6 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-california-monterey-county",
-    "date": "2020-03-26",
-    "cases": 20,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
     "placeId": "united-states-of-america-california-napa-county",
     "date": "2020-03-26",
     "cases": 3,
@@ -149871,53 +149521,11 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-california-orange-county",
-    "date": "2020-03-26",
-    "cases": 152,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
-    "placeId": "united-states-of-america-california-placer-county",
-    "date": "2020-03-26",
-    "cases": 26,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
-    "placeId": "united-states-of-america-california-riverside-county",
-    "date": "2020-03-26",
-    "cases": 59,
-    "deaths": 6,
-    "recovered": 6
-  },
-  {
-    "placeId": "united-states-of-america-california-sacramento-county",
-    "date": "2020-03-26",
-    "cases": 88,
-    "deaths": 4,
-    "recovered": 4
-  },
-  {
     "placeId": "united-states-of-america-california-san-benito-county",
     "date": "2020-03-26",
     "cases": 7,
     "deaths": 1,
     "recovered": 2
-  },
-  {
-    "placeId": "united-states-of-america-california-san-bernardino-county",
-    "date": "2020-03-26",
-    "cases": 38,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
-    "placeId": "united-states-of-america-california-san-diego-county",
-    "date": "2020-03-26",
-    "cases": 230,
-    "deaths": 1,
-    "recovered": 1
   },
   {
     "placeId": "united-states-of-america-california-san-francisco-county",
@@ -149927,13 +149535,6 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-california-san-joaquin-county",
-    "date": "2020-03-26",
-    "cases": 60,
-    "deaths": 2,
-    "recovered": 2
-  },
-  {
     "placeId": "united-states-of-america-california-san-luis-obispo-county",
     "date": "2020-03-26",
     "cases": 42,
@@ -149941,25 +149542,11 @@
     "recovered": 6
   },
   {
-    "placeId": "united-states-of-america-california-san-mateo-county",
-    "date": "2020-03-26",
-    "cases": 161,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
     "placeId": "united-states-of-america-california-santa-barbara-county",
     "date": "2020-03-26",
     "cases": 18,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-california-santa-clara-county",
-    "date": "2020-03-26",
-    "cases": 375,
-    "deaths": 16,
-    "recovered": 16
   },
   {
     "placeId": "united-states-of-america-california-santa-cruz-county",
@@ -150009,20 +149596,6 @@
     "cases": 16,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-california-ventura-county",
-    "date": "2020-03-26",
-    "cases": 35,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
-    "placeId": "united-states-of-america-california-yolo-county",
-    "date": "2020-03-26",
-    "cases": 10,
-    "deaths": 1,
-    "recovered": 1
   },
   {
     "placeId": "united-states-of-america-california-yuba-county",
@@ -150312,13 +149885,6 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-florida-broward-county",
-    "date": "2020-03-26",
-    "cases": 312,
-    "deaths": 3,
-    "recovered": 3
-  },
-  {
     "placeId": "united-states-of-america-florida-charlotte-county",
     "date": "2020-03-26",
     "cases": 3,
@@ -150333,11 +149899,11 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-florida-clay-county",
-    "date": "2020-03-26",
-    "cases": 10,
-    "deaths": 2,
-    "recovered": 2
+    "placeId": "spain",
+    "date": "2020-03-21",
+    "cases": 25374,
+    "deaths": 1375,
+    "recovered": 2125
   },
   {
     "placeId": "united-states-of-america-florida-collier-county",
@@ -150352,13 +149918,6 @@
     "cases": 367,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-florida-duval-county",
-    "date": "2020-03-26",
-    "cases": 50,
-    "deaths": 3,
-    "recovered": 3
   },
   {
     "placeId": "united-states-of-america-florida-escambia-county",
@@ -150389,25 +149948,11 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-florida-lee-county",
-    "date": "2020-03-26",
-    "cases": 34,
-    "deaths": 3,
-    "recovered": 3
-  },
-  {
     "placeId": "united-states-of-america-florida-leon-county",
     "date": "2020-03-26",
     "cases": 8,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-florida-manatee-county",
-    "date": "2020-03-26",
-    "cases": 16,
-    "deaths": 1,
-    "recovered": 1
   },
   {
     "placeId": "united-states-of-america-florida-nassau-county",
@@ -150424,25 +149969,11 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-florida-orange-county",
-    "date": "2020-03-26",
-    "cases": 52,
-    "deaths": 2,
-    "recovered": 2
-  },
-  {
     "placeId": "united-states-of-america-florida-osceola-county",
     "date": "2020-03-26",
     "cases": 26,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-florida-palm-beach-county",
-    "date": "2020-03-26",
-    "cases": 104,
-    "deaths": 3,
-    "recovered": 3
   },
   {
     "placeId": "united-states-of-america-florida-pasco-county",
@@ -150452,25 +149983,11 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-florida-pinellas-county",
-    "date": "2020-03-26",
-    "cases": 45,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
     "placeId": "united-states-of-america-florida-polk-county",
     "date": "2020-03-26",
     "cases": 13,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-florida-santa-rosa-county",
-    "date": "2020-03-26",
-    "cases": 6,
-    "deaths": 1,
-    "recovered": 1
   },
   {
     "placeId": "united-states-of-america-florida-sarasota-county",
@@ -150485,13 +150002,6 @@
     "cases": 25,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-florida-st-johns-county",
-    "date": "2020-03-26",
-    "cases": 24,
-    "deaths": 1,
-    "recovered": 1
   },
   {
     "placeId": "united-states-of-america-florida-sumter-county",
@@ -150851,13 +150361,6 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-indiana-johnson-county",
-    "date": "2020-03-26",
-    "cases": 18,
-    "deaths": 3,
-    "recovered": 3
-  },
-  {
     "placeId": "united-states-of-america-indiana-elkhart-county",
     "date": "2020-03-26",
     "cases": 4,
@@ -150921,13 +150424,6 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-indiana-marion-county",
-    "date": "2020-03-26",
-    "cases": 161,
-    "deaths": 6,
-    "recovered": 6
-  },
-  {
     "placeId": "united-states-of-america-indiana-hamilton-county",
     "date": "2020-03-26",
     "cases": 25,
@@ -150975,13 +150471,6 @@
     "cases": 1,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-indiana-allen-county",
-    "date": "2020-03-26",
-    "cases": 7,
-    "deaths": 1,
-    "recovered": 1
   },
   {
     "placeId": "united-states-of-america-indiana-tipton-county",
@@ -151045,13 +150534,6 @@
     "cases": 1,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-indiana-delaware-county",
-    "date": "2020-03-26",
-    "cases": 4,
-    "deaths": 1,
-    "recovered": 1
   },
   {
     "placeId": "united-states-of-america-indiana-ohio-county",
@@ -151194,46 +150676,11 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-louisiana-orleans-parish",
-    "date": "2020-03-26",
-    "cases": 675,
-    "deaths": 26,
-    "recovered": 26
-  },
-  {
-    "placeId": "united-states-of-america-louisiana-jefferson-parish",
-    "date": "2020-03-26",
-    "cases": 293,
-    "deaths": 6,
-    "recovered": 6
-  },
-  {
-    "placeId": "united-states-of-america-louisiana-st-james-parish",
-    "date": "2020-03-26",
-    "cases": 9,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
     "placeId": "united-states-of-america-louisiana-caddo-parish",
     "date": "2020-03-26",
     "cases": 40,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-louisiana-st-tammany-parish",
-    "date": "2020-03-26",
-    "cases": 52,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
-    "placeId": "united-states-of-america-louisiana-east-baton-rouge-parish",
-    "date": "2020-03-26",
-    "cases": 58,
-    "deaths": 2,
-    "recovered": 2
   },
   {
     "placeId": "united-states-of-america-louisiana-bossier-parish",
@@ -151285,32 +150732,11 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-louisiana-ascension-parish",
-    "date": "2020-03-26",
-    "cases": 36,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
     "placeId": "united-states-of-america-louisiana-st-landry-parish",
     "date": "2020-03-26",
     "cases": 3,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-louisiana-washington-parish",
-    "date": "2020-03-26",
-    "cases": 3,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
-    "placeId": "united-states-of-america-louisiana-west-baton-rouge-parish",
-    "date": "2020-03-26",
-    "cases": 5,
-    "deaths": 1,
-    "recovered": 1
   },
   {
     "placeId": "united-states-of-america-louisiana-acadia-parish",
@@ -151327,25 +150753,11 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-louisiana-calcasieu-parish",
-    "date": "2020-03-26",
-    "cases": 5,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
     "placeId": "united-states-of-america-louisiana-iberia-parish",
     "date": "2020-03-26",
     "cases": 2,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-louisiana-iberville-parish",
-    "date": "2020-03-26",
-    "cases": 14,
-    "deaths": 1,
-    "recovered": 1
   },
   {
     "placeId": "united-states-of-america-louisiana-livingston-parish",
@@ -151360,20 +150772,6 @@
     "cases": 8,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-louisiana-rapides-parish",
-    "date": "2020-03-26",
-    "cases": 10,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
-    "placeId": "united-states-of-america-louisiana-webster-parish",
-    "date": "2020-03-26",
-    "cases": 3,
-    "deaths": 1,
-    "recovered": 1
   },
   {
     "placeId": "united-states-of-america-louisiana-allen-parish",
@@ -151453,13 +150851,6 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-louisiana-ouachita-parish",
-    "date": "2020-03-26",
-    "cases": 7,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
     "placeId": "united-states-of-america-louisiana-richland-parish",
     "date": "2020-03-26",
     "cases": 1,
@@ -151495,13 +150886,6 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-louisiana-(unassigned)",
-    "date": "2020-03-26",
-    "cases": 12,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
     "placeId": "united-states-of-america-maryland-anne-arundel-county",
     "date": "2020-03-26",
     "cases": 24,
@@ -151514,6 +150898,13 @@
     "cases": 42,
     "deaths": 0,
     "recovered": 0
+  },
+  {
+    "placeId": "switzerland",
+    "date": "2020-03-21",
+    "cases": 6575,
+    "deaths": 83,
+    "recovered": 15
   },
   {
     "placeId": "united-states-of-america-maryland-calvert-county",
@@ -151675,13 +151066,6 @@
     "cases": 14,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-mississippi-hancock-county",
-    "date": "2020-03-26",
-    "cases": 5,
-    "deaths": 1,
-    "recovered": 1
   },
   {
     "placeId": "united-states-of-america-mississippi-harrison-county",
@@ -152081,6 +151465,13 @@
     "cases": 2,
     "deaths": 0,
     "recovered": 0
+  },
+  {
+    "placeId": "united-kingdom",
+    "date": "2020-03-21",
+    "cases": 5018,
+    "deaths": 233,
+    "recovered": 65
   },
   {
     "placeId": "united-states-of-america-north-carolina-granville-county",
@@ -153245,11 +152636,11 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-oregon-clackamas-county",
-    "date": "2020-03-26",
-    "cases": 17,
-    "deaths": 1,
-    "recovered": 1
+    "placeId": "australia",
+    "date": "2020-03-22",
+    "cases": 1353,
+    "deaths": 7,
+    "recovered": 88
   },
   {
     "placeId": "united-states-of-america-oregon-deschutes-county",
@@ -153280,34 +152671,6 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-oregon-lane-county",
-    "date": "2020-03-26",
-    "cases": 4,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
-    "placeId": "united-states-of-america-oregon-linn-county",
-    "date": "2020-03-26",
-    "cases": 20,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
-    "placeId": "united-states-of-america-oregon-marion-county",
-    "date": "2020-03-26",
-    "cases": 32,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
-    "placeId": "united-states-of-america-oregon-multnomah-county",
-    "date": "2020-03-26",
-    "cases": 25,
-    "deaths": 2,
-    "recovered": 2
-  },
-  {
     "placeId": "united-states-of-america-oregon-polk-county",
     "date": "2020-03-26",
     "cases": 3,
@@ -153320,13 +152683,6 @@
     "cases": 2,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-oregon-washington-county",
-    "date": "2020-03-26",
-    "cases": 76,
-    "deaths": 2,
-    "recovered": 2
   },
   {
     "placeId": "united-states-of-america-oregon-yamhill-county",
@@ -153840,6 +153196,13 @@
     "recovered": 0
   },
   {
+    "placeId": "brazil",
+    "date": "2020-03-22",
+    "cases": 1593,
+    "deaths": 25,
+    "recovered": 2
+  },
+  {
     "placeId": "united-states-of-america-texas-montgomery-county",
     "date": "2020-03-26",
     "cases": 19,
@@ -154169,13 +153532,6 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-washington-clark-county",
-    "date": "2020-03-26",
-    "cases": 16,
-    "deaths": 4,
-    "recovered": 4
-  },
-  {
     "placeId": "united-states-of-america-washington-columbia-county",
     "date": "2020-03-26",
     "cases": 1,
@@ -154190,13 +153546,6 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-washington-grant-county",
-    "date": "2020-03-26",
-    "cases": 27,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
     "placeId": "united-states-of-america-washington-grays-harbor-county",
     "date": "2020-03-26",
     "cases": 1,
@@ -154204,25 +153553,11 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-washington-island-county",
-    "date": "2020-03-26",
-    "cases": 29,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
     "placeId": "united-states-of-america-washington-jefferson-county",
     "date": "2020-03-26",
     "cases": 8,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-washington-king-county",
-    "date": "2020-03-26",
-    "cases": 1277,
-    "deaths": 94,
-    "recovered": 94
   },
   {
     "placeId": "united-states-of-america-washington-kitsap-county",
@@ -154267,27 +153602,6 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-washington-pierce-county",
-    "date": "2020-03-26",
-    "cases": 138,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
-    "placeId": "united-states-of-america-washington-skagit-county",
-    "date": "2020-03-26",
-    "cases": 48,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
-    "placeId": "united-states-of-america-washington-snohomish-county",
-    "date": "2020-03-26",
-    "cases": 614,
-    "deaths": 16,
-    "recovered": 16
-  },
-  {
     "placeId": "united-states-of-america-washington-spokane-county",
     "date": "2020-03-26",
     "cases": 33,
@@ -154300,20 +153614,6 @@
     "cases": 14,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-washington-whatcom-county",
-    "date": "2020-03-26",
-    "cases": 64,
-    "deaths": 2,
-    "recovered": 2
-  },
-  {
-    "placeId": "united-states-of-america-washington-yakima-county",
-    "date": "2020-03-26",
-    "cases": 44,
-    "deaths": 1,
-    "recovered": 1
   },
   {
     "placeId": "united-states-of-america-washington-(unassigned)",
@@ -154349,13 +153649,6 @@
     "cases": 1,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-washington-benton-county",
-    "date": "2020-03-26",
-    "cases": 12,
-    "deaths": 2,
-    "recovered": 2
   },
   {
     "placeId": "united-states-of-america-washington-cowlitz-county",
@@ -154666,13 +153959,6 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-pennsylvania-monroe-county",
-    "date": "2020-03-26",
-    "cases": 45,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
     "placeId": "united-states-of-america-pennsylvania-philadelphia-county",
     "date": "2020-03-26",
     "cases": 177,
@@ -154792,25 +154078,11 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-virginia-fairfax-county",
-    "date": "2020-03-26",
-    "cases": 46,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
     "placeId": "united-states-of-america-new-hampshire-rockingham-county",
     "date": "2020-03-26",
     "cases": 42,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-pennsylvania-montgomery-county",
-    "date": "2020-03-26",
-    "cases": 144,
-    "deaths": 1,
-    "recovered": 1
   },
   {
     "placeId": "united-states-of-america-arizona-pinal-county",
@@ -154897,13 +154169,6 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-nevada-clark-county",
-    "date": "2020-03-26",
-    "cases": 249,
-    "deaths": 6,
-    "recovered": 6
-  },
-  {
     "placeId": "united-states-of-america-arizona-maricopa-county",
     "date": "2020-03-26",
     "cases": 199,
@@ -154988,27 +154253,6 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-michigan-oakland-county",
-    "date": "2020-03-26",
-    "cases": 428,
-    "deaths": 4,
-    "recovered": 4
-  },
-  {
-    "placeId": "united-states-of-america-michigan-wayne-county",
-    "date": "2020-03-26",
-    "cases": 873,
-    "deaths": 13,
-    "recovered": 13
-  },
-  {
-    "placeId": "united-states-of-america-pennsylvania-allegheny-county",
-    "date": "2020-03-26",
-    "cases": 58,
-    "deaths": 2,
-    "recovered": 2
-  },
-  {
     "placeId": "united-states-of-america-pennsylvania-chester-county",
     "date": "2020-03-26",
     "cases": 40,
@@ -155021,13 +154265,6 @@
     "cases": 13,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-pennsylvania-northampton-county",
-    "date": "2020-03-26",
-    "cases": 33,
-    "deaths": 2,
-    "recovered": 2
   },
   {
     "placeId": "united-states-of-america-pennsylvania-pike-county",
@@ -155198,13 +154435,6 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-virginia-james-city-county",
-    "date": "2020-03-26",
-    "cases": 37,
-    "deaths": 2,
-    "recovered": 2
-  },
-  {
     "placeId": "united-states-of-america-virginia-lee-county",
     "date": "2020-03-26",
     "cases": 2,
@@ -155224,13 +154454,6 @@
     "cases": 2,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-virginia-newport-news-city",
-    "date": "2020-03-26",
-    "cases": 3,
-    "deaths": 1,
-    "recovered": 1
   },
   {
     "placeId": "united-states-of-america-virginia-portsmouth-city",
@@ -155280,27 +154503,6 @@
     "cases": 1,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-virginia-virginia-beach-city",
-    "date": "2020-03-26",
-    "cases": 17,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
-    "placeId": "united-states-of-america-virginia-williamsburg-city",
-    "date": "2020-03-26",
-    "cases": 5,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
-    "placeId": "united-states-of-america-virginia-york-county",
-    "date": "2020-03-26",
-    "cases": 6,
-    "deaths": 1,
-    "recovered": 1
   },
   {
     "placeId": "united-states-of-america-pennsylvania-armstrong-county",
@@ -155406,13 +154608,6 @@
     "cases": 1,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-pennsylvania-lackawanna-county",
-    "date": "2020-03-26",
-    "cases": 15,
-    "deaths": 1,
-    "recovered": 1
   },
   {
     "placeId": "united-states-of-america-pennsylvania-lancaster-county",
@@ -156801,6 +155996,13 @@
     "recovered": 0
   },
   {
+    "placeId": "canada",
+    "date": "2020-03-22",
+    "cases": 2754,
+    "deaths": 21,
+    "recovered": 10
+  },
+  {
     "placeId": "united-states-of-america-kentucky-kenton-county",
     "date": "2020-03-26",
     "cases": 9,
@@ -157074,13 +156276,6 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america-michigan-kent-county",
-    "date": "2020-03-26",
-    "cases": 31,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
     "placeId": "united-states-of-america-michigan-leelanau-county",
     "date": "2020-03-26",
     "cases": 1,
@@ -157093,13 +156288,6 @@
     "cases": 13,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-michigan-macomb-county",
-    "date": "2020-03-26",
-    "cases": 225,
-    "deaths": 3,
-    "recovered": 3
   },
   {
     "placeId": "united-states-of-america-michigan-midland-county",
@@ -157156,13 +156344,6 @@
     "cases": 1,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "united-states-of-america-michigan-washtenaw-county",
-    "date": "2020-03-26",
-    "cases": 50,
-    "deaths": 3,
-    "recovered": 3
   },
   {
     "placeId": "united-states-of-america-michigan-wexford-county",
@@ -157949,6 +157130,13 @@
     "recovered": 0
   },
   {
+    "placeId": "china",
+    "date": "2020-03-22",
+    "cases": 81397,
+    "deaths": 3265,
+    "recovered": 72362
+  },
+  {
     "placeId": "united-states-of-america-new-mexico-san-juan-county",
     "date": "2020-03-26",
     "cases": 7,
@@ -158439,20 +157627,6 @@
     "recovered": 0
   },
   {
-    "placeId": "united-states-of-america",
-    "date": "2020-03-26",
-    "cases": 53192,
-    "deaths": 709,
-    "recovered": 709
-  },
-  {
-    "placeId": "earth",
-    "date": "2020-03-26",
-    "cases": 456168,
-    "deaths": 20937,
-    "recovered": 114103
-  },
-  {
     "placeId": "australia",
     "date": "2020-03-20",
     "cases": 880,
@@ -158612,55 +157786,6 @@
     "cases": 3631,
     "deaths": 136,
     "recovered": 2
-  },
-  {
-    "placeId": "spain",
-    "date": "2020-03-21",
-    "cases": 25374,
-    "deaths": 1375,
-    "recovered": 2125
-  },
-  {
-    "placeId": "switzerland",
-    "date": "2020-03-21",
-    "cases": 6575,
-    "deaths": 83,
-    "recovered": 15
-  },
-  {
-    "placeId": "united-kingdom",
-    "date": "2020-03-21",
-    "cases": 5018,
-    "deaths": 233,
-    "recovered": 65
-  },
-  {
-    "placeId": "australia",
-    "date": "2020-03-22",
-    "cases": 1353,
-    "deaths": 7,
-    "recovered": 88
-  },
-  {
-    "placeId": "brazil",
-    "date": "2020-03-22",
-    "cases": 1593,
-    "deaths": 25,
-    "recovered": 2
-  },
-  {
-    "placeId": "canada",
-    "date": "2020-03-22",
-    "cases": 2754,
-    "deaths": 21,
-    "recovered": 10
-  },
-  {
-    "placeId": "china",
-    "date": "2020-03-22",
-    "cases": 81397,
-    "deaths": 3265,
-    "recovered": 72362
   },
   {
     "placeId": "denmark",
@@ -158966,37 +158091,9 @@
   {
     "placeId": "united-kingdom-gibraltar",
     "date": "2020-03-26",
-    "cases": 26,
+    "cases": 35,
     "deaths": 0,
-    "recovered": 5
-  },
-  {
-    "placeId": "china-hubei",
-    "date": "2020-03-26",
-    "cases": 67801,
-    "deaths": 3163,
-    "recovered": 60811
-  },
-  {
-    "placeId": "china-guangdong",
-    "date": "2020-03-26",
-    "cases": 1433,
-    "deaths": 8,
-    "recovered": 1336
-  },
-  {
-    "placeId": "china-henan",
-    "date": "2020-03-26",
-    "cases": 1274,
-    "deaths": 22,
-    "recovered": 1250
-  },
-  {
-    "placeId": "china-zhejiang",
-    "date": "2020-03-26",
-    "cases": 1241,
-    "deaths": 1,
-    "recovered": 1221
+    "recovered": 13
   },
   {
     "placeId": "china-hunan",
@@ -159020,20 +158117,6 @@
     "recovered": 934
   },
   {
-    "placeId": "china-shandong",
-    "date": "2020-03-26",
-    "cases": 769,
-    "deaths": 7,
-    "recovered": 752
-  },
-  {
-    "placeId": "china-jiangsu",
-    "date": "2020-03-26",
-    "cases": 638,
-    "deaths": 0,
-    "recovered": 631
-  },
-  {
     "placeId": "china-chongqing",
     "date": "2020-03-26",
     "cases": 578,
@@ -159048,27 +158131,6 @@
     "recovered": 536
   },
   {
-    "placeId": "china-heilongjiang",
-    "date": "2020-03-26",
-    "cases": 484,
-    "deaths": 13,
-    "recovered": 468
-  },
-  {
-    "placeId": "china-beijing",
-    "date": "2020-03-26",
-    "cases": 561,
-    "deaths": 8,
-    "recovered": 403
-  },
-  {
-    "placeId": "china-shanghai",
-    "date": "2020-03-26",
-    "cases": 433,
-    "deaths": 5,
-    "recovered": 330
-  },
-  {
     "placeId": "china-hebei",
     "date": "2020-03-26",
     "cases": 319,
@@ -159076,32 +158138,11 @@
     "recovered": 310
   },
   {
-    "placeId": "china-fujian",
-    "date": "2020-03-26",
-    "cases": 322,
-    "deaths": 1,
-    "recovered": 295
-  },
-  {
     "placeId": "china-guangxi",
     "date": "2020-03-26",
     "cases": 254,
     "deaths": 2,
     "recovered": 250
-  },
-  {
-    "placeId": "china-shaanxi",
-    "date": "2020-03-26",
-    "cases": 250,
-    "deaths": 3,
-    "recovered": 240
-  },
-  {
-    "placeId": "china-yunnan",
-    "date": "2020-03-26",
-    "cases": 176,
-    "deaths": 2,
-    "recovered": 172
   },
   {
     "placeId": "china-hainan",
@@ -159118,53 +158159,11 @@
     "recovered": 144
   },
   {
-    "placeId": "china-tianjin",
-    "date": "2020-03-26",
-    "cases": 145,
-    "deaths": 3,
-    "recovered": 133
-  },
-  {
-    "placeId": "china-shanxi",
-    "date": "2020-03-26",
-    "cases": 134,
-    "deaths": 0,
-    "recovered": 133
-  },
-  {
-    "placeId": "china-gansu",
-    "date": "2020-03-26",
-    "cases": 136,
-    "deaths": 2,
-    "recovered": 119
-  },
-  {
-    "placeId": "china-liaoning",
-    "date": "2020-03-26",
-    "cases": 127,
-    "deaths": 2,
-    "recovered": 124
-  },
-  {
-    "placeId": "china-jilin",
-    "date": "2020-03-26",
-    "cases": 94,
-    "deaths": 1,
-    "recovered": 92
-  },
-  {
     "placeId": "china-xinjiang",
     "date": "2020-03-26",
     "cases": 76,
     "deaths": 3,
     "recovered": 73
-  },
-  {
-    "placeId": "china-inner-mongolia",
-    "date": "2020-03-26",
-    "cases": 77,
-    "deaths": 1,
-    "recovered": 74
   },
   {
     "placeId": "china-ningxia",
@@ -159188,13 +158187,6 @@
     "recovered": 0
   },
   {
-    "placeId": "united-kingdom-channel-islands",
-    "date": "2020-03-26",
-    "cases": 46,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
     "placeId": "china-tibet",
     "date": "2020-03-26",
     "cases": 1,
@@ -159211,7 +158203,7 @@
   {
     "placeId": "france-french-polynesia",
     "date": "2020-03-26",
-    "cases": 25,
+    "cases": 30,
     "deaths": 0,
     "recovered": 0
   },
@@ -159237,13 +158229,6 @@
     "recovered": 1
   },
   {
-    "placeId": "netherlands-curacao",
-    "date": "2020-03-26",
-    "cases": 6,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
     "placeId": "united-kingdom-cayman-islands",
     "date": "2020-03-26",
     "cases": 8,
@@ -159251,23 +158236,9 @@
     "recovered": 1
   },
   {
-    "placeId": "france-reunion",
-    "date": "2020-03-26",
-    "cases": 111,
-    "deaths": 0,
-    "recovered": 1
-  },
-  {
-    "placeId": "netherlands-aruba",
-    "date": "2020-03-26",
-    "cases": 17,
-    "deaths": 0,
-    "recovered": 1
-  },
-  {
     "placeId": "united-kingdom-montserrat",
     "date": "2020-03-26",
-    "cases": 1,
+    "cases": 2,
     "deaths": 0,
     "recovered": 0
   },
@@ -159286,128 +158257,30 @@
     "recovered": 0
   },
   {
-    "placeId": "united-kingdom-bermuda",
-    "date": "2020-03-26",
-    "cases": 7,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "australia-australian-capital-territory",
-    "date": "2020-03-26",
-    "cases": 44,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "australia-new-south-wales",
-    "date": "2020-03-26",
-    "cases": 1029,
-    "deaths": 7,
-    "recovered": 4
-  },
-  {
-    "placeId": "australia-northern-territory",
-    "date": "2020-03-26",
-    "cases": 6,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "australia-queensland",
-    "date": "2020-03-26",
-    "cases": 443,
-    "deaths": 0,
-    "recovered": 8
-  },
-  {
-    "placeId": "australia-south-australia",
-    "date": "2020-03-26",
-    "cases": 197,
-    "deaths": 0,
-    "recovered": 6
-  },
-  {
-    "placeId": "australia-tasmania",
+    "placeId": "canada-manitoba",
     "date": "2020-03-26",
     "cases": 36,
     "deaths": 0,
-    "recovered": 3
-  },
-  {
-    "placeId": "australia-victoria",
-    "date": "2020-03-26",
-    "cases": 466,
-    "deaths": 0,
-    "recovered": 97
-  },
-  {
-    "placeId": "australia-western-australia",
-    "date": "2020-03-26",
-    "cases": 205,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
-    "placeId": "canada-british-columbia",
-    "date": "2020-03-26",
-    "cases": 617,
-    "deaths": 13,
-    "recovered": 0
-  },
-  {
-    "placeId": "canada-alberta",
-    "date": "2020-03-26",
-    "cases": 358,
-    "deaths": 2,
-    "recovered": 0
-  },
-  {
-    "placeId": "canada-saskatchewan",
-    "date": "2020-03-26",
-    "cases": 72,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "canada-manitoba",
-    "date": "2020-03-26",
-    "cases": 35,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "canada-ontario",
-    "date": "2020-03-26",
-    "cases": 688,
-    "deaths": 8,
     "recovered": 0
   },
   {
     "placeId": "canada-quebec",
     "date": "2020-03-26",
-    "cases": 1342,
-    "deaths": 6,
-    "recovered": 0
-  },
-  {
-    "placeId": "canada-newfoundland-and-labrador",
-    "date": "2020-03-26",
-    "cases": 35,
-    "deaths": 0,
+    "cases": 1632,
+    "deaths": 8,
     "recovered": 0
   },
   {
     "placeId": "canada-new-brunswick",
     "date": "2020-03-26",
-    "cases": 18,
+    "cases": 33,
     "deaths": 0,
     "recovered": 0
   },
   {
     "placeId": "canada-nova-scotia",
     "date": "2020-03-26",
-    "cases": 68,
+    "cases": 73,
     "deaths": 0,
     "recovered": 0
   },
@@ -159415,13 +158288,6 @@
     "placeId": "canada-prince-edward-island",
     "date": "2020-03-26",
     "cases": 5,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "canada-yukon",
-    "date": "2020-03-26",
-    "cases": 2,
     "deaths": 0,
     "recovered": 0
   },
@@ -160763,93 +159629,9 @@
     "recovered": 0
   },
   {
-    "placeId": "china-hong-kong",
-    "date": "2020-03-26",
-    "cases": 410,
-    "deaths": 4,
-    "recovered": 102
-  },
-  {
     "placeId": "france-martinique",
     "date": "2020-03-26",
     "cases": 66,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
-    "placeId": "switzerland-ag",
-    "date": "2020-03-26",
-    "cases": 0,
-    "deaths": 2,
-    "recovered": 2
-  },
-  {
-    "placeId": "switzerland-ar",
-    "date": "2020-03-26",
-    "cases": 34,
-    "deaths": 2,
-    "recovered": 2
-  },
-  {
-    "placeId": "switzerland-be",
-    "date": "2020-03-26",
-    "cases": 624,
-    "deaths": 6,
-    "recovered": 6
-  },
-  {
-    "placeId": "switzerland-bl",
-    "date": "2020-03-26",
-    "cases": 0,
-    "deaths": 4,
-    "recovered": 4
-  },
-  {
-    "placeId": "switzerland-bs",
-    "date": "2020-03-26",
-    "cases": 466,
-    "deaths": 8,
-    "recovered": 8
-  },
-  {
-    "placeId": "switzerland-fr",
-    "date": "2020-03-26",
-    "cases": 0,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
-    "placeId": "switzerland-ge",
-    "date": "2020-03-26",
-    "cases": 0,
-    "deaths": 12,
-    "recovered": 12
-  },
-  {
-    "placeId": "switzerland-gr",
-    "date": "2020-03-26",
-    "cases": 322,
-    "deaths": 6,
-    "recovered": 6
-  },
-  {
-    "placeId": "switzerland-lu",
-    "date": "2020-03-26",
-    "cases": 0,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
-    "placeId": "switzerland-ne",
-    "date": "2020-03-26",
-    "cases": 0,
-    "deaths": 2,
-    "recovered": 2
-  },
-  {
-    "placeId": "switzerland-sg",
-    "date": "2020-03-26",
-    "cases": 228,
     "deaths": 1,
     "recovered": 1
   },
@@ -160861,81 +159643,11 @@
     "recovered": 0
   },
   {
-    "placeId": "switzerland-so",
-    "date": "2020-03-26",
-    "cases": 0,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
-    "placeId": "switzerland-tg",
-    "date": "2020-03-26",
-    "cases": 96,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
-    "placeId": "switzerland-ti",
-    "date": "2020-03-26",
-    "cases": 1354,
-    "deaths": 60,
-    "recovered": 60
-  },
-  {
-    "placeId": "switzerland-vd",
-    "date": "2020-03-26",
-    "cases": 0,
-    "deaths": 17,
-    "recovered": 17
-  },
-  {
-    "placeId": "switzerland-vs",
-    "date": "2020-03-26",
-    "cases": 0,
-    "deaths": 13,
-    "recovered": 13
-  },
-  {
     "placeId": "switzerland-zg",
     "date": "2020-03-26",
     "cases": 80,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "switzerland-zh",
-    "date": "2020-03-26",
-    "cases": 1363,
-    "deaths": 7,
-    "recovered": 7
-  },
-  {
-    "placeId": "germany-de-bb",
-    "date": "2020-03-26",
-    "cases": 466,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
-    "placeId": "germany-de-be",
-    "date": "2020-03-26",
-    "cases": 1425,
-    "deaths": 3,
-    "recovered": 3
-  },
-  {
-    "placeId": "germany-de-by",
-    "date": "2020-03-26",
-    "cases": 6666,
-    "deaths": 32,
-    "recovered": 32
-  },
-  {
-    "placeId": "germany-de-bw",
-    "date": "2020-03-26",
-    "cases": 6476,
-    "deaths": 32,
-    "recovered": 32
   },
   {
     "placeId": "germany-de-hb",
@@ -160945,20 +159657,6 @@
     "recovered": 0
   },
   {
-    "placeId": "germany-de-he",
-    "date": "2020-03-26",
-    "cases": 1682,
-    "deaths": 4,
-    "recovered": 4
-  },
-  {
-    "placeId": "germany-de-hh",
-    "date": "2020-03-26",
-    "cases": 1237,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
     "placeId": "germany-de-mv",
     "date": "2020-03-26",
     "cases": 219,
@@ -160966,72 +159664,9 @@
     "recovered": 0
   },
   {
-    "placeId": "germany-de-ni",
-    "date": "2020-03-26",
-    "cases": 2110,
-    "deaths": 6,
-    "recovered": 6
-  },
-  {
-    "placeId": "germany-de-rp",
-    "date": "2020-03-26",
-    "cases": 1640,
-    "deaths": 6,
-    "recovered": 6
-  },
-  {
-    "placeId": "germany-de-nw",
-    "date": "2020-03-26",
-    "cases": 8981,
-    "deaths": 53,
-    "recovered": 53
-  },
-  {
-    "placeId": "germany-de-sh",
-    "date": "2020-03-26",
-    "cases": 552,
-    "deaths": 2,
-    "recovered": 2
-  },
-  {
-    "placeId": "germany-de-sl",
-    "date": "2020-03-26",
-    "cases": 402,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
-    "placeId": "germany-de-sn",
-    "date": "2020-03-26",
-    "cases": 1036,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
-    "placeId": "germany-de-st",
-    "date": "2020-03-26",
-    "cases": 365,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
-    "placeId": "germany-de-th",
-    "date": "2020-03-26",
-    "cases": 413,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
     "placeId": "netherlands-sint-maarten",
     "date": "2020-03-26",
     "cases": 3,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "united-kingdom-isle-of-man",
-    "date": "2020-03-26",
-    "cases": 23,
     "deaths": 0,
     "recovered": 0
   },
@@ -161297,93 +159932,30 @@
   {
     "placeId": "afghanistan",
     "date": "2020-03-26",
-    "cases": 84,
-    "deaths": 2,
+    "cases": 94,
+    "deaths": 4,
     "recovered": 2
-  },
-  {
-    "placeId": "albania",
-    "date": "2020-03-26",
-    "cases": 146,
-    "deaths": 5,
-    "recovered": 17
   },
   {
     "placeId": "algeria",
     "date": "2020-03-26",
-    "cases": 302,
-    "deaths": 21,
-    "recovered": 65
-  },
-  {
-    "placeId": "andorra",
-    "date": "2020-03-26",
-    "cases": 188,
-    "deaths": 1,
-    "recovered": 1
+    "cases": 367,
+    "deaths": 25,
+    "recovered": 29
   },
   {
     "placeId": "angola",
     "date": "2020-03-26",
-    "cases": 3,
+    "cases": 4,
     "deaths": 0,
     "recovered": 0
   },
   {
     "placeId": "antigua-and-barbuda",
     "date": "2020-03-26",
-    "cases": 3,
+    "cases": 7,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "argentina",
-    "date": "2020-03-26",
-    "cases": 387,
-    "deaths": 8,
-    "recovered": 52
-  },
-  {
-    "placeId": "armenia",
-    "date": "2020-03-26",
-    "cases": 265,
-    "deaths": 0,
-    "recovered": 16
-  },
-  {
-    "placeId": "australia",
-    "date": "2020-03-26",
-    "cases": 2426,
-    "deaths": 8,
-    "recovered": 119
-  },
-  {
-    "placeId": "austria",
-    "date": "2020-03-26",
-    "cases": 5588,
-    "deaths": 30,
-    "recovered": 28
-  },
-  {
-    "placeId": "azerbaijan",
-    "date": "2020-03-26",
-    "cases": 93,
-    "deaths": 2,
-    "recovered": 10
-  },
-  {
-    "placeId": "bahrain",
-    "date": "2020-03-26",
-    "cases": 419,
-    "deaths": 4,
-    "recovered": 177
-  },
-  {
-    "placeId": "bangladesh",
-    "date": "2020-03-26",
-    "cases": 39,
-    "deaths": 5,
-    "recovered": 7
   },
   {
     "placeId": "barbados",
@@ -161398,13 +159970,6 @@
     "cases": 86,
     "deaths": 0,
     "recovered": 29
-  },
-  {
-    "placeId": "belgium",
-    "date": "2020-03-26",
-    "cases": 4937,
-    "deaths": 178,
-    "recovered": 547
   },
   {
     "placeId": "belize",
@@ -161428,45 +159993,10 @@
     "recovered": 0
   },
   {
-    "placeId": "bolivia",
-    "date": "2020-03-26",
-    "cases": 32,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "bosnia-and-herzegovina",
-    "date": "2020-03-26",
-    "cases": 176,
-    "deaths": 3,
-    "recovered": 3
-  },
-  {
-    "placeId": "brazil",
-    "date": "2020-03-26",
-    "cases": 2554,
-    "deaths": 59,
-    "recovered": 46
-  },
-  {
-    "placeId": "brunei-darussalam",
-    "date": "2020-03-26",
-    "cases": 109,
-    "deaths": 0,
-    "recovered": 2
-  },
-  {
-    "placeId": "bulgaria",
-    "date": "2020-03-26",
-    "cases": 242,
-    "deaths": 3,
-    "recovered": 4
-  },
-  {
     "placeId": "burkina-faso",
     "date": "2020-03-26",
-    "cases": 146,
-    "deaths": 4,
+    "cases": 152,
+    "deaths": 7,
     "recovered": 10
   },
   {
@@ -161482,13 +160012,6 @@
     "cases": 75,
     "deaths": 1,
     "recovered": 2
-  },
-  {
-    "placeId": "canada",
-    "date": "2020-03-26",
-    "cases": 5200,
-    "deaths": 29,
-    "recovered": 0
   },
   {
     "placeId": "cabo-verde",
@@ -161512,74 +160035,32 @@
     "recovered": 0
   },
   {
-    "placeId": "chile",
-    "date": "2020-03-26",
-    "cases": 1142,
-    "deaths": 3,
-    "recovered": 22
-  },
-  {
-    "placeId": "china",
-    "date": "2020-03-26",
-    "cases": 81631,
-    "deaths": 3285,
-    "recovered": 73763
-  },
-  {
     "placeId": "colombia",
     "date": "2020-03-26",
-    "cases": 470,
-    "deaths": 4,
+    "cases": 491,
+    "deaths": 6,
     "recovered": 8
   },
   {
     "placeId": "costa-rica",
     "date": "2020-03-26",
-    "cases": 201,
+    "cases": 231,
     "deaths": 2,
     "recovered": 2
   },
   {
     "placeId": "cote-d-ivoire",
     "date": "2020-03-26",
-    "cases": 80,
+    "cases": 96,
     "deaths": 0,
     "recovered": 3
   },
   {
-    "placeId": "croatia",
-    "date": "2020-03-26",
-    "cases": 442,
-    "deaths": 1,
-    "recovered": 22
-  },
-  {
     "placeId": "cuba",
     "date": "2020-03-26",
-    "cases": 57,
+    "cases": 67,
     "deaths": 1,
     "recovered": 1
-  },
-  {
-    "placeId": "cyprus",
-    "date": "2020-03-26",
-    "cases": 132,
-    "deaths": 3,
-    "recovered": 3
-  },
-  {
-    "placeId": "czechia",
-    "date": "2020-03-26",
-    "cases": 1654,
-    "deaths": 6,
-    "recovered": 10
-  },
-  {
-    "placeId": "denmark",
-    "date": "2020-03-26",
-    "cases": 1724,
-    "deaths": 34,
-    "recovered": 2
   },
   {
     "placeId": "djibouti",
@@ -161589,65 +160070,30 @@
     "recovered": 0
   },
   {
-    "placeId": "dominica",
-    "date": "2020-03-26",
-    "cases": 7,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "dominican-republic",
-    "date": "2020-03-26",
-    "cases": 392,
-    "deaths": 10,
-    "recovered": 6
-  },
-  {
-    "placeId": "ecuador",
-    "date": "2020-03-26",
-    "cases": 1173,
-    "deaths": 28,
-    "recovered": 27
-  },
-  {
     "placeId": "egypt",
     "date": "2020-03-26",
-    "cases": 456,
-    "deaths": 21,
-    "recovered": 95
-  },
-  {
-    "placeId": "el-salvador",
-    "date": "2020-03-26",
-    "cases": 9,
-    "deaths": 0,
-    "recovered": 0
+    "cases": 495,
+    "deaths": 24,
+    "recovered": 102
   },
   {
     "placeId": "equatorial-guinea",
     "date": "2020-03-26",
-    "cases": 9,
+    "cases": 12,
     "deaths": 0,
     "recovered": 0
   },
   {
     "placeId": "eritrea",
     "date": "2020-03-26",
-    "cases": 4,
+    "cases": 6,
     "deaths": 0,
     "recovered": 0
   },
   {
-    "placeId": "estonia",
-    "date": "2020-03-26",
-    "cases": 404,
-    "deaths": 1,
-    "recovered": 8
-  },
-  {
     "placeId": "eswatini",
     "date": "2020-03-26",
-    "cases": 4,
+    "cases": 6,
     "deaths": 0,
     "recovered": 0
   },
@@ -161673,58 +160119,16 @@
     "recovered": 0
   },
   {
-    "placeId": "finland",
-    "date": "2020-03-26",
-    "cases": 880,
-    "deaths": 3,
-    "recovered": 10
-  },
-  {
     "placeId": "france",
     "date": "2020-03-26",
-    "cases": 25233,
-    "deaths": 1331,
-    "recovered": 3900
-  },
-  {
-    "placeId": "gabon",
-    "date": "2020-03-26",
-    "cases": 6,
-    "deaths": 1,
-    "recovered": 1
-  },
-  {
-    "placeId": "georgia",
-    "date": "2020-03-26",
-    "cases": 75,
-    "deaths": 0,
-    "recovered": 10
-  },
-  {
-    "placeId": "germany",
-    "date": "2020-03-26",
-    "cases": 37323,
-    "deaths": 206,
-    "recovered": 3547
-  },
-  {
-    "placeId": "ghana",
-    "date": "2020-03-26",
-    "cases": 93,
-    "deaths": 4,
-    "recovered": 4
-  },
-  {
-    "placeId": "greece",
-    "date": "2020-03-26",
-    "cases": 821,
-    "deaths": 22,
-    "recovered": 36
+    "cases": 29155,
+    "deaths": 1696,
+    "recovered": 4948
   },
   {
     "placeId": "grenada",
     "date": "2020-03-26",
-    "cases": 1,
+    "cases": 7,
     "deaths": 0,
     "recovered": 0
   },
@@ -161764,81 +160168,11 @@
     "recovered": 0
   },
   {
-    "placeId": "honduras",
-    "date": "2020-03-26",
-    "cases": 36,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "hong-kong",
-    "date": "2020-03-26",
-    "cases": 386,
-    "deaths": 4,
-    "recovered": 4
-  },
-  {
-    "placeId": "hungary",
-    "date": "2020-03-26",
-    "cases": 226,
-    "deaths": 10,
-    "recovered": 21
-  },
-  {
-    "placeId": "iceland",
-    "date": "2020-03-26",
-    "cases": 737,
-    "deaths": 2,
-    "recovered": 56
-  },
-  {
-    "placeId": "india",
-    "date": "2020-03-26",
-    "cases": 657,
-    "deaths": 12,
-    "recovered": 43
-  },
-  {
-    "placeId": "indonesia",
-    "date": "2020-03-26",
-    "cases": 790,
-    "deaths": 58,
-    "recovered": 55
-  },
-  {
-    "placeId": "iran",
-    "date": "2020-03-26",
-    "cases": 27017,
-    "deaths": 2077,
-    "recovered": 9625
-  },
-  {
-    "placeId": "iraq",
-    "date": "2020-03-26",
-    "cases": 346,
-    "deaths": 29,
-    "recovered": 103
-  },
-  {
-    "placeId": "ireland",
-    "date": "2020-03-26",
-    "cases": 1564,
-    "deaths": 9,
-    "recovered": 7
-  },
-  {
-    "placeId": "israel",
-    "date": "2020-03-26",
-    "cases": 2369,
-    "deaths": 5,
-    "recovered": 58
-  },
-  {
     "placeId": "italy",
     "date": "2020-03-26",
-    "cases": 74386,
-    "deaths": 7503,
-    "recovered": 9362
+    "cases": 80589,
+    "deaths": 8215,
+    "recovered": 10361
   },
   {
     "placeId": "jamaica",
@@ -161850,37 +160184,16 @@
   {
     "placeId": "japan",
     "date": "2020-03-26",
-    "cases": 1307,
-    "deaths": 45,
-    "recovered": 310
+    "cases": 1399,
+    "deaths": 47,
+    "recovered": 359
   },
   {
     "placeId": "jordan",
     "date": "2020-03-26",
-    "cases": 172,
+    "cases": 212,
     "deaths": 0,
     "recovered": 1
-  },
-  {
-    "placeId": "kazakhstan",
-    "date": "2020-03-26",
-    "cases": 81,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "kenya",
-    "date": "2020-03-26",
-    "cases": 28,
-    "deaths": 0,
-    "recovered": 1
-  },
-  {
-    "placeId": "kuwait",
-    "date": "2020-03-26",
-    "cases": 195,
-    "deaths": 0,
-    "recovered": 43
   },
   {
     "placeId": "kyrgyzstan",
@@ -161888,27 +160201,6 @@
     "cases": 44,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "laos",
-    "date": "2020-03-26",
-    "cases": 3,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "latvia",
-    "date": "2020-03-26",
-    "cases": 221,
-    "deaths": 0,
-    "recovered": 1
-  },
-  {
-    "placeId": "lebanon",
-    "date": "2020-03-26",
-    "cases": 333,
-    "deaths": 6,
-    "recovered": 20
   },
   {
     "placeId": "liberia",
@@ -161927,23 +160219,9 @@
   {
     "placeId": "liechtenstein",
     "date": "2020-03-26",
-    "cases": 51,
+    "cases": 56,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "lithuania",
-    "date": "2020-03-26",
-    "cases": 274,
-    "deaths": 4,
-    "recovered": 2
-  },
-  {
-    "placeId": "luxembourg",
-    "date": "2020-03-26",
-    "cases": 1333,
-    "deaths": 8,
-    "recovered": 8
   },
   {
     "placeId": "macao",
@@ -161951,27 +160229,6 @@
     "cases": 25,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "macedonia",
-    "date": "2020-03-26",
-    "cases": 177,
-    "deaths": 3,
-    "recovered": 2
-  },
-  {
-    "placeId": "madagascar",
-    "date": "2020-03-26",
-    "cases": 19,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "malaysia",
-    "date": "2020-03-26",
-    "cases": 1796,
-    "deaths": 20,
-    "recovered": 199
   },
   {
     "placeId": "maldives",
@@ -161983,84 +160240,42 @@
   {
     "placeId": "mali",
     "date": "2020-03-26",
-    "cases": 2,
+    "cases": 4,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "malta",
-    "date": "2020-03-26",
-    "cases": 129,
-    "deaths": 0,
-    "recovered": 2
-  },
-  {
-    "placeId": "mauritania",
-    "date": "2020-03-26",
-    "cases": 2,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "mauritius",
-    "date": "2020-03-26",
-    "cases": 48,
-    "deaths": 2,
-    "recovered": 2
-  },
-  {
-    "placeId": "mexico",
-    "date": "2020-03-26",
-    "cases": 405,
-    "deaths": 5,
-    "recovered": 4
   },
   {
     "placeId": "moldova",
     "date": "2020-03-26",
-    "cases": 149,
+    "cases": 177,
     "deaths": 1,
     "recovered": 2
   },
   {
     "placeId": "monaco",
     "date": "2020-03-26",
-    "cases": 31,
+    "cases": 33,
     "deaths": 0,
-    "recovered": 1
-  },
-  {
-    "placeId": "mongolia",
-    "date": "2020-03-26",
-    "cases": 10,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "montenegro",
-    "date": "2020-03-26",
-    "cases": 52,
-    "deaths": 1,
     "recovered": 1
   },
   {
     "placeId": "morocco",
     "date": "2020-03-26",
-    "cases": 225,
-    "deaths": 6,
-    "recovered": 7
+    "cases": 275,
+    "deaths": 10,
+    "recovered": 8
   },
   {
     "placeId": "mozambique",
     "date": "2020-03-26",
-    "cases": 5,
+    "cases": 7,
     "deaths": 0,
     "recovered": 0
   },
   {
     "placeId": "namibia",
     "date": "2020-03-26",
-    "cases": 7,
+    "cases": 8,
     "deaths": 0,
     "recovered": 2
   },
@@ -162072,20 +160287,6 @@
     "recovered": 1
   },
   {
-    "placeId": "netherlands",
-    "date": "2020-03-26",
-    "cases": 6412,
-    "deaths": 356,
-    "recovered": 276
-  },
-  {
-    "placeId": "new-zealand",
-    "date": "2020-03-26",
-    "cases": 205,
-    "deaths": 0,
-    "recovered": 22
-  },
-  {
     "placeId": "nicaragua",
     "date": "2020-03-26",
     "cases": 2,
@@ -162095,44 +160296,16 @@
   {
     "placeId": "niger",
     "date": "2020-03-26",
-    "cases": 7,
+    "cases": 10,
     "deaths": 1,
     "recovered": 1
   },
   {
     "placeId": "nigeria",
     "date": "2020-03-26",
-    "cases": 51,
+    "cases": 65,
     "deaths": 1,
     "recovered": 2
-  },
-  {
-    "placeId": "norway",
-    "date": "2020-03-26",
-    "cases": 3084,
-    "deaths": 14,
-    "recovered": 12
-  },
-  {
-    "placeId": "oman",
-    "date": "2020-03-26",
-    "cases": 99,
-    "deaths": 0,
-    "recovered": 17
-  },
-  {
-    "placeId": "pakistan",
-    "date": "2020-03-26",
-    "cases": 1063,
-    "deaths": 8,
-    "recovered": 21
-  },
-  {
-    "placeId": "panama",
-    "date": "2020-03-26",
-    "cases": 443,
-    "deaths": 8,
-    "recovered": 6
   },
   {
     "placeId": "papua-new-guinea",
@@ -162142,53 +160315,11 @@
     "recovered": 0
   },
   {
-    "placeId": "paraguay",
-    "date": "2020-03-26",
-    "cases": 37,
-    "deaths": 3,
-    "recovered": 3
-  },
-  {
-    "placeId": "peru",
-    "date": "2020-03-26",
-    "cases": 480,
-    "deaths": 9,
-    "recovered": 7
-  },
-  {
-    "placeId": "philippines",
-    "date": "2020-03-26",
-    "cases": 636,
-    "deaths": 38,
-    "recovered": 35
-  },
-  {
-    "placeId": "poland",
-    "date": "2020-03-26",
-    "cases": 1051,
-    "deaths": 14,
-    "recovered": 10
-  },
-  {
-    "placeId": "portugal",
-    "date": "2020-03-26",
-    "cases": 2995,
-    "deaths": 43,
-    "recovered": 33
-  },
-  {
     "placeId": "qatar",
     "date": "2020-03-26",
-    "cases": 537,
+    "cases": 549,
     "deaths": 0,
-    "recovered": 41
-  },
-  {
-    "placeId": "democratic-republic-of-the-congo",
-    "date": "2020-03-26",
-    "cases": 48,
-    "deaths": 2,
-    "recovered": 2
+    "recovered": 43
   },
   {
     "placeId": "republic-of-the-congo",
@@ -162196,20 +160327,6 @@
     "cases": 4,
     "deaths": 0,
     "recovered": 0
-  },
-  {
-    "placeId": "romania",
-    "date": "2020-03-26",
-    "cases": 906,
-    "deaths": 17,
-    "recovered": 86
-  },
-  {
-    "placeId": "russia",
-    "date": "2020-03-26",
-    "cases": 658,
-    "deaths": 3,
-    "recovered": 29
   },
   {
     "placeId": "rwanda",
@@ -162233,34 +160350,6 @@
     "recovered": 0
   },
   {
-    "placeId": "san-marino",
-    "date": "2020-03-26",
-    "cases": 208,
-    "deaths": 21,
-    "recovered": 21
-  },
-  {
-    "placeId": "saudi-arabia",
-    "date": "2020-03-26",
-    "cases": 900,
-    "deaths": 2,
-    "recovered": 29
-  },
-  {
-    "placeId": "senegal",
-    "date": "2020-03-26",
-    "cases": 99,
-    "deaths": 0,
-    "recovered": 9
-  },
-  {
-    "placeId": "serbia",
-    "date": "2020-03-26",
-    "cases": 384,
-    "deaths": 4,
-    "recovered": 15
-  },
-  {
     "placeId": "seychelles",
     "date": "2020-03-26",
     "cases": 7,
@@ -162268,60 +160357,18 @@
     "recovered": 0
   },
   {
-    "placeId": "singapore",
-    "date": "2020-03-26",
-    "cases": 631,
-    "deaths": 2,
-    "recovered": 160
-  },
-  {
-    "placeId": "slovakia",
-    "date": "2020-03-26",
-    "cases": 216,
-    "deaths": 0,
-    "recovered": 7
-  },
-  {
     "placeId": "slovenia",
     "date": "2020-03-26",
-    "cases": 528,
-    "deaths": 5,
+    "cases": 562,
+    "deaths": 6,
     "recovered": 10
-  },
-  {
-    "placeId": "somalia",
-    "date": "2020-03-26",
-    "cases": 1,
-    "deaths": 0,
-    "recovered": 0
   },
   {
     "placeId": "south-africa",
     "date": "2020-03-26",
-    "cases": 709,
+    "cases": 927,
     "deaths": 0,
     "recovered": 12
-  },
-  {
-    "placeId": "south-korea",
-    "date": "2020-03-26",
-    "cases": 9137,
-    "deaths": 126,
-    "recovered": 3730
-  },
-  {
-    "placeId": "spain",
-    "date": "2020-03-26",
-    "cases": 49515,
-    "deaths": 3647,
-    "recovered": 5367
-  },
-  {
-    "placeId": "sri-lanka",
-    "date": "2020-03-26",
-    "cases": 102,
-    "deaths": 0,
-    "recovered": 3
   },
   {
     "placeId": "saint-lucia",
@@ -162345,20 +160392,6 @@
     "recovered": 0
   },
   {
-    "placeId": "sweden",
-    "date": "2020-03-26",
-    "cases": 2526,
-    "deaths": 62,
-    "recovered": 36
-  },
-  {
-    "placeId": "switzerland",
-    "date": "2020-03-26",
-    "cases": 10897,
-    "deaths": 153,
-    "recovered": 144
-  },
-  {
     "placeId": "syrian-arab-republic",
     "date": "2020-03-26",
     "cases": 5,
@@ -162366,30 +160399,9 @@
     "recovered": 0
   },
   {
-    "placeId": "taiwan",
-    "date": "2020-03-26",
-    "cases": 235,
-    "deaths": 2,
-    "recovered": 29
-  },
-  {
-    "placeId": "tanzania",
-    "date": "2020-03-26",
-    "cases": 12,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "thailand",
-    "date": "2020-03-26",
-    "cases": 934,
-    "deaths": 4,
-    "recovered": 70
-  },
-  {
     "placeId": "the-bahamas",
     "date": "2020-03-26",
-    "cases": 5,
+    "cases": 9,
     "deaths": 0,
     "recovered": 1
   },
@@ -162417,23 +160429,9 @@
   {
     "placeId": "trinidad-and-tobago",
     "date": "2020-03-26",
-    "cases": 60,
+    "cases": 65,
     "deaths": 1,
     "recovered": 1
-  },
-  {
-    "placeId": "tunisia",
-    "date": "2020-03-26",
-    "cases": 173,
-    "deaths": 5,
-    "recovered": 4
-  },
-  {
-    "placeId": "turkey",
-    "date": "2020-03-26",
-    "cases": 2433,
-    "deaths": 59,
-    "recovered": 44
   },
   {
     "placeId": "uganda",
@@ -162443,39 +160441,11 @@
     "recovered": 0
   },
   {
-    "placeId": "ukraine",
-    "date": "2020-03-26",
-    "cases": 145,
-    "deaths": 5,
-    "recovered": 3
-  },
-  {
     "placeId": "united-arab-emirates",
     "date": "2020-03-26",
     "cases": 333,
     "deaths": 2,
     "recovered": 52
-  },
-  {
-    "placeId": "united-kingdom",
-    "date": "2020-03-26",
-    "cases": 9529,
-    "deaths": 465,
-    "recovered": 422
-  },
-  {
-    "placeId": "uruguay",
-    "date": "2020-03-26",
-    "cases": 189,
-    "deaths": 0,
-    "recovered": 0
-  },
-  {
-    "placeId": "uzbekistan",
-    "date": "2020-03-26",
-    "cases": 60,
-    "deaths": 0,
-    "recovered": 0
   },
   {
     "placeId": "vatican-city",
@@ -162485,23 +160455,9 @@
     "recovered": 0
   },
   {
-    "placeId": "venezuela",
-    "date": "2020-03-26",
-    "cases": 91,
-    "deaths": 0,
-    "recovered": 15
-  },
-  {
-    "placeId": "vietnam",
-    "date": "2020-03-26",
-    "cases": 141,
-    "deaths": 0,
-    "recovered": 17
-  },
-  {
     "placeId": "zambia",
     "date": "2020-03-26",
-    "cases": 12,
+    "cases": 16,
     "deaths": 0,
     "recovered": 0
   },
@@ -162511,6 +160467,2092 @@
     "cases": 3,
     "deaths": 1,
     "recovered": 1
+  },
+  {
+    "placeId": "united-states-of-america",
+    "date": "2020-03-25",
+    "cases": 56136,
+    "deaths": 486,
+    "recovered": 650
+  },
+  {
+    "placeId": "united-states-of-america",
+    "date": "2020-03-24",
+    "cases": 53740,
+    "deaths": 706,
+    "recovered": 600
+  },
+  {
+    "placeId": "united-states-of-america",
+    "date": "2020-03-23",
+    "cases": 42937,
+    "deaths": 481,
+    "recovered": 500
+  },
+  {
+    "placeId": "united-states-of-america",
+    "date": "2020-03-22",
+    "cases": 33522,
+    "deaths": 418,
+    "recovered": 400
+  },
+  {
+    "placeId": "united-states-of-america",
+    "date": "2020-03-21",
+    "cases": 25934,
+    "deaths": 310,
+    "recovered": 300
+  },
+  {
+    "placeId": "united-states-of-america",
+    "date": "2020-03-20",
+    "cases": 19151,
+    "deaths": 245,
+    "recovered": 200
+  },
+  {
+    "placeId": "earth",
+    "date": "2020-03-24",
+    "cases": 418662,
+    "deaths": 18479,
+    "recovered": 105342
+  },
+  {
+    "placeId": "united-states-of-america-north-dakota",
+    "date": "2020-03-26",
+    "cases": 36,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-south-dakota",
+    "date": "2020-03-26",
+    "cases": 30,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "china-macau",
+    "date": "2020-03-26",
+    "cases": 31,
+    "deaths": 0,
+    "recovered": 10
+  },
+  {
+    "placeId": "denmark-faroe-islands",
+    "date": "2020-03-26",
+    "cases": 140,
+    "deaths": 0,
+    "recovered": 47
+  },
+  {
+    "placeId": "kosovo",
+    "date": "2020-03-26",
+    "cases": 71,
+    "deaths": 1,
+    "recovered": 1
+  },
+  {
+    "placeId": "palestine",
+    "date": "2020-03-26",
+    "cases": 84,
+    "deaths": 1,
+    "recovered": 17
+  },
+  {
+    "placeId": "united-states-of-america-alabama",
+    "date": "2020-03-26",
+    "cases": 242,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-arizona",
+    "date": "2020-03-26",
+    "cases": 367,
+    "deaths": 5,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-colorado",
+    "date": "2020-03-26",
+    "cases": 894,
+    "deaths": 5,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-connecticut",
+    "date": "2020-03-26",
+    "cases": 618,
+    "deaths": 13,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-district-of-columbia",
+    "date": "2020-03-26",
+    "cases": 231,
+    "deaths": 3,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-florida",
+    "date": "2020-03-26",
+    "cases": 1467,
+    "deaths": 20,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-georgia",
+    "date": "2020-03-26",
+    "cases": 1097,
+    "deaths": 38,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-hawaii",
+    "date": "2020-03-26",
+    "cases": 70,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-iowa",
+    "date": "2020-03-26",
+    "cases": 124,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-illinois",
+    "date": "2020-03-26",
+    "cases": 1418,
+    "deaths": 18,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-indiana",
+    "date": "2020-03-26",
+    "cases": 365,
+    "deaths": 12,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-kansas",
+    "date": "2020-03-26",
+    "cases": 98,
+    "deaths": 2,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-louisiana",
+    "date": "2020-03-26",
+    "cases": 1388,
+    "deaths": 46,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-massachusetts",
+    "date": "2020-03-26",
+    "cases": 1159,
+    "deaths": 11,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-maryland",
+    "date": "2020-03-26",
+    "cases": 380,
+    "deaths": 3,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-maine",
+    "date": "2020-03-26",
+    "cases": 125,
+    "deaths": 0,
+    "recovered": 7
+  },
+  {
+    "placeId": "united-states-of-america-michigan",
+    "date": "2020-03-26",
+    "cases": 1791,
+    "deaths": 26,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-minnesota",
+    "date": "2020-03-26",
+    "cases": 262,
+    "deaths": 2,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-missouri",
+    "date": "2020-03-26",
+    "cases": 255,
+    "deaths": 5,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-mississippi",
+    "date": "2020-03-26",
+    "cases": 320,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-north-carolina",
+    "date": "2020-03-26",
+    "cases": 398,
+    "deaths": 2,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-new-hampshire",
+    "date": "2020-03-26",
+    "cases": 108,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-new-jersey",
+    "date": "2020-03-26",
+    "cases": 3675,
+    "deaths": 44,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-new-mexico",
+    "date": "2020-03-26",
+    "cases": 100,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-nevada",
+    "date": "2020-03-26",
+    "cases": 350,
+    "deaths": 6,
+    "recovered": 4
+  },
+  {
+    "placeId": "united-states-of-america-new-york",
+    "date": "2020-03-26",
+    "cases": 26350,
+    "deaths": 281,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-ohio",
+    "date": "2020-03-26",
+    "cases": 564,
+    "deaths": 8,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-oklahoma",
+    "date": "2020-03-26",
+    "cases": 106,
+    "deaths": 3,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-oregon",
+    "date": "2020-03-26",
+    "cases": 209,
+    "deaths": 8,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-pennsylvania",
+    "date": "2020-03-26",
+    "cases": 851,
+    "deaths": 7,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-puerto-rico",
+    "date": "2020-03-26",
+    "cases": 64,
+    "deaths": 2,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-tennessee",
+    "date": "2020-03-26",
+    "cases": 667,
+    "deaths": 2,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-texas",
+    "date": "2020-03-26",
+    "cases": 715,
+    "deaths": 11,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-utah",
+    "date": "2020-03-26",
+    "cases": 299,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-virginia",
+    "date": "2020-03-26",
+    "cases": 290,
+    "deaths": 7,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-vermont",
+    "date": "2020-03-26",
+    "cases": 95,
+    "deaths": 7,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-washington",
+    "date": "2020-03-26",
+    "cases": 2469,
+    "deaths": 123,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-wisconsin",
+    "date": "2020-03-26",
+    "cases": 457,
+    "deaths": 7,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-california",
+    "date": "2020-03-26",
+    "cases": 5200,
+    "deaths": 52,
+    "recovered": 12
+  },
+  {
+    "placeId": "united-states-of-america-california-alameda-county",
+    "date": "2020-03-26",
+    "cases": 135,
+    "deaths": 2,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-california-contra-costa-county",
+    "date": "2020-03-26",
+    "cases": 86,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-california-los-angeles-county",
+    "date": "2020-03-26",
+    "cases": 665,
+    "deaths": 11,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-california-monterey-county",
+    "date": "2020-03-26",
+    "cases": 20,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-california-orange-county",
+    "date": "2020-03-26",
+    "cases": 152,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-california-placer-county",
+    "date": "2020-03-26",
+    "cases": 26,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-california-riverside-county",
+    "date": "2020-03-26",
+    "cases": 59,
+    "deaths": 6,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-california-sacramento-county",
+    "date": "2020-03-26",
+    "cases": 88,
+    "deaths": 4,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-california-san-bernardino-county",
+    "date": "2020-03-26",
+    "cases": 38,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-california-san-diego-county",
+    "date": "2020-03-26",
+    "cases": 230,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-california-san-joaquin-county",
+    "date": "2020-03-26",
+    "cases": 60,
+    "deaths": 2,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-california-san-mateo-county",
+    "date": "2020-03-26",
+    "cases": 161,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-california-santa-clara-county",
+    "date": "2020-03-26",
+    "cases": 375,
+    "deaths": 16,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-california-ventura-county",
+    "date": "2020-03-26",
+    "cases": 35,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-california-yolo-county",
+    "date": "2020-03-26",
+    "cases": 10,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-florida-broward-county",
+    "date": "2020-03-26",
+    "cases": 312,
+    "deaths": 3,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-florida-clay-county",
+    "date": "2020-03-26",
+    "cases": 10,
+    "deaths": 2,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-florida-duval-county",
+    "date": "2020-03-26",
+    "cases": 50,
+    "deaths": 3,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-florida-lee-county",
+    "date": "2020-03-26",
+    "cases": 34,
+    "deaths": 3,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-florida-manatee-county",
+    "date": "2020-03-26",
+    "cases": 16,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-florida-orange-county",
+    "date": "2020-03-26",
+    "cases": 52,
+    "deaths": 2,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-florida-palm-beach-county",
+    "date": "2020-03-26",
+    "cases": 104,
+    "deaths": 3,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-florida-pinellas-county",
+    "date": "2020-03-26",
+    "cases": 45,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-florida-santa-rosa-county",
+    "date": "2020-03-26",
+    "cases": 6,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-florida-st-johns-county",
+    "date": "2020-03-26",
+    "cases": 24,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-indiana-johnson-county",
+    "date": "2020-03-26",
+    "cases": 18,
+    "deaths": 3,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-indiana-marion-county",
+    "date": "2020-03-26",
+    "cases": 161,
+    "deaths": 6,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-indiana-allen-county",
+    "date": "2020-03-26",
+    "cases": 7,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-indiana-delaware-county",
+    "date": "2020-03-26",
+    "cases": 4,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-louisiana-orleans-parish",
+    "date": "2020-03-26",
+    "cases": 675,
+    "deaths": 26,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-louisiana-jefferson-parish",
+    "date": "2020-03-26",
+    "cases": 293,
+    "deaths": 6,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-louisiana-st-james-parish",
+    "date": "2020-03-26",
+    "cases": 9,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-louisiana-st-tammany-parish",
+    "date": "2020-03-26",
+    "cases": 52,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-louisiana-east-baton-rouge-parish",
+    "date": "2020-03-26",
+    "cases": 58,
+    "deaths": 2,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-louisiana-ascension-parish",
+    "date": "2020-03-26",
+    "cases": 36,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-louisiana-washington-parish",
+    "date": "2020-03-26",
+    "cases": 3,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-louisiana-west-baton-rouge-parish",
+    "date": "2020-03-26",
+    "cases": 5,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-louisiana-calcasieu-parish",
+    "date": "2020-03-26",
+    "cases": 5,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-louisiana-iberville-parish",
+    "date": "2020-03-26",
+    "cases": 14,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-louisiana-rapides-parish",
+    "date": "2020-03-26",
+    "cases": 10,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-louisiana-webster-parish",
+    "date": "2020-03-26",
+    "cases": 3,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-louisiana-ouachita-parish",
+    "date": "2020-03-26",
+    "cases": 7,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-louisiana-(unassigned)",
+    "date": "2020-03-26",
+    "cases": 12,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-mississippi-hancock-county",
+    "date": "2020-03-26",
+    "cases": 5,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-oregon-clackamas-county",
+    "date": "2020-03-26",
+    "cases": 17,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-oregon-lane-county",
+    "date": "2020-03-26",
+    "cases": 4,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-oregon-linn-county",
+    "date": "2020-03-26",
+    "cases": 20,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-oregon-marion-county",
+    "date": "2020-03-26",
+    "cases": 32,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-oregon-multnomah-county",
+    "date": "2020-03-26",
+    "cases": 25,
+    "deaths": 2,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-oregon-washington-county",
+    "date": "2020-03-26",
+    "cases": 76,
+    "deaths": 2,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-washington-clark-county",
+    "date": "2020-03-26",
+    "cases": 16,
+    "deaths": 4,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-washington-grant-county",
+    "date": "2020-03-26",
+    "cases": 27,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-washington-island-county",
+    "date": "2020-03-26",
+    "cases": 29,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-washington-king-county",
+    "date": "2020-03-26",
+    "cases": 1277,
+    "deaths": 94,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-washington-pierce-county",
+    "date": "2020-03-26",
+    "cases": 138,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-washington-skagit-county",
+    "date": "2020-03-26",
+    "cases": 48,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-washington-snohomish-county",
+    "date": "2020-03-26",
+    "cases": 614,
+    "deaths": 16,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-washington-whatcom-county",
+    "date": "2020-03-26",
+    "cases": 64,
+    "deaths": 2,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-washington-yakima-county",
+    "date": "2020-03-26",
+    "cases": 44,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-washington-benton-county",
+    "date": "2020-03-26",
+    "cases": 12,
+    "deaths": 2,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-pennsylvania-monroe-county",
+    "date": "2020-03-26",
+    "cases": 45,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-virginia-fairfax-county",
+    "date": "2020-03-26",
+    "cases": 46,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-pennsylvania-montgomery-county",
+    "date": "2020-03-26",
+    "cases": 144,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-nevada-clark-county",
+    "date": "2020-03-26",
+    "cases": 249,
+    "deaths": 6,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-michigan-oakland-county",
+    "date": "2020-03-26",
+    "cases": 428,
+    "deaths": 4,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-michigan-wayne-county",
+    "date": "2020-03-26",
+    "cases": 873,
+    "deaths": 13,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-pennsylvania-allegheny-county",
+    "date": "2020-03-26",
+    "cases": 58,
+    "deaths": 2,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-pennsylvania-northampton-county",
+    "date": "2020-03-26",
+    "cases": 33,
+    "deaths": 2,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-virginia-james-city-county",
+    "date": "2020-03-26",
+    "cases": 37,
+    "deaths": 2,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-virginia-newport-news-city",
+    "date": "2020-03-26",
+    "cases": 3,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-virginia-virginia-beach-city",
+    "date": "2020-03-26",
+    "cases": 17,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-virginia-williamsburg-city",
+    "date": "2020-03-26",
+    "cases": 5,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-virginia-york-county",
+    "date": "2020-03-26",
+    "cases": 6,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-pennsylvania-lackawanna-county",
+    "date": "2020-03-26",
+    "cases": 15,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-michigan-kent-county",
+    "date": "2020-03-26",
+    "cases": 31,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-michigan-macomb-county",
+    "date": "2020-03-26",
+    "cases": 225,
+    "deaths": 3,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america-michigan-washtenaw-county",
+    "date": "2020-03-26",
+    "cases": 50,
+    "deaths": 3,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-states-of-america",
+    "date": "2020-03-26",
+    "cases": 57011,
+    "deaths": 805,
+    "recovered": 35
+  },
+  {
+    "placeId": "earth",
+    "date": "2020-03-26",
+    "cases": 503643,
+    "deaths": 23550,
+    "recovered": 120703
+  },
+  {
+    "placeId": "china-hubei",
+    "date": "2020-03-26",
+    "cases": 67801,
+    "deaths": 3169,
+    "recovered": 61201
+  },
+  {
+    "placeId": "china-guangdong",
+    "date": "2020-03-26",
+    "cases": 1448,
+    "deaths": 8,
+    "recovered": 1336
+  },
+  {
+    "placeId": "china-henan",
+    "date": "2020-03-26",
+    "cases": 1275,
+    "deaths": 22,
+    "recovered": 1250
+  },
+  {
+    "placeId": "china-zhejiang",
+    "date": "2020-03-26",
+    "cases": 1243,
+    "deaths": 1,
+    "recovered": 1222
+  },
+  {
+    "placeId": "china-shandong",
+    "date": "2020-03-26",
+    "cases": 771,
+    "deaths": 7,
+    "recovered": 752
+  },
+  {
+    "placeId": "china-jiangsu",
+    "date": "2020-03-26",
+    "cases": 640,
+    "deaths": 0,
+    "recovered": 631
+  },
+  {
+    "placeId": "china-heilongjiang",
+    "date": "2020-03-26",
+    "cases": 484,
+    "deaths": 13,
+    "recovered": 469
+  },
+  {
+    "placeId": "china-beijing",
+    "date": "2020-03-26",
+    "cases": 566,
+    "deaths": 8,
+    "recovered": 406
+  },
+  {
+    "placeId": "china-shanghai",
+    "date": "2020-03-26",
+    "cases": 451,
+    "deaths": 5,
+    "recovered": 331
+  },
+  {
+    "placeId": "china-fujian",
+    "date": "2020-03-26",
+    "cases": 328,
+    "deaths": 1,
+    "recovered": 295
+  },
+  {
+    "placeId": "china-shaanxi",
+    "date": "2020-03-26",
+    "cases": 253,
+    "deaths": 3,
+    "recovered": 242
+  },
+  {
+    "placeId": "china-yunnan",
+    "date": "2020-03-26",
+    "cases": 178,
+    "deaths": 2,
+    "recovered": 172
+  },
+  {
+    "placeId": "china-tianjin",
+    "date": "2020-03-26",
+    "cases": 151,
+    "deaths": 3,
+    "recovered": 133
+  },
+  {
+    "placeId": "china-shanxi",
+    "date": "2020-03-26",
+    "cases": 135,
+    "deaths": 0,
+    "recovered": 133
+  },
+  {
+    "placeId": "china-gansu",
+    "date": "2020-03-26",
+    "cases": 136,
+    "deaths": 2,
+    "recovered": 121
+  },
+  {
+    "placeId": "china-liaoning",
+    "date": "2020-03-26",
+    "cases": 128,
+    "deaths": 2,
+    "recovered": 124
+  },
+  {
+    "placeId": "china-jilin",
+    "date": "2020-03-26",
+    "cases": 95,
+    "deaths": 1,
+    "recovered": 92
+  },
+  {
+    "placeId": "china-inner-mongolia",
+    "date": "2020-03-26",
+    "cases": 89,
+    "deaths": 1,
+    "recovered": 74
+  },
+  {
+    "placeId": "united-kingdom-channel-islands",
+    "date": "2020-03-26",
+    "cases": 66,
+    "deaths": 1,
+    "recovered": 1
+  },
+  {
+    "placeId": "netherlands-curacao",
+    "date": "2020-03-26",
+    "cases": 6,
+    "deaths": 1,
+    "recovered": 2
+  },
+  {
+    "placeId": "france-reunion",
+    "date": "2020-03-26",
+    "cases": 135,
+    "deaths": 0,
+    "recovered": 1
+  },
+  {
+    "placeId": "netherlands-aruba",
+    "date": "2020-03-26",
+    "cases": 19,
+    "deaths": 0,
+    "recovered": 1
+  },
+  {
+    "placeId": "united-kingdom-bermuda",
+    "date": "2020-03-26",
+    "cases": 15,
+    "deaths": 0,
+    "recovered": 2
+  },
+  {
+    "placeId": "australia-australian-capital-territory",
+    "date": "2020-03-26",
+    "cases": 53,
+    "deaths": 0,
+    "recovered": 1
+  },
+  {
+    "placeId": "australia-new-south-wales",
+    "date": "2020-03-26",
+    "cases": 1219,
+    "deaths": 7,
+    "recovered": 4
+  },
+  {
+    "placeId": "australia-northern-territory",
+    "date": "2020-03-26",
+    "cases": 12,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
+    "placeId": "australia-queensland",
+    "date": "2020-03-26",
+    "cases": 493,
+    "deaths": 1,
+    "recovered": 8
+  },
+  {
+    "placeId": "australia-south-australia",
+    "date": "2020-03-26",
+    "cases": 235,
+    "deaths": 0,
+    "recovered": 6
+  },
+  {
+    "placeId": "australia-tasmania",
+    "date": "2020-03-26",
+    "cases": 47,
+    "deaths": 0,
+    "recovered": 3
+  },
+  {
+    "placeId": "australia-victoria",
+    "date": "2020-03-26",
+    "cases": 520,
+    "deaths": 3,
+    "recovered": 149
+  },
+  {
+    "placeId": "australia-western-australia",
+    "date": "2020-03-26",
+    "cases": 231,
+    "deaths": 2,
+    "recovered": 1
+  },
+  {
+    "placeId": "canada-british-columbia",
+    "date": "2020-03-26",
+    "cases": 725,
+    "deaths": 14,
+    "recovered": 0
+  },
+  {
+    "placeId": "canada-alberta",
+    "date": "2020-03-26",
+    "cases": 486,
+    "deaths": 2,
+    "recovered": 0
+  },
+  {
+    "placeId": "canada-saskatchewan",
+    "date": "2020-03-26",
+    "cases": 95,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
+    "placeId": "canada-ontario",
+    "date": "2020-03-26",
+    "cases": 858,
+    "deaths": 13,
+    "recovered": 0
+  },
+  {
+    "placeId": "canada-newfoundland-and-labrador",
+    "date": "2020-03-26",
+    "cases": 82,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
+    "placeId": "canada-yukon",
+    "date": "2020-03-26",
+    "cases": 3,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
+    "placeId": "china-hong-kong",
+    "date": "2020-03-26",
+    "cases": 453,
+    "deaths": 4,
+    "recovered": 110
+  },
+  {
+    "placeId": "switzerland-ag",
+    "date": "2020-03-26",
+    "cases": 0,
+    "deaths": 2,
+    "recovered": 0
+  },
+  {
+    "placeId": "switzerland-ar",
+    "date": "2020-03-26",
+    "cases": 34,
+    "deaths": 2,
+    "recovered": 0
+  },
+  {
+    "placeId": "switzerland-be",
+    "date": "2020-03-26",
+    "cases": 624,
+    "deaths": 6,
+    "recovered": 0
+  },
+  {
+    "placeId": "switzerland-bl",
+    "date": "2020-03-26",
+    "cases": 0,
+    "deaths": 4,
+    "recovered": 0
+  },
+  {
+    "placeId": "switzerland-bs",
+    "date": "2020-03-26",
+    "cases": 466,
+    "deaths": 8,
+    "recovered": 0
+  },
+  {
+    "placeId": "switzerland-fr",
+    "date": "2020-03-26",
+    "cases": 0,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "switzerland-ge",
+    "date": "2020-03-26",
+    "cases": 0,
+    "deaths": 12,
+    "recovered": 0
+  },
+  {
+    "placeId": "switzerland-gr",
+    "date": "2020-03-26",
+    "cases": 322,
+    "deaths": 6,
+    "recovered": 0
+  },
+  {
+    "placeId": "switzerland-lu",
+    "date": "2020-03-26",
+    "cases": 0,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "switzerland-ne",
+    "date": "2020-03-26",
+    "cases": 0,
+    "deaths": 2,
+    "recovered": 0
+  },
+  {
+    "placeId": "switzerland-sg",
+    "date": "2020-03-26",
+    "cases": 228,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "switzerland-so",
+    "date": "2020-03-26",
+    "cases": 0,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "switzerland-tg",
+    "date": "2020-03-26",
+    "cases": 96,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "switzerland-ti",
+    "date": "2020-03-26",
+    "cases": 1354,
+    "deaths": 60,
+    "recovered": 0
+  },
+  {
+    "placeId": "switzerland-vd",
+    "date": "2020-03-26",
+    "cases": 0,
+    "deaths": 17,
+    "recovered": 0
+  },
+  {
+    "placeId": "switzerland-vs",
+    "date": "2020-03-26",
+    "cases": 0,
+    "deaths": 13,
+    "recovered": 0
+  },
+  {
+    "placeId": "switzerland-zh",
+    "date": "2020-03-26",
+    "cases": 1363,
+    "deaths": 7,
+    "recovered": 0
+  },
+  {
+    "placeId": "germany-de-bb",
+    "date": "2020-03-26",
+    "cases": 466,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "germany-de-be",
+    "date": "2020-03-26",
+    "cases": 1425,
+    "deaths": 3,
+    "recovered": 0
+  },
+  {
+    "placeId": "germany-de-by",
+    "date": "2020-03-26",
+    "cases": 6666,
+    "deaths": 32,
+    "recovered": 0
+  },
+  {
+    "placeId": "germany-de-bw",
+    "date": "2020-03-26",
+    "cases": 6476,
+    "deaths": 32,
+    "recovered": 0
+  },
+  {
+    "placeId": "germany-de-he",
+    "date": "2020-03-26",
+    "cases": 1682,
+    "deaths": 4,
+    "recovered": 0
+  },
+  {
+    "placeId": "germany-de-hh",
+    "date": "2020-03-26",
+    "cases": 1237,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "germany-de-ni",
+    "date": "2020-03-26",
+    "cases": 2110,
+    "deaths": 6,
+    "recovered": 0
+  },
+  {
+    "placeId": "germany-de-rp",
+    "date": "2020-03-26",
+    "cases": 1640,
+    "deaths": 6,
+    "recovered": 0
+  },
+  {
+    "placeId": "germany-de-nw",
+    "date": "2020-03-26",
+    "cases": 8981,
+    "deaths": 53,
+    "recovered": 0
+  },
+  {
+    "placeId": "germany-de-sh",
+    "date": "2020-03-26",
+    "cases": 552,
+    "deaths": 2,
+    "recovered": 0
+  },
+  {
+    "placeId": "germany-de-sl",
+    "date": "2020-03-26",
+    "cases": 402,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "germany-de-sn",
+    "date": "2020-03-26",
+    "cases": 1036,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "germany-de-st",
+    "date": "2020-03-26",
+    "cases": 365,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "germany-de-th",
+    "date": "2020-03-26",
+    "cases": 413,
+    "deaths": 1,
+    "recovered": 0
+  },
+  {
+    "placeId": "united-kingdom-isle-of-man",
+    "date": "2020-03-26",
+    "cases": 25,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
+    "placeId": "albania",
+    "date": "2020-03-26",
+    "cases": 174,
+    "deaths": 6,
+    "recovered": 17
+  },
+  {
+    "placeId": "andorra",
+    "date": "2020-03-26",
+    "cases": 224,
+    "deaths": 3,
+    "recovered": 1
+  },
+  {
+    "placeId": "argentina",
+    "date": "2020-03-26",
+    "cases": 502,
+    "deaths": 9,
+    "recovered": 63
+  },
+  {
+    "placeId": "armenia",
+    "date": "2020-03-26",
+    "cases": 290,
+    "deaths": 1,
+    "recovered": 18
+  },
+  {
+    "placeId": "australia",
+    "date": "2020-03-26",
+    "cases": 2810,
+    "deaths": 13,
+    "recovered": 172
+  },
+  {
+    "placeId": "austria",
+    "date": "2020-03-26",
+    "cases": 6847,
+    "deaths": 49,
+    "recovered": 112
+  },
+  {
+    "placeId": "azerbaijan",
+    "date": "2020-03-26",
+    "cases": 122,
+    "deaths": 3,
+    "recovered": 15
+  },
+  {
+    "placeId": "bahrain",
+    "date": "2020-03-26",
+    "cases": 458,
+    "deaths": 4,
+    "recovered": 204
+  },
+  {
+    "placeId": "bangladesh",
+    "date": "2020-03-26",
+    "cases": 44,
+    "deaths": 5,
+    "recovered": 11
+  },
+  {
+    "placeId": "belgium",
+    "date": "2020-03-26",
+    "cases": 6235,
+    "deaths": 220,
+    "recovered": 675
+  },
+  {
+    "placeId": "bolivia",
+    "date": "2020-03-26",
+    "cases": 43,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
+    "placeId": "bosnia-and-herzegovina",
+    "date": "2020-03-26",
+    "cases": 191,
+    "deaths": 3,
+    "recovered": 2
+  },
+  {
+    "placeId": "brazil",
+    "date": "2020-03-26",
+    "cases": 2915,
+    "deaths": 77,
+    "recovered": 6
+  },
+  {
+    "placeId": "brunei-darussalam",
+    "date": "2020-03-26",
+    "cases": 114,
+    "deaths": 0,
+    "recovered": 5
+  },
+  {
+    "placeId": "bulgaria",
+    "date": "2020-03-26",
+    "cases": 264,
+    "deaths": 3,
+    "recovered": 8
+  },
+  {
+    "placeId": "canada",
+    "date": "2020-03-26",
+    "cases": 5988,
+    "deaths": 37,
+    "recovered": 0
+  },
+  {
+    "placeId": "chile",
+    "date": "2020-03-26",
+    "cases": 1306,
+    "deaths": 4,
+    "recovered": 22
+  },
+  {
+    "placeId": "china",
+    "date": "2020-03-26",
+    "cases": 81782,
+    "deaths": 3291,
+    "recovered": 74181
+  },
+  {
+    "placeId": "croatia",
+    "date": "2020-03-26",
+    "cases": 495,
+    "deaths": 3,
+    "recovered": 22
+  },
+  {
+    "placeId": "cyprus",
+    "date": "2020-03-26",
+    "cases": 146,
+    "deaths": 3,
+    "recovered": 4
+  },
+  {
+    "placeId": "czechia",
+    "date": "2020-03-26",
+    "cases": 1925,
+    "deaths": 9,
+    "recovered": 10
+  },
+  {
+    "placeId": "denmark",
+    "date": "2020-03-26",
+    "cases": 1877,
+    "deaths": 41,
+    "recovered": 49
+  },
+  {
+    "placeId": "dominica",
+    "date": "2020-03-26",
+    "cases": 11,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
+    "placeId": "dominican-republic",
+    "date": "2020-03-26",
+    "cases": 488,
+    "deaths": 10,
+    "recovered": 3
+  },
+  {
+    "placeId": "ecuador",
+    "date": "2020-03-26",
+    "cases": 1403,
+    "deaths": 34,
+    "recovered": 3
+  },
+  {
+    "placeId": "el-salvador",
+    "date": "2020-03-26",
+    "cases": 13,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
+    "placeId": "estonia",
+    "date": "2020-03-26",
+    "cases": 538,
+    "deaths": 1,
+    "recovered": 8
+  },
+  {
+    "placeId": "finland",
+    "date": "2020-03-26",
+    "cases": 958,
+    "deaths": 5,
+    "recovered": 10
+  },
+  {
+    "placeId": "gabon",
+    "date": "2020-03-26",
+    "cases": 7,
+    "deaths": 1,
+    "recovered": 1
+  },
+  {
+    "placeId": "georgia",
+    "date": "2020-03-26",
+    "cases": 79,
+    "deaths": 0,
+    "recovered": 11
+  },
+  {
+    "placeId": "germany",
+    "date": "2020-03-26",
+    "cases": 43938,
+    "deaths": 267,
+    "recovered": 5673
+  },
+  {
+    "placeId": "ghana",
+    "date": "2020-03-26",
+    "cases": 132,
+    "deaths": 4,
+    "recovered": 1
+  },
+  {
+    "placeId": "greece",
+    "date": "2020-03-26",
+    "cases": 892,
+    "deaths": 26,
+    "recovered": 36
+  },
+  {
+    "placeId": "honduras",
+    "date": "2020-03-26",
+    "cases": 52,
+    "deaths": 1,
+    "recovered": 1
+  },
+  {
+    "placeId": "hong-kong",
+    "date": "2020-03-26",
+    "cases": 386,
+    "deaths": 4,
+    "recovered": 0
+  },
+  {
+    "placeId": "hungary",
+    "date": "2020-03-26",
+    "cases": 261,
+    "deaths": 10,
+    "recovered": 28
+  },
+  {
+    "placeId": "iceland",
+    "date": "2020-03-26",
+    "cases": 802,
+    "deaths": 2,
+    "recovered": 68
+  },
+  {
+    "placeId": "india",
+    "date": "2020-03-26",
+    "cases": 722,
+    "deaths": 16,
+    "recovered": 45
+  },
+  {
+    "placeId": "indonesia",
+    "date": "2020-03-26",
+    "cases": 893,
+    "deaths": 78,
+    "recovered": 35
+  },
+  {
+    "placeId": "iran",
+    "date": "2020-03-26",
+    "cases": 29406,
+    "deaths": 2234,
+    "recovered": 10457
+  },
+  {
+    "placeId": "iraq",
+    "date": "2020-03-26",
+    "cases": 382,
+    "deaths": 36,
+    "recovered": 105
+  },
+  {
+    "placeId": "ireland",
+    "date": "2020-03-26",
+    "cases": 1819,
+    "deaths": 19,
+    "recovered": 5
+  },
+  {
+    "placeId": "israel",
+    "date": "2020-03-26",
+    "cases": 2693,
+    "deaths": 8,
+    "recovered": 68
+  },
+  {
+    "placeId": "kazakhstan",
+    "date": "2020-03-26",
+    "cases": 111,
+    "deaths": 1,
+    "recovered": 2
+  },
+  {
+    "placeId": "kenya",
+    "date": "2020-03-26",
+    "cases": 31,
+    "deaths": 1,
+    "recovered": 1
+  },
+  {
+    "placeId": "kuwait",
+    "date": "2020-03-26",
+    "cases": 208,
+    "deaths": 0,
+    "recovered": 49
+  },
+  {
+    "placeId": "laos",
+    "date": "2020-03-26",
+    "cases": 6,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
+    "placeId": "latvia",
+    "date": "2020-03-26",
+    "cases": 244,
+    "deaths": 0,
+    "recovered": 1
+  },
+  {
+    "placeId": "lebanon",
+    "date": "2020-03-26",
+    "cases": 368,
+    "deaths": 6,
+    "recovered": 23
+  },
+  {
+    "placeId": "lithuania",
+    "date": "2020-03-26",
+    "cases": 299,
+    "deaths": 4,
+    "recovered": 1
+  },
+  {
+    "placeId": "luxembourg",
+    "date": "2020-03-26",
+    "cases": 1453,
+    "deaths": 9,
+    "recovered": 6
+  },
+  {
+    "placeId": "macedonia",
+    "date": "2020-03-26",
+    "cases": 201,
+    "deaths": 3,
+    "recovered": 3
+  },
+  {
+    "placeId": "madagascar",
+    "date": "2020-03-26",
+    "cases": 23,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
+    "placeId": "malaysia",
+    "date": "2020-03-26",
+    "cases": 2031,
+    "deaths": 23,
+    "recovered": 215
+  },
+  {
+    "placeId": "malta",
+    "date": "2020-03-26",
+    "cases": 134,
+    "deaths": 0,
+    "recovered": 2
+  },
+  {
+    "placeId": "mauritania",
+    "date": "2020-03-26",
+    "cases": 3,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
+    "placeId": "mauritius",
+    "date": "2020-03-26",
+    "cases": 81,
+    "deaths": 2,
+    "recovered": 2
+  },
+  {
+    "placeId": "mexico",
+    "date": "2020-03-26",
+    "cases": 475,
+    "deaths": 6,
+    "recovered": 4
+  },
+  {
+    "placeId": "mongolia",
+    "date": "2020-03-26",
+    "cases": 11,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
+    "placeId": "montenegro",
+    "date": "2020-03-26",
+    "cases": 69,
+    "deaths": 1,
+    "recovered": 1
+  },
+  {
+    "placeId": "netherlands",
+    "date": "2020-03-26",
+    "cases": 7431,
+    "deaths": 434,
+    "recovered": 3
+  },
+  {
+    "placeId": "new-zealand",
+    "date": "2020-03-26",
+    "cases": 283,
+    "deaths": 0,
+    "recovered": 27
+  },
+  {
+    "placeId": "norway",
+    "date": "2020-03-26",
+    "cases": 3369,
+    "deaths": 14,
+    "recovered": 6
+  },
+  {
+    "placeId": "oman",
+    "date": "2020-03-26",
+    "cases": 109,
+    "deaths": 0,
+    "recovered": 23
+  },
+  {
+    "placeId": "pakistan",
+    "date": "2020-03-26",
+    "cases": 1179,
+    "deaths": 9,
+    "recovered": 21
+  },
+  {
+    "placeId": "panama",
+    "date": "2020-03-26",
+    "cases": 558,
+    "deaths": 8,
+    "recovered": 2
+  },
+  {
+    "placeId": "paraguay",
+    "date": "2020-03-26",
+    "cases": 41,
+    "deaths": 3,
+    "recovered": 3
+  },
+  {
+    "placeId": "peru",
+    "date": "2020-03-26",
+    "cases": 580,
+    "deaths": 9,
+    "recovered": 14
+  },
+  {
+    "placeId": "philippines",
+    "date": "2020-03-26",
+    "cases": 707,
+    "deaths": 45,
+    "recovered": 28
+  },
+  {
+    "placeId": "poland",
+    "date": "2020-03-26",
+    "cases": 1221,
+    "deaths": 16,
+    "recovered": 7
+  },
+  {
+    "placeId": "portugal",
+    "date": "2020-03-26",
+    "cases": 3544,
+    "deaths": 60,
+    "recovered": 43
+  },
+  {
+    "placeId": "democratic-republic-of-the-congo",
+    "date": "2020-03-26",
+    "cases": 51,
+    "deaths": 3,
+    "recovered": 3
+  },
+  {
+    "placeId": "romania",
+    "date": "2020-03-26",
+    "cases": 1029,
+    "deaths": 23,
+    "recovered": 94
+  },
+  {
+    "placeId": "russia",
+    "date": "2020-03-26",
+    "cases": 840,
+    "deaths": 3,
+    "recovered": 38
+  },
+  {
+    "placeId": "san-marino",
+    "date": "2020-03-26",
+    "cases": 208,
+    "deaths": 21,
+    "recovered": 4
+  },
+  {
+    "placeId": "saudi-arabia",
+    "date": "2020-03-26",
+    "cases": 1012,
+    "deaths": 3,
+    "recovered": 33
+  },
+  {
+    "placeId": "senegal",
+    "date": "2020-03-26",
+    "cases": 105,
+    "deaths": 0,
+    "recovered": 9
+  },
+  {
+    "placeId": "serbia",
+    "date": "2020-03-26",
+    "cases": 384,
+    "deaths": 3,
+    "recovered": 1
+  },
+  {
+    "placeId": "singapore",
+    "date": "2020-03-26",
+    "cases": 683,
+    "deaths": 2,
+    "recovered": 172
+  },
+  {
+    "placeId": "slovakia",
+    "date": "2020-03-26",
+    "cases": 226,
+    "deaths": 0,
+    "recovered": 2
+  },
+  {
+    "placeId": "somalia",
+    "date": "2020-03-26",
+    "cases": 2,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
+    "placeId": "south-korea",
+    "date": "2020-03-26",
+    "cases": 9241,
+    "deaths": 131,
+    "recovered": 4144
+  },
+  {
+    "placeId": "spain",
+    "date": "2020-03-26",
+    "cases": 57786,
+    "deaths": 4365,
+    "recovered": 7015
+  },
+  {
+    "placeId": "sri-lanka",
+    "date": "2020-03-26",
+    "cases": 106,
+    "deaths": 0,
+    "recovered": 7
+  },
+  {
+    "placeId": "sweden",
+    "date": "2020-03-26",
+    "cases": 2840,
+    "deaths": 77,
+    "recovered": 16
+  },
+  {
+    "placeId": "switzerland",
+    "date": "2020-03-26",
+    "cases": 11811,
+    "deaths": 191,
+    "recovered": 131
+  },
+  {
+    "placeId": "taiwan",
+    "date": "2020-03-26",
+    "cases": 252,
+    "deaths": 2,
+    "recovered": 29
+  },
+  {
+    "placeId": "tanzania",
+    "date": "2020-03-26",
+    "cases": 13,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
+    "placeId": "thailand",
+    "date": "2020-03-26",
+    "cases": 1045,
+    "deaths": 4,
+    "recovered": 88
+  },
+  {
+    "placeId": "tunisia",
+    "date": "2020-03-26",
+    "cases": 197,
+    "deaths": 6,
+    "recovered": 2
+  },
+  {
+    "placeId": "turkey",
+    "date": "2020-03-26",
+    "cases": 3629,
+    "deaths": 75,
+    "recovered": 26
+  },
+  {
+    "placeId": "ukraine",
+    "date": "2020-03-26",
+    "cases": 196,
+    "deaths": 5,
+    "recovered": 1
+  },
+  {
+    "placeId": "united-kingdom",
+    "date": "2020-03-26",
+    "cases": 11658,
+    "deaths": 578,
+    "recovered": 135
+  },
+  {
+    "placeId": "uruguay",
+    "date": "2020-03-26",
+    "cases": 217,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
+    "placeId": "uzbekistan",
+    "date": "2020-03-26",
+    "cases": 75,
+    "deaths": 0,
+    "recovered": 0
+  },
+  {
+    "placeId": "venezuela",
+    "date": "2020-03-26",
+    "cases": 107,
+    "deaths": 0,
+    "recovered": 15
+  },
+  {
+    "placeId": "vietnam",
+    "date": "2020-03-26",
+    "cases": 153,
+    "deaths": 0,
+    "recovered": 20
   }
 ]
   

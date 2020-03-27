@@ -7,15 +7,16 @@ import { SeededCountries, SeededCountryPolygons } from '../src/seeds/places/coun
 import { SeededRegions, SeededRegionPolygons } from '../src/seeds/places/regions/seeds'
 import { SeededCities, SeededCityPolygons } from '../src/seeds/places/cities/seeds'
 import { SeededPlaceDatas } from '../src/seeds/places/data'
+import moment from 'moment'
 injectEnvs()
 
 ;(async () => {
 
   await connect()
-  // await Promise.all([
-  //   Locale.save(Locales),
-  //   PlaceType.save(PlaceTypes)
-  // ])
+  await Promise.all([
+    Locale.save(Locales),
+    PlaceType.save(PlaceTypes)
+  ])
 
   // await Place.save(SeededPlaces)
 
@@ -28,7 +29,7 @@ injectEnvs()
   // await Place.save(SeededCities)
   // await PlacePolygon.save(SeededCityPolygons)
 
-  await PlaceData.save(SeededPlaceDatas, { chunk: 10_000 })
+  await PlaceData.save(SeededPlaceDatas.filter(d => d.date === '2020-03-26'), { chunk: 10_000 })
 
   console.log(`Seeded successfuly`)
   connection.close()

@@ -29,6 +29,7 @@
     "@types/csvtojson": "^1.1.5",
     "@types/fs-extra": "^8.1.0",
     "@types/node": "^13.9.1",
+    "axios": "^0.19.2",
     "csvtojson": "^2.0.10",
     "dotenv": "^8.2.0",
     "fs-extra": "^9.0.0",

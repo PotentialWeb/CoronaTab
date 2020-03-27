@@ -18,6 +18,9 @@ export interface PlaceSeedData {
   polygon?: Polygon | MultiPolygon
   alternativeNames?: string[]
   dataSource?: string
+  hospitalBeds?: number
+  hospitalBedOccupancy?: number
+  icuBeds?: number
 }
 
 export const FindPlaceSeedDataInDataset = ({ dataset, term }: { dataset: PlaceSeedData[], term: string }) => {
@@ -44,3 +47,9 @@ export const EarthPlace = new Place({
 export const SeededPlaces = [
   EarthPlace
 ]
+
+export {
+  SeededCountries,
+  SeededRegions,
+  SeededCities
+}
