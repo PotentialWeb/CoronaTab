@@ -9,7 +9,7 @@
     "dev:production": "env CORONATAB_ENVIRONMENT=PRODUCTION npm run dev",
     "build": "./node_modules/.bin/tsc -p tsconfig.json",
     "start": "node dist/api.js",
-    "deploy": "export $(egrep -v '^#' .env | xargs) && cd ../ && ./api/scripts/deploy.sh"
+    "deploy": "export $(tr -d '\\r' < .env | xargs -d '\\n') && cd ../ && ./api/scripts/deploy.sh"
   },
   "repository": {
     "type": "git",
