@@ -19,7 +19,7 @@ We use the [CoronaDataScraper](https://github.com/lazd/coronadatascraper) to pul
 
 ### Data
 
-If you want to correct historic data for any place - go to [/modules/data/src/seeds/places/data.ts](https://github.com/PotentialWeb/CoronaTab/blob/master/modules/data/src/seeds/places/data.ts) find the data entry for the place and date you are interested in and change the value. Then submit a Pull Request!
+If you want to correct historic data for any place - go to [/modules/data/src/seeds/places/place-data.json](https://github.com/PotentialWeb/CoronaTab/blob/master/modules/data/src/seeds/places/place-data.json) find the data entry for the place and date you are interested in and change the value. Then submit a Pull Request!
 
 If you would like to add new data sources please contribute to the [CoronaDataScraper](https://github.com/lazd/coronadatascraper) repository.
 
