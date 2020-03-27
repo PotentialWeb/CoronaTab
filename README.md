@@ -25,4 +25,4 @@ Coming soon...
 
 ### Contributors
 
-Made with ❤️, 🩸, 😭 and 😰 by the team at [Hoobu](https://hoobu.com).
+Made with ❤️, 🩸, 😰 and 😭 by the team at [Hoobu](https://hoobu.com).
