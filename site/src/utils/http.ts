@@ -22,6 +22,7 @@ export class HTTPError extends Error {
 export class HTTP {
   static async request (method: HTTPMethod, url: string, options: HTTPOptions = {}) {
     // options.credentials = options.credentials || 'include'
+    // options.mode = options.mode ?? 'no-cors'
     options.method = options.method || method
 
     if (options.body && typeof options.body !== 'string') {

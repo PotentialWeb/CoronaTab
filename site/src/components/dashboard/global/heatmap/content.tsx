@@ -14,6 +14,8 @@ import { PlaceApi } from '../../../../utils/api/place'
 import tailwindConfig from '../../../../utils/tailwind'
 import OverlayPositioning from 'ol/OverlayPositioning'
 import { LoadingComponent } from '../../../loading'
+import get from 'lodash.get'
+import numeral from 'numeral'
 
 const {
   theme: {
@@ -32,6 +34,37 @@ export interface State {
   hoveredPlace?: Place
   loadingStatus: LoadingStatus
 }
+
+interface TooltipStat {
+  label: string
+  accessor: string
+  formatter: (value: number) => string
+}
+
+const LARGE_INT_FORMATTER = (value: number) => numeral(value).format(value >= 1000 ? '0.[0]a' : '0,0')
+const PERCENTAGE_FORMATTER = (value: number) => numeral(value).format('0.0%')
+
+const TOOLTIP_STATS: TooltipStat[] = [{
+  label: 'Cases',
+  accessor: 'latestData.cases',
+  formatter: LARGE_INT_FORMATTER
+}, {
+  label: 'Deaths',
+  accessor: 'latestData.deaths',
+  formatter: LARGE_INT_FORMATTER
+}, {
+  label: 'Death Rate',
+  accessor: 'latestData.deathRate',
+  formatter: PERCENTAGE_FORMATTER
+}, {
+  label: 'Recovered',
+  accessor: 'latestData.recovered',
+  formatter: LARGE_INT_FORMATTER
+}, {
+  label: 'Recovery Rate',
+  accessor: 'latestData.recoveryRate',
+  formatter: PERCENTAGE_FORMATTER
+}]
 
 @inject('pageStore')
 @observer
@@ -73,7 +106,7 @@ export class DashboardGlobalHeatmapContentComponent extends PureComponent<Props,
       .filter(place => !place.children && Array.isArray(place.location?.coordinates))
       .map(place => new Feature({
         id: place.id,
-        place,
+        place: DashboardPageStore.calcPlaceLatestDataComputedValues(place),
         geometry: new Point(transformProjection([place.location.coordinates[0], place.location.coordinates[1]], 'EPSG:4326', 'EPSG:3857')),
         value: place.latestData.cases
       }))
@@ -129,18 +162,20 @@ export class DashboardGlobalHeatmapContentComponent extends PureComponent<Props,
       positioning: OverlayPositioning.TOP_CENTER
     })
 
+    const view = new View({
+      center: [0, 0],
+      zoom: 3
+    })
+
     this.map = new Map({
       layers: [tiles, points],
       overlays: [tooltip],
       target: this.mapRef.current,
-      view: new View({
-        center: [0, 0],
-        zoom: 3
-      })
+      view
     })
 
     this.map.on('pointermove', evt => {
-      const { coordinate, pixel } = evt
+      const { pixel } = evt
       const hoveredFeature = this.map.forEachFeatureAtPixel(pixel, feature => feature, {
         hitTolerance: 10
       })
@@ -153,7 +188,13 @@ export class DashboardGlobalHeatmapContentComponent extends PureComponent<Props,
         hitTolerance: 10
       })
       this.setState({ hoveredPlace })
-      if (hoveredPlace) tooltip.setPosition(coordinate)
+      if (hoveredPlace) {
+        tooltip.setPosition(coordinate)
+        view.animate({
+          center: coordinate,
+          duration: 500
+        })
+      }
     })
   }
 
@@ -182,18 +223,48 @@ export class DashboardGlobalHeatmapContentComponent extends PureComponent<Props,
                 case LoadingStatus.HAS_LOADED:
                   return (<>
                     <div ref={this.mapRef} className="absolute inset-0" />
-                    <div ref={this.mapTooltipRef} className="map-tooltip rounded-sm bg-white" style={{ display: hoveredPlace ? '' : 'none'}}>
+                    <div ref={this.mapTooltipRef} className="map-tooltip rounded-sm bg-white text-brand" style={{ display: hoveredPlace ? '' : 'none', minWidth: '200px' }}>
                       {
                         hoveredPlace
                           ? (
                             <>
-                              <div className="px-2">
-                                <span>{hoveredPlace.name}</span>
+                              <div className="flex items-center font-bold text-lg px-2 pt-1">
+                                {
+                                  hoveredPlace.alpha2code
+                                    ? <img src={`/flags/${hoveredPlace.alpha2code.toLowerCase()}.svg`} className="h-line mr-2" />
+                                    : ''
+                                }
+                                <span className="truncate">
+                                  {hoveredPlace.name}
+                                </span>
                               </div>
-                              <ul>
-                                <li>{hoveredPlace.latestData.cases}</li>
-                                <li>{hoveredPlace.latestData.deaths}</li>
-                                <li>{hoveredPlace.latestData.recovered}</li>
+                              <ul role="table" aria-label={`${hoveredPlace} Coronavirus stats`} className="pb-2">
+                                {(() => {
+                                  return TOOLTIP_STATS.map(({ label, accessor, formatter }) => (
+                                    <li
+                                      role="row"
+                                      key={label}
+                                      className="flex items-center px-2 py-px text-sm"
+                                    >
+                                      <div
+                                        role="cell"
+                                        className="flex-1 truncate"
+                                      >
+                                        <span>
+                                          {label}
+                                        </span>
+                                      </div>
+                                      <div
+                                        role="cell"
+                                        className="flex-shrink-0 flex justify-end"
+                                      >
+                                        <span className="font-bold">
+                                          {formatter(get(hoveredPlace, accessor))}
+                                        </span>
+                                      </div>
+                                    </li>
+                                  ))
+                                })()}
                               </ul>
                             </>
                           )
