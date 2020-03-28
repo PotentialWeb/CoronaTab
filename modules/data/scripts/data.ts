@@ -66,9 +66,9 @@ export class Data {
             dataset: regions.filter(r => r.parentId === country.id),
             term: regionName
           })
+          if (!region) debugger
 
           jhuPlace = jhuData.find(r => r.countryId === country.id && r.region === region.locales.en)
-          if (!region) debugger
           place = region
         }
       }

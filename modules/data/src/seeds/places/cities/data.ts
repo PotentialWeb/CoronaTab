@@ -43318,4 +43318,18 @@ export const CitiesData: PlaceSeedData[] = [{
   polygon: CityPolygons[`united-states-of-america-south-dakota-ziebach`],
   parentId: `united-states-of-america-south-dakota`,
   dataSource: undefined
+}, {
+  id: `united-states-of-america-kentucky-allen`,
+  locales: {
+    en: `Allen`
+  },
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  alternativeNames: undefined,
+  population: undefined,
+  coordinates: [36.75197631,-86.19457544],
+  polygon: CityPolygons[`united-states-of-america-kentucky-allen`],
+  parentId: `united-states-of-america-kentucky`,
+  dataSource: undefined
 }]

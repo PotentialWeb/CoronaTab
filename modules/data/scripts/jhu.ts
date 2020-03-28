@@ -396,6 +396,7 @@ export class JHU {
     'Morocco': 'MA',
     'Mozambique': 'MZ',
     'Myanmar': 'MM',
+    'Burma': 'MM',
     'Namibia': 'NA',
     'Nauru': 'NR',
     'Nepal': 'NP',

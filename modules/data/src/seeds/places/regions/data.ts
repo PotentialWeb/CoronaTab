@@ -603,7 +603,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [45.150157097500085,-12.856052341999913],
   polygon: RegionPolygons[`france-mayotte`],
   parentId: `france`,
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/articles/infection-au-nouveau-coronavirus-sars-cov-2-covid-19-france-et-monde`
 }, {
   id: `france-guadeloupe`,
   locales: {
@@ -617,7 +617,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-61.49286861849993,16.196804103500057],
   polygon: RegionPolygons[`france-guadeloupe`],
   parentId: `france`,
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/articles/infection-au-nouveau-coronavirus-sars-cov-2-covid-19-france-et-monde`
 }, {
   id: `netherlands-curacao`,
   locales: {
@@ -655,11 +655,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: `REU`,
-  population: undefined,
+  population: 853659,
   coordinates: [55.2471,-21.1351],
   polygon: RegionPolygons[`france-reunion`],
   parentId: `france`,
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/articles/infection-au-nouveau-coronavirus-sars-cov-2-covid-19-france-et-monde`
 }, {
   id: `netherlands-aruba`,
   locales: {
@@ -785,7 +785,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [145.75436445400004,-19.64674041161055],
   polygon: RegionPolygons[`australia-queensland`],
   parentId: `australia`,
-  dataSource: `https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-current-situation-and-case-numbers`
+  dataSource: `https://www.health.qld.gov.au/news-events/doh-media-releases`
 }, {
   id: `australia-south-australia`,
   locales: {
@@ -1425,11 +1425,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
+  population: 8446561,
   coordinates: [-5.760709740962795,36.52305392954614],
   polygon: RegionPolygons[`spain-andalucía`],
   parentId: `spain`,
-  dataSource: `https://opendata.arcgis.com/datasets/48fac2d7de0f43f9af938852e3748845_0.csv`
+  dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
 }, {
   id: `spain-aragón`,
   locales: {
@@ -1439,11 +1439,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
+  population: 1324397,
   coordinates: [-0.08049929380734966,42.134828154805525],
   polygon: RegionPolygons[`spain-aragón`],
   parentId: `spain`,
-  dataSource: `https://opendata.arcgis.com/datasets/48fac2d7de0f43f9af938852e3748845_0.csv`
+  dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
 }, {
   id: `spain-principado-de-asturias`,
   locales: {
@@ -1481,11 +1481,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 2220270,
+  coordinates: [-15.747513999999999,28.527948],
   polygon: RegionPolygons[`spain-canarias`],
   parentId: `spain`,
-  dataSource: `https://opendata.arcgis.com/datasets/48fac2d7de0f43f9af938852e3748845_0.csv`
+  dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
 }, {
   id: `spain-cantabria`,
   locales: {
@@ -1495,11 +1495,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
+  population: 581949,
   coordinates: [-3.991235879578522,43.13970978396958],
   polygon: RegionPolygons[`spain-cantabria`],
   parentId: `spain`,
-  dataSource: `https://opendata.arcgis.com/datasets/48fac2d7de0f43f9af938852e3748845_0.csv`
+  dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
 }, {
   id: `spain-castilla-y-león`,
   locales: {
@@ -1509,11 +1509,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
+  population: 2402877,
   coordinates: [-6.152125149456111,41.68636903055628],
   polygon: RegionPolygons[`spain-castilla-y-león`],
   parentId: `spain`,
-  dataSource: `https://opendata.arcgis.com/datasets/48fac2d7de0f43f9af938852e3748845_0.csv`
+  dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
 }, {
   id: `spain-castilla-la-mancha`,
   locales: {
@@ -1523,11 +1523,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
+  population: 2038440,
   coordinates: [-1.8916374333209092,38.724266107394925],
   polygon: RegionPolygons[`spain-castilla-la-mancha`],
   parentId: `spain`,
-  dataSource: `https://opendata.arcgis.com/datasets/48fac2d7de0f43f9af938852e3748845_0.csv`
+  dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
 }, {
   id: `spain-cataluña`,
   locales: {
@@ -1537,11 +1537,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
+  population: 7609499,
   coordinates: [1.0855422223956452,42.03562612236923],
   polygon: RegionPolygons[`spain-cataluña`],
   parentId: `spain`,
-  dataSource: `https://opendata.arcgis.com/datasets/48fac2d7de0f43f9af938852e3748845_0.csv`
+  dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
 }, {
   id: `spain-comunidad-valenciana`,
   locales: {
@@ -1565,11 +1565,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
+  population: 1062797,
   coordinates: [-6.250120712850645,39.75451443774111],
   polygon: RegionPolygons[`spain-extremadura`],
   parentId: `spain`,
-  dataSource: `https://opendata.arcgis.com/datasets/48fac2d7de0f43f9af938852e3748845_0.csv`
+  dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
 }, {
   id: `spain-galicia`,
   locales: {
@@ -1579,11 +1579,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
+  population: 2698764,
   coordinates: [-7.54885392701712,42.19553303442197],
   polygon: RegionPolygons[`spain-galicia`],
   parentId: `spain`,
-  dataSource: `https://opendata.arcgis.com/datasets/48fac2d7de0f43f9af938852e3748845_0.csv`
+  dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
 }, {
   id: `spain-comunidad-de-madrid`,
   locales: {
@@ -1635,11 +1635,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
+  population: 2181919,
   coordinates: [-2.154373327342114,43.14304220529398],
   polygon: RegionPolygons[`spain-país-vasco`],
   parentId: `spain`,
-  dataSource: `https://opendata.arcgis.com/datasets/48fac2d7de0f43f9af938852e3748845_0.csv`
+  dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
 }, {
   id: `spain-la-rioja`,
   locales: {
@@ -1649,11 +1649,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
+  population: 314487,
   coordinates: [-2.4031165223596247,42.28492574697563],
   polygon: RegionPolygons[`spain-la-rioja`],
   parentId: `spain`,
-  dataSource: `https://opendata.arcgis.com/datasets/48fac2d7de0f43f9af938852e3748845_0.csv`
+  dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
 }, {
   id: `spain-ceuta`,
   locales: {
@@ -1663,11 +1663,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
+  population: 84434,
   coordinates: [-5.345359091499915,35.88593067100006],
   polygon: RegionPolygons[`spain-ceuta`],
   parentId: `spain`,
-  dataSource: `https://opendata.arcgis.com/datasets/48fac2d7de0f43f9af938852e3748845_0.csv`
+  dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
 }, {
   id: `spain-melilla`,
   locales: {
@@ -1677,11 +1677,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
+  population: 84286,
   coordinates: [-2.939916344999915,35.29882680600007],
   polygon: RegionPolygons[`spain-melilla`],
   parentId: `spain`,
-  dataSource: `https://opendata.arcgis.com/datasets/48fac2d7de0f43f9af938852e3748845_0.csv`
+  dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
 }, {
   id: `italy-abruzzo`,
   locales: {
@@ -2079,7 +2079,7 @@ export const RegionsData: PlaceSeedData[] = [{
   locales: {
     en: `District of Columbia`
   },
-  alternativeNames: ['Washington, D.C.'],
+  alternativeNames: [`Washington, D.C.`],
   phoneCode: undefined,
   alpha2code: `DC`,
   alpha3code: undefined,
@@ -2087,7 +2087,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-77.0145477695639,38.899451555326564],
   polygon: RegionPolygons[`united-states-of-america-district-of-columbia`],
   parentId: `united-states-of-america`,
-  dataSource: `https://covidtracking.com/api/states`
+  dataSource: `https://coronavirus.dc.gov/page/coronavirus-data`
 }, {
   id: `united-states-of-america-delaware`,
   locales: {
@@ -2115,7 +2115,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-83.82965067998012,28.060753542550117],
   polygon: RegionPolygons[`united-states-of-america-florida`],
   parentId: `united-states-of-america`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-georgia`,
   locales: {
@@ -2451,7 +2451,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-74.71937008349994,40.14601558652788],
   polygon: RegionPolygons[`united-states-of-america-new-jersey`],
   parentId: `united-states-of-america`,
-  dataSource: `https://opendata.arcgis.com/datasets/84737ef7f760486293b6afa536f028e0_0.csv`
+  dataSource: `https://opendata.arcgis.com/datasets/24f4fcf164ad4b4280f08c8939dd5dc7_0.csv`
 }, {
   id: `united-states-of-america-new-mexico`,
   locales: {
@@ -2507,7 +2507,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.67188114679749,40.36645852284252],
   polygon: RegionPolygons[`united-states-of-america-ohio`],
   parentId: `united-states-of-america`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://covidtracking.com/api/states`
 }, {
   id: `united-states-of-america-oklahoma`,
   locales: {
@@ -2577,7 +2577,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-71.48453225865693,41.66332011094793],
   polygon: RegionPolygons[`united-states-of-america-rhode-island`],
   parentId: `united-states-of-america`,
-  dataSource: `https://docs.google.com/spreadsheets/d/1n-zMS9Al94CPj_Tc3K7Adin-tN9x1RSjjx2UzJ4SV7Q/gviz/tq?tqx=out:csv&sheet=County+Data#gid=0`
+  dataSource: `https://covidtracking.com/api/states`
 }, {
   id: `united-states-of-america-south-carolina`,
   locales: {
@@ -2591,7 +2591,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.96432271741013,33.619274050261765],
   polygon: RegionPolygons[`united-states-of-america-south-carolina`],
   parentId: `united-states-of-america`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-dakota`,
   locales: {
@@ -2661,7 +2661,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-79.76028754243612,37.99530438119223],
   polygon: RegionPolygons[`united-states-of-america-virginia`],
   parentId: `united-states-of-america`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-vermont`,
   locales: {
@@ -2703,7 +2703,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.56690985655462,44.89991863863423],
   polygon: RegionPolygons[`united-states-of-america-wisconsin`],
   parentId: `united-states-of-america`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-west-virginia`,
   locales: {
@@ -2937,7 +2937,7 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
+  population: 63711,
   coordinates: [-87.294891,33.7590165],
   polygon: RegionPolygons[`united-states-of-america-alabama-walker-county`],
   parentId: `united-states-of-america-alabama`,
@@ -5587,7 +5587,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.3544225,29.681131999999998],
   polygon: RegionPolygons[`united-states-of-america-florida-alachua-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-brevard-county`,
   locales: {
@@ -5601,7 +5601,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.7171115,28.306647499999997],
   polygon: RegionPolygons[`united-states-of-america-florida-brevard-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-broward-county`,
   locales: {
@@ -5615,7 +5615,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.478035,26.1561005],
   polygon: RegionPolygons[`united-states-of-america-florida-broward-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-charlotte-county`,
   locales: {
@@ -5629,7 +5629,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.9689695,26.902401],
   polygon: RegionPolygons[`united-states-of-america-florida-charlotte-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-citrus-county`,
   locales: {
@@ -5643,7 +5643,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.4640235,28.858776],
   polygon: RegionPolygons[`united-states-of-america-florida-citrus-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-clay-county`,
   locales: {
@@ -5657,7 +5657,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.815316,29.956068000000002],
   polygon: RegionPolygons[`united-states-of-america-florida-clay-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-collier-county`,
   locales: {
@@ -5671,7 +5671,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.35938300000001,26.1601955],
   polygon: RegionPolygons[`united-states-of-america-florida-collier-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-miami-dade-county`,
   locales: {
@@ -5685,7 +5685,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.495494,25.5606775],
   polygon: RegionPolygons[`united-states-of-america-florida-miami-dade-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-duval-county`,
   locales: {
@@ -5699,7 +5699,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.714645,30.34499],
   polygon: RegionPolygons[`united-states-of-america-florida-duval-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-escambia-county`,
   locales: {
@@ -5713,7 +5713,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.27711500000001,30.639738],
   polygon: RegionPolygons[`united-states-of-america-florida-escambia-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-gadsden-county`,
   locales: {
@@ -5727,7 +5727,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-84.60754,30.5497575],
   polygon: RegionPolygons[`united-states-of-america-florida-gadsden-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-hillsborough-county`,
   locales: {
@@ -5741,7 +5741,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.3526,27.909229500000002],
   polygon: RegionPolygons[`united-states-of-america-florida-hillsborough-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-lake-county`,
   locales: {
@@ -5755,7 +5755,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.655052,28.810972999999997],
   polygon: RegionPolygons[`united-states-of-america-florida-lake-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-lee-county`,
   locales: {
@@ -5769,7 +5769,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.9169395,26.5528805],
   polygon: RegionPolygons[`united-states-of-america-florida-lee-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-leon-county`,
   locales: {
@@ -5783,7 +5783,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-84.3462925,30.479469],
   polygon: RegionPolygons[`united-states-of-america-florida-leon-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-manatee-county`,
   locales: {
@@ -5797,7 +5797,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.4000485,27.4272245],
   polygon: RegionPolygons[`united-states-of-america-florida-manatee-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-nassau-county`,
   locales: {
@@ -5811,7 +5811,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.73892599999999,30.550462500000002],
   polygon: RegionPolygons[`united-states-of-america-florida-nassau-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-okaloosa-county`,
   locales: {
@@ -5825,7 +5825,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-86.59446449999999,30.687763500000003],
   polygon: RegionPolygons[`united-states-of-america-florida-okaloosa-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-orange-county`,
   locales: {
@@ -5839,7 +5839,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.2607525,28.566533999999997],
   polygon: RegionPolygons[`united-states-of-america-florida-orange-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-osceola-county`,
   locales: {
@@ -5853,7 +5853,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.2600415,27.995169500000003],
   polygon: RegionPolygons[`united-states-of-america-florida-osceola-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-palm-beach-county`,
   locales: {
@@ -5867,7 +5867,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.4587305,26.645985500000002],
   polygon: RegionPolygons[`united-states-of-america-florida-palm-beach-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-pasco-county`,
   locales: {
@@ -5881,7 +5881,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.4298955,28.3252435],
   polygon: RegionPolygons[`united-states-of-america-florida-pasco-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-pinellas-county`,
   locales: {
@@ -5895,7 +5895,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.70897249999999,27.893119],
   polygon: RegionPolygons[`united-states-of-america-florida-pinellas-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-polk-county`,
   locales: {
@@ -5909,7 +5909,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.6193315,28.002553],
   polygon: RegionPolygons[`united-states-of-america-florida-polk-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-santa-rosa-county`,
   locales: {
@@ -5923,7 +5923,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.047978,30.669196499999998],
   polygon: RegionPolygons[`united-states-of-america-florida-santa-rosa-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-sarasota-county`,
   locales: {
@@ -5937,7 +5937,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.349667,27.167500500000003],
   polygon: RegionPolygons[`united-states-of-america-florida-sarasota-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-seminole-county`,
   locales: {
@@ -5951,7 +5951,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.2234725,28.745247499999998],
   polygon: RegionPolygons[`united-states-of-america-florida-seminole-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-st-johns-county`,
   locales: {
@@ -5965,7 +5965,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.4511455,29.937673],
   polygon: RegionPolygons[`united-states-of-america-florida-st-johns-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-sumter-county`,
   locales: {
@@ -5979,7 +5979,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.1326385,28.633043],
   polygon: RegionPolygons[`united-states-of-america-florida-sumter-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-volusia-county`,
   locales: {
@@ -5993,7 +5993,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.20657349999999,29.0200235],
   polygon: RegionPolygons[`united-states-of-america-florida-volusia-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-walton-county`,
   locales: {
@@ -6007,7 +6007,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-86.12087299999999,30.631812500000002],
   polygon: RegionPolygons[`united-states-of-america-florida-walton-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-baker-county`,
   locales: {
@@ -6021,7 +6021,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.254514,30.360368],
   polygon: RegionPolygons[`united-states-of-america-florida-baker-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-bay-county`,
   locales: {
@@ -6035,7 +6035,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-85.6900155,30.2459645],
   polygon: RegionPolygons[`united-states-of-america-florida-bay-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-bradford-county`,
   locales: {
@@ -6049,7 +6049,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.23241999999999,29.930684],
   polygon: RegionPolygons[`united-states-of-america-florida-bradford-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-calhoun-county`,
   locales: {
@@ -6063,7 +6063,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-85.16109900000001,30.404001],
   polygon: RegionPolygons[`united-states-of-america-florida-calhoun-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-columbia-county`,
   locales: {
@@ -6077,7 +6077,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.628231,30.2116605],
   polygon: RegionPolygons[`united-states-of-america-florida-columbia-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-desoto-county`,
   locales: {
@@ -6091,7 +6091,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.80983549999999,27.18619],
   polygon: RegionPolygons[`united-states-of-america-florida-desoto-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-dixie-county`,
   locales: {
@@ -6105,7 +6105,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-83.16632100000001,29.5571445],
   polygon: RegionPolygons[`united-states-of-america-florida-dixie-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-flagler-county`,
   locales: {
@@ -6119,7 +6119,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.3127915,29.4659115],
   polygon: RegionPolygons[`united-states-of-america-florida-flagler-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-franklin-county`,
   locales: {
@@ -6133,7 +6133,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-84.77814599999999,29.8004055],
   polygon: RegionPolygons[`united-states-of-america-florida-franklin-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-gilchrist-county`,
   locales: {
@@ -6147,7 +6147,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.8146775,29.7474385],
   polygon: RegionPolygons[`united-states-of-america-florida-gilchrist-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-glades-county`,
   locales: {
@@ -6161,7 +6161,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.21855,26.9897045],
   polygon: RegionPolygons[`united-states-of-america-florida-glades-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-gulf-county`,
   locales: {
@@ -6175,7 +6175,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-85.213759,29.928089],
   polygon: RegionPolygons[`united-states-of-america-florida-gulf-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-hamilton-county`,
   locales: {
@@ -6189,7 +6189,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.978114,30.477425500000003],
   polygon: RegionPolygons[`united-states-of-america-florida-hamilton-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-hardee-county`,
   locales: {
@@ -6203,7 +6203,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.8095355,27.491686],
   polygon: RegionPolygons[`united-states-of-america-florida-hardee-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-hendry-county`,
   locales: {
@@ -6217,7 +6217,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.22287,26.605982],
   polygon: RegionPolygons[`united-states-of-america-florida-hendry-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-hernando-county`,
   locales: {
@@ -6231,7 +6231,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.36744999999999,28.5641575],
   polygon: RegionPolygons[`united-states-of-america-florida-hernando-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-highlands-county`,
   locales: {
@@ -6245,7 +6245,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.2535995,27.339483],
   polygon: RegionPolygons[`united-states-of-america-florida-highlands-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-holmes-county`,
   locales: {
@@ -6259,7 +6259,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-85.7677915,30.850031],
   polygon: RegionPolygons[`united-states-of-america-florida-holmes-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-indian-river-county`,
   locales: {
@@ -6273,7 +6273,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.6014185,27.7090665],
   polygon: RegionPolygons[`united-states-of-america-florida-indian-river-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-jackson-county`,
   locales: {
@@ -6287,7 +6287,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-85.2289275,30.782612],
   polygon: RegionPolygons[`united-states-of-america-florida-jackson-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-jefferson-county`,
   locales: {
@@ -6301,7 +6301,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-83.8401145,30.37801],
   polygon: RegionPolygons[`united-states-of-america-florida-jefferson-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-lafayette-county`,
   locales: {
@@ -6315,7 +6315,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-83.123253,30.041446],
   polygon: RegionPolygons[`united-states-of-america-florida-lafayette-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-levy-county`,
   locales: {
@@ -6329,7 +6329,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.78466399999999,29.2921995],
   polygon: RegionPolygons[`united-states-of-america-florida-levy-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-liberty-county`,
   locales: {
@@ -6343,7 +6343,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-84.844459,30.288896],
   polygon: RegionPolygons[`united-states-of-america-florida-liberty-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-madison-county`,
   locales: {
@@ -6357,7 +6357,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-83.49560199999999,30.4558045],
   polygon: RegionPolygons[`united-states-of-america-florida-madison-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-marion-county`,
   locales: {
@@ -6371,7 +6371,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.0871435,29.240444],
   polygon: RegionPolygons[`united-states-of-america-florida-marion-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-martin-county`,
   locales: {
@@ -6385,7 +6385,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.482585,27.1101785],
   polygon: RegionPolygons[`united-states-of-america-florida-martin-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-monroe-county`,
   locales: {
@@ -6399,7 +6399,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.2078935,25.175038999999998],
   polygon: RegionPolygons[`united-states-of-america-florida-monroe-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-okeechobee-county`,
   locales: {
@@ -6413,7 +6413,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.945572,27.301078500000003],
   polygon: RegionPolygons[`united-states-of-america-florida-okeechobee-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-putnam-county`,
   locales: {
@@ -6427,7 +6427,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.74503150000001,29.582303],
   polygon: RegionPolygons[`united-states-of-america-florida-putnam-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-st-lucie-county`,
   locales: {
@@ -6441,7 +6441,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.4395545,27.3822015],
   polygon: RegionPolygons[`united-states-of-america-florida-st-lucie-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-suwannee-county`,
   locales: {
@@ -6455,7 +6455,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-83.004895,30.162244],
   polygon: RegionPolygons[`united-states-of-america-florida-suwannee-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-taylor-county`,
   locales: {
@@ -6469,7 +6469,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-83.65523300000001,29.9849565],
   polygon: RegionPolygons[`united-states-of-america-florida-taylor-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-union-county`,
   locales: {
@@ -6483,7 +6483,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.35704849999999,30.033105],
   polygon: RegionPolygons[`united-states-of-america-florida-union-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-wakulla-county`,
   locales: {
@@ -6497,7 +6497,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-84.406681,30.132134],
   polygon: RegionPolygons[`united-states-of-america-florida-wakulla-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-florida-washington-county`,
   locales: {
@@ -6511,7 +6511,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-85.71250549999999,30.609936],
   polygon: RegionPolygons[`united-states-of-america-florida-washington-county`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-illinois-illinois-county`,
   locales: {
@@ -13091,7 +13091,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-74.6437035,39.509258],
   polygon: RegionPolygons[`united-states-of-america-new-jersey-atlantic-county`],
   parentId: `united-states-of-america-new-jersey`,
-  dataSource: `https://opendata.arcgis.com/datasets/84737ef7f760486293b6afa536f028e0_0.csv`
+  dataSource: `https://opendata.arcgis.com/datasets/24f4fcf164ad4b4280f08c8939dd5dc7_0.csv`
 }, {
   id: `united-states-of-america-new-jersey-bergen-county`,
   locales: {
@@ -13105,7 +13105,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-74.08225,40.952146],
   polygon: RegionPolygons[`united-states-of-america-new-jersey-bergen-county`],
   parentId: `united-states-of-america-new-jersey`,
-  dataSource: `https://opendata.arcgis.com/datasets/84737ef7f760486293b6afa536f028e0_0.csv`
+  dataSource: `https://opendata.arcgis.com/datasets/24f4fcf164ad4b4280f08c8939dd5dc7_0.csv`
 }, {
   id: `united-states-of-america-new-jersey-burlington-county`,
   locales: {
@@ -13119,7 +13119,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-74.72494950000001,39.8658955],
   polygon: RegionPolygons[`united-states-of-america-new-jersey-burlington-county`],
   parentId: `united-states-of-america-new-jersey`,
-  dataSource: `https://opendata.arcgis.com/datasets/84737ef7f760486293b6afa536f028e0_0.csv`
+  dataSource: `https://opendata.arcgis.com/datasets/24f4fcf164ad4b4280f08c8939dd5dc7_0.csv`
 }, {
   id: `united-states-of-america-new-jersey-camden-county`,
   locales: {
@@ -13133,7 +13133,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-74.9381575,39.800549000000004],
   polygon: RegionPolygons[`united-states-of-america-new-jersey-camden-county`],
   parentId: `united-states-of-america-new-jersey`,
-  dataSource: `https://opendata.arcgis.com/datasets/84737ef7f760486293b6afa536f028e0_0.csv`
+  dataSource: `https://opendata.arcgis.com/datasets/24f4fcf164ad4b4280f08c8939dd5dc7_0.csv`
 }, {
   id: `united-states-of-america-new-jersey-cape-may-county`,
   locales: {
@@ -13147,7 +13147,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-74.756719,39.1261435],
   polygon: RegionPolygons[`united-states-of-america-new-jersey-cape-may-county`],
   parentId: `united-states-of-america-new-jersey`,
-  dataSource: `https://opendata.arcgis.com/datasets/84737ef7f760486293b6afa536f028e0_0.csv`
+  dataSource: `https://opendata.arcgis.com/datasets/24f4fcf164ad4b4280f08c8939dd5dc7_0.csv`
 }, {
   id: `united-states-of-america-new-jersey-essex-county`,
   locales: {
@@ -13161,7 +13161,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-74.24515199999999,40.7914715],
   polygon: RegionPolygons[`united-states-of-america-new-jersey-essex-county`],
   parentId: `united-states-of-america-new-jersey`,
-  dataSource: `https://opendata.arcgis.com/datasets/84737ef7f760486293b6afa536f028e0_0.csv`
+  dataSource: `https://opendata.arcgis.com/datasets/24f4fcf164ad4b4280f08c8939dd5dc7_0.csv`
 }, {
   id: `united-states-of-america-new-jersey-gloucester-county`,
   locales: {
@@ -13175,7 +13175,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-75.15904900000001,39.7016335],
   polygon: RegionPolygons[`united-states-of-america-new-jersey-gloucester-county`],
   parentId: `united-states-of-america-new-jersey`,
-  dataSource: `https://opendata.arcgis.com/datasets/84737ef7f760486293b6afa536f028e0_0.csv`
+  dataSource: `https://opendata.arcgis.com/datasets/24f4fcf164ad4b4280f08c8939dd5dc7_0.csv`
 }, {
   id: `united-states-of-america-new-jersey-hudson-county`,
   locales: {
@@ -13189,7 +13189,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-74.07540449999999,40.732721999999995],
   polygon: RegionPolygons[`united-states-of-america-new-jersey-hudson-county`],
   parentId: `united-states-of-america-new-jersey`,
-  dataSource: `https://opendata.arcgis.com/datasets/84737ef7f760486293b6afa536f028e0_0.csv`
+  dataSource: `https://opendata.arcgis.com/datasets/24f4fcf164ad4b4280f08c8939dd5dc7_0.csv`
 }, {
   id: `united-states-of-america-new-jersey-hunterdon-county`,
   locales: {
@@ -13203,7 +13203,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-74.9494015,40.5647375],
   polygon: RegionPolygons[`united-states-of-america-new-jersey-hunterdon-county`],
   parentId: `united-states-of-america-new-jersey`,
-  dataSource: `https://opendata.arcgis.com/datasets/84737ef7f760486293b6afa536f028e0_0.csv`
+  dataSource: `https://opendata.arcgis.com/datasets/24f4fcf164ad4b4280f08c8939dd5dc7_0.csv`
 }, {
   id: `united-states-of-america-new-jersey-mercer-county`,
   locales: {
@@ -13217,7 +13217,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-74.7122715,40.280848500000005],
   polygon: RegionPolygons[`united-states-of-america-new-jersey-mercer-county`],
   parentId: `united-states-of-america-new-jersey`,
-  dataSource: `https://opendata.arcgis.com/datasets/84737ef7f760486293b6afa536f028e0_0.csv`
+  dataSource: `https://opendata.arcgis.com/datasets/24f4fcf164ad4b4280f08c8939dd5dc7_0.csv`
 }, {
   id: `united-states-of-america-new-jersey-monmouth-county`,
   locales: {
@@ -13231,7 +13231,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-74.2928135,40.2778005],
   polygon: RegionPolygons[`united-states-of-america-new-jersey-monmouth-county`],
   parentId: `united-states-of-america-new-jersey`,
-  dataSource: `https://opendata.arcgis.com/datasets/84737ef7f760486293b6afa536f028e0_0.csv`
+  dataSource: `https://opendata.arcgis.com/datasets/24f4fcf164ad4b4280f08c8939dd5dc7_0.csv`
 }, {
   id: `united-states-of-america-new-jersey-ocean-county`,
   locales: {
@@ -13245,7 +13245,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-74.29221150000001,39.835446000000005],
   polygon: RegionPolygons[`united-states-of-america-new-jersey-ocean-county`],
   parentId: `united-states-of-america-new-jersey`,
-  dataSource: `https://opendata.arcgis.com/datasets/84737ef7f760486293b6afa536f028e0_0.csv`
+  dataSource: `https://opendata.arcgis.com/datasets/24f4fcf164ad4b4280f08c8939dd5dc7_0.csv`
 }, {
   id: `united-states-of-america-new-jersey-passaic-county`,
   locales: {
@@ -13259,7 +13259,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-74.304839,41.0114805],
   polygon: RegionPolygons[`united-states-of-america-new-jersey-passaic-county`],
   parentId: `united-states-of-america-new-jersey`,
-  dataSource: `https://opendata.arcgis.com/datasets/84737ef7f760486293b6afa536f028e0_0.csv`
+  dataSource: `https://opendata.arcgis.com/datasets/24f4fcf164ad4b4280f08c8939dd5dc7_0.csv`
 }, {
   id: `united-states-of-america-new-jersey-somerset-county`,
   locales: {
@@ -13273,7 +13273,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-74.5998835,40.566201],
   polygon: RegionPolygons[`united-states-of-america-new-jersey-somerset-county`],
   parentId: `united-states-of-america-new-jersey`,
-  dataSource: `https://opendata.arcgis.com/datasets/84737ef7f760486293b6afa536f028e0_0.csv`
+  dataSource: `https://opendata.arcgis.com/datasets/24f4fcf164ad4b4280f08c8939dd5dc7_0.csv`
 }, {
   id: `united-states-of-america-new-jersey-sussex-county`,
   locales: {
@@ -13287,7 +13287,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-74.678832,41.128282],
   polygon: RegionPolygons[`united-states-of-america-new-jersey-sussex-county`],
   parentId: `united-states-of-america-new-jersey`,
-  dataSource: `https://opendata.arcgis.com/datasets/84737ef7f760486293b6afa536f028e0_0.csv`
+  dataSource: `https://opendata.arcgis.com/datasets/24f4fcf164ad4b4280f08c8939dd5dc7_0.csv`
 }, {
   id: `united-states-of-america-new-jersey-union-county`,
   locales: {
@@ -13301,7 +13301,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-74.300027,40.665566],
   polygon: RegionPolygons[`united-states-of-america-new-jersey-union-county`],
   parentId: `united-states-of-america-new-jersey`,
-  dataSource: `https://opendata.arcgis.com/datasets/84737ef7f760486293b6afa536f028e0_0.csv`
+  dataSource: `https://opendata.arcgis.com/datasets/24f4fcf164ad4b4280f08c8939dd5dc7_0.csv`
 }, {
   id: `united-states-of-america-new-jersey-warren-county`,
   locales: {
@@ -13315,7 +13315,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-74.985897,40.8430415],
   polygon: RegionPolygons[`united-states-of-america-new-jersey-warren-county`],
   parentId: `united-states-of-america-new-jersey`,
-  dataSource: `https://opendata.arcgis.com/datasets/84737ef7f760486293b6afa536f028e0_0.csv`
+  dataSource: `https://opendata.arcgis.com/datasets/24f4fcf164ad4b4280f08c8939dd5dc7_0.csv`
 }, {
   id: `united-states-of-america-new-jersey-morris-county`,
   locales: {
@@ -13329,7 +13329,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-74.5802275,40.867802999999995],
   polygon: RegionPolygons[`united-states-of-america-new-jersey-morris-county`],
   parentId: `united-states-of-america-new-jersey`,
-  dataSource: `https://opendata.arcgis.com/datasets/84737ef7f760486293b6afa536f028e0_0.csv`
+  dataSource: `https://opendata.arcgis.com/datasets/24f4fcf164ad4b4280f08c8939dd5dc7_0.csv`
 }, {
   id: `united-states-of-america-new-jersey-middlesex-county`,
   locales: {
@@ -13343,7 +13343,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-74.41841600000001,40.430130500000004],
   polygon: RegionPolygons[`united-states-of-america-new-jersey-middlesex-county`],
   parentId: `united-states-of-america-new-jersey`,
-  dataSource: `https://opendata.arcgis.com/datasets/84737ef7f760486293b6afa536f028e0_0.csv`
+  dataSource: `https://opendata.arcgis.com/datasets/24f4fcf164ad4b4280f08c8939dd5dc7_0.csv`
 }, {
   id: `united-states-of-america-new-jersey-cumberland-county`,
   locales: {
@@ -13357,7 +13357,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-75.135421,39.373098],
   polygon: RegionPolygons[`united-states-of-america-new-jersey-cumberland-county`],
   parentId: `united-states-of-america-new-jersey`,
-  dataSource: `https://opendata.arcgis.com/datasets/84737ef7f760486293b6afa536f028e0_0.csv`
+  dataSource: `https://opendata.arcgis.com/datasets/24f4fcf164ad4b4280f08c8939dd5dc7_0.csv`
 }, {
   id: `united-states-of-america-new-jersey-salem-county`,
   locales: {
@@ -13371,7 +13371,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-75.31079349999999,39.5848515],
   polygon: RegionPolygons[`united-states-of-america-new-jersey-salem-county`],
   parentId: `united-states-of-america-new-jersey`,
-  dataSource: `https://opendata.arcgis.com/datasets/84737ef7f760486293b6afa536f028e0_0.csv`
+  dataSource: `https://opendata.arcgis.com/datasets/24f4fcf164ad4b4280f08c8939dd5dc7_0.csv`
 }, {
   id: `united-states-of-america-new-york-albany-county`,
   locales: {
@@ -21799,7 +21799,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-91.1523555,46.5779685],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-bayfield-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-brown-county`,
   locales: {
@@ -21813,7 +21813,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.00379000000001,44.460046000000006],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-brown-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-calumet-county`,
   locales: {
@@ -21827,7 +21827,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.22310949999999,44.0678065],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-calumet-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-columbia-county`,
   locales: {
@@ -21841,7 +21841,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.39524750000001,43.46226849999999],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-columbia-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-dane-county`,
   locales: {
@@ -21855,7 +21855,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.4235435,43.069541],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-dane-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-eau-claire-county`,
   locales: {
@@ -21869,7 +21869,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-91.286351,44.726778499999995],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-eau-claire-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-fond-du-lac-county`,
   locales: {
@@ -21883,7 +21883,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.5234625,43.7405715],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-fond-du-lac-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-kenosha-county`,
   locales: {
@@ -21897,7 +21897,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.053184,42.5808145],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-kenosha-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-la-crosse-county`,
   locales: {
@@ -21911,7 +21911,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-91.1678275,43.90481],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-la-crosse-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-milwaukee-county`,
   locales: {
@@ -21925,7 +21925,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.94847250000001,43.017386],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-milwaukee-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-outagamie-county`,
   locales: {
@@ -21939,7 +21939,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.46518649999999,44.416275999999996],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-outagamie-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-ozaukee-county`,
   locales: {
@@ -21953,7 +21953,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.928296,43.367539],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-ozaukee-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-pierce-county`,
   locales: {
@@ -21967,7 +21967,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-92.47159500000001,44.7007885],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-pierce-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-racine-county`,
   locales: {
@@ -21981,7 +21981,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.0365295,42.72707],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-racine-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-sauk-county`,
   locales: {
@@ -21995,7 +21995,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.9558805,43.39317],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-sauk-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-sheboygan-county`,
   locales: {
@@ -22009,7 +22009,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.9311795,43.7172725],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-sheboygan-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-walworth-county`,
   locales: {
@@ -22023,7 +22023,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.5409145,42.66751],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-walworth-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-washington-county`,
   locales: {
@@ -22037,7 +22037,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.2293215,43.3678245],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-washington-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-waukesha-county`,
   locales: {
@@ -22051,7 +22051,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.30268950000001,43.018702],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-waukesha-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-winnebago-county`,
   locales: {
@@ -22065,7 +22065,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.644934,44.0685395],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-winnebago-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-wood-county`,
   locales: {
@@ -22079,7 +22079,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-90.02142649999999,44.466415999999995],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-wood-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-adams-county`,
   locales: {
@@ -22093,7 +22093,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.8114625,43.945259500000006],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-adams-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-ashland-county`,
   locales: {
@@ -22107,7 +22107,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-90.6148065,46.5293125],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-ashland-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-barron-county`,
   locales: {
@@ -22121,7 +22121,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-91.8483795,45.423232999999996],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-barron-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-buffalo-county`,
   locales: {
@@ -22135,7 +22135,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-91.8063705,44.311074500000004],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-buffalo-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-burnett-county`,
   locales: {
@@ -22149,7 +22149,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-92.459242,45.8986695],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-burnett-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-chippewa-county`,
   locales: {
@@ -22163,7 +22163,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-91.2943245,45.073983],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-chippewa-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-clark-county`,
   locales: {
@@ -22177,7 +22177,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-90.6192,44.728065],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-clark-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-crawford-county`,
   locales: {
@@ -22191,7 +22191,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-90.940501,43.206361],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-crawford-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-dodge-county`,
   locales: {
@@ -22205,7 +22205,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.7047825,43.4141185],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-dodge-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-door-county`,
   locales: {
@@ -22219,7 +22219,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.2707365,45.052065999999996],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-door-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-douglas-county`,
   locales: {
@@ -22233,7 +22233,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-91.92256950000001,46.4572665],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-douglas-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-dunn-county`,
   locales: {
@@ -22247,7 +22247,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-91.9037165,44.9465935],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-dunn-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-florence-county`,
   locales: {
@@ -22261,7 +22261,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.371228,45.8671375],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-florence-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-forest-county`,
   locales: {
@@ -22275,7 +22275,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.73643200000001,45.7253055],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-forest-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-grant-county`,
   locales: {
@@ -22289,7 +22289,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-90.7915955,42.859257],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-grant-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-green-county`,
   locales: {
@@ -22303,7 +22303,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.6022205,42.6788355],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-green-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-green-lake-county`,
   locales: {
@@ -22317,7 +22317,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.06556699999999,43.8074785],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-green-lake-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-iowa-county`,
   locales: {
@@ -22331,7 +22331,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-90.13398,43.011221000000006],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-iowa-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-iron-county`,
   locales: {
@@ -22345,7 +22345,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-90.2405085,46.2854815],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-iron-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-jackson-county`,
   locales: {
@@ -22359,7 +22359,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-90.7389105,44.333881],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-jackson-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-jefferson-county`,
   locales: {
@@ -22373,7 +22373,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.774666,43.020219],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-jefferson-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-juneau-county`,
   locales: {
@@ -22387,7 +22387,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-90.049192,43.9452],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-juneau-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-kewaunee-county`,
   locales: {
@@ -22401,7 +22401,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.569711,44.502105],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-kewaunee-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-lafayette-county`,
   locales: {
@@ -22415,7 +22415,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-90.1322445,42.659671],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-lafayette-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-langlade-county`,
   locales: {
@@ -22429,7 +22429,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.0320725,45.249466],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-langlade-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-lincoln-county`,
   locales: {
@@ -22443,7 +22443,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.735818,45.3372255],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-lincoln-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-manitowoc-county`,
   locales: {
@@ -22457,7 +22457,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.7753295,44.1096405],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-manitowoc-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-marathon-county`,
   locales: {
@@ -22471,7 +22471,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.769999,44.9009845],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-marathon-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-marinette-county`,
   locales: {
@@ -22485,7 +22485,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.00762449999999,45.3806155],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-marinette-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-marquette-county`,
   locales: {
@@ -22499,7 +22499,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.383781,43.812715],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-marquette-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-menominee-county`,
   locales: {
@@ -22513,7 +22513,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.732954,44.986731500000005],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-menominee-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-monroe-county`,
   locales: {
@@ -22527,7 +22527,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-90.644889,43.9431965],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-monroe-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-oconto-county`,
   locales: {
@@ -22541,7 +22541,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.2200685,45.025521499999996],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-oconto-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-oneida-county`,
   locales: {
@@ -22555,7 +22555,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.5453365,45.683113],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-oneida-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-pepin-county`,
   locales: {
@@ -22569,7 +22569,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-91.983238,44.545776000000004],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-pepin-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-polk-county`,
   locales: {
@@ -22583,7 +22583,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-92.5212785,45.469117],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-polk-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-portage-county`,
   locales: {
@@ -22597,7 +22597,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.53433799999999,44.464245500000004],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-portage-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-price-county`,
   locales: {
@@ -22611,7 +22611,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-90.3610415,45.679584000000006],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-price-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-richland-county`,
   locales: {
@@ -22625,7 +22625,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-90.431809,43.35973],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-richland-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-rock-county`,
   locales: {
@@ -22639,7 +22639,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.07281,42.669664999999995],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-rock-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-rusk-county`,
   locales: {
@@ -22653,7 +22653,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-91.1100305,45.4651145],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-rusk-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-sawyer-county`,
   locales: {
@@ -22667,7 +22667,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-91.1143865,45.8974295],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-sawyer-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-shawano-county`,
   locales: {
@@ -22681,7 +22681,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.7332505,44.807122500000006],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-shawano-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-st-croix-county`,
   locales: {
@@ -22695,7 +22695,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-92.469596,45.033633],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-st-croix-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-taylor-county`,
   locales: {
@@ -22709,7 +22709,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-90.484035,45.206809],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-taylor-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-trempealeau-county`,
   locales: {
@@ -22723,7 +22723,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-91.382407,44.290606999999994],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-trempealeau-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-vernon-county`,
   locales: {
@@ -22737,7 +22737,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-90.7921605,43.5767915],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-vernon-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-vilas-county`,
   locales: {
@@ -22751,7 +22751,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.488258,46.0781645],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-vilas-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-washburn-county`,
   locales: {
@@ -22765,7 +22765,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-91.7954705,45.897601],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-washburn-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-waupaca-county`,
   locales: {
@@ -22779,7 +22779,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.9150255,44.4619935],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-waupaca-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wisconsin-waushara-county`,
   locales: {
@@ -22793,7 +22793,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.2420865,44.1139125],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-waushara-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://services1.arcgis.com/ISZ89Z51ft1G16OK/arcgis/rest/services/COVID19_WI/FeatureServer/0//query?where=1%3D1&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&resultType=none&distance=0.0&units=esriSRUnit_Meter&returnGeodetic=false&outFields=NAME%2CPOSITIVE%2CDATE%2CCMNTY_SPRD&returnGeometry=true&featureEncoding=esriDefault&multipatchOption=xyFootprint&maxAllowableOffset=&geometryPrecision=&outSR=&datumTransformation=&applyVCSProjection=false&returnIdsOnly=false&returnUniqueIdsOnly=false&returnCountOnly=false&returnExtentOnly=false&returnQueryGeometry=false&returnDistinctValues=false&cacheHint=false&orderByFields=NAME+ASC&groupByFieldsForStatistics=&outStatistics=&having=&resultOffset=&resultRecordCount=&returnZ=false&returnM=false&returnExceededLimitFeatures=true&quantizationParameters=&sqlFormat=none&f=pjson&token=`
+  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
 }, {
   id: `united-states-of-america-wyoming-albany-county`,
   locales: {
@@ -25431,7 +25431,7 @@ export const RegionsData: PlaceSeedData[] = [{
   locales: {
     en: `Macau`
   },
-  alternativeNames: ['Macao'],
+  alternativeNames: [`Macao`],
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
@@ -25565,7 +25565,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-76.2859,36.8508],
   polygon: RegionPolygons[`united-states-of-america-virginia-norfolk-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-arlington-county`,
   locales: {
@@ -25579,7 +25579,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-77.091,38.8816],
   polygon: RegionPolygons[`united-states-of-america-virginia-arlington-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-spotsylvania-county`,
   locales: {
@@ -25593,7 +25593,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-77.6078,38.2042],
   polygon: RegionPolygons[`united-states-of-america-virginia-spotsylvania-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-loudoun-county`,
   locales: {
@@ -25607,7 +25607,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-77.6536,39.0768],
   polygon: RegionPolygons[`united-states-of-america-virginia-loudoun-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-iowa-pottawattamie-county`,
   locales: {
@@ -25635,7 +25635,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.607,34.2465],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-kershaw-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-arizona-pima-county`,
   locales: {
@@ -25761,7 +25761,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.9535,34.8606],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-spartanburg-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-kentucky-harrison-county`,
   locales: {
@@ -25859,7 +25859,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-77.2405,38.9085],
   polygon: RegionPolygons[`united-states-of-america-virginia-fairfax-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-new-hampshire-rockingham-county`,
   locales: {
@@ -25915,7 +25915,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-79.7848,32.7957],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-charleston-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-georgia-cobb-county`,
   locales: {
@@ -26223,7 +26223,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-77.5161,37.7772],
   polygon: RegionPolygons[`united-states-of-america-virginia-hanover-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-south-carolina-lancaster-county`,
   locales: {
@@ -26237,7 +26237,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.6771,34.7253],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-lancaster-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-nebraska-knox-county`,
   locales: {
@@ -26458,10 +26458,10 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5994336,
-  coordinates: undefined,
+  coordinates: [0.40994910693179987,44.976635108258],
   polygon: RegionPolygons[`france-nouvelle-aquitaine`],
   parentId: `france`,
-  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+  dataSource: `https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/articles/infection-au-nouveau-coronavirus-sars-cov-2-covid-19-france-et-monde`
 }, {
   id: `france-hauts-de-france`,
   locales: {
@@ -26472,10 +26472,10 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 6023336,
-  coordinates: undefined,
+  coordinates: [2.81688101494355,49.963169589436],
   polygon: RegionPolygons[`france-hauts-de-france`],
   parentId: `france`,
-  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+  dataSource: `https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/articles/infection-au-nouveau-coronavirus-sars-cov-2-covid-19-france-et-monde`
 }, {
   id: `france-auvergne-rhône-alpes`,
   locales: {
@@ -26486,10 +26486,10 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8037059,
-  coordinates: undefined,
+  coordinates: [4.6235895980203,45.459794376849004],
   polygon: RegionPolygons[`france-auvergne-rhône-alpes`],
   parentId: `france`,
-  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+  dataSource: `https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/articles/infection-au-nouveau-coronavirus-sars-cov-2-covid-19-france-et-monde`
 }, {
   id: `france-martinique`,
   locales: {
@@ -26503,7 +26503,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-61.019622362499945,14.669175522500069],
   polygon: RegionPolygons[`france-martinique`],
   parentId: `france`,
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/articles/infection-au-nouveau-coronavirus-sars-cov-2-covid-19-france-et-monde`
 }, {
   id: `france-guyane`,
   locales: {
@@ -26514,10 +26514,10 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 290691,
-  coordinates: undefined,
+  coordinates: [-53.1138912280205,3.93266119173895],
   polygon: RegionPolygons[`france-guyane`],
   parentId: `france`,
-  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+  dataSource: `https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/articles/infection-au-nouveau-coronavirus-sars-cov-2-covid-19-france-et-monde`
 }, {
   id: `france-ile-de-france`,
   locales: {
@@ -26528,10 +26528,10 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12246234,
-  coordinates: undefined,
+  coordinates: [2.5014494346077,48.677200741510504],
   polygon: RegionPolygons[`france-ile-de-france`],
   parentId: `france`,
-  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+  dataSource: `https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/articles/infection-au-nouveau-coronavirus-sars-cov-2-covid-19-france-et-monde`
 }, {
   id: `france-bourgogne-franche-comté`,
   locales: {
@@ -26542,10 +26542,10 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2813289,
-  coordinates: undefined,
+  coordinates: [4.99249435788615,47.2783252914275],
   polygon: RegionPolygons[`france-bourgogne-franche-comté`],
   parentId: `france`,
-  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+  dataSource: `https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/articles/infection-au-nouveau-coronavirus-sars-cov-2-covid-19-france-et-monde`
 }, {
   id: `france-normandie`,
   locales: {
@@ -26556,10 +26556,10 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3342467,
-  coordinates: undefined,
+  coordinates: [-0.07229962564034997,49.126225630674995],
   polygon: RegionPolygons[`france-normandie`],
   parentId: `france`,
-  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+  dataSource: `https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/articles/infection-au-nouveau-coronavirus-sars-cov-2-covid-19-france-et-monde`
 }, {
   id: `france-pays-de-la-loire`,
   locales: {
@@ -26570,10 +26570,10 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3787411,
-  coordinates: undefined,
+  coordinates: [-0.822573383953075,47.417280519696504],
   polygon: RegionPolygons[`france-pays-de-la-loire`],
   parentId: `france`,
-  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+  dataSource: `https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/articles/infection-au-nouveau-coronavirus-sars-cov-2-covid-19-france-et-monde`
 }, {
   id: `france-bretagne`,
   locales: {
@@ -26584,10 +26584,10 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 3336643,
-  coordinates: undefined,
+  coordinates: [-3.07744531834385,48.075240635677],
   polygon: RegionPolygons[`france-bretagne`],
   parentId: `france`,
-  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+  dataSource: `https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/articles/infection-au-nouveau-coronavirus-sars-cov-2-covid-19-france-et-monde`
 }, {
   id: `france-occitanie`,
   locales: {
@@ -26598,10 +26598,10 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5903190,
-  coordinates: undefined,
+  coordinates: [2.25923388136695,43.689961371314496],
   polygon: RegionPolygons[`france-occitanie`],
   parentId: `france`,
-  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+  dataSource: `https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/articles/infection-au-nouveau-coronavirus-sars-cov-2-covid-19-france-et-monde`
 }, {
   id: `france-provence-alpes-côte-d’azur`,
   locales: {
@@ -26612,10 +26612,10 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5065723,
-  coordinates: undefined,
+  coordinates: [5.9736093715955,44.0544436063075],
   polygon: RegionPolygons[`france-provence-alpes-côte-d’azur`],
   parentId: `france`,
-  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+  dataSource: `https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/articles/infection-au-nouveau-coronavirus-sars-cov-2-covid-19-france-et-monde`
 }, {
   id: `france-corse`,
   locales: {
@@ -26626,10 +26626,10 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 337796,
-  coordinates: undefined,
+  coordinates: [9.04966440635685,42.186944409099496],
   polygon: RegionPolygons[`france-corse`],
   parentId: `france`,
-  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+  dataSource: `https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/articles/infection-au-nouveau-coronavirus-sars-cov-2-covid-19-france-et-monde`
 }, {
   id: `france-saint-barthélemy`,
   locales: {
@@ -26643,7 +26643,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: undefined,
   polygon: RegionPolygons[`france-saint-barthélemy`],
   parentId: `france`,
-  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+  dataSource: `https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/articles/infection-au-nouveau-coronavirus-sars-cov-2-covid-19-france-et-monde`
 }, {
   id: `france-saint-martin`,
   locales: {
@@ -26657,7 +26657,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: undefined,
   polygon: RegionPolygons[`france-saint-martin`],
   parentId: `france`,
-  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+  dataSource: `https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/articles/infection-au-nouveau-coronavirus-sars-cov-2-covid-19-france-et-monde`
 }, {
   id: `france-saint-barthélémy`,
   locales: {
@@ -28040,10 +28040,10 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 5548090,
-  coordinates: undefined,
+  coordinates: [5.80937857149355,48.795257936556],
   polygon: RegionPolygons[`france-grand-est`],
   parentId: `france`,
-  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+  dataSource: `https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/articles/infection-au-nouveau-coronavirus-sars-cov-2-covid-19-france-et-monde`
 }, {
   id: `france-centre-val-de-loire`,
   locales: {
@@ -28053,11 +28053,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 2582522,
+  coordinates: [1.590863237499439,47.6441333322795],
   polygon: RegionPolygons[`france-centre-val-de-loire`],
   parentId: `france`,
-  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+  dataSource: `https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/articles/infection-au-nouveau-coronavirus-sars-cov-2-covid-19-france-et-monde`
 }, {
   id: `united-states-of-america-pennsylvania-cambria`,
   locales: {
@@ -28085,7 +28085,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: undefined,
   polygon: RegionPolygons[`france-polynésie-française`],
   parentId: `france`,
-  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+  dataSource: `https://www.service-public.pf/dsp/wp-content/uploads/sites/12/2020/03/Communiqu%C3%A9-Point-sur-coronavirus-au-24-mars-2020.pdf`
 }, {
   id: `france-île-de-france`,
   locales: {
@@ -28127,7 +28127,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: undefined,
   polygon: RegionPolygons[`france-nouvelle-calédonie`],
   parentId: `france`,
-  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+  dataSource: `https://gouv.nc/sites/default/files/atoms/files/2020.03.24_cp_tests.pdf`
 }, {
   id: `united-states-of-america-virginia-accomack-county`,
   locales: {
@@ -28141,7 +28141,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-75.644398,37.7385425],
   polygon: RegionPolygons[`united-states-of-america-virginia-accomack-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-albemarle-county`,
   locales: {
@@ -28155,7 +28155,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-78.5236515,38.000304],
   polygon: RegionPolygons[`united-states-of-america-virginia-albemarle-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-alexandria-city`,
   locales: {
@@ -28183,7 +28183,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-79.95775950000001,37.7775235],
   polygon: RegionPolygons[`united-states-of-america-virginia-alleghany-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-amelia-county`,
   locales: {
@@ -28197,7 +28197,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-77.9428245,37.3452815],
   polygon: RegionPolygons[`united-states-of-america-virginia-amelia-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-amherst-county`,
   locales: {
@@ -28211,7 +28211,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-79.1530855,37.602087],
   polygon: RegionPolygons[`united-states-of-america-virginia-amherst-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-appomattox-county`,
   locales: {
@@ -28225,7 +28225,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-78.80648099999999,37.377197],
   polygon: RegionPolygons[`united-states-of-america-virginia-appomattox-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-augusta-county`,
   locales: {
@@ -28239,7 +28239,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-79.140507,38.1797265],
   polygon: RegionPolygons[`united-states-of-america-virginia-augusta-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-bath-county`,
   locales: {
@@ -28253,7 +28253,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-79.7465035,38.0554355],
   polygon: RegionPolygons[`united-states-of-america-virginia-bath-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-bedford-county`,
   locales: {
@@ -28267,7 +28267,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-79.515404,37.3364395],
   polygon: RegionPolygons[`united-states-of-america-virginia-bedford-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-bland-county`,
   locales: {
@@ -28281,7 +28281,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.158324,37.127348],
   polygon: RegionPolygons[`united-states-of-america-virginia-bland-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-botetourt-county`,
   locales: {
@@ -28295,7 +28295,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-79.786269,37.555082999999996],
   polygon: RegionPolygons[`united-states-of-america-virginia-botetourt-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-bristol-city`,
   locales: {
@@ -28323,7 +28323,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-77.8510215,36.783462],
   polygon: RegionPolygons[`united-states-of-america-virginia-brunswick-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-buchanan-county`,
   locales: {
@@ -28337,7 +28337,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.0269975,37.289102],
   polygon: RegionPolygons[`united-states-of-america-virginia-buchanan-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-buckingham-county`,
   locales: {
@@ -28351,7 +28351,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-78.5350435,37.563300999999996],
   polygon: RegionPolygons[`united-states-of-america-virginia-buckingham-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-buena-vista-city`,
   locales: {
@@ -28379,7 +28379,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-79.1335465,37.227759500000005],
   polygon: RegionPolygons[`united-states-of-america-virginia-campbell-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-caroline-county`,
   locales: {
@@ -28393,7 +28393,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-77.3561575,38.014773000000005],
   polygon: RegionPolygons[`united-states-of-america-virginia-caroline-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-carroll-county`,
   locales: {
@@ -28407,7 +28407,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.748516,36.744825500000005],
   polygon: RegionPolygons[`united-states-of-america-virginia-carroll-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-charles-city-county`,
   locales: {
@@ -28421,7 +28421,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-77.07255599999999,37.3568285],
   polygon: RegionPolygons[`united-states-of-america-virginia-charles-city-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-charlotte-county`,
   locales: {
@@ -28435,7 +28435,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-78.67395300000001,36.973334],
   polygon: RegionPolygons[`united-states-of-america-virginia-charlotte-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-charlottesville-city`,
   locales: {
@@ -28477,7 +28477,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-77.5608615,37.3898865],
   polygon: RegionPolygons[`united-states-of-america-virginia-chesterfield-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-clarke-county`,
   locales: {
@@ -28491,7 +28491,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-77.990069,39.12205],
   polygon: RegionPolygons[`united-states-of-america-virginia-clarke-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-colonial-heights-city`,
   locales: {
@@ -28533,7 +28533,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.222319,37.4875955],
   polygon: RegionPolygons[`united-states-of-america-virginia-craig-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-culpeper-county`,
   locales: {
@@ -28547,7 +28547,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-77.9253525,38.5022845],
   polygon: RegionPolygons[`united-states-of-america-virginia-culpeper-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-cumberland-county`,
   locales: {
@@ -28561,7 +28561,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-78.26867250000001,37.525067],
   polygon: RegionPolygons[`united-states-of-america-virginia-cumberland-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-danville-city`,
   locales: {
@@ -28589,7 +28589,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.344888,37.1309385],
   polygon: RegionPolygons[`united-states-of-america-virginia-dickenson-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-dinwiddie-county`,
   locales: {
@@ -28603,7 +28603,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-77.64856449999999,37.0721825],
   polygon: RegionPolygons[`united-states-of-america-virginia-dinwiddie-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-emporia-city`,
   locales: {
@@ -28631,7 +28631,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-76.9260005,37.945118],
   polygon: RegionPolygons[`united-states-of-america-virginia-essex-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-fairfax-city`,
   locales: {
@@ -28642,10 +28642,10 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 24574,
-  coordinates: undefined,
+  coordinates: [-77.3026525,38.850363],
   polygon: RegionPolygons[`united-states-of-america-virginia-fairfax-city`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-falls-church-city`,
   locales: {
@@ -28673,7 +28673,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-77.830744,38.711777],
   polygon: RegionPolygons[`united-states-of-america-virginia-fauquier-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-floyd-county`,
   locales: {
@@ -28687,7 +28687,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.3711035,36.915814999999995],
   polygon: RegionPolygons[`united-states-of-america-virginia-floyd-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-fluvanna-county`,
   locales: {
@@ -28701,7 +28701,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-78.2774385,37.848447],
   polygon: RegionPolygons[`united-states-of-america-virginia-fluvanna-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-franklin-city`,
   locales: {
@@ -28712,10 +28712,10 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8013,
-  coordinates: undefined,
+  coordinates: [-76.9388495,36.678396],
   polygon: RegionPolygons[`united-states-of-america-virginia-franklin-city`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-franklin-county`,
   locales: {
@@ -28729,7 +28729,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-79.91475700000001,37.0068835],
   polygon: RegionPolygons[`united-states-of-america-virginia-franklin-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-frederick-county`,
   locales: {
@@ -28743,7 +28743,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-78.28864300000001,39.236994499999994],
   polygon: RegionPolygons[`united-states-of-america-virginia-frederick-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-fredericksburg-city`,
   locales: {
@@ -28785,7 +28785,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.72392500000001,37.314577],
   polygon: RegionPolygons[`united-states-of-america-virginia-giles-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-gloucester-county`,
   locales: {
@@ -28799,7 +28799,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-76.53089700000001,37.4220945],
   polygon: RegionPolygons[`united-states-of-america-virginia-gloucester-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-goochland-county`,
   locales: {
@@ -28813,7 +28813,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-77.8880645,37.7338695],
   polygon: RegionPolygons[`united-states-of-america-virginia-goochland-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-grayson-county`,
   locales: {
@@ -28827,7 +28827,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.2577445,36.6827765],
   polygon: RegionPolygons[`united-states-of-america-virginia-grayson-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-greene-county`,
   locales: {
@@ -28841,7 +28841,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-78.475071,38.3301325],
   polygon: RegionPolygons[`united-states-of-america-virginia-greene-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-greensville-county`,
   locales: {
@@ -28855,7 +28855,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-77.53199599999999,36.719626500000004],
   polygon: RegionPolygons[`united-states-of-america-virginia-greensville-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-halifax-county`,
   locales: {
@@ -28869,7 +28869,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-78.898201,36.801494500000004],
   polygon: RegionPolygons[`united-states-of-america-virginia-halifax-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-hampton-city`,
   locales: {
@@ -28911,7 +28911,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-77.41600199999999,37.531183],
   polygon: RegionPolygons[`united-states-of-america-virginia-henrico-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-henry-county`,
   locales: {
@@ -28925,7 +28925,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-79.86752050000001,36.6990705],
   polygon: RegionPolygons[`united-states-of-america-virginia-henry-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-highland-county`,
   locales: {
@@ -28939,7 +28939,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-79.55954299999999,38.385967],
   polygon: RegionPolygons[`united-states-of-america-virginia-highland-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-hopewell-city`,
   locales: {
@@ -28967,7 +28967,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-76.7051245,36.893055000000004],
   polygon: RegionPolygons[`united-states-of-america-virginia-isle-of-wight-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-james-city-county`,
   locales: {
@@ -28981,7 +28981,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-76.74548949999999,37.3170865],
   polygon: RegionPolygons[`united-states-of-america-virginia-james-city-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-king-and-queen-county`,
   locales: {
@@ -28995,7 +28995,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-76.916604,37.701654500000004],
   polygon: RegionPolygons[`united-states-of-america-virginia-king-and-queen-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-king-george-county`,
   locales: {
@@ -29009,7 +29009,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-77.17169899999999,38.2708395],
   polygon: RegionPolygons[`united-states-of-america-virginia-king-george-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-king-william-county`,
   locales: {
@@ -29023,7 +29023,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-77.065014,37.713815],
   polygon: RegionPolygons[`united-states-of-america-virginia-king-william-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-lancaster-county`,
   locales: {
@@ -29037,7 +29037,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-76.4608615,37.724591000000004],
   polygon: RegionPolygons[`united-states-of-america-virginia-lancaster-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-lee-county`,
   locales: {
@@ -29051,7 +29051,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-83.22336050000001,36.743474],
   polygon: RegionPolygons[`united-states-of-america-virginia-lee-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-lexington-city`,
   locales: {
@@ -29079,7 +29079,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-77.9969505,37.940726],
   polygon: RegionPolygons[`united-states-of-america-virginia-louisa-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-lunenburg-county`,
   locales: {
@@ -29093,7 +29093,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-78.2483335,36.9489735],
   polygon: RegionPolygons[`united-states-of-america-virginia-lunenburg-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-madison-county`,
   locales: {
@@ -29107,7 +29107,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-78.2678535,38.428897500000005],
   polygon: RegionPolygons[`united-states-of-america-virginia-madison-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-manassas-city`,
   locales: {
@@ -29163,7 +29163,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-76.3485555,37.422753],
   polygon: RegionPolygons[`united-states-of-america-virginia-mathews-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-mecklenburg-county`,
   locales: {
@@ -29177,7 +29177,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-78.382992,36.716100499999996],
   polygon: RegionPolygons[`united-states-of-america-virginia-mecklenburg-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-middlesex-county`,
   locales: {
@@ -29191,7 +29191,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-76.5245335,37.6403215],
   polygon: RegionPolygons[`united-states-of-america-virginia-middlesex-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-montgomery-county`,
   locales: {
@@ -29205,7 +29205,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.396044,37.174181],
   polygon: RegionPolygons[`united-states-of-america-virginia-montgomery-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-nelson-county`,
   locales: {
@@ -29219,7 +29219,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-78.90690000000001,37.7916035],
   polygon: RegionPolygons[`united-states-of-america-virginia-nelson-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-new-kent-county`,
   locales: {
@@ -29233,7 +29233,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-76.987965,37.502273],
   polygon: RegionPolygons[`united-states-of-america-virginia-new-kent-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-newport-news-city`,
   locales: {
@@ -29261,7 +29261,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-75.8437715,37.335729],
   polygon: RegionPolygons[`united-states-of-america-virginia-northampton-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-northumberland-county`,
   locales: {
@@ -29275,7 +29275,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-76.4354775,37.85774],
   polygon: RegionPolygons[`united-states-of-america-virginia-northumberland-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-norton-city`,
   locales: {
@@ -29303,7 +29303,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-78.01764,37.1417495],
   polygon: RegionPolygons[`united-states-of-america-virginia-nottoway-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-orange-county`,
   locales: {
@@ -29317,7 +29317,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-78.03649300000001,38.255215],
   polygon: RegionPolygons[`united-states-of-america-virginia-orange-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-page-county`,
   locales: {
@@ -29331,7 +29331,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-78.48809449999999,38.625819],
   polygon: RegionPolygons[`united-states-of-america-virginia-page-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-patrick-county`,
   locales: {
@@ -29345,7 +29345,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.33234,36.707333500000004],
   polygon: RegionPolygons[`united-states-of-america-virginia-patrick-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-petersburg-city`,
   locales: {
@@ -29373,7 +29373,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-79.40355199999999,36.8390615],
   polygon: RegionPolygons[`united-states-of-america-virginia-pittsylvania-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-poquoson-city`,
   locales: {
@@ -29415,7 +29415,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-77.8930175,37.5532115],
   polygon: RegionPolygons[`united-states-of-america-virginia-powhatan-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-prince-edward-county`,
   locales: {
@@ -29429,7 +29429,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-78.461833,37.238687],
   polygon: RegionPolygons[`united-states-of-america-virginia-prince-edward-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-prince-george-county`,
   locales: {
@@ -29443,7 +29443,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-77.185821,37.1568705],
   polygon: RegionPolygons[`united-states-of-america-virginia-prince-george-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-prince-william-county`,
   locales: {
@@ -29457,7 +29457,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-77.468347,38.721167],
   polygon: RegionPolygons[`united-states-of-america-virginia-prince-william-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-pulaski-county`,
   locales: {
@@ -29471,7 +29471,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.7237805,37.061956],
   polygon: RegionPolygons[`united-states-of-america-virginia-pulaski-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-radford-city`,
   locales: {
@@ -29499,7 +29499,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-78.136887,38.692847],
   polygon: RegionPolygons[`united-states-of-america-virginia-rappahannock-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-richmond-city`,
   locales: {
@@ -29510,10 +29510,10 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 228783,
-  coordinates: undefined,
+  coordinates: [-77.4909325,37.5247625],
   polygon: RegionPolygons[`united-states-of-america-virginia-richmond-city`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-richmond-county`,
   locales: {
@@ -29527,7 +29527,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-76.722874,37.958277499999994],
   polygon: RegionPolygons[`united-states-of-america-virginia-richmond-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-roanoke-city`,
   locales: {
@@ -29538,10 +29538,10 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 99920,
-  coordinates: undefined,
+  coordinates: [-79.95583099999999,37.2732505],
   polygon: RegionPolygons[`united-states-of-america-virginia-roanoke-city`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-roanoke-county`,
   locales: {
@@ -29555,7 +29555,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-79.95583099999999,37.2732505],
   polygon: RegionPolygons[`united-states-of-america-virginia-roanoke-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-rockbridge-county`,
   locales: {
@@ -29569,7 +29569,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-79.4160435,37.809496],
   polygon: RegionPolygons[`united-states-of-america-virginia-rockbridge-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-rockingham-county`,
   locales: {
@@ -29583,7 +29583,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-78.8550975,38.5283615],
   polygon: RegionPolygons[`united-states-of-america-virginia-rockingham-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-russell-county`,
   locales: {
@@ -29597,7 +29597,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.093586,36.9259505],
   polygon: RegionPolygons[`united-states-of-america-virginia-russell-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-salem-city`,
   locales: {
@@ -29625,7 +29625,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.63963799999999,36.7395335],
   polygon: RegionPolygons[`united-states-of-america-virginia-scott-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-shenandoah-county`,
   locales: {
@@ -29639,7 +29639,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-78.58491000000001,38.8514855],
   polygon: RegionPolygons[`united-states-of-america-virginia-shenandoah-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-smyth-county`,
   locales: {
@@ -29653,7 +29653,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.54923099999999,36.826367000000005],
   polygon: RegionPolygons[`united-states-of-america-virginia-smyth-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-southampton-county`,
   locales: {
@@ -29667,7 +29667,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-77.158759,36.770013000000006],
   polygon: RegionPolygons[`united-states-of-america-virginia-southampton-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-stafford-county`,
   locales: {
@@ -29681,7 +29681,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-77.4605185,38.418784],
   polygon: RegionPolygons[`united-states-of-america-virginia-stafford-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-staunton-city`,
   locales: {
@@ -29723,7 +29723,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-76.9095945,37.0964755],
   polygon: RegionPolygons[`united-states-of-america-virginia-surry-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-sussex-county`,
   locales: {
@@ -29737,7 +29737,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-77.2862875,36.909846],
   polygon: RegionPolygons[`united-states-of-america-virginia-sussex-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-tazewell-county`,
   locales: {
@@ -29751,7 +29751,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.5630955,37.1353505],
   polygon: RegionPolygons[`united-states-of-america-virginia-tazewell-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-virginia-beach-city`,
   locales: {
@@ -29779,7 +29779,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-78.1954245,38.8966595],
   polygon: RegionPolygons[`united-states-of-america-virginia-warren-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-washington-county`,
   locales: {
@@ -29793,7 +29793,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.968962,36.761613],
   polygon: RegionPolygons[`united-states-of-america-virginia-washington-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-waynesboro-city`,
   locales: {
@@ -29821,7 +29821,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-76.7906155,38.1223385],
   polygon: RegionPolygons[`united-states-of-america-virginia-westmoreland-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-williamsburg-city`,
   locales: {
@@ -29863,7 +29863,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.5901685,37.001357999999996],
   polygon: RegionPolygons[`united-states-of-america-virginia-wise-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-wythe-county`,
   locales: {
@@ -29877,7 +29877,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.059955,36.9165845],
   polygon: RegionPolygons[`united-states-of-america-virginia-wythe-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `united-states-of-america-virginia-york-county`,
   locales: {
@@ -29891,7 +29891,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-76.57206500000001,37.236022],
   polygon: RegionPolygons[`united-states-of-america-virginia-york-county`],
   parentId: `united-states-of-america-virginia`,
-  dataSource: `https://public.tableau.com/views/VirginiaCOVID-19Dashboard/VirginiaCOVID-19Dashboard`
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }, {
   id: `switzerland-ag`,
   locales: {
@@ -37689,7 +37689,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: undefined,
   polygon: RegionPolygons[`united-states-of-america-florida-(unassigned)`],
   parentId: `united-states-of-america-florida`,
-  dataSource: `https://services1.arcgis.com/CY1LXxl9zlJeBuRZ/arcgis/rest/services/Florida_Testing/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=true&spatialRel=esriSpatialRelIntersects&maxAllowableOffset=4891&geometry=%7B%22xmin%22%3A-10018754.1713954%2C%22ymin%22%3A2504688.542850271%2C%22xmax%22%3A-7514065.628547024%2C%22ymax%22%3A5009377.085698649%2C%22spatialReference%22%3A%7B%22wkid%22%3A102100%2C%22latestWkid%22%3A3857%7D%7D&geometryType=esriGeometryEnvelope&inSR=102100&outFields=*&outSR=102100&resultType=tile`
+  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
 }, {
   id: `united-states-of-america-idaho-kootenai-county`,
   locales: {
@@ -43303,7 +43303,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.972544,34.005998500000004],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-richland-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-greenville-county`,
   locales: {
@@ -43317,7 +43317,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.455628,34.84970199999999],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-greenville-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-beaufort-county`,
   locales: {
@@ -43331,7 +43331,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.721542,32.392056499999995],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-beaufort-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-lexington-county`,
   locales: {
@@ -43345,7 +43345,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.2482265,33.925262000000004],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-lexington-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-anderson-county`,
   locales: {
@@ -43359,7 +43359,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.65310550000001,34.5141315],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-anderson-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-horry-county`,
   locales: {
@@ -43373,7 +43373,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-78.9354445,33.9355835],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-horry-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-greenwood-county`,
   locales: {
@@ -43387,7 +43387,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.1013845,34.181443],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-greenwood-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-orangeburg-county`,
   locales: {
@@ -43401,7 +43401,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.79759899999999,33.4420305],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-orangeburg-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-sumter-county`,
   locales: {
@@ -43415,7 +43415,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.2683755,33.9063035],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-sumter-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-darlington-county`,
   locales: {
@@ -43429,7 +43429,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-79.973228,34.310535],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-darlington-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-york-county`,
   locales: {
@@ -43443,7 +43443,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.179401,34.9928175],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-york-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-abbeville-county`,
   locales: {
@@ -43457,7 +43457,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.4905485,34.2489695],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-abbeville-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-aiken-county`,
   locales: {
@@ -43471,7 +43471,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.59984850000001,33.537676],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-aiken-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-berkeley-county`,
   locales: {
@@ -43485,7 +43485,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-79.904275,33.162452],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-berkeley-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-calhoun-county`,
   locales: {
@@ -43499,7 +43499,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.7778705,33.673043],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-calhoun-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-clarendon-county`,
   locales: {
@@ -43513,7 +43513,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.20538400000001,33.688693],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-clarendon-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-colleton-county`,
   locales: {
@@ -43527,7 +43527,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.6659285,32.8258745],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-colleton-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-dillon-county`,
   locales: {
@@ -43541,7 +43541,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-79.35229100000001,34.425974499999995],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-dillon-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-dorchester-county`,
   locales: {
@@ -43555,7 +43555,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.434662,33.0763415],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-dorchester-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-edgefield-county`,
   locales: {
@@ -43569,7 +43569,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.917373,33.754501000000005],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-edgefield-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-fairfield-county`,
   locales: {
@@ -43583,7 +43583,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.0987355,34.373290499999996],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-fairfield-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-florence-county`,
   locales: {
@@ -43597,7 +43597,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-79.69691499999999,34.0402735],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-florence-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-lee-county`,
   locales: {
@@ -43611,7 +43611,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.24095600000001,34.159143],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-lee-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-marlboro-county`,
   locales: {
@@ -43625,7 +43625,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-79.6923275,34.5522745],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-marlboro-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-newberry-county`,
   locales: {
@@ -43639,7 +43639,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.630965,34.30257],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-newberry-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-saluda-county`,
   locales: {
@@ -43653,7 +43653,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.74112199999999,34.0010615],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-saluda-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-allendale-county`,
   locales: {
@@ -43667,7 +43667,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.34829450000001,32.951465999999996],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-allendale-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-bamberg-county`,
   locales: {
@@ -43681,7 +43681,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.012858,33.233315],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-bamberg-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-barnwell-county`,
   locales: {
@@ -43695,7 +43695,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.482767,33.2916845],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-barnwell-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-cherokee-county`,
   locales: {
@@ -43709,7 +43709,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.620516,35.0116965],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-cherokee-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-chester-county`,
   locales: {
@@ -43723,7 +43723,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.173933,34.6823275],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-chester-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-chesterfield-county`,
   locales: {
@@ -43737,7 +43737,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.1707055,34.591844],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-chesterfield-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-georgetown-county`,
   locales: {
@@ -43751,7 +43751,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-79.339747,33.4449645],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-georgetown-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-hampton-county`,
   locales: {
@@ -43765,7 +43765,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.126913,32.791534999999996],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-hampton-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-jasper-county`,
   locales: {
@@ -43779,7 +43779,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.051263,32.393829],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-jasper-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-laurens-county`,
   locales: {
@@ -43793,7 +43793,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.979048,34.494350999999995],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-laurens-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-mccormick-county`,
   locales: {
@@ -43807,7 +43807,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.31980899999999,33.8355325],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-mccormick-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-marion-county`,
   locales: {
@@ -43821,7 +43821,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-79.34424949999999,33.997411],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-marion-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-oconee-county`,
   locales: {
@@ -43835,7 +43835,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-83.088026,34.7640765],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-oconee-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-pickens-county`,
   locales: {
@@ -43849,7 +43849,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.71113199999999,34.854406],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-pickens-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-union-county`,
   locales: {
@@ -43863,7 +43863,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.634948,34.678805499999996],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-union-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-south-carolina-williamsburg-county`,
   locales: {
@@ -43877,7 +43877,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-79.70936900000001,33.598341],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-williamsburg-county`],
   parentId: `united-states-of-america-south-carolina`,
-  dataSource: `https://services2.arcgis.com/XZg2efAbaieYAXmu/arcgis/rest/services/COVID19_County_View/FeatureServer/0/query?f=json&where=Confirmed%20%3E%200&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Confirmed%20desc&resultOffset=0&resultRecordCount=1000&cacheHint=true`
+  dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
 }, {
   id: `united-states-of-america-west-virginia-jackson-county`,
   locales: {
@@ -45389,7 +45389,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: undefined,
   polygon: RegionPolygons[`france-wallis-et-futuna`],
   parentId: `france`,
-  dataSource: `https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv`
+  dataSource: `http://www.wallis-et-futuna.gouv.fr/content/download/7557/49556/file/20200324-CP%20du%2024%20mars-%20COVID-19.pdf`
 }, {
   id: `india-andhra-pradesh`,
   locales: {
@@ -48353,7 +48353,7 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
+  population: 3351200,
   coordinates: [93.85202843938632,24.769062782021763],
   polygon: RegionPolygons[`india-manipur`],
   parentId: `india`,
@@ -48367,7 +48367,7 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
+  population: 1668800,
   coordinates: [92.84258060700009,23.224332482374557],
   polygon: RegionPolygons[`india-mizoram`],
   parentId: `india`,
@@ -49799,5 +49799,1629 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [18.3358,-64.8963],
   polygon: RegionPolygons[`united-states-of-america-virgin-islands`],
   parentId: `united-states-of-america`,
-  dataSource: undefined
+  dataSource: `https://covidtracking.com/api/states`
+}, {
+  id: `spain-asturias`,
+  locales: {
+    en: `Asturias`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 1019993,
+  coordinates: [-5.846662500000001,43.274512],
+  polygon: RegionPolygons[`spain-asturias`],
+  parentId: `spain`,
+  dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
+}, {
+  id: `spain-baleares`,
+  locales: {
+    en: `Baleares`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 1198576,
+  coordinates: [2.742513,39.3679555],
+  polygon: RegionPolygons[`spain-baleares`],
+  parentId: `spain`,
+  dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
+}, {
+  id: `spain-c-valenciana`,
+  locales: {
+    en: `C. Valenciana`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 4998711,
+  coordinates: [-0.4188955,39.316719000000006],
+  polygon: RegionPolygons[`spain-c-valenciana`],
+  parentId: `spain`,
+  dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
+}, {
+  id: `spain-madrid`,
+  locales: {
+    en: `Madrid`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 6685471,
+  coordinates: [-3.8155935000000003,40.522648000000004],
+  polygon: RegionPolygons[`spain-madrid`],
+  parentId: `spain`,
+  dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
+}, {
+  id: `spain-murcia`,
+  locales: {
+    en: `Murcia`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 1494442,
+  coordinates: [-1.494855,38.064493999999996],
+  polygon: RegionPolygons[`spain-murcia`],
+  parentId: `spain`,
+  dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
+}, {
+  id: `spain-navarra`,
+  locales: {
+    en: `Navarra`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 652526,
+  coordinates: [-1.611632,42.611912000000004],
+  polygon: RegionPolygons[`spain-navarra`],
+  parentId: `spain`,
+  dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
+}, {
+  id: `india-andaman-and-nicobar-islands`,
+  locales: {
+    en: `Andaman and Nicobar Islands`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 380520,
+  coordinates: [93.15277067000005,10.186102606000048],
+  polygon: RegionPolygons[`india-andaman-and-nicobar-islands`],
+  parentId: `india`,
+  dataSource: `https://www.mohfw.gov.in/`
+}, {
+  id: `india-goa`,
+  locales: {
+    en: `Goa`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 1500000,
+  coordinates: [74.00107852529374,15.329739996534386],
+  polygon: RegionPolygons[`india-goa`],
+  parentId: `india`,
+  dataSource: `https://www.mohfw.gov.in/`
+}, {
+  id: `russia-москва`,
+  locales: {
+    en: `Москва`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 12692466,
+  coordinates: [37.37360600816072,55.44724463183428],
+  polygon: RegionPolygons[`russia-москва`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-московская-область`,
+  locales: {
+    en: `Московская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 7687647,
+  coordinates: [37.69028893423692,55.594087530914805],
+  polygon: RegionPolygons[`russia-московская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-санкт-петербург`,
+  locales: {
+    en: `Санкт-Петербург`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 5392992,
+  coordinates: [30.0870441013015,59.93793091458002],
+  polygon: RegionPolygons[`russia-санкт-петербург`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-самарская-область`,
+  locales: {
+    en: `Самарская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 3179026,
+  coordinates: [50.24352786651778,53.19935038586158],
+  polygon: RegionPolygons[`russia-самарская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-республика-саха-(якутия)`,
+  locales: {
+    en: `Республика Саха (Якутия)`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 970105,
+  coordinates: [134.19354577062074,66.10226602223707],
+  polygon: RegionPolygons[`russia-республика-саха-(якутия)`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-свердловская-область`,
+  locales: {
+    en: `Свердловская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 4310861,
+  coordinates: [61.707634312023856,59.02801229533114],
+  polygon: RegionPolygons[`russia-свердловская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-калининградская-область`,
+  locales: {
+    en: `Калининградская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 1012253,
+  coordinates: [21.221198564000076,54.81279754841499],
+  polygon: RegionPolygons[`russia-калининградская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-кировская-область`,
+  locales: {
+    en: `Кировская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 1262549,
+  coordinates: [50.131648390410874,58.579512539871786],
+  polygon: RegionPolygons[`russia-кировская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-новосибирская-область`,
+  locales: {
+    en: `Новосибирская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 2798251,
+  coordinates: [80.08842451353044,55.288846533540664],
+  polygon: RegionPolygons[`russia-новосибирская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-красноярский-край`,
+  locales: {
+    en: `Красноярский край`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 2867875,
+  coordinates: [95.03223717550006,66.5351217717118],
+  polygon: RegionPolygons[`russia-красноярский-край`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-тамбовская-область`,
+  locales: {
+    en: `Тамбовская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 1006962,
+  coordinates: [41.59485680569699,52.711950792095365],
+  polygon: RegionPolygons[`russia-тамбовская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-липецкая-область`,
+  locales: {
+    en: `Липецкая область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 1139492,
+  coordinates: [39.21200483550473,52.73360321726463],
+  polygon: RegionPolygons[`russia-липецкая-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-тверская-область`,
+  locales: {
+    en: `Тверская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 1260345,
+  coordinates: [34.561591017261605,57.24892192275851],
+  polygon: RegionPolygons[`russia-тверская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-хабаровский-край`,
+  locales: {
+    en: `Хабаровский край`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 1315310,
+  coordinates: [138.80256676644308,54.60521131789798],
+  polygon: RegionPolygons[`russia-хабаровский-край`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-тюменская-область`,
+  locales: {
+    en: `Тюменская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 1537684,
+  coordinates: [69.99937625501013,57.561332197545134],
+  polygon: RegionPolygons[`russia-тюменская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-тульская-область`,
+  locales: {
+    en: `Тульская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 1466025,
+  coordinates: [37.42038292777988,53.90495290810023],
+  polygon: RegionPolygons[`russia-тульская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-пермский-край`,
+  locales: {
+    en: `Пермский край`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 2599301,
+  coordinates: [55.62097741027924,58.89513926886215],
+  polygon: RegionPolygons[`russia-пермский-край`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-нижегородская-область`,
+  locales: {
+    en: `Нижегородская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 3203818,
+  coordinates: [44.77275068549571,56.278012193807655],
+  polygon: RegionPolygons[`russia-нижегородская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-краснодарский-край`,
+  locales: {
+    en: `Краснодарский край`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 5677786,
+  coordinates: [39.16124006450244,45.125972212745225],
+  polygon: RegionPolygons[`russia-краснодарский-край`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-воронежская-область`,
+  locales: {
+    en: `Воронежская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 2323657,
+  coordinates: [40.54008914549763,50.82018036194679],
+  polygon: RegionPolygons[`russia-воронежская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-кемеровская-область`,
+  locales: {
+    en: `Кемеровская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 2657758,
+  coordinates: [86.92687015138634,54.50048503315773],
+  polygon: RegionPolygons[`russia-кемеровская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-республика-хакасия`,
+  locales: {
+    en: `Республика Хакасия`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 534186,
+  coordinates: [89.84276452016641,53.380970428192654],
+  polygon: RegionPolygons[`russia-республика-хакасия`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-мурманская-область`,
+  locales: {
+    en: `Мурманская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 741511,
+  coordinates: [34.90373905100009,68.00938548400006],
+  polygon: RegionPolygons[`russia-мурманская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-республика-коми`,
+  locales: {
+    en: `Республика Коми`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 820171,
+  coordinates: [55.824065789704406,63.8317630077066],
+  polygon: RegionPolygons[`russia-республика-коми`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-калужская-область`,
+  locales: {
+    en: `Калужская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 1000070,
+  coordinates: [35.38014570536001,54.29542003021021],
+  polygon: RegionPolygons[`russia-калужская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-ивановская-область`,
+  locales: {
+    en: `Ивановская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 997196,
+  coordinates: [41.5570813335367,57.059127305630625],
+  polygon: RegionPolygons[`russia-ивановская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-забайкальский-край`,
+  locales: {
+    en: `Забайкальский край`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 1059657,
+  coordinates: [114.93598067831564,53.76782989901964],
+  polygon: RegionPolygons[`russia-забайкальский-край`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-томская-область`,
+  locales: {
+    en: `Томская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 1079051,
+  coordinates: [82.23537356953457,58.36996460628154],
+  polygon: RegionPolygons[`russia-томская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-архангельская-область`,
+  locales: {
+    en: `Архангельская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 1092277,
+  coordinates: [52.40648013605133,71.25419668220843],
+  polygon: RegionPolygons[`russia-архангельская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-рязанская-область`,
+  locales: {
+    en: `Рязанская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 1108924,
+  coordinates: [40.687211948222824,54.34107615803825],
+  polygon: RegionPolygons[`russia-рязанская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-чувашская-республика`,
+  locales: {
+    en: `Чувашская Республика`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 1217820,
+  coordinates: [47.16624799999519,55.48089030609273],
+  polygon: RegionPolygons[`russia-чувашская-республика`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-ульяновская-область`,
+  locales: {
+    en: `Ульяновская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 1229687,
+  coordinates: [48.023870070097615,53.726798407770275],
+  polygon: RegionPolygons[`russia-ульяновская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-ярославская-область`,
+  locales: {
+    en: `Ярославская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 1253189,
+  coordinates: [39.256808302611034,57.74603628194882],
+  polygon: RegionPolygons[`russia-ярославская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-пензенская-область`,
+  locales: {
+    en: `Пензенская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 1304825,
+  coordinates: [44.538553094549655,53.16538564742967],
+  polygon: RegionPolygons[`russia-пензенская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-белгородская-область`,
+  locales: {
+    en: `Белгородская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 1547532,
+  coordinates: [37.257911820915325,50.611976016414836],
+  polygon: RegionPolygons[`russia-белгородская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-ханты-мансийский-ао`,
+  locales: {
+    en: `Ханты-Мансийский АО`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 1674086,
+  coordinates: [72.59394656733019,62.153105780807095],
+  polygon: RegionPolygons[`russia-ханты-мансийский-ао`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-ленинградская-область`,
+  locales: {
+    en: `Ленинградская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 1876392,
+  coordinates: [31.690953920473945,59.880169583309595],
+  polygon: RegionPolygons[`russia-ленинградская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-оренбургская-область`,
+  locales: {
+    en: `Оренбургская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 1956256,
+  coordinates: [56.20663392436609,52.42594798177135],
+  polygon: RegionPolygons[`russia-оренбургская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-саратовская-область`,
+  locales: {
+    en: `Саратовская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 2421785,
+  coordinates: [46.63994897159279,51.3108997632721],
+  polygon: RegionPolygons[`russia-саратовская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-республика-татарстан`,
+  locales: {
+    en: `Республика Татарстан`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 3902642,
+  coordinates: [50.70933922692376,55.3216364610538],
+  polygon: RegionPolygons[`russia-республика-татарстан`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-курганская-область`,
+  locales: {
+    en: `Курганская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 826941,
+  coordinates: [65.35707555947121,55.50209433754868],
+  polygon: RegionPolygons[`russia-курганская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-кабардино-балкарская-республика`,
+  locales: {
+    en: `Кабардино-Балкарская Республика`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 868174,
+  coordinates: [43.39782079804138,43.44054826788823],
+  polygon: RegionPolygons[`russia-кабардино-балкарская-республика`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-челябинская-область`,
+  locales: {
+    en: `Челябинская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 3466960,
+  coordinates: [60.232748754424904,54.17980474289456],
+  polygon: RegionPolygons[`russia-челябинская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-ставропольский-край`,
+  locales: {
+    en: `Ставропольский край`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 2803021,
+  coordinates: [43.27635623560175,44.95066742621074],
+  polygon: RegionPolygons[`russia-ставропольский-край`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-брянская-область`,
+  locales: {
+    en: `Брянская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 1192570,
+  coordinates: [33.2805060190266,52.92660191489801],
+  polygon: RegionPolygons[`russia-брянская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-удмуртская-республика`,
+  locales: {
+    en: `Удмуртская Республика`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 1501005,
+  coordinates: [52.736450636787424,57.197697659119655],
+  polygon: RegionPolygons[`russia-удмуртская-республика`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-новгородская-область`,
+  locales: {
+    en: `Новгородская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 596173,
+  coordinates: [32.91590335475601,58.17642344813359],
+  polygon: RegionPolygons[`russia-новгородская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-республика-крым`,
+  locales: {
+    en: `Республика Крым`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 1912025,
+  coordinates: [34.563202345000064,45.289353574844],
+  polygon: RegionPolygons[`russia-республика-крым`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-республика-башкортостан`,
+  locales: {
+    en: `Республика Башкортостан`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 4037811,
+  coordinates: [56.56066165526113,54.04502187745766],
+  polygon: RegionPolygons[`russia-республика-башкортостан`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-чеченская-республика`,
+  locales: {
+    en: `Чеченская Республика`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 1476752,
+  coordinates: [45.71222822445296,43.24292079784596],
+  polygon: RegionPolygons[`russia-чеченская-республика`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-приморский-край`,
+  locales: {
+    en: `Приморский край`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 1895305,
+  coordinates: [134.7167686551439,45.36984996141917],
+  polygon: RegionPolygons[`russia-приморский-край`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-волгоградская-область`,
+  locales: {
+    en: `Волгоградская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 2491751,
+  coordinates: [44.301002410981965,49.34476614034509],
+  polygon: RegionPolygons[`russia-волгоградская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-орловская-область`,
+  locales: {
+    en: `Орловская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 733682,
+  coordinates: [36.42168419751766,52.79009847666333],
+  polygon: RegionPolygons[`russia-орловская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-псковская-область`,
+  locales: {
+    en: `Псковская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 626046,
+  coordinates: [29.42523746466557,57.29607624962487],
+  polygon: RegionPolygons[`russia-псковская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-ростовская-область`,
+  locales: {
+    en: `Ростовская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 4195327,
+  coordinates: [41.267486203128044,48.08657420483567],
+  polygon: RegionPolygons[`russia-ростовская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-республика-бурятия`,
+  locales: {
+    en: `Республика Бурятия`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 986109,
+  coordinates: [107.78094607959787,53.60371260690127],
+  polygon: RegionPolygons[`russia-республика-бурятия`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-республика-мордовия`,
+  locales: {
+    en: `Республика Мордовия`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 790829,
+  coordinates: [44.47003014472537,54.42051575424861],
+  polygon: RegionPolygons[`russia-республика-мордовия`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-республика-дагестан`,
+  locales: {
+    en: `Республика Дагестан`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 3111353,
+  coordinates: [46.85152408187915,43.09894854938602],
+  polygon: RegionPolygons[`russia-республика-дагестан`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `australia-cairns-and-hinterland`,
+  locales: {
+    en: `Cairns and Hinterland`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [145.75436445400004,-19.64674041161055],
+  polygon: RegionPolygons[`australia-cairns-and-hinterland`],
+  parentId: `australia`,
+  dataSource: `https://www.health.qld.gov.au/news-events/doh-media-releases`
+}, {
+  id: `australia-central-queensland`,
+  locales: {
+    en: `Central Queensland`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [145.75436445400004,-19.64674041161055],
+  polygon: RegionPolygons[`australia-central-queensland`],
+  parentId: `australia`,
+  dataSource: `https://www.health.qld.gov.au/news-events/doh-media-releases`
+}, {
+  id: `australia-central-west`,
+  locales: {
+    en: `Central West`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [145.75436445400004,-19.64674041161055],
+  polygon: RegionPolygons[`australia-central-west`],
+  parentId: `australia`,
+  dataSource: `https://www.health.qld.gov.au/news-events/doh-media-releases`
+}, {
+  id: `australia-darling-downs`,
+  locales: {
+    en: `Darling Downs`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [145.75436445400004,-19.64674041161055],
+  polygon: RegionPolygons[`australia-darling-downs`],
+  parentId: `australia`,
+  dataSource: `https://www.health.qld.gov.au/news-events/doh-media-releases`
+}, {
+  id: `australia-gold-coast`,
+  locales: {
+    en: `Gold Coast`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [145.75436445400004,-19.64674041161055],
+  polygon: RegionPolygons[`australia-gold-coast`],
+  parentId: `australia`,
+  dataSource: `https://www.health.qld.gov.au/news-events/doh-media-releases`
+}, {
+  id: `australia-mackay`,
+  locales: {
+    en: `Mackay`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [145.75436445400004,-19.64674041161055],
+  polygon: RegionPolygons[`australia-mackay`],
+  parentId: `australia`,
+  dataSource: `https://www.health.qld.gov.au/news-events/doh-media-releases`
+}, {
+  id: `australia-metro-north`,
+  locales: {
+    en: `Metro North`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [145.75436445400004,-19.64674041161055],
+  polygon: RegionPolygons[`australia-metro-north`],
+  parentId: `australia`,
+  dataSource: `https://www.health.qld.gov.au/news-events/doh-media-releases`
+}, {
+  id: `australia-metro-south`,
+  locales: {
+    en: `Metro South`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [145.75436445400004,-19.64674041161055],
+  polygon: RegionPolygons[`australia-metro-south`],
+  parentId: `australia`,
+  dataSource: `https://www.health.qld.gov.au/news-events/doh-media-releases`
+}, {
+  id: `australia-north-west`,
+  locales: {
+    en: `North West`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [145.75436445400004,-19.64674041161055],
+  polygon: RegionPolygons[`australia-north-west`],
+  parentId: `australia`,
+  dataSource: `https://www.health.qld.gov.au/news-events/doh-media-releases`
+}, {
+  id: `australia-south-west`,
+  locales: {
+    en: `South West`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [145.75436445400004,-19.64674041161055],
+  polygon: RegionPolygons[`australia-south-west`],
+  parentId: `australia`,
+  dataSource: `https://www.health.qld.gov.au/news-events/doh-media-releases`
+}, {
+  id: `australia-sunshine-coast`,
+  locales: {
+    en: `Sunshine Coast`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [145.75436445400004,-19.64674041161055],
+  polygon: RegionPolygons[`australia-sunshine-coast`],
+  parentId: `australia`,
+  dataSource: `https://www.health.qld.gov.au/news-events/doh-media-releases`
+}, {
+  id: `australia-torres-and-cape`,
+  locales: {
+    en: `Torres and Cape`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [145.75436445400004,-19.64674041161055],
+  polygon: RegionPolygons[`australia-torres-and-cape`],
+  parentId: `australia`,
+  dataSource: `https://www.health.qld.gov.au/news-events/doh-media-releases`
+}, {
+  id: `australia-townsville`,
+  locales: {
+    en: `Townsville`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [145.75436445400004,-19.64674041161055],
+  polygon: RegionPolygons[`australia-townsville`],
+  parentId: `australia`,
+  dataSource: `https://www.health.qld.gov.au/news-events/doh-media-releases`
+}, {
+  id: `australia-west-moreton`,
+  locales: {
+    en: `West Moreton`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [145.75436445400004,-19.64674041161055],
+  polygon: RegionPolygons[`australia-west-moreton`],
+  parentId: `australia`,
+  dataSource: `https://www.health.qld.gov.au/news-events/doh-media-releases`
+}, {
+  id: `australia-wide-bay`,
+  locales: {
+    en: `Wide Bay`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [145.75436445400004,-19.64674041161055],
+  polygon: RegionPolygons[`australia-wide-bay`],
+  parentId: `australia`,
+  dataSource: `https://www.health.qld.gov.au/news-events/doh-media-releases`
+}, {
+  id: `australia-overseas`,
+  locales: {
+    en: `Overseas`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [145.75436445400004,-19.64674041161055],
+  polygon: RegionPolygons[`australia-overseas`],
+  parentId: `australia`,
+  dataSource: `https://www.health.qld.gov.au/news-events/doh-media-releases`
+}, {
+  id: `united-states-of-america-michigan-other-county`,
+  locales: {
+    en: `Other County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-michigan-other-county`],
+  parentId: `united-states-of-america-michigan`,
+  dataSource: `https://www.michigan.gov/coronavirus/0,9753,7-406-98163-520743--,00.html`
+}, {
+  id: `united-states-of-america-virginia-alexandria-county`,
+  locales: {
+    en: `Alexandria County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 160530,
+  coordinates: [-77.088335,38.814772500000004],
+  polygon: RegionPolygons[`united-states-of-america-virginia-alexandria-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-bristol-county`,
+  locales: {
+    en: `Bristol County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 16482,
+  coordinates: [-82.173134,36.635422500000004],
+  polygon: RegionPolygons[`united-states-of-america-virginia-bristol-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-chesapeake-county`,
+  locales: {
+    en: `Chesapeake County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 242634,
+  coordinates: [-76.27851799999999,36.7084495],
+  polygon: RegionPolygons[`united-states-of-america-virginia-chesapeake-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-danville-county`,
+  locales: {
+    en: `Danville County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 40693,
+  coordinates: [-79.410942,36.592781],
+  polygon: RegionPolygons[`united-states-of-america-virginia-danville-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-harrisonburg-county`,
+  locales: {
+    en: `Harrisonburg County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 54033,
+  coordinates: [-78.87013300000001,38.4391325],
+  polygon: RegionPolygons[`united-states-of-america-virginia-harrisonburg-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-lynchburg-county`,
+  locales: {
+    en: `Lynchburg County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 82126,
+  coordinates: [-79.1769855,37.399454],
+  polygon: RegionPolygons[`united-states-of-america-virginia-lynchburg-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-manassas-park-county`,
+  locales: {
+    en: `Manassas Park County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 17307,
+  coordinates: [-77.4481965,38.770824000000005],
+  polygon: RegionPolygons[`united-states-of-america-virginia-manassas-park-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-martinsville-county`,
+  locales: {
+    en: `Martinsville County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 12902,
+  coordinates: [-79.865348,36.681437],
+  polygon: RegionPolygons[`united-states-of-america-virginia-martinsville-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-newport-news-county`,
+  locales: {
+    en: `Newport News County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 178626,
+  coordinates: [-76.5062455,37.091746],
+  polygon: RegionPolygons[`united-states-of-america-virginia-newport-news-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-salem-county`,
+  locales: {
+    en: `Salem County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 25643,
+  coordinates: [-80.069625,37.288464],
+  polygon: RegionPolygons[`united-states-of-america-virginia-salem-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-waynesboro-county`,
+  locales: {
+    en: `Waynesboro County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 22628,
+  coordinates: [-78.902682,38.065784],
+  polygon: RegionPolygons[`united-states-of-america-virginia-waynesboro-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-williamsburg-county`,
+  locales: {
+    en: `Williamsburg County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 14896,
+  coordinates: [-76.703554,37.278078],
+  polygon: RegionPolygons[`united-states-of-america-virginia-williamsburg-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-winchester-county`,
+  locales: {
+    en: `Winchester County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 28108,
+  coordinates: [-78.167055,39.1659325],
+  polygon: RegionPolygons[`united-states-of-america-virginia-winchester-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-buena-vista-county`,
+  locales: {
+    en: `Buena Vista County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 6237,
+  coordinates: [-79.355705,37.7314675],
+  polygon: RegionPolygons[`united-states-of-america-virginia-buena-vista-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-charlottesville-county`,
+  locales: {
+    en: `Charlottesville County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 48117,
+  coordinates: [-78.4847125,38.038388],
+  polygon: RegionPolygons[`united-states-of-america-virginia-charlottesville-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-colonial-heights-county`,
+  locales: {
+    en: `Colonial Heights County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 17833,
+  coordinates: [-77.3970135,37.265853],
+  polygon: RegionPolygons[`united-states-of-america-virginia-colonial-heights-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-covington-county`,
+  locales: {
+    en: `Covington County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 5460,
+  coordinates: [-79.987701,37.7809145],
+  polygon: RegionPolygons[`united-states-of-america-virginia-covington-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-emporia-county`,
+  locales: {
+    en: `Emporia County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 5121,
+  coordinates: [-77.5333025,36.696998],
+  polygon: RegionPolygons[`united-states-of-america-virginia-emporia-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-falls-church-county`,
+  locales: {
+    en: `Falls Church County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 14772,
+  coordinates: [-77.1723135,38.8842425],
+  polygon: RegionPolygons[`united-states-of-america-virginia-falls-church-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-fredericksburg-county`,
+  locales: {
+    en: `Fredericksburg County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 29144,
+  coordinates: [-77.48990599999999,38.298085],
+  polygon: RegionPolygons[`united-states-of-america-virginia-fredericksburg-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-galax-county`,
+  locales: {
+    en: `Galax County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 6423,
+  coordinates: [-80.912514,36.661313500000006],
+  polygon: RegionPolygons[`united-states-of-america-virginia-galax-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-hampton-county`,
+  locales: {
+    en: `Hampton County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 134313,
+  coordinates: [-76.361216,37.053562],
+  polygon: RegionPolygons[`united-states-of-america-virginia-hampton-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-hopewell-county`,
+  locales: {
+    en: `Hopewell County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 22596,
+  coordinates: [-77.2938115,37.2885115],
+  polygon: RegionPolygons[`united-states-of-america-virginia-hopewell-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-lexington-county`,
+  locales: {
+    en: `Lexington County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 7136,
+  coordinates: [-79.43861050000001,37.778741499999995],
+  polygon: RegionPolygons[`united-states-of-america-virginia-lexington-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-manassas-county`,
+  locales: {
+    en: `Manassas County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 41641,
+  coordinates: [-77.4881815,38.75269],
+  polygon: RegionPolygons[`united-states-of-america-virginia-manassas-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-norton-county`,
+  locales: {
+    en: `Norton County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 3968,
+  coordinates: [-82.62459050000001,36.930972499999996],
+  polygon: RegionPolygons[`united-states-of-america-virginia-norton-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-petersburg-county`,
+  locales: {
+    en: `Petersburg County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 31567,
+  coordinates: [-77.389262,37.2047825],
+  polygon: RegionPolygons[`united-states-of-america-virginia-petersburg-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-poquoson-county`,
+  locales: {
+    en: `Poquoson County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 12190,
+  coordinates: [-76.350437,37.13374949999999],
+  polygon: RegionPolygons[`united-states-of-america-virginia-poquoson-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-portsmouth-county`,
+  locales: {
+    en: `Portsmouth County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 94632,
+  coordinates: [-76.355165,36.8552965],
+  polygon: RegionPolygons[`united-states-of-america-virginia-portsmouth-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-radford-county`,
+  locales: {
+    en: `Radford County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 18339,
+  coordinates: [-80.551853,37.1189815],
+  polygon: RegionPolygons[`united-states-of-america-virginia-radford-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-staunton-county`,
+  locales: {
+    en: `Staunton County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 24922,
+  coordinates: [-79.0624115,38.1584445],
+  polygon: RegionPolygons[`united-states-of-america-virginia-staunton-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-suffolk-county`,
+  locales: {
+    en: `Suffolk County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 91185,
+  coordinates: [-76.66892200000001,36.739614],
+  polygon: RegionPolygons[`united-states-of-america-virginia-suffolk-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `united-states-of-america-virginia-virginia-beach-county`,
+  locales: {
+    en: `Virginia Beach County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 450189,
+  coordinates: [-76.047402,36.7412495],
+  polygon: RegionPolygons[`united-states-of-america-virginia-virginia-beach-county`],
+  parentId: `united-states-of-america-virginia`,
+  dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
 }]
