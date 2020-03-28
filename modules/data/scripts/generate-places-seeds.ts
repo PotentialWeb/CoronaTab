@@ -23,6 +23,9 @@ InjectEnvs()
   let regions = RegionsData
   let cities = CitiesData
 
+  const newRegions: PlaceSeedData[] = []
+  const newCities: PlaceSeedData[] = []
+
   for (const entry of data) {
     let country = FindPlaceSeedDataInDataset({
       dataset: countries,
@@ -79,6 +82,7 @@ InjectEnvs()
           }
           if (!regions.find(r => r.id === stateId)) {
             regions.push(state)
+            newRegions.push(state)
           }
         }
         jhuEntry = jhuData.find(r => r.countryId === country.id && r.region === state.locales.en)
@@ -110,6 +114,7 @@ InjectEnvs()
             }
             if (!regions.find(r => r.id === countyId)) {
               regions.push(county)
+              newRegions.push(county)
             }
           }
           jhuEntry = jhuData.find(r => r.countryId === country.id && r.region === state.locales.en && r.region === county.locales.en)
@@ -145,6 +150,7 @@ InjectEnvs()
           }
           if (!regions.find(r => r.id === id)) {
             regions.push(region)
+            newRegions.push(region)
           }
         }
         jhuEntry = jhuData.find(r => r.countryId === country.id && r.region === region.locales.en)
@@ -180,6 +186,7 @@ InjectEnvs()
     }
     if (!regions.find(r => r.id === regionId)) {
       regions.push(region)
+      newRegions.push(region)
     }
     if (entry.city) {
       // City
@@ -195,10 +202,13 @@ InjectEnvs()
       }
       if (!cities.find(c => c.id === cityId)) {
         cities.push(city)
+        newCities.push(city)
       }
 
     }
   }
+
+  debugger
 
   regions = regions.filter(r => ![
     'united-kingdom-uk'
