@@ -202,10 +202,10 @@ export const CountriesData: PlaceSeedData[] = [{
   hospitalBedOccupancy: undefined,
   hospitalBeds: 97920,
   icuBeds: 2320,
-  coordinates: [133.43764789150003,-27.17176685949994],
+  coordinates: [120.95978010457588,-24.407891534499925],
   polygon: CountryPolygons[`AUS`],
   parentId: 'earth',
-  dataSource: `https://www.dhhs.vic.gov.au/media-hub-coronavirus-disease-covid-19`
+  dataSource: `https://ww2.health.wa.gov.au/Articles/A_E/Coronavirus/COVID19-statistics`
 }, {
   id: `austria`,
   locales: {
@@ -712,7 +712,7 @@ export const CountriesData: PlaceSeedData[] = [{
   hospitalBedOccupancy: undefined,
   hospitalBeds: 6246665,
   icuBeds: 51816,
-  coordinates: [112.26392825753302,31.166405443456426],
+  coordinates: [104.18741784700006,35.88048675850005],
   polygon: CountryPolygons[`CHN`],
   parentId: 'earth',
   dataSource: `https://github.com/CSSEGISandData/COVID-19`
@@ -1188,7 +1188,7 @@ export const CountriesData: PlaceSeedData[] = [{
   hospitalBedOccupancy: 0.756,
   hospitalBeds: 390336,
   icuBeds: 7572,
-  coordinates: [-2.9882706369999426,14.862000781359463],
+  coordinates: [45.158732839739,-12.818387777882],
   polygon: CountryPolygons[`FRA`],
   parentId: 'earth',
   dataSource: `https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/articles/infection-au-nouveau-coronavirus-sars-cov-2-covid-19-france-et-monde`
@@ -1273,7 +1273,7 @@ export const CountriesData: PlaceSeedData[] = [{
   hospitalBedOccupancy: 0.798,
   hospitalBeds: 670272,
   icuBeds: 24465,
-  coordinates: [10.473758178500105,51.09924480150008],
+  coordinates: [11.280221388306416,50.93088379600036],
   polygon: CountryPolygons[`DEU`],
   parentId: 'earth',
   dataSource: `https://raw.githubusercontent.com/jgehrcke/covid-19-germany-gae/master/data.csv`
@@ -1426,10 +1426,10 @@ export const CountriesData: PlaceSeedData[] = [{
   hospitalBedOccupancy: undefined,
   hospitalBeds: undefined,
   icuBeds: undefined,
-  coordinates: undefined,
+  coordinates: [-15.195917892457189,11.823454288500052],
   polygon: CountryPolygons[`GNB`],
   parentId: 'earth',
-  dataSource: undefined
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `guyana`,
   locales: {
@@ -1494,7 +1494,7 @@ export const CountriesData: PlaceSeedData[] = [{
   hospitalBedOccupancy: undefined,
   hospitalBeds: 40484,
   icuBeds: 532,
-  coordinates: [114.2,22.3],
+  coordinates: [114.21021569100003,22.41313304250005],
   polygon: CountryPolygons[`HKG`],
   parentId: 'earth',
   dataSource: `https://github.com/CSSEGISandData/COVID-19`
@@ -1545,7 +1545,7 @@ export const CountriesData: PlaceSeedData[] = [{
   hospitalBedOccupancy: undefined,
   hospitalBeds: undefined,
   icuBeds: undefined,
-  coordinates: [82.74863427400004,21.151850284000083],
+  coordinates: [87.85869957912226,24.402508335403155],
   polygon: CountryPolygons[`IND`],
   parentId: 'earth',
   dataSource: `https://www.mohfw.gov.in/`
@@ -2072,10 +2072,10 @@ export const CountriesData: PlaceSeedData[] = [{
   hospitalBedOccupancy: undefined,
   hospitalBeds: undefined,
   icuBeds: undefined,
-  coordinates: undefined,
+  coordinates: [-4.014246378499891,17.578527629000078],
   polygon: CountryPolygons[`MLI`],
   parentId: 'earth',
-  dataSource: undefined
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `malta`,
   locales: {
@@ -2854,7 +2854,7 @@ export const CountriesData: PlaceSeedData[] = [{
   hospitalBedOccupancy: undefined,
   hospitalBeds: 1174772,
   icuBeds: 12113,
-  coordinates: [4.263256414560601e-14,61.240742495500065],
+  coordinates: [39.676369256436004,44.47209198665581],
   polygon: CountryPolygons[`RUS`],
   parentId: 'earth',
   dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
@@ -2922,10 +2922,10 @@ export const CountriesData: PlaceSeedData[] = [{
   hospitalBedOccupancy: undefined,
   hospitalBeds: undefined,
   icuBeds: undefined,
-  coordinates: undefined,
+  coordinates: [-62.755767381499936,17.340725002000084],
   polygon: CountryPolygons[`KNA`],
   parentId: 'earth',
-  dataSource: undefined
+  dataSource: `https://github.com/CSSEGISandData/COVID-19`
 }, {
   id: `saint-martin`,
   locales: {
@@ -3500,7 +3500,7 @@ export const CountriesData: PlaceSeedData[] = [{
   hospitalBedOccupancy: undefined,
   hospitalBeds: undefined,
   icuBeds: undefined,
-  coordinates: [-73.30892915499993,21.243227533000066],
+  coordinates: [-75.74170392899993,23.91563150400006],
   polygon: CountryPolygons[`BHS`],
   parentId: 'earth',
   dataSource: `https://github.com/CSSEGISandData/COVID-19`
@@ -3534,7 +3534,7 @@ export const CountriesData: PlaceSeedData[] = [{
   hospitalBedOccupancy: undefined,
   hospitalBeds: undefined,
   icuBeds: undefined,
-  coordinates: [125.56,-8.55],
+  coordinates: [125.66663658950006,-8.898868303499945],
   polygon: CountryPolygons[`TLS`],
   parentId: 'earth',
   dataSource: `https://github.com/CSSEGISandData/COVID-19`
@@ -3755,7 +3755,7 @@ export const CountriesData: PlaceSeedData[] = [{
   hospitalBedOccupancy: 0.843,
   hospitalBeds: 172430,
   icuBeds: 4480,
-  coordinates: [-3.192432722499916,55.19161611550004],
+  coordinates: [18.4207,-64.64],
   polygon: CountryPolygons[`GBR`],
   parentId: 'earth',
   dataSource: `https://www.gov.scot/coronavirus-covid-19/`
@@ -3772,7 +3772,7 @@ export const CountriesData: PlaceSeedData[] = [{
   hospitalBedOccupancy: 0.64,
   hospitalBeds: 916877,
   icuBeds: 114858,
-  coordinates: [-91.212524,39.9787775],
+  coordinates: [-107.55199589229656,42.999967466625236],
   polygon: CountryPolygons[`USA`],
   parentId: 'earth',
   dataSource: `https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/`

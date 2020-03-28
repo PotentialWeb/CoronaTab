@@ -600,7 +600,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 270372,
-  coordinates: [45.150157097500085,-12.856052341999913],
+  coordinates: [45.158732839739,-12.818387777882],
   polygon: RegionPolygons[`france-mayotte`],
   parentId: `france`,
   dataSource: `https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/articles/infection-au-nouveau-coronavirus-sars-cov-2-covid-19-france-et-monde`
@@ -614,7 +614,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 390253,
-  coordinates: [-61.49286861849993,16.196804103500057],
+  coordinates: [-61.404015738016,16.176466312683498],
   polygon: RegionPolygons[`france-guadeloupe`],
   parentId: `france`,
   dataSource: `https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/articles/infection-au-nouveau-coronavirus-sars-cov-2-covid-19-france-et-monde`
@@ -656,10 +656,10 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: `REU`,
   population: 853659,
-  coordinates: [55.2471,-21.1351],
+  coordinates: [55.53996829500005,-21.115329685499916],
   polygon: RegionPolygons[`france-reunion`],
   parentId: `france`,
-  dataSource: `https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/articles/infection-au-nouveau-coronavirus-sars-cov-2-covid-19-france-et-monde`
+  dataSource: `https://www.lareunion.ars.sante.fr/coronavirus-covid-19-la-reunion-6-nouveaux-cas-confirmes`
 }, {
   id: `netherlands-aruba`,
   locales: {
@@ -841,7 +841,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [120.95978010457588,-24.407891534499925],
   polygon: RegionPolygons[`australia-western-australia`],
   parentId: `australia`,
-  dataSource: `https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-current-situation-and-case-numbers`
+  dataSource: `https://ww2.health.wa.gov.au/Articles/A_E/Coronavirus/COVID19-statistics`
 }, {
   id: `brazil-ro`,
   locales: {
@@ -1426,7 +1426,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8446561,
-  coordinates: [-5.760709740962795,36.52305392954614],
+  coordinates: [-4.576799,37.332145999999995],
   polygon: RegionPolygons[`spain-andalucía`],
   parentId: `spain`,
   dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
@@ -1440,7 +1440,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1324397,
-  coordinates: [-0.08049929380734966,42.134828154805525],
+  coordinates: [-0.7011820000000001,41.384575999999996],
   polygon: RegionPolygons[`spain-aragón`],
   parentId: `spain`,
   dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
@@ -1496,7 +1496,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 581949,
-  coordinates: [-3.991235879578522,43.13970978396958],
+  coordinates: [-4.001474,43.1358045],
   polygon: RegionPolygons[`spain-cantabria`],
   parentId: `spain`,
   dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
@@ -1510,7 +1510,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2402877,
-  coordinates: [-6.152125149456111,41.68636903055628],
+  coordinates: [-4.426213000000001,41.6609565],
   polygon: RegionPolygons[`spain-castilla-y-león`],
   parentId: `spain`,
   dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
@@ -1524,7 +1524,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2038440,
-  coordinates: [-1.8916374333209092,38.724266107394925],
+  coordinates: [-3.1609515,39.6740025],
   polygon: RegionPolygons[`spain-castilla-la-mancha`],
   parentId: `spain`,
   dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
@@ -1538,7 +1538,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 7609499,
-  coordinates: [1.0855422223956452,42.03562612236923],
+  coordinates: [1.745979,41.690684],
   polygon: RegionPolygons[`spain-cataluña`],
   parentId: `spain`,
   dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
@@ -1566,7 +1566,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1062797,
-  coordinates: [-6.250120712850645,39.75451443774111],
+  coordinates: [-6.096301,39.213814],
   polygon: RegionPolygons[`spain-extremadura`],
   parentId: `spain`,
   dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
@@ -1580,7 +1580,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2698764,
-  coordinates: [-7.54885392701712,42.19553303442197],
+  coordinates: [-8.016625999999999,42.7999145],
   polygon: RegionPolygons[`spain-galicia`],
   parentId: `spain`,
   dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
@@ -1636,7 +1636,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2181919,
-  coordinates: [-2.154373327342114,43.14304220529398],
+  coordinates: [-2.5893205,42.96479],
   polygon: RegionPolygons[`spain-país-vasco`],
   parentId: `spain`,
   dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
@@ -1650,7 +1650,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 314487,
-  coordinates: [-2.4031165223596247,42.28492574697563],
+  coordinates: [-2.406965,42.280640500000004],
   polygon: RegionPolygons[`spain-la-rioja`],
   parentId: `spain`,
   dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
@@ -1664,7 +1664,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 84434,
-  coordinates: [-5.345359091499915,35.88593067100006],
+  coordinates: [-4.8578425,35.5423385],
   polygon: RegionPolygons[`spain-ceuta`],
   parentId: `spain`,
   dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
@@ -1678,7 +1678,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 84286,
-  coordinates: [-2.939916344999915,35.29882680600007],
+  coordinates: [-2.946804,35.292873],
   polygon: RegionPolygons[`spain-melilla`],
   parentId: `spain`,
   dataSource: `https://github.com/datadista/datasets/tree/master/COVID%2019`
@@ -2003,7 +2003,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-86.69343876373793,32.6211173120505],
   polygon: RegionPolygons[`united-states-of-america-alabama`],
   parentId: `united-states-of-america`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-arkansas`,
   locales: {
@@ -2028,7 +2028,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: `AS`,
   alpha3code: undefined,
   population: undefined,
-  coordinates: [-14.270999999999999,-170.132],
+  coordinates: [-170.132,-14.270999999999999],
   polygon: RegionPolygons[`united-states-of-america-american-samoa`],
   parentId: `united-states-of-america`,
   dataSource: `https://covidtracking.com/api/states`
@@ -2126,7 +2126,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: `GA`,
   alpha3code: undefined,
   population: 10617423,
-  coordinates: [-83.22068258120515,32.68249920507424],
+  coordinates: [-83.841038,31.583147],
   polygon: RegionPolygons[`united-states-of-america-georgia`],
   parentId: `united-states-of-america`,
   dataSource: `https://dph.georgia.gov/covid-19-daily-status-report`
@@ -2154,10 +2154,10 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: `HI`,
   alpha3code: undefined,
   population: 1415872,
-  coordinates: [-157.30113772849992,20.58419053050008],
+  coordinates: [-156.9567145,21.173991],
   polygon: RegionPolygons[`united-states-of-america-hawaii`],
   parentId: `united-states-of-america`,
-  dataSource: `https://health.hawaii.gov/docd/advisories/novel-coronavirus-2019/`
+  dataSource: `https://health.hawaii.gov/coronavirusdisease2019/`
 }, {
   id: `united-states-of-america-iowa`,
   locales: {
@@ -2420,7 +2420,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: `NE`,
   alpha3code: undefined,
   population: 1934408,
-  coordinates: [-99.68549198596634,41.50023602157509],
+  coordinates: [-97.5972025,40.872742],
   polygon: RegionPolygons[`united-states-of-america-nebraska`],
   parentId: `united-states-of-america`,
   dataSource: `https://www.lincoln.ne.gov/city/covid19/`
@@ -2476,10 +2476,10 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: `NV`,
   alpha3code: undefined,
   population: 3080156,
-  coordinates: [-117.02047733760901,38.50182293528022],
+  coordinates: [-119.5881935,40.581575],
   polygon: RegionPolygons[`united-states-of-america-nevada`],
   parentId: `united-states-of-america`,
-  dataSource: `https://www.washoecounty.us/health/programs-and-services/communicable-diseases-and-epidemiology/educational_materials/COVID-19.php`
+  dataSource: `https://opendata.arcgis.com/datasets/4fcda514110940cb827ec2839e7ebbb0_0.csv`
 }, {
   id: `united-states-of-america-new-york`,
   locales: {
@@ -2490,7 +2490,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: `NY`,
   alpha3code: undefined,
   population: 19453561,
-  coordinates: [-75.8409706677239,42.76080525150005],
+  coordinates: [-77.1284555,42.611807999999996],
   polygon: RegionPolygons[`united-states-of-america-new-york`],
   parentId: `united-states-of-america`,
   dataSource: `https://coronavirus.health.ny.gov/county-county-breakdown-positive-cases`
@@ -2518,7 +2518,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: `OK`,
   alpha3code: undefined,
   population: 3956971,
-  coordinates: [-98.71994022800911,35.32361248602737],
+  coordinates: [-99.280707,36.4905715],
   polygon: RegionPolygons[`united-states-of-america-oklahoma`],
   parentId: `united-states-of-america`,
   dataSource: `https://coronavirus.health.ok.gov/`
@@ -2546,7 +2546,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: `PA`,
   alpha3code: undefined,
   population: 12801989,
-  coordinates: [-77.60961308037935,41.12951166463159],
+  coordinates: [-76.00080600000001,41.514171000000005],
   polygon: RegionPolygons[`united-states-of-america-pennsylvania`],
   parentId: `united-states-of-america`,
   dataSource: `https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx`
@@ -2560,7 +2560,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: `PR`,
   alpha3code: undefined,
   population: 3193694,
-  coordinates: [18.2208,-66.5901],
+  coordinates: [-66.5901,18.2208],
   polygon: RegionPolygons[`united-states-of-america-puerto-rico`],
   parentId: `united-states-of-america`,
   dataSource: `https://covidtracking.com/api/states`
@@ -2616,7 +2616,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: `TN`,
   alpha3code: undefined,
   population: 6829174,
-  coordinates: [-85.98153690830165,35.837455259602535],
+  coordinates: [-88.7380925,36.282799],
   polygon: RegionPolygons[`united-states-of-america-tennessee`],
   parentId: `united-states-of-america`,
   dataSource: `https://www.tn.gov/health/cedep/ncov.html`
@@ -2689,7 +2689,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-120.80671709265283,47.27941361449236],
   polygon: RegionPolygons[`united-states-of-america-washington`],
   parentId: `united-states-of-america`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://covidtracking.com/api/states`
 }, {
   id: `united-states-of-america-wisconsin`,
   locales: {
@@ -2703,7 +2703,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.56690985655462,44.89991863863423],
   polygon: RegionPolygons[`united-states-of-america-wisconsin`],
   parentId: `united-states-of-america`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-west-virginia`,
   locales: {
@@ -2745,7 +2745,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.69793150000001,30.765086],
   polygon: RegionPolygons[`united-states-of-america-alabama-baldwin-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-calhoun-county`,
   locales: {
@@ -2759,7 +2759,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-85.837497,33.7622675],
   polygon: RegionPolygons[`united-states-of-america-alabama-calhoun-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-chambers-county`,
   locales: {
@@ -2773,7 +2773,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-85.3626035,32.9183035],
   polygon: RegionPolygons[`united-states-of-america-alabama-chambers-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-elmore-county`,
   locales: {
@@ -2787,7 +2787,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-86.13298,32.5876855],
   polygon: RegionPolygons[`united-states-of-america-alabama-elmore-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-lee-county`,
   locales: {
@@ -2801,7 +2801,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-85.348772,32.578877500000004],
   polygon: RegionPolygons[`united-states-of-america-alabama-lee-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-jefferson-county`,
   locales: {
@@ -2815,7 +2815,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-86.92924049999999,33.544622000000004],
   polygon: RegionPolygons[`united-states-of-america-alabama-jefferson-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-limestone-county`,
   locales: {
@@ -2829,7 +2829,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.030965,34.774907],
   polygon: RegionPolygons[`united-states-of-america-alabama-limestone-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-madison-county`,
   locales: {
@@ -2843,7 +2843,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-86.52351200000001,34.7338515],
   polygon: RegionPolygons[`united-states-of-america-alabama-madison-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-mobile-county`,
   locales: {
@@ -2857,7 +2857,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.1779755,30.7006685],
   polygon: RegionPolygons[`united-states-of-america-alabama-mobile-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-montgomery-county`,
   locales: {
@@ -2871,7 +2871,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-86.2080335,32.2330785],
   polygon: RegionPolygons[`united-states-of-america-alabama-montgomery-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-shelby-county`,
   locales: {
@@ -2885,7 +2885,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-86.6839795,33.2828065],
   polygon: RegionPolygons[`united-states-of-america-alabama-shelby-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-st-clair-county`,
   locales: {
@@ -2899,7 +2899,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-86.310896,33.690028999999996],
   polygon: RegionPolygons[`united-states-of-america-alabama-st-clair-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-talladega-county`,
   locales: {
@@ -2913,7 +2913,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-86.148843,33.4003975],
   polygon: RegionPolygons[`united-states-of-america-alabama-talladega-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-tuscaloosa-county`,
   locales: {
@@ -2927,7 +2927,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.4532105,33.306606],
   polygon: RegionPolygons[`united-states-of-america-alabama-tuscaloosa-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-walker-county`,
   locales: {
@@ -2941,7 +2941,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.294891,33.7590165],
   polygon: RegionPolygons[`united-states-of-america-alabama-walker-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-autauga-county`,
   locales: {
@@ -2955,7 +2955,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-86.665704,32.508009],
   polygon: RegionPolygons[`united-states-of-america-alabama-autauga-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-barbour-county`,
   locales: {
@@ -2969,7 +2969,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-85.4006615,31.882748],
   polygon: RegionPolygons[`united-states-of-america-alabama-barbour-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-bibb-county`,
   locales: {
@@ -2983,7 +2983,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.149027,33.0392145],
   polygon: RegionPolygons[`united-states-of-america-alabama-bibb-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-blount-county`,
   locales: {
@@ -2997,7 +2997,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-86.633437,34.0123165],
   polygon: RegionPolygons[`united-states-of-america-alabama-blount-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-bullock-county`,
   locales: {
@@ -3011,7 +3011,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-85.704699,32.092782],
   polygon: RegionPolygons[`united-states-of-america-alabama-bullock-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-butler-county`,
   locales: {
@@ -3025,7 +3025,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-86.673651,31.744161],
   polygon: RegionPolygons[`united-states-of-america-alabama-butler-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-cherokee-county`,
   locales: {
@@ -3039,7 +3039,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-85.621319,34.232777999999996],
   polygon: RegionPolygons[`united-states-of-america-alabama-cherokee-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-chilton-county`,
   locales: {
@@ -3053,7 +3053,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-86.69706550000001,32.865989],
   polygon: RegionPolygons[`united-states-of-america-alabama-chilton-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-choctaw-county`,
   locales: {
@@ -3067,7 +3067,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.201944,32.004263],
   polygon: RegionPolygons[`united-states-of-america-alabama-choctaw-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-clarke-county`,
   locales: {
@@ -3081,7 +3081,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.840657,31.5906725],
   polygon: RegionPolygons[`united-states-of-america-alabama-clarke-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-clay-county`,
   locales: {
@@ -3095,7 +3095,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-85.90775099999999,33.294501],
   polygon: RegionPolygons[`united-states-of-america-alabama-clay-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-cleburne-county`,
   locales: {
@@ -3109,7 +3109,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-85.59611050000001,33.716739000000004],
   polygon: RegionPolygons[`united-states-of-america-alabama-cleburne-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-coffee-county`,
   locales: {
@@ -3123,7 +3123,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-85.99275349999999,31.4000105],
   polygon: RegionPolygons[`united-states-of-america-alabama-coffee-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-colbert-county`,
   locales: {
@@ -3137,7 +3137,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.7799545,34.736847],
   polygon: RegionPolygons[`united-states-of-america-alabama-colbert-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-conecuh-county`,
   locales: {
@@ -3151,7 +3151,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.0447685,31.467902000000002],
   polygon: RegionPolygons[`united-states-of-america-alabama-conecuh-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-coosa-county`,
   locales: {
@@ -3165,7 +3165,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-86.264735,32.929111],
   polygon: RegionPolygons[`united-states-of-america-alabama-coosa-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-covington-county`,
   locales: {
@@ -3179,7 +3179,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-86.444992,31.2608775],
   polygon: RegionPolygons[`united-states-of-america-alabama-covington-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-crenshaw-county`,
   locales: {
@@ -3193,7 +3193,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-86.3217415,31.745868],
   polygon: RegionPolygons[`united-states-of-america-alabama-crenshaw-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-cullman-county`,
   locales: {
@@ -3207,7 +3207,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-86.802028,34.08601],
   polygon: RegionPolygons[`united-states-of-america-alabama-cullman-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-dale-county`,
   locales: {
@@ -3221,7 +3221,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-85.6039195,31.4073225],
   polygon: RegionPolygons[`united-states-of-america-alabama-dale-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-dallas-county`,
   locales: {
@@ -3235,7 +3235,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.1416965,32.3886835],
   polygon: RegionPolygons[`united-states-of-america-alabama-dallas-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-dekalb-county`,
   locales: {
@@ -3249,7 +3249,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-85.81629649999999,34.5301885],
   polygon: RegionPolygons[`united-states-of-america-alabama-dekalb-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-escambia-county`,
   locales: {
@@ -3263,7 +3263,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.15210149999999,31.127944499999998],
   polygon: RegionPolygons[`united-states-of-america-alabama-escambia-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-etowah-county`,
   locales: {
@@ -3277,7 +3277,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-86.0536445,34.021176999999994],
   polygon: RegionPolygons[`united-states-of-america-alabama-etowah-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-fayette-county`,
   locales: {
@@ -3291,7 +3291,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.687743,33.719749],
   polygon: RegionPolygons[`united-states-of-america-alabama-fayette-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-franklin-county`,
   locales: {
@@ -3305,7 +3305,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.85164950000001,34.4431505],
   polygon: RegionPolygons[`united-states-of-america-alabama-franklin-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-geneva-county`,
   locales: {
@@ -3319,7 +3319,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-85.839618,31.096378],
   polygon: RegionPolygons[`united-states-of-america-alabama-geneva-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-greene-county`,
   locales: {
@@ -3333,7 +3333,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.954248,32.839098500000006],
   polygon: RegionPolygons[`united-states-of-america-alabama-greene-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-hale-county`,
   locales: {
@@ -3347,7 +3347,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.638464,32.743871],
   polygon: RegionPolygons[`united-states-of-america-alabama-hale-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-henry-county`,
   locales: {
@@ -3361,7 +3361,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-85.22967,31.541520499999997],
   polygon: RegionPolygons[`united-states-of-america-alabama-henry-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-houston-county`,
   locales: {
@@ -3375,7 +3375,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-85.35514699999999,31.156028],
   polygon: RegionPolygons[`united-states-of-america-alabama-houston-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-jackson-county`,
   locales: {
@@ -3389,7 +3389,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-85.9710895,34.727785499999996],
   polygon: RegionPolygons[`united-states-of-america-alabama-jackson-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-lamar-county`,
   locales: {
@@ -3403,7 +3403,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.110569,33.791199],
   polygon: RegionPolygons[`united-states-of-america-alabama-lamar-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-lauderdale-county`,
   locales: {
@@ -3417,7 +3417,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.70685900000001,34.870044500000006],
   polygon: RegionPolygons[`united-states-of-america-alabama-lauderdale-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-lawrence-county`,
   locales: {
@@ -3431,7 +3431,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.3173975,34.552049],
   polygon: RegionPolygons[`united-states-of-america-alabama-lawrence-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-lowndes-county`,
   locales: {
@@ -3445,7 +3445,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-86.6566535,32.1843205],
   polygon: RegionPolygons[`united-states-of-america-alabama-lowndes-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-macon-county`,
   locales: {
@@ -3459,7 +3459,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-85.72827749999999,32.413954000000004],
   polygon: RegionPolygons[`united-states-of-america-alabama-macon-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-marengo-county`,
   locales: {
@@ -3473,7 +3473,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.7927455,32.2682795],
   polygon: RegionPolygons[`united-states-of-america-alabama-marengo-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-marion-county`,
   locales: {
@@ -3487,7 +3487,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.920977,34.1178885],
   polygon: RegionPolygons[`united-states-of-america-alabama-marion-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-marshall-county`,
   locales: {
@@ -3501,7 +3501,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-86.319824,34.349608],
   polygon: RegionPolygons[`united-states-of-america-alabama-marshall-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-monroe-county`,
   locales: {
@@ -3515,7 +3515,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.3453475,31.529543],
   polygon: RegionPolygons[`united-states-of-america-alabama-monroe-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-morgan-county`,
   locales: {
@@ -3529,7 +3529,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-86.8301385,34.4953655],
   polygon: RegionPolygons[`united-states-of-america-alabama-morgan-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-perry-county`,
   locales: {
@@ -3543,7 +3543,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.27148,32.5912085],
   polygon: RegionPolygons[`united-states-of-america-alabama-perry-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-pickens-county`,
   locales: {
@@ -3557,7 +3557,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.088514,33.2626035],
   polygon: RegionPolygons[`united-states-of-america-alabama-pickens-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-pike-county`,
   locales: {
@@ -3571,7 +3571,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-85.928538,31.839152],
   polygon: RegionPolygons[`united-states-of-america-alabama-pike-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-randolph-county`,
   locales: {
@@ -3585,7 +3585,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-85.443016,33.304006],
   polygon: RegionPolygons[`united-states-of-america-alabama-randolph-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-russell-county`,
   locales: {
@@ -3599,7 +3599,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-85.1624695,32.286625],
   polygon: RegionPolygons[`united-states-of-america-alabama-russell-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-sumter-county`,
   locales: {
@@ -3613,7 +3613,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.13148,32.65227],
   polygon: RegionPolygons[`united-states-of-america-alabama-sumter-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-tallapoosa-county`,
   locales: {
@@ -3627,7 +3627,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-85.8035175,32.8001965],
   polygon: RegionPolygons[`united-states-of-america-alabama-tallapoosa-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-washington-county`,
   locales: {
@@ -3641,7 +3641,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.177704,31.406800500000003],
   polygon: RegionPolygons[`united-states-of-america-alabama-washington-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-wilcox-county`,
   locales: {
@@ -3655,7 +3655,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.2622605,32.0480285],
   polygon: RegionPolygons[`united-states-of-america-alabama-wilcox-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-alabama-winston-county`,
   locales: {
@@ -3669,7 +3669,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.3730145,34.1460005],
   polygon: RegionPolygons[`united-states-of-america-alabama-winston-county`],
   parentId: `united-states-of-america-alabama`,
-  dataSource: `http://www.alabamapublichealth.gov/infectiousdiseases/2019-coronavirus.html`
+  dataSource: `https://opendata.arcgis.com/datasets/ff8de7707f6a422a8af6b155facc6327_0.csv`
 }, {
   id: `united-states-of-america-california`,
   locales: {
@@ -3680,7 +3680,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: `CA`,
   alpha3code: undefined,
   population: 1666753,
-  coordinates: [-121.9024445,37.6801065],
+  coordinates: [-119.26717119749563,37.26560485570404],
   polygon: RegionPolygons[`united-states-of-america-california`],
   parentId: `united-states-of-america`,
   dataSource: `https://docs.google.com/spreadsheets/d/1CwZA4RPNf_hUrwzNLyGGNHRlh1cwl8vDHwIoae51Hac/gviz/tq?tqx=out:csv&sheet=master`
@@ -5405,7 +5405,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-73.397813,41.3259525],
   polygon: RegionPolygons[`united-states-of-america-connecticut-fairfield-county`],
   parentId: `united-states-of-america-connecticut`,
-  dataSource: `https://portal.ct.gov/-/media/Coronavirus/CTDPHCOVID19summary3242020.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-connecticut-hartford-county`,
   locales: {
@@ -5419,7 +5419,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-72.71937700000001,41.7926935],
   polygon: RegionPolygons[`united-states-of-america-connecticut-hartford-county`],
   parentId: `united-states-of-america-connecticut`,
-  dataSource: `https://portal.ct.gov/-/media/Coronavirus/CTDPHCOVID19summary3242020.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-connecticut-litchfield-county`,
   locales: {
@@ -5433,7 +5433,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-73.20264900000001,41.759701],
   polygon: RegionPolygons[`united-states-of-america-connecticut-litchfield-county`],
   parentId: `united-states-of-america-connecticut`,
-  dataSource: `https://portal.ct.gov/-/media/Coronavirus/CTDPHCOVID19summary3242020.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-connecticut-middlesex-county`,
   locales: {
@@ -5447,7 +5447,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-72.529236,41.4513225],
   polygon: RegionPolygons[`united-states-of-america-connecticut-middlesex-county`],
   parentId: `united-states-of-america-connecticut`,
-  dataSource: `https://portal.ct.gov/-/media/Coronavirus/CTDPHCOVID19summary3242020.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-connecticut-new-haven-county`,
   locales: {
@@ -5461,7 +5461,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-72.93228500000001,41.4056375],
   polygon: RegionPolygons[`united-states-of-america-connecticut-new-haven-county`],
   parentId: `united-states-of-america-connecticut`,
-  dataSource: `https://portal.ct.gov/-/media/Coronavirus/CTDPHCOVID19summary3242020.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-connecticut-tolland-county`,
   locales: {
@@ -5475,7 +5475,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-72.3087795,41.813062],
   polygon: RegionPolygons[`united-states-of-america-connecticut-tolland-county`],
   parentId: `united-states-of-america-connecticut`,
-  dataSource: `https://portal.ct.gov/-/media/Coronavirus/CTDPHCOVID19summary3242020.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-connecticut-windham-county`,
   locales: {
@@ -5489,7 +5489,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-72.01981850000001,41.8316135],
   polygon: RegionPolygons[`united-states-of-america-connecticut-windham-county`],
   parentId: `united-states-of-america-connecticut`,
-  dataSource: `https://portal.ct.gov/-/media/Coronavirus/CTDPHCOVID19summary3242020.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-delaware-new-castle-county`,
   locales: {
@@ -10167,20 +10167,6 @@ export const RegionsData: PlaceSeedData[] = [{
   parentId: `united-states-of-america-louisiana`,
   dataSource: `https://services5.arcgis.com/O5K6bb5dZVZcTo5M/arcgis/rest/services/Cases_by_Parish_2/FeatureServer/0/query?f=json&where=PFIPS%20%3C%3E%2099999&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Deaths%20desc%2CCases%20desc%2CParish%20asc&resultOffset=0&resultRecordCount=65&cacheHint=true`
 }, {
-  id: `united-states-of-america-louisiana-(unassigned)`,
-  locales: {
-    en: `(unassigned)`
-  },
-  alternativeNames: undefined,
-  phoneCode: undefined,
-  alpha2code: undefined,
-  alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
-  polygon: RegionPolygons[`united-states-of-america-louisiana-(unassigned)`],
-  parentId: `united-states-of-america-louisiana`,
-  dataSource: `https://services5.arcgis.com/O5K6bb5dZVZcTo5M/arcgis/rest/services/Cases_by_Parish_2/FeatureServer/0/query?f=json&where=PFIPS%20%3C%3E%2099999&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*&orderByFields=Deaths%20desc%2CCases%20desc%2CParish%20asc&resultOffset=0&resultRecordCount=65&cacheHint=true`
-}, {
   id: `united-states-of-america-maryland-allegany-county`,
   locales: {
     en: `Allegany County`
@@ -14267,7 +14253,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.280962,40.810381],
   polygon: RegionPolygons[`united-states-of-america-ohio-ashland-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-belmont-county`,
   locales: {
@@ -14281,7 +14267,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.970149,40.011337999999995],
   polygon: RegionPolygons[`united-states-of-america-ohio-belmont-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-butler-county`,
   locales: {
@@ -14295,7 +14281,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-84.5757445,39.441655499999996],
   polygon: RegionPolygons[`united-states-of-america-ohio-butler-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-clark-county`,
   locales: {
@@ -14309,7 +14295,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-83.7818345,39.90448],
   polygon: RegionPolygons[`united-states-of-america-ohio-clark-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-coshocton-county`,
   locales: {
@@ -14323,7 +14309,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.9059705,40.303628],
   polygon: RegionPolygons[`united-states-of-america-ohio-coshocton-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-cuyahoga-county`,
   locales: {
@@ -14337,7 +14323,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.67301699999999,41.453196000000005],
   polygon: RegionPolygons[`united-states-of-america-ohio-cuyahoga-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-darke-county`,
   locales: {
@@ -14351,7 +14337,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-84.6191565,40.135587],
   polygon: RegionPolygons[`united-states-of-america-ohio-darke-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-delaware-county`,
   locales: {
@@ -14365,7 +14351,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.99676299999999,40.284922],
   polygon: RegionPolygons[`united-states-of-america-ohio-delaware-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-franklin-county`,
   locales: {
@@ -14379,7 +14365,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-83.010875,39.9690415],
   polygon: RegionPolygons[`united-states-of-america-ohio-franklin-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-geauga-county`,
   locales: {
@@ -14393,7 +14379,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.19737699999999,41.5314985],
   polygon: RegionPolygons[`united-states-of-america-ohio-geauga-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-hamilton-county`,
   locales: {
@@ -14407,7 +14393,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-84.539795,39.1670115],
   polygon: RegionPolygons[`united-states-of-america-ohio-hamilton-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-huron-county`,
   locales: {
@@ -14421,7 +14407,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.5889855,41.1414835],
   polygon: RegionPolygons[`united-states-of-america-ohio-huron-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-lake-county`,
   locales: {
@@ -14435,7 +14421,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.2455255,41.712312],
   polygon: RegionPolygons[`united-states-of-america-ohio-lake-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-lorain-county`,
   locales: {
@@ -14449,7 +14435,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.112518,41.289587999999995],
   polygon: RegionPolygons[`united-states-of-america-ohio-lorain-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-lucas-county`,
   locales: {
@@ -14463,7 +14449,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-83.5244735,41.573549],
   polygon: RegionPolygons[`united-states-of-america-ohio-lucas-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-mahoning-county`,
   locales: {
@@ -14477,7 +14463,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.80287200000001,41.0170235],
   polygon: RegionPolygons[`united-states-of-america-ohio-mahoning-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-medina-county`,
   locales: {
@@ -14491,7 +14477,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.92915450000001,41.132868],
   polygon: RegionPolygons[`united-states-of-america-ohio-medina-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-miami-county`,
   locales: {
@@ -14505,7 +14491,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-84.2296255,40.0399055],
   polygon: RegionPolygons[`united-states-of-america-ohio-miami-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-montgomery-county`,
   locales: {
@@ -14519,7 +14505,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-84.268203,39.750476500000005],
   polygon: RegionPolygons[`united-states-of-america-ohio-montgomery-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-richland-county`,
   locales: {
@@ -14533,7 +14519,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.532063,40.772758499999995],
   polygon: RegionPolygons[`united-states-of-america-ohio-richland-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-stark-county`,
   locales: {
@@ -14547,7 +14533,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.3683635,40.811817000000005],
   polygon: RegionPolygons[`united-states-of-america-ohio-stark-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-summit-county`,
   locales: {
@@ -14561,7 +14547,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.5400925,41.1288115],
   polygon: RegionPolygons[`united-states-of-america-ohio-summit-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-trumbull-county`,
   locales: {
@@ -14575,7 +14561,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.76100600000001,41.3175365],
   polygon: RegionPolygons[`united-states-of-america-ohio-trumbull-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-tuscarawas-county`,
   locales: {
@@ -14589,7 +14575,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.488516,40.440586499999995],
   polygon: RegionPolygons[`united-states-of-america-ohio-tuscarawas-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-adams-county`,
   locales: {
@@ -14631,7 +14617,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.76196,41.7387235],
   polygon: RegionPolygons[`united-states-of-america-ohio-ashtabula-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-athens-county`,
   locales: {
@@ -14645,7 +14631,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.010142,39.368549],
   polygon: RegionPolygons[`united-states-of-america-ohio-athens-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-auglaize-county`,
   locales: {
@@ -14687,7 +14673,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.0912405,40.576936],
   polygon: RegionPolygons[`united-states-of-america-ohio-carroll-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-champaign-county`,
   locales: {
@@ -14701,7 +14687,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-83.7652835,40.1418235],
   polygon: RegionPolygons[`united-states-of-america-ohio-champaign-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-clermont-county`,
   locales: {
@@ -14715,7 +14701,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-84.15652800000001,39.0206355],
   polygon: RegionPolygons[`united-states-of-america-ohio-clermont-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-clinton-county`,
   locales: {
@@ -14729,7 +14715,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-83.791534,39.3961065],
   polygon: RegionPolygons[`united-states-of-america-ohio-clinton-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-columbiana-county`,
   locales: {
@@ -14743,7 +14729,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.80314,40.756341],
   polygon: RegionPolygons[`united-states-of-america-ohio-columbiana-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-crawford-county`,
   locales: {
@@ -14757,7 +14743,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.9187645,40.849769499999994],
   polygon: RegionPolygons[`united-states-of-america-ohio-crawford-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-defiance-county`,
   locales: {
@@ -14771,7 +14757,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-84.5161775,41.296667],
   polygon: RegionPolygons[`united-states-of-america-ohio-defiance-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-erie-county`,
   locales: {
@@ -14785,7 +14771,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.647625,41.451591500000006],
   polygon: RegionPolygons[`united-states-of-america-ohio-erie-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-fairfield-county`,
   locales: {
@@ -14799,7 +14785,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.604502,39.7478035],
   polygon: RegionPolygons[`united-states-of-america-ohio-fairfield-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-fayette-county`,
   locales: {
@@ -14813,7 +14799,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-83.46131550000001,39.547146],
   polygon: RegionPolygons[`united-states-of-america-ohio-fayette-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-fulton-county`,
   locales: {
@@ -14841,7 +14827,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.33907400000001,38.808833500000006],
   polygon: RegionPolygons[`united-states-of-america-ohio-gallia-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-greene-county`,
   locales: {
@@ -14855,7 +14841,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-83.8804025,39.700356],
   polygon: RegionPolygons[`united-states-of-america-ohio-greene-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-guernsey-county`,
   locales: {
@@ -14883,7 +14869,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-83.650734,40.9933325],
   polygon: RegionPolygons[`united-states-of-america-ohio-hancock-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-hardin-county`,
   locales: {
@@ -14939,7 +14925,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-83.60897750000001,39.198813],
   polygon: RegionPolygons[`united-states-of-america-ohio-highland-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-hocking-county`,
   locales: {
@@ -14995,7 +14981,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-80.76835249999999,40.3772575],
   polygon: RegionPolygons[`united-states-of-america-ohio-jefferson-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-knox-county`,
   locales: {
@@ -15009,7 +14995,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.46490800000001,40.4060915],
   polygon: RegionPolygons[`united-states-of-america-ohio-knox-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-lawrence-county`,
   locales: {
@@ -15023,7 +15009,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.551557,38.6261375],
   polygon: RegionPolygons[`united-states-of-america-ohio-lawrence-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-licking-county`,
   locales: {
@@ -15037,7 +15023,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.482659,40.095128],
   polygon: RegionPolygons[`united-states-of-america-ohio-licking-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-logan-county`,
   locales: {
@@ -15051,7 +15037,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-83.76739950000001,40.384039],
   polygon: RegionPolygons[`united-states-of-america-ohio-logan-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-madison-county`,
   locales: {
@@ -15065,7 +15051,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-83.4298015,39.903453],
   polygon: RegionPolygons[`united-states-of-america-ohio-madison-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-marion-county`,
   locales: {
@@ -15079,7 +15065,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-83.139069,40.569407],
   polygon: RegionPolygons[`united-states-of-america-ohio-marion-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-meigs-county`,
   locales: {
@@ -15107,7 +15093,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-84.618068,40.540035],
   polygon: RegionPolygons[`united-states-of-america-ohio-mercer-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-monroe-county`,
   locales: {
@@ -15163,7 +15149,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.96253899999999,39.961225999999996],
   polygon: RegionPolygons[`united-states-of-america-ohio-muskingum-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-noble-county`,
   locales: {
@@ -15233,7 +15219,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-82.9991275,39.640426500000004],
   polygon: RegionPolygons[`united-states-of-america-ohio-pickaway-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-pike-county`,
   locales: {
@@ -15261,7 +15247,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.197562,41.1680275],
   polygon: RegionPolygons[`united-states-of-america-ohio-portage-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-preble-county`,
   locales: {
@@ -15317,7 +15303,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-83.129965,41.3771395],
   polygon: RegionPolygons[`united-states-of-america-ohio-sandusky-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-scioto-county`,
   locales: {
@@ -15345,7 +15331,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-83.125283,41.124142500000005],
   polygon: RegionPolygons[`united-states-of-america-ohio-seneca-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-shelby-county`,
   locales: {
@@ -15373,7 +15359,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-83.3606595,40.306980499999995],
   polygon: RegionPolygons[`united-states-of-america-ohio-union-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-van-wert-county`,
   locales: {
@@ -15415,7 +15401,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-84.1711185,39.4222805],
   polygon: RegionPolygons[`united-states-of-america-ohio-warren-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-washington-county`,
   locales: {
@@ -15429,7 +15415,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.4452295,39.430905499999994],
   polygon: RegionPolygons[`united-states-of-america-ohio-washington-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-wayne-county`,
   locales: {
@@ -15443,7 +15429,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-81.88851149999999,40.829962],
   polygon: RegionPolygons[`united-states-of-america-ohio-wayne-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-williams-county`,
   locales: {
@@ -15471,7 +15457,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-83.64893000000001,41.3923445],
   polygon: RegionPolygons[`united-states-of-america-ohio-wood-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-ohio-wyandot-county`,
   locales: {
@@ -15485,7 +15471,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-83.31362150000001,40.840135000000004],
   polygon: RegionPolygons[`united-states-of-america-ohio-wyandot-county`],
   parentId: `united-states-of-america-ohio`,
-  dataSource: `https://coronavirus.ohio.gov/wps/portal/gov/covid-19/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-oregon-benton-county`,
   locales: {
@@ -21239,7 +21225,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-120.52038999999999,47.905806999999996],
   polygon: RegionPolygons[`united-states-of-america-washington-chelan-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-clallam-county`,
   locales: {
@@ -21253,7 +21239,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-123.825558,48.12876],
   polygon: RegionPolygons[`united-states-of-america-washington-clallam-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-clark-county`,
   locales: {
@@ -21267,7 +21253,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-122.5203415,45.80125099999999],
   polygon: RegionPolygons[`united-states-of-america-washington-clark-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-columbia-county`,
   locales: {
@@ -21281,7 +21267,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-117.92289099999999,46.3118295],
   polygon: RegionPolygons[`united-states-of-america-washington-columbia-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-franklin-county`,
   locales: {
@@ -21295,7 +21281,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-118.8288585,46.465897],
   polygon: RegionPolygons[`united-states-of-america-washington-franklin-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-grant-county`,
   locales: {
@@ -21309,7 +21295,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-119.508134,47.293631],
   polygon: RegionPolygons[`united-states-of-america-washington-grant-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-grays-harbor-county`,
   locales: {
@@ -21323,7 +21309,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-123.756045,47.162482],
   polygon: RegionPolygons[`united-states-of-america-washington-grays-harbor-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-island-county`,
   locales: {
@@ -21337,7 +21323,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-122.559821,48.157794],
   polygon: RegionPolygons[`united-states-of-america-washington-island-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-jefferson-county`,
   locales: {
@@ -21351,7 +21337,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-123.61055200000001,47.8304245],
   polygon: RegionPolygons[`united-states-of-america-washington-jefferson-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-king-county`,
   locales: {
@@ -21365,7 +21351,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-121.7969185,47.4324805],
   polygon: RegionPolygons[`united-states-of-america-washington-king-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-kitsap-county`,
   locales: {
@@ -21379,7 +21365,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-122.7433825,47.6719585],
   polygon: RegionPolygons[`united-states-of-america-washington-kitsap-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-kittitas-county`,
   locales: {
@@ -21393,7 +21379,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-120.688514,47.167153],
   polygon: RegionPolygons[`united-states-of-america-washington-kittitas-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-klickitat-county`,
   locales: {
@@ -21407,7 +21393,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-120.739452,45.825073],
   polygon: RegionPolygons[`united-states-of-america-washington-klickitat-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-lewis-county`,
   locales: {
@@ -21421,7 +21407,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-122.3615475,46.5893095],
   polygon: RegionPolygons[`united-states-of-america-washington-lewis-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-lincoln-county`,
   locales: {
@@ -21435,7 +21421,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-118.399462,47.609032],
   polygon: RegionPolygons[`united-states-of-america-washington-lincoln-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-mason-county`,
   locales: {
@@ -21449,7 +21435,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-123.153076,47.344863000000004],
   polygon: RegionPolygons[`united-states-of-america-washington-mason-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-pierce-county`,
   locales: {
@@ -21463,7 +21449,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-122.10319799999999,47.066154],
   polygon: RegionPolygons[`united-states-of-america-washington-pierce-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-skagit-county`,
   locales: {
@@ -21477,7 +21463,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-121.712645,48.476543],
   polygon: RegionPolygons[`united-states-of-america-washington-skagit-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-snohomish-county`,
   locales: {
@@ -21491,7 +21477,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-121.65598399999999,48.037258],
   polygon: RegionPolygons[`united-states-of-america-washington-snohomish-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-spokane-county`,
   locales: {
@@ -21505,7 +21491,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-117.431769,47.653568500000006],
   polygon: RegionPolygons[`united-states-of-america-washington-spokane-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-thurston-county`,
   locales: {
@@ -21519,7 +21505,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-122.7023935,46.9761355],
   polygon: RegionPolygons[`united-states-of-america-washington-thurston-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-whatcom-county`,
   locales: {
@@ -21533,7 +21519,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-121.884438,48.821715499999996],
   polygon: RegionPolygons[`united-states-of-america-washington-whatcom-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-yakima-county`,
   locales: {
@@ -21547,21 +21533,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-120.69510149999999,46.564808],
   polygon: RegionPolygons[`united-states-of-america-washington-yakima-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
-}, {
-  id: `united-states-of-america-washington-(unassigned)`,
-  locales: {
-    en: `(unassigned)`
-  },
-  alternativeNames: undefined,
-  phoneCode: undefined,
-  alpha2code: undefined,
-  alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
-  polygon: RegionPolygons[`united-states-of-america-washington-(unassigned)`],
-  parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-skamania-county`,
   locales: {
@@ -21617,7 +21589,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-117.91595799999999,48.396499000000006],
   polygon: RegionPolygons[`united-states-of-america-washington-stevens-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-walla-walla-county`,
   locales: {
@@ -21631,7 +21603,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-118.516355,46.303333499999994],
   polygon: RegionPolygons[`united-states-of-america-washington-walla-walla-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-whitman-county`,
   locales: {
@@ -21645,7 +21617,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-117.64426,46.838819],
   polygon: RegionPolygons[`united-states-of-america-washington-whitman-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-adams-county`,
   locales: {
@@ -21659,7 +21631,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-118.6641215,46.999704],
   polygon: RegionPolygons[`united-states-of-america-washington-adams-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-asotin-county`,
   locales: {
@@ -21687,7 +21659,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-119.40769,46.281031],
   polygon: RegionPolygons[`united-states-of-america-washington-benton-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-cowlitz-county`,
   locales: {
@@ -21701,7 +21673,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-122.7288965,46.117914],
   polygon: RegionPolygons[`united-states-of-america-washington-cowlitz-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-douglas-county`,
   locales: {
@@ -21715,7 +21687,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-119.6344735,47.6852815],
   polygon: RegionPolygons[`united-states-of-america-washington-douglas-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-ferry-county`,
   locales: {
@@ -21729,7 +21701,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-118.48731599999999,48.4155455],
   polygon: RegionPolygons[`united-states-of-america-washington-ferry-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-okanogan-county`,
   locales: {
@@ -21743,7 +21715,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-119.85787099999999,48.470757000000006],
   polygon: RegionPolygons[`united-states-of-america-washington-okanogan-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-washington-pacific-county`,
   locales: {
@@ -21785,7 +21757,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-122.989615,48.570243500000004],
   polygon: RegionPolygons[`united-states-of-america-washington-san-juan-county`],
   parentId: `united-states-of-america-washington`,
-  dataSource: `https://www.doh.wa.gov/Emergencies/Coronavirus`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-wisconsin-bayfield-county`,
   locales: {
@@ -21799,7 +21771,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-91.1523555,46.5779685],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-bayfield-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-brown-county`,
   locales: {
@@ -21813,7 +21785,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.00379000000001,44.460046000000006],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-brown-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-calumet-county`,
   locales: {
@@ -21827,7 +21799,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.22310949999999,44.0678065],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-calumet-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-columbia-county`,
   locales: {
@@ -21841,7 +21813,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.39524750000001,43.46226849999999],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-columbia-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-dane-county`,
   locales: {
@@ -21855,7 +21827,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.4235435,43.069541],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-dane-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-eau-claire-county`,
   locales: {
@@ -21869,7 +21841,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-91.286351,44.726778499999995],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-eau-claire-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-fond-du-lac-county`,
   locales: {
@@ -21883,7 +21855,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.5234625,43.7405715],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-fond-du-lac-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-kenosha-county`,
   locales: {
@@ -21897,7 +21869,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.053184,42.5808145],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-kenosha-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-la-crosse-county`,
   locales: {
@@ -21911,7 +21883,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-91.1678275,43.90481],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-la-crosse-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-milwaukee-county`,
   locales: {
@@ -21925,7 +21897,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.94847250000001,43.017386],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-milwaukee-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-outagamie-county`,
   locales: {
@@ -21939,7 +21911,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.46518649999999,44.416275999999996],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-outagamie-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-ozaukee-county`,
   locales: {
@@ -21953,7 +21925,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.928296,43.367539],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-ozaukee-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-pierce-county`,
   locales: {
@@ -21967,7 +21939,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-92.47159500000001,44.7007885],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-pierce-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-racine-county`,
   locales: {
@@ -21981,7 +21953,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.0365295,42.72707],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-racine-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-sauk-county`,
   locales: {
@@ -21995,7 +21967,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.9558805,43.39317],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-sauk-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-sheboygan-county`,
   locales: {
@@ -22009,7 +21981,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.9311795,43.7172725],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-sheboygan-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-walworth-county`,
   locales: {
@@ -22023,7 +21995,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.5409145,42.66751],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-walworth-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-washington-county`,
   locales: {
@@ -22037,7 +22009,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.2293215,43.3678245],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-washington-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-waukesha-county`,
   locales: {
@@ -22051,7 +22023,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.30268950000001,43.018702],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-waukesha-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-winnebago-county`,
   locales: {
@@ -22065,7 +22037,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.644934,44.0685395],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-winnebago-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-wood-county`,
   locales: {
@@ -22079,7 +22051,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-90.02142649999999,44.466415999999995],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-wood-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-adams-county`,
   locales: {
@@ -22093,7 +22065,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.8114625,43.945259500000006],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-adams-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-ashland-county`,
   locales: {
@@ -22107,7 +22079,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-90.6148065,46.5293125],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-ashland-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-barron-county`,
   locales: {
@@ -22121,7 +22093,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-91.8483795,45.423232999999996],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-barron-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-buffalo-county`,
   locales: {
@@ -22135,7 +22107,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-91.8063705,44.311074500000004],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-buffalo-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-burnett-county`,
   locales: {
@@ -22149,7 +22121,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-92.459242,45.8986695],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-burnett-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-chippewa-county`,
   locales: {
@@ -22163,7 +22135,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-91.2943245,45.073983],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-chippewa-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-clark-county`,
   locales: {
@@ -22177,7 +22149,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-90.6192,44.728065],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-clark-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-crawford-county`,
   locales: {
@@ -22191,7 +22163,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-90.940501,43.206361],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-crawford-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-dodge-county`,
   locales: {
@@ -22205,7 +22177,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.7047825,43.4141185],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-dodge-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-door-county`,
   locales: {
@@ -22219,7 +22191,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.2707365,45.052065999999996],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-door-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-douglas-county`,
   locales: {
@@ -22233,7 +22205,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-91.92256950000001,46.4572665],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-douglas-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-dunn-county`,
   locales: {
@@ -22247,7 +22219,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-91.9037165,44.9465935],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-dunn-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-florence-county`,
   locales: {
@@ -22261,7 +22233,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.371228,45.8671375],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-florence-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-forest-county`,
   locales: {
@@ -22275,7 +22247,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.73643200000001,45.7253055],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-forest-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-grant-county`,
   locales: {
@@ -22289,7 +22261,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-90.7915955,42.859257],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-grant-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-green-county`,
   locales: {
@@ -22303,7 +22275,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.6022205,42.6788355],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-green-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-green-lake-county`,
   locales: {
@@ -22317,7 +22289,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.06556699999999,43.8074785],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-green-lake-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-iowa-county`,
   locales: {
@@ -22331,7 +22303,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-90.13398,43.011221000000006],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-iowa-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-iron-county`,
   locales: {
@@ -22345,7 +22317,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-90.2405085,46.2854815],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-iron-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-jackson-county`,
   locales: {
@@ -22359,7 +22331,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-90.7389105,44.333881],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-jackson-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-jefferson-county`,
   locales: {
@@ -22373,7 +22345,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.774666,43.020219],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-jefferson-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-juneau-county`,
   locales: {
@@ -22387,7 +22359,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-90.049192,43.9452],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-juneau-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-kewaunee-county`,
   locales: {
@@ -22401,7 +22373,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.569711,44.502105],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-kewaunee-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-lafayette-county`,
   locales: {
@@ -22415,7 +22387,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-90.1322445,42.659671],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-lafayette-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-langlade-county`,
   locales: {
@@ -22429,7 +22401,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.0320725,45.249466],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-langlade-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-lincoln-county`,
   locales: {
@@ -22443,7 +22415,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.735818,45.3372255],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-lincoln-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-manitowoc-county`,
   locales: {
@@ -22457,7 +22429,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-87.7753295,44.1096405],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-manitowoc-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-marathon-county`,
   locales: {
@@ -22471,7 +22443,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.769999,44.9009845],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-marathon-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-marinette-county`,
   locales: {
@@ -22485,7 +22457,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.00762449999999,45.3806155],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-marinette-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-marquette-county`,
   locales: {
@@ -22499,7 +22471,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.383781,43.812715],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-marquette-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-menominee-county`,
   locales: {
@@ -22513,7 +22485,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.732954,44.986731500000005],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-menominee-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-monroe-county`,
   locales: {
@@ -22527,7 +22499,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-90.644889,43.9431965],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-monroe-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-oconto-county`,
   locales: {
@@ -22541,7 +22513,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.2200685,45.025521499999996],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-oconto-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-oneida-county`,
   locales: {
@@ -22555,7 +22527,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.5453365,45.683113],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-oneida-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-pepin-county`,
   locales: {
@@ -22569,7 +22541,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-91.983238,44.545776000000004],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-pepin-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-polk-county`,
   locales: {
@@ -22583,7 +22555,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-92.5212785,45.469117],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-polk-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-portage-county`,
   locales: {
@@ -22597,7 +22569,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.53433799999999,44.464245500000004],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-portage-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-price-county`,
   locales: {
@@ -22611,7 +22583,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-90.3610415,45.679584000000006],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-price-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-richland-county`,
   locales: {
@@ -22625,7 +22597,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-90.431809,43.35973],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-richland-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-rock-county`,
   locales: {
@@ -22639,7 +22611,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.07281,42.669664999999995],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-rock-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-rusk-county`,
   locales: {
@@ -22653,7 +22625,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-91.1100305,45.4651145],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-rusk-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-sawyer-county`,
   locales: {
@@ -22667,7 +22639,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-91.1143865,45.8974295],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-sawyer-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-shawano-county`,
   locales: {
@@ -22681,7 +22653,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.7332505,44.807122500000006],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-shawano-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-st-croix-county`,
   locales: {
@@ -22695,7 +22667,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-92.469596,45.033633],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-st-croix-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-taylor-county`,
   locales: {
@@ -22709,7 +22681,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-90.484035,45.206809],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-taylor-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-trempealeau-county`,
   locales: {
@@ -22723,7 +22695,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-91.382407,44.290606999999994],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-trempealeau-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-vernon-county`,
   locales: {
@@ -22737,7 +22709,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-90.7921605,43.5767915],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-vernon-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-vilas-county`,
   locales: {
@@ -22751,7 +22723,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.488258,46.0781645],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-vilas-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-washburn-county`,
   locales: {
@@ -22765,7 +22737,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-91.7954705,45.897601],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-washburn-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-waupaca-county`,
   locales: {
@@ -22779,7 +22751,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-88.9150255,44.4619935],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-waupaca-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wisconsin-waushara-county`,
   locales: {
@@ -22793,7 +22765,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-89.2420865,44.1139125],
   polygon: RegionPolygons[`united-states-of-america-wisconsin-waushara-county`],
   parentId: `united-states-of-america-wisconsin`,
-  dataSource: `https://www.dhs.wisconsin.gov/outbreaks/index.htm`
+  dataSource: `https://www.dhs.wisconsin.gov/covid-19/data.htm`
 }, {
   id: `united-states-of-america-wyoming-albany-county`,
   locales: {
@@ -25229,7 +25201,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-72.1271835,41.4959865],
   polygon: RegionPolygons[`united-states-of-america-connecticut-new-london-county`],
   parentId: `united-states-of-america-connecticut`,
-  dataSource: `https://portal.ct.gov/-/media/Coronavirus/CTDPHCOVID19summary3242020.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-tennessee-out-of-tn-county`,
   locales: {
@@ -25463,11 +25435,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: [-71.8571,42.4097],
+  population: 830839,
+  coordinates: [-71.8970565,42.364811],
   polygon: RegionPolygons[`united-states-of-america-massachusetts-worcester-county`],
   parentId: `united-states-of-america-massachusetts`,
-  dataSource: `https://www.mass.gov/doc/covid-19-cases-in-massachusetts-as-of-march-24-2020/download`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-georgia-gwinnett-county`,
   locales: {
@@ -25478,7 +25450,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 927781,
-  coordinates: [-84.0167,33.9191],
+  coordinates: [-84.03796299999999,33.9603405],
   polygon: RegionPolygons[`united-states-of-america-georgia-gwinnett-county`],
   parentId: `united-states-of-america-georgia`,
   dataSource: `https://dph.georgia.gov/covid-19-daily-status-report`
@@ -25492,7 +25464,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 756558,
-  coordinates: [-84.2279,33.7956],
+  coordinates: [-84.1869685,33.7950005],
   polygon: RegionPolygons[`united-states-of-america-georgia-dekalb-county`],
   parentId: `united-states-of-america-georgia`,
   dataSource: `https://dph.georgia.gov/covid-19-daily-status-report`
@@ -25506,7 +25478,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 35845,
-  coordinates: [-82.7779,37.5455],
+  coordinates: [-82.75425200000001,37.520775],
   polygon: RegionPolygons[`united-states-of-america-kentucky-floyd-county`],
   parentId: `united-states-of-america-kentucky`,
   dataSource: `https://datawrapper.dwcdn.net/BbowM/23/`
@@ -25520,7 +25492,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 113459,
-  coordinates: [-84.4803,33.4502],
+  coordinates: [-84.504039,33.4037165],
   polygon: RegionPolygons[`united-states-of-america-georgia-fayette-county`],
   parentId: `united-states-of-america-georgia`,
   dataSource: `https://dph.georgia.gov/covid-19-daily-status-report`
@@ -25534,7 +25506,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 169507,
-  coordinates: [-75.2479,41.0458],
+  coordinates: [-75.308198,41.0334235],
   polygon: RegionPolygons[`united-states-of-america-pennsylvania-monroe-county`],
   parentId: `united-states-of-america-pennsylvania`,
   dataSource: `https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx`
@@ -25548,7 +25520,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1584138,
-  coordinates: [-75.1652,39.9526],
+  coordinates: [-75.116323,40.0018505],
   polygon: RegionPolygons[`united-states-of-america-pennsylvania-philadelphia-county`],
   parentId: `united-states-of-america-pennsylvania`,
   dataSource: `https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx`
@@ -25562,7 +25534,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 244076,
-  coordinates: [-76.2859,36.8508],
+  coordinates: [-76.260784,36.894752],
   polygon: RegionPolygons[`united-states-of-america-virginia-norfolk-county`],
   parentId: `united-states-of-america-virginia`,
   dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
@@ -25576,7 +25548,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 237521,
-  coordinates: [-77.091,38.8816],
+  coordinates: [-77.1019335,38.88086],
   polygon: RegionPolygons[`united-states-of-america-virginia-arlington-county`],
   parentId: `united-states-of-america-virginia`,
   dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
@@ -25590,7 +25562,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 134238,
-  coordinates: [-77.6078,38.2042],
+  coordinates: [-77.66256,38.1845175],
   polygon: RegionPolygons[`united-states-of-america-virginia-spotsylvania-county`],
   parentId: `united-states-of-america-virginia`,
   dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
@@ -25604,7 +25576,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 406850,
-  coordinates: [-77.6536,39.0768],
+  coordinates: [-77.6451185,39.085832999999994],
   polygon: RegionPolygons[`united-states-of-america-virginia-loudoun-county`],
   parentId: `united-states-of-america-virginia`,
   dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
@@ -25618,7 +25590,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 93533,
-  coordinates: [-95.4778,41.3912],
+  coordinates: [-95.5872695,41.3330975],
   polygon: RegionPolygons[`united-states-of-america-iowa-pottawattamie-county`],
   parentId: `united-states-of-america-iowa`,
   dataSource: `https://opendata.arcgis.com/datasets/6a84756c2e444a87828bb7ce699fdac6_0.csv`
@@ -25632,7 +25604,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 65592,
-  coordinates: [-80.607,34.2465],
+  coordinates: [-80.5825535,34.341868500000004],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-kershaw-county`],
   parentId: `united-states-of-america-south-carolina`,
   dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
@@ -25646,7 +25618,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1039073,
-  coordinates: [-111.6661,32.0575],
+  coordinates: [-111.890835,31.969969499999998],
   polygon: RegionPolygons[`united-states-of-america-arizona-pima-county`],
   parentId: `united-states-of-america-arizona`,
   dataSource: `https://tableau.azdhs.gov/views/COVID-19Dashboard/COVID-19table?%3AisGuestRedirectFromVizportal=y&%3Aembed=y`
@@ -25660,7 +25632,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 102811,
-  coordinates: [-77.2865,39.8522],
+  coordinates: [-77.2130085,39.894887499999996],
   polygon: RegionPolygons[`united-states-of-america-pennsylvania-adams-county`],
   parentId: `united-states-of-america-pennsylvania`,
   dataSource: `https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx`
@@ -25673,11 +25645,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: [-111.9522,41.2603],
+  population: 256359,
+  coordinates: [-111.9569765,41.2552205],
   polygon: RegionPolygons[`united-states-of-america-utah-weber-county`],
   parentId: `united-states-of-america-utah`,
-  dataSource: `https://coronavirus-dashboard.utah.gov/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-vermont-bennington-county`,
   locales: {
@@ -25687,11 +25659,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: [-73.135,43.0279],
+  population: 35631,
+  coordinates: [-73.055156,43.026915],
   polygon: RegionPolygons[`united-states-of-america-vermont-bennington-county`],
   parentId: `united-states-of-america-vermont`,
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-minnesota-carver-county`,
   locales: {
@@ -25702,7 +25674,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 103551,
-  coordinates: [-93.7842,44.8254],
+  coordinates: [-93.7663335,44.809337],
   polygon: RegionPolygons[`united-states-of-america-minnesota-carver-county`],
   parentId: `united-states-of-america-minnesota`,
   dataSource: `https://www.health.state.mn.us/diseases/coronavirus/situation.html`
@@ -25716,7 +25688,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 254149,
-  coordinates: [-84.4803,34.2515],
+  coordinates: [-84.45841,34.242944],
   polygon: RegionPolygons[`united-states-of-america-georgia-cherokee-county`],
   parentId: `united-states-of-america-georgia`,
   dataSource: `https://dph.georgia.gov/covid-19-daily-status-report`
@@ -25730,7 +25702,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 770517,
-  coordinates: [-85.6435,38.1938],
+  coordinates: [-85.67646450000001,38.189522],
   polygon: RegionPolygons[`united-states-of-america-kentucky-jefferson-county`],
   parentId: `united-states-of-america-kentucky`,
   dataSource: `https://datawrapper.dwcdn.net/BbowM/23/`
@@ -25758,7 +25730,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 313888,
-  coordinates: [-81.9535,34.8606],
+  coordinates: [-81.969116,34.8881375],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-spartanburg-county`],
   parentId: `united-states-of-america-south-carolina`,
   dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
@@ -25772,7 +25744,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 18778,
-  coordinates: [-84.3542,38.4333],
+  coordinates: [-84.3297375,38.4299455],
   polygon: RegionPolygons[`united-states-of-america-kentucky-harrison-county`],
   parentId: `united-states-of-america-kentucky`,
   dataSource: `https://datawrapper.dwcdn.net/BbowM/23/`
@@ -25786,7 +25758,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 151260,
-  coordinates: [-91.5984,41.6699],
+  coordinates: [-91.5995785,41.6426345],
   polygon: RegionPolygons[`united-states-of-america-iowa-johnson-county`],
   parentId: `united-states-of-america-iowa`,
   dataSource: `https://opendata.arcgis.com/datasets/6a84756c2e444a87828bb7ce699fdac6_0.csv`
@@ -25799,11 +25771,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: [-73.1822,42.3118],
+  population: 126348,
+  coordinates: [-73.22845000000001,42.392900499999996],
   polygon: RegionPolygons[`united-states-of-america-massachusetts-berkshire-county`],
   parentId: `united-states-of-america-massachusetts`,
-  dataSource: `https://www.mass.gov/doc/covid-19-cases-in-massachusetts-as-of-march-24-2020/download`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-kansas-johnson-county`,
   locales: {
@@ -25813,11 +25785,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: [-94.8521,38.8454],
+  population: 597555,
+  coordinates: [-94.8319645,38.899654999999996],
   polygon: RegionPolygons[`united-states-of-america-kansas-johnson-county`],
   parentId: `united-states-of-america-kansas`,
-  dataSource: `https://khap2.kdhe.state.ks.us/NewsRelease/COVID19/COVID-19_March_24_2020_.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-georgia-polk-county`,
   locales: {
@@ -25828,7 +25800,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 42470,
-  coordinates: [-85.1479,34.0132],
+  coordinates: [-85.1722975,33.999939999999995],
   polygon: RegionPolygons[`united-states-of-america-georgia-polk-county`],
   parentId: `united-states-of-america-georgia`,
   dataSource: `https://dph.georgia.gov/covid-19-daily-status-report`
@@ -25842,7 +25814,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 996945,
-  coordinates: [-90.4125,38.6103],
+  coordinates: [-90.42701299999999,38.639327],
   polygon: RegionPolygons[`united-states-of-america-missouri-st-louis-county`],
   parentId: `united-states-of-america-missouri`,
   dataSource: `https://health.mo.gov/living/healthcondiseases/communicable/novel-coronavirus/results.php`
@@ -25856,7 +25828,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1150795,
-  coordinates: [-77.2405,38.9085],
+  coordinates: [-77.2880665,38.837506],
   polygon: RegionPolygons[`united-states-of-america-virginia-fairfax-county`],
   parentId: `united-states-of-america-virginia`,
   dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
@@ -25870,7 +25842,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 309176,
-  coordinates: [-71.0498,42.9931],
+  coordinates: [-71.0775545,43.005895499999994],
   polygon: RegionPolygons[`united-states-of-america-new-hampshire-rockingham-county`],
   parentId: `united-states-of-america-new-hampshire`,
   dataSource: `https://www.nh.gov/covid19/documents/case-map.pdf`
@@ -25884,7 +25856,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 828604,
-  coordinates: [-75.3879,40.229],
+  coordinates: [-75.355924,40.211977000000005],
   polygon: RegionPolygons[`united-states-of-america-pennsylvania-montgomery-county`],
   parentId: `united-states-of-america-pennsylvania`,
   dataSource: `https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx`
@@ -25898,7 +25870,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 447138,
-  coordinates: [-111.2845,32.8162],
+  coordinates: [-111.3260815,32.983734999999996],
   polygon: RegionPolygons[`united-states-of-america-arizona-pinal-county`],
   parentId: `united-states-of-america-arizona`,
   dataSource: `https://tableau.azdhs.gov/views/COVID-19Dashboard/COVID-19table?%3AisGuestRedirectFromVizportal=y&%3Aembed=y`
@@ -25912,7 +25884,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 405905,
-  coordinates: [-79.7848,32.7957],
+  coordinates: [-79.8540075,32.8643955],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-charleston-county`],
   parentId: `united-states-of-america-south-carolina`,
   dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
@@ -25926,7 +25898,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 756865,
-  coordinates: [-84.5641,33.8999],
+  coordinates: [-84.55718949999999,33.911453],
   polygon: RegionPolygons[`united-states-of-america-georgia-cobb-county`],
   parentId: `united-states-of-america-georgia`,
   dataSource: `https://dph.georgia.gov/covid-19-daily-status-report`
@@ -25939,11 +25911,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: [-112.0953,40.9629],
+  population: 351713,
+  coordinates: [-112.115984,40.963095499999994],
   polygon: RegionPolygons[`united-states-of-america-utah-davis-county`],
   parentId: `united-states-of-america-utah`,
-  dataSource: `https://coronavirus-dashboard.utah.gov/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-hawaii-honolulu-county`,
   locales: {
@@ -25954,10 +25926,10 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 980080,
-  coordinates: [-157.8584,21.307],
+  coordinates: [-157.965655,21.485202],
   polygon: RegionPolygons[`united-states-of-america-hawaii-honolulu-county`],
   parentId: `united-states-of-america-hawaii`,
-  dataSource: `https://health.hawaii.gov/docd/advisories/novel-coronavirus-2019/`
+  dataSource: `https://health.hawaii.gov/coronavirusdisease2019/`
 }, {
   id: `united-states-of-america-oklahoma-tulsa-county`,
   locales: {
@@ -25968,7 +25940,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 648360,
-  coordinates: [-95.941,36.1593],
+  coordinates: [-96.029769,36.139793],
   polygon: RegionPolygons[`united-states-of-america-oklahoma-tulsa-county`],
   parentId: `united-states-of-america-oklahoma`,
   dataSource: `https://coronavirus.health.ok.gov/`
@@ -25982,10 +25954,10 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 636084,
-  coordinates: [-71.4774,41.8882],
+  coordinates: [-71.558516,41.8716835],
   polygon: RegionPolygons[`united-states-of-america-rhode-island-providence-county`],
   parentId: `united-states-of-america-rhode-island`,
-  dataSource: `https://docs.google.com/spreadsheets/d/1n-zMS9Al94CPj_Tc3K7Adin-tN9x1RSjjx2UzJ4SV7Q/gviz/tq?tqx=out:csv&sheet=County+Data#gid=0`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-pennsylvania-delaware-county`,
   locales: {
@@ -25996,7 +25968,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 564751,
-  coordinates: [-75.3879,39.9078],
+  coordinates: [-75.404395,39.9336645],
   polygon: RegionPolygons[`united-states-of-america-pennsylvania-delaware-county`],
   parentId: `united-states-of-america-pennsylvania`,
   dataSource: `https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx`
@@ -26010,7 +25982,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 566880,
-  coordinates: [-96.1951,41.3148],
+  coordinates: [-96.1711045,41.291619],
   polygon: RegionPolygons[`united-states-of-america-nebraska-douglas-county`],
   parentId: `united-states-of-america-nebraska`,
   dataSource: `https://www.lincoln.ne.gov/city/covid19/`
@@ -26024,7 +25996,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 323780,
-  coordinates: [-84.4803,38.0606],
+  coordinates: [-84.47260800000001,38.0286565],
   polygon: RegionPolygons[`united-states-of-america-kentucky-fayette-county`],
   parentId: `united-states-of-america-kentucky`,
   dataSource: `https://datawrapper.dwcdn.net/BbowM/23/`
@@ -26037,11 +26009,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: [-71.2874,42.4672],
+  population: 1614714,
+  coordinates: [-71.45954649999999,42.446715999999995],
   polygon: RegionPolygons[`united-states-of-america-massachusetts-middlesex-county`],
   parentId: `united-states-of-america-massachusetts`,
-  dataSource: `https://www.mass.gov/doc/covid-19-cases-in-massachusetts-as-of-march-24-2020/download`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-minnesota-ramsey-county`,
   locales: {
@@ -26052,7 +26024,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 550210,
-  coordinates: [-93.0616,44.9964],
+  coordinates: [-93.1059515,45.006435499999995],
   polygon: RegionPolygons[`united-states-of-america-minnesota-ramsey-county`],
   parentId: `united-states-of-america-minnesota`,
   dataSource: `https://www.health.state.mn.us/diseases/coronavirus/situation.html`
@@ -26066,10 +26038,10 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 465735,
-  coordinates: [-119.6035,40.5608],
+  coordinates: [-119.5881935,40.581575],
   polygon: RegionPolygons[`united-states-of-america-nevada-washoe-county`],
   parentId: `united-states-of-america-nevada`,
-  dataSource: `https://www.washoecounty.us/health/programs-and-services/communicable-diseases-and-epidemiology/educational_materials/COVID-19.php`
+  dataSource: `https://opendata.arcgis.com/datasets/4fcda514110940cb827ec2839e7ebbb0_0.csv`
 }, {
   id: `united-states-of-america-pennsylvania-wayne-county`,
   locales: {
@@ -26080,7 +26052,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 51276,
-  coordinates: [-75.2479,41.6739],
+  coordinates: [-75.2745845,41.615992000000006],
   polygon: RegionPolygons[`united-states-of-america-pennsylvania-wayne-county`],
   parentId: `united-states-of-america-pennsylvania`,
   dataSource: `https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx`
@@ -26094,7 +26066,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 2231647,
-  coordinates: [-115.094,36.0796],
+  coordinates: [-114.97136549999999,35.927779],
   polygon: RegionPolygons[`united-states-of-america-nevada-clark-county`],
   parentId: `united-states-of-america-nevada`,
   dataSource: `https://www.southernnevadahealthdistrict.org/coronavirus`
@@ -26107,11 +26079,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: [-71.0589,42.3601],
+  population: 807252,
+  coordinates: [-71.0720885,42.336316499999995],
   polygon: RegionPolygons[`united-states-of-america-massachusetts-suffolk-county`],
   parentId: `united-states-of-america-massachusetts`,
-  dataSource: `https://www.mass.gov/doc/covid-19-cases-in-massachusetts-as-of-march-24-2020/download`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-massachusetts-norfolk-county`,
   locales: {
@@ -26121,11 +26093,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: [-71.1449,42.1767],
+  population: 705388,
+  coordinates: [-71.140816,42.168404499999994],
   polygon: RegionPolygons[`united-states-of-america-massachusetts-norfolk-county`],
   parentId: `united-states-of-america-massachusetts`,
-  dataSource: `https://www.mass.gov/doc/covid-19-cases-in-massachusetts-as-of-march-24-2020/download`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-arizona-maricopa-county`,
   locales: {
@@ -26136,7 +26108,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 4410824,
-  coordinates: [-112.4291,33.2918],
+  coordinates: [-112.187061,33.276554000000004],
   polygon: RegionPolygons[`united-states-of-america-arizona-maricopa-county`],
   parentId: `united-states-of-america-arizona`,
   dataSource: `https://tableau.azdhs.gov/views/COVID-19Dashboard/COVID-19table?%3AisGuestRedirectFromVizportal=y&%3Aembed=y`
@@ -26150,7 +26122,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 89786,
-  coordinates: [-71.826,43.9088],
+  coordinates: [-71.84080399999999,43.967536],
   polygon: RegionPolygons[`united-states-of-america-new-hampshire-grafton-county`],
   parentId: `united-states-of-america-new-hampshire`,
   dataSource: `https://www.nh.gov/covid19/documents/case-map.pdf`
@@ -26164,7 +26136,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1050114,
-  coordinates: [-84.3963,33.8034],
+  coordinates: [-84.47420249999999,33.8443275],
   polygon: RegionPolygons[`united-states-of-america-georgia-fulton-county`],
   parentId: `united-states-of-america-georgia`,
   dataSource: `https://dph.georgia.gov/covid-19-daily-status-report`
@@ -26177,11 +26149,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: [-70.7829,42.632],
+  population: 790638,
+  coordinates: [-70.923786,42.651393],
   polygon: RegionPolygons[`united-states-of-america-massachusetts-essex-county`],
   parentId: `united-states-of-america-massachusetts`,
-  dataSource: `https://www.mass.gov/doc/covid-19-cases-in-massachusetts-as-of-march-24-2020/download`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-georgia-charlton-county`,
   locales: {
@@ -26192,7 +26164,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 12968,
-  coordinates: [-82.0843,30.7917],
+  coordinates: [-82.156235,30.71683],
   polygon: RegionPolygons[`united-states-of-america-georgia-charlton-county`],
   parentId: `united-states-of-america-georgia`,
   dataSource: `https://dph.georgia.gov/covid-19-daily-status-report`
@@ -26206,7 +26178,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 628195,
-  coordinates: [-75.2479,40.4108],
+  coordinates: [-75.1027805,40.3287395],
   polygon: RegionPolygons[`united-states-of-america-pennsylvania-bucks-county`],
   parentId: `united-states-of-america-pennsylvania`,
   dataSource: `https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx`
@@ -26220,7 +26192,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 107239,
-  coordinates: [-77.5161,37.7772],
+  coordinates: [-77.4571685,37.7722045],
   polygon: RegionPolygons[`united-states-of-america-virginia-hanover-county`],
   parentId: `united-states-of-america-virginia`,
   dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
@@ -26234,7 +26206,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 95380,
-  coordinates: [-80.6771,34.7253],
+  coordinates: [-80.658954,34.767196],
   polygon: RegionPolygons[`united-states-of-america-south-carolina-lancaster-county`],
   parentId: `united-states-of-america-south-carolina`,
   dataSource: `https://opendata.arcgis.com/datasets/5ffb6e698ea64a91a497194814a26311_0.csv`
@@ -26248,7 +26220,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 8419,
-  coordinates: [-97.8722,42.6712],
+  coordinates: [-97.89758,42.659736499999994],
   polygon: RegionPolygons[`united-states-of-america-nebraska-knox-county`],
   parentId: `united-states-of-america-nebraska`,
   dataSource: `https://www.lincoln.ne.gov/city/covid19/`
@@ -26262,7 +26234,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 353813,
-  coordinates: [-93.2197,45.3293],
+  coordinates: [-93.2659965,45.2250815],
   polygon: RegionPolygons[`united-states-of-america-minnesota-anoka-county`],
   parentId: `united-states-of-america-minnesota`,
   dataSource: `https://www.health.state.mn.us/diseases/coronavirus/situation.html`
@@ -26276,7 +26248,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 156277,
-  coordinates: [-92.3814,43.9952],
+  coordinates: [-92.3843415,44.014681499999995],
   polygon: RegionPolygons[`united-states-of-america-minnesota-olmsted-county`],
   parentId: `united-states-of-america-minnesota`,
   dataSource: `https://www.health.state.mn.us/diseases/coronavirus/situation.html`
@@ -26289,11 +26261,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: [-110.9984,40.8298],
+  population: 41933,
+  coordinates: [-110.82489050000001,40.9000835],
   polygon: RegionPolygons[`united-states-of-america-utah-summit-county`],
   parentId: `united-states-of-america-utah`,
-  dataSource: `https://coronavirus-dashboard.utah.gov/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-louisiana-orleans-county`,
   locales: {
@@ -26303,11 +26275,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: [-90.0715,29.9511],
+  population: 391006,
+  coordinates: [-89.88147699999999,30.033868],
   polygon: RegionPolygons[`united-states-of-america-louisiana-orleans-county`],
   parentId: `united-states-of-america-louisiana`,
-  dataSource: `https://github.com/CSSEGISandData/COVID-19`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-south-dakota-pennington-county`,
   locales: {
@@ -26317,11 +26289,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: [-102.2548,43.8901],
+  population: 111729,
+  coordinates: [-103.02822599999999,44.098381],
   polygon: RegionPolygons[`united-states-of-america-south-dakota-pennington-county`],
   parentId: `united-states-of-america-south-dakota`,
-  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-south-dakota-beadle-county`,
   locales: {
@@ -26331,11 +26303,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: [-98.2213,44.4797],
+  population: 18883,
+  coordinates: [-98.279395,44.414696],
   polygon: RegionPolygons[`united-states-of-america-south-dakota-beadle-county`],
   parentId: `united-states-of-america-south-dakota`,
-  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-south-dakota-charles-mix-county`,
   locales: {
@@ -26345,11 +26317,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: [-98.3965,43.0985],
+  population: 9338,
+  coordinates: [-98.6895585,43.1683905],
   polygon: RegionPolygons[`united-states-of-america-south-dakota-charles-mix-county`],
   parentId: `united-states-of-america-south-dakota`,
-  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-south-dakota-davison-county`,
   locales: {
@@ -26359,11 +26331,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: [-98.2213,43.7242],
+  population: 19790,
+  coordinates: [-98.145127,43.6746775],
   polygon: RegionPolygons[`united-states-of-america-south-dakota-davison-county`],
   parentId: `united-states-of-america-south-dakota`,
-  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-south-dakota-minnehaha-county`,
   locales: {
@@ -26373,11 +26345,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: [-96.8351,43.6632],
+  population: 192876,
+  coordinates: [-96.7912635,43.674592],
   polygon: RegionPolygons[`united-states-of-america-south-dakota-minnehaha-county`],
   parentId: `united-states-of-america-south-dakota`,
-  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-south-dakota-bon-homme-county`,
   locales: {
@@ -26387,11 +26359,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: [-97.8722,42.9815],
+  population: 6980,
+  coordinates: [-97.899183,42.965534500000004],
   polygon: RegionPolygons[`united-states-of-america-south-dakota-bon-homme-county`],
   parentId: `united-states-of-america-south-dakota`,
-  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-new-mexico-socorro-county`,
   locales: {
@@ -26402,7 +26374,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 16735,
-  coordinates: [-106.7235,33.8837],
+  coordinates: [-106.82471,34.02812],
   polygon: RegionPolygons[`united-states-of-america-new-mexico-socorro-county`],
   parentId: `united-states-of-america-new-mexico`,
   dataSource: `https://cv.nmhealth.org/cases-by-county/`
@@ -26416,7 +26388,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 678701,
-  coordinates: [-106.6291,35.0178],
+  coordinates: [-106.6728725,35.044182500000005],
   polygon: RegionPolygons[`united-states-of-america-new-mexico-bernalillo-county`],
   parentId: `united-states-of-america-new-mexico`,
   dataSource: `https://cv.nmhealth.org/cases-by-county/`
@@ -26430,7 +26402,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1259201,
-  coordinates: [-83.3362,42.5922],
+  coordinates: [-83.38638850000001,42.659913],
   polygon: RegionPolygons[`united-states-of-america-michigan-oakland-county`],
   parentId: `united-states-of-america-michigan`,
   dataSource: `https://www.michigan.gov/coronavirus/0,9753,7-406-98163-520743--,00.html`
@@ -26444,7 +26416,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 1753893,
-  coordinates: [-83.3362,42.2791],
+  coordinates: [-83.211127,42.240301],
   polygon: RegionPolygons[`united-states-of-america-michigan-wayne-county`],
   parentId: `united-states-of-america-michigan`,
   dataSource: `https://www.michigan.gov/coronavirus/0,9753,7-406-98163-520743--,00.html`
@@ -26500,7 +26472,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 376480,
-  coordinates: [-61.019622362499945,14.669175522500069],
+  coordinates: [-61.019989787163496,14.636421259678],
   polygon: RegionPolygons[`france-martinique`],
   parentId: `france`,
   dataSource: `https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/articles/infection-au-nouveau-coronavirus-sars-cov-2-covid-19-france-et-monde`
@@ -26695,11 +26667,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 54950,
+  coordinates: [-112.957899,41.5005715],
   polygon: RegionPolygons[`united-states-of-america-utah-box-elder-county`],
   parentId: `united-states-of-america-utah`,
-  dataSource: `https://coronavirus-dashboard.utah.gov/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-utah-cache-county`,
   locales: {
@@ -26709,11 +26681,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 127068,
+  coordinates: [-111.786214,41.6843775],
   polygon: RegionPolygons[`united-states-of-america-utah-cache-county`],
   parentId: `united-states-of-america-utah`,
-  dataSource: `https://coronavirus-dashboard.utah.gov/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-utah-carbon-county`,
   locales: {
@@ -26807,11 +26779,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 52775,
+  coordinates: [-113.25971899999999,37.811655],
   polygon: RegionPolygons[`united-states-of-america-utah-iron-county`],
   parentId: `united-states-of-america-utah`,
-  dataSource: `https://coronavirus-dashboard.utah.gov/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-utah-juab-county`,
   locales: {
@@ -26863,11 +26835,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 12045,
+  coordinates: [-111.549031,41.0769745],
   polygon: RegionPolygons[`united-states-of-america-utah-morgan-county`],
   parentId: `united-states-of-america-utah`,
-  dataSource: `https://coronavirus-dashboard.utah.gov/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-utah-piute-county`,
   locales: {
@@ -26905,11 +26877,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 1152633,
+  coordinates: [-111.9083075,40.66808399999999],
   polygon: RegionPolygons[`united-states-of-america-utah-salt-lake-county`],
   parentId: `united-states-of-america-utah`,
-  dataSource: `https://coronavirus-dashboard.utah.gov/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-utah-san-juan-county`,
   locales: {
@@ -26961,11 +26933,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 69907,
+  coordinates: [-113.09571600000001,40.490421],
   polygon: RegionPolygons[`united-states-of-america-utah-tooele-county`],
   parentId: `united-states-of-america-utah`,
-  dataSource: `https://coronavirus-dashboard.utah.gov/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-utah-uintah-county`,
   locales: {
@@ -26989,11 +26961,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 622213,
+  coordinates: [-111.5347685,40.176925999999995],
   polygon: RegionPolygons[`united-states-of-america-utah-utah-county`],
   parentId: `united-states-of-america-utah`,
-  dataSource: `https://coronavirus-dashboard.utah.gov/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-utah-wasatch-county`,
   locales: {
@@ -27003,11 +26975,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 33240,
+  coordinates: [-111.25642,40.294765],
   polygon: RegionPolygons[`united-states-of-america-utah-wasatch-county`],
   parentId: `united-states-of-america-utah`,
-  dataSource: `https://coronavirus-dashboard.utah.gov/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-utah-washington-county`,
   locales: {
@@ -27017,11 +26989,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 171700,
+  coordinates: [-113.476164,37.309175499999995],
   polygon: RegionPolygons[`united-states-of-america-utah-washington-county`],
   parentId: `united-states-of-america-utah`,
-  dataSource: `https://coronavirus-dashboard.utah.gov/`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-utah-wayne-county`,
   locales: {
@@ -27129,11 +27101,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 5546,
+  coordinates: [-97.368803,43.674370999999994],
   polygon: RegionPolygons[`united-states-of-america-south-dakota-mccook-county`],
   parentId: `united-states-of-america-south-dakota`,
-  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-south-dakota-aurora-county`,
   locales: {
@@ -27171,11 +27143,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 35232,
+  coordinates: [-96.79074349999999,44.369750999999994],
   polygon: RegionPolygons[`united-states-of-america-south-dakota-brookings-county`],
   parentId: `united-states-of-america-south-dakota`,
-  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-south-dakota-brown-county`,
   locales: {
@@ -27185,11 +27157,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 39316,
+  coordinates: [-98.35189,45.5895505],
   polygon: RegionPolygons[`united-states-of-america-south-dakota-brown-county`],
   parentId: `united-states-of-america-south-dakota`,
-  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-south-dakota-brule-county`,
   locales: {
@@ -27283,11 +27255,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 28015,
+  coordinates: [-97.1882995,44.9779305],
   polygon: RegionPolygons[`united-states-of-america-south-dakota-codington-county`],
   parentId: `united-states-of-america-south-dakota`,
-  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-south-dakota-corson-county`,
   locales: {
@@ -27521,11 +27493,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 17650,
+  coordinates: [-100.0894005,44.323127],
   polygon: RegionPolygons[`united-states-of-america-south-dakota-hughes-county`],
   parentId: `united-states-of-america-south-dakota`,
-  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-south-dakota-hutchinson-county`,
   locales: {
@@ -27647,11 +27619,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 58807,
+  coordinates: [-96.68071499999999,43.29191],
   polygon: RegionPolygons[`united-states-of-america-south-dakota-lincoln-county`],
   parentId: `united-states-of-america-south-dakota`,
-  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-south-dakota-lyman-county`,
   locales: {
@@ -27661,11 +27633,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 3821,
+  coordinates: [-99.8243355,43.8585825],
   polygon: RegionPolygons[`united-states-of-america-south-dakota-lyman-county`],
   parentId: `united-states-of-america-south-dakota`,
-  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-south-dakota-marshall-county`,
   locales: {
@@ -27703,11 +27675,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 28294,
+  coordinates: [-102.7871945,44.589876000000004],
   polygon: RegionPolygons[`united-states-of-america-south-dakota-meade-county`],
   parentId: `united-states-of-america-south-dakota`,
-  dataSource: `https://doh.sd.gov/news/Coronavirus.aspx#SD`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-south-dakota-mellette-county`,
   locales: {
@@ -28264,7 +28236,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 78747,
-  coordinates: [-79.515404,37.3364395],
+  coordinates: [-79.52068,37.311538],
   polygon: RegionPolygons[`united-states-of-america-virginia-bedford-county`],
   parentId: `united-states-of-america-virginia`,
   dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
@@ -29552,7 +29524,7 @@ export const RegionsData: PlaceSeedData[] = [{
   alpha2code: undefined,
   alpha3code: undefined,
   population: 94073,
-  coordinates: [-79.95583099999999,37.2732505],
+  coordinates: [-80.0542245,37.26787],
   polygon: RegionPolygons[`united-states-of-america-virginia-roanoke-county`],
   parentId: `united-states-of-america-virginia`,
   dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
@@ -31237,20 +31209,6 @@ export const RegionsData: PlaceSeedData[] = [{
   parentId: `united-states-of-america-pennsylvania`,
   dataSource: `https://www.health.pa.gov/topics/disease/coronavirus/Pages/Cases.aspx`
 }, {
-  id: `united-states-of-america-tennessee-(unassigned)`,
-  locales: {
-    en: `(unassigned)`
-  },
-  alternativeNames: undefined,
-  phoneCode: undefined,
-  alpha2code: undefined,
-  alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
-  polygon: RegionPolygons[`united-states-of-america-tennessee-(unassigned)`],
-  parentId: `united-states-of-america-tennessee`,
-  dataSource: `https://www.tn.gov/health/cedep/ncov.html`
-}, {
   id: `united-states-of-america-iowa-carroll-county`,
   locales: {
     en: `Carroll County`
@@ -31287,11 +31245,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 213413,
+  coordinates: [-70.3115305,41.797838],
   polygon: RegionPolygons[`united-states-of-america-massachusetts-barnstable-county`],
   parentId: `united-states-of-america-massachusetts`,
-  dataSource: `https://www.mass.gov/doc/covid-19-cases-in-massachusetts-as-of-march-24-2020/download`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-massachusetts-bristol-county`,
   locales: {
@@ -31301,11 +31259,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 564022,
+  coordinates: [-71.101309,41.7965735],
   polygon: RegionPolygons[`united-states-of-america-massachusetts-bristol-county`],
   parentId: `united-states-of-america-massachusetts`,
-  dataSource: `https://www.mass.gov/doc/covid-19-cases-in-massachusetts-as-of-march-24-2020/download`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-massachusetts-dukes-county`,
   locales: {
@@ -31315,11 +31273,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 17352,
+  coordinates: [-70.698639,41.413311],
   polygon: RegionPolygons[`united-states-of-america-massachusetts-dukes-county`],
   parentId: `united-states-of-america-massachusetts`,
-  dataSource: `https://www.mass.gov/doc/covid-19-cases-in-massachusetts-as-of-march-24-2020/download`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-massachusetts-franklin-county`,
   locales: {
@@ -31329,11 +31287,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 70963,
+  coordinates: [-72.624274,42.522515999999996],
   polygon: RegionPolygons[`united-states-of-america-massachusetts-franklin-county`],
   parentId: `united-states-of-america-massachusetts`,
-  dataSource: `https://www.mass.gov/doc/covid-19-cases-in-massachusetts-as-of-march-24-2020/download`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-massachusetts-hampden-county`,
   locales: {
@@ -31343,11 +31301,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 470406,
+  coordinates: [-72.60493,42.1707315],
   polygon: RegionPolygons[`united-states-of-america-massachusetts-hampden-county`],
   parentId: `united-states-of-america-massachusetts`,
-  dataSource: `https://www.mass.gov/doc/covid-19-cases-in-massachusetts-as-of-march-24-2020/download`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-massachusetts-hampshire-county`,
   locales: {
@@ -31357,11 +31315,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 161355,
+  coordinates: [-72.63599049999999,42.36966150000001],
   polygon: RegionPolygons[`united-states-of-america-massachusetts-hampshire-county`],
   parentId: `united-states-of-america-massachusetts`,
-  dataSource: `https://www.mass.gov/doc/covid-19-cases-in-massachusetts-as-of-march-24-2020/download`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-massachusetts-nantucket-county`,
   locales: {
@@ -31371,11 +31329,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 11327,
+  coordinates: [-70.1178535,41.314833],
   polygon: RegionPolygons[`united-states-of-america-massachusetts-nantucket-county`],
   parentId: `united-states-of-america-massachusetts`,
-  dataSource: `https://www.mass.gov/doc/covid-19-cases-in-massachusetts-as-of-march-24-2020/download`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-massachusetts-plymouth-county`,
   locales: {
@@ -31385,11 +31343,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 518132,
+  coordinates: [-70.80287949999999,41.966696],
   polygon: RegionPolygons[`united-states-of-america-massachusetts-plymouth-county`],
   parentId: `united-states-of-america-massachusetts`,
-  dataSource: `https://www.mass.gov/doc/covid-19-cases-in-massachusetts-as-of-march-24-2020/download`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-iowa-dallas-county`,
   locales: {
@@ -32284,20 +32242,6 @@ export const RegionsData: PlaceSeedData[] = [{
   population: 104062,
   coordinates: [-84.989664,34.8018615],
   polygon: RegionPolygons[`united-states-of-america-georgia-whitfield-county`],
-  parentId: `united-states-of-america-georgia`,
-  dataSource: `https://dph.georgia.gov/covid-19-daily-status-report`
-}, {
-  id: `united-states-of-america-georgia-(unassigned)`,
-  locales: {
-    en: `(unassigned)`
-  },
-  alternativeNames: undefined,
-  phoneCode: undefined,
-  alpha2code: undefined,
-  alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
-  polygon: RegionPolygons[`united-states-of-america-georgia-(unassigned)`],
   parentId: `united-states-of-america-georgia`,
   dataSource: `https://dph.georgia.gov/covid-19-daily-status-report`
 }, {
@@ -35171,20 +35115,6 @@ export const RegionsData: PlaceSeedData[] = [{
   parentId: `united-states-of-america-missouri`,
   dataSource: `https://health.mo.gov/living/healthcondiseases/communicable/novel-coronavirus/results.php`
 }, {
-  id: `united-states-of-america-missouri-(unassigned)`,
-  locales: {
-    en: `(unassigned)`
-  },
-  alternativeNames: undefined,
-  phoneCode: undefined,
-  alpha2code: undefined,
-  alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
-  polygon: RegionPolygons[`united-states-of-america-missouri-(unassigned)`],
-  parentId: `united-states-of-america-missouri`,
-  dataSource: `https://health.mo.gov/living/healthcondiseases/communicable/novel-coronavirus/results.php`
-}, {
   id: `united-states-of-america-missouri-adair-county`,
   locales: {
     en: `Adair County`
@@ -37677,20 +37607,6 @@ export const RegionsData: PlaceSeedData[] = [{
   parentId: `united-states-of-america-oklahoma`,
   dataSource: `https://coronavirus.health.ok.gov/`
 }, {
-  id: `united-states-of-america-florida-(unassigned)`,
-  locales: {
-    en: `(unassigned)`
-  },
-  alternativeNames: undefined,
-  phoneCode: undefined,
-  alpha2code: undefined,
-  alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
-  polygon: RegionPolygons[`united-states-of-america-florida-(unassigned)`],
-  parentId: `united-states-of-america-florida`,
-  dataSource: `https://opendata.arcgis.com/datasets/d9de96980b574ccd933da024a0926f37_0.csv`
-}, {
   id: `united-states-of-america-idaho-kootenai-county`,
   locales: {
     en: `Kootenai County`
@@ -40169,20 +40085,6 @@ export const RegionsData: PlaceSeedData[] = [{
   parentId: `united-states-of-america-maine`,
   dataSource: `https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus.shtml`
 }, {
-  id: `united-states-of-america-maine-(unassigned)`,
-  locales: {
-    en: `(unassigned)`
-  },
-  alternativeNames: undefined,
-  phoneCode: undefined,
-  alpha2code: undefined,
-  alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
-  polygon: RegionPolygons[`united-states-of-america-maine-(unassigned)`],
-  parentId: `united-states-of-america-maine`,
-  dataSource: `https://www.maine.gov/dhhs/mecdc/infectious-disease/epi/airborne/coronavirus.shtml`
-}, {
   id: `united-states-of-america-michigan-barry-county`,
   locales: {
     en: `Barry County`
@@ -40530,20 +40432,6 @@ export const RegionsData: PlaceSeedData[] = [{
   population: 33466,
   coordinates: [-85.57759300000001,44.338583],
   polygon: RegionPolygons[`united-states-of-america-michigan-wexford-county`],
-  parentId: `united-states-of-america-michigan`,
-  dataSource: `https://www.michigan.gov/coronavirus/0,9753,7-406-98163-520743--,00.html`
-}, {
-  id: `united-states-of-america-michigan-(unassigned)`,
-  locales: {
-    en: `(unassigned)`
-  },
-  alternativeNames: undefined,
-  phoneCode: undefined,
-  alpha2code: undefined,
-  alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
-  polygon: RegionPolygons[`united-states-of-america-michigan-(unassigned)`],
   parentId: `united-states-of-america-michigan`,
   dataSource: `https://www.michigan.gov/coronavirus/0,9753,7-406-98163-520743--,00.html`
 }, {
@@ -45713,20 +45601,6 @@ export const RegionsData: PlaceSeedData[] = [{
   parentId: `india`,
   dataSource: `https://www.mohfw.gov.in/`
 }, {
-  id: `united-states-of-america-arkansas-(unassigned)`,
-  locales: {
-    en: `(unassigned)`
-  },
-  alternativeNames: undefined,
-  phoneCode: undefined,
-  alpha2code: undefined,
-  alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
-  polygon: RegionPolygons[`united-states-of-america-arkansas-(unassigned)`],
-  parentId: `united-states-of-america-arkansas`,
-  dataSource: `https://services.arcgis.com/PwY9ZuZRDiI5nXUB/ArcGIS/rest/services/ADH_COVID19_Positive_Test_Results/FeatureServer/0/query?f=json&where=1%3D1&returnGeometry=false&spatialRel=esriSpatialRelIntersects&outFields=*`
-}, {
   id: `united-states-of-america-arkansas-howard-county`,
   locales: {
     en: `Howard County`
@@ -46789,7 +46663,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-155.4368715,19.594507],
   polygon: RegionPolygons[`united-states-of-america-hawaii-hawaii-county`],
   parentId: `united-states-of-america-hawaii`,
-  dataSource: `https://health.hawaii.gov/docd/advisories/novel-coronavirus-2019/`
+  dataSource: `https://health.hawaii.gov/coronavirusdisease2019/`
 }, {
   id: `united-states-of-america-hawaii-kauai-county`,
   locales: {
@@ -46803,7 +46677,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-159.77244050000002,22.006344],
   polygon: RegionPolygons[`united-states-of-america-hawaii-kauai-county`],
   parentId: `united-states-of-america-hawaii`,
-  dataSource: `https://health.hawaii.gov/docd/advisories/novel-coronavirus-2019/`
+  dataSource: `https://health.hawaii.gov/coronavirusdisease2019/`
 }, {
   id: `united-states-of-america-hawaii-maui-county`,
   locales: {
@@ -46817,7 +46691,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-156.648965,20.866003],
   polygon: RegionPolygons[`united-states-of-america-hawaii-maui-county`],
   parentId: `united-states-of-america-hawaii`,
-  dataSource: `https://health.hawaii.gov/docd/advisories/novel-coronavirus-2019/`
+  dataSource: `https://health.hawaii.gov/coronavirusdisease2019/`
 }, {
   id: `united-states-of-america-hawaii-kalawao-county`,
   locales: {
@@ -46831,7 +46705,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-156.9567145,21.173991],
   polygon: RegionPolygons[`united-states-of-america-hawaii-kalawao-county`],
   parentId: `united-states-of-america-hawaii`,
-  dataSource: `https://health.hawaii.gov/docd/advisories/novel-coronavirus-2019/`
+  dataSource: `https://health.hawaii.gov/coronavirusdisease2019/`
 }, {
   id: `united-states-of-america-kansas-butler-county`,
   locales: {
@@ -46841,11 +46715,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 66765,
+  coordinates: [-96.8380565,37.781624],
   polygon: RegionPolygons[`united-states-of-america-kansas-butler-county`],
   parentId: `united-states-of-america-kansas`,
-  dataSource: `https://khap2.kdhe.state.ks.us/NewsRelease/COVID19/COVID-19_March_24_2020_.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-kansas-lyon-county`,
   locales: {
@@ -46855,11 +46729,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 33406,
+  coordinates: [-96.15146899999999,38.4550255],
   polygon: RegionPolygons[`united-states-of-america-kansas-lyon-county`],
   parentId: `united-states-of-america-kansas`,
-  dataSource: `https://khap2.kdhe.state.ks.us/NewsRelease/COVID19/COVID-19_March_24_2020_.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-kansas-cherokee-county`,
   locales: {
@@ -46869,11 +46743,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 20015,
+  coordinates: [-94.846401,37.169036],
   polygon: RegionPolygons[`united-states-of-america-kansas-cherokee-county`],
   parentId: `united-states-of-america-kansas`,
-  dataSource: `https://khap2.kdhe.state.ks.us/NewsRelease/COVID19/COVID-19_March_24_2020_.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-kansas-mitchell-county`,
   locales: {
@@ -46883,11 +46757,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 6150,
+  coordinates: [-98.2093055,39.393393],
   polygon: RegionPolygons[`united-states-of-america-kansas-mitchell-county`],
   parentId: `united-states-of-america-kansas`,
-  dataSource: `https://khap2.kdhe.state.ks.us/NewsRelease/COVID19/COVID-19_March_24_2020_.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-kansas-douglas-county`,
   locales: {
@@ -46897,11 +46771,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 121436,
+  coordinates: [-95.2786225,38.9032655],
   polygon: RegionPolygons[`united-states-of-america-kansas-douglas-county`],
   parentId: `united-states-of-america-kansas`,
-  dataSource: `https://khap2.kdhe.state.ks.us/NewsRelease/COVID19/COVID-19_March_24_2020_.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-kansas-morris-county`,
   locales: {
@@ -46911,11 +46785,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 5521,
+  coordinates: [-96.6432685,38.695862],
   polygon: RegionPolygons[`united-states-of-america-kansas-morris-county`],
   parentId: `united-states-of-america-kansas`,
-  dataSource: `https://khap2.kdhe.state.ks.us/NewsRelease/COVID19/COVID-19_March_24_2020_.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-kansas-jackson-county`,
   locales: {
@@ -46925,11 +46799,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 13280,
+  coordinates: [-95.800039,39.434541],
   polygon: RegionPolygons[`united-states-of-america-kansas-jackson-county`],
   parentId: `united-states-of-america-kansas`,
-  dataSource: `https://khap2.kdhe.state.ks.us/NewsRelease/COVID19/COVID-19_March_24_2020_.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-kansas-reno-county`,
   locales: {
@@ -46939,11 +46813,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 62342,
+  coordinates: [-98.085743,37.9532965],
   polygon: RegionPolygons[`united-states-of-america-kansas-reno-county`],
   parentId: `united-states-of-america-kansas`,
-  dataSource: `https://khap2.kdhe.state.ks.us/NewsRelease/COVID19/COVID-19_March_24_2020_.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-kansas-sedgwick-county`,
   locales: {
@@ -46953,11 +46827,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 513607,
+  coordinates: [-97.4803755,37.693458500000006],
   polygon: RegionPolygons[`united-states-of-america-kansas-sedgwick-county`],
   parentId: `united-states-of-america-kansas`,
-  dataSource: `https://khap2.kdhe.state.ks.us/NewsRelease/COVID19/COVID-19_March_24_2020_.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-kansas-leavenworth-county`,
   locales: {
@@ -46967,11 +46841,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 81352,
+  coordinates: [-94.981753,39.186572999999996],
   polygon: RegionPolygons[`united-states-of-america-kansas-leavenworth-county`],
   parentId: `united-states-of-america-kansas`,
-  dataSource: `https://khap2.kdhe.state.ks.us/NewsRelease/COVID19/COVID-19_March_24_2020_.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-kansas-wyandotte-county`,
   locales: {
@@ -46981,11 +46855,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 165324,
+  coordinates: [-94.749349,39.097156],
   polygon: RegionPolygons[`united-states-of-america-kansas-wyandotte-county`],
   parentId: `united-states-of-america-kansas`,
-  dataSource: `https://khap2.kdhe.state.ks.us/NewsRelease/COVID19/COVID-19_March_24_2020_.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-kansas-allen-county`,
   locales: {
@@ -47065,11 +46939,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 14653,
+  coordinates: [-94.8510315,37.8554055],
   polygon: RegionPolygons[`united-states-of-america-kansas-bourbon-county`],
   parentId: `united-states-of-america-kansas`,
-  dataSource: `https://khap2.kdhe.state.ks.us/NewsRelease/COVID19/COVID-19_March_24_2020_.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-kansas-brown-county`,
   locales: {
@@ -47219,11 +47093,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 39019,
+  coordinates: [-94.85248899999999,37.506467],
   polygon: RegionPolygons[`united-states-of-america-kansas-crawford-county`],
   parentId: `united-states-of-america-kansas`,
-  dataSource: `https://khap2.kdhe.state.ks.us/NewsRelease/COVID19/COVID-19_March_24_2020_.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-kansas-decatur-county`,
   locales: {
@@ -47261,11 +47135,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 7682,
+  coordinates: [-95.0996695,39.8075365],
   polygon: RegionPolygons[`united-states-of-america-kansas-doniphan-county`],
   parentId: `united-states-of-america-kansas`,
-  dataSource: `https://khap2.kdhe.state.ks.us/NewsRelease/COVID19/COVID-19_March_24_2020_.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-kansas-edwards-county`,
   locales: {
@@ -47345,11 +47219,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 33888,
+  coordinates: [-99.8917675,37.690711],
   polygon: RegionPolygons[`united-states-of-america-kansas-ford-county`],
   parentId: `united-states-of-america-kansas`,
-  dataSource: `https://khap2.kdhe.state.ks.us/NewsRelease/COVID19/COVID-19_March_24_2020_.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-kansas-franklin-county`,
   locales: {
@@ -47359,11 +47233,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 25631,
+  coordinates: [-95.28237,38.5641325],
   polygon: RegionPolygons[`united-states-of-america-kansas-franklin-county`],
   parentId: `united-states-of-america-kansas`,
-  dataSource: `https://khap2.kdhe.state.ks.us/NewsRelease/COVID19/COVID-19_March_24_2020_.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-kansas-geary-county`,
   locales: {
@@ -47541,11 +47415,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 18975,
+  coordinates: [-95.38833650000001,39.225465],
   polygon: RegionPolygons[`united-states-of-america-kansas-jefferson-county`],
   parentId: `united-states-of-america-kansas`,
-  dataSource: `https://khap2.kdhe.state.ks.us/NewsRelease/COVID19/COVID-19_March_24_2020_.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-kansas-jewell-county`,
   locales: {
@@ -47653,11 +47527,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 9750,
+  coordinates: [-94.845245,38.213500999999994],
   polygon: RegionPolygons[`united-states-of-america-kansas-linn-county`],
   parentId: `united-states-of-america-kansas`,
-  dataSource: `https://khap2.kdhe.state.ks.us/NewsRelease/COVID19/COVID-19_March_24_2020_.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-kansas-logan-county`,
   locales: {
@@ -47793,11 +47667,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 15951,
+  coordinates: [-95.306786,37.5588805],
   polygon: RegionPolygons[`united-states-of-america-kansas-neosho-county`],
   parentId: `united-states-of-america-kansas`,
-  dataSource: `https://khap2.kdhe.state.ks.us/NewsRelease/COVID19/COVID-19_March_24_2020_.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-kansas-ness-county`,
   locales: {
@@ -47905,11 +47779,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 24277,
+  coordinates: [-96.3786975,39.34643],
   polygon: RegionPolygons[`united-states-of-america-kansas-pottawatomie-county`],
   parentId: `united-states-of-america-kansas`,
-  dataSource: `https://khap2.kdhe.state.ks.us/NewsRelease/COVID19/COVID-19_March_24_2020_.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-kansas-pratt-county`,
   locales: {
@@ -47975,11 +47849,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 73703,
+  coordinates: [-96.67513550000001,39.30484],
   polygon: RegionPolygons[`united-states-of-america-kansas-riley-county`],
   parentId: `united-states-of-america-kansas`,
-  dataSource: `https://khap2.kdhe.state.ks.us/NewsRelease/COVID19/COVID-19_March_24_2020_.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-kansas-rooks-county`,
   locales: {
@@ -48073,11 +47947,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 177499,
+  coordinates: [-95.769657,39.0431675],
   polygon: RegionPolygons[`united-states-of-america-kansas-shawnee-county`],
   parentId: `united-states-of-america-kansas`,
-  dataSource: `https://khap2.kdhe.state.ks.us/NewsRelease/COVID19/COVID-19_March_24_2020_.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-kansas-sheridan-county`,
   locales: {
@@ -48171,11 +48045,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 22996,
+  coordinates: [-97.4776605,37.237113],
   polygon: RegionPolygons[`united-states-of-america-kansas-sumner-county`],
   parentId: `united-states-of-america-kansas`,
-  dataSource: `https://khap2.kdhe.state.ks.us/NewsRelease/COVID19/COVID-19_March_24_2020_.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-kansas-thomas-county`,
   locales: {
@@ -48283,11 +48157,11 @@ export const RegionsData: PlaceSeedData[] = [{
   phoneCode: undefined,
   alpha2code: undefined,
   alpha3code: undefined,
-  population: undefined,
-  coordinates: undefined,
+  population: 3183,
+  coordinates: [-95.740189,37.886477],
   polygon: RegionPolygons[`united-states-of-america-kansas-woodson-county`],
   parentId: `united-states-of-america-kansas`,
-  dataSource: `https://khap2.kdhe.state.ks.us/NewsRelease/COVID19/COVID-19_March_24_2020_.pdf`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-rhode-island-bristol-county`,
   locales: {
@@ -48301,7 +48175,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-71.29500250000001,41.709347],
   polygon: RegionPolygons[`united-states-of-america-rhode-island-bristol-county`],
   parentId: `united-states-of-america-rhode-island`,
-  dataSource: `https://docs.google.com/spreadsheets/d/1n-zMS9Al94CPj_Tc3K7Adin-tN9x1RSjjx2UzJ4SV7Q/gviz/tq?tqx=out:csv&sheet=County+Data#gid=0`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-rhode-island-kent-county`,
   locales: {
@@ -48315,7 +48189,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-71.571422,41.682558],
   polygon: RegionPolygons[`united-states-of-america-rhode-island-kent-county`],
   parentId: `united-states-of-america-rhode-island`,
-  dataSource: `https://docs.google.com/spreadsheets/d/1n-zMS9Al94CPj_Tc3K7Adin-tN9x1RSjjx2UzJ4SV7Q/gviz/tq?tqx=out:csv&sheet=County+Data#gid=0`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-rhode-island-newport-county`,
   locales: {
@@ -48329,7 +48203,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-71.260565,41.561842999999996],
   polygon: RegionPolygons[`united-states-of-america-rhode-island-newport-county`],
   parentId: `united-states-of-america-rhode-island`,
-  dataSource: `https://docs.google.com/spreadsheets/d/1n-zMS9Al94CPj_Tc3K7Adin-tN9x1RSjjx2UzJ4SV7Q/gviz/tq?tqx=out:csv&sheet=County+Data#gid=0`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `united-states-of-america-rhode-island-washington-county`,
   locales: {
@@ -48343,7 +48217,7 @@ export const RegionsData: PlaceSeedData[] = [{
   coordinates: [-71.63327100000001,41.400079],
   polygon: RegionPolygons[`united-states-of-america-rhode-island-washington-county`],
   parentId: `united-states-of-america-rhode-island`,
-  dataSource: `https://docs.google.com/spreadsheets/d/1n-zMS9Al94CPj_Tc3K7Adin-tN9x1RSjjx2UzJ4SV7Q/gviz/tq?tqx=out:csv&sheet=County+Data#gid=0`
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
 }, {
   id: `india-manipur`,
   locales: {
@@ -51424,4 +51298,564 @@ export const RegionsData: PlaceSeedData[] = [{
   polygon: RegionPolygons[`united-states-of-america-virginia-virginia-beach-county`],
   parentId: `united-states-of-america-virginia`,
   dataSource: `http://www.vdh.virginia.gov/content/uploads/sites/182/2020/03/VDH-COVID-19-PublicUseDataset-Cases.csv`
+}, {
+  id: `russia-сахалинская-область`,
+  locales: {
+    en: `Сахалинская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 488453,
+  coordinates: [149.07801019350006,49.06702301650006],
+  polygon: RegionPolygons[`russia-сахалинская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-костромская-область`,
+  locales: {
+    en: `Костромская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 633392,
+  coordinates: [43.993676792350044,58.45444265380539],
+  polygon: RegionPolygons[`russia-костромская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-смоленская-область`,
+  locales: {
+    en: `Смоленская область`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 934747,
+  coordinates: [33.08387719402245,54.75278613861631],
+  polygon: RegionPolygons[`russia-смоленская-область`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `russia-республика-адыгея`,
+  locales: {
+    en: `Республика Адыгея`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 463453,
+  coordinates: [39.676369256436004,44.47209198665581],
+  polygon: RegionPolygons[`russia-республика-адыгея`],
+  parentId: `russia`,
+  dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
+}, {
+  id: `united-states-of-america-alaska-anchorage`,
+  locales: {
+    en: `Anchorage`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-alaska-anchorage`],
+  parentId: `united-states-of-america-alaska`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-alaska-fairbanks-north-star-borough`,
+  locales: {
+    en: `Fairbanks North Star Borough`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 98971,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-alaska-fairbanks-north-star-borough`],
+  parentId: `united-states-of-america-alaska`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-alaska-juneau-city-and-borough`,
+  locales: {
+    en: `Juneau City and Borough`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 32113,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-alaska-juneau-city-and-borough`],
+  parentId: `united-states-of-america-alaska`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-alaska-kenai-peninsula-borough`,
+  locales: {
+    en: `Kenai Peninsula Borough`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 58533,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-alaska-kenai-peninsula-borough`],
+  parentId: `united-states-of-america-alaska`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-alaska-ketchikan-gateway-borough`,
+  locales: {
+    en: `Ketchikan Gateway Borough`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 13918,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-alaska-ketchikan-gateway-borough`],
+  parentId: `united-states-of-america-alaska`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-alaska-matanuska-susitna-borough`,
+  locales: {
+    en: `Matanuska-Susitna Borough`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 107610,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-alaska-matanuska-susitna-borough`],
+  parentId: `united-states-of-america-alaska`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-massachusetts-dukes-and-nantucket`,
+  locales: {
+    en: `Dukes and Nantucket`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-massachusetts-dukes-and-nantucket`],
+  parentId: `united-states-of-america-massachusetts`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-nevada-douglas-county`,
+  locales: {
+    en: `Douglas County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 48467,
+  coordinates: [-119.657052,38.824391000000006],
+  polygon: RegionPolygons[`united-states-of-america-nevada-douglas-county`],
+  parentId: `united-states-of-america-nevada`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-nevada-elko-county`,
+  locales: {
+    en: `Elko County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 52460,
+  coordinates: [-115.529335,41.059568999999996],
+  polygon: RegionPolygons[`united-states-of-america-nevada-elko-county`],
+  parentId: `united-states-of-america-nevada`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-nevada-lyon-county`,
+  locales: {
+    en: `Lyon County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 55808,
+  coordinates: [-119.23324,39.077531],
+  polygon: RegionPolygons[`united-states-of-america-nevada-lyon-county`],
+  parentId: `united-states-of-america-nevada`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-nevada-nye-county`,
+  locales: {
+    en: `Nye County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 45346,
+  coordinates: [-116.59855999999999,37.5638185],
+  polygon: RegionPolygons[`united-states-of-america-nevada-nye-county`],
+  parentId: `united-states-of-america-nevada`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-north-dakota-burleigh-county`,
+  locales: {
+    en: `Burleigh County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 95273,
+  coordinates: [-100.5201925,46.980558],
+  polygon: RegionPolygons[`united-states-of-america-north-dakota-burleigh-county`],
+  parentId: `united-states-of-america-north-dakota`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-north-dakota-cass-county`,
+  locales: {
+    en: `Cass County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 181516,
+  coordinates: [-97.23263750000001,46.934663],
+  polygon: RegionPolygons[`united-states-of-america-north-dakota-cass-county`],
+  parentId: `united-states-of-america-north-dakota`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-north-dakota-dunn-county`,
+  locales: {
+    en: `Dunn County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 4332,
+  coordinates: [-102.62216000000001,47.4021465],
+  polygon: RegionPolygons[`united-states-of-america-north-dakota-dunn-county`],
+  parentId: `united-states-of-america-north-dakota`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-north-dakota-foster-county`,
+  locales: {
+    en: `Foster County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 3216,
+  coordinates: [-98.882763,47.457077999999996],
+  polygon: RegionPolygons[`united-states-of-america-north-dakota-foster-county`],
+  parentId: `united-states-of-america-north-dakota`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-north-dakota-mchenry-county`,
+  locales: {
+    en: `McHenry County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 5816,
+  coordinates: [-100.6287365,48.239952],
+  polygon: RegionPolygons[`united-states-of-america-north-dakota-mchenry-county`],
+  parentId: `united-states-of-america-north-dakota`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-north-dakota-mcintosh-county`,
+  locales: {
+    en: `McIntosh County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 2585,
+  coordinates: [-99.44158999999999,46.1115475],
+  polygon: RegionPolygons[`united-states-of-america-north-dakota-mcintosh-county`],
+  parentId: `united-states-of-america-north-dakota`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-north-dakota-morton-county`,
+  locales: {
+    en: `Morton County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 31095,
+  coordinates: [-101.320615,46.6335295],
+  polygon: RegionPolygons[`united-states-of-america-north-dakota-morton-county`],
+  parentId: `united-states-of-america-north-dakota`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-north-dakota-pierce-county`,
+  locales: {
+    en: `Pierce County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 4081,
+  coordinates: [-99.88478950000001,48.196234000000004],
+  polygon: RegionPolygons[`united-states-of-america-north-dakota-pierce-county`],
+  parentId: `united-states-of-america-north-dakota`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-north-dakota-ramsey-county`,
+  locales: {
+    en: `Ramsey County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 11481,
+  coordinates: [-98.746209,48.229644],
+  polygon: RegionPolygons[`united-states-of-america-north-dakota-ramsey-county`],
+  parentId: `united-states-of-america-north-dakota`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-north-dakota-stark-county`,
+  locales: {
+    en: `Stark County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 30997,
+  coordinates: [-102.6639975,46.8201125],
+  polygon: RegionPolygons[`united-states-of-america-north-dakota-stark-county`],
+  parentId: `united-states-of-america-north-dakota`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-north-dakota-walsh-county`,
+  locales: {
+    en: `Walsh County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 10667,
+  coordinates: [-97.71762,48.3686875],
+  polygon: RegionPolygons[`united-states-of-america-north-dakota-walsh-county`],
+  parentId: `united-states-of-america-north-dakota`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-north-dakota-ward-county`,
+  locales: {
+    en: `Ward County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 67744,
+  coordinates: [-101.6021945,48.3273945],
+  polygon: RegionPolygons[`united-states-of-america-north-dakota-ward-county`],
+  parentId: `united-states-of-america-north-dakota`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-vermont-addison-county`,
+  locales: {
+    en: `Addison County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 36973,
+  coordinates: [-73.0900215,44.0284645],
+  polygon: RegionPolygons[`united-states-of-america-vermont-addison-county`],
+  parentId: `united-states-of-america-vermont`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-vermont-caledonia-county`,
+  locales: {
+    en: `Caledonia County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 30302,
+  coordinates: [-72.1358045,44.462871],
+  polygon: RegionPolygons[`united-states-of-america-vermont-caledonia-county`],
+  parentId: `united-states-of-america-vermont`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-vermont-chittenden-county`,
+  locales: {
+    en: `Chittenden County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 164572,
+  coordinates: [-73.0825265,44.442068500000005],
+  polygon: RegionPolygons[`united-states-of-america-vermont-chittenden-county`],
+  parentId: `united-states-of-america-vermont`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-vermont-franklin-county`,
+  locales: {
+    en: `Franklin County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 49421,
+  coordinates: [-72.8958345,44.824855],
+  polygon: RegionPolygons[`united-states-of-america-vermont-franklin-county`],
+  parentId: `united-states-of-america-vermont`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-vermont-lamoille-county`,
+  locales: {
+    en: `Lamoille County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 25300,
+  coordinates: [-72.6476165,44.5999055],
+  polygon: RegionPolygons[`united-states-of-america-vermont-lamoille-county`],
+  parentId: `united-states-of-america-vermont`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-vermont-orange-county`,
+  locales: {
+    en: `Orange County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 28999,
+  coordinates: [-72.41117750000001,43.9959655],
+  polygon: RegionPolygons[`united-states-of-america-vermont-orange-county`],
+  parentId: `united-states-of-america-vermont`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-vermont-orleans-county`,
+  locales: {
+    en: `Orleans County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 26907,
+  coordinates: [-72.22629699999999,44.775607],
+  polygon: RegionPolygons[`united-states-of-america-vermont-orleans-county`],
+  parentId: `united-states-of-america-vermont`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-vermont-rutland-county`,
+  locales: {
+    en: `Rutland County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 58672,
+  coordinates: [-73.06608700000001,43.574856],
+  polygon: RegionPolygons[`united-states-of-america-vermont-rutland-county`],
+  parentId: `united-states-of-america-vermont`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-vermont-washington-county`,
+  locales: {
+    en: `Washington County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 58140,
+  coordinates: [-72.58630450000001,44.259518],
+  polygon: RegionPolygons[`united-states-of-america-vermont-washington-county`],
+  parentId: `united-states-of-america-vermont`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-vermont-windham-county`,
+  locales: {
+    en: `Windham County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 42756,
+  coordinates: [-72.720362,42.9946705],
+  polygon: RegionPolygons[`united-states-of-america-vermont-windham-county`],
+  parentId: `united-states-of-america-vermont`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-vermont-windsor-county`,
+  locales: {
+    en: `Windsor County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: 55286,
+  coordinates: [-72.5926755,43.592175],
+  polygon: RegionPolygons[`united-states-of-america-vermont-windsor-county`],
+  parentId: `united-states-of-america-vermont`,
+  dataSource: `https://raw.githubusercontent.com/nytimes/covid-19-data/master/us-counties.csv`
+}, {
+  id: `united-states-of-america-missouri-joplin-county`,
+  locales: {
+    en: `Joplin County`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: undefined,
+  polygon: RegionPolygons[`united-states-of-america-missouri-joplin-county`],
+  parentId: `united-states-of-america-missouri`,
+  dataSource: `https://health.mo.gov/living/healthcondiseases/communicable/novel-coronavirus/results.php`
+}, {
+  id: `united-kingdom-turks-and-caicos-islands`,
+  locales: {
+    en: `Turks and Caicos Islands`
+  },
+  alternativeNames: undefined,
+  phoneCode: undefined,
+  alpha2code: undefined,
+  alpha3code: undefined,
+  population: undefined,
+  coordinates: [-71.7979,21.69400000000001],
+  polygon: RegionPolygons[`united-kingdom-turks-and-caicos-islands`],
+  parentId: `united-kingdom`,
+  dataSource: undefined
 }]

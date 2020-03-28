@@ -32,12 +32,9 @@ export class Place extends Model<Place> {
   alpha2code?: string
 
   @Column({ nullable: true })
-  code?: string
-
-  @Column({ nullable: true })
   alpha3code?: string
 
-  @Column('int4', { nullable: true })
+  @Column('float', { nullable: true })
   hospitalBedOccupancy?: number
 
   @Column('int4', { nullable: true })
