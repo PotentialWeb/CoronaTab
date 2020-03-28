@@ -4,7 +4,7 @@ set -e
 if [ -z "$DOCKER_REGISTRY" ]; then
     echo "Need to set DOCKER_REGISTRY"
     exit 1
-fi  
+fi
 
 docker build --no-cache -t $DOCKER_REGISTRY/coronatab-site:latest --build-arg DB_URL=$DB_URL -f site/Dockerfile .
 docker push $DOCKER_REGISTRY/coronatab-site:latest
@@ -15,4 +15,4 @@ gcloud beta run deploy coronatab-site \
 --platform=managed \
 --region=europe-west1
 
-./node_modules/.bin/ts-node -O '{"module":"commonjs"}' scripts/purge-cache.ts || echo "❌ Failed to purge Cloudflare cache"
+./site/node_modules/.bin/ts-node -O '{"module":"commonjs"}' ./site/scripts/purge-cache.ts || echo "❌ Failed to purge Cloudflare cache"
