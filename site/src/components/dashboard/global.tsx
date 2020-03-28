@@ -6,6 +6,7 @@ import { DashboardGlobalStatsByCountryModalComponent } from './global/stats-by-c
 import { DashboardCumulativeGraphComponent } from './visualizations/cumulative-graph'
 import { DashboardDailyChartComponent } from './visualizations/daily-chart'
 import { DashboardGlobalCountryLeaderboardComponent } from './global/country-leaderboard'
+import { DashboardGlobalHeatmapModalComponent } from './global/heatmap/modal'
 
 export interface Props extends HTMLAttributes<HTMLDivElement> {
   pageStore?: DashboardPageStore
@@ -13,7 +14,8 @@ export interface Props extends HTMLAttributes<HTMLDivElement> {
 
 export enum ModalStatus {
   IDLE = 'idle',
-  STATS_BY_COUNTRY = 'statsByCountry'
+  STATS_BY_COUNTRY = 'statsByCountry',
+  HEATMAP = 'heatmap'
 }
 
 export interface State {
@@ -64,17 +66,14 @@ export class DashboardGlobalComponent extends Component<Props, State> {
                   View stats by country
                 </button>
               </div>
-              {
-                /*
-                  <div className="px-1">
-                    <button
-                      className="btn btn-white px-3 py-1 rounded-sm border border-light text-sm 2xl:text-base"
-                    >
-                      View heatmap
-                    </button>
-                  </div>
-                */
-              }
+              <div className="px-1">
+                <button
+                  onClick={() => this.setState({ modalStatus: ModalStatus.HEATMAP })}
+                  className="btn btn-white px-3 py-1 rounded-sm border border-light text-sm 2xl:text-base"
+                >
+                  View heatmap
+                </button>
+              </div>
             </div>
           </div>
           <DashboardStatsComponent
@@ -99,6 +98,10 @@ export class DashboardGlobalComponent extends Component<Props, State> {
         </div>
         <DashboardGlobalStatsByCountryModalComponent
           isVisible={modalStatus === ModalStatus.STATS_BY_COUNTRY}
+          onExited={() => this.setState({ modalStatus: ModalStatus.IDLE })}
+        />
+        <DashboardGlobalHeatmapModalComponent
+          isVisible={modalStatus === ModalStatus.HEATMAP}
           onExited={() => this.setState({ modalStatus: ModalStatus.IDLE })}
         />
       </>

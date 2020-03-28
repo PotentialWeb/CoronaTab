@@ -16,8 +16,8 @@ if [ -z "$REDIS_URL" ]; then
     exit 1
 fi
 
-# docker build --no-cache -t $DOCKER_REGISTRY/coronatab-api:latest --build-arg DB_URL=$DB_URL --build-arg REDIS_URL=$REDIS_URL -f api/Dockerfile .
-# docker push $DOCKER_REGISTRY/coronatab-api:latest
+docker build --no-cache -t $DOCKER_REGISTRY/coronatab-api:latest --build-arg DB_URL=$DB_URL --build-arg REDIS_URL=$REDIS_URL -f api/Dockerfile .
+docker push $DOCKER_REGISTRY/coronatab-api:latest
 
 gcloud beta run deploy coronatab-api \
 --image $DOCKER_REGISTRY/coronatab-api:latest \

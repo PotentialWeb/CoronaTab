@@ -14,6 +14,9 @@ CountriesData.map(country => {
     alpha2code: country.alpha2code,
     alpha3code: country.alpha3code,
     population: country.population,
+    hospitalBedOccupancy: country.hospitalBedOccupancy,
+    hospitalBeds: country.hospitalBeds,
+    icuBeds: country.icuBeds,
     typeId: 'country',
     parentId: 'earth',
     dataSource: country.dataSource

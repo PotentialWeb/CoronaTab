@@ -47,7 +47,7 @@ export class Data {
           place = state
           jhuPlace = jhuData.find(r => r.countryId === country.id && !r.city && r.region?.split(', ').pop() === state.alpha2code)
 
-          if (row.county) {
+          if (row.county && row.county !== state.locales.en) {
             // US County
             const county = FindPlaceSeedDataInDataset({
               dataset: regions.filter(r => r.parentId === state.id),
@@ -72,7 +72,6 @@ export class Data {
           place = region
         }
       }
-      if (!place) debugger
 
       return { place, jhuPlace }
     }
@@ -108,6 +107,11 @@ export class Data {
 
     for (const entry of scraperData) {
       const { place, jhuPlace } = getPlacesFromRow(entry)
+
+      if (!place) {
+        debugger
+        continue
+      }
 
       const { id } = place
 
