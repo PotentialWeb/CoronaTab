@@ -176,17 +176,13 @@ export class DashboardGlobalHeatmapContentComponent extends PureComponent<Props,
 
     this.map.on('pointermove', evt => {
       const { pixel } = evt
-      const hoveredFeature = this.map.forEachFeatureAtPixel(pixel, feature => feature, {
-        hitTolerance: 10
-      })
+      const hoveredFeature = this.map.forEachFeatureAtPixel(pixel, feature => feature)
       this.mapRef.current.style.cursor = hoveredFeature ? 'pointer' : 'default'
     })
 
     this.map.on('singleclick', evt => {
       const { coordinate, pixel } = evt
-      const hoveredPlace = this.map.forEachFeatureAtPixel(pixel, feature => feature.get('place'), {
-        hitTolerance: 10
-      })
+      const hoveredPlace = this.map.forEachFeatureAtPixel(pixel, feature => feature.get('place'))
       this.setState({ hoveredPlace })
       if (hoveredPlace) {
         tooltip.setPosition(coordinate)
