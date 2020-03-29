@@ -3,26 +3,27 @@ CoronaTab
 
 Free & Open source platform for COVID19 data. Dashboard - REST API - Browser Extension - Localised into all languages!
 
-[Website](https://coronatab.app) | [Dashboard](https://coronatab.app/dashboard)
-
 ![screenshot](https://user-images.githubusercontent.com/8472525/77709538-52ff7280-6fc3-11ea-84ca-a23b9b348b95.JPG)
+
+[Website](https://coronatab.app) | [Dashboard](https://coronatab.app/dashboard) | [API Documentation](https://github.com/PotentialWeb/CoronaTab/wiki/RESTful-API-documentation)
+
+## Data Sources
+We use the [CoronaDataScraper](https://github.com/lazd/coronadatascraper) to pull data from official government sources and supplementing it with the [JHU Dataset](https://github.com/CSSEGISandData/COVID-19)
 
 ## Contributing
 
-### Clone the repo
-
-* `git clone git@github.com:PotentialWeb/CoronaTab.git`
-* `cd CoronaTab`
-
 ### Adding Quick Links
 
-* Edit [this file](https://github.com/PotentialWeb/CoronaTab/blob/master/site/public/data/quick-links.json) (`/site/public/data/quick-links.json`), ensuring any new entries have at least an English title entry (`en`).
+* Edit [/site/public/data/quick-links.json](https://github.com/PotentialWeb/CoronaTab/blob/master/site/public/data/quick-links.json) , ensuring any new entries have at least an English title entry (`en`).
 * Submit a PR
 
-### Add Datapoints
+### Data
 
-Coming soon...
+If you want to correct historic data for any place - go to [/modules/data/src/seeds/places/place-data.json](https://github.com/PotentialWeb/CoronaTab/blob/master/modules/data/src/seeds/places/place-data.json) find the data entry for the place and date you are interested in and change the value. Then submit a Pull Request!
+
+If you would like to add new data sources please contribute to the [CoronaDataScraper](https://github.com/lazd/coronadatascraper) repository.
+
 
 ### Contributors
 
-Made with ♥ by the team at [Hoobu](https://hoobu.com).
+Made with ❤️, 🩸, 😰 and 😭 by the team at [Hoobu](https://hoobu.com).
