@@ -10,7 +10,6 @@ export interface PlaceSeedData {
   id: string
   parentId: string
   locales: LocaleTranslations
-  phoneCode?: string
   alpha2code?: string
   alpha3code?: string
   population?: number

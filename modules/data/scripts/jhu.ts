@@ -140,7 +140,7 @@ export class JHU {
     const rawRows: RawDataRow[] = await CSV().fromStream(downloadStream as any)
 
     const data: JHUDataRow[] = rawRows
-      .filter(r => !['Princess', 'Cruise Ship', 'Recovered'].some(ignore => r.Country_Region?.includes(ignore) || r.Province_State?.includes(ignore)))
+      .filter(r => !['Princess', 'Cruise Ship', 'Recovered', 'MS Zaandam'].some(ignore => r.Country_Region?.includes(ignore) || r.Province_State?.includes(ignore)))
       .filter(r => r.Admin2 !== 'Unassigned')
       .map(row => {
         const countryName = row.Country_Region

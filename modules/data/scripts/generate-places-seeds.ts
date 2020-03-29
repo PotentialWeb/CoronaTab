@@ -48,7 +48,17 @@ InjectEnvs()
       process.exit(1)
     }
 
-    country.coordinates = country.coordinates ?? entry.coordinates ?? (jhuEntry && [jhuEntry.lat, jhuEntry.lng])
+    const updateCoordinates = (entity: PlaceSeedData) => {
+      const coordinates = entry.coordinates ?? (jhuEntry && [jhuEntry.lat, jhuEntry.lng])
+      if (coordinates && JSON.stringify(entity.coordinates) !== JSON.stringify(coordinates)) {
+        entity.coordinates = coordinates
+      }
+      if (entry.coordinates?.[1] < -65) {
+        entity.coordinates = [entity.coordinates[1], entry.coordinates[0]]
+      }
+    }
+
+    updateCoordinates(country)
     if (entry.url && country.dataSource !== entry.url) {
       country.dataSource = entry.url
     }
@@ -87,7 +97,8 @@ InjectEnvs()
         }
         jhuEntry = jhuData.find(r => r.countryId === country.id && r.region === state.locales.en)
 
-        state.coordinates = state.coordinates ?? entry.coordinates ?? (jhuEntry && [jhuEntry.lat, jhuEntry.lng])
+        updateCoordinates(state)
+
         state.population = state.population ?? entry.population
         if (!state.polygon && entry.featureId) {
           const feature = features.find(f => f.properties?.id === entry.featureId)
@@ -97,7 +108,7 @@ InjectEnvs()
           state.dataSource = entry.url
         }
         // County
-        if (entry.county) {
+        if (entry.county && entry.county !== state.locales.en) {
           let county = FindPlaceSeedDataInDataset({
             dataset: regions.filter(r => r.parentId === state.id),
             term: entry.county
@@ -119,7 +130,7 @@ InjectEnvs()
           }
           jhuEntry = jhuData.find(r => r.countryId === country.id && r.region === state.locales.en && r.region === county.locales.en)
 
-          county.coordinates = county.coordinates ?? entry.coordinates ?? (jhuEntry && [jhuEntry.lat, jhuEntry.lng])
+          updateCoordinates(county)
           county.population = county.population ?? entry.population
           if (!county.polygon && entry.featureId) {
             const feature = features.find(f => f.properties?.id === entry.featureId)
@@ -155,7 +166,8 @@ InjectEnvs()
         }
         jhuEntry = jhuData.find(r => r.countryId === country.id && r.region === region.locales.en)
 
-        region.coordinates = region.coordinates ?? entry.coordinates ?? (jhuEntry && [jhuEntry.lat, jhuEntry.lng])
+        updateCoordinates(region)
+
         region.population = region.population ?? entry.population
         if (!region.polygon && entry.featureId) {
           const feature = features.find(f => f.properties?.id === entry.featureId)
@@ -222,7 +234,6 @@ const CountryPolygons = require('./polygons.json')
 export const CountriesData: PlaceSeedData[] = [${countries.map(({
   id,
   locales,
-  phoneCode,
   alpha2code,
   alpha3code,
   population,
@@ -237,7 +248,6 @@ export const CountriesData: PlaceSeedData[] = [${countries.map(({
   locales: {
     ${Object.entries(locales).map(([ locale, name ]) => `${locale}: \`${name}\``).join(',\n    ')}
   },
-  phoneCode: ${phoneCode && `\`${phoneCode}\``},
   alpha2code: ${alpha2code && `\`${alpha2code}\``},
   alpha3code: ${alpha3code && `\`${alpha3code}\``},
   alternativeNames: ${alternativeNames && `[${alternativeNames.map(name => `\`${name}\``).join(', ')}]`},
@@ -265,7 +275,6 @@ const RegionPolygons = require('./polygons.json')
 export const RegionsData: PlaceSeedData[] = [${regions.map(({
     id,
     locales,
-    phoneCode,
     alpha2code,
     alpha3code,
     population,
@@ -279,7 +288,6 @@ export const RegionsData: PlaceSeedData[] = [${regions.map(({
     ${Object.entries(locales).map(([ locale, name ]) => `${locale}: \`${name}\``).join(',\n    ')}
   },
   alternativeNames: ${alternativeNames && `[${alternativeNames.map(name => `\`${name}\``).join(', ')}]`},
-  phoneCode: ${phoneCode && `\`${phoneCode}\``},
   alpha2code: ${alpha2code && `\`${alpha2code}\``},
   alpha3code: ${alpha3code && `\`${alpha3code}\``},
   population: ${population},
@@ -303,7 +311,6 @@ const CityPolygons = require('./polygons.json')
 export const CitiesData: PlaceSeedData[] = [${cities.map(({
   id,
   locales,
-  phoneCode,
   alpha2code,
   alpha3code,
   population,
@@ -316,7 +323,6 @@ export const CitiesData: PlaceSeedData[] = [${cities.map(({
   locales: {
     ${Object.entries(locales).map(([ locale, name ]) => `${locale}: \`${name}\``).join(',\n    ')}
   },
-  phoneCode: ${phoneCode && `\`${phoneCode}\``},
   alpha2code: ${alpha2code && `\`${alpha2code}\``},
   alpha3code: ${alpha3code && `\`${alpha3code}\``},
   alternativeNames: ${alternativeNames && `[${alternativeNames.map(name => `\`${name}\``).join(', ')}]`},

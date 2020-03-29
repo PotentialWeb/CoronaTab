@@ -19,10 +19,11 @@ import bodyParser from 'body-parser'
 
   api.use(cors({
     origin: [
-      'http://localhost:8000',
+      'http://localhost:8080',
       'https://staging.coronatab.app',
       'https://coronatab.app'
-    ]
+    ],
+    allowedHeaders: '*'
   }))
 
   api.get('/', (req, res) => {

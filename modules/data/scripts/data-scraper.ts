@@ -36,7 +36,7 @@ export class DataScraper {
     const data: { [date: string]: DataScraperRow[] } = {}
 
     timeseries
-    .filter(entry => this.filterCruiseShips(entry))
+    .filter(entry => this.filterGarbage(entry))
     .forEach(row => {
       Object.entries(row.dates)
       .forEach(([date, values]) => {
@@ -58,15 +58,15 @@ export class DataScraper {
   static get latest () {
     const latest: DataScraperRow[] = require('../coronadatascraper/dist/data.json')
     return latest
-      .filter(entry => this.filterCruiseShips(entry))
+      .filter(entry => this.filterGarbage(entry))
       .map(row => this.normalizeRow(row))
   }
 
-  static filterCruiseShips (entry: DataScraperRow) {
-    return !['Princess', 'Cruise Ship']
-    .some(ignore => entry.country?.includes(ignore)
-    || entry.state?.includes(ignore)
-    || entry.county?.includes(ignore)
+  static filterGarbage (entry: DataScraperRow) {
+    return !['princess', 'cruise ship', 'ms zaandam', 'unassigned']
+    .some(ignore => entry.country?.toLowerCase().includes(ignore)
+    || entry.state?.toLowerCase().includes(ignore)
+    || entry.county?.toLowerCase().includes(ignore)
     )
   }
 
