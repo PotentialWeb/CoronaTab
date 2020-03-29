@@ -53,6 +53,9 @@ InjectEnvs()
       if (coordinates && JSON.stringify(entity.coordinates) !== JSON.stringify(coordinates)) {
         entity.coordinates = coordinates
       }
+      if (entry.coordinates?.[1] < -65) {
+        entity.coordinates = [entity.coordinates[1], entry.coordinates[0]]
+      }
     }
 
     updateCoordinates(country)

@@ -2686,7 +2686,7 @@ export const CountriesData: PlaceSeedData[] = [{
   hospitalBedOccupancy: undefined,
   hospitalBeds: 1174772,
   icuBeds: 12113,
-  coordinates: [39.676369256436004,44.47209198665581],
+  coordinates: [127.31298384038189,52.94829335874619],
   polygon: CountryPolygons[`RUS`],
   parentId: 'earth',
   dataSource: `https://yandex.ru/maps/api/covid?csrfToken=`
