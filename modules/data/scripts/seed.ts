@@ -23,8 +23,8 @@ injectEnvs()
   // await Place.save(SeededCountries)
   // await PlacePolygon.save(SeededCountryPolygons)
 
-  await Place.save(SeededRegions)
-  await PlacePolygon.save(SeededRegionPolygons)
+  // await Place.save(SeededRegions)
+  // await PlacePolygon.save(SeededRegionPolygons)
 
   // await Place.save(SeededCities)
   // await PlacePolygon.save(SeededCityPolygons)
