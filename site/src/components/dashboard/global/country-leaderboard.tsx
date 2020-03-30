@@ -176,7 +176,7 @@ export class DashboardGlobalCountryLeaderboardComponent extends PureComponent<Pr
     )
 
     return (
-      <div className="dashboard-panel select-none">
+      <div className="dashboard-panel flex flex-col select-none">
         <div className="flex flex-col md:flex-row md:items-center mb-2">
           <div className="flex-shrink-0">
             {leaderboardTypeSelect}
@@ -187,7 +187,7 @@ export class DashboardGlobalCountryLeaderboardComponent extends PureComponent<Pr
             </div>
           </div>*/}
         </div>
-        <div>
+        <div className="flex-1 min-h-0 overflow-y-scroll scrolling-touch">
           {(() => {
             const { accessor, formatter, filter, sortBy } = leaderboardType
 
@@ -200,7 +200,7 @@ export class DashboardGlobalCountryLeaderboardComponent extends PureComponent<Pr
             if (sortBy !== 'asc') places.reverse()
 
             return places
-              .slice(0,10)
+              .slice(0,30)
               .map((place) => {
                 return (
                   <div key={place.id} className="flex flex-row min-w-0">

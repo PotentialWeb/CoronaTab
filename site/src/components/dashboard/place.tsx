@@ -137,12 +137,12 @@ export class DashboardPlaceComponent extends Component<Props, State> {
 
               const visualizations = (
                 <div className="dashboard-place-visualizations flex flex-row flex-wrap min-w-0">
-                  <div className="w-full xl:w-1/2 4xl:w-1/3 dashboard-spacer">
+                  <div className="dashboard-spacer">
                     <DashboardCumulativeGraphComponent
                       data={this.state.data?.cumulativeSeries}
                     />
                   </div>
-                  <div className="w-full xl:w-1/2 4xl:w-1/3 dashboard-spacer">
+                  <div className="dashboard-spacer">
                     <DashboardDailyChartComponent
                       data={this.state.data?.dailySeries}
                     />

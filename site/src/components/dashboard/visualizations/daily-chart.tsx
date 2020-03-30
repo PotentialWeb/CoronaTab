@@ -1,4 +1,4 @@
-import { Component } from 'react'
+import { PureComponent } from 'react'
 import { CartesianGrid, XAxis, YAxis, Tooltip, ResponsiveContainer, BarChart, Legend, Bar } from 'recharts'
 import tailwindConfig from '../../../utils/tailwind'
 import Downshift from 'downshift'
@@ -33,7 +33,7 @@ interface State {
   timeframe: Timeframe
 }
 
-export class DashboardDailyChartComponent extends Component<Props, State> {
+export class DashboardDailyChartComponent extends PureComponent<Props, State> {
   state: State = {
     timeframe: 7 as Timeframe
   }
@@ -122,7 +122,7 @@ export class DashboardDailyChartComponent extends Component<Props, State> {
     )
 
     return (
-      <div className="dashboard-panel select-none">
+      <div className="dashboard-panel flex flex-col select-none">
         <div className="flex flex-col md:flex-row md:items-center mb-2">
           <div className="flex-1">
             <h2 className="text-lg font-bold">
@@ -135,47 +135,44 @@ export class DashboardDailyChartComponent extends Component<Props, State> {
             </div>
           </div>
         </div>
-        <div className="relative">
-          <SvgRectComponent ratio="16:9" />
-          <div className="absolute inset-0 flex flex-col">
-            {(() => {
-              if (!this.props?.data?.length) {
-                return (
-                  <div className="flex flex-1 items-center justify-center">
-                    <LoadingComponent className="h-8" />
-                  </div>
-                )
-              }
-              const fromDate = moment().subtract(this.state.timeframe, 'days')
-              const data = this.props.data.filter(({ date }) => moment(date) > fromDate)
+        <div className="flex-1" style={{ minHeight: '1px' }}>
+          {(() => {
+            if (!this.props?.data?.length) {
               return (
-                <ResponsiveContainer>
-                  <BarChart
-                    data={data}
-                  >
-                    <Bar dataKey="cases" name="Cases" fill={brand} isAnimationActive={false} />
-                    <Bar dataKey="deaths" name="Deaths" fill={red} isAnimationActive={false} />
-                    <Bar dataKey="recovered" name="Recovered" fill={green} isAnimationActive={false} />
-                    <CartesianGrid strokeDasharray="3 3" stroke={brandDull} />
-                    <XAxis
-                      allowDataOverflow
-                      tickFormatter={(value: string) => moment(value).format('DD MMM')}
-                      dataKey="date"
-                      stroke={brand}
-                    />
-                    <YAxis
-                      allowDataOverflow
-                      tickFormatter={(value: number) => numeral(value).format(value >= 1000 ? '0.[0]a' : '0,0')}
-                      domain={[0, 'dataMax']}
-                      stroke={brand}
-                    />
-                    <Tooltip cursor={{ fill: 'transparent' }} />
-                    <Legend />
-                  </BarChart>
-                </ResponsiveContainer>
+                <div className="flex flex-1 items-center justify-center">
+                  <LoadingComponent className="h-8" />
+                </div>
               )
-            })()}
-          </div>
+            }
+            const fromDate = moment().subtract(this.state.timeframe, 'days')
+            const data = this.props.data.filter(({ date }) => moment(date) > fromDate)
+            return (
+              <ResponsiveContainer>
+                <BarChart
+                  data={data}
+                >
+                  <Bar dataKey="cases" name="Cases" fill={brand} isAnimationActive={false} />
+                  <Bar dataKey="deaths" name="Deaths" fill={red} isAnimationActive={false} />
+                  <Bar dataKey="recovered" name="Recovered" fill={green} isAnimationActive={false} />
+                  <CartesianGrid strokeDasharray="3 3" stroke={brandDull} />
+                  <XAxis
+                    allowDataOverflow
+                    tickFormatter={(value: string) => moment(value).format('DD MMM')}
+                    dataKey="date"
+                    stroke={brand}
+                  />
+                  <YAxis
+                    allowDataOverflow
+                    tickFormatter={(value: number) => numeral(value).format(value >= 1000 ? '0.[0]a' : '0,0')}
+                    domain={[0, 'dataMax']}
+                    stroke={brand}
+                  />
+                  <Tooltip cursor={{ fill: 'transparent' }} />
+                  <Legend />
+                </BarChart>
+              </ResponsiveContainer>
+            )
+          })()}
         </div>
       </div>
     )

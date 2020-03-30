@@ -163,7 +163,7 @@ export class DashboardGlobalHeatmapContentComponent extends PureComponent<Props,
     })
 
     const view = new View({
-      center: [0, 0],
+      center: transformProjection([0, 25], 'EPSG:4326', 'EPSG:3857'),
       zoom: 3
     })
 

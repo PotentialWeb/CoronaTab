@@ -7,6 +7,9 @@ import { DashboardCumulativeGraphComponent } from './visualizations/cumulative-g
 import { DashboardDailyChartComponent } from './visualizations/daily-chart'
 import { DashboardGlobalCountryLeaderboardComponent } from './global/country-leaderboard'
 import { DashboardGlobalHeatmapModalComponent } from './global/heatmap/modal'
+import EarthSvg from '../../../public/icons/earth.svg'
+import ListSvg from '../../../public/icons/list.svg'
+import { SvgRectComponent } from '../svg-rect'
 
 export interface Props extends HTMLAttributes<HTMLDivElement> {
   pageStore?: DashboardPageStore
@@ -53,48 +56,95 @@ export class DashboardGlobalComponent extends Component<Props, State> {
     return (
       <>
         <div className={`dashboard-panel ${className}`} {...props}>
-          <div className="flex items-center pb-2">
+          <div className="flex flex-col xl:flex-row xl:items-center pb-2">
             <div className="flex-shrink-0">
-              <h2 className="font-bold">Global Stats</h2>
+              <span className="flex items-center text-lg xl:text-4xl">
+                <EarthSvg className="h-line mr-2 2xl:mr-4" />
+                <h2 className="font-bold xl:hidden">Global</h2>
+              </span>
             </div>
-            <div className="flex-1 flex justify-end -mx-1">
-              <div className="px-1">
-                <button
-                  onClick={() => this.setState({ modalStatus: ModalStatus.STATS_BY_COUNTRY })}
-                  className="btn btn-white px-3 py-1 rounded-sm border border-light text-sm 2xl:text-base"
-                >
-                  View stats by country
-                </button>
-              </div>
-              <div className="px-1">
-                <button
-                  onClick={() => this.setState({ modalStatus: ModalStatus.HEATMAP })}
-                  className="btn btn-white px-3 py-1 rounded-sm border border-light text-sm 2xl:text-base"
-                >
-                  View heatmap
-                </button>
-              </div>
+            <div className="flex-1 flex">
+              <DashboardStatsComponent
+                rawData={this.data?.raw}
+                className="flex-1 pl-2"
+              />
             </div>
           </div>
-          <DashboardStatsComponent
-            rawData={this.data?.raw}
-            className="pl-2"
-          />
-          <div className="dashboard-global-visualizations flex flex-row flex-wrap min-w-0">
-            <div className="w-full xl:w-1/2 4xl:w-1/3 dashboard-spacer">
+          <div className="dashboard-global-visualizations">
+            <div className="dashboard-global-visualizations-country-leaderboard dashboard-spacer">
               <DashboardGlobalCountryLeaderboardComponent />
             </div>
-            <div className="w-full xl:w-1/2 4xl:w-1/3 dashboard-spacer">
+            <div className="dashboard-spacer">
               <DashboardCumulativeGraphComponent
                 data={this.data?.cumulativeSeries}
               />
             </div>
-            <div className="w-full xl:w-1/2 4xl:w-1/3 dashboard-spacer">
+            <div className="dashboard-spacer">
               <DashboardDailyChartComponent
                 data={this.data?.dailySeries}
               />
             </div>
+            <div className="dashboard-global-visualizations-stats-by-country dashboard-spacer">
+              <button
+                onClick={() => this.setState({ modalStatus: ModalStatus.STATS_BY_COUNTRY })}
+                className="dashboard-panel overflow-hidden btn btn-white p-0 w-full flex items-stretch"
+              >
+                <div className="relative border-r border-light">
+                  <SvgRectComponent ratio="21:9" className="w-auto h-16 min-h-full" />
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <ListSvg className="text-2xl h-line" />
+                  </div>
+                </div>
+                <div className="flex items-center flex-1 p-4">
+                  View all stats by country
+                </div>
+              </button>
+            </div>
+            <div className="dashboard-global-visualizations-heatmap dashboard-spacer">
+              <button
+                onClick={() => this.setState({ modalStatus: ModalStatus.HEATMAP })}
+                className="dashboard-panel overflow-hidden btn btn-brand-dark p-0 w-full flex items-stretch"
+              >
+                <div className="bg-cover" style={{ backgroundImage: `url('/graphics/heatmap.jpg')`}}>
+                  <SvgRectComponent ratio="21:9" className="w-auto h-16 min-h-full" />
+                </div>
+                <div className="flex items-center flex-1 p-4">
+                  View heatmap
+                </div>
+              </button>
+            </div>
           </div>
+          {/*<div className="grid grid-flow-row grid-cols-2">
+            <div className="dashboard-global-visualizations-stats-by-country dashboard-spacer">
+              <button
+                onClick={() => this.setState({ modalStatus: ModalStatus.STATS_BY_COUNTRY })}
+                className="dashboard-panel overflow-hidden btn btn-white p-0 w-full flex items-stretch"
+              >
+                <div className="relative border-r border-light">
+                  <SvgRectComponent ratio="21:9" className="w-auto h-16 min-h-full" />
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <ListSvg className="text-2xl h-line" />
+                  </div>
+                </div>
+                <div className="flex items-center flex-1 p-4">
+                  View all stats by country
+                </div>
+              </button>
+            </div>
+            <div className="dashboard-global-visualizations-heatmap dashboard-spacer">
+              <button
+                onClick={() => this.setState({ modalStatus: ModalStatus.HEATMAP })}
+                className="dashboard-panel overflow-hidden btn btn-brand-dark p-0 w-full flex items-stretch"
+              >
+                <div className="bg-cover" style={{ backgroundImage: `url('/graphics/heatmap.jpg')`}}>
+                  <SvgRectComponent ratio="21:9" className="w-auto h-16 min-h-full" />
+                </div>
+                <div className="flex items-center flex-1 p-4">
+                  View heatmap
+                </div>
+              </button>
+            </div>
+          </div>*/}
         </div>
         <DashboardGlobalStatsByCountryModalComponent
           isVisible={modalStatus === ModalStatus.STATS_BY_COUNTRY}

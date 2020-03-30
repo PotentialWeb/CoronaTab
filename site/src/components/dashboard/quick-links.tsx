@@ -14,7 +14,7 @@ export class DashboardQuickLinksComponent extends Component {
         <ul>
           {
             !iFramed ? (
-              <li>
+              <li className="w-full">
                 <ExtensionDownloadBtnComponent
                   logoClassName="h-line-lg mr-2"
                   className="btn btn-white dashboard-quick-links-btn"
@@ -22,6 +22,18 @@ export class DashboardQuickLinksComponent extends Component {
               </li>
             ) : ''
           }
+          <li>
+            <a
+              href="https://github.com/PotentialWeb/CoronaTab/wiki/RESTful-API-documentation"
+              target="_blank" rel="CoronaTab REST API Documentation"
+              className="btn btn-white dashboard-quick-links-btn"
+            >
+              <div className="dashboard-quick-links-btn-logo">
+                <img src="/favicons/favicon-120.png" className="h-line" />
+              </div>
+              CoronaTab REST API Docs
+            </a>
+          </li>
           {
             QuickLinks.length ? (
               <>

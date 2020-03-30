@@ -1,0 +1,36 @@
+.dashboard-global-visualizations {
+  @apply grid grid-flow-row grid-cols-1;
+  grid-template-rows: minmax(auto, 300px);
+
+  &-country-leaderboard {
+    .dashboard-panel {
+      @apply max-h-full;
+    }
+  }
+}
+
+@screen xl {
+  .dashboard-global-visualizations {
+    @apply grid-cols-2;
+    grid-template-rows: minmax(auto, 300px) minmax(auto, 300px);
+    &-country-leaderboard {
+      @apply row-span-2;
+    }
+  }
+}
+
+@screen 2xl {
+  .dashboard-global-visualizations {
+    grid-template-rows: minmax(auto, 350px) minmax(auto, 350px);
+  }
+}
+
+@screen 3xl {
+  .dashboard-global-visualizations {
+    @apply grid-cols-3;
+    grid-template-rows: minmax(auto, 400px);
+    &-country-leaderboard {
+      @apply row-auto;
+    }
+  }
+}
