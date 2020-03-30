@@ -113,7 +113,7 @@ export const LocaleIds = [
 export type LocaleId = typeof LocaleIds[number]
 
 export type LocaleTranslations = {
-  [key in LocaleId]: string
+  [key in LocaleId]?: string
 }
 
 export const Languages: LocaleTranslations = {

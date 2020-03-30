@@ -12,7 +12,7 @@ import * as path from 'path'
 export interface PlaceSeedData {
   id: string
   parentId: string
-  locales: any
+  locales: LocaleTranslations
   alpha2code?: string
   alpha3code?: string
   population?: number
@@ -31,7 +31,7 @@ export const FindPlaceSeedDataInDataset = ({ dataset, term }: { dataset: PlaceSe
     p.id === term
     || p.alpha3code === term
     || p.alpha2code === term
-    || p.locales.en.toLowerCase() === term.toLowerCase()
+    || Object.values(p.locales).some(name => name.toLowerCase() === term.toLowerCase())
     || p.alternativeNames?.map(n => n.toLowerCase()).includes(term.toLowerCase())
   )
 }

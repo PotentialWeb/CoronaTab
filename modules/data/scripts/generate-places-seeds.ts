@@ -1,5 +1,6 @@
 import { connect, PlaceData, PlaceSeedData, FindPlaceSeedDataInDataset, SavePlaceSeedData, PolygonMap, SavePlacePolygons } from '../src'
 import { config as InjectEnvs } from 'dotenv'
+InjectEnvs()
 import { RegionsData } from '../src/seeds/places/regions/data'
 import { CitiesData } from '../src/seeds/places/cities/data'
 import { CountriesData } from '../src/seeds/places/countries/data'
@@ -8,8 +9,7 @@ import * as fs from 'fs-extra'
 import * as path from 'path'
 import { JHU } from './jhu'
 import { DataScraper } from './data-scraper'
-
-InjectEnvs()
+import { Translate } from '@coronatab/node-utils'
 
 ;(async () => {
 
@@ -122,7 +122,7 @@ InjectEnvs()
               id: countyId,
               locales: {
                 en: entry.county
-              },
+              } as any,
               parentId: state.id
             }
             if (!regions.find(r => r.id === countyId)) {
@@ -144,7 +144,7 @@ InjectEnvs()
         }
       }
     } else {
-      const regionName = entry.county || entry.state
+      let regionName = entry.county || entry.state
       if (regionName) {
         // Country Region
         let region = FindPlaceSeedDataInDataset({
@@ -153,6 +153,10 @@ InjectEnvs()
         })
 
         if (!region) {
+          if (country.id === 'russia' && !regionName.includes('a')) {
+            // translate russian region
+            regionName = await Translate.text({ from: 'ru', to: 'en', text: regionName })
+          }
           const id = `${country.id}-${Strings.dasherize(regionName)}`
           region = {
             id,
