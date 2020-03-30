@@ -1,5 +1,6 @@
-import { connect, PlaceData, PlaceSeedData, FindPlaceSeedDataInDataset } from '../src'
+import { connect, PlaceData, PlaceSeedData, FindPlaceSeedDataInDataset, SavePlaceSeedData, PolygonMap, SavePlacePolygons } from '../src'
 import { config as InjectEnvs } from 'dotenv'
+InjectEnvs()
 import { RegionsData } from '../src/seeds/places/regions/data'
 import { CitiesData } from '../src/seeds/places/cities/data'
 import { CountriesData } from '../src/seeds/places/countries/data'
@@ -8,8 +9,7 @@ import * as fs from 'fs-extra'
 import * as path from 'path'
 import { JHU } from './jhu'
 import { DataScraper } from './data-scraper'
-
-InjectEnvs()
+import { Translate } from '@coronatab/node-utils'
 
 ;(async () => {
 
@@ -22,6 +22,8 @@ InjectEnvs()
   const countries = CountriesData
   let regions = RegionsData
   let cities = CitiesData
+  const regionPolygons: PolygonMap = require('../src/seeds/places/regions/polygons.json')
+  const cityPolygons: PolygonMap = require('../src/seeds/places/regions/polygons.json')
 
   const newRegions: PlaceSeedData[] = []
   const newCities: PlaceSeedData[] = []
@@ -100,9 +102,9 @@ InjectEnvs()
         updateCoordinates(state)
 
         state.population = state.population ?? entry.population
-        if (!state.polygon && entry.featureId) {
+        if (!regionPolygons[state.id] && entry.featureId) {
           const feature = features.find(f => f.properties?.id === entry.featureId)
-          state.polygon = feature?.geometry
+          regionPolygons[state.id] = feature?.geometry
         }
         if (entry.url && state.dataSource !== entry.url) {
           state.dataSource = entry.url
@@ -120,7 +122,7 @@ InjectEnvs()
               id: countyId,
               locales: {
                 en: entry.county
-              },
+              } as any,
               parentId: state.id
             }
             if (!regions.find(r => r.id === countyId)) {
@@ -132,9 +134,9 @@ InjectEnvs()
 
           updateCoordinates(county)
           county.population = county.population ?? entry.population
-          if (!county.polygon && entry.featureId) {
+          if (!regionPolygons[county.id] && entry.featureId) {
             const feature = features.find(f => f.properties?.id === entry.featureId)
-            county.polygon = feature?.geometry
+            regionPolygons[county.id] = feature?.geometry
           }
           if (entry.url && county.dataSource !== entry.url) {
             county.dataSource = entry.url
@@ -142,7 +144,7 @@ InjectEnvs()
         }
       }
     } else {
-      const regionName = entry.county || entry.state
+      let regionName = entry.county || entry.state
       if (regionName) {
         // Country Region
         let region = FindPlaceSeedDataInDataset({
@@ -151,6 +153,10 @@ InjectEnvs()
         })
 
         if (!region) {
+          if (country.id === 'russia' && !regionName.includes('a')) {
+            // translate russian region
+            regionName = await Translate.text({ from: 'ru', to: 'en', text: regionName })
+          }
           const id = `${country.id}-${Strings.dasherize(regionName)}`
           region = {
             id,
@@ -169,9 +175,9 @@ InjectEnvs()
         updateCoordinates(region)
 
         region.population = region.population ?? entry.population
-        if (!region.polygon && entry.featureId) {
+        if (!regionPolygons[region.id] && entry.featureId) {
           const feature = features.find(f => f.properties?.id === entry.featureId)
-          region.polygon = feature?.geometry
+          regionPolygons[region.id] = feature?.geometry
         }
         if (entry.url && region.dataSource !== entry.url) {
           region.dataSource = entry.url
@@ -227,112 +233,31 @@ InjectEnvs()
   ].includes(r.id))
 
   // Save all countries data to file
-  await fs.writeFile(path.resolve(__dirname, '../src/seeds/places/countries/data.ts'), `
-import { PlaceSeedData } from '../../places'
-const CountryPolygons = require('./polygons.json')
-
-export const CountriesData: PlaceSeedData[] = [${countries.map(({
-  id,
-  locales,
-  alpha2code,
-  alpha3code,
-  population,
-  coordinates,
-  alternativeNames,
-  dataSource,
-  hospitalBedOccupancy,
-  hospitalBeds,
-  icuBeds
- }) => `{
-  id: \`${id}\`,
-  locales: {
-    ${Object.entries(locales).map(([ locale, name ]) => `${locale}: \`${name}\``).join(',\n    ')}
-  },
-  alpha2code: ${alpha2code && `\`${alpha2code}\``},
-  alpha3code: ${alpha3code && `\`${alpha3code}\``},
-  alternativeNames: ${alternativeNames && `[${alternativeNames.map(name => `\`${name}\``).join(', ')}]`},
-  population: ${population},
-  hospitalBedOccupancy: ${hospitalBedOccupancy},
-  hospitalBeds: ${hospitalBeds},
-  icuBeds: ${icuBeds},
-  coordinates: ${JSON.stringify(coordinates)},
-  polygon: CountryPolygons[\`${alpha3code}\`],
-  parentId: 'earth',
-  dataSource: ${dataSource && `\`${dataSource}\``}
-}`).join(', ')}]
-`)
-
+  await SavePlaceSeedData({
+    typeId: 'country',
+    data: countries
+  })
   // Save all Region Geometries to polygons.json file
-  await fs.writeFile(path.resolve(__dirname, '../src/seeds/places/regions/polygons.json'), `{
-  ${regions.filter(({ polygon }) => !!polygon).map(({ id, polygon }) => `"${id}": ${JSON.stringify(polygon)}`).join(',\n  ')}
-}`)
-
-  // Save all Region data to file
-  await fs.writeFile(path.resolve(__dirname, '../src/seeds/places/regions/data.ts'), `
-import { PlaceSeedData } from '../../places'
-const RegionPolygons = require('./polygons.json')
-
-export const RegionsData: PlaceSeedData[] = [${regions.map(({
-    id,
-    locales,
-    alpha2code,
-    alpha3code,
-    population,
-    coordinates,
-    parentId,
-    alternativeNames,
-    dataSource
-   }) => `{
-  id: \`${id}\`,
-  locales: {
-    ${Object.entries(locales).map(([ locale, name ]) => `${locale}: \`${name}\``).join(',\n    ')}
-  },
-  alternativeNames: ${alternativeNames && `[${alternativeNames.map(name => `\`${name}\``).join(', ')}]`},
-  alpha2code: ${alpha2code && `\`${alpha2code}\``},
-  alpha3code: ${alpha3code && `\`${alpha3code}\``},
-  population: ${population},
-  coordinates: ${JSON.stringify(coordinates)},
-  polygon: RegionPolygons[\`${id}\`],
-  parentId: \`${parentId}\`,
-  dataSource: ${dataSource && `\`${dataSource}\``}
-}`).join(', ')}]
-`)
+  await SavePlacePolygons({
+    polygons: regionPolygons,
+    typeId: 'region'
+  })
+  await SavePlaceSeedData({
+    typeId: 'region',
+    data: regions
+  })
 
   // Save all City Geometries to polygons.json file
-  await fs.writeFile(path.resolve(__dirname, '../src/seeds/places/cities/polygons.json'), `{
-  ${cities.filter(({ polygon }) => !!polygon).map(({ id, polygon }) => `"${id}": ${JSON.stringify(polygon)}`).join(',\n  ')}
-}`)
+  await SavePlacePolygons({
+    polygons: cityPolygons,
+    typeId: 'city'
+  })
 
   // Save all City data to file
-  await fs.writeFile(path.resolve(__dirname, '../src/seeds/places/cities/data.ts'), `
-import { PlaceSeedData } from '../../places'
-const CityPolygons = require('./polygons.json')
-
-export const CitiesData: PlaceSeedData[] = [${cities.map(({
-  id,
-  locales,
-  alpha2code,
-  alpha3code,
-  population,
-  coordinates,
-  parentId,
-  alternativeNames,
-  dataSource
-}) => `{
-  id: \`${id}\`,
-  locales: {
-    ${Object.entries(locales).map(([ locale, name ]) => `${locale}: \`${name}\``).join(',\n    ')}
-  },
-  alpha2code: ${alpha2code && `\`${alpha2code}\``},
-  alpha3code: ${alpha3code && `\`${alpha3code}\``},
-  alternativeNames: ${alternativeNames && `[${alternativeNames.map(name => `\`${name}\``).join(', ')}]`},
-  population: ${population},
-  coordinates: ${JSON.stringify(coordinates)},
-  polygon: CityPolygons[\`${id}\`],
-  parentId: \`${parentId}\`,
-  dataSource: ${dataSource && `\`${dataSource}\``}
-}`).join(', ')}]
-`)
+  await SavePlaceSeedData({
+    typeId: 'city',
+    data: cities
+  })
 
   console.log('Success!')
   process.exit(0)
