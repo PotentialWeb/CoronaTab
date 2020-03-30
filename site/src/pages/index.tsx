@@ -1,6 +1,7 @@
 import { Component } from 'react'
 import Link from 'next/link'
 import { Meta } from '../utils/meta'
+import ArrowRightSvg from '../../public/icons/arrow-right.svg'
 import ExternalLinkSvg from '../../public/icons/external-link.svg'
 import LogoTextSvg from '../../public/icons/logo-text.svg'
 import { ExtensionDownloadBtnComponent } from '../components/extension-download-btn'
@@ -30,7 +31,8 @@ export default class IndexPage extends Component {
                       rel={`${Meta.APP_NAME} dashboard`}
                       className="inline-flex items-center btn btn-white border-2 border-lighter px-6 py-4 text-xl rounded"
                     >
-                      Go to the dashboard
+                      <span>Go to the dashboard</span>
+                      <ArrowRightSvg className="h-line ml-3" />
                     </a>
                   </Link>
                 </div>
