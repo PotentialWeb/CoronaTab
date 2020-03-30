@@ -2,6 +2,8 @@
 import { PlaceSeedData } from '../../places'
 const CityPolygons = require('./polygons.json')
 
+// tslint:disable
+//@ts-ignore
 export const CitiesData: PlaceSeedData[] = [{
   id: `united-states-of-america-idaho-adams`,
   locales: {

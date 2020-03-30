@@ -12,6 +12,9 @@
     "skipDefaultLibCheck": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
+    "lib": [
+      "ES2019"
+    ],
     "typeRoots": [
       "node_modules/@types",
     ]

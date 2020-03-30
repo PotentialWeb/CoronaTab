@@ -5,4 +5,8 @@ export class Strings extends String {
     // tslint:disable-next-line:ter-no-irregular-whitespace
     return str.replace(/,|\./g, '').replace(/ | /g, '-').toLowerCase()
   }
+
+  static capitalize (s: string) {
+    return s.charAt(0).toUpperCase() + s.slice(1)
+  }
 }
