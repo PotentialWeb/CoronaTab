@@ -1,4 +1,4 @@
-import { Component, RefObject, createRef, useMemo } from 'react'
+import { PureComponent, RefObject, createRef, useMemo } from 'react'
 import { inject, observer } from 'mobx-react'
 import { DashboardPageStore } from '../../../../pages/dashboard.store'
 import { useTable, useSortBy, useFlexLayout } from 'react-table'
@@ -16,7 +16,7 @@ export interface State {
 
 @inject('pageStore')
 @observer
-export class DashboardGlobalStatsByCountryContentComponent extends Component<Props, State> {
+export class DashboardGlobalStatsByCountryContentComponent extends PureComponent<Props, State> {
   contentRef: RefObject<HTMLDivElement> = createRef()
   scrollRef: RefObject<HTMLDivElement> = createRef()
 

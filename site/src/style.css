@@ -22,6 +22,8 @@
 
 @import "./components/dashboard.css";
 @import "./components/dashboard/general-advice.css";
+@import "./components/dashboard/global.css";
+@import "./components/dashboard/place.css";
 @import "./components/dashboard/quick-links.css";
 @import "./components/dashboard/stats.css";
 @import "./components/day-picker.css";

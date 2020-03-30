@@ -1,4 +1,4 @@
-import { Component } from 'react'
+import { PureComponent } from 'react'
 import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, ResponsiveContainer, BarChart, Legend, Bar, ReferenceArea } from 'recharts'
 import { scaleLog, scaleLinear } from 'd3-scale'
 import tailwindConfig from '../../../utils/tailwind'
@@ -47,7 +47,7 @@ interface State {
   yAxisScaleType?: YAxisScaleType
 }
 
-export class DashboardCumulativeGraphComponent extends Component<Props, State> {
+export class DashboardCumulativeGraphComponent extends PureComponent<Props, State> {
   state: State = {
     ...this.defaultState,
     yAxisScaleType: YAxisScaleType.LINEAR
@@ -209,8 +209,8 @@ export class DashboardCumulativeGraphComponent extends Component<Props, State> {
     )
 
     return (
-      <div className="dashboard-panel select-none">
-        <div className="flex flex-col md:flex-row md:items-center mb-2">
+      <div className="dashboard-panel flex flex-col select-none">
+        <div className="flex flex-shrink-0 flex-col md:flex-row md:items-center mb-2">
           <div className="flex-1">
             <h2 className="text-lg font-bold">
               Cumulative
@@ -239,86 +239,83 @@ export class DashboardCumulativeGraphComponent extends Component<Props, State> {
             </div>
           </div>
         </div>
-        <div className="relative">
-          <SvgRectComponent ratio="16:9" />
-          <div className="absolute inset-0 flex flex-col">
-            {(() => {
-              if (!Array.isArray(data)) {
-                return (
-                  <div className="flex flex-1 items-center justify-center">
-                    <LoadingComponent className="h-8" />
-                  </div>
-                )
-              }
+        <div className="flex flex-1" style={{ minHeight: '1px' }}>
+          {(() => {
+            if (!Array.isArray(data)) {
               return (
-                <ResponsiveContainer>
-                  <LineChart
-                    data={data}
-
-                    onMouseDown={e => {
-                      if (e?.activeLabel) this.setState({ startDate: moment(e.activeLabel).toDate() })
-                    }}
-                    onMouseMove={e => {
-                      if (e?.activeLabel && this.state.startDate) {
-                        this.setState({ endDate: moment(e.activeLabel).toDate() })
-                      }
-                    }}
-                    onMouseUp={this.onMouseUp}
-                  >
-                    <Line type="monotone" dataKey="cases" name="Cases" stroke={brand} dot={{ r: 1}} strokeWidth="2" isAnimationActive={true} animationDuration={200} />
-                    <Line type="monotone" dataKey="deaths" name="Deaths" stroke={red} dot={{ r: 1 }} strokeWidth="2" isAnimationActive={true} animationDuration={200} />
-                    <Line type="monotone" dataKey="recovered" name="Recovered" dot={{ r: 1 }} stroke={green} strokeWidth="2" isAnimationActive={true} animationDuration={200} />
-                    <CartesianGrid stroke={brandDull} strokeDasharray="5 5" />
-                    <XAxis
-                      allowDataOverflow
-                      dataKey="date"
-                      tickFormatter={(value: string) => moment(value).format('DD MMM')}
-                      padding={{ left: 5, right: 5 }}
-                      domain={[left, right]}
-                      stroke={brand}
-                    />
-                    <YAxis
-                      allowDataOverflow
-                      scale={(() => {
-                        switch (this.state.yAxisScaleType) {
-                          case (YAxisScaleType.LINEAR):
-                            return scaleLinear()
-                          case (YAxisScaleType.LOGARITHMIC):
-                            return scaleLog().clamp(true)
-                        }
-                      })()}
-                      tickFormatter={(value: number) => numeral(value).format(value >= 1000 ? '0.[0]a' : '0,0')}
-                      padding={{ top: 5, bottom: 0 }}
-                      domain={[
-                        (() => {
-                          if (this.state.yAxisScaleType === YAxisScaleType.LOGARITHMIC) {
-                            return 1
-                          }
-                          return bottom
-                        })(),
-                        top
-                      ]}
-                      type="number"
-                      stroke={brand}
-                    />
-                    <Tooltip />
-                    <Legend />
-                    {
-                      startDate && endDate && zoomEnabled
-                        ? (
-                          <ReferenceArea
-                            x1={moment(startDate).format('YYYY-MM-DD')}
-                            x2={moment(endDate).format('YYYY-MM-DD')}
-                            strokeOpacity={0.3}
-                          />
-                        )
-                        : null
-                    }
-                  </LineChart>
-                </ResponsiveContainer>
+                <div className="flex flex-1 items-center justify-center">
+                  <LoadingComponent className="h-8" />
+                </div>
               )
-            })()}
-          </div>
+            }
+            return (
+              <ResponsiveContainer>
+                <LineChart
+                  data={data}
+
+                  onMouseDown={e => {
+                    if (e?.activeLabel) this.setState({ startDate: moment(e.activeLabel).toDate() })
+                  }}
+                  onMouseMove={e => {
+                    if (e?.activeLabel && this.state.startDate) {
+                      this.setState({ endDate: moment(e.activeLabel).toDate() })
+                    }
+                  }}
+                  onMouseUp={this.onMouseUp}
+                >
+                  <Line type="monotone" dataKey="cases" name="Cases" stroke={brand} dot={{ r: 1}} strokeWidth="2" isAnimationActive={true} animationDuration={200} />
+                  <Line type="monotone" dataKey="deaths" name="Deaths" stroke={red} dot={{ r: 1 }} strokeWidth="2" isAnimationActive={true} animationDuration={200} />
+                  <Line type="monotone" dataKey="recovered" name="Recovered" dot={{ r: 1 }} stroke={green} strokeWidth="2" isAnimationActive={true} animationDuration={200} />
+                  <CartesianGrid stroke={brandDull} strokeDasharray="5 5" />
+                  <XAxis
+                    allowDataOverflow
+                    dataKey="date"
+                    tickFormatter={(value: string) => moment(value).format('DD MMM')}
+                    padding={{ left: 5, right: 5 }}
+                    domain={[left, right]}
+                    stroke={brand}
+                  />
+                  <YAxis
+                    allowDataOverflow
+                    scale={(() => {
+                      switch (this.state.yAxisScaleType) {
+                        case (YAxisScaleType.LINEAR):
+                          return scaleLinear()
+                        case (YAxisScaleType.LOGARITHMIC):
+                          return scaleLog().clamp(true)
+                      }
+                    })()}
+                    tickFormatter={(value: number) => numeral(value).format(value >= 1000 ? '0.[0]a' : '0,0')}
+                    padding={{ top: 5, bottom: 0 }}
+                    domain={[
+                      (() => {
+                        if (this.state.yAxisScaleType === YAxisScaleType.LOGARITHMIC) {
+                          return 1
+                        }
+                        return bottom
+                      })(),
+                      top
+                    ]}
+                    type="number"
+                    stroke={brand}
+                  />
+                  <Tooltip />
+                  <Legend />
+                  {
+                    startDate && endDate && zoomEnabled
+                      ? (
+                        <ReferenceArea
+                          x1={moment(startDate).format('YYYY-MM-DD')}
+                          x2={moment(endDate).format('YYYY-MM-DD')}
+                          strokeOpacity={0.3}
+                        />
+                      )
+                      : null
+                  }
+                </LineChart>
+              </ResponsiveContainer>
+            )
+          })()}
         </div>
       </div>
     )

@@ -18,6 +18,35 @@
   }
 }
 
+/* .btn-brand-dark */
+
+.btn-brand-dark--default {
+  @apply bg-brand-dark text-white;
+}
+
+.btn-brand-dark--default-hover {
+  @apply bg-brand text-white;
+}
+
+.btn-brand-dark--default-focus {
+  @apply btn-brand-dark--default-hover;
+}
+
+.btn-brand-dark {
+  &:not(:disabled) {
+    @apply btn-brand-dark--default;
+  }
+  &:not(.reset-btn--hover):not(:disabled):hover {
+    @apply btn-brand-dark--default-hover;
+  }
+  &:not(.reset-btn--focus):not(:disabled):focus {
+    @apply btn-brand-dark--default-focus;
+  }
+  &:not(.reset-btn--aria-expanded)[aria-expanded="true"] {
+    @apply btn-brand-dark--default-focus;
+  }
+}
+
 /* .btn-white */
 
 .btn-white--default {
