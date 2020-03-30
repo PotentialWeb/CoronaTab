@@ -1,10 +1,13 @@
 import { Place } from '../models/place'
 
-import type { LocaleTranslations } from '@coronatab/shared'
-import type { Polygon, MultiPolygon } from 'geojson'
+import { LocaleTranslations, Types } from '@coronatab/shared'
+import type { Polygon, MultiPolygon, Geometry } from 'geojson'
 import { SeededCountries } from './places/countries/seeds'
 import { SeededRegions } from './places/regions/seeds'
 import { SeededCities } from './places/cities/seeds'
+import { PlaceTypeId } from './places/types'
+import * as fs from 'fs-extra'
+import * as path from 'path'
 
 export interface PlaceSeedData {
   id: string
@@ -14,7 +17,6 @@ export interface PlaceSeedData {
   alpha3code?: string
   population?: number
   coordinates?: [number, number],
-  polygon?: Polygon | MultiPolygon
   alternativeNames?: string[]
   dataSource?: string
   hospitalBeds?: number
@@ -32,6 +34,48 @@ export const FindPlaceSeedDataInDataset = ({ dataset, term }: { dataset: PlaceSe
     || p.locales.en.toLowerCase() === term.toLowerCase()
     || p.alternativeNames?.map(n => n.toLowerCase()).includes(term.toLowerCase())
   )
+}
+
+export const SavePlaceSeedData = async ({ data, typeId }: { data: PlaceSeedData[], typeId: PlaceTypeId }) => {
+  // Save all countries data to file
+  const typePath = (() => {
+    switch (typeId) {
+      case 'country': return 'countries'
+      case 'region': return 'regions'
+      case 'city': return 'cities'
+    }
+  })()
+
+  const dataVarName = (() => {
+    switch (typeId) {
+      case 'country': return 'CountriesData'
+      case 'region': return 'RegionsData'
+      case 'city': return 'CitiesData'
+    }
+  })()
+  await fs.writeFile(path.resolve(__dirname, `./places/${typePath}/data.ts`), `
+  import type { PlaceSeedData } from '../../places'
+
+  export const ${dataVarName}: PlaceSeedData[] = ${
+    JSON.stringify(data.map(p => Object.fromEntries(Object.entries(p).filter(([key, value]) => value !== undefined))), null, 2)
+  }
+  `)
+}
+
+export type PolygonMap = { [id: string]: Geometry }
+export const SavePlacePolygons = async ({ polygons, typeId }: { polygons: PolygonMap, typeId: PlaceTypeId }) => {
+  // Save all countries data to file
+  const typePath = (() => {
+    switch (typeId) {
+      case 'country': return 'countries'
+      case 'region': return 'regions'
+      case 'city': return 'cities'
+    }
+  })()
+
+  await fs.writeFile(path.resolve(__dirname, `./places/${typePath}/polygons.json`), `{
+    ${Object.entries(polygons).filter(([ polygon ]) => !!polygon).map(([ id, polygon ]) => `"${id}": ${JSON.stringify(polygon)}`).join(',\n  ')}
+  }`)
 }
 
 export const EarthPlace = new Place({

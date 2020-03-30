@@ -4,8 +4,8 @@ import { DataScraperRow } from './data-scraper'
 import { CountriesData } from '../src/seeds/places/countries/data'
 import { RegionsData } from '../src/seeds/places/regions/data'
 import { CitiesData } from '../src/seeds/places/cities/data'
-import * as fs from 'fs-extra'
-import * as path from 'path'
+import { SavePlaceDatas } from '../src/seeds/places/data'
+
 export class Data {
   static async recalculate ({
     date,
@@ -242,7 +242,6 @@ export class Data {
 
     debugger
 
-    const dataPath = path.resolve(__dirname, '../src/seeds/places/place-data.json')
     await connect()
     const result: PlaceData[] = await PlaceData.find()
 
@@ -257,20 +256,7 @@ export class Data {
       }
     }
 
-    await fs.writeFile(dataPath, `
-  [
-    ${result
-        .filter(data => data && (data.cases || data.deaths || data.recovered))
-        .map(data => `{
-    "placeId": "${data.placeId}",
-    "date": "${data.date}",
-    "cases": ${Math.round(data.cases)},
-    "deaths": ${Math.round(data.deaths)},
-    "recovered": ${Math.round(data.recovered)}
-  }`).join(',\n  ')
-    }
-]
-  `)
+    await SavePlaceDatas({ datas: result })
 
   }
 }
