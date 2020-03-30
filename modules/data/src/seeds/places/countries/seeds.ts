@@ -3,10 +3,11 @@ import { PlacePolygon } from '../../../models/place/polygon'
 import { Strings } from '@coronatab/shared'
 import * as path from 'path'
 import { CountriesData } from './data'
+import { PolygonMap } from '../../places'
 
 const SeededCountryPolygons: PlacePolygon[] = []
 const SeededCountries: Place[] = []
-
+const Polygons: PolygonMap = require('./polygons.json')
 CountriesData.map(country => {
   const Country = new Place({
     id: country.id,
@@ -29,10 +30,10 @@ CountriesData.map(country => {
     }
   }
 
-  if (country.polygon) {
+  if (Polygons[country.id]) {
     const CountryPolygon = new PlacePolygon({
       placeId: Country.id,
-      polygon: country.polygon
+      polygon: Polygons[country.id]
     })
     SeededCountryPolygons.push(CountryPolygon)
   }

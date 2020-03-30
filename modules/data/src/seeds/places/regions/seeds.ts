@@ -3,9 +3,11 @@ import { Place } from '../../../models/place'
 import { Strings } from '@coronatab/shared'
 import * as path from 'path'
 import { RegionsData } from './data'
+import { PolygonMap } from '../../places'
 
 const SeededRegionPolygons: PlacePolygon[] = []
 const SeededRegions: Place[] = []
+const Polygons: PolygonMap = require('./polygons.json')
 
 RegionsData.map(region => {
   const id = Strings.dasherize(`${region.parentId} ${region.locales.en}`)
@@ -26,10 +28,10 @@ RegionsData.map(region => {
       coordinates: region.coordinates
     }
   }
-  if (region.polygon) {
+  if (Polygons[region.id]) {
     const RegionPolygon = new PlacePolygon({
       placeId: id,
-      polygon: region.polygon
+      polygon: Polygons[region.id]
     })
     SeededRegionPolygons.push(RegionPolygon)
   }

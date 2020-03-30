@@ -62,7 +62,7 @@ export const SavePlaceSeedData = async ({ data, typeId }: { data: PlaceSeedData[
   `)
 }
 
-export type PolygonMap = { [id: string]: Geometry }
+export type PolygonMap = { [id: string]: Polygon | MultiPolygon }
 export const SavePlacePolygons = async ({ polygons, typeId }: { polygons: PolygonMap, typeId: PlaceTypeId }) => {
   // Save all countries data to file
   const typePath = (() => {
