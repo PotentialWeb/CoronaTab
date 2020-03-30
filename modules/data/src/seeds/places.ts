@@ -54,12 +54,13 @@ export const SavePlaceSeedData = async ({ data, typeId }: { data: PlaceSeedData[
     }
   })()
   await fs.writeFile(path.resolve(__dirname, `./places/${typePath}/data.ts`), `
-  import type { PlaceSeedData } from '../../places'
-
-  export const ${dataVarName}: PlaceSeedData[] = ${
-    JSON.stringify(data.map(p => Object.fromEntries(Object.entries(p).filter(([key, value]) => value !== undefined))), null, 2)
-  }
-  `)
+import type { PlaceSeedData } from '../../places'
+// tslint:disable
+//@ts-ignore
+export const ${dataVarName}: PlaceSeedData[] = ${
+  JSON.stringify(data.map(p => Object.fromEntries(Object.entries(p).filter(([key, value]) => value !== undefined))), null, 2)
+}
+`)
 }
 
 export type PolygonMap = { [id: string]: Polygon | MultiPolygon }
@@ -74,8 +75,8 @@ export const SavePlacePolygons = async ({ polygons, typeId }: { polygons: Polygo
   })()
 
   await fs.writeFile(path.resolve(__dirname, `./places/${typePath}/polygons.json`), `{
-    ${Object.entries(polygons).filter(([ polygon ]) => !!polygon).map(([ id, polygon ]) => `"${id}": ${JSON.stringify(polygon)}`).join(',\n  ')}
-  }`)
+  ${Object.entries(polygons).filter(([ polygon ]) => !!polygon).map(([ id, polygon ]) => `"${id}": ${JSON.stringify(polygon)}`).join(',\n  ')}
+}`)
 }
 
 export const EarthPlace = new Place({

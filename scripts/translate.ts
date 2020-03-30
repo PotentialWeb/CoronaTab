@@ -6,6 +6,7 @@ import fs from 'fs-extra'
 import path from 'path'
 import type { PlaceSeedData } from '../modules/data/dist'
 import { Async } from '../modules/shared/src/async'
+import { SavePlaceSeedData } from '../modules/data/src'
 const { Translate: GoogleTranslate } = v2
 // Instantiates a client
 const credentials = JSON.parse(process.env.GOOGLE_TRANSLATE_SERVICE_ACCOUNT)
@@ -41,43 +42,10 @@ const translate = async (text: string, to: LocaleId) => {
   }
 
   if (changedCountriesFile) {
-    const newCountriesFile = `
-import { PlaceSeedData } from '../../places'
-const CountryPolygons = require('./polygons.json')
-// tslint:disable
-//@ts-ignore
-export const CountriesData: PlaceSeedData[] = [${countries.map(({
-  id,
-  locales,
-  alpha2code,
-  alpha3code,
-  population,
-  coordinates,
-  alternativeNames,
-  dataSource,
-  hospitalBedOccupancy,
-  hospitalBeds,
-  icuBeds
-  }) => `{
-  id: \`${id}\`,
-  locales: {
-    ${Object.entries(locales).map(([ locale, name ]) => `'${locale}': \`${name}\``).join(',\n    ')}
-  },
-  alpha2code: ${alpha2code && `\`${alpha2code}\``},
-  alpha3code: ${alpha3code && `\`${alpha3code}\``},
-  alternativeNames: ${alternativeNames && `[${alternativeNames.map(name => `\`${name}\``).join(', ')}]`},
-  population: ${population},
-  hospitalBedOccupancy: ${hospitalBedOccupancy},
-  hospitalBeds: ${hospitalBeds},
-  icuBeds: ${icuBeds},
-  coordinates: ${JSON.stringify(coordinates)},
-  polygon: CountryPolygons[\`${alpha3code}\`],
-  parentId: 'earth',
-  dataSource: ${dataSource && `\`${dataSource}\``}
-}`).join(', ')}]
-`
-    debugger
-    await fs.writeFile(countriesPath, newCountriesFile)
+    await SavePlaceSeedData({
+      data: countries,
+      typeId: 'country'
+    })
   }
 
   const regionsPath = path.resolve(__dirname, '../modules/data/src/seeds/places/regions/data.ts')
@@ -110,71 +78,52 @@ export const CountriesData: PlaceSeedData[] = [${countries.map(({
   }
 
   if (changedRegionsFile) {
-  // Save all Region data to file
-    const newRegionFile = `
-import { PlaceSeedData } from '../../places'
-const RegionPolygons = require('./polygons.json')
-// tslint:disable
-//@ts-ignore
-export const RegionsData: PlaceSeedData[] = [${regions.map(({
-    id,
-    locales,
-    alpha2code,
-    alpha3code,
-    population,
-    coordinates,
-    parentId,
-    alternativeNames,
-    dataSource
-  }) => `{
-  id: \`${id}\`,
-  locales: {
-    ${Object.entries(locales).map(([ locale, name ]) => `'${locale}': \`${name}\``).join(',\n    ')}
-  },
-  alternativeNames: ${alternativeNames && `[${alternativeNames.map(name => `\`${name}\``).join(', ')}]`},
-  alpha2code: ${alpha2code && `\`${alpha2code}\``},
-  alpha3code: ${alpha3code && `\`${alpha3code}\``},
-  population: ${population},
-  coordinates: ${JSON.stringify(coordinates)},
-  polygon: RegionPolygons[\`${id}\`],
-  parentId: \`${parentId}\`,
-  dataSource: ${dataSource && `\`${dataSource}\``}
-}`).join(', ')}]
-`
-    debugger
-    await fs.writeFile(regionsPath, newRegionFile)
+    await SavePlaceSeedData({
+      data: regions,
+      typeId: 'region'
+    })
   }
 
-//   // Save all City data to file
-//   await fs.writeFile(path.resolve(__dirname, '../src/seeds/places/cities/data.ts'), `
-// import { PlaceSeedData } from '../../places'
-// const CityPolygons = require('./polygons.json')
+  const citiesPath = path.resolve(__dirname, '../modules/data/src/seeds/places/cities/data.ts')
+  const { CitiesData: cities }: { CitiesData: PlaceSeedData[] } = require(citiesPath)
 
-// export const CitiesData: PlaceSeedData[] = [${cities.map(({
-//   id,
-//   locales,
-//   alpha2code,
-//   alpha3code,
-//   population,
-//   coordinates,
-//   parentId,
-//   alternativeNames,
-//   dataSource
-// }) => `{
-//   id: \`${id}\`,
-//   locales: {
-//     ${Object.entries(locales).map(([ locale, name ]) => `${locale}: \`${name}\``).join(',\n    ')}
-//   },
-//   alpha2code: ${alpha2code && `\`${alpha2code}\``},
-//   alpha3code: ${alpha3code && `\`${alpha3code}\``},
-//   alternativeNames: ${alternativeNames && `[${alternativeNames.map(name => `\`${name}\``).join(', ')}]`},
-//   population: ${population},
-//   coordinates: ${JSON.stringify(coordinates)},
-//   polygon: CityPolygons[\`${id}\`],
-//   parentId: \`${parentId}\`,
-//   dataSource: ${dataSource && `\`${dataSource}\``}
-// }`).join(', ')}]
-// `)
+  let changedCitiesFile = false
+  for (const city of cities) {
+    // Add all missing locales
+    const presentLocales = Object.keys(city.locales)
+    const missingLocales = LocaleIds.filter(locale => !presentLocales.includes(locale))
+    if (missingLocales.length) {
+      let success = false
+      while (!success) {
+        try {
+          await Promise.all(missingLocales.map(async (locale) => {
+            const name = await translate(city.locales.en, locale)
+            city.locales[locale] = Strings.capitalize(name)
+            changedCitiesFile = true
+          }))
+          success = true
+        } catch (err) {
+          console.error(err)
+          console.error('Failed to translate, waiting for a minue')
+          if (changedCitiesFile) {
+            SavePlaceSeedData({
+              data: cities,
+              typeId: 'city'
+            })
+          }
+          await Async.delay(1000 * 60)
+        }
+      }
 
-  debugger
+      console.log(`${cities.indexOf(city)}/${cities.length}`)
+    }
+  }
+
+  if (changedCitiesFile) {
+    await SavePlaceSeedData({
+      data: cities,
+      typeId: 'city'
+    })
+  }
+
 })()

@@ -4,7 +4,7 @@ import * as fs from 'fs-extra'
 import * as path from 'path'
 
 export const SavePlaceDatas = async ({ datas }: { datas: PlaceData[] }) => {
-  const dataPath = path.resolve(__dirname, '../src/seeds/places/place-data.json')
+  const dataPath = path.resolve(__dirname, './place-data.json')
 
   await fs.writeFile(dataPath, `
 [
