@@ -239,7 +239,7 @@ export class DashboardCumulativeGraphComponent extends Component<Props, State> {
             </div>
           </div>
         </div>
-        <div className="flex flex-1 min-h-0">
+        <div className="flex flex-1" style={{ minHeight: '1px' }}>
           {(() => {
             if (!Array.isArray(data)) {
               return (

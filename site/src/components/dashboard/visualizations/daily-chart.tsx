@@ -135,7 +135,7 @@ export class DashboardDailyChartComponent extends Component<Props, State> {
             </div>
           </div>
         </div>
-        <div className="flex-1 min-h-0">
+        <div className="flex-1" style={{ minHeight: '1px' }}>
           {(() => {
             if (!this.props?.data?.length) {
               return (
