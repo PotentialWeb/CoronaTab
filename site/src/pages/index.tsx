@@ -1,6 +1,7 @@
 import { Component } from 'react'
 import Link from 'next/link'
 import { Meta } from '../utils/meta'
+import ExternalLinkSvg from '../../public/icons/external-link.svg'
 import LogoTextSvg from '../../public/icons/logo-text.svg'
 import { ExtensionDownloadBtnComponent } from '../components/extension-download-btn'
 import { FooterComponent } from '../components/footer'
@@ -15,7 +16,7 @@ export default class IndexPage extends Component {
               <div className="w-full lg:w-1/2">
                 <LogoTextSvg className="h-10 mt-2 mb-8" />
                 <h1 className="font-bold mt-8 mb-6 text-6xl leading-none">
-                  Launchpad for<br /> Coronavirus<br /> stats &amp; news
+                  Open source<br /> Coronavirus<br /> data platform
                 </h1>
                 <h3 className="font-bold mb-6 text-xl text-brand-light" style={{ maxWidth: '90%' }}>
                   #coronatab #COVID19
@@ -23,21 +24,33 @@ export default class IndexPage extends Component {
                 <h2 className="font-bold mb-6 text-lg text-brand-light" style={{ maxWidth: '90%' }}>
                   {Meta.DESCRIPTION}
                 </h2>
-                <div className="my-3">
-                  <ExtensionDownloadBtnComponent
-                    logoClassName="h-line-xl mr-2"
-                    className="inline-flex items-center btn btn-white border-2 border-lighter px-6 py-4 text-xl rounded"
-                  />
-                </div>
-                <div className="my-3">
+                <div className="my-2">
                   <Link href="dashboard">
                     <a
                       rel={`${Meta.APP_NAME} dashboard`}
-                      className="inline-flex btn btn-white border-2 border-lighter px-6 py-3 rounded"
+                      className="inline-flex items-center btn btn-white border-2 border-lighter px-6 py-4 text-xl rounded"
                     >
-                      View the dashboard
+                      Go to the dashboard
                     </a>
                   </Link>
+                </div>
+                <div className="flex flex-wrap items-center my-2">
+                  <div className="inline-flex">
+                    <ExtensionDownloadBtnComponent
+                      logoClassName="h-line-lg mr-2"
+                      className="flex btn btn-white border-2 border-lighter px-4 py-3 mr-2 rounded my-1"
+                    />
+                  </div>
+                  <div className="inline-flex">
+                    <a
+                      href="https://github.com/PotentialWeb/CoronaTab/wiki/RESTful-API-documentation"
+                      target="_blank"
+                      className="flex items-center btn btn-white border-2 border-lighter px-4 py-3 rounded my-1"
+                    >
+                      <span>REST API Docs</span>
+                      <ExternalLinkSvg className="h-line-sm ml-2" />
+                    </a>
+                  </div>
                 </div>
               </div>
               <div className="w-full lg:w-1/2">

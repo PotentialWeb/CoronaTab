@@ -47,18 +47,27 @@ export class FooterComponent extends Component<Props> {
                 </h2>
                 <ul className="text-sm">
                   <li>
-                    <ExtensionDownloadBtnComponent
-                      className={listLinkClasses}
-                    >
-                      Browser Extension
-                    </ExtensionDownloadBtnComponent>
-                  </li>
-                  <li>
                     <Link href="/dashboard">
                       <a className={listLinkClasses}>
                         Dashboard
                       </a>
                     </Link>
+                  </li>
+                  <li>
+                    <ExtensionDownloadBtnComponent
+                      className={listLinkClasses}
+                    >
+                      <span className="font-normal">Browser Extension</span>
+                    </ExtensionDownloadBtnComponent>
+                  </li>
+                  <li>
+                    <a
+                      href="https://github.com/PotentialWeb/CoronaTab/wiki/RESTful-API-documentation"
+                      target="_blank"
+                      className={listLinkClasses}
+                    >
+                      REST API <sup className="font-bold">Free!</sup>
+                    </a>
                   </li>
                 </ul>
               </div>
