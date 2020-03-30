@@ -1,4 +1,4 @@
-import { Component } from 'react'
+import { PureComponent } from 'react'
 import { CartesianGrid, XAxis, YAxis, Tooltip, ResponsiveContainer, BarChart, Legend, Bar } from 'recharts'
 import tailwindConfig from '../../../utils/tailwind'
 import Downshift from 'downshift'
@@ -33,7 +33,7 @@ interface State {
   timeframe: Timeframe
 }
 
-export class DashboardDailyChartComponent extends Component<Props, State> {
+export class DashboardDailyChartComponent extends PureComponent<Props, State> {
   state: State = {
     timeframe: 7 as Timeframe
   }

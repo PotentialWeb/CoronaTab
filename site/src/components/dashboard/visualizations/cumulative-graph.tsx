@@ -1,4 +1,4 @@
-import { Component } from 'react'
+import { PureComponent } from 'react'
 import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, ResponsiveContainer, BarChart, Legend, Bar, ReferenceArea } from 'recharts'
 import { scaleLog, scaleLinear } from 'd3-scale'
 import tailwindConfig from '../../../utils/tailwind'
@@ -47,7 +47,7 @@ interface State {
   yAxisScaleType?: YAxisScaleType
 }
 
-export class DashboardCumulativeGraphComponent extends Component<Props, State> {
+export class DashboardCumulativeGraphComponent extends PureComponent<Props, State> {
   state: State = {
     ...this.defaultState,
     yAxisScaleType: YAxisScaleType.LINEAR

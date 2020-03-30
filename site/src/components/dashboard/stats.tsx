@@ -1,4 +1,4 @@
-import { Component, HTMLAttributes } from 'react'
+import { PureComponent, HTMLAttributes } from 'react'
 import Tippy from '@tippyjs/react'
 import numeral from 'numeral'
 import CaretUpSvg from '../../../public/icons/caret-up.svg'
@@ -9,7 +9,7 @@ interface Props extends HTMLAttributes<HTMLDivElement> {
   rawData: (string | number)[]
 }
 
-export class DashboardStatsComponent extends Component<Props> {
+export class DashboardStatsComponent extends PureComponent<Props> {
   render () {
     const {
       title,
