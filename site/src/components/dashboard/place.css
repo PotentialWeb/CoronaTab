@@ -1,0 +1,23 @@
+.dashboard-place-visualizations {
+  @apply grid grid-flow-row grid-cols-1;
+  grid-template-rows: minmax(auto, 300px);
+}
+
+@screen xl {
+  .dashboard-place-visualizations {
+    @apply grid-cols-2;
+  }
+}
+
+@screen 2xl {
+  .dashboard-place-visualizations {
+    grid-template-rows: minmax(auto, 350px);
+  }
+}
+
+@screen 3xl {
+  .dashboard-place-visualizations {
+    @apply grid-cols-3;
+    grid-template-rows: minmax(auto, 400px);
+  }
+}
