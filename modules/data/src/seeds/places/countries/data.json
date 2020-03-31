@@ -3423,7 +3423,7 @@
       -14.236725569657125
     ],
     "parentId": "earth",
-    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
+    "dataSource": "https://covid.saude.gov.br/"
   },
   {
     "id": "brunei-darussalam",
@@ -4400,7 +4400,7 @@
       62.39666687350006
     ],
     "parentId": "earth",
-    "dataSource": "https://health-infobase.canada.ca/src/data/summary_current.csv"
+    "dataSource": "https://health-infobase.canada.ca/src/data/covidLive/covid19.csv"
   },
   {
     "id": "cabo-verde",
@@ -11160,11 +11160,11 @@
     "alpha3code": "IND",
     "population": 1380004385,
     "coordinates": [
-      87.85869957912226,
-      24.402508335403155
+      82.74863427400004,
+      21.151850284000083
     ],
     "parentId": "earth",
-    "dataSource": "https://www.mohfw.gov.in/"
+    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
   },
   {
     "id": "indonesia",
@@ -20598,8 +20598,8 @@
     "hospitalBeds": 1174772,
     "icuBeds": 12113,
     "coordinates": [
-      39.256808302611034,
-      57.74603628194882
+      33.61585907774102,
+      44.62521949229629
     ],
     "parentId": "earth",
     "dataSource": "https://yandex.ru/maps/api/covid?csrfToken="
@@ -27072,11 +27072,11 @@
     "hospitalBeds": 172430,
     "icuBeds": 4480,
     "coordinates": [
-      18.4207,
-      -64.64
+      -2.1993563498157016,
+      52.20434611687975
     ],
     "parentId": "earth",
-    "dataSource": "https://www.gov.scot/coronavirus-covid-19/"
+    "dataSource": "https://www.arcgis.com/sharing/rest/content/items/b684319181f94875a6879bbc833ca3a6/data"
   },
   {
     "id": "united-states-of-america",
