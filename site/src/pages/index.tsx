@@ -8,7 +8,10 @@ import { ExtensionDownloadBtnComponent } from '../components/extension-download-
 import { FooterComponent } from '../components/footer'
 
 export default class IndexPage extends Component {
+
   render () {
+    // TODO: Get correct localization string depending on locale header or cookie!
+    const localeStrings = require('../../public/data/locale-strings/en.json')
     return (
       <main data-page="index">
         <header className="pt-4 sm:pt-10 pb-16 md:pt-12 3xl:pt-16">
@@ -17,7 +20,7 @@ export default class IndexPage extends Component {
               <div className="w-full lg:w-1/2">
                 <LogoTextSvg className="h-10 mt-2 mb-8" />
                 <h1 className="font-bold mt-8 mb-6 text-6xl leading-none">
-                  Open source<br /> Coronavirus<br /> data platform
+                  {localeStrings['open-source']}<br />{localeStrings['coronavirus']}<br /> {localeStrings['data-platform']}
                 </h1>
                 <h3 className="font-bold mb-6 text-xl text-brand-light" style={{ maxWidth: '90%' }}>
                   #coronatab #COVID19
@@ -31,7 +34,7 @@ export default class IndexPage extends Component {
                       rel={`${Meta.APP_NAME} dashboard`}
                       className="inline-flex items-center btn btn-white border-2 border-lighter px-6 py-4 text-xl rounded"
                     >
-                      <span>Go to the dashboard</span>
+                      <span>{localeStrings['go-to-the-dashboard']}</span>
                       <ArrowRightSvg className="h-line ml-3" />
                     </a>
                   </Link>
@@ -49,7 +52,7 @@ export default class IndexPage extends Component {
                       target="_blank"
                       className="flex items-center btn btn-white border-2 border-lighter px-4 py-3 rounded my-1"
                     >
-                      <span>REST API Docs</span>
+                      <span>REST API {localeStrings['documentation']}</span>
                       <ExternalLinkSvg className="h-line-sm ml-2" />
                     </a>
                   </div>

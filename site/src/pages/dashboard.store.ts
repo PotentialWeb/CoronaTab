@@ -12,7 +12,7 @@ export enum LoadingStatus {
   HAS_ERRORED = 'hasErrored'
 }
 
-export type AdviceObj = { [key: string]: { title: string, description: string } }
+export type LocaleStringsObj = { [key: string]: string }
 
 export interface Place extends PlaceShape {
   latestData: {
@@ -70,16 +70,16 @@ export class DashboardPageStore {
   // endDate = moment().toDate()
 
   @observable
-  private _advice: AdviceObj
+  private _localeStrings: LocaleStringsObj
 
   @computed
-  get advice (): AdviceObj {
-    return this._advice ?? LocalStorage.get('advice')
+  get localeStrings (): LocaleStringsObj {
+    return this._localeStrings ?? LocalStorage.get('localeStrings')
   }
 
-  set advice (advice: AdviceObj) {
-    this._advice = advice
-    LocalStorage.set('advice', advice)
+  set localeStrings (localeStrings: LocaleStringsObj) {
+    this._localeStrings = localeStrings
+    LocalStorage.set('localeStrings', localeStrings)
   }
 
   @action.bound
@@ -92,12 +92,12 @@ export class DashboardPageStore {
     try {
       const [
         placesResult,
-        adviceResult,
+        localeStringsResult,
         globalDataResult,
         selectedPlaceResult
       ] = await allSettled([
         this.fetchPlaces({ cached: true }),
-        this.fetchAdvice({ cached: true }),
+        this.fetchLocaleStrings({ cached: true }),
         this.fetchGlobalData({ cached: true }),
         !this.selectedPlace && PlaceApi.findClosest({ typeId: 'country', include: ['children'] })
       ])
@@ -109,7 +109,7 @@ export class DashboardPageStore {
         throw new Error('Could not get places. API probably down.')
       }
 
-      if (adviceResult.status === 'fulfilled') this.advice = adviceResult.value
+      if (localeStringsResult.status === 'fulfilled') this.localeStrings = localeStringsResult.value
       if (globalDataResult.status === 'fulfilled') {
         const { data: rawGlobalData } = globalDataResult.value
         this.rawPlaceData = {
@@ -178,9 +178,9 @@ export class DashboardPageStore {
   }
 
   @action.bound
-  async fetchAdvice ({ cached }: { cached: boolean }) {
-    if (cached && this.advice) return this.advice
-    return HTTP.request('GET', `/data/general-advice/${LocalStorage.get('locale') ?? 'en'}.json`)
+  async fetchLocaleStrings ({ cached }: { cached: boolean }) {
+    if (cached && this.localeStrings) return this.localeStrings
+    return HTTP.request('GET', `/data/locale-string/${LocalStorage.get('locale') ?? 'en'}.json`)
   }
 
   @action.bound
