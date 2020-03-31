@@ -140,7 +140,7 @@ function Table ({ data, onSortClick }) {
       },
       {
         id: 'recovery-rate',
-        Header: 'Recoverty Rate',
+        Header: 'Recovery Rate',
         Cell: ({ cell }) => FormatNumberCell(cell.value, '0.00%'),
         accessor: 'latestData.recoveryRate',
         sortType: 'basic'
