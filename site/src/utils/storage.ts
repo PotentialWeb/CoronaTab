@@ -15,6 +15,13 @@ abstract class BaseStorage {
   static delete (key: string) {
     this.storage.removeItem(`${key}-${this.version}`)
   }
+
+  static purgeItems () {
+    if (typeof window === 'undefined') return
+    Object.keys(this.storage)
+      .filter(key => !key.includes(this.version))
+      .forEach(key => this.storage.removeItem(key))
+  }
 }
 
 export class LocalStorage extends BaseStorage {

@@ -101,6 +101,9 @@ export class DashboardPageStore {
 
   @action.bound
   async fetchInitialPageData () {
+    // Purge old keys from different version
+    LocalStorage.purgeItems()
+
     try {
       const [
         countriesResult,
