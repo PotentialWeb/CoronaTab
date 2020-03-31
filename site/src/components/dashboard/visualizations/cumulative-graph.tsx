@@ -11,7 +11,6 @@ import CaretDownSvg from '../../../../public/icons/caret-down.svg'
 import CaretUpSvg from '../../../../public/icons/caret-up.svg'
 import CloseSvg from '../../../../public/icons/close.svg'
 import { LoadingComponent } from '../../loading'
-import { SvgRectComponent } from '../../svg-rect'
 
 const {
   theme: {
@@ -33,8 +32,7 @@ enum YAxisScaleType {
   LOGARITHMIC = 'logarithmic'
 }
 
-interface State {
-  data: any[]
+export interface ZoomableGraphState {
   top: string | number
   bottom: string | number
   left: string | number
@@ -44,6 +42,10 @@ interface State {
   selectedStartDate?: Date
   selectedEndDate?: Date
   zoomEnabled?: boolean
+}
+
+interface State extends ZoomableGraphState {
+  data: any[]
   yAxisScaleType?: YAxisScaleType
 }
 

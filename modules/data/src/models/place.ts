@@ -74,6 +74,8 @@ export class Place extends Model<Place> {
 
   distance?: number
 
+  alternativeNames?: string[]
+
   async getBoundingBox? (): Promise<BBox> {
     let { bbox }: { bbox: string } = await PlacePolygon.createQueryBuilder('geometry')
       .select(`ST_Extent(ST_Buffer(geometry::geography, ${DEFAULT_RADIUS_METERS})::geometry) as bbox`)

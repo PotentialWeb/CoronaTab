@@ -5,11 +5,12 @@
     "target": "es6",
     "sourceMap": true,
     "outDir": "./dist",
-    "resolveJsonModule": true,
+    "resolveJsonModule": false,
     "skipDefaultLibCheck": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "esModuleInterop": true,
+    "incremental": true,
     "skipLibCheck": true,
     "lib": [
       "ES2019"

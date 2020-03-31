@@ -46,21 +46,9 @@ export const SavePlaceSeedData = async ({ data, typeId }: { data: PlaceSeedData[
     }
   })()
 
-  const dataVarName = (() => {
-    switch (typeId) {
-      case 'country': return 'CountriesData'
-      case 'region': return 'RegionsData'
-      case 'city': return 'CitiesData'
-    }
-  })()
-  await fs.writeFile(path.resolve(__dirname, `./places/${typePath}/data.ts`), `
-import type { PlaceSeedData } from '../../places'
-// tslint:disable
-//@ts-ignore
-export const ${dataVarName}: PlaceSeedData[] = ${
-  JSON.stringify(data.map(p => Object.fromEntries(Object.entries(p).filter(([key, value]) => value !== undefined))), null, 2)
-}
-`)
+  await fs.writeFile(path.resolve(__dirname, `./places/${typePath}/data.json`),
+    JSON.stringify(data.map(p => Object.fromEntries(Object.entries(p).filter(([key, value]) => value !== undefined))), null, 2)
+  )
 }
 
 export type PolygonMap = { [id: string]: Polygon | MultiPolygon }
