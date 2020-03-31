@@ -7,7 +7,7 @@ import capitalize from 'lodash.capitalize'
 import numeral from 'numeral'
 import CloseSvg from '../../../../public/icons/close.svg'
 import { LoadingComponent } from '../../loading'
-import { Place, LoadingStatus, DashboardPageStore } from '../../../pages/dashboard.store'
+import { Place, LoadingStatus, DashboardPageStore, MergedCumulativeSeriesDataObj } from '../../../pages/dashboard.store'
 import { TypeaheadSelectInputComponent } from '../../inputs/select/typeahead'
 import { SelectInputComponent } from '../../inputs/select'
 import { ZoomableGraphState } from './cumulative-graph'
@@ -19,10 +19,13 @@ const {
       red,
       green,
       brand,
-      'brand-dull': brandDull
+      yellow,
+      ['brand-dull']: brandDull
     }
   }
 } = tailwindConfig
+
+const COMPARISON_COLORS = [brand, yellow, green, red]
 
 interface Props {
   data: any
@@ -45,7 +48,8 @@ enum YAxisScaleType {
 type selectedPlace = { index: number, place: Place }
 
 interface State extends ZoomableGraphState {
-  mergedData?: any[]
+  data?: MergedCumulativeSeriesDataObj[]
+  mergedData?: MergedCumulativeSeriesDataObj[]
   selectedPlaces?: selectedPlace[]
   graphType?: GraphType
   yAxisScaleType?: YAxisScaleType
@@ -57,9 +61,15 @@ interface State extends ZoomableGraphState {
 export class DashboardCompareGraphComponent extends PureComponent<Props, State> {
   state: State = {
     ...this.defaultState,
-    mergedData: DashboardPageStore.mergeCumulativeSeriesDatas({
-      [this.props.selectedPlace.id]: this.props.data
-    }),
+    ...(() => {
+      const mergedData = DashboardPageStore.mergeCumulativeSeriesDatas({
+        [this.props.selectedPlace.id]: this.props.data
+      })
+      return {
+        data: mergedData,
+        mergedData
+      }
+    })(),
     selectedPlaces: [],
     graphType: GraphType.CASES,
     yAxisScaleType: YAxisScaleType.LINEAR,
@@ -68,6 +78,7 @@ export class DashboardCompareGraphComponent extends PureComponent<Props, State> 
 
   get defaultState (): State {
     return {
+      data: this.state?.mergedData || [],
       top: 'dataMax',
       bottom: 'dataMin',
       left: 'dataMin',
@@ -94,7 +105,7 @@ export class DashboardCompareGraphComponent extends PureComponent<Props, State> 
       this.setState({ loadingStatus: LoadingStatus.IS_LOADING })
       await this.props.pageStore.fetchRawPlaceData(place.id)
       const mergedData = this.mergeCumulativeSeriesDatas()
-      this.setState({ mergedData, loadingStatus: LoadingStatus.IS_IDLE })
+      this.setState({ data: mergedData, mergedData, loadingStatus: LoadingStatus.IS_IDLE })
     } catch (err) {
       this.setState({ loadingStatus: LoadingStatus.HAS_ERRORED })
     }
@@ -123,25 +134,8 @@ export class DashboardCompareGraphComponent extends PureComponent<Props, State> 
       return d >= startDate && d <= endDate
     })
 
-    // xAxis domain
-    let bottom: number, top: number
-
-    for (const { cases, deaths, recovered } of filteredData) {
-      const min = Math.min(cases, deaths, recovered)
-      const max = Math.max(cases, deaths, recovered)
-      if (isNaN(bottom) || isNaN(top)) {
-        bottom = min
-        top = max
-        continue
-      }
-      if (min < bottom) bottom = min
-      if (max > top) top = max
-    }
-
     this.setState(() => ({
-      mergedData: filteredData,
-      top,
-      bottom,
+      data: filteredData,
       left: moment(startDate).format('YYYY-MM-DD'),
       right: moment(endDate).format('YYYY-MM-DD'),
       selectedStartDate: startDate,
@@ -165,6 +159,7 @@ export class DashboardCompareGraphComponent extends PureComponent<Props, State> 
     } = this.props
 
     const {
+      data,
       mergedData,
       left,
       right,
@@ -201,37 +196,42 @@ export class DashboardCompareGraphComponent extends PureComponent<Props, State> 
       />
     )
 
-    const placeSelects = Array.from(new Array(3)).map((_, i) => (
-      <TypeaheadSelectInputComponent
-        key={i}
-        selectedItem={selectedPlaces.find(({ index }) => index === i) ?? null}
-        options={this.props.places}
-        onChange={place => {
-          this.setState(prevState => {
-            if (place) {
-              return {
-                selectedPlaces: [
-                  ...prevState.selectedPlaces.filter(({ index }) => index !== i),
-                  { index: i, place }
-                ]
+    const placeSelects = Array.from(new Array(3)).map((_, i) => {
+      return (
+        <TypeaheadSelectInputComponent
+          key={i}
+          selectedItem={(() => {
+            const s = selectedPlaces.find(({ index }) => index === i)
+            return s ? s : null
+          })()}
+          options={this.props.places}
+          onChange={place => {
+            this.setState(prevState => {
+              if (place) {
+                return {
+                  selectedPlaces: [
+                    ...prevState.selectedPlaces.filter(({ index }) => index !== i),
+                    { index: i, place }
+                  ]
+                }
+              } else {
+                return {
+                  selectedPlaces: [
+                    ...prevState.selectedPlaces.filter(({ index }) => index !== i)
+                  ]
+                }
               }
-            } else {
-              return {
-                selectedPlaces: [
-                  ...prevState.selectedPlaces.filter(({ index }) => index !== i)
-                ]
-              }
-            }
-          }, () => {
-            if (place) this.fetchAndMergeData(place)
-          })
-        }}
-        inputPlaceholder={`Select ${this.props.selectedPlace.typeId}...`}
-        inputClassName="text-xs"
-        itemToString={(place: Place) => place?.name}
-        className="my-px"
-      />
-    ))
+            }, () => {
+              if (place) this.fetchAndMergeData(place)
+            })
+          }}
+          inputPlaceholder={`Select ${this.props.selectedPlace.typeId}...`}
+          inputClassName="text-xs"
+          itemToString={(place: Place) => place?.name}
+          className="my-px"
+        />
+      )
+    })
 
     return (
       <div className="dashboard-panel flex flex-col select-none">
@@ -277,7 +277,7 @@ export class DashboardCompareGraphComponent extends PureComponent<Props, State> 
             return (
               <ResponsiveContainer>
                 <LineChart
-                  data={mergedData}
+                  data={data}
                   onMouseDown={e => {
                     if (e?.activeLabel) this.setState({ startDate: moment(e.activeLabel).toDate() })
                   }}
@@ -290,14 +290,14 @@ export class DashboardCompareGraphComponent extends PureComponent<Props, State> 
                 >
                   {
                     [{ place: selectedPlace }, ...selectedPlaces]
-                      .map(({ place }) => {
+                      .map(({ place }, i) => {
                         return (<Line
                           key={place.id}
                           connectNulls={true}
                           type="monotone"
                           dataKey={`${place.id}.${graphType}`}
                           name={place.name}
-                          stroke={brand}
+                          stroke={COMPARISON_COLORS[i]}
                           dot={{ r: 1}}
                           strokeWidth="2"
                           isAnimationActive={true}
