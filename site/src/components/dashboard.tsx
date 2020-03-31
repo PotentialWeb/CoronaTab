@@ -20,7 +20,7 @@ export class DashboardComponent extends Component<Props> {
   render () {
     const { pageStore } = this.props
     const iFramed = window?.self !== window?.top
-
+    const { localeStrings } = pageStore
     return (
       <div className="dashboard">
         <div className="dashboard-content">
@@ -84,11 +84,7 @@ export class DashboardComponent extends Component<Props> {
                   className="px-4 py-3 bg-brand-light hover:bg-brand-lighter text-white rounded-lg leading-tight font-bold"
                 >
                   <span className="text-sm mr-4">
-                    Made with ❤️ by the team at{' '}
-                    <span className="underline">
-                      Hoobu.com
-                    </span>
-                    . Plan your post-pandemic trip now with our awesome real-time collaborative trip planner
+                    {localeStrings['promo-message']}
                     <ExternalLinkSvg className="inline-block h-line ml-2" />
                   </span>
                 </div>

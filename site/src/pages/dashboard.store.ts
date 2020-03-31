@@ -7,12 +7,26 @@ import { HTTP } from '../utils/http'
 import moment from 'moment'
 
 export enum LoadingStatus {
+  IS_IDLE = 'isIdle',
   IS_LOADING = 'isLoading',
   HAS_LOADED = 'hasLoaded',
   HAS_ERRORED = 'hasErrored'
 }
 
 export type LocaleStringsObj = { [key: string]: string }
+export type AdviceObj = { [key: string]: { title: string, description: string } }
+export type RawPlaceDataObj = {
+  lastFetched: string,
+  data: (string | number)[]
+}
+export type RawPlaceData = {
+  [key: string]: RawPlaceDataObj
+}
+export type CumulativeSeriesDataObj = { date: string, cases: number, deaths: number, recovered: number }
+export type MergedCumulativeSeriesDataObj = {
+  [key: string]: Omit<CumulativeSeriesDataObj, 'date'> | string
+  date: string
+}
 
 export interface Place extends PlaceShape {
   latestData: {
@@ -24,7 +38,6 @@ export interface Place extends PlaceShape {
     recovered: number
     recoveryRate: number
   }
-
   children: PlaceShape[]
 }
 
@@ -49,16 +62,16 @@ export class DashboardPageStore {
   static lastFetchedTTL = 600
 
   @observable
-  private _places: Place[]
+  private _countries: Place[]
 
   @computed
-  get places (): Place[] {
-    return this._places ?? LocalStorage.get('places') ?? []
+  get countries (): Place[] {
+    return this._countries ?? LocalStorage.get('countries') ?? []
   }
 
-  set places (places: Place[]) {
-    this._places = places
-    LocalStorage.set('places', places)
+  set countries (countries: Place[]) {
+    this._countries = countries
+    LocalStorage.set('countries', countries)
   }
 
   @observable
@@ -74,44 +87,55 @@ export class DashboardPageStore {
 
   @computed
   get localeStrings (): LocaleStringsObj {
-    return this._localeStrings ?? LocalStorage.get('localeStrings')
+    if (typeof window === 'undefined') {
+      // TODO: Return correct locale file depending on the language header or cookie
+      return require('../../public/data/locale-strings/ru.json')
+    } else {
+      return this._localeStrings ?? LocalStorage.get('localeStrings')
+    }
   }
 
   set localeStrings (localeStrings: LocaleStringsObj) {
-    this._localeStrings = localeStrings
-    LocalStorage.set('localeStrings', localeStrings)
+    if (typeof window !== 'undefined') {
+      this._localeStrings = localeStrings
+      LocalStorage.set('localeStrings', localeStrings)
+    }
+
   }
 
   @action.bound
   async init () {
-    this.fetchPageData()
+    this.fetchInitialPageData()
   }
 
   @action.bound
-  async fetchPageData () {
+  async fetchInitialPageData () {
+    // Purge old keys from different version
+    LocalStorage.purgeItems()
+
     try {
       const [
-        placesResult,
+        countriesResult,
         localeStringsResult,
         globalDataResult,
         selectedPlaceResult
       ] = await allSettled([
-        this.fetchPlaces({ cached: true }),
+        this.fetchCountries({ cached: true }),
         this.fetchLocaleStrings({ cached: true }),
-        this.fetchGlobalData({ cached: true }),
+        this.fetchRawPlaceData('earth'),
         !this.selectedPlace && PlaceApi.findClosest({ typeId: 'country', include: ['children'] })
       ])
 
-      if (placesResult.status === 'fulfilled') {
-        const { data: places } = placesResult.value
-        this.places = places
+      if (countriesResult.status === 'fulfilled') {
+        const { data: countries } = countriesResult.value
+        this.countries = countries
       } else {
-        throw new Error('Could not get places. API probably down.')
+        throw new Error('Could not get countries. API probably down.')
       }
 
       if (localeStringsResult.status === 'fulfilled') this.localeStrings = localeStringsResult.value
       if (globalDataResult.status === 'fulfilled') {
-        const { data: rawGlobalData } = globalDataResult.value
+        const rawGlobalData = globalDataResult.value
         this.rawPlaceData = {
           ...this.rawPlaceData,
           earth: rawGlobalData
@@ -138,38 +162,36 @@ export class DashboardPageStore {
   @action.bound
   async fetchUpdatedPageData () {
     if (this.lastFetched) {
-      const expiry = moment(this.lastFetched).add(DashboardPageStore.lastFetchedTTL, 'seconds').toDate()
-      if (expiry > new Date()) {
-        console.info(`Not fetching new data until: ${expiry.toString()}`)
+      const nextFetchAt = moment(this.lastFetched).add(DashboardPageStore.lastFetchedTTL, 'seconds').toDate()
+      if (nextFetchAt > new Date()) {
+        console.info(`Not fetching new data until: ${nextFetchAt.toString()}`)
         return
       }
     }
 
     try {
-      const placesPromise = this.fetchPlaces({ cached: false })
-      const globalDataPromise = this.fetchGlobalData({ cached: false })
       const [
-        placesResult,
+        countriesResult,
         globalDataResult
       ] = await allSettled([
-        placesPromise,
-        globalDataPromise
+        this.fetchCountries({ cached: false }),
+        this.fetchRawPlaceData('earth', { disableCache: true })
       ])
 
-      if (placesResult.status === 'fulfilled') {
-        const { data: places } = placesResult.value
-        this.places = places.map((place: PlaceShape) => DashboardPageStore.calcPlaceLatestDataComputedValues(place))
+      if (countriesResult.status === 'fulfilled') {
+        const { data: places } = countriesResult.value
+        this.countries = places.map((place: PlaceShape) => DashboardPageStore.calcPlaceLatestDataComputedValues(place))
       }
 
       if (globalDataResult.status === 'fulfilled') {
-        const { data: rawGlobalData } = globalDataResult.value
+        const rawGlobalData = globalDataResult.value
         this.rawPlaceData = {
           ...this.rawPlaceData,
           earth: rawGlobalData
         }
       }
 
-      if (placesResult.status === 'fulfilled' && globalDataResult.status === 'fulfilled') {
+      if (countriesResult.status === 'fulfilled' && globalDataResult.status === 'fulfilled') {
         this.lastFetched = new Date()
       }
     } catch (err) {
@@ -180,19 +202,13 @@ export class DashboardPageStore {
   @action.bound
   async fetchLocaleStrings ({ cached }: { cached: boolean }) {
     if (cached && this.localeStrings) return this.localeStrings
-    return HTTP.request('GET', `/data/locale-string/${LocalStorage.get('locale') ?? 'en'}.json`)
+    return HTTP.request('GET', `/data/locale-strings/${LocalStorage.get('locale') ?? 'ru'}.json`)
   }
 
   @action.bound
-  async fetchPlaces ({ cached }: { cached: boolean }) {
-    if (cached && this.places.length) return { data: this.places }
+  async fetchCountries ({ cached }: { cached: boolean }) {
+    if (cached && this.countries.length) return { data: this.countries }
     return PlaceApi.query({ typeId: 'country', include: ['children'] })
-  }
-
-  @action.bound
-  async fetchGlobalData ({ cached }: { cached: boolean }) {
-    if (cached && this.rawPlaceData.earth) return { data: this.rawPlaceData.earth }
-    return PlaceApi.queryData('earth', { compact: true })
   }
 
   @observable
@@ -215,36 +231,37 @@ export class DashboardPageStore {
   }
 
   @observable
-  private _rawPlaceData: { [key: string]: any[] }
+  private _rawPlaceData: RawPlaceData
 
   @computed
-  get rawPlaceData (): { [key: string]: any[] } {
+  get rawPlaceData (): RawPlaceData {
     return this._rawPlaceData ?? LocalStorage.get('rawPlaceData') ?? {}
   }
 
-  set rawPlaceData (data: { [key: string]: any[] }) {
+  set rawPlaceData (data: RawPlaceData) {
     this._rawPlaceData = data
     LocalStorage.set('rawPlaceData', data)
   }
 
-  @observable
-  selectedPlaceDataLoadingStatus: LoadingStatus = LoadingStatus.IS_LOADING
-
   @action.bound
-  async fetchSelectedPlaceData () {
-    try {
-      this.selectedPlaceDataLoadingStatus = LoadingStatus.IS_LOADING
-      const { data: rawData } = await PlaceApi.queryData(this.selectedPlace.id, { compact: true })
-      if (!Array.isArray(rawData)) throw new Error('rawData is not an array')
-      this.rawPlaceData = {
-        ...this.rawPlaceData,
-        [this.selectedPlace.id]: rawData
+  async fetchRawPlaceData (id: string, opts?: { disableCache?: boolean }): Promise<RawPlaceDataObj> {
+    if (opts?.disableCache !== true && this.rawPlaceData[id]) {
+      if (this.rawPlaceData[id].lastFetched) {
+        const nextFetchAt = moment(this.rawPlaceData[id].lastFetched).add(DashboardPageStore.lastFetchedTTL, 'seconds').toDate()
+        if (nextFetchAt > new Date()) return this.rawPlaceData[id]
       }
-      this.selectedPlaceDataLoadingStatus = LoadingStatus.HAS_LOADED
-      return rawData
-    } catch (err) {
-      this.selectedPlaceDataLoadingStatus = LoadingStatus.HAS_ERRORED
     }
+    const { data: rawData } = await PlaceApi.queryData(id, { compact: true })
+    if (!Array.isArray(rawData)) throw new Error('rawData is not an array')
+    const dataObj = {
+      lastFetched: new Date().toString(),
+      data: rawData
+    }
+    this.rawPlaceData = {
+      ...this.rawPlaceData,
+      [id]: dataObj
+    }
+    return dataObj
   }
 
   static calcPlaceLatestDataComputedValues (place: PlaceShape): Place {
@@ -267,7 +284,7 @@ export class DashboardPageStore {
     })
   }
 
-  static parseCumulativeSeriesData (rawData: any[]) {
+  static parseCumulativeSeriesData (rawData: any[]): CumulativeSeriesDataObj[] {
     return rawData.map(([date, cases, deaths, recovered]) => ({
       date,
       cases,
@@ -290,6 +307,30 @@ export class DashboardPageStore {
           }
         ]
       }, [])
+  }
+
+  // Merge multiple cumulativeSeriesDatas into one
+  // {
+  //   date: 'YYYY-MM-DD'
+  //   [placeId]: {
+  //     cases: number
+  //     deaths: number
+  //     recovered: number
+  //   },
+  //   ...
+  // }
+
+  static mergeCumulativeSeriesDatas (dataObj: { [placeId: string]: CumulativeSeriesDataObj[] }) {
+    const merged = [] as MergedCumulativeSeriesDataObj[]
+    for (const [placeId, data] of Object.entries(dataObj)) {
+      for (const { date, ...datapoints } of data) {
+        const existingObj = merged.find(({ date: _date }) => _date === date)
+        const obj = existingObj || { date }
+        obj[placeId] = datapoints
+        if (!existingObj) merged.push(obj)
+      }
+    }
+    return merged.sort((a, b) => moment(a.date) > moment(b.date) ? 1 : -1)
   }
 
   @action.bound

@@ -18,8 +18,10 @@ import RedditSvg from '../../public/icons/reddit.svg'
 import ShareSvg from '../../public/icons/share.svg'
 import TwitterSvg from '../../public/icons/twitter.svg'
 import WhatsappSvg from '../../public/icons/whatsapp.svg'
+import { DashboardPageStore } from '../pages/dashboard.store'
 
 interface Props extends HTMLAttributes<HTMLButtonElement> {
+  pageStore?: DashboardPageStore
   tooltipPlacement?: 'top' | 'bottom'
 }
 
@@ -28,8 +30,11 @@ export class ShareBtnComponent extends Component<Props> {
     const {
       tooltipPlacement,
       className = '',
+      pageStore,
       ...props
     } = this.props
+
+    const localeStrings = pageStore?.localeStrings
 
     const shareUrl = `${Meta.BASE_PATH}/dashboard`
     const title = `${Meta.APP_NAME} - ${Meta.STRAPLINE}`
@@ -124,7 +129,7 @@ export class ShareBtnComponent extends Component<Props> {
       >
         <button className={`share-btn ${className}`} {...props}>
           <ShareSvg className="h-line mr-2" />
-          <span>Share</span>
+        <span>{localeStrings?.['share'] ?? 'Share'}</span>
         </button>
       </Tippy>
     )

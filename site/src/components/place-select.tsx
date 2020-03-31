@@ -1,7 +1,7 @@
 import { Component, createRef, RefObject } from 'react'
 import Downshift from 'downshift'
 import { Place as PlaceShape } from '@coronatab/shared'
-import { Place } from '../pages/dashboard.store'
+import { Place, DashboardPageStore } from '../pages/dashboard.store'
 import Tippy from '@tippyjs/react'
 import CaretUpSvg from '../../public/icons/caret-up.svg'
 import CaretDownSvg from '../../public/icons/caret-down.svg'
@@ -9,6 +9,7 @@ import CloseSvg from '../../public/icons/close.svg'
 
 interface Props extends Omit<React.HTMLAttributes<HTMLDivElement>, 'onChange'> {
   options: Place[] | PlaceShape[]
+  pageStore: DashboardPageStore
   selectedPlace?: Place | PlaceShape
   inputClassName?: string
   inputPlaceholder?: string
@@ -57,9 +58,11 @@ export class PlaceSelectComponent extends Component<Props, State> {
       listClassName,
       listItemClassName,
       onChange,
+      pageStore,
       ...props
     } = this.props
 
+    const { localeStrings } = pageStore
     return (
       <Downshift
         initialSelectedItem={selectedPlace}
@@ -132,7 +135,7 @@ export class PlaceSelectComponent extends Component<Props, State> {
                     setState({ inputValue: '' })
                   }}
                   ref={this.inputRef}
-                  placeholder={inputPlaceholder ?? 'Select a place...'}
+                  placeholder={inputPlaceholder ?? `${localeStrings['select-a-place']}...`}
                   className={`form-input ${inputClassName ?? ''}`}
                 />
                 <button

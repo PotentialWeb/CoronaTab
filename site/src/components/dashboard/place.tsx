@@ -6,6 +6,7 @@ import { DashboardCumulativeGraphComponent } from './visualizations/cumulative-g
 import { DashboardDailyChartComponent } from './visualizations/daily-chart'
 import { DashboardStatsComponent } from './stats'
 import { LoadingComponent } from '../loading'
+import { DashboardCompareGraphComponent } from './visualizations/compare-graph'
 
 interface Props {
   pageStore?: DashboardPageStore
@@ -18,6 +19,7 @@ interface State {
     cumulativeSeries?: any,
     dailySeries?: any
   }
+  loadingStatus: LoadingStatus
   ignoreLoadingStatus: boolean
 }
 
@@ -31,15 +33,16 @@ export class DashboardPlaceComponent extends Component<Props, State> {
       const rawData = this.props.pageStore.rawPlaceData?.[this.props.pageStore.selectedPlace.id]
       if (rawData) {
         data = {
-          raw: rawData,
-          cumulativeSeries: DashboardPageStore.parseCumulativeSeriesData(rawData),
-          dailySeries: DashboardPageStore.calcDailySeriesData(rawData)
+          raw: rawData.data,
+          cumulativeSeries: DashboardPageStore.parseCumulativeSeriesData(rawData.data),
+          dailySeries: DashboardPageStore.calcDailySeriesData(rawData.data)
         }
       }
     }
     return {
       selectedPlace,
       data,
+      loadingStatus: LoadingStatus.IS_IDLE,
       ignoreLoadingStatus: Object.keys(data).length > 0
     }
   })()
@@ -55,7 +58,6 @@ export class DashboardPlaceComponent extends Component<Props, State> {
     if (this.state.selectedPlace?.id !== pageStore.selectedPlace?.id) {
       this.setState({ selectedPlace: pageStore.selectedPlace })
       if (pageStore.selectedPlace) {
-        pageStore.selectedPlaceDataLoadingStatus = LoadingStatus.IS_LOADING
         this.fetchAndSetData()
       } else {
         this.setState({ data: {} })
@@ -65,22 +67,36 @@ export class DashboardPlaceComponent extends Component<Props, State> {
 
   fetchAndSetData = async () => {
     try {
-      this.setState({ data: {} })
-      const rawData = await this.props.pageStore.fetchSelectedPlaceData()
-      const data = {
-        raw: rawData,
-        cumulativeSeries: DashboardPageStore.parseCumulativeSeriesData(rawData),
-        dailySeries: DashboardPageStore.calcDailySeriesData(rawData)
+      if (!this.state.ignoreLoadingStatus) {
+        this.setState({ loadingStatus: LoadingStatus.IS_LOADING })
       }
-      this.setState({ data, ignoreLoadingStatus: false })
-    } catch (err) {}
+      this.setState({ data: {} })
+      const rawData = await this.props.pageStore.fetchRawPlaceData(this.props.pageStore.selectedPlace.id)
+      const data = {
+        raw: rawData.data,
+        cumulativeSeries: DashboardPageStore.parseCumulativeSeriesData(rawData.data),
+        dailySeries: DashboardPageStore.calcDailySeriesData(rawData.data)
+      }
+      this.setState({
+        data,
+        loadingStatus: LoadingStatus.HAS_LOADED,
+        ignoreLoadingStatus: false
+      })
+    } catch (err) {
+      console.error(err)
+      this.setState({
+        data: {},
+        loadingStatus: LoadingStatus.HAS_ERRORED,
+        ignoreLoadingStatus: false
+      })
+    }
   }
 
   render () {
     const { pageStore } = this.props
     const selectedParentPlace = pageStore.selectedPlaceTree?.length > 0 ? pageStore.selectedPlaceTree[0] : null
     const selectedChildPlace = pageStore.selectedPlaceTree?.length === 2 ? pageStore.selectedPlaceTree[1] : null
-    const selectedChildChildPlace = pageStore.selectedPlaceTree?.length === 3 ? pageStore.selectedPlaceTree[2] : null
+    const { localeStrings } = pageStore
     return (
       <div className="dashboard-place">
         <div className="dashboard-panel dashboard-spacer-y">
@@ -91,36 +107,29 @@ export class DashboardPlaceComponent extends Component<Props, State> {
                 : ''
             }
             <PlaceSelectComponent
+              pageStore={pageStore}
               selectedPlace={selectedParentPlace}
-              options={pageStore.places}
+              options={pageStore.countries}
               onChange={place => {
                 pageStore.selectedPlaceTree = place ? [place] : []
               }}
               className="my-1 mr-2"
+              inputPlaceholder={localeStrings['select-a-country']}
             />
             {(() => {
               if (!selectedParentPlace?.children?.length) return ''
-              return (<PlaceSelectComponent
+              return (
+              <PlaceSelectComponent
+                pageStore={pageStore}
                 selectedPlace={selectedChildPlace}
                 options={selectedParentPlace.children}
                 onChange={place => {
                   pageStore.selectedPlaceTree = place ? [selectedParentPlace, place] : [selectedParentPlace]
                 }}
-                inputPlaceholder="Select a region"
+                inputPlaceholder={localeStrings['select-a-region']}
                 className="my-1 mr-2"
-              />)
-            })()}
-            {(() => {
-              if (!selectedChildPlace?.children?.length) return ''
-              return (<PlaceSelectComponent
-                selectedPlace={selectedChildChildPlace}
-                options={selectedChildPlace.children}
-                onChange={place => {
-                  pageStore.selectedPlaceTree = place ? [selectedParentPlace, selectedChildPlace, place] : [selectedParentPlace, selectedChildPlace]
-                }}
-                inputPlaceholder="Select a place"
-                className="my-1 mr-2"
-              />)
+              />
+              )
             })()}
           </div>
 
@@ -147,6 +156,16 @@ export class DashboardPlaceComponent extends Component<Props, State> {
                       data={this.state.data?.dailySeries}
                     />
                   </div>
+                  <div className="dashboard-spacer">
+                    <DashboardCompareGraphComponent
+                      data={this.state.data?.cumulativeSeries}
+                      places={(() => {
+                        const places = selectedChildPlace ? (selectedParentPlace?.children as Place[]) : pageStore.countries
+                        return places.filter(({ id }) => id !== pageStore.selectedPlace.id)
+                      })()}
+                      selectedPlace={pageStore.selectedPlace}
+                    />
+                  </div>
                 </div>
               )
 
@@ -154,7 +173,7 @@ export class DashboardPlaceComponent extends Component<Props, State> {
                 return visualizations
               }
 
-              switch (pageStore.selectedPlaceDataLoadingStatus) {
+              switch (this.state.loadingStatus) {
                 case LoadingStatus.HAS_LOADED:
                   return this.state.data.raw?.length > 0
                     ? visualizations

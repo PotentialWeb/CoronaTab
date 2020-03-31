@@ -51,7 +51,7 @@ export class DashboardGlobalStatsByCountryContentComponent extends PureComponent
           className="h-full bg-white rounded md:mx-6 cursor-default depth-lg overflow-scroll scrolling-touch dashboard-spacer-x"
         >
           <Table
-            data={this.props.pageStore.places}
+            data={this.props.pageStore.countries}
             onSortClick={this.onSortClick}
           />
         </div>

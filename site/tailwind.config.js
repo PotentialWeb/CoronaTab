@@ -40,6 +40,7 @@ module.exports = {
       'brand-duller': '#dcd6e7',
       green: '#00F2A9',
       red: '#fd5c63',
+      yellow: '#f1c40f',
       light: '#e8e1f4',
       lighter: '#F5F3F9',
       white: '#FFFFFF'

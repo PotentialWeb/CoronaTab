@@ -7,6 +7,7 @@
   "documentation": "Documentation",
   "privacy": "Privacy",
   "dashboard": "Dashboard",
+  "download": "Download",
   "browser-extension": "Browser Extension",
   "stats": "stats",
 
@@ -50,11 +51,13 @@
 
   "retry": "Retry",
   "try-again": "Try again",
+  "service-unavailable": "Service unavailable",
 
+  "select-a-place": "Select a place",
   "select-a-country": "Select a country",
   "select-a-region": "Select a region",
 
-  "promo-message": "Made with love by the team at Hoobu.com. Plan your post-pandemic trip now with our awesome real-time collaborative trip planner",
+  "promo-message": "Made with love ❤️ by the team at Hoobu.com. Plan your post-pandemic trip now with our awesome real-time collaborative trip planner",
 
   "more-info": "More info",
   "share": "Share",

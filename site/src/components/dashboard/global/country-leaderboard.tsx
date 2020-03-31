@@ -191,7 +191,7 @@ export class DashboardGlobalCountryLeaderboardComponent extends PureComponent<Pr
           {(() => {
             const { accessor, formatter, filter, sortBy } = leaderboardType
 
-            let places = [...pageStore.places]
+            let places = [...pageStore.countries]
 
             if (typeof filter === 'function') places = places.filter(filter)
 
