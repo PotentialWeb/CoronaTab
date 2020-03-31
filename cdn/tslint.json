@@ -1,0 +1,15 @@
+{
+  "extends": "tslint-config-standard",
+  "rules": {
+    "radix": false,
+    "return-undefined": false,
+    "no-throw-literal": false,
+    "no-unused-expression": false
+  },
+  "linterOptions": {
+    "exclude": [
+      "dist/**/*.ts",
+      "tmp/**/*.ts"
+    ]
+  }
+}

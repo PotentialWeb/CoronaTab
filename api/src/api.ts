@@ -9,8 +9,13 @@ import { connect } from '@coronatab/data'
 import { places } from './places'
 import 'express-async-errors'
 import bodyParser from 'body-parser'
+import { LocaleId, LocaleIds } from '@coronatab/shared'
 
-;(async () => {
+export interface CoronaTabRequest extends express.Request {
+  locale: LocaleId
+}
+
+(async () => {
   await connect()
 
   const api = express()
@@ -32,6 +37,25 @@ import bodyParser from 'body-parser'
 
   api.get('/ping', (req, res) => {
     res.send('pong')
+  })
+
+  api.use((req: CoronaTabRequest, res, next) => {
+    const normalize = (l: LocaleId) => l?.split(';')[0].split(',')[0].split('-')[0] as LocaleId
+    const valid = l => !!l && LocaleIds.includes(l as LocaleId)
+
+    let locale: LocaleId = normalize(req.query.locale)
+    if (!valid(locale)) {
+      locale = normalize(req.headers['content-language'] as LocaleId)
+      if (!valid(locale)) {
+        locale = normalize(req.headers['accept-language'] as LocaleId)
+        if (!valid(locale)) {
+          locale = 'en'
+        }
+      }
+    }
+
+    req.locale = locale
+    next()
   })
 
   api.use(places)

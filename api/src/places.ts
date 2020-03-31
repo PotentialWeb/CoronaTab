@@ -1,26 +1,27 @@
 
-import { Router, Request } from 'express'
+import { Router } from 'express'
 import { Place, PlaceTypeIds, PlaceTypeId, PlaceData } from '@coronatab/data'
 import { LocaleId, Types } from '@coronatab/shared'
 import { Requests } from './utils/requests'
 import 'express-async-errors'
 import { data } from './places/data'
 import { types } from './places/types'
+import { CoronaTabRequest } from './api'
 const places = Router()
 
-export interface PlaceRequest extends Request {
+export interface PlaceRequest extends CoronaTabRequest {
   place: Place
 }
 
-const SerializePlace = (place: Place, { locale }: { locale: LocaleId }) => {
-  place.name = place.locales[locale] || place.locales.en
+const SerializePlace = (place: Place) => {
+  // place.name = place.locales[locale] || place.locales.en
   if (typeof place.location === 'string') {
     place.location = JSON.parse(place.location)
   }
   if (place.children?.length) {
     place.children = place.children
       .sort(CasesSorter)
-      .map(child => SerializePlace(child, { locale }))
+      .map(child => SerializePlace(child))
   }
   delete place.locales
   for (const [key, value] of Object.entries(place)) {
@@ -51,8 +52,8 @@ const getLatestDataQuery = (alias: string) => `(
 type AllowedIncludesArray = typeof AllowedIncludes[number][]
 const AllowedIncludes = ['children'] as const
 
-places.get('/places', async (req, res) => {
-  const locale = Requests.getLocale(req)
+places.get('/places', async (req: CoronaTabRequest, res) => {
+  const { locale } = req
   let { typeId, include: includes, offset, limit, name }: {
     typeId?: PlaceTypeId,
     include?: AllowedIncludesArray,
@@ -90,6 +91,7 @@ places.get('/places', async (req, res) => {
   }
 
   const query = Place.createQueryBuilder('place')
+  .addSelect(`COALESCE(place.locales->'${locale}', place.locales->'en') as name`)
   .addSelect(`${getLatestDataQuery('place')} as "latestData"`)
   .andWhere(`${getLatestDataQuery('place')} IS NOT NULL`)
   .orderBy(`${getLatestDataQuery('place')}::jsonb->'cases'`, 'DESC')
@@ -113,7 +115,7 @@ places.get('/places', async (req, res) => {
           query.addSelect(`jsonb_agg(
             jsonb_build_object(
               'id', child.id,
-              'locales', child.locales,
+              'name', COALESCE(child.locales->'${locale}', child.locales->'en'),
               'typeId', child."typeId",
               'alpha2code', child.alpha2code,
               'alpha3code', child.alpha3code,
@@ -138,20 +140,22 @@ places.get('/places', async (req, res) => {
   for (const place of places) {
     const row = rows.find(r => r.place_id === place.id)
     place.latestData = row.latestData
+    place.name = row.name
     const children = row.children?.filter(c => !!c?.id)
     if (children?.length) place.children = children
   }
 
   res.json({
     data: places
-      .map(p => SerializePlace(p, { locale }))
+      .map(p => SerializePlace(p))
   })
 })
 
 places.use('/places/types', types)
 
-places.get('/places/closest', async (req, res) => {
+places.get('/places/closest', async (req: CoronaTabRequest, res) => {
   const { typeId, include: includes }: { typeId: PlaceTypeId, include?: AllowedIncludesArray } = req.query
+  const { locale } = req
 
   if (typeId && !PlaceTypeIds.includes(typeId)) {
     return res.status(400).json({
@@ -179,6 +183,7 @@ places.get('/places/closest', async (req, res) => {
 
   const query = Place.createQueryBuilder('place')
   .addSelect(`${getLatestDataQuery('place')} as "latestData"`)
+  .addSelect(`COALESCE(place.locales->'${locale}', place.locales->'en') as name`)
   .andWhere(`${getLatestDataQuery('place')} IS NOT NULL`)
   .groupBy('place.id')
 
@@ -201,7 +206,7 @@ places.get('/places/closest', async (req, res) => {
           query.addSelect(`jsonb_agg(
             jsonb_build_object(
               'id', child.id,
-              'locales', child.locales,
+              'name', COALESCE(child.locales->'${locale}', child.locales->'en'),
               'typeId', child."typeId",
               'alpha2code', child.alpha2code,
               'alpha3code', child.alpha3code,
@@ -232,19 +237,63 @@ places.get('/places/closest', async (req, res) => {
 
   res.json({
     data: places
-      .map(p => SerializePlace(p, { locale: Requests.getLocale(req) }))
+      .map(p => SerializePlace(p))
   })
 })
 
 places.use('/places/:id', async (req: PlaceRequest, res, next) => {
   const { id } = req.params
-  const place = await Place.findOne({ id })
-  if (!place) {
-    return res.status(404).send({
-      error: `Place not found.`
+  const { locale } = req
+  let { include: includes }: { include?: AllowedIncludesArray } = req.query
+
+  if (includes?.length && (!Array.isArray(includes) || includes.some(i => !AllowedIncludes.includes(i)))) {
+    return res.status(400).json({
+      error: 'Invalid includes parameter.'
     })
   }
-  await place.getLatestData()
+
+  const query = Place.createQueryBuilder('place')
+  .addSelect(`COALESCE(place.locales->'${locale}', place.locales->'en') as name`)
+  .addSelect(`${getLatestDataQuery('place')} as "latestData"`)
+  .andWhere('place.id = :id', { id })
+  .groupBy('place.id')
+
+  if (includes?.length) {
+    for (const include of includes) {
+      switch (include) {
+        case 'children': {
+          query.addSelect(`jsonb_agg(
+            jsonb_build_object(
+              'id', child.id,
+              'name', COALESCE(child.locales->'${locale}', child.locales->'en'),
+              'typeId', child."typeId",
+              'alpha2code', child.alpha2code,
+              'alpha3code', child.alpha3code,
+              'dataSource', child."dataSource",
+              'hospitalBeds', child."hospitalBeds",
+              'icuBeds', child."icuBeds",
+              'hospitalBedOccupancy', child."hospitalBedOccupancy",
+              'location', ST_AsGeoJSON(child.location),
+              'population', child.population,
+              'latestData', ${getLatestDataQuery('child')}
+            )
+          ) as children`)
+          query.leftJoin(Place, 'child', `child."parentId" = place.id AND ${getLatestDataQuery('child')} IS NOT NULL`)
+          break
+        }
+        default: Types.unreachable(include)
+      }
+    }
+  }
+
+  const { entities: places, raw: rows } = await query.getRawAndEntities()
+  const place = places[0]
+  const row = rows[0]
+  place.latestData = row.latestData
+  place.name = row.name
+  const children = row.children?.filter(c => !!c?.id)
+  if (children?.length) place.children = children
+
   req.place = place
   next()
 })
@@ -252,27 +301,8 @@ places.use('/places/:id', async (req: PlaceRequest, res, next) => {
 places.get('/places/:id', async (req: PlaceRequest, res) => {
   const { place } = req
 
-  const { include: includes }: { include?: AllowedIncludesArray } = req.query
-  if (includes?.length && (!Array.isArray(includes) || includes.some(i => !AllowedIncludes.includes(i)))) {
-    return res.status(400).json({
-      error: 'Invalid includes parameter.'
-    })
-  }
-
-  if (includes?.length && places?.length) {
-    for (const include of includes) {
-      switch (include) {
-        case 'children': {
-          place.children = await place.getChildren()
-          await Promise.all(place.children.map(c => c.getLatestData()))
-          break
-        }
-      }
-    }
-  }
-
   res.json({
-    data: SerializePlace(place, { locale: Requests.getLocale(req) })
+    data: SerializePlace(place)
   })
 })
 

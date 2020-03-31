@@ -5,14 +5,14 @@
   "main": "dist/index.js",
   "scripts": {
     "init:submodules": "git submodule update --remote --init --recursive",
-    "prepare-lazd": "",
     "scrape-timeseries": "cd coronadatascraper/ && yarn install && yarn timeseries",
     "scrape-today": "cd coronadatascraper/ && yarn install && yarn start",
     "generate-seeds": "./node_modules/.bin/ts-node -P ./tsconfig.json scripts/generate-seeds.ts",
     "scrape-jhu": "./node_modules/.bin/ts-node -P ./tsconfig.json scripts/jhu/scrape.ts",
     "sync": "./node_modules/.bin/ts-node scripts/sync.ts",
     "seed": "./node_modules/.bin/ts-node scripts/seed.ts",
-    "build": "./node_modules/.bin/tsc -p ."
+    "build": "./node_modules/.bin/tsc -p .",
+    "postbuild": "./node_modules/.bin/cpy --cwd=src --parents '**/*.json' ../dist/"
   },
   "author": "",
   "license": "ISC",
@@ -31,6 +31,7 @@
     "@types/fs-extra": "^8.1.0",
     "@types/node": "^13.9.1",
     "axios": "^0.19.2",
+    "cpy-cli": "^3.1.0",
     "csvtojson": "^2.0.10",
     "dotenv": "^8.2.0",
     "fs-extra": "^9.0.0",

@@ -2,12 +2,12 @@ import { PlacePolygon } from '../../../models/place/polygon'
 import { Place } from '../../../models/place'
 import { Strings } from '@coronatab/shared'
 import * as path from 'path'
-import { CitiesData } from './data'
-import { PolygonMap } from '../../places'
+import { PolygonMap, PlaceSeedData } from '../../places'
 
 const SeededCityPolygons: PlacePolygon[] = []
 const SeededCities: Place[] = []
 const Polygons: PolygonMap = require('./polygons.json')
+export const CitiesData: PlaceSeedData[] = require('./data.json')
 CitiesData.map(city => {
 
   const City = new Place({
@@ -17,7 +17,8 @@ CitiesData.map(city => {
     alpha3code: city.alpha3code,
     typeId: 'city',
     parentId: city.parentId,
-    dataSource: city.dataSource
+    dataSource: city.dataSource,
+    alternativeNames: city.alternativeNames
   })
 
   if (city.coordinates) {

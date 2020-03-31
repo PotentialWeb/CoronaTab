@@ -4,3 +4,4 @@ dist
 .env
 tmp
 package-lock.json
+report.*.json

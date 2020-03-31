@@ -1,0 +1,45 @@
+{
+  "name": "cdn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/ts-node scripts/start.ts --unhandled-rejections=strict",
+    "build": "./node_modules/.bin/ts-node scripts/build.ts",
+    "deploy": "./node_modules/.bin/ts-node scripts/deploy.ts",
+    "ci": "./node_modules/.bin/ts-node scripts/ci.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/fs-extra": "^5.0.5",
+    "@types/puppeteer": "^1.12.3",
+    "@types/webpack": "^4.4.27",
+    "@types/workbox-sw": "^4.2.0",
+    "axios": "^0.18.0",
+    "chokidar": "^2.1.5",
+    "cloudflare": "^2.7.0",
+    "cloudflare4": "^0.2.7",
+    "copy-paste": "^1.3.0",
+    "dotenv": "^7.0.0",
+    "execa": "^1.0.0",
+    "fs-extra": "^7.0.1",
+    "nanoid": "^2.0.1",
+    "puppeteer": "^1.14.0",
+    "ts-loader": "^5.3.3",
+    "ts-node": "^8.0.3",
+    "tslint": "^5.15.0",
+    "tslint-config-standard": "^8.0.1",
+    "types-serviceworker": "0.0.1",
+    "typescript": "^3.4.3",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0"
+  },
+  "dependencies": {
+    "@coronatab/shared": "file:../modules/shared",
+    "ip-range-check": "0.0.2",
+    "matcher": "^2.0.0",
+    "moment": "^2.24.0",
+    "moment-range": "^4.0.2"
+  }
+}

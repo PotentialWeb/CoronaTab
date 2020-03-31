@@ -1,9 +1,9 @@
 import { connect, PlaceData, PlaceSeedData, FindPlaceSeedDataInDataset, SavePlaceSeedData, PolygonMap, SavePlacePolygons } from '../src'
 import { config as InjectEnvs } from 'dotenv'
 InjectEnvs()
-import { RegionsData } from '../src/seeds/places/regions/data'
-import { CitiesData } from '../src/seeds/places/cities/data'
-import { CountriesData } from '../src/seeds/places/countries/data'
+import { RegionsData } from '../src/seeds/places/regions/seeds'
+import { CitiesData } from '../src/seeds/places/cities/seeds'
+import { CountriesData } from '../src/seeds/places/countries/seeds'
 import { Strings } from '@coronatab/shared'
 import * as fs from 'fs-extra'
 import * as path from 'path'
