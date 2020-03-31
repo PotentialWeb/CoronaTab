@@ -34,11 +34,11 @@ export class DashboardGlobalComponent extends Component<Props, State> {
 
   get data () {
     const { pageStore } = this.props
-    if (!pageStore.rawPlaceData?.earth) return {}
+    if (!pageStore.rawPlaceData?.earth?.data) return {}
     return {
-      raw: pageStore.rawPlaceData.earth,
-      cumulativeSeries: DashboardPageStore.parseCumulativeSeriesData(pageStore.rawPlaceData.earth),
-      dailySeries: DashboardPageStore.calcDailySeriesData(pageStore.rawPlaceData.earth)
+      raw: pageStore.rawPlaceData.earth.data,
+      cumulativeSeries: DashboardPageStore.parseCumulativeSeriesData(pageStore.rawPlaceData.earth.data),
+      dailySeries: DashboardPageStore.calcDailySeriesData(pageStore.rawPlaceData.earth.data)
     }
   }
 
@@ -114,37 +114,6 @@ export class DashboardGlobalComponent extends Component<Props, State> {
               </button>
             </div>
           </div>
-          {/*<div className="grid grid-flow-row grid-cols-2">
-            <div className="dashboard-global-visualizations-stats-by-country dashboard-spacer">
-              <button
-                onClick={() => this.setState({ modalStatus: ModalStatus.STATS_BY_COUNTRY })}
-                className="dashboard-panel overflow-hidden btn btn-white p-0 w-full flex items-stretch"
-              >
-                <div className="relative border-r border-light">
-                  <SvgRectComponent ratio="21:9" className="w-auto h-16 min-h-full" />
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <ListSvg className="text-2xl h-line" />
-                  </div>
-                </div>
-                <div className="flex items-center flex-1 p-4">
-                  View all stats by country
-                </div>
-              </button>
-            </div>
-            <div className="dashboard-global-visualizations-heatmap dashboard-spacer">
-              <button
-                onClick={() => this.setState({ modalStatus: ModalStatus.HEATMAP })}
-                className="dashboard-panel overflow-hidden btn btn-brand-dark p-0 w-full flex items-stretch"
-              >
-                <div className="bg-cover" style={{ backgroundImage: `url('/graphics/heatmap.jpg')`}}>
-                  <SvgRectComponent ratio="21:9" className="w-auto h-16 min-h-full" />
-                </div>
-                <div className="flex items-center flex-1 p-4">
-                  View heatmap
-                </div>
-              </button>
-            </div>
-          </div>*/}
         </div>
         <DashboardGlobalStatsByCountryModalComponent
           isVisible={modalStatus === ModalStatus.STATS_BY_COUNTRY}
