@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import Link from 'next/link'
+import { Link } from '../utils/i18n'
 import { Meta } from '../utils/meta'
 import ArrowRightSvg from '../../public/icons/arrow-right.svg'
 import ExternalLinkSvg from '../../public/icons/external-link.svg'
@@ -36,7 +36,7 @@ export default class IndexPage extends Component<Props> {
                   {Meta.DESCRIPTION}
                 </h2>
                 <div className="my-2">
-                  <Link href="dashboard">
+                  <Link href="/dashboard">
                     <a
                       rel={`${Meta.APP_NAME} dashboard`}
                       className="inline-flex items-center btn btn-white border-2 border-lighter px-6 py-4 text-xl rounded"

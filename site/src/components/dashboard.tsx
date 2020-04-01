@@ -1,5 +1,5 @@
 import { Component } from 'react'
-import Link from 'next/link'
+import { Link } from '../utils/i18n'
 import { inject, observer } from 'mobx-react'
 import { AppStore } from '../pages/_app.store'
 import { DashboardQuickLinksComponent } from './dashboard/quick-links'

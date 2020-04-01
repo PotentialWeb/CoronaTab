@@ -1,5 +1,5 @@
 import { Component, HTMLAttributes } from 'react'
-import Link from 'next/link'
+import { Link } from '../utils/i18n'
 import LogoTextSvg from '../../public/icons/logo-text.svg'
 import { ExtensionDownloadBtnComponent } from './extension-download-btn'
 import { ShareBtnComponent } from './share-btn'
