@@ -39,7 +39,7 @@
   "population": "ህዝብ",
   "death-rate": "ሞት",
   "recovery-rate": "የመልሶ ማግኛ ፍጥነት",
-  "view-heathmap": "የሙቀት ካርታ ይመልከቱ",
+  "view-heatmap": "የሙቀት ካርታ ይመልከቱ",
   "error-loading-map": "ካርታ መጫን ላይ ስህተት",
   "retry": "እንደገና ሞክር",
   "try-again": "ድጋሚ ሞክር",

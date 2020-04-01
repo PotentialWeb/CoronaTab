@@ -11,6 +11,8 @@ import CaretDownSvg from '../../../../public/icons/caret-down.svg'
 import CaretUpSvg from '../../../../public/icons/caret-up.svg'
 import CloseSvg from '../../../../public/icons/close.svg'
 import { LoadingComponent } from '../../loading'
+import { inject, observer } from 'mobx-react'
+import { AppStore } from '../../../pages/_app.store'
 
 const {
   theme: {
@@ -24,6 +26,7 @@ const {
 } = tailwindConfig
 
 interface Props {
+  appStore?: AppStore
   data: any
 }
 
@@ -49,6 +52,8 @@ interface State extends ZoomableGraphState {
   yAxisScaleType?: YAxisScaleType
 }
 
+@inject('appStore')
+@observer
 export class DashboardCumulativeGraphComponent extends PureComponent<Props, State> {
   state: State = {
     ...this.defaultState,
@@ -130,6 +135,8 @@ export class DashboardCumulativeGraphComponent extends PureComponent<Props, Stat
   }
 
   render () {
+    const { appStore } = this.props
+    const { t } = appStore
     const {
       data, left, right, startDate, endDate, selectedStartDate, selectedEndDate, top, bottom, zoomEnabled
     } = this.state
@@ -174,7 +181,7 @@ export class DashboardCumulativeGraphComponent extends PureComponent<Props, Stat
                               data-highlighted={highlightedIndex === index}
                               className="select-list-item"
                             >
-                              <span className="font-bold">{capitalize(scaleType)}</span>{' '}
+                              <span className="font-bold">{capitalize(t(scaleType))}</span>{' '}
                             </li>
                           )
                         })
@@ -196,7 +203,7 @@ export class DashboardCumulativeGraphComponent extends PureComponent<Props, Stat
                   className="btn btn-white flex items-center border border-light rounded-sm px-2 py-1 text-xs"
                   onClick={() => setState({ isOpen: true })}
                 >
-                  <span className="mr-2">Scale: {capitalize(selectedItem)}</span>
+                  <span className="mr-2">{t('scale')}: {capitalize(t(selectedItem))}</span>
                   {
                     isOpen
                       ? (<CaretUpSvg className="h-line-sm" />)
@@ -215,7 +222,7 @@ export class DashboardCumulativeGraphComponent extends PureComponent<Props, Stat
         <div className="flex flex-shrink-0 flex-col md:flex-row md:items-center mb-2">
           <div className="flex-1">
             <h2 className="text-lg font-bold">
-              Cumulative
+              {t('cumulative')}
             </h2>
           </div>
           <div className="flex flex-wrap items-center justify-end flex-shrink-0 flex-grow-0">
@@ -233,7 +240,7 @@ export class DashboardCumulativeGraphComponent extends PureComponent<Props, Stat
                       </button>
                     </div>
                   )
-                  : <span className="text-xs font-bold">Drag to zoom</span>
+                  : <span className="text-xs font-bold">{t('drag-to-zoom')}</span>
               }
             </div>
             <div>
@@ -265,9 +272,9 @@ export class DashboardCumulativeGraphComponent extends PureComponent<Props, Stat
                   }}
                   onMouseUp={this.onMouseUp}
                 >
-                  <Line type="monotone" dataKey="cases" name="Cases" stroke={brand} dot={{ r: 1}} strokeWidth="2" isAnimationActive={true} animationDuration={200} />
-                  <Line type="monotone" dataKey="deaths" name="Deaths" stroke={red} dot={{ r: 1 }} strokeWidth="2" isAnimationActive={true} animationDuration={200} />
-                  <Line type="monotone" dataKey="recovered" name="Recovered" dot={{ r: 1 }} stroke={green} strokeWidth="2" isAnimationActive={true} animationDuration={200} />
+                  <Line type="monotone" dataKey="cases" name={t('cases') as string} stroke={brand} dot={{ r: 1}} strokeWidth="2" isAnimationActive={true} animationDuration={200} />
+                  <Line type="monotone" dataKey="deaths" name={t('deaths') as string} stroke={red} dot={{ r: 1 }} strokeWidth="2" isAnimationActive={true} animationDuration={200} />
+                  <Line type="monotone" dataKey="recovered" name={t('recovered') as string} dot={{ r: 1 }} stroke={green} strokeWidth="2" isAnimationActive={true} animationDuration={200} />
                   <CartesianGrid stroke={brandDull} strokeDasharray="5 5" />
                   <XAxis
                     allowDataOverflow

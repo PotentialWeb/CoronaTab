@@ -39,7 +39,7 @@
   "population": "Poblogaeth",
   "death-rate": "Cyfradd marwolaeth",
   "recovery-rate": "Cyfradd adfer",
-  "view-heathmap": "Gweld map gwres",
+  "view-heatmap": "Gweld map gwres",
   "error-loading-map": "Gwall llwytho map",
   "retry": "Ailgynnig",
   "try-again": "Ceisio eto",

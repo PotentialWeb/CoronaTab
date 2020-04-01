@@ -39,7 +39,7 @@
   "population": "Befolkning",
   "death-rate": "Dödstal",
   "recovery-rate": "Återhämtningsfart",
-  "view-heathmap": "Visa värmekarta",
+  "view-heatmap": "Visa värmekarta",
   "error-loading-map": "Fel vid inläsning av karta",
   "retry": "Försök igen",
   "try-again": "Försök igen",

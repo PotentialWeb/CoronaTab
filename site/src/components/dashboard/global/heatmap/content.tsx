@@ -16,6 +16,7 @@ import OverlayPositioning from 'ol/OverlayPositioning'
 import { LoadingComponent } from '../../../loading'
 import get from 'lodash.get'
 import numeral from 'numeral'
+import { AppStore } from '../../../../pages/_app.store'
 
 const {
   theme: {
@@ -26,6 +27,7 @@ const {
 } = tailwindConfig
 
 export interface Props {
+  appStore?: AppStore
   onClose?: () => any
   pageStore?: DashboardPageStore
 }
@@ -36,7 +38,7 @@ export interface State {
 }
 
 interface TooltipStat {
-  label: string
+  labelI18n: string
   accessor: string
   formatter: (value: number) => string
 }
@@ -45,28 +47,28 @@ const LARGE_INT_FORMATTER = (value: number) => numeral(value).format(value >= 10
 const PERCENTAGE_FORMATTER = (value: number) => numeral(value).format('0.0%')
 
 const TOOLTIP_STATS: TooltipStat[] = [{
-  label: 'Cases',
+  labelI18n: 'cases',
   accessor: 'latestData.cases',
   formatter: LARGE_INT_FORMATTER
 }, {
-  label: 'Deaths',
+  labelI18n: 'deaths',
   accessor: 'latestData.deaths',
   formatter: LARGE_INT_FORMATTER
 }, {
-  label: 'Death Rate',
+  labelI18n: 'death-rate',
   accessor: 'latestData.deathRate',
   formatter: PERCENTAGE_FORMATTER
 }, {
-  label: 'Recovered',
+  labelI18n: 'recovered',
   accessor: 'latestData.recovered',
   formatter: LARGE_INT_FORMATTER
 }, {
-  label: 'Recovery Rate',
+  labelI18n: 'recovery-rate',
   accessor: 'latestData.recoveryRate',
   formatter: PERCENTAGE_FORMATTER
 }]
 
-@inject('pageStore')
+@inject('appStore', 'pageStore')
 @observer
 export class DashboardGlobalHeatmapContentComponent extends PureComponent<Props, State> {
   state: State = {
@@ -203,6 +205,8 @@ export class DashboardGlobalHeatmapContentComponent extends PureComponent<Props,
   }
 
   render () {
+    const { appStore } = this.props
+    const { t } = appStore
     const { hoveredPlace, loadingStatus } = this.state
     return (
       <div
@@ -237,10 +241,10 @@ export class DashboardGlobalHeatmapContentComponent extends PureComponent<Props,
                               </div>
                               <ul role="table" aria-label={`${hoveredPlace} Coronavirus stats`} className="pb-2">
                                 {(() => {
-                                  return TOOLTIP_STATS.map(({ label, accessor, formatter }) => (
+                                  return TOOLTIP_STATS.map(({ labelI18n, accessor, formatter }) => (
                                     <li
                                       role="row"
-                                      key={label}
+                                      key={labelI18n}
                                       className="flex items-center px-2 py-px text-sm"
                                     >
                                       <div
@@ -248,7 +252,7 @@ export class DashboardGlobalHeatmapContentComponent extends PureComponent<Props,
                                         className="flex-1 truncate"
                                       >
                                         <span>
-                                          {label}
+                                          {t(labelI18n)}
                                         </span>
                                       </div>
                                       <div

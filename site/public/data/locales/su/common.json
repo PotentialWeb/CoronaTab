@@ -39,7 +39,7 @@
   "population": "Pangeusi",
   "death-rate": "Laju pupusna",
   "recovery-rate": "Laju recovery",
-  "view-heathmap": "Tingali peta panas",
+  "view-heatmap": "Tingali peta panas",
   "error-loading-map": "Lepatna map",
   "retry": "Coba deui",
   "try-again": "Cobian deui",

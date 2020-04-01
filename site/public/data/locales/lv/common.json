@@ -39,7 +39,7 @@
   "population": "Populācija",
   "death-rate": "Nāves pakāpe",
   "recovery-rate": "Atgūšanas pakāpe",
-  "view-heathmap": "Skatīt siltuma karti",
+  "view-heatmap": "Skatīt siltuma karti",
   "error-loading-map": "Ielādējot karti, radās kļūda",
   "retry": "Mēģiniet vēlreiz",
   "try-again": "Mēģini vēlreiz",

@@ -39,7 +39,7 @@
   "population": "Popullsi",
   "death-rate": "Shkalla e vdekjes",
   "recovery-rate": "Shkalla e rikuperimit",
-  "view-heathmap": "Shikoni hartën e nxehtësisë",
+  "view-heatmap": "Shikoni hartën e nxehtësisë",
   "error-loading-map": "Gabim gjatë ngarkimit të hartës",
   "retry": "Retry",
   "try-again": "Provo përsëri",

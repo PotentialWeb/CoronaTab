@@ -39,7 +39,7 @@
   "population": "জনসংখ্যা",
   "death-rate": "মৃত্যর হার",
   "recovery-rate": "সুস্থতার হার",
-  "view-heathmap": "হিটম্যাপ দেখুন",
+  "view-heatmap": "হিটম্যাপ দেখুন",
   "error-loading-map": "মানচিত্র লোড করার সময় ত্রুটি",
   "retry": "পুনরায় চেষ্টা করা",
   "try-again": "আবার চেষ্টা কর",

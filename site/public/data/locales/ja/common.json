@@ -39,7 +39,7 @@
   "population": "人口",
   "death-rate": "死亡率",
   "recovery-rate": "回収率",
-  "view-heathmap": "ヒートマップを表示",
+  "view-heatmap": "ヒートマップを表示",
   "error-loading-map": "地図の読み込み中にエラーが発生しました",
   "retry": "リトライ",
   "try-again": "再試行",

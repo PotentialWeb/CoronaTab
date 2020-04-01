@@ -39,7 +39,7 @@
   "population": "Aholisi",
   "death-rate": "O'lim darajasi",
   "recovery-rate": "Qayta tiklash darajasi",
-  "view-heathmap": "Issiqlik xaritasini ko'rish",
+  "view-heatmap": "Issiqlik xaritasini ko'rish",
   "error-loading-map": "Xaritani yuklashda xato",
   "retry": "Qayta urinish",
   "try-again": "Qayta urinib ko'ring",

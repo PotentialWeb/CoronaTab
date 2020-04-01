@@ -39,7 +39,7 @@
   "population": "Biztanleria",
   "death-rate": "Heriotza tasa",
   "recovery-rate": "Berreskuratze tasa",
-  "view-heathmap": "Ikusi bero orria",
+  "view-heatmap": "Ikusi bero orria",
   "error-loading-map": "Errorea gertatu da mapa kargatzean",
   "retry": "Berriro saiatu",
   "try-again": "Saiatu berriro",

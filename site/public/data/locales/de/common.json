@@ -39,7 +39,7 @@
   "population": "Population",
   "death-rate": "Todesrate",
   "recovery-rate": "Erholungsrate",
-  "view-heathmap": "Heatmap anzeigen",
+  "view-heatmap": "Heatmap anzeigen",
   "error-loading-map": "Fehler beim Laden der Karte",
   "retry": "Wiederholen",
   "try-again": "Versuchen Sie es nochmal",

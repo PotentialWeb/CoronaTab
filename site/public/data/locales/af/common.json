@@ -39,7 +39,7 @@
   "population": "Bevolking",
   "death-rate": "Sterftesyfer",
   "recovery-rate": "Herstel persentasie",
-  "view-heathmap": "Kyk na hittekaart",
+  "view-heatmap": "Kyk na hittekaart",
   "error-loading-map": "Kon nie kaart laai nie",
   "retry": "Probeer weer",
   "try-again": "Probeer weer",

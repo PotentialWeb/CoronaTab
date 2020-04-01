@@ -39,7 +39,7 @@
   "population": "جمعیت",
   "death-rate": "نرخ مرگ",
   "recovery-rate": "میزان بهبودی",
-  "view-heathmap": "نقشه گرم را مشاهده کنید",
+  "view-heatmap": "نقشه گرم را مشاهده کنید",
   "error-loading-map": "خطا در بارگیری نقشه",
   "retry": "دوباره امتحان کنید",
   "try-again": "دوباره امتحان کنید",

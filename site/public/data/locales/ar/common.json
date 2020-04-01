@@ -39,7 +39,7 @@
   "population": "تعداد السكان",
   "death-rate": "معدل الوفيات",
   "recovery-rate": "معدل الاسترداد",
-  "view-heathmap": "عرض خريطة التمثيل اللوني",
+  "view-heatmap": "عرض خريطة التمثيل اللوني",
   "error-loading-map": "خطأ في تحميل الخريطة",
   "retry": "أعد المحاولة",
   "try-again": "حاول مرة أخري",

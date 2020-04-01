@@ -30,23 +30,25 @@
   "lowest-recovery-rate": "Lowest recovery rate",
 
   "cumulative": "Cumulative",
+  "compare": "Compare",
   "drag-to-zoom": "Drag to zoom",
   "scale": "Scale",
   "linear": "Linear",
   "logarithmic": "Logarithmic",
-  
+
   "daily": "Daily",
   "last": "Last",
   "days": "Days",
 
   "view-all-stats-by-country": "View all stats by country",
+  "country": "Country",
   "code": "Code",
   "name": "Name",
   "population": "Population",
   "death-rate": "Death rate",
   "recovery-rate": "Recovery rate",
 
-  "view-heathmap": "View heatmap",
+  "view-heatmap": "View heatmap",
   "error-loading-map": "Error loading map",
 
   "retry": "Retry",

@@ -39,7 +39,7 @@
   "population": "Populație",
   "death-rate": "Rata mortalității",
   "recovery-rate": "Rata de recuperare",
-  "view-heathmap": "Vizualizați harta de căldură",
+  "view-heatmap": "Vizualizați harta de căldură",
   "error-loading-map": "Eroare la încărcarea hărții",
   "retry": "Reîncercați",
   "try-again": "Încearcă din nou",

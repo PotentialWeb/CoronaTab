@@ -39,7 +39,7 @@
   "population": "Gyventojai",
   "death-rate": "Mirties laipsnis",
   "recovery-rate": "Atsigavimo koeficientas",
-  "view-heathmap": "Peržiūrėti šilumos žemėlapį",
+  "view-heatmap": "Peržiūrėti šilumos žemėlapį",
   "error-loading-map": "Klaida įkeliant žemėlapį",
   "retry": "Pabandykite dar kartą",
   "try-again": "Bandyk iš naujo",

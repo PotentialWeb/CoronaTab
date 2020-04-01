@@ -39,7 +39,7 @@
   "population": "Rahvastik",
   "death-rate": "Suremus",
   "recovery-rate": "Taastumismäär",
-  "view-heathmap": "Vaadake soojuskaarti",
+  "view-heatmap": "Vaadake soojuskaarti",
   "error-loading-map": "Viga kaardi laadimisel",
   "retry": "Uuesti proovima",
   "try-again": "Proovi uuesti",

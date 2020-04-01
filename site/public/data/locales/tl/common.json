@@ -39,7 +39,7 @@
   "population": "Populasyon",
   "death-rate": "Ang rate ng kamatayan",
   "recovery-rate": "Rate ng pagbawi",
-  "view-heathmap": "Tingnan ang heatmap",
+  "view-heatmap": "Tingnan ang heatmap",
   "error-loading-map": "Error sa pag-load ng mapa",
   "retry": "Ulitin",
   "try-again": "Subukan muli",

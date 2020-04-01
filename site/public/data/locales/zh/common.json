@@ -39,7 +39,7 @@
   "population": "人口",
   "death-rate": "死亡率",
   "recovery-rate": "恢复率",
-  "view-heathmap": "查看热图",
+  "view-heatmap": "查看热图",
   "error-loading-map": "加载地图时出错",
   "retry": "重试",
   "try-again": "再试一次",

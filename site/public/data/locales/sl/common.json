@@ -39,7 +39,7 @@
   "population": "Prebivalstvo",
   "death-rate": "Stopnja smrti",
   "recovery-rate": "Stopnja obnovitve",
-  "view-heathmap": "Oglejte si toplotni zemljevid",
+  "view-heatmap": "Oglejte si toplotni zemljevid",
   "error-loading-map": "Napaka pri nalaganju zemljevida",
   "retry": "Poskusi znova",
   "try-again": "Poskusi ponovno",

@@ -39,7 +39,7 @@
   "population": "인구",
   "death-rate": "사망률",
   "recovery-rate": "회복률",
-  "view-heathmap": "히트 맵보기",
+  "view-heatmap": "히트 맵보기",
   "error-loading-map": "지도로드 중 오류",
   "retry": "다시 해 보다",
   "try-again": "다시 시도하십시오",

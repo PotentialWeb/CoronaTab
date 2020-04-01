@@ -39,7 +39,7 @@
   "population": "Populacija",
   "death-rate": "Mortalitet",
   "recovery-rate": "Stopa oporavka",
-  "view-heathmap": "Pogledajte toplotnu kartu",
+  "view-heatmap": "Pogledajte toplotnu kartu",
   "error-loading-map": "Pogreška pri učitavanju karte",
   "retry": "Ponoviti",
   "try-again": "Pokušajte ponovo",

@@ -39,7 +39,7 @@
   "population": "Befolkning",
   "death-rate": "Dødsrate",
   "recovery-rate": "Gjenvinningsgrad",
-  "view-heathmap": "Se varmekart",
+  "view-heatmap": "Se varmekart",
   "error-loading-map": "Feil ved lasting av kart",
   "retry": "Prøv på nytt",
   "try-again": "Prøv igjen",

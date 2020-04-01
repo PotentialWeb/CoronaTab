@@ -39,7 +39,7 @@
   "population": "Población",
   "death-rate": "Índice de mortalidad",
   "recovery-rate": "Índice de recuperación",
-  "view-heathmap": "Ver mapa de calor",
+  "view-heatmap": "Ver mapa de calor",
   "error-loading-map": "Error al cargar el mapa",
   "retry": "Procesar de nuevo",
   "try-again": "Inténtalo de nuevo",

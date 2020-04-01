@@ -39,7 +39,7 @@
   "population": "Népesség",
   "death-rate": "Halálozási ráta",
   "recovery-rate": "Felépülési arány",
-  "view-heathmap": "Hőtérkép megtekintése",
+  "view-heatmap": "Hőtérkép megtekintése",
   "error-loading-map": "Hiba történt a térkép betöltésekor",
   "retry": "Próbálja újra",
   "try-again": "Próbáld újra",

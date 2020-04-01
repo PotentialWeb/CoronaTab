@@ -39,7 +39,7 @@
   "population": "Nüfus",
   "death-rate": "Ölüm oranı",
   "recovery-rate": "Geri Dönüşüm Oranı",
-  "view-heathmap": "Isı haritasını görüntüle",
+  "view-heatmap": "Isı haritasını görüntüle",
   "error-loading-map": "Harita yüklenirken hata oluştu",
   "retry": "Yeniden Dene",
   "try-again": "Tekrar deneyin",

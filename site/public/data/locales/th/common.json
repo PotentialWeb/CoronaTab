@@ -39,7 +39,7 @@
   "population": "ประชากร",
   "death-rate": "อัตราการเสียชีวิต",
   "recovery-rate": "อัตราการฟื้นตัว",
-  "view-heathmap": "ดูแผนที่ความร้อน",
+  "view-heatmap": "ดูแผนที่ความร้อน",
   "error-loading-map": "เกิดข้อผิดพลาดในการโหลดแผนที่",
   "retry": "ลองใหม่",
   "try-again": "ลองอีกครั้ง",

@@ -39,7 +39,7 @@
   "population": "Population",
   "death-rate": "Mors rate",
   "recovery-rate": "Rate convaluisset",
-  "view-heathmap": "View Heatmap",
+  "view-heatmap": "View Heatmap",
   "error-loading-map": "Error tabula loading",
   "retry": "Retry",
   "try-again": "Conare iterum",

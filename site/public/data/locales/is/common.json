@@ -39,7 +39,7 @@
   "population": "Mannfjöldi",
   "death-rate": "Dánarhlutfall",
   "recovery-rate": "Endurheimtarhlutfall",
-  "view-heathmap": "Skoða hitakort",
+  "view-heatmap": "Skoða hitakort",
   "error-loading-map": "Villa við að hlaða kort",
   "retry": "Reyndu aftur",
   "try-again": "Reyndu aftur",

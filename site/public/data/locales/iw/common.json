@@ -39,7 +39,7 @@
   "population": "אוכלוסייה",
   "death-rate": "שיעור תמותה",
   "recovery-rate": "שיעור התאוששות",
-  "view-heathmap": "צפה במפת חום",
+  "view-heatmap": "צפה במפת חום",
   "error-loading-map": "שגיאה בטעינת המפה",
   "retry": "נסה שוב",
   "try-again": "נסה שוב",

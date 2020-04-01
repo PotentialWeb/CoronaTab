@@ -39,7 +39,7 @@
   "population": "लोकसंख्या",
   "death-rate": "मृत्यू दर",
   "recovery-rate": "पुनर्प्राप्ती दर",
-  "view-heathmap": "उष्माचित्र पहा",
+  "view-heatmap": "उष्माचित्र पहा",
   "error-loading-map": "नकाशा लोड करण्यात त्रुटी",
   "retry": "पुन्हा प्रयत्न करा",
   "try-again": "पुन्हा प्रयत्न करा",

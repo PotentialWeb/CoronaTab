@@ -39,7 +39,7 @@
   "population": "Penduduk",
   "death-rate": "Kadar kematian",
   "recovery-rate": "Kadar pemulihan",
-  "view-heathmap": "Lihat peta haba",
+  "view-heatmap": "Lihat peta haba",
   "error-loading-map": "Ralat memuatkan peta",
   "retry": "Cuba semula",
   "try-again": "Cuba lagi",

@@ -39,7 +39,7 @@
   "population": "Populácia",
   "death-rate": "Úmrtnosť",
   "recovery-rate": "Rýchlosť zotavenia",
-  "view-heathmap": "Zobraziť tepelnú mapu",
+  "view-heatmap": "Zobraziť tepelnú mapu",
   "error-loading-map": "Chyba pri načítaní mapy",
   "retry": "Skúsiť znova",
   "try-again": "Skúste to znova",

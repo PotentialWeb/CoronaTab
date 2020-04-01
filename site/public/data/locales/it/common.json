@@ -39,7 +39,7 @@
   "population": "Popolazione",
   "death-rate": "Tasso di mortalità",
   "recovery-rate": "Tasso di recupero",
-  "view-heathmap": "Visualizza la mappa di calore",
+  "view-heatmap": "Visualizza la mappa di calore",
   "error-loading-map": "Errore durante il caricamento della mappa",
   "retry": "Riprova",
   "try-again": "Riprova",

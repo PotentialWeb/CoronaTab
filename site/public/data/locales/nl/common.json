@@ -39,7 +39,7 @@
   "population": "Bevolking",
   "death-rate": "Sterftecijfer",
   "recovery-rate": "Herstelpercentage",
-  "view-heathmap": "Bekijk heatmap",
+  "view-heatmap": "Bekijk heatmap",
   "error-loading-map": "Fout bij laden van kaart",
   "retry": "Opnieuw proberen",
   "try-again": "Probeer het opnieuw",

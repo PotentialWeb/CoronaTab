@@ -39,7 +39,7 @@
   "population": "Populasi",
   "death-rate": "Angka kematian",
   "recovery-rate": "Tingkat pemulihan",
-  "view-heathmap": "Lihat peta panas",
+  "view-heatmap": "Lihat peta panas",
   "error-loading-map": "Kesalahan memuat peta",
   "retry": "Mencoba kembali",
   "try-again": "Coba lagi",

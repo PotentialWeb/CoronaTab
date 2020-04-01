@@ -39,7 +39,7 @@
   "population": "Väestö",
   "death-rate": "Kuolleisuus",
   "recovery-rate": "Hyödyntämisaste",
-  "view-heathmap": "Näytä lämpökartta",
+  "view-heatmap": "Näytä lämpökartta",
   "error-loading-map": "Virhe kartan lataamisessa",
   "retry": "Retry",
   "try-again": "Yritä uudelleen",
