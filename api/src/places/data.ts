@@ -4,6 +4,10 @@ import { PlaceRequest } from '../places'
 import { PlaceData } from '@coronatab/data'
 import 'express-async-errors'
 import Filter from 'taira'
+import { Constants } from '../constants'
+import { Arrays, DATE_FORMAT } from '@coronatab/shared'
+import moment from 'moment'
+
 const data = Router()
 
 const SerializePlaceData = (placeData: PlaceData, { compact }: { compact?: boolean }) => {
@@ -16,7 +20,7 @@ const SerializePlaceData = (placeData: PlaceData, { compact }: { compact?: boole
 }
 
 const SmoothFilter = (data: PlaceData[]) => {
-  if (data.length < 2) return data
+  if (data.length < 3) return data
   for (let i = 0; i < data.length; i++) {
     let prev = data[i - 1]
     if (prev) {
@@ -43,6 +47,50 @@ const SmoothFilter = (data: PlaceData[]) => {
 
   return data
 }
+
+const ProjectPlaceData = (placeData: PlaceData[]) => {
+  if (placeData.length < Constants.DATA_PROJECTION_BASE_DAYS) return []
+  const lastDatas = placeData.slice(placeData.length - Constants.DATA_PROJECTION_BASE_DAYS - 1, placeData.length)
+
+  const changeRates = lastDatas.reduce((rates, data, i) => {
+    const nextData = lastDatas[i + 1]
+    if (nextData) {
+      rates.cases.push(nextData.cases / data.cases)
+      rates.deaths.push(nextData.deaths / data.deaths)
+      rates.recovered.push(nextData.recovered / data.recovered)
+    }
+    return rates
+  }, {
+    cases: [] as number[],
+    deaths: [] as number[],
+    recovered: [] as number[]
+  })
+
+  const casesChangeRate = Arrays.average(changeRates.cases)
+  const deathsChangeRate = Arrays.average(changeRates.deaths)
+  const recoveredChangeRate = Arrays.average(changeRates.recovered)
+  const lastData = lastDatas[lastDatas.length - 1]
+  let cases = lastData.cases
+  let deaths = lastData.deaths
+  let recovered = lastData.recovered
+  const projected: PlaceData[] = []
+  const lastDate = lastData.date
+  const { placeId } = lastData
+  for (let i = 1; i <= Constants.DATA_PROJECTION_DEFAULT_DAYS; i++) {
+    cases = Math.round(cases * casesChangeRate)
+    deaths = Math.round(deaths * deathsChangeRate)
+    recovered = Math.round(recovered * recoveredChangeRate)
+    const date = moment(lastDate).add(i, 'days').format(DATE_FORMAT)
+    projected.push(new PlaceData({
+      date,
+      recovered,
+      cases,
+      deaths,
+      placeId
+    }))
+  }
+  return projected
+}
 data.get('/', async (req: PlaceRequest, res) => {
   let { compact } = req.query
   compact = compact === 'true'
@@ -52,9 +100,13 @@ data.get('/', async (req: PlaceRequest, res) => {
   .andWhere(`(cases > 0 OR deaths > 0 OR recovered > 0)`)
   .orderBy('date', 'ASC')
 
-  const placeData = await query.getMany()
+  const placeData = SmoothFilter(await query.getMany())
+
   res.json({
-    data: SmoothFilter(placeData).map(pd => SerializePlaceData(pd, { compact }))
+    data: placeData.map(pd => SerializePlaceData(pd, { compact })),
+    meta: {
+      projected: ProjectPlaceData(placeData).map(pd => SerializePlaceData(pd, { compact }))
+    }
   })
 })
 

@@ -10,6 +10,7 @@ import { places } from './places'
 import 'express-async-errors'
 import bodyParser from 'body-parser'
 import { LocaleId, LocaleIds } from '@coronatab/shared'
+import { map } from './map'
 
 export interface CoronaTabRequest extends express.Request {
   locale: LocaleId
@@ -58,7 +59,8 @@ export interface CoronaTabRequest extends express.Request {
     next()
   })
 
-  api.use(places)
+  api.use('/places', places)
+  api.use('/map', map)
 
   api.use((err: Error, req: express.Request, res: express.Response, next: express.NextFunction) => {
     if (process.env.NODE_ENV === 'development') {
