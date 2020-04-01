@@ -51,6 +51,8 @@
   "view-heatmap": "View heatmap",
   "error-loading-map": "Error loading map",
 
+  "global": "Global",
+
   "retry": "Retry",
   "try-again": "Try again",
   "service-unavailable": "Service unavailable",

@@ -65,7 +65,9 @@ export class DashboardGlobalComponent extends Component<Props, State> {
             <div className="flex-shrink-0">
               <span className="flex items-center text-lg xl:text-4xl">
                 <EarthSvg className="h-line mr-2 2xl:mr-4" />
-                <h2 className="font-bold xl:hidden">Global</h2>
+                <h2 className="font-bold xl:hidden">
+                  {t('global')}
+                </h2>
               </span>
             </div>
             <div className="flex-1 flex">

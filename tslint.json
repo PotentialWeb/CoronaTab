@@ -1,7 +1,8 @@
 {
   "extends": "tslint-config-standard",
   "rules": {
-    "radix": false
+    "radix": false,
+    "no-floating-promises": false
   },
   "linterOptions": {
     "exclude": [

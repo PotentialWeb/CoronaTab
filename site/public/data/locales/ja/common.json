@@ -61,5 +61,8 @@
   "general-advice-be-hygienic-title": "衛生的である",
   "general-advice-be-hygienic-description": "咳やくしゃみをするときは、曲がった肘やティッシュで口と鼻を覆い、使用済みのティッシュはすぐに処分してください。",
   "general-advice-self-isolate-title": "気分が悪い？自己分離！",
-  "general-advice-self-isolate-description": "インフルエンザのような症状が現れた場合は、予防策として自己隔離し、家にいることで感染を拡大するリスクを回避する必要があります。"
+  "general-advice-self-isolate-description": "インフルエンザのような症状が現れた場合は、予防策として自己隔離し、家にいることで感染を拡大するリスクを回避する必要があります。",
+  "compare": "比較する",
+  "country": "国",
+  "global": "グローバル"
 }
