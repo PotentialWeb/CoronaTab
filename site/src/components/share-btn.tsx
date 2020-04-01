@@ -1,6 +1,5 @@
 import { Component, HTMLAttributes } from 'react'
 import Tippy, { TippyProps } from '@tippyjs/react'
-import { Meta } from '../utils/meta'
 import {
   EmailShareButton,
   FacebookShareButton,
@@ -10,6 +9,9 @@ import {
   TwitterShareButton,
   WhatsappShareButton
 } from 'react-share'
+import { WithTranslation } from 'next-i18next'
+import { withTranslation } from '../utils/i18n'
+import { Meta } from '../utils/meta'
 import EmailSvg from '../../public/icons/email.svg'
 import FacebookSvg from '../../public/icons/facebook.svg'
 import LinkedinSvg from '../../public/icons/linkedin.svg'
@@ -18,23 +20,19 @@ import RedditSvg from '../../public/icons/reddit.svg'
 import ShareSvg from '../../public/icons/share.svg'
 import TwitterSvg from '../../public/icons/twitter.svg'
 import WhatsappSvg from '../../public/icons/whatsapp.svg'
-import { DashboardPageStore } from '../pages/dashboard.store'
 
-interface Props extends HTMLAttributes<HTMLButtonElement> {
-  pageStore?: DashboardPageStore
+interface Props extends HTMLAttributes<HTMLButtonElement>, WithTranslation {
   tooltipPlacement?: 'top' | 'bottom'
 }
 
-export class ShareBtnComponent extends Component<Props> {
+class BaseShareBtnComponent extends Component<Props> {
   render () {
     const {
       tooltipPlacement,
       className = '',
-      pageStore,
+      t,
       ...props
     } = this.props
-
-    const localeStrings = pageStore?.localeStrings
 
     const shareUrl = `${Meta.BASE_PATH}/dashboard`
     const title = `${Meta.APP_NAME} - ${Meta.STRAPLINE}`
@@ -129,9 +127,11 @@ export class ShareBtnComponent extends Component<Props> {
       >
         <button className={`share-btn ${className}`} {...props}>
           <ShareSvg className="h-line mr-2" />
-        <span>{localeStrings?.['share'] ?? 'Share'}</span>
+        <span>{t('share')}</span>
         </button>
       </Tippy>
     )
   }
 }
+
+export const ShareBtnComponent = withTranslation()(BaseShareBtnComponent)

@@ -3,11 +3,13 @@ import Downshift from 'downshift'
 import { Place as PlaceShape } from '@coronatab/shared'
 import { Place, DashboardPageStore } from '../pages/dashboard.store'
 import Tippy from '@tippyjs/react'
+import { WithTranslation } from 'next-i18next'
+import { withTranslation } from '../utils/i18n'
 import CaretUpSvg from '../../public/icons/caret-up.svg'
 import CaretDownSvg from '../../public/icons/caret-down.svg'
 import CloseSvg from '../../public/icons/close.svg'
 
-interface Props extends Omit<React.HTMLAttributes<HTMLDivElement>, 'onChange'> {
+interface Props extends Omit<React.HTMLAttributes<HTMLDivElement>, 'onChange'>, WithTranslation {
   options: Place[] | PlaceShape[]
   pageStore: DashboardPageStore
   selectedPlace?: Place | PlaceShape
@@ -22,7 +24,7 @@ interface State {
   selectedPlace: Place | PlaceShape
 }
 
-export class PlaceSelectComponent extends Component<Props, State> {
+class BasePlaceSelectComponent extends Component<Props, State> {
   state: State = {
     selectedPlace: this.props.selectedPlace
   }
@@ -59,10 +61,10 @@ export class PlaceSelectComponent extends Component<Props, State> {
       listItemClassName,
       onChange,
       pageStore,
+      t,
       ...props
     } = this.props
 
-    const { localeStrings } = pageStore
     return (
       <Downshift
         initialSelectedItem={selectedPlace}
@@ -135,7 +137,7 @@ export class PlaceSelectComponent extends Component<Props, State> {
                     setState({ inputValue: '' })
                   }}
                   ref={this.inputRef}
-                  placeholder={inputPlaceholder ?? `${localeStrings['select-a-place']}...`}
+                  placeholder={inputPlaceholder ?? `${t('select-a-place')}...`}
                   className={`form-input ${inputClassName ?? ''}`}
                 />
                 <button
@@ -167,3 +169,5 @@ export class PlaceSelectComponent extends Component<Props, State> {
     )
   }
 }
+
+export const PlaceSelectComponent = withTranslation()(BasePlaceSelectComponent)

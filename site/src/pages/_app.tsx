@@ -4,6 +4,7 @@ import NextApp, { AppInitialProps } from 'next/app'
 import Head from 'next/head'
 import { Provider } from 'mobx-react'
 import { AppStore } from './_app.store'
+import { appWithTranslation, withTranslation } from '../utils/i18n'
 import { Meta } from '../utils/meta'
 import { Facebook } from '../utils/facebook'
 import { Google } from '../utils/google'
@@ -41,7 +42,7 @@ if (typeof window !== 'undefined' && 'serviceWorker' in navigator) {
   })
 }
 
-export default class App extends NextApp<Props, State> {
+class App extends NextApp<Props, State> {
   state: State = {
     appStore: new AppStore()
   }
@@ -110,3 +111,5 @@ export default class App extends NextApp<Props, State> {
     )
   }
 }
+
+export default appWithTranslation(App)
