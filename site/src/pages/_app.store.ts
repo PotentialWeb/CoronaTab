@@ -1,5 +1,5 @@
 import { useStaticRendering } from 'mobx-react'
-import { computed, observable } from 'mobx'
+import { computed, observable, set } from 'mobx'
 import { UserAgent } from '../utils/user-agent'
 import { Meta } from '../utils/meta'
 import { I18n, TFunction } from 'next-i18next'
@@ -15,7 +15,7 @@ useStaticRendering(typeof window === 'undefined')
 
 export class AppStore {
   constructor (props: AppStoreProps) {
-    Object.assign(this, props)
+    set(this, props)
   }
 
   i18n: I18n

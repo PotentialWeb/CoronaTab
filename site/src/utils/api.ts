@@ -1,18 +1,20 @@
 import { HTTP, HTTPMethod, HTTPOptions } from './http'
 import { Cookies } from './cookies'
+import { I18NextCookieKey } from './i18n'
 
 export class Api {
   static host = process.env.API_HOST
   static namespace = process.env.API_NAMESPACE
 
   static getHeaders = async () => {
-    const locale = Cookies.get('next-i18next')
+    const locale = Cookies.get(I18NextCookieKey)
     return {
       'Accept': 'application/json',
       'Content-Type': 'application/json',
-      'access-control-allow-origin': '*',
+      'Access-Control-Allow-Origin': '*',
+      'Accept-Language': locale ?? 'en',
+      'Cache-Control': 'no-cache',
       'domain': process.env.DOMAIN,
-      'Accept-Language': locale ?? 'en'
     }
   }
 

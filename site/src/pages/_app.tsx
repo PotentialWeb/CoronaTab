@@ -4,11 +4,12 @@ import Head from 'next/head'
 import { Provider } from 'mobx-react'
 import { AppStore } from './_app.store'
 import { WithTranslation } from 'next-i18next'
-import { appWithTranslation, withTranslation } from '../utils/i18n'
+import { appWithTranslation, withTranslation, I18NextCookieKey } from '../utils/i18n'
 import { Cookies } from '../utils/cookies'
 import { Meta } from '../utils/meta'
 import { Facebook } from '../utils/facebook'
 import { Google } from '../utils/google'
+import { ServiceWorkerHandler } from '../utils/service-worker'
 import { LocaleId } from '@coronatab/shared'
 import '../utils/polyfills'
 import '../style.css'
@@ -21,46 +22,24 @@ interface State {
   appStore: AppStore
 }
 
-if (typeof window !== 'undefined' && 'serviceWorker' in navigator) {
-  window.addEventListener('load', () => {
-    navigator.serviceWorker.register('/service-worker.js', { scope: '/' })
-      .then(reg => {
-        reg.onupdatefound = () => {
-          const installingWorker = reg.installing
-          installingWorker.onstatechange = () => {
-            if (installingWorker.state === 'installed' && navigator.serviceWorker.controller) {
-              console.info('reloading due to service worker change')
-              // Preferably, display a message asking the user to reload...
-              location.reload()
-            }
-          }
-        }
-      })
-      .catch(err => console.warn('SW registration failed: ', err))
-  })
-}
-
 class App extends NextApp<Props, State> {
-  static getInitialProps = async (ctx: AppContext) => {
-    const appProps: AppInitialProps = await NextApp.getInitialProps(ctx)
-    return {
-      ...appProps,
-      locale: Cookies.get('next-i18next', ctx)
-    }
+  static async getInitialProps (appContext: AppContext) {
+    const appProps: AppInitialProps = await NextApp.getInitialProps(appContext)
+    const locale = Cookies.get(I18NextCookieKey, appContext.ctx)
+    return { ...appProps, locale }
   }
 
-  state: State = (() => {
-    const { i18n, t, locale } = this.props
-    const appStore = new AppStore({
-      i18n,
-      t,
-      locale
+  state: State = {
+    appStore: new AppStore({
+      i18n: this.props.i18n,
+      t: this.props.t,
+      locale: this.props.locale
     })
-    return { appStore }
-  })()
+  }
 
   componentDidMount () {
     Google.useTagManager()
+    ServiceWorkerHandler.register()
   }
 
   render () {

@@ -111,7 +111,7 @@ export class DashboardPlaceComponent extends Component<Props, State> {
             <PlaceSelectComponent
               pageStore={pageStore}
               selectedPlace={selectedParentPlace}
-              options={pageStore.countries}
+              options={pageStore.countries.data}
               onChange={place => {
                 pageStore.selectedPlaceTree = place ? [place] : []
               }}
@@ -162,7 +162,7 @@ export class DashboardPlaceComponent extends Component<Props, State> {
                     <DashboardCompareGraphComponent
                       data={this.state.data?.cumulativeSeries}
                       places={(() => {
-                        const places = selectedChildPlace ? (selectedParentPlace?.children as Place[]) : pageStore.countries
+                        const places = selectedChildPlace ? (selectedParentPlace?.children as Place[]) : pageStore.countries.data
                         return places.filter(({ id }) => id !== pageStore.selectedPlace.id)
                       })()}
                       selectedPlace={pageStore.selectedPlace}

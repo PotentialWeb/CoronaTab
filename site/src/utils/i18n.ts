@@ -15,10 +15,13 @@ const NextI18NextInstance = new NextI18Next({
 
 export default NextI18NextInstance
 
+export const I18NextCookieKey = 'next-i18next'
+
 /* Optionally, export class methods as named exports */
 export const {
   appWithTranslation,
   withTranslation,
   Router,
-  Link
+  Link,
+  i18n
 } = NextI18NextInstance

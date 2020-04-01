@@ -1,9 +1,9 @@
 import { action, observable, computed } from 'mobx'
 import allSettled from 'promise.allsettled'
+import { AppStore } from './_app.store'
 import { Place as PlaceShape } from '@coronatab/shared'
 import { PlaceApi } from '../utils/api/place'
 import { LocalStorage } from '../utils/storage'
-import { HTTP } from '../utils/http'
 import moment from 'moment'
 
 export enum LoadingStatus {
@@ -13,15 +13,23 @@ export enum LoadingStatus {
   HAS_ERRORED = 'hasErrored'
 }
 
-export type AdviceObj = { [key: string]: { title: string, description: string } }
+export type CountriesObj = {
+  lastFetched: string
+  locale: string
+  data: Place[]
+}
+
 export type RawPlaceDataObj = {
   lastFetched: string,
   data: (string | number)[]
 }
+
 export type RawPlaceData = {
   [key: string]: RawPlaceDataObj
 }
+
 export type CumulativeSeriesDataObj = { date: string, cases: number, deaths: number, recovered: number }
+
 export type MergedCumulativeSeriesDataObj = {
   [key: string]: Omit<CumulativeSeriesDataObj, 'date'> | string
   date: string
@@ -41,37 +49,12 @@ export interface Place extends PlaceShape {
 }
 
 export class DashboardPageStore {
+  constructor (public appStore: AppStore) {}
+
   @observable
   loadingStatus = LoadingStatus.IS_LOADING
 
-  @observable
-  private _lastFetched: string
-
-  @computed
-  get lastFetched (): Date {
-    const dateStr = this._lastFetched ?? LocalStorage.get('lastFetched')
-    return dateStr && new Date(dateStr)
-  }
-
-  set lastFetched (date: Date) {
-    this._lastFetched = date.toString()
-    LocalStorage.set('lastFetched', date.toString())
-  }
-
   static lastFetchedTTL = 600
-
-  @observable
-  private _countries: Place[]
-
-  @computed
-  get countries (): Place[] {
-    return this._countries ?? LocalStorage.get('countries') ?? []
-  }
-
-  set countries (countries: Place[]) {
-    this._countries = countries
-    LocalStorage.set('countries', countries)
-  }
 
   @action.bound
   async init () {
@@ -89,15 +72,16 @@ export class DashboardPageStore {
         globalDataResult,
         selectedPlaceResult
       ] = await allSettled([
-        this.fetchCountries({ cached: true }),
+        this.fetchCountries(),
         this.fetchRawPlaceData('earth'),
         !this.selectedPlace && PlaceApi.findClosest({ typeId: 'country', include: ['children'] })
       ])
 
       if (countriesResult.status === 'fulfilled') {
-        const { data: countries } = countriesResult.value
-        this.countries = countries
+        const countriesObj = countriesResult.value
+        this.countries = countriesObj
       } else {
+        console.error(countriesResult.reason)
         throw new Error('Could not get countries. API probably down.')
       }
 
@@ -107,6 +91,8 @@ export class DashboardPageStore {
           ...this.rawPlaceData,
           earth: rawGlobalData
         }
+      } else {
+        console.error(globalDataResult.reason)
       }
 
       if (selectedPlaceResult.status === 'fulfilled') {
@@ -128,26 +114,17 @@ export class DashboardPageStore {
 
   @action.bound
   async fetchUpdatedPageData () {
-    if (this.lastFetched) {
-      const nextFetchAt = moment(this.lastFetched).add(DashboardPageStore.lastFetchedTTL, 'seconds').toDate()
-      if (nextFetchAt > new Date()) {
-        console.info(`Not fetching new data until: ${nextFetchAt.toString()}`)
-        return
-      }
-    }
-
     try {
       const [
         countriesResult,
         globalDataResult
       ] = await allSettled([
-        this.fetchCountries({ cached: false }),
+        this.fetchCountries({ disableCache: true }),
         this.fetchRawPlaceData('earth', { disableCache: true })
       ])
 
       if (countriesResult.status === 'fulfilled') {
-        const { data: places } = countriesResult.value
-        this.countries = places.map((place: PlaceShape) => DashboardPageStore.calcPlaceLatestDataComputedValues(place))
+        this.countries = countriesResult.value
       }
 
       if (globalDataResult.status === 'fulfilled') {
@@ -157,19 +134,39 @@ export class DashboardPageStore {
           earth: rawGlobalData
         }
       }
-
-      if (countriesResult.status === 'fulfilled' && globalDataResult.status === 'fulfilled') {
-        this.lastFetched = new Date()
-      }
     } catch (err) {
       console.error(err)
     }
   }
 
+  @observable
+  private _countries: CountriesObj
+
+  @computed
+  get countries (): CountriesObj {
+    return this._countries ?? LocalStorage.get('countries') ?? { data: [] }
+  }
+
+  set countries (countries: CountriesObj) {
+    this._countries = countries
+    LocalStorage.set('countries', countries)
+  }
+
   @action.bound
-  async fetchCountries ({ cached }: { cached: boolean }) {
-    if (cached && this.countries.length) return { data: this.countries }
-    return PlaceApi.query({ typeId: 'country', include: ['children'] })
+  async fetchCountries (opts: { disableCache?: boolean } = {}) {
+    console.log(this.appStore.locale, this.countries.locale)
+    if (opts?.disableCache !== true && this.countries.data.length && this.appStore.locale === this.countries.locale) {
+      if (this.countries.lastFetched) {
+        const nextFetchAt = moment(this.countries.lastFetched).add(DashboardPageStore.lastFetchedTTL, 'seconds').toDate()
+        if (nextFetchAt > new Date()) return this.countries
+      }
+    }
+    const { data: places } = await PlaceApi.query({ typeId: 'country', include: ['children'] })
+    return {
+      lastFetched: new Date().toString(),
+      locale: this.appStore.locale,
+      data: places.map((place: PlaceShape) => DashboardPageStore.calcPlaceLatestDataComputedValues(place))
+    }
   }
 
   @observable

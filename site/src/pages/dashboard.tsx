@@ -17,7 +17,7 @@ interface State {
 @observer
 export default class DashboardPage extends React.Component<Props, State> {
   state: State = {
-    pageStore: new DashboardPageStore()
+    pageStore: new DashboardPageStore(this.props.appStore)
   }
 
   componentDidMount () {
