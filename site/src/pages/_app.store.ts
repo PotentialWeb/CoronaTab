@@ -3,22 +3,26 @@ import { computed, observable } from 'mobx'
 import { UserAgent } from '../utils/user-agent'
 import { Meta } from '../utils/meta'
 import { I18n, TFunction } from 'next-i18next'
+import { LocaleId } from '@coronatab/shared'
 
 interface AppStoreProps {
   i18n: I18n
   t: TFunction
+  locale: LocaleId
 }
 
 useStaticRendering(typeof window === 'undefined')
 
 export class AppStore {
   constructor (props: AppStoreProps) {
-    this.i18n = props.i18n
-    this.t = props.t
+    Object.assign(this, props)
   }
 
   i18n: I18n
   t: TFunction
+
+  @observable
+  locale: LocaleId
 
   @observable
   userAgent = (() => {

@@ -1,27 +1,24 @@
 import React from 'react'
-import { GetStaticProps } from 'next'
-import NextApp, { AppInitialProps } from 'next/app'
+import NextApp, { AppInitialProps, AppContext } from 'next/app'
 import Head from 'next/head'
 import { Provider } from 'mobx-react'
 import { AppStore } from './_app.store'
 import { WithTranslation } from 'next-i18next'
 import { appWithTranslation, withTranslation } from '../utils/i18n'
+import { Cookies } from '../utils/cookies'
 import { Meta } from '../utils/meta'
 import { Facebook } from '../utils/facebook'
 import { Google } from '../utils/google'
+import { LocaleId } from '@coronatab/shared'
 import '../utils/polyfills'
 import '../style.css'
 
-interface Props extends AppInitialProps, WithTranslation {}
+interface Props extends AppInitialProps, WithTranslation {
+  locale: LocaleId
+}
 
 interface State {
   appStore: AppStore
-}
-
-export const getStaticProps: GetStaticProps = async context => {
-  return {
-    props: {}
-  }
 }
 
 if (typeof window !== 'undefined' && 'serviceWorker' in navigator) {
@@ -44,12 +41,23 @@ if (typeof window !== 'undefined' && 'serviceWorker' in navigator) {
 }
 
 class App extends NextApp<Props, State> {
-  state: State = {
-    appStore: new AppStore({
-      i18n: this.props.i18n,
-      t: this.props.t
-    })
+  static getInitialProps = async (ctx: AppContext) => {
+    const appProps: AppInitialProps = await NextApp.getInitialProps(ctx)
+    return {
+      ...appProps,
+      locale: Cookies.get('next-i18next', ctx)
+    }
   }
+
+  state: State = (() => {
+    const { i18n, t, locale } = this.props
+    const appStore = new AppStore({
+      i18n,
+      t,
+      locale
+    })
+    return { appStore }
+  })()
 
   componentDidMount () {
     Google.useTagManager()

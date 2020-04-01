@@ -1,18 +1,18 @@
 import { HTTP, HTTPMethod, HTTPOptions } from './http'
-import { LocalStorage } from './storage'
+import { Cookies } from './cookies'
 
 export class Api {
   static host = process.env.API_HOST
   static namespace = process.env.API_NAMESPACE
 
   static getHeaders = async () => {
-    const locale = LocalStorage.get('locale')
+    const locale = Cookies.get('next-i18next')
     return {
       'Accept': 'application/json',
       'Content-Type': 'application/json',
       'access-control-allow-origin': '*',
       'domain': process.env.DOMAIN,
-      'Accept-Language': locale ?? 'en-GB'
+      'Accept-Language': locale ?? 'en'
     }
   }
 

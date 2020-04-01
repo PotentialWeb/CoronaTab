@@ -31,6 +31,7 @@
     "next-compose-plugins": "^2.2.0",
     "next-i18next": "^4.2.1",
     "next-offline": "^5.0.0",
+    "nookies": "^2.2.2",
     "numeral": "^2.0.6",
     "ol": "^6.2.1",
     "promise.allsettled": "^1.0.2",
