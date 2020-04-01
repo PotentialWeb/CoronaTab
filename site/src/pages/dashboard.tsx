@@ -3,13 +3,17 @@ import { Provider, observer } from 'mobx-react'
 import { DashboardPageStore, LoadingStatus } from './dashboard.store'
 import { DashboardComponent } from '../components/dashboard'
 import { LoadingComponent } from '../components/loading'
+import { WithTranslation } from 'next-i18next'
+import { withTranslation } from '../utils/i18n'
+
+interface Props extends WithTranslation {}
 
 interface State {
   pageStore: DashboardPageStore
 }
 
 @observer
-export default class DashboardPage extends React.Component<{}, State> {
+class DashboardPage extends React.Component<Props, State> {
   state: State = {
     pageStore: new DashboardPageStore()
   }
@@ -23,8 +27,8 @@ export default class DashboardPage extends React.Component<{}, State> {
   }
 
   render () {
+    const { t } = this.props
     const { pageStore } = this.state
-    const { localeStrings } = pageStore
 
     return (
       <Provider pageStore={pageStore}>
@@ -44,12 +48,12 @@ export default class DashboardPage extends React.Component<{}, State> {
                 return (
                   <div className="h-screen w-screen flex flex-col items-center justify-center">
                     <LoadingComponent className="h-16" />
-                <span className="font-bold text-xl mt-1 mb-2">{localeStrings['service-unavailable']}</span>
+                <span className="font-bold text-xl mt-1 mb-2">{t('service-unavailable')}</span>
                     <button
                       onClick={() => window.location.reload()}
                       className="btn btn-white border-2 border-light rounded px-3 py-1"
                     >
-                      {localeStrings['try-again']}
+                      {t('try-again')}
                     </button>
                   </div>
                 )
@@ -60,3 +64,5 @@ export default class DashboardPage extends React.Component<{}, State> {
     )
   }
 }
+
+export default withTranslation()(DashboardPage)

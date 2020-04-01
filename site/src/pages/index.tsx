@@ -1,5 +1,7 @@
 import { Component } from 'react'
 import Link from 'next/link'
+import { WithTranslation } from 'next-i18next'
+import { withTranslation } from '../utils/i18n'
 import { Meta } from '../utils/meta'
 import ArrowRightSvg from '../../public/icons/arrow-right.svg'
 import ExternalLinkSvg from '../../public/icons/external-link.svg'
@@ -7,11 +9,11 @@ import LogoTextSvg from '../../public/icons/logo-text.svg'
 import { ExtensionDownloadBtnComponent } from '../components/extension-download-btn'
 import { FooterComponent } from '../components/footer'
 
-export default class IndexPage extends Component {
+interface Props extends WithTranslation {}
 
+class IndexPage extends Component<Props> {
   render () {
-    // TODO: Get correct localization string depending on locale header or cookie!
-    const localeStrings = require('../../public/data/locale-strings/en.json')
+    const { t } = this.props
     return (
       <main data-page="index">
         <header className="pt-4 sm:pt-10 pb-16 md:pt-12 3xl:pt-16">
@@ -20,7 +22,7 @@ export default class IndexPage extends Component {
               <div className="w-full lg:w-1/2">
                 <LogoTextSvg className="h-10 mt-2 mb-8" />
                 <h1 className="font-bold mt-8 mb-6 text-6xl leading-none">
-                  {localeStrings['open-source']}<br />{localeStrings['coronavirus']}<br /> {localeStrings['data-platform']}
+                  {t('open-source')}<br />{t('coronavirus')}<br /> {t('data-platform')}
                 </h1>
                 <h3 className="font-bold mb-6 text-xl text-brand-light" style={{ maxWidth: '90%' }}>
                   #coronatab #COVID19
@@ -34,7 +36,7 @@ export default class IndexPage extends Component {
                       rel={`${Meta.APP_NAME} dashboard`}
                       className="inline-flex items-center btn btn-white border-2 border-lighter px-6 py-4 text-xl rounded"
                     >
-                      <span>{localeStrings['go-to-the-dashboard']}</span>
+                      <span>{t('go-to-the-dashboard')}</span>
                       <ArrowRightSvg className="h-line ml-3" />
                     </a>
                   </Link>
@@ -52,7 +54,7 @@ export default class IndexPage extends Component {
                       target="_blank"
                       className="flex items-center btn btn-white border-2 border-lighter px-4 py-3 rounded my-1"
                     >
-                      <span>REST API {localeStrings['documentation']}</span>
+                      <span>REST API {t('documentation')}</span>
                       <ExternalLinkSvg className="h-line-sm ml-2" />
                     </a>
                   </div>
@@ -76,3 +78,5 @@ export default class IndexPage extends Component {
     )
   }
 }
+
+export default withTranslation()(IndexPage)

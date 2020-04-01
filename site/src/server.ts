@@ -1,16 +1,21 @@
-const { createServer } = require('http')
-const { join } = require('path')
-const { parse } = require('url')
-const next = require('next')
-const nextI18NextMiddleware = require('next-i18next/middleware').default
-const nextI18next = require('./src/utils/i18n')
+import express from 'express'
+import { join } from 'path'
+import { parse } from 'url'
+import next from 'next'
+import nextI18NextMiddleware from 'next-i18next/middleware'
+import nextI18next from './utils/i18n'
 
 const app = next({ dev: process.env.NODE_ENV !== 'production' })
 const handle = app.getRequestHandler()
 const port = process.env.PORT || 3000
 
-(async () => {
-  const server = createServer((req, res) => {
+;(async () => {
+  const server = express()
+
+  await nextI18next.initPromise
+  server.use(nextI18NextMiddleware(nextI18next))
+
+  server.get('*', (req, res) => {
     const parsedUrl = parse(req.url, true)
     const { pathname } = parsedUrl
     // handle GET request to /service-worker.js
@@ -22,8 +27,6 @@ const port = process.env.PORT || 3000
     }
   })
 
-  await nextI18next.initPromise
-  server.use(nextI18NextMiddleware(nextI18next))
-
-  server.listen(port, () => console.log(`> Ready on http://localhost:${port}`))
+  await server.listen(port)
+  console.log(`> Ready on http://localhost:${port}`)
 })()

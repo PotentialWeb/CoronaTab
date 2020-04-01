@@ -1,26 +1,24 @@
 import { Component } from 'react'
 import Link from 'next/link'
-import { inject, observer } from 'mobx-react'
 import { DashboardPageStore } from '../pages/dashboard.store'
 import { DashboardQuickLinksComponent } from './dashboard/quick-links'
 import { DashboardGeneralAdviceComponent } from './dashboard/general-advice'
 import { ShareBtnComponent } from './share-btn'
 import { DashboardGlobalComponent } from './dashboard/global'
 import { DashboardPlaceComponent } from './dashboard/place'
+import { WithTranslation } from 'next-i18next'
+import { withTranslation } from '../utils/i18n'
 import LogoTextSvg from '../../public/icons/logo-text.svg'
 import ExternalLinkSvg from '../../public/icons/external-link.svg'
 
-interface Props {
+interface Props extends WithTranslation {
   pageStore?: DashboardPageStore
 }
 
-@inject('pageStore')
-@observer
-export class DashboardComponent extends Component<Props> {
+class BaseDashboardComponent extends Component<Props> {
   render () {
-    const { pageStore } = this.props
+    const { t } = this.props
     const iFramed = window?.self !== window?.top
-    const { localeStrings } = pageStore
     return (
       <div className="dashboard">
         <div className="dashboard-content">
@@ -66,9 +64,6 @@ export class DashboardComponent extends Component<Props> {
                   className="btn btn-white flex items-center border border-light px-6 py-1 rounded"
                 />
               </div>
-              {/*<span className="text-xs">
-                Last Updated: {pageStore.lastUpdated?.toISOString()}
-              </span>*/}
             </div>
 
             <div className="dashboard-spacer-y">
@@ -84,16 +79,12 @@ export class DashboardComponent extends Component<Props> {
                   className="px-4 py-3 bg-brand-light hover:bg-brand-lighter text-white rounded-lg leading-tight font-bold"
                 >
                   <span className="text-sm mr-4">
-                    {localeStrings['promo-message']}
+                    {t('promo-message')}
                     <ExternalLinkSvg className="inline-block h-line ml-2" />
                   </span>
                 </div>
               </a>
             </div>
-
-            {
-              // TODO: Add regionalised information for how to take action if you or a loved one are ill.
-            }
 
             <div className="dashboard-spacer">
               <DashboardQuickLinksComponent />
@@ -104,3 +95,5 @@ export class DashboardComponent extends Component<Props> {
     )
   }
 }
+
+export const DashboardComponent = withTranslation()(BaseDashboardComponent)

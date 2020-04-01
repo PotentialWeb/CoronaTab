@@ -1,6 +1,8 @@
 import { Component } from 'react'
 import { inject, observer } from 'mobx-react'
 import { DashboardPageStore, Place, LoadingStatus } from '../../pages/dashboard.store'
+import { WithTranslation } from 'next-i18next'
+import { withTranslation } from '../../utils/i18n'
 import { PlaceSelectComponent } from '../place-select'
 import { DashboardCumulativeGraphComponent } from './visualizations/cumulative-graph'
 import { DashboardDailyChartComponent } from './visualizations/daily-chart'
@@ -8,7 +10,7 @@ import { DashboardStatsComponent } from './stats'
 import { LoadingComponent } from '../loading'
 import { DashboardCompareGraphComponent } from './visualizations/compare-graph'
 
-interface Props {
+interface Props extends WithTranslation {
   pageStore?: DashboardPageStore
 }
 
@@ -25,7 +27,7 @@ interface State {
 
 @inject('pageStore')
 @observer
-export class DashboardPlaceComponent extends Component<Props, State> {
+class BaseDashboardPlaceComponent extends Component<Props, State> {
   state: State = (() => {
     const selectedPlace = this.props.pageStore.selectedPlace
     let data = {}
@@ -93,10 +95,9 @@ export class DashboardPlaceComponent extends Component<Props, State> {
   }
 
   render () {
-    const { pageStore } = this.props
+    const { pageStore, t } = this.props
     const selectedParentPlace = pageStore.selectedPlaceTree?.length > 0 ? pageStore.selectedPlaceTree[0] : null
     const selectedChildPlace = pageStore.selectedPlaceTree?.length === 2 ? pageStore.selectedPlaceTree[1] : null
-    const { localeStrings } = pageStore
     return (
       <div className="dashboard-place">
         <div className="dashboard-panel dashboard-spacer-y">
@@ -114,7 +115,7 @@ export class DashboardPlaceComponent extends Component<Props, State> {
                 pageStore.selectedPlaceTree = place ? [place] : []
               }}
               className="my-1 mr-2"
-              inputPlaceholder={localeStrings['select-a-country']}
+              inputPlaceholder={t('select-a-country')}
             />
             {(() => {
               if (!selectedParentPlace?.children?.length) return ''
@@ -126,7 +127,7 @@ export class DashboardPlaceComponent extends Component<Props, State> {
                 onChange={place => {
                   pageStore.selectedPlaceTree = place ? [selectedParentPlace, place] : [selectedParentPlace]
                 }}
-                inputPlaceholder={localeStrings['select-a-region']}
+                inputPlaceholder={t('select-a-region')}
                 className="my-1 mr-2"
               />
               )
@@ -204,3 +205,5 @@ export class DashboardPlaceComponent extends Component<Props, State> {
     )
   }
 }
+
+export const DashboardPlaceComponent = withTranslation()(BaseDashboardPlaceComponent)
