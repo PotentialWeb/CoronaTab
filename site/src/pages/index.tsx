@@ -1,19 +1,24 @@
 import { Component } from 'react'
 import Link from 'next/link'
-import { WithTranslation } from 'next-i18next'
-import { withTranslation } from '../utils/i18n'
 import { Meta } from '../utils/meta'
 import ArrowRightSvg from '../../public/icons/arrow-right.svg'
 import ExternalLinkSvg from '../../public/icons/external-link.svg'
 import LogoTextSvg from '../../public/icons/logo-text.svg'
 import { ExtensionDownloadBtnComponent } from '../components/extension-download-btn'
 import { FooterComponent } from '../components/footer'
+import { inject, observer } from 'mobx-react'
+import { AppStore } from './_app.store'
 
-interface Props extends WithTranslation {}
+interface Props {
+  appStore: AppStore
+}
 
-class IndexPage extends Component<Props> {
+@inject('appStore')
+@observer
+export default class IndexPage extends Component<Props> {
   render () {
-    const { t } = this.props
+    const { appStore } = this.props
+    const { t } = appStore
     return (
       <main data-page="index">
         <header className="pt-4 sm:pt-10 pb-16 md:pt-12 3xl:pt-16">
@@ -78,5 +83,3 @@ class IndexPage extends Component<Props> {
     )
   }
 }
-
-export default withTranslation()(IndexPage)

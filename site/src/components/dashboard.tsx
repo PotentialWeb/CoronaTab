@@ -1,23 +1,26 @@
 import { Component } from 'react'
 import Link from 'next/link'
-import { DashboardPageStore } from '../pages/dashboard.store'
+import { inject, observer } from 'mobx-react'
+import { AppStore } from '../pages/_app.store'
 import { DashboardQuickLinksComponent } from './dashboard/quick-links'
 import { DashboardGeneralAdviceComponent } from './dashboard/general-advice'
 import { ShareBtnComponent } from './share-btn'
 import { DashboardGlobalComponent } from './dashboard/global'
 import { DashboardPlaceComponent } from './dashboard/place'
-import { WithTranslation } from 'next-i18next'
-import { withTranslation } from '../utils/i18n'
 import LogoTextSvg from '../../public/icons/logo-text.svg'
 import ExternalLinkSvg from '../../public/icons/external-link.svg'
 
-interface Props extends WithTranslation {
-  pageStore?: DashboardPageStore
+
+interface Props {
+  appStore?: AppStore
 }
 
-class BaseDashboardComponent extends Component<Props> {
+@inject('appStore')
+@observer
+export class DashboardComponent extends Component<Props> {
   render () {
-    const { t } = this.props
+    const { appStore } = this.props
+    const { t } = appStore
     const iFramed = window?.self !== window?.top
     return (
       <div className="dashboard">
@@ -95,5 +98,3 @@ class BaseDashboardComponent extends Component<Props> {
     )
   }
 }
-
-export const DashboardComponent = withTranslation()(BaseDashboardComponent)

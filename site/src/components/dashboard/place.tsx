@@ -1,8 +1,7 @@
 import { Component } from 'react'
 import { inject, observer } from 'mobx-react'
+import { AppStore } from '../../pages/_app.store'
 import { DashboardPageStore, Place, LoadingStatus } from '../../pages/dashboard.store'
-import { WithTranslation } from 'next-i18next'
-import { withTranslation } from '../../utils/i18n'
 import { PlaceSelectComponent } from '../place-select'
 import { DashboardCumulativeGraphComponent } from './visualizations/cumulative-graph'
 import { DashboardDailyChartComponent } from './visualizations/daily-chart'
@@ -10,7 +9,8 @@ import { DashboardStatsComponent } from './stats'
 import { LoadingComponent } from '../loading'
 import { DashboardCompareGraphComponent } from './visualizations/compare-graph'
 
-interface Props extends WithTranslation {
+interface Props {
+  appStore?: AppStore,
   pageStore?: DashboardPageStore
 }
 
@@ -25,9 +25,9 @@ interface State {
   ignoreLoadingStatus: boolean
 }
 
-@inject('pageStore')
+@inject('appStore', 'pageStore')
 @observer
-class BaseDashboardPlaceComponent extends Component<Props, State> {
+export class DashboardPlaceComponent extends Component<Props, State> {
   state: State = (() => {
     const selectedPlace = this.props.pageStore.selectedPlace
     let data = {}
@@ -95,7 +95,8 @@ class BaseDashboardPlaceComponent extends Component<Props, State> {
   }
 
   render () {
-    const { pageStore, t } = this.props
+    const { appStore, pageStore } = this.props
+    const { t } = appStore
     const selectedParentPlace = pageStore.selectedPlaceTree?.length > 0 ? pageStore.selectedPlaceTree[0] : null
     const selectedChildPlace = pageStore.selectedPlaceTree?.length === 2 ? pageStore.selectedPlaceTree[1] : null
     return (
@@ -205,5 +206,3 @@ class BaseDashboardPlaceComponent extends Component<Props, State> {
     )
   }
 }
-
-export const DashboardPlaceComponent = withTranslation()(BaseDashboardPlaceComponent)

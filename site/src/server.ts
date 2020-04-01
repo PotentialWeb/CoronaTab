@@ -10,6 +10,7 @@ const handle = app.getRequestHandler()
 const port = process.env.PORT || 3000
 
 ;(async () => {
+  await app.prepare()
   const server = express()
 
   await nextI18next.initPromise
@@ -23,10 +24,9 @@ const port = process.env.PORT || 3000
       const filePath = join(__dirname, '.next', pathname)
       app.serveStatic(req, res, filePath)
     } else {
-      handle(req, res, parsedUrl)
+      return handle(req, res)
     }
   })
 
-  await server.listen(port)
-  console.log(`> Ready on http://localhost:${port}`)
+  server.listen(port, () => console.log(`> Ready on http://localhost:${port}`))
 })()

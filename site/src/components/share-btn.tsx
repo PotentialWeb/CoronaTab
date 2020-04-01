@@ -1,4 +1,6 @@
 import { Component, HTMLAttributes } from 'react'
+import { inject, observer } from 'mobx-react'
+import { AppStore } from '../pages/_app.store'
 import Tippy, { TippyProps } from '@tippyjs/react'
 import {
   EmailShareButton,
@@ -9,8 +11,6 @@ import {
   TwitterShareButton,
   WhatsappShareButton
 } from 'react-share'
-import { WithTranslation } from 'next-i18next'
-import { withTranslation } from '../utils/i18n'
 import { Meta } from '../utils/meta'
 import EmailSvg from '../../public/icons/email.svg'
 import FacebookSvg from '../../public/icons/facebook.svg'
@@ -21,18 +21,23 @@ import ShareSvg from '../../public/icons/share.svg'
 import TwitterSvg from '../../public/icons/twitter.svg'
 import WhatsappSvg from '../../public/icons/whatsapp.svg'
 
-interface Props extends HTMLAttributes<HTMLButtonElement>, WithTranslation {
+interface Props extends HTMLAttributes<HTMLButtonElement> {
+  appStore?: AppStore
   tooltipPlacement?: 'top' | 'bottom'
 }
 
-class BaseShareBtnComponent extends Component<Props> {
+@inject('appStore')
+@observer
+export class ShareBtnComponent extends Component<Props> {
   render () {
     const {
       tooltipPlacement,
       className = '',
-      t,
+      appStore,
       ...props
     } = this.props
+
+    const { t } = appStore
 
     const shareUrl = `${Meta.BASE_PATH}/dashboard`
     const title = `${Meta.APP_NAME} - ${Meta.STRAPLINE}`
@@ -133,5 +138,3 @@ class BaseShareBtnComponent extends Component<Props> {
     )
   }
 }
-
-export const ShareBtnComponent = withTranslation()(BaseShareBtnComponent)

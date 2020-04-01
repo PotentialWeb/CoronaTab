@@ -1,10 +1,9 @@
 import { Component } from 'react'
+import { AppStore } from '../../pages/_app.store'
+import { DashboardPageStore } from '../../pages/dashboard.store'
 import SwiperComponent from 'react-id-swiper'
 import Swiper from 'swiper'
 import { inject, observer } from 'mobx-react'
-import { DashboardPageStore } from '../../pages/dashboard.store'
-import { WithTranslation } from 'next-i18next'
-import { withTranslation } from '../../utils/i18n'
 import ExternalLinkSvg from '../../../public/icons/external-link.svg'
 
 export enum GeneralAdviceId {
@@ -19,13 +18,14 @@ interface State {
   swiper: Swiper
 }
 
-interface Props extends WithTranslation {
+interface Props {
+  appStore?: AppStore,
   pageStore?: DashboardPageStore
 }
 
-@inject('pageStore')
+@inject('appStore', 'pageStore')
 @observer
-class BaseDashboardGeneralAdviceComponent extends Component<Props, State> {
+export class DashboardGeneralAdviceComponent extends Component<Props, State> {
   state: State = {
     swiper: null
   }
@@ -48,7 +48,8 @@ class BaseDashboardGeneralAdviceComponent extends Component<Props, State> {
   }
 
   render () {
-    const { t } = this.props
+    const { appStore } = this.props
+    const { t } = appStore
 
     const swiperParams = {
       loop: true,
@@ -109,5 +110,3 @@ class BaseDashboardGeneralAdviceComponent extends Component<Props, State> {
     )
   }
 }
-
-export const DashboardGeneralAdviceComponent = withTranslation()(BaseDashboardGeneralAdviceComponent)

@@ -4,6 +4,7 @@ import NextApp, { AppInitialProps } from 'next/app'
 import Head from 'next/head'
 import { Provider } from 'mobx-react'
 import { AppStore } from './_app.store'
+import { WithTranslation } from 'next-i18next'
 import { appWithTranslation, withTranslation } from '../utils/i18n'
 import { Meta } from '../utils/meta'
 import { Facebook } from '../utils/facebook'
@@ -11,7 +12,7 @@ import { Google } from '../utils/google'
 import '../utils/polyfills'
 import '../style.css'
 
-interface Props extends AppInitialProps {}
+interface Props extends AppInitialProps, WithTranslation {}
 
 interface State {
   appStore: AppStore
@@ -44,7 +45,10 @@ if (typeof window !== 'undefined' && 'serviceWorker' in navigator) {
 
 class App extends NextApp<Props, State> {
   state: State = {
-    appStore: new AppStore()
+    appStore: new AppStore({
+      i18n: this.props.i18n,
+      t: this.props.t
+    })
   }
 
   componentDidMount () {
@@ -112,4 +116,4 @@ class App extends NextApp<Props, State> {
   }
 }
 
-export default appWithTranslation(App)
+export default appWithTranslation(withTranslation()(App))

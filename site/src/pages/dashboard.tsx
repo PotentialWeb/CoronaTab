@@ -1,19 +1,21 @@
 import React from 'react'
-import { Provider, observer } from 'mobx-react'
+import { Provider, observer, inject } from 'mobx-react'
+import { AppStore } from './_app.store'
 import { DashboardPageStore, LoadingStatus } from './dashboard.store'
 import { DashboardComponent } from '../components/dashboard'
 import { LoadingComponent } from '../components/loading'
-import { WithTranslation } from 'next-i18next'
-import { withTranslation } from '../utils/i18n'
 
-interface Props extends WithTranslation {}
+interface Props {
+  appStore?: AppStore
+}
 
 interface State {
   pageStore: DashboardPageStore
 }
 
+@inject('appStore')
 @observer
-class DashboardPage extends React.Component<Props, State> {
+export default class DashboardPage extends React.Component<Props, State> {
   state: State = {
     pageStore: new DashboardPageStore()
   }
@@ -27,7 +29,8 @@ class DashboardPage extends React.Component<Props, State> {
   }
 
   render () {
-    const { t } = this.props
+    const { appStore } = this.props
+    const { t } = appStore
     const { pageStore } = this.state
 
     return (
@@ -64,5 +67,3 @@ class DashboardPage extends React.Component<Props, State> {
     )
   }
 }
-
-export default withTranslation()(DashboardPage)

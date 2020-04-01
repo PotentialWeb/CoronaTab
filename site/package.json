@@ -6,11 +6,13 @@
     "dev": "env PORT=8080 ts-node --project tsconfig.server.json src/server.ts",
     "dev:local": "env NODE_ENV=development npm run dev",
     "dev:production": "env API_HOST=https://api.coronatab.app npm run dev:local",
-    "build": "next build && tsc --project tsconfig.server.json",
+    "build": "npm run build:next && npm run build:server",
+    "build:next": "next build",
+    "build:server": "tsc --project tsconfig.server.json",
     "build:development": "npm run build",
     "build:production": "env NODE_ENV=production npm run build",
     "deploy": "export $(egrep -v '^#' .env | xargs) && cd ../ && ./site/scripts/deploy.sh",
-    "start": "env NODE_ENV=production ts-node src/server.ts"
+    "start": "env NODE_ENV=production ts-node dist/server.ts"
   },
   "dependencies": {
     "@coronatab/shared": "file:../modules/shared",

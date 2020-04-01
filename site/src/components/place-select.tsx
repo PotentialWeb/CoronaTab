@@ -1,15 +1,17 @@
 import { Component, createRef, RefObject } from 'react'
+import { AppStore } from '../pages/_app.store'
+import { observer, inject } from 'mobx-react'
 import Downshift from 'downshift'
 import { Place as PlaceShape } from '@coronatab/shared'
 import { Place, DashboardPageStore } from '../pages/dashboard.store'
 import Tippy from '@tippyjs/react'
-import { WithTranslation } from 'next-i18next'
-import { withTranslation } from '../utils/i18n'
 import CaretUpSvg from '../../public/icons/caret-up.svg'
 import CaretDownSvg from '../../public/icons/caret-down.svg'
 import CloseSvg from '../../public/icons/close.svg'
 
-interface Props extends Omit<React.HTMLAttributes<HTMLDivElement>, 'onChange'>, WithTranslation {
+
+interface Props extends Omit<React.HTMLAttributes<HTMLDivElement>, 'onChange'> {
+  appStore?: AppStore
   options: Place[] | PlaceShape[]
   pageStore: DashboardPageStore
   selectedPlace?: Place | PlaceShape
@@ -24,7 +26,9 @@ interface State {
   selectedPlace: Place | PlaceShape
 }
 
-class BasePlaceSelectComponent extends Component<Props, State> {
+@inject('appStore')
+@observer
+export class PlaceSelectComponent extends Component<Props, State> {
   state: State = {
     selectedPlace: this.props.selectedPlace
   }
@@ -61,9 +65,11 @@ class BasePlaceSelectComponent extends Component<Props, State> {
       listItemClassName,
       onChange,
       pageStore,
-      t,
+      appStore,
       ...props
     } = this.props
+
+    const { t } = appStore
 
     return (
       <Downshift
@@ -169,5 +175,3 @@ class BasePlaceSelectComponent extends Component<Props, State> {
     )
   }
 }
-
-export const PlaceSelectComponent = withTranslation()(BasePlaceSelectComponent)
