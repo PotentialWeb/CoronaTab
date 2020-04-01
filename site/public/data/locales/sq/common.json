@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "Nëse shfaqni simptoma si gripi, duhet të izoloheni si masë paraprake dhe të shmangni rrezikun e përhapjes së infeksionit duke qëndruar në shtëpi.",
   "compare": "Krahasim",
   "country": "Vend",
-  "global": "Global"
+  "global": "Global",
+  "extension": "Zgjerim",
+  "index-title": "Platforma e të dhënave të koronavirusit me burim të hapur",
+  "strapline": "Platformë me burim të hapur për të dhënat COVID-19"
 }

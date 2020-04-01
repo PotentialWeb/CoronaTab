@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "如果您出现类似流感的症状，则应进行自我隔离，作为预防措施，并避免留在家中传播感染的风险。",
   "compare": "比较",
   "country": "国家",
-  "global": "全球"
+  "global": "全球",
+  "extension": "延期",
+  "index-title": "开源冠状病毒数据平台",
+  "strapline": "COVID-19数据的开源平台"
 }

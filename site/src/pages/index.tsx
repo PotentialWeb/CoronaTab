@@ -1,6 +1,5 @@
 import { Component } from 'react'
 import { Link } from '../utils/i18n'
-import { Meta } from '../utils/meta'
 import ArrowRightSvg from '../../public/icons/arrow-right.svg'
 import ExternalLinkSvg from '../../public/icons/external-link.svg'
 import LogoTextSvg from '../../public/icons/logo-text.svg'
@@ -8,6 +7,7 @@ import { ExtensionDownloadBtnComponent } from '../components/extension-download-
 import { FooterComponent } from '../components/footer'
 import { inject, observer } from 'mobx-react'
 import { AppStore } from './_app.store'
+import { Translation } from 'react-i18next'
 
 interface Props {
   appStore: AppStore
@@ -18,7 +18,7 @@ interface Props {
 export default class IndexPage extends Component<Props> {
   render () {
     const { appStore } = this.props
-    const { t } = appStore
+    const { t, meta } = appStore
     return (
       <main data-page="index">
         <header className="pt-4 sm:pt-10 pb-16 md:pt-12 3xl:pt-16">
@@ -27,18 +27,18 @@ export default class IndexPage extends Component<Props> {
               <div className="w-full lg:w-1/2">
                 <LogoTextSvg className="h-10 mt-2 mb-8" />
                 <h1 className="font-bold mt-8 mb-6 text-6xl leading-none">
-                  {t('open-source')}<br />{t('coronavirus')}<br /> {t('data-platform')}
+                  {t('index-title')}
                 </h1>
                 <h3 className="font-bold mb-6 text-xl text-brand-light" style={{ maxWidth: '90%' }}>
-                  #coronatab #COVID19
+                  #coronatab #COVID-19
                 </h3>
                 <h2 className="font-bold mb-6 text-lg text-brand-light" style={{ maxWidth: '90%' }}>
-                  {Meta.DESCRIPTION}
+                  {meta.description}
                 </h2>
                 <div className="my-2">
                   <Link href="/dashboard">
                     <a
-                      rel={`${Meta.APP_NAME} dashboard`}
+                      rel={`${meta.appName} dashboard`}
                       className="inline-flex items-center btn btn-white border-2 border-lighter px-6 py-4 text-xl rounded"
                     >
                       <span>{t('go-to-the-dashboard')}</span>
@@ -69,7 +69,7 @@ export default class IndexPage extends Component<Props> {
                 <div className="my-12 lg:ml-12">
                   <img
                     src="/graphics/main.svg"
-                    alt={Meta.STRAPLINE}
+                    alt={meta.strapline}
                     className="mx-auto h-auto"
                     style={{ width: '600px', maxWidth: '100%' }}
                   />

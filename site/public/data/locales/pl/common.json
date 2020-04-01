@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "Jeśli wystąpią objawy grypopodobne, należy się odizolować jako środek ostrożności i uniknąć ryzyka rozprzestrzeniania się infekcji, pozostając w domu.",
   "compare": "Porównać",
   "country": "Kraj",
-  "global": "Światowy"
+  "global": "Światowy",
+  "extension": "Rozbudowa",
+  "index-title": "Platforma danych Coronavirus typu open source",
+  "strapline": "Platforma open source dla danych COVID-19"
 }

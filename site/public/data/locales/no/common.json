@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "Hvis du utvikler influensalignende symptomer, bør du selvisolere deg som et forsiktighets tiltak og unngå risikoen for å spre infeksjonen ved å være hjemme.",
   "compare": "Sammenligne",
   "country": "Land",
-  "global": "Global"
+  "global": "Global",
+  "extension": "Utvidelse",
+  "index-title": "Open source Coronavirus dataplattform",
+  "strapline": "Open source plattform for COVID-19 data"
 }

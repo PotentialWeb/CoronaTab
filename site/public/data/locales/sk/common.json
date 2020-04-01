@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "Ak sa u vás objavia príznaky podobné chrípke, mali by ste sa ako preventívne opatrenie izolovať a vyhnúť sa riziku šírenia infekcie tým, že zostanete doma.",
   "compare": "Porovnať",
   "country": "Krajina",
-  "global": "Globálnej"
+  "global": "Globálnej",
+  "extension": "Predĺženie",
+  "index-title": "Otvorená zdrojová dátová platforma Coronavirus",
+  "strapline": "Open source platforma pre dáta COVID-19"
 }

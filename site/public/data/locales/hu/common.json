@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "Ha influenza-szerű tünetek jelentkeznek, óvintézkedésként önállóan el kell elszigetelnie és el kell kerülnie a fertőzés terjedésének kockázatát, ha otthon marad.",
   "compare": "Összehasonlítás",
   "country": "Ország",
-  "global": "Globális"
+  "global": "Globális",
+  "extension": "Kiterjesztés",
+  "index-title": "Nyílt forráskódú Coronavirus adatplatform",
+  "strapline": "Nyílt forráskódú platform a COVID-19 adatokhoz"
 }

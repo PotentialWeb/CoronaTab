@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "Si es desenvolupen símptomes com a grip, hauríeu de fer-vos un aïllament propi com a mesura de precaució i evitar el risc de propagar la infecció per romandre a casa.",
   "compare": "Compareu",
   "country": "País",
-  "global": "Global"
+  "global": "Global",
+  "extension": "Extensió",
+  "index-title": "Plataforma de dades Coronavirus de codi obert",
+  "strapline": "Plataforma de codi obert per a dades de COVID-19"
 }

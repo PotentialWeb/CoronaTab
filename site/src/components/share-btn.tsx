@@ -11,7 +11,7 @@ import {
   TwitterShareButton,
   WhatsappShareButton
 } from 'react-share'
-import { Meta } from '../utils/meta'
+import { Facebook } from '../utils/facebook'
 import EmailSvg from '../../public/icons/email.svg'
 import FacebookSvg from '../../public/icons/facebook.svg'
 import LinkedinSvg from '../../public/icons/linkedin.svg'
@@ -37,10 +37,10 @@ export class ShareBtnComponent extends Component<Props> {
       ...props
     } = this.props
 
-    const { t } = appStore
+    const { t, meta, urlInfo } = appStore
 
-    const shareUrl = `${Meta.BASE_PATH}/dashboard`
-    const title = `${Meta.APP_NAME} - ${Meta.STRAPLINE}`
+    const shareUrl = `${urlInfo.origin}/dashboard`
+    const title = `${meta.appName} - ${meta.strapline}`
     const buttonClassName = ''
     const tippyProps: Partial<TippyProps> = {
       animation: 'shift-away',
@@ -63,8 +63,8 @@ export class ShareBtnComponent extends Component<Props> {
             <li>
               <EmailShareButton
                 url={shareUrl}
-                subject={`Check out ${Meta.APP_NAME}`}
-                body={Meta.STRAPLINE}
+                subject={`Check out ${meta.appName}`}
+                body={meta.strapline}
                 className={buttonClassName}
               >
                 <EmailSvg className="h-line" />
@@ -91,7 +91,7 @@ export class ShareBtnComponent extends Component<Props> {
             <li>
               <FacebookMessengerShareButton
                 url={shareUrl}
-                appId={Meta.FACEBOOK_APP_ID}
+                appId={Facebook.APP_ID.toString()}
                 className={buttonClassName}
               >
                 <MessengerSvg className="h-line" />

@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "Dacă dezvoltați simptome ca gripa, ar trebui să vă auto-izolați ca măsură de precauție și să evitați riscul de a răspândi infecția rămânând acasă.",
   "compare": "Comparaţie",
   "country": "Țară",
-  "global": "Global"
+  "global": "Global",
+  "extension": "Extensie",
+  "index-title": "Platforma de date Coronavirus open source",
+  "strapline": "Platforma open source pentru datele COVID-19"
 }

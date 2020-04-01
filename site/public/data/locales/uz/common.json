@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "Agar siz gripp kabi simptomlarni rivojlantirsangiz, ehtiyot chorasi sifatida o'zingizni izolyatsiya qilishingiz va uyda qolib infektsiyani yuqtirish xavfidan qochishingiz kerak.",
   "compare": "Taqqoslang",
   "country": "Mamlakat",
-  "global": "Global"
+  "global": "Global",
+  "extension": "Kengaytma",
+  "index-title": "Ochiq manbali Coronavirus ma'lumotlar platformasi",
+  "strapline": "COVID-19 ma'lumotlari uchun ochiq manbali platforma"
 }

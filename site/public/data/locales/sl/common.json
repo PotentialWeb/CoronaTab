@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "Če se pojavijo simptomi, podobni gripi, se morate kot previdnostni ukrep samo osamiti in se izogniti tveganju za širjenje okužbe, če boste ostali doma.",
   "compare": "Primerjaj",
   "country": "Država",
-  "global": "Globalno"
+  "global": "Globalno",
+  "extension": "Podaljšek",
+  "index-title": "Odprta koda podatkovna platforma Coronavirus",
+  "strapline": "Odprta platforma za podatke COVID-19"
 }

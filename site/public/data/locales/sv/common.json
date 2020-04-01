@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "Om du utvecklar influensaliknande symtom bör du självisolera som en försiktighetsåtgärd och undvika risken för att sprida infektionen genom att stanna hemma.",
   "compare": "Jämföra",
   "country": "Land",
-  "global": "Global"
+  "global": "Global",
+  "extension": "Förlängning",
+  "index-title": "Coronavirus dataplattform med öppen källa",
+  "strapline": "Open source-plattform för COVID-19-data"
 }

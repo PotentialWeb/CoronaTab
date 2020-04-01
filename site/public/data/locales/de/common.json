@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "Wenn Sie grippeähnliche Symptome entwickeln, sollten Sie sich vorsorglich selbst isolieren und das Risiko einer Ausbreitung der Infektion vermeiden, indem Sie zu Hause bleiben.",
   "compare": "Vergleichen",
   "country": "Land",
-  "global": "Global"
+  "global": "Global",
+  "extension": "Erweiterung",
+  "index-title": "Open Source Coronavirus-Datenplattform",
+  "strapline": "Open Source Plattform für COVID-19 Daten"
 }

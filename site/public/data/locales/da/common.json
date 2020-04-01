@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "Hvis du udvikler influenzalignende symptomer, skal du selvisolere som en forsigtighedsforanstaltning og undgå risikoen for at sprede infektionen ved at blive hjemme.",
   "compare": "Sammenligne",
   "country": "Land",
-  "global": "Global"
+  "global": "Global",
+  "extension": "Udvidelse",
+  "index-title": "Open source Coronavirus dataplatform",
+  "strapline": "Open source platform til COVID-19 data"
 }

@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "As u griepagtige simptome opdoen, moet u uself isoleer as voorsorgmaatreël en vermy die risiko dat u die infeksie versprei deur tuis te bly.",
   "compare": "Vergelyk",
   "country": "Land",
-  "global": "Global"
+  "global": "Global",
+  "extension": "Uitbreiding",
+  "index-title": "Open source Coronavirus-dataplatform",
+  "strapline": "Open source platform vir COVID-19 data"
 }

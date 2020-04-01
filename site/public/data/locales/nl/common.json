@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "Als u griepachtige symptomen krijgt, moet u uit voorzorg zelf isoleren en het risico op verspreiding van de infectie voorkomen door thuis te blijven.",
   "compare": "Vergelijken",
   "country": "Land",
-  "global": "Globaal"
+  "global": "Globaal",
+  "extension": "Uitbreiding",
+  "index-title": "Open source Coronavirus-gegevensplatform",
+  "strapline": "Open source-platform voor COVID-19-gegevens"
 }

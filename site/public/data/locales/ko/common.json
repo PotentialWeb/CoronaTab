@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "독감과 같은 증상이 나타나면 예방 조치로자가 격리하고 집에 머물면서 감염이 확산 될 위험을 피해야합니다.",
   "compare": "비교",
   "country": "국가",
-  "global": "글로벌"
+  "global": "글로벌",
+  "extension": "신장",
+  "index-title": "오픈 소스 코로나 바이러스 데이터 플랫폼",
+  "strapline": "COVID-19 데이터를위한 오픈 소스 플랫폼"
 }

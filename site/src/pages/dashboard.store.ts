@@ -154,7 +154,6 @@ export class DashboardPageStore {
 
   @action.bound
   async fetchCountries (opts: { disableCache?: boolean } = {}) {
-    console.log(this.appStore.locale, this.countries.locale)
     if (opts?.disableCache !== true && this.countries.data.length && this.appStore.locale === this.countries.locale) {
       if (this.countries.lastFetched) {
         const nextFetchAt = moment(this.countries.lastFetched).add(DashboardPageStore.lastFetchedTTL, 'seconds').toDate()

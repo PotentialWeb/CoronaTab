@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "Si vous développez des symptômes pseudo-grippaux, vous devez vous isoler par mesure de précaution et éviter le risque de propager l'infection en restant à la maison.",
   "compare": "Comparer",
   "country": "Pays",
-  "global": "Global"
+  "global": "Global",
+  "extension": "Extension",
+  "index-title": "Plateforme de données open source Coronavirus",
+  "strapline": "Plateforme open source pour les données COVID-19"
 }

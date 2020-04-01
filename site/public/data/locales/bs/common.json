@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "Ako razvijete simptome nalik gripu, trebali biste se samoizolirati kao mjeru predostrožnosti i izbjeći rizik od širenja infekcije ostajući kod kuće.",
   "compare": "Uporedi",
   "country": "Država",
-  "global": "Globalno"
+  "global": "Globalno",
+  "extension": "Produžetak",
+  "index-title": "Coronavirus platforma podataka otvorenog koda",
+  "strapline": "Platforma otvorenog koda za podatke COVID-19"
 }

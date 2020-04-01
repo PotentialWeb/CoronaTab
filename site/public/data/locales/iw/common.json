@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "אם אתה מפתח תסמינים דמויי שפעת, עליך לבודד את עצמך כאמצעי זהירות ולהימנע מהסיכון להתפשטות הזיהום על ידי הישארות בבית.",
   "compare": "השווה",
   "country": "מדינה",
-  "global": "גלובלי"
+  "global": "גלובלי",
+  "extension": "סיומת",
+  "index-title": "פלטפורמת נתונים מקורית של Coronavirus",
+  "strapline": "פלטפורמת קוד פתוח לנתוני COVID-19"
 }

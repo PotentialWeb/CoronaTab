@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "إذا ظهرت عليك أعراض تشبه أعراض الأنفلونزا ، فيجب عليك عزل نفسك كإجراء وقائي وتجنب خطر انتشار العدوى بالبقاء في المنزل.",
   "compare": "قارن",
   "country": "بلد",
-  "global": "عالمي"
+  "global": "عالمي",
+  "extension": "تمديد",
+  "index-title": "منصة بيانات Coronavirus مفتوحة المصدر",
+  "strapline": "منصة مفتوحة المصدر لبيانات COVID-19"
 }

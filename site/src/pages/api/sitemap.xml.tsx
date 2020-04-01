@@ -1,7 +1,7 @@
 import { NextApiRequest, NextApiResponse } from 'next'
 import { SitemapStream, streamToPromise, EnumChangefreq } from 'sitemap'
 import { createGzip } from 'zlib'
-import { Meta } from '../../utils/meta'
+import { URLInfo } from '../../utils/url-info'
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
   try {
@@ -10,8 +10,10 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
     res.setHeader('content-type', 'application/xml')
     res.setHeader('Content-Encoding', 'gzip')
 
+    const urlInfo = URLInfo.get(req)
+
     const sitemap = new SitemapStream({
-      hostname: Meta.BASE_PATH
+      hostname: urlInfo.origin
     })
 
     const pipeline = sitemap.pipe(createGzip())

@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "Se você desenvolver sintomas semelhantes aos da gripe, deve se auto-isolar como medida de precaução e evitar o risco de espalhar a infecção ficando em casa.",
   "compare": "Comparar",
   "country": "País",
-  "global": "Global"
+  "global": "Global",
+  "extension": "Extensão",
+  "index-title": "Plataforma de dados de software livre Coronavirus",
+  "strapline": "Plataforma de código aberto para dados COVID-19"
 }

@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "Ngati mukukhala ndi chimfine ngati zizindikiro muyenera kudzipatula nokha ngati njira yopewera komanso kupewa ngozi yofalitsa matendawa ndikukhala kunyumba.",
   "compare": "Fananizani",
   "country": "Dziko",
-  "global": "Padziko lonse"
+  "global": "Padziko lonse",
+  "extension": "Kukulitsa",
+  "index-title": "Open source Coronavirus data nsanja",
+  "strapline": "Open source nsanja ya COVID-19"
 }

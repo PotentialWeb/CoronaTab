@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "Se si sviluppano sintomi simil-influenzali, è necessario autoisolarsi come misura precauzionale ed evitare il rischio di diffondere l'infezione rimanendo a casa.",
   "compare": "Confrontare",
   "country": "Nazione",
-  "global": "Globale"
+  "global": "Globale",
+  "extension": "Estensione",
+  "index-title": "Piattaforma dati Coronavirus open source",
+  "strapline": "Piattaforma open source per dati COVID-19"
 }

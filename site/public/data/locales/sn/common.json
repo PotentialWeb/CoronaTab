@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "Kana iwe ukava nechiratidzo sezviratidzo unofanirwa kuzviparadzanisa seyedzo yekudzivirira uye kudzivirira njodzi yekuparadzira hutachiona nekugara pamba.",
   "compare": "Enzanisa",
   "country": "Nyika",
-  "global": "Global"
+  "global": "Global",
+  "extension": "Kuwedzera",
+  "index-title": "Vhura sosi Coronavirus dha data",
+  "strapline": "Vhura sosi chikuva cheCOVID-19 data"
 }

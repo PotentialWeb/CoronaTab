@@ -3,14 +3,20 @@ import { Link } from '../utils/i18n'
 import LogoTextSvg from '../../public/icons/logo-text.svg'
 import { ExtensionDownloadBtnComponent } from './extension-download-btn'
 import { ShareBtnComponent } from './share-btn'
+import { inject, observer } from 'mobx-react'
+import { AppStore } from '../pages/_app.store'
 
 interface Props extends HTMLAttributes<HTMLDivElement> {
+  appStore?: AppStore
   maxWidth?: string
 }
 
+@inject('appStore')
+@observer
 export class FooterComponent extends Component<Props> {
   render () {
-    const { className, maxWidth } = this.props
+    const { className, maxWidth, appStore } = this.props
+    const { t } = appStore
 
     const listClasses = 'flex-1 mb-4'
     const listHeaderClasses = 'font-bold text-lg mb-2'
@@ -36,7 +42,7 @@ export class FooterComponent extends Component<Props> {
                 </Link>
                 {' '}|{' '} */}
                 <a href="https://hoobu.com/privacy" className="font-bold underline hover:text-highlight" target="_blank">
-                  Privacy
+                  {t('privacy')}
                 </a>
               </div>
             </div>
@@ -49,7 +55,7 @@ export class FooterComponent extends Component<Props> {
                   <li>
                     <Link href="/dashboard">
                       <a className={listLinkClasses}>
-                        Dashboard
+                        {t('dashboard')}
                       </a>
                     </Link>
                   </li>
@@ -57,7 +63,7 @@ export class FooterComponent extends Component<Props> {
                     <ExtensionDownloadBtnComponent
                       className={listLinkClasses}
                     >
-                      <span className="font-normal">Browser Extension</span>
+                      <span className="font-normal">{t('browser-extension')}</span>
                     </ExtensionDownloadBtnComponent>
                   </li>
                   <li>
@@ -66,7 +72,7 @@ export class FooterComponent extends Component<Props> {
                       target="_blank"
                       className={listLinkClasses}
                     >
-                      REST API <sup className="font-bold">Free!</sup>
+                      REST API
                     </a>
                   </li>
                 </ul>

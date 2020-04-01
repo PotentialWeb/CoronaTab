@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "Grip benzeri semptomlar geliştirirseniz, önlem olarak kendini izole etmeli ve evde kalarak enfeksiyonun yayılma riskinden kaçınmalısınız.",
   "compare": "Karşılaştırmak",
   "country": "Ülke",
-  "global": "Global"
+  "global": "Global",
+  "extension": "Uzantı",
+  "index-title": "Açık kaynaklı Coronavirus veri platformu",
+  "strapline": "COVID-19 verileri için açık kaynaklı platform"
 }

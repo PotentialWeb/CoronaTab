@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "Ma leasaicheas tu comharraidhean coltach ris a ’chnatan mhòr bu chòir dhut thu fhèin a sgaradh mar cheum faiceallach agus seachain an cunnart gun sgaoil thu an galar le bhith a’ fuireach aig an taigh.",
   "compare": "Dèan coimeas",
   "country": "Dùthaich",
-  "global": "Cruinneil"
+  "global": "Cruinneil",
+  "extension": "Leudachadh",
+  "index-title": "Àrd-ùrlar dàta Coronavirus stòr fosgailte",
+  "strapline": "Àrd-ùrlar stòr fosgailte airson dàta COVID-19"
 }

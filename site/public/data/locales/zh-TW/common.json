@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "如果您出現類似流感的症狀，則應進行自我隔離，作為預防措施，並避免留在家中傳播感染的風險。",
   "compare": "比較",
   "country": "國家",
-  "global": "全球"
+  "global": "全球",
+  "extension": "延期",
+  "index-title": "開源冠狀病毒數據平台",
+  "strapline": "COVID-19數據的開源平台"
 }

@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "Gripearen antzeko sintomak garatzen badituzu kautelazko neurri gisa auto-isolatu behar duzu eta etxean infektatuta infekzioa zabaltzeko arriskua saihestu.",
   "compare": "Konparatu",
   "country": "Herria",
-  "global": "Global"
+  "global": "Global",
+  "extension": "Luzapena",
+  "index-title": "Iturri irekiko Coronavirus datu-plataforma",
+  "strapline": "COVID-19 datuen iturburu irekiko plataforma"
 }

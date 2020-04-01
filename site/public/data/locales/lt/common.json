@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "Jei pasireiškia panašūs į gripą simptomai, kaip atsargumo priemonę turėtumėte savarankiškai išsiskirti ir venkite infekcijos plitimo rizikos būdami namuose.",
   "compare": "Palyginkite",
   "country": "Šalis",
-  "global": "Visuotinis"
+  "global": "Visuotinis",
+  "extension": "Pratęsimas",
+  "index-title": "Atvirojo kodo „Coronavirus“ duomenų platforma",
+  "strapline": "COVID-19 duomenų atvirojo kodo platforma"
 }

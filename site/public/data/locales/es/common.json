@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "Si desarrolla síntomas parecidos a la gripe, debe aislarse a sí mismo como medida de precaución y evitar el riesgo de propagar la infección al quedarse en casa.",
   "compare": "Comparar",
   "country": "País",
-  "global": "Global"
+  "global": "Global",
+  "extension": "Extensión",
+  "index-title": "Plataforma de datos de coronavirus de código abierto",
+  "strapline": "Plataforma de código abierto para datos COVID-19"
 }

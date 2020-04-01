@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "インフルエンザのような症状が現れた場合は、予防策として自己隔離し、家にいることで感染を拡大するリスクを回避する必要があります。",
   "compare": "比較する",
   "country": "国",
-  "global": "グローバル"
+  "global": "グローバル",
+  "extension": "拡張",
+  "index-title": "オープンソースのコロナウイルスデータプラットフォーム",
+  "strapline": "COVID-19データ用のオープンソースプラットフォーム"
 }

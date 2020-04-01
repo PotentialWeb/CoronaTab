@@ -64,5 +64,8 @@
   "general-advice-self-isolate-description": "Os ydych chi'n datblygu symptomau tebyg i ffliw dylech hunan-ynysu fel mesur rhagofalus ac osgoi'r risg o ledaenu'r haint trwy aros gartref.",
   "compare": "Cymharwch",
   "country": "Gwlad",
-  "global": "Byd-eang"
+  "global": "Byd-eang",
+  "extension": "Estyniad",
+  "index-title": "Llwyfan data Coronavirus ffynhonnell agored",
+  "strapline": "Llwyfan ffynhonnell agored ar gyfer data COVID-19"
 }
