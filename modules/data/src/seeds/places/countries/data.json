@@ -4396,11 +4396,11 @@
     "hospitalBeds": 95110,
     "icuBeds": 5095,
     "coordinates": [
-      -96.81718909399993,
-      62.39666687350006
+      -63.021209276499945,
+      45.266872463000055
     ],
     "parentId": "earth",
-    "dataSource": "https://health-infobase.canada.ca/src/data/covidLive/covid19.csv"
+    "dataSource": "https://novascotia.ca/coronavirus/COVID-19-cases.csv"
   },
   {
     "id": "cabo-verde",
@@ -20598,8 +20598,8 @@
     "hospitalBeds": 1174772,
     "icuBeds": 12113,
     "coordinates": [
-      33.61585907774102,
-      44.62521949229629
+      39.256808302611034,
+      57.74603628194882
     ],
     "parentId": "earth",
     "dataSource": "https://yandex.ru/maps/api/covid?csrfToken="
@@ -23390,11 +23390,11 @@
     "hospitalBeds": 629073,
     "icuBeds": 5435,
     "coordinates": [
-      127.85698489700007,
-      35.91235993050006
+      126.55872643350006,
+      33.38209086900005
     ],
     "parentId": "earth",
-    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
+    "dataSource": "http://ncov.mohw.go.kr/en/bdBoardList.do?brdId=16&brdGubun=162&dataGubun=&ncvContSeq=&contSeq=&board_id="
   },
   {
     "id": "south-sudan",
@@ -26183,7 +26183,7 @@
       "pt": "Peru",
       "pa": "ਟਰਕੀ",
       "ro": "Curcan",
-      "ru": "Индейка",
+      "ru": "Турция",
       "sm": "Turkey",
       "gd": "An Tuirc",
       "sr": "Турска",
@@ -27072,11 +27072,11 @@
     "hospitalBeds": 172430,
     "icuBeds": 4480,
     "coordinates": [
-      -2.1993563498157016,
-      52.20434611687975
+      18.4207,
+      -64.64
     ],
     "parentId": "earth",
-    "dataSource": "https://www.arcgis.com/sharing/rest/content/items/b684319181f94875a6879bbc833ca3a6/data"
+    "dataSource": "https://www.gov.scot/coronavirus-covid-19/"
   },
   {
     "id": "united-states-of-america",

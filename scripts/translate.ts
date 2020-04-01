@@ -26,8 +26,8 @@ const translate = async (text: string, to: LocaleId) => {
 
 ;(async () => {
   // Countries
-  const countriesPath = path.resolve(__dirname, '../modules/data/src/seeds/places/countries/data.ts')
-  const { CountriesData: countries }: { CountriesData: PlaceSeedData[] } = require(countriesPath)
+  const countriesPath = path.resolve(__dirname, '../modules/data/src/seeds/places/countries/data.json')
+  const countries: PlaceSeedData[] = require(countriesPath)
 
   let changedCountriesFile = false
   for (const country of countries) {
@@ -48,8 +48,9 @@ const translate = async (text: string, to: LocaleId) => {
     })
   }
 
-  const regionsPath = path.resolve(__dirname, '../modules/data/src/seeds/places/regions/data.ts')
-  const { RegionsData: regions }: { RegionsData: PlaceSeedData[] } = require(regionsPath)
+  // Regions
+  const regionsPath = path.resolve(__dirname, '../modules/data/src/seeds/places/regions/data.json')
+  const regions: PlaceSeedData[] = require(regionsPath)
 
   let changedRegionsFile = false
   for (const region of regions) {
@@ -84,8 +85,9 @@ const translate = async (text: string, to: LocaleId) => {
     })
   }
 
-  const citiesPath = path.resolve(__dirname, '../modules/data/src/seeds/places/cities/data.ts')
-  const { CitiesData: cities }: { CitiesData: PlaceSeedData[] } = require(citiesPath)
+  // Cities
+  const citiesPath = path.resolve(__dirname, '../modules/data/src/seeds/places/cities/data.json')
+  const cities: PlaceSeedData[] = require(citiesPath)
 
   let changedCitiesFile = false
   for (const city of cities) {
@@ -125,5 +127,24 @@ const translate = async (text: string, to: LocaleId) => {
       typeId: 'city'
     })
   }
+
+  // Site
+  // const en: { [key: string]: string } = require('../site/public/data/locales/en/common.json')
+
+  // for (const locale of LocaleIds) {
+  //   if (locale === 'en') continue
+  //   const localePath = path.resolve(__dirname, `../site/public/data/locales/${locale}/common.json`)
+  //   const strings: { [key: string]: string } = fs.existsSync(localePath) ? require(localePath) : {}
+
+  //   for (const [key, text] of Object.entries(en)) {
+  //     if (!strings.hasOwnProperty(key)) {
+  //       const translation = await translate(text, locale)
+  //       strings[key] = Strings.capitalize(translation)
+  //     }
+  //   }
+
+  //   await fs.writeFile(localePath, JSON.stringify(strings, null, 2))
+  //   console.log(`Translated: ${locale}`)
+  // }
 
 })()
