@@ -86,7 +86,8 @@ export class Worker {
     let cache = this.shouldCache(req)
     console.log(`Will be caching: ${cache}`)
 
-    if (matcher.isMatch(req.url, ['*api.coronatab.app/*'])) {
+    if (matcher.isMatch(req.url, ['*api.coronatab.app/*', '!*api.coronatab.app/places/*/data*'])) {
+      console.log('WILL CACHE ON LOCALE')
       // Set locale query string parameter
       const normalize = (l: LocaleId) => l?.split(';')[0].split(',')[0].split('-')[0] as LocaleId
       const valid = l => !!l && LocaleIds.includes(l as LocaleId)

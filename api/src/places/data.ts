@@ -1,7 +1,7 @@
 
 import { Router } from 'express'
 import { PlaceRequest } from '../places'
-import { PlaceData } from '@coronatab/data'
+import { PlaceData, Place } from '@coronatab/data'
 import 'express-async-errors'
 import Filter from 'taira'
 import { Constants } from '../constants'
@@ -48,16 +48,16 @@ const SmoothFilter = (data: PlaceData[]) => {
   return data
 }
 
-const ProjectPlaceData = (placeData: PlaceData[]) => {
-  if (placeData.length < Constants.DATA_PROJECTION_BASE_DAYS) return []
-  const lastDatas = placeData.slice(placeData.length - Constants.DATA_PROJECTION_BASE_DAYS - 1, placeData.length)
+const ProjectPlaceData = (placeDatas: PlaceData[]) => {
+  if (placeDatas.length <= Constants.DATA_PROJECTION_BASE_DAYS) return []
+  const lastDatas = placeDatas.slice(placeDatas.length - Constants.DATA_PROJECTION_BASE_DAYS - 1, placeDatas.length)
 
   const changeRates = lastDatas.reduce((rates, data, i) => {
     const nextData = lastDatas[i + 1]
     if (nextData) {
-      rates.cases.push(nextData.cases / data.cases)
-      rates.deaths.push(nextData.deaths / data.deaths)
-      rates.recovered.push(nextData.recovered / data.recovered)
+      rates.cases.push(data.cases ? nextData.cases / data.cases : 2)
+      rates.deaths.push(data.deaths ? nextData.deaths / data.deaths : 2)
+      rates.recovered.push(data.recovered ? nextData.recovered / data.recovered : 2)
     }
     return rates
   }, {
@@ -69,6 +69,7 @@ const ProjectPlaceData = (placeData: PlaceData[]) => {
   const casesChangeRate = Arrays.average(changeRates.cases)
   const deathsChangeRate = Arrays.average(changeRates.deaths)
   const recoveredChangeRate = Arrays.average(changeRates.recovered)
+
   const lastData = lastDatas[lastDatas.length - 1]
   let cases = lastData.cases
   let deaths = lastData.deaths
@@ -101,7 +102,6 @@ data.get('/', async (req: PlaceRequest, res) => {
   .orderBy('date', 'ASC')
 
   const placeData = SmoothFilter(await query.getMany())
-
   res.json({
     data: placeData.map(pd => SerializePlaceData(pd, { compact })),
     meta: {
