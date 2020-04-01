@@ -93,7 +93,7 @@ export class DashboardGlobalHeatmapContentComponent extends PureComponent<Props,
   fetchData = async () => {
     try {
       this.setState({ loadingStatus: LoadingStatus.IS_LOADING })
-      const { data: allPlaces } = await PlaceApi.query({ include: ['children' ]})
+      const { data: allPlaces } = await PlaceApi.query({ include: ['children' ] })
       this.setState({ loadingStatus: LoadingStatus.HAS_LOADED })
       return allPlaces as Place[]
     } catch (err) {
@@ -217,7 +217,8 @@ export class DashboardGlobalHeatmapContentComponent extends PureComponent<Props,
             (() => {
               switch (loadingStatus) {
                 case LoadingStatus.HAS_LOADED:
-                  return (<>
+                  return (
+                  <>
                     <div ref={this.mapRef} className="absolute inset-0" />
                     <div ref={this.mapTooltipRef} className="map-tooltip rounded-sm bg-white text-brand" style={{ display: hoveredPlace ? '' : 'none', minWidth: '200px' }}>
                       {
@@ -267,7 +268,8 @@ export class DashboardGlobalHeatmapContentComponent extends PureComponent<Props,
                           : ''
                       }
                     </div>
-                  </>)
+                  </>
+                  )
                 case LoadingStatus.IS_LOADING:
                   return (
                     <div className="absolute inset-0 flex items-center justify-center">

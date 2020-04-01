@@ -96,6 +96,7 @@ export class DashboardPlaceComponent extends Component<Props, State> {
     const { pageStore } = this.props
     const selectedParentPlace = pageStore.selectedPlaceTree?.length > 0 ? pageStore.selectedPlaceTree[0] : null
     const selectedChildPlace = pageStore.selectedPlaceTree?.length === 2 ? pageStore.selectedPlaceTree[1] : null
+    const { localeStrings } = pageStore
     return (
       <div className="dashboard-place">
         <div className="dashboard-panel dashboard-spacer-y">
@@ -106,24 +107,29 @@ export class DashboardPlaceComponent extends Component<Props, State> {
                 : ''
             }
             <PlaceSelectComponent
+              pageStore={pageStore}
               selectedPlace={selectedParentPlace}
               options={pageStore.countries}
               onChange={place => {
                 pageStore.selectedPlaceTree = place ? [place] : []
               }}
               className="my-1 mr-2"
+              inputPlaceholder={localeStrings['select-a-country']}
             />
             {(() => {
               if (!selectedParentPlace?.children?.length) return ''
-              return (<PlaceSelectComponent
+              return (
+              <PlaceSelectComponent
+                pageStore={pageStore}
                 selectedPlace={selectedChildPlace}
                 options={selectedParentPlace.children}
                 onChange={place => {
                   pageStore.selectedPlaceTree = place ? [selectedParentPlace, place] : [selectedParentPlace]
                 }}
-                inputPlaceholder="Select a region"
+                inputPlaceholder={localeStrings['select-a-region']}
                 className="my-1 mr-2"
-              />)
+              />
+              )
             })()}
           </div>
 

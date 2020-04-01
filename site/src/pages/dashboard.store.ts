@@ -13,6 +13,7 @@ export enum LoadingStatus {
   HAS_ERRORED = 'hasErrored'
 }
 
+export type LocaleStringsObj = { [key: string]: string }
 export type AdviceObj = { [key: string]: { title: string, description: string } }
 export type RawPlaceDataObj = {
   lastFetched: string,
@@ -82,16 +83,24 @@ export class DashboardPageStore {
   // endDate = moment().toDate()
 
   @observable
-  private _advice: AdviceObj
+  private _localeStrings: LocaleStringsObj
 
   @computed
-  get advice (): AdviceObj {
-    return this._advice ?? LocalStorage.get('advice')
+  get localeStrings (): LocaleStringsObj {
+    if (typeof window === 'undefined') {
+      // TODO: Return correct locale file depending on the language header or cookie
+      return require('../../public/data/locale-strings/ru.json')
+    } else {
+      return this._localeStrings ?? LocalStorage.get('localeStrings')
+    }
   }
 
-  set advice (advice: AdviceObj) {
-    this._advice = advice
-    LocalStorage.set('advice', advice)
+  set localeStrings (localeStrings: LocaleStringsObj) {
+    if (typeof window !== 'undefined') {
+      this._localeStrings = localeStrings
+      LocalStorage.set('localeStrings', localeStrings)
+    }
+
   }
 
   @action.bound
@@ -107,12 +116,12 @@ export class DashboardPageStore {
     try {
       const [
         countriesResult,
-        adviceResult,
+        localeStringsResult,
         globalDataResult,
         selectedPlaceResult
       ] = await allSettled([
         this.fetchCountries({ cached: true }),
-        this.fetchAdvice({ cached: true }),
+        this.fetchLocaleStrings({ cached: true }),
         this.fetchRawPlaceData('earth'),
         !this.selectedPlace && PlaceApi.findClosest({ typeId: 'country', include: ['children'] })
       ])
@@ -124,7 +133,7 @@ export class DashboardPageStore {
         throw new Error('Could not get countries. API probably down.')
       }
 
-      if (adviceResult.status === 'fulfilled') this.advice = adviceResult.value
+      if (localeStringsResult.status === 'fulfilled') this.localeStrings = localeStringsResult.value
       if (globalDataResult.status === 'fulfilled') {
         const rawGlobalData = globalDataResult.value
         this.rawPlaceData = {
@@ -191,9 +200,9 @@ export class DashboardPageStore {
   }
 
   @action.bound
-  async fetchAdvice ({ cached }: { cached: boolean }) {
-    if (cached && this.advice) return this.advice
-    return HTTP.request('GET', `/data/general-advice/${LocalStorage.get('locale') ?? 'en'}.json`)
+  async fetchLocaleStrings ({ cached }: { cached: boolean }) {
+    if (cached && this.localeStrings) return this.localeStrings
+    return HTTP.request('GET', `/data/locale-strings/${LocalStorage.get('locale') ?? 'ru'}.json`)
   }
 
   @action.bound
