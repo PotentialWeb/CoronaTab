@@ -1,13 +1,10 @@
 import { PureComponent } from 'react'
-import Downshift from 'downshift'
 import { observer, inject } from 'mobx-react'
 import { DashboardPageStore, Place } from '../../../pages/dashboard.store'
-import Tippy from '@tippyjs/react'
-import CaretDownSvg from '../../../../public/icons/caret-down.svg'
-import CaretUpSvg from '../../../../public/icons/caret-up.svg'
 import get from 'lodash.get'
 import numeral from 'numeral'
 import { AppStore } from '../../../pages/_app.store'
+import { SelectInputComponent } from '../../inputs/select'
 
 interface Props {
   appStore?: AppStore
@@ -101,81 +98,13 @@ export class DashboardGlobalCountryLeaderboardComponent extends PureComponent<Pr
     const leaderboardType = leaderboardTypes.find(({ id }) => id === this.state.leaderboardTypeId)
 
     const leaderboardTypeSelect = (
-      <Downshift
+      <SelectInputComponent
         selectedItem={leaderboardType}
+        options={leaderboardTypes}
         onChange={(leaderboardType: LeaderboardType) => this.setState({ leaderboardTypeId: leaderboardType.id })}
         itemToString={(leaderboardType: LeaderboardType) => leaderboardType?.labelI18n ? t(leaderboardType.labelI18n) : null}
-      >
-        {({
-          getItemProps,
-          getMenuProps,
-          selectedItem,
-          isOpen,
-          highlightedIndex,
-          getRootProps,
-          setState
-        }) => (
-          <div className="select inline-block">
-            <Tippy
-              visible={isOpen}
-              animation="shift-away"
-              theme="light"
-              className="select-list-tooltip"
-              allowHTML={true}
-              content={(
-                <ul
-                  {...getMenuProps({}, { suppressRefError: true })}
-                  className="select-list"
-                >
-                  {
-                    isOpen
-                      ? leaderboardTypes
-                        .map((leaderboardType, index) => {
-                          return (
-                            <li
-                              key={index}
-                              {...getItemProps({
-                                index,
-                                item: leaderboardType
-                              })}
-                              data-highlighted={highlightedIndex === index}
-                              className="select-list-item"
-                            >
-                              <span className="font-bold">{t(leaderboardType.labelI18n)}</span>{' '}
-                            </li>
-                          )
-                        })
-                      : ''
-                  }
-                </ul>
-              )}
-              arrow={true}
-              placement="bottom-start"
-              duration={100}
-              maxWidth="none"
-              onHidden={() => setState({ isOpen: false })}
-              interactive
-            >
-              <div
-                {...getRootProps({} as any, { suppressRefError: true })}
-                className="select-input-area"
-              >
-                <button
-                  className="btn btn-white flex items-center border border-light rounded-sm px-2 py-1 text-lg font-bold"
-                  onClick={() => setState({ isOpen: true })}
-                >
-                  <span className="mr-2">{t(selectedItem.labelI18n)}</span>
-                  {
-                    isOpen
-                      ? (<CaretUpSvg className="h-line-sm" />)
-                      : (<CaretDownSvg className="h-line-sm" />)
-                  }
-                </button>
-              </div>
-            </Tippy>
-          </div>
-        )}
-      </Downshift>
+        buttonClassName="btn btn-white flex items-center border border-light rounded-sm px-2 py-1 text-lg font-bold"
+      />
     )
 
     return (
@@ -184,11 +113,6 @@ export class DashboardGlobalCountryLeaderboardComponent extends PureComponent<Pr
           <div className="flex-shrink-0">
             {leaderboardTypeSelect}
           </div>
-          {/*<div className="flex items-center justify-end flex-shrink-0 flex-grow-0">
-            <div>
-
-            </div>
-          </div>*/}
         </div>
         <div className="flex-1 min-h-0 overflow-y-scroll scrolling-touch">
           {(() => {
