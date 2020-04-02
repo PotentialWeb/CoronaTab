@@ -26,8 +26,9 @@ export type SelectedPlacesObj = {
 }
 
 export type RawPlaceDataObj = {
-  lastFetched: string,
+  lastFetched: string
   data: (string | number)[]
+  projected: (string | number)[]
 }
 
 export type RawPlaceData = {
@@ -201,8 +202,8 @@ export class DashboardPageStore {
 
   @action.bound
   async fetchSelectedPlaces (opts: { disableCache?: boolean } = {}): Promise<SelectedPlacesObj> {
-    // If we should try to load from cache and locale matches
-    if (opts?.disableCache !== true && this.appStore.locale === this.selectedPlaces.locale) {
+    // If we should try to load from cache and locale matches and has a selected place
+    if (opts?.disableCache !== true && this.appStore.locale === this.selectedPlaces.locale && this.selectedPlace) {
       // ...and if cache has not expired
       if (this.selectedPlaces.lastFetched) {
         const nextFetchAt = moment(this.selectedPlaces.lastFetched).add(DashboardPageStore.lastFetchedTTL, 'seconds').toDate()
@@ -263,12 +264,12 @@ export class DashboardPageStore {
         if (nextFetchAt > new Date()) return this.rawPlaceData[id]
       }
     }
-    // Else fetch data
-    const { data: rawData } = await PlaceApi.queryData(id, { compact: true })
+    const { data: rawData, meta: { projected } } = await PlaceApi.queryData(id, { compact: true })
     if (!Array.isArray(rawData)) throw new Error('rawData is not an array')
     const dataObj = {
       lastFetched: new Date().toString(),
-      data: rawData
+      data: rawData,
+      projected
     }
     this.rawPlaceData = {
       ...this.rawPlaceData,
