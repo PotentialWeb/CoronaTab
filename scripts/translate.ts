@@ -129,22 +129,22 @@ const translate = async (text: string, to: LocaleId) => {
   }
 
   // Site
-  // const en: { [key: string]: string } = require('../site/public/data/locales/en/common.json')
+  const en: { [key: string]: string } = require('../site/public/data/locales/en/common.json')
 
-  // for (const locale of LocaleIds) {
-  //   if (locale === 'en') continue
-  //   const localePath = path.resolve(__dirname, `../site/public/data/locales/${locale}/common.json`)
-  //   const strings: { [key: string]: string } = fs.existsSync(localePath) ? require(localePath) : {}
+  for (const locale of LocaleIds) {
+    if (locale === 'en') continue
+    const localePath = path.resolve(__dirname, `../site/public/data/locales/${locale}/common.json`)
+    const strings: { [key: string]: string } = fs.existsSync(localePath) ? require(localePath) : {}
 
-  //   for (const [key, text] of Object.entries(en)) {
-  //     if (!strings.hasOwnProperty(key)) {
-  //       const translation = await translate(text, locale)
-  //       strings[key] = Strings.capitalize(translation)
-  //     }
-  //   }
+    for (const [key, text] of Object.entries(en)) {
+      if (!strings.hasOwnProperty(key)) {
+        const translation = await translate(text, locale)
+        strings[key] = Strings.capitalize(translation)
+      }
+    }
 
-  //   await fs.writeFile(localePath, JSON.stringify(strings, null, 2))
-  //   console.log(`Translated: ${locale}`)
-  // }
+    await fs.writeFile(localePath, JSON.stringify(strings, null, 2))
+    console.log(`Translated: ${locale}`)
+  }
 
 })()

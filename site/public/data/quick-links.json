@@ -1,73 +1,49 @@
 [{
   "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports",
   "icon": "https://www.who.int/favicon.ico",
-  "title": {
-    "en": "WHO Daily Sit Reps"
-  }
+  "title": "WHO Daily Sit Reps"
 }, {
   "url": "https://github.com/CSSEGISandData/COVID-19",
   "icon": "https://github.githubassets.com/pinned-octocat.svg",
-  "title": {
-    "en": "COVID-19 dataset on GitHub"
-  }
+  "title": "COVID-19 dataset on GitHub"
 }, {
   "url": "https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6",
   "icon": "https://www.arcgis.com/apps/opsdashboard/assets/images/favicon.ico",
-  "title": {
-    "en": "JHU COVID19 Dashboard"
-  }
+  "title": "JHU COVID19 Dashboard"
 }, {
   "url": "https://coronavirustechhandbook.com/data",
   "icon": "https://res.cloudinary.com/gived/image/upload/v1584658114/handbookpls/1584658113088.png",
-  "title": {
-    "en": "Coronavirus Tech Handbook (Data)"
-  }
+  "title": "Coronavirus Tech Handbook (Data)"
 }, {
   "url": "https://coronadatascraper.com/",
   "icon": "https://coronadatascraper.com/icons/favicon-32x32.png",
-  "title": {
-    "en": "Corona Data Scraper"
-  }
+  "title": "Corona Data Scraper"
 }, {
   "url": "https://coronavirus.app/",
   "icon": "https://coronavirus.app/assets/img/logo/favicon.ico",
-  "title": {
-    "en": "The Coronavirus App"
-  }
+  "title": "The Coronavirus App"
 }, {
   "url": "https://covid19info.live/",
   "icon": "https://covid19info.live/icons/favicon-32x32.png",
-  "title": {
-    "en": "COVID19info.live Dashboard"
-  }
+  "title": "COVID19info.live Dashboard"
 }, {
   "url": "https://www.worldometers.info/coronavirus/",
   "icon": "https://www.worldometers.info/favicon/apple-icon-57x57.png",
-  "title": {
-    "en": "Worldometers Coronavirus Stats"
-  }
+  "title": "Worldometers Coronavirus Stats"
 }, {
   "url": "https://www.mapbox.cn/coronavirusmap",
   "icon": "https://www.mapbox.cn/coronavirusmap/favicon.ico",
-  "title": {
-    "en": "Coronavirus Map"
-  }
+  "title": "Coronavirus Map"
 }, {
   "url": "https://neherlab.org/covid19/",
   "icon": "https://neherlab.org/images/favicons/apple-icon-57x57.png",
-  "title": {
-    "en": "Neherlab COVID-19 Scenarios"
-  }
+  "title": "Neherlab COVID-19 Scenarios"
 }, {
   "url": "https://www.reddit.com/t/coronavirus/",
   "icon": "https://www.redditstatic.com/desktop2x/img/favicon/ms-icon-144x144.png",
-  "title": {
-    "en": "Reddit t/coronavirus"
-  }
+  "title": "Reddit t/coronavirus"
 }, {
   "url": "https://twitter.com/search?q=%23COVID19",
   "icon": "https://abs.twimg.com/responsive-web/web/icon-ios.8ea219d4.png",
-  "title": {
-    "en": "#COVID19 on Twitter"
-  }
+  "title": "#COVID19 on Twitter"
 }]

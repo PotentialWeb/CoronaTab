@@ -10,6 +10,8 @@ import moment from 'moment'
 import numeral from 'numeral'
 import { LoadingComponent } from '../../loading'
 import { SvgRectComponent } from '../../svg-rect'
+import { inject, observer } from 'mobx-react'
+import { AppStore } from '../../../pages/_app.store'
 
 const {
   theme: {
@@ -23,6 +25,7 @@ const {
 } = tailwindConfig
 
 interface Props {
+  appStore?: AppStore
   data: any[]
 }
 
@@ -33,6 +36,8 @@ interface State {
   timeframe: Timeframe
 }
 
+@inject('appStore')
+@observer
 export class DashboardDailyChartComponent extends PureComponent<Props, State> {
   state: State = {
     timeframe: 7 as Timeframe
@@ -44,6 +49,9 @@ export class DashboardDailyChartComponent extends PureComponent<Props, State> {
   }
 
   render () {
+    const { appStore } = this.props
+    const { t } = appStore
+
     const timeframeSelect = (
       <Downshift
         selectedItem={this.state.timeframe}
@@ -84,7 +92,7 @@ export class DashboardDailyChartComponent extends PureComponent<Props, State> {
                               data-highlighted={highlightedIndex === index}
                               className="select-list-item"
                             >
-                              <span className="font-bold">{timeframe} days</span>{' '}
+                              <span className="font-bold">{timeframe} {t('days')}</span>{' '}
                             </li>
                           )
                         })
@@ -107,7 +115,7 @@ export class DashboardDailyChartComponent extends PureComponent<Props, State> {
                   className="btn btn-white flex items-center border border-light rounded-sm px-2 py-1 text-xs"
                   onClick={() => setState({ isOpen: true })}
                 >
-                  <span className="mr-2">Last {selectedItem} days</span>
+                  <span className="mr-2">{t('last')} {selectedItem} {t('days')}</span>
                   {
                     isOpen
                       ? (<CaretUpSvg className="h-line-sm" />)
@@ -126,7 +134,7 @@ export class DashboardDailyChartComponent extends PureComponent<Props, State> {
         <div className="flex flex-col md:flex-row md:items-center mb-2">
           <div className="flex-1">
             <h2 className="text-lg font-bold">
-              Daily
+              {t('daily')}
             </h2>
           </div>
           <div className="flex items-center justify-end flex-shrink-0 flex-grow-0">
@@ -151,9 +159,9 @@ export class DashboardDailyChartComponent extends PureComponent<Props, State> {
                 <BarChart
                   data={data}
                 >
-                  <Bar dataKey="cases" name="Cases" fill={brand} isAnimationActive={false} />
-                  <Bar dataKey="deaths" name="Deaths" fill={red} isAnimationActive={false} />
-                  <Bar dataKey="recovered" name="Recovered" fill={green} isAnimationActive={false} />
+                  <Bar dataKey="cases" name={t('cases') as string} fill={brand} isAnimationActive={false} />
+                  <Bar dataKey="deaths" name={t('deaths') as string} fill={red} isAnimationActive={false} />
+                  <Bar dataKey="recovered" name={t('recovered') as string} fill={green} isAnimationActive={false} />
                   <CartesianGrid strokeDasharray="3 3" stroke={brandDull} />
                   <XAxis
                     allowDataOverflow

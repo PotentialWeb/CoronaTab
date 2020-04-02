@@ -1,7 +1,7 @@
-import { Component } from "react"
+import { Component } from 'react'
 import QuickLinks from '../../../public/data/quick-links.json'
 import { LocalStorage } from '../../utils/storage'
-import { ExtensionDownloadBtnComponent } from "../extension-download-btn"
+import { ExtensionDownloadBtnComponent } from '../extension-download-btn'
 
 export class DashboardQuickLinksComponent extends Component {
   render () {
@@ -25,7 +25,8 @@ export class DashboardQuickLinksComponent extends Component {
           <li>
             <a
               href="https://github.com/PotentialWeb/CoronaTab/wiki/RESTful-API-documentation"
-              target="_blank" rel="CoronaTab REST API Documentation"
+              target="_blank"
+              rel="CoronaTab REST API Documentation"
               className="btn btn-white dashboard-quick-links-btn"
             >
               <div className="dashboard-quick-links-btn-logo">
@@ -38,12 +39,12 @@ export class DashboardQuickLinksComponent extends Component {
             QuickLinks.length ? (
               <>
                 {QuickLinks.map(({ url, title, icon }) => {
-                  const t = title[locale] ?? title['en']
                   return (
                     <li key={url}>
                       <a
                         href={url}
-                        target="_blank" rel={t}
+                        target="_blank"
+                        rel={title}
                         className="btn btn-white dashboard-quick-links-btn"
                       >
                         <div className="dashboard-quick-links-btn-logo">
@@ -53,7 +54,7 @@ export class DashboardQuickLinksComponent extends Component {
                               : ''
                           }
                         </div>
-                        {t}
+                        {title}
                       </a>
                     </li>
                   )
