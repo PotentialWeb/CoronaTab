@@ -16,6 +16,7 @@ import OverlayPositioning from 'ol/OverlayPositioning'
 import { LoadingComponent } from '../../../loading'
 import get from 'lodash.get'
 import numeral from 'numeral'
+import { MapApi, MapEntry } from '../../../../utils/api/map'
 
 const {
   theme: {
@@ -93,20 +94,19 @@ export class DashboardGlobalHeatmapContentComponent extends PureComponent<Props,
   fetchData = async () => {
     try {
       this.setState({ loadingStatus: LoadingStatus.IS_LOADING })
-      const { data: allPlaces } = await PlaceApi.query({ include: ['children' ]})
+      const mapEntries = await MapApi.query()
       this.setState({ loadingStatus: LoadingStatus.HAS_LOADED })
-      return allPlaces as Place[]
+      return mapEntries
     } catch (err) {
       this.setState({ loadingStatus: LoadingStatus.HAS_ERRORED })
     }
   }
 
-  initMap = async (places: Place[]) => {
-    const features: Feature[] = places
-      .filter(place => !place.children && Array.isArray(place.location?.coordinates))
+  initMap = async (entries: MapEntry[]) => {
+    const features: Feature[] = entries
       .map(place => new Feature({
         id: place.id,
-        place: DashboardPageStore.calcPlaceLatestDataComputedValues(place),
+        place: DashboardPageStore.calcPlaceLatestDataComputedValues(place as any),
         geometry: new Point(transformProjection([place.location.coordinates[0], place.location.coordinates[1]], 'EPSG:4326', 'EPSG:3857')),
         value: place.latestData.cases
       }))
@@ -207,54 +207,55 @@ export class DashboardGlobalHeatmapContentComponent extends PureComponent<Props,
     return (
       <div
         ref={this.contentRef}
-        className="container m-auto"
+        className='container m-auto'
         style={{ height: '90vh' }}
       >
         <div
-          className="relative h-full bg-brand-dark text-white rounded md:mx-6 cursor-default depth-lg overflow-hidden dashboard-spacer-x"
+          className='relative h-full bg-brand-dark text-white rounded md:mx-6 cursor-default depth-lg overflow-hidden dashboard-spacer-x'
         >
           {
             (() => {
               switch (loadingStatus) {
                 case LoadingStatus.HAS_LOADED:
                   return (<>
-                    <div ref={this.mapRef} className="absolute inset-0" />
-                    <div ref={this.mapTooltipRef} className="map-tooltip rounded-sm bg-white text-brand" style={{ display: hoveredPlace ? '' : 'none', minWidth: '200px' }}>
+                    <div ref={this.mapRef} className='absolute inset-0' />
+                    <div ref={this.mapTooltipRef} className='map-tooltip rounded-sm bg-white text-brand' style={{ display: hoveredPlace ? '' : 'none', minWidth: '200px' }}>
                       {
                         hoveredPlace
                           ? (
                             <>
-                              <div className="flex items-center font-bold text-lg px-2 pt-1">
+                              <div className='flex items-center font-bold text-lg px-2 pt-1'>
                                 {
                                   hoveredPlace.alpha2code
-                                    ? <img src={`/flags/${hoveredPlace.alpha2code.toLowerCase()}.svg`} className="h-line mr-2" />
+                                    ? <img src={`/flags/${hoveredPlace.alpha2code.toLowerCase()}.svg`} onError={i => i.target['style'].display = 'none'} className='h-line mr-2' />
                                     : ''
                                 }
-                                <span className="truncate">
-                                  {hoveredPlace.name}
+
+                                <span className='truncate'>
+                                  {hoveredPlace['parentName'] ? `${hoveredPlace['parentName']} - ` : ''}{hoveredPlace.name}
                                 </span>
                               </div>
-                              <ul role="table" aria-label={`${hoveredPlace} Coronavirus stats`} className="pb-2">
+                              <ul role='table' aria-label={`${hoveredPlace} Coronavirus stats`} className='pb-2'>
                                 {(() => {
                                   return TOOLTIP_STATS.map(({ label, accessor, formatter }) => (
                                     <li
-                                      role="row"
+                                      role='row'
                                       key={label}
-                                      className="flex items-center px-2 py-px text-sm"
+                                      className='flex items-center px-2 py-px text-sm'
                                     >
                                       <div
-                                        role="cell"
-                                        className="flex-1 truncate"
+                                        role='cell'
+                                        className='flex-1 truncate'
                                       >
                                         <span>
                                           {label}
                                         </span>
                                       </div>
                                       <div
-                                        role="cell"
-                                        className="flex-shrink-0 flex justify-end"
+                                        role='cell'
+                                        className='flex-shrink-0 flex justify-end'
                                       >
-                                        <span className="font-bold">
+                                        <span className='font-bold'>
                                           {formatter(get(hoveredPlace, accessor))}
                                         </span>
                                       </div>
@@ -270,16 +271,16 @@ export class DashboardGlobalHeatmapContentComponent extends PureComponent<Props,
                   </>)
                 case LoadingStatus.IS_LOADING:
                   return (
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <LoadingComponent className="h-8" />
+                    <div className='absolute inset-0 flex items-center justify-center'>
+                      <LoadingComponent className='h-8' />
                     </div>
                   )
                 case LoadingStatus.HAS_ERRORED:
                   return (
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="text-center">
-                        <h2 className="font-bold text-lg mb-2">Errored loading map</h2>
-                        <button onClick={this.fetchDataAndInitMap} className="btn btn-white rounded px-2 py-1">
+                    <div className='absolute inset-0 flex items-center justify-center'>
+                      <div className='text-center'>
+                        <h2 className='font-bold text-lg mb-2'>Errored loading map</h2>
+                        <button onClick={this.fetchDataAndInitMap} className='btn btn-white rounded px-2 py-1'>
                           Retry
                         </button>
                       </div>
