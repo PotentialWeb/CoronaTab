@@ -231,6 +231,7 @@ places.get('/closest', async (req: CoronaTabRequest, res) => {
   for (const place of places) {
     const row = rows.find(r => r.place_id === place.id)
     place.latestData = row.latestData
+    place.name = row.name
     const children = row.children?.filter(c => !!c?.id)
     if (children?.length) place.children = children
   }
