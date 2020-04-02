@@ -12,7 +12,7 @@
     "build:development": "npm run build",
     "build:production": "env NODE_ENV=production npm run build",
     "deploy": "export $(egrep -v '^#' .env | xargs) && cd ../ && ./site/scripts/deploy.sh",
-    "start": "env NODE_ENV=production ts-node dist/server.ts"
+    "start": "env NODE_ENV=production node dist/server.js"
   },
   "dependencies": {
     "@coronatab/shared": "file:../modules/shared",
