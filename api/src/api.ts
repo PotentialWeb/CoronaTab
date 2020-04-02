@@ -28,8 +28,7 @@ export interface CoronaTabRequest extends express.Request {
       'http://localhost:8080',
       'https://staging.coronatab.app',
       'https://coronatab.app'
-    ],
-    allowedHeaders: '*'
+    ]
   }))
 
   api.get('/', (req, res) => {
