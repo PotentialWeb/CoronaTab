@@ -1,4 +1,6 @@
 import { Component, createRef, RefObject } from 'react'
+import { AppStore } from '../pages/_app.store'
+import { observer, inject } from 'mobx-react'
 import Downshift from 'downshift'
 import { Place as PlaceShape } from '@coronatab/shared'
 import { Place, DashboardPageStore } from '../pages/dashboard.store'
@@ -7,7 +9,9 @@ import CaretUpSvg from '../../public/icons/caret-up.svg'
 import CaretDownSvg from '../../public/icons/caret-down.svg'
 import CloseSvg from '../../public/icons/close.svg'
 
+
 interface Props extends Omit<React.HTMLAttributes<HTMLDivElement>, 'onChange'> {
+  appStore?: AppStore
   options: Place[] | PlaceShape[]
   pageStore: DashboardPageStore
   selectedPlace?: Place | PlaceShape
@@ -22,6 +26,8 @@ interface State {
   selectedPlace: Place | PlaceShape
 }
 
+@inject('appStore')
+@observer
 export class PlaceSelectComponent extends Component<Props, State> {
   state: State = {
     selectedPlace: this.props.selectedPlace
@@ -59,10 +65,12 @@ export class PlaceSelectComponent extends Component<Props, State> {
       listItemClassName,
       onChange,
       pageStore,
+      appStore,
       ...props
     } = this.props
 
-    const { localeStrings } = pageStore
+    const { t } = appStore
+
     return (
       <Downshift
         initialSelectedItem={selectedPlace}
@@ -135,7 +143,7 @@ export class PlaceSelectComponent extends Component<Props, State> {
                     setState({ inputValue: '' })
                   }}
                   ref={this.inputRef}
-                  placeholder={inputPlaceholder ?? `${localeStrings['select-a-place']}...`}
+                  placeholder={inputPlaceholder ?? `${t('select-a-place')}...`}
                   className={`form-input ${inputClassName ?? ''}`}
                 />
                 <button

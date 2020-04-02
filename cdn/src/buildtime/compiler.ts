@@ -12,9 +12,9 @@ export const compile = async (config: CompileConfig = {}) => {
   const compiler = webpack({
     mode: 'production',
     entry: workerPath,
-    optimization: {
-      minimize: false
-    },
+    // optimization: {
+    //   minimize: false
+    // },
     module: {
       rules: [
         {

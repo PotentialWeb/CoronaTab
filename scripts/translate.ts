@@ -129,11 +129,11 @@ const translate = async (text: string, to: LocaleId) => {
   }
 
   // Site
-  const en: { [key: string]: string } = require('../site/public/data/locale-strings/en.json')
+  const en: { [key: string]: string } = require('../site/public/data/locales/en/common.json')
 
   for (const locale of LocaleIds) {
     if (locale === 'en') continue
-    const localePath = path.resolve(__dirname, `../site/public/data/locale-strings/${locale}.json`)
+    const localePath = path.resolve(__dirname, `../site/public/data/locales/${locale}/common.json`)
     const strings: { [key: string]: string } = fs.existsSync(localePath) ? require(localePath) : {}
 
     for (const [key, text] of Object.entries(en)) {

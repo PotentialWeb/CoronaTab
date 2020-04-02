@@ -1,16 +1,23 @@
 import { Component, HTMLAttributes } from 'react'
-import Link from 'next/link'
+import { Link } from '../utils/i18n'
 import LogoTextSvg from '../../public/icons/logo-text.svg'
 import { ExtensionDownloadBtnComponent } from './extension-download-btn'
 import { ShareBtnComponent } from './share-btn'
+import { inject, observer } from 'mobx-react'
+import { AppStore } from '../pages/_app.store'
+import { LanguageSelectComponent } from './language-select'
 
 interface Props extends HTMLAttributes<HTMLDivElement> {
+  appStore?: AppStore
   maxWidth?: string
 }
 
+@inject('appStore')
+@observer
 export class FooterComponent extends Component<Props> {
   render () {
-    const { className, maxWidth } = this.props
+    const { className, maxWidth, appStore } = this.props
+    const { t } = appStore
 
     const listClasses = 'flex-1 mb-4'
     const listHeaderClasses = 'font-bold text-lg mb-2'
@@ -36,7 +43,7 @@ export class FooterComponent extends Component<Props> {
                 </Link>
                 {' '}|{' '} */}
                 <a href="https://hoobu.com/privacy" className="font-bold underline hover:text-highlight" target="_blank">
-                  Privacy
+                  {t('privacy')}
                 </a>
               </div>
             </div>
@@ -49,7 +56,7 @@ export class FooterComponent extends Component<Props> {
                   <li>
                     <Link href="/dashboard">
                       <a className={listLinkClasses}>
-                        Dashboard
+                        {t('dashboard')}
                       </a>
                     </Link>
                   </li>
@@ -57,7 +64,7 @@ export class FooterComponent extends Component<Props> {
                     <ExtensionDownloadBtnComponent
                       className={listLinkClasses}
                     >
-                      <span className="font-normal">Browser Extension</span>
+                      <span className="font-normal">{t('browser-extension')}</span>
                     </ExtensionDownloadBtnComponent>
                   </li>
                   <li>
@@ -66,7 +73,7 @@ export class FooterComponent extends Component<Props> {
                       target="_blank"
                       className={listLinkClasses}
                     >
-                      REST API <sup className="font-bold">Free!</sup>
+                      REST API
                     </a>
                   </li>
                 </ul>
@@ -96,33 +103,17 @@ export class FooterComponent extends Component<Props> {
                 </ul>
               </div>
 
-              <div className={`${listClasses} flex items-start lg:justify-end`}>
-                <ShareBtnComponent
-                  className="btn btn-white flex items-center border border-light px-6 rounded py-2"
-                />
+              <div className={`${listClasses}`}>
+                <div className="flex items-start lg:justify-end py-1">
+                  <ShareBtnComponent
+                    className="btn btn-white flex items-center border border-light px-6 rounded py-2"
+                  />
+                </div>
+                <div className="flex items-start lg:justify-end py-1">
+                  <LanguageSelectComponent />
+                </div>
               </div>
-              {/*<div className={listClasses}>
-                <h2 className={listHeaderClasses}>
-                  Company
-                </h2>
-                <ul className="text-sm">
-                  <li>
-                    <Link href="/about-us">
-                      <a className={listLinkClasses}>About Us</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/careers">
-                      <a className={listLinkClasses}>Careers</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/press">
-                      <a className={listLinkClasses}>Press</a>
-                    </Link>
-                  </li>
-                </ul>
-              </div>*/}
+
             </div>
           </div>
         </div>

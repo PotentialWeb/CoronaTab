@@ -1,17 +1,23 @@
 import React from 'react'
-import { Provider, observer } from 'mobx-react'
+import { Provider, observer, inject } from 'mobx-react'
+import { AppStore } from './_app.store'
 import { DashboardPageStore, LoadingStatus } from './dashboard.store'
 import { DashboardComponent } from '../components/dashboard'
 import { LoadingComponent } from '../components/loading'
+
+interface Props {
+  appStore?: AppStore
+}
 
 interface State {
   pageStore: DashboardPageStore
 }
 
+@inject('appStore')
 @observer
-export default class DashboardPage extends React.Component<{}, State> {
+export default class DashboardPage extends React.Component<Props, State> {
   state: State = {
-    pageStore: new DashboardPageStore()
+    pageStore: new DashboardPageStore(this.props.appStore)
   }
 
   componentDidMount () {
@@ -23,8 +29,9 @@ export default class DashboardPage extends React.Component<{}, State> {
   }
 
   render () {
+    const { appStore } = this.props
+    const { t } = appStore
     const { pageStore } = this.state
-    const { localeStrings } = pageStore
 
     return (
       <Provider pageStore={pageStore}>
@@ -44,12 +51,12 @@ export default class DashboardPage extends React.Component<{}, State> {
                 return (
                   <div className="h-screen w-screen flex flex-col items-center justify-center">
                     <LoadingComponent className="h-16" />
-                <span className="font-bold text-xl mt-1 mb-2">{localeStrings['service-unavailable']}</span>
+                <span className="font-bold text-xl mt-1 mb-2">{t('service-unavailable')}</span>
                     <button
                       onClick={() => window.location.reload()}
                       className="btn btn-white border-2 border-light rounded px-3 py-1"
                     >
-                      {localeStrings['try-again']}
+                      {t('try-again')}
                     </button>
                   </div>
                 )

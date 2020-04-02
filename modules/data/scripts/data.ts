@@ -1,9 +1,9 @@
 import { FindPlaceSeedDataInDataset, PlaceData, Place, EarthPlace, connect } from '../src'
 import { JHUDataRow, JHU } from './jhu'
 import { DataScraperRow } from './data-scraper'
-import { CountriesData } from '../src/seeds/places/countries/data'
-import { RegionsData } from '../src/seeds/places/regions/data'
-import { CitiesData } from '../src/seeds/places/cities/data'
+import { CountriesData } from '../src/seeds/places/countries/seeds'
+import { RegionsData } from '../src/seeds/places/regions/seeds'
+import { CitiesData } from '../src/seeds/places/cities/seeds'
 import { SavePlaceDatas } from '../src/seeds/places/data'
 import { Translate } from '@coronatab/node-utils'
 

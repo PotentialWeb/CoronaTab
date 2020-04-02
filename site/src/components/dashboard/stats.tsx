@@ -3,20 +3,28 @@ import Tippy from '@tippyjs/react'
 import numeral from 'numeral'
 import CaretUpSvg from '../../../public/icons/caret-up.svg'
 import CaretDownSvg from '../../../public/icons/caret-down.svg'
+import { inject, observer } from 'mobx-react'
+import { AppStore } from '../../pages/_app.store'
 
 interface Props extends HTMLAttributes<HTMLDivElement> {
+  appStore?: AppStore
   title?: string
   rawData: (string | number)[]
 }
 
+@inject('appStore')
+@observer
 export class DashboardStatsComponent extends PureComponent<Props> {
   render () {
     const {
       title,
       rawData,
       className = '',
+      appStore,
       ...props
     } = this.props
+
+    const { t } = appStore
 
     if (!rawData) return ''
 
@@ -72,10 +80,10 @@ export class DashboardStatsComponent extends PureComponent<Props> {
         }
         <ul>
           <li data-type="cases">
-            <h3>Cases</h3>
+            <h3>{t('cases')}</h3>
             <div>
               <Tippy
-                content={`Total Cases: ${numeral(cases).format('0,0')}`}
+                content={`${t('total-cases')}: ${numeral(cases).format('0,0')}`}
                 {...tippyProps}
               >
                 <span data-metric="total">{numeral(cases).format(cases > 1000 ? '0.0a' : '0,0')}</span>
@@ -84,7 +92,7 @@ export class DashboardStatsComponent extends PureComponent<Props> {
                 {
                   Array.isArray(diffs.cases) ? (
                     <Tippy
-                      content={`${penultimateSnapshot[0]}: ${numeral(diffs.cases[0]).format('0,0')} | Now: ${numeral(cases).format('0,0')}`}
+                      content={`${penultimateSnapshot[0]}: ${numeral(diffs.cases[0]).format('0,0')} | ${t('now')}: ${numeral(cases).format('0,0')}`}
                       {...tippyProps}
                     >
                       <span data-metric="24hr" className="flex items-center">
@@ -106,17 +114,17 @@ export class DashboardStatsComponent extends PureComponent<Props> {
             </div>
           </li>
           <li data-type="deaths">
-            <h3>Deaths</h3>
+            <h3>{t('deaths')}</h3>
             <div>
               <Tippy
-                content={`Total Deaths: ${numeral(deaths).format('0,0')}`}
+                content={`${t('total-deaths')}: ${numeral(deaths).format('0,0')}`}
                 {...tippyProps}
               >
                 <span data-metric="total">{numeral(deaths).format(deaths > 1000 ? '0.0a' : '0,0')}</span>
               </Tippy>
               <aside>
                 <Tippy
-                  content={`Death rate: ${numeral(deathRate).format('0.000%')}`}
+                  content={`${t('death-rate')}: ${numeral(deathRate).format('0.000%')}`}
                   {...tippyProps}
                 >
                   <span data-metric="rate">({numeral(deathRate).format('0.0%')})</span>
@@ -124,7 +132,7 @@ export class DashboardStatsComponent extends PureComponent<Props> {
                 {
                   Array.isArray(diffs.deaths) ? (
                     <Tippy
-                      content={`${penultimateSnapshot[0]}: ${numeral(diffs.deaths[0]).format('0,0')} | Now: ${numeral(deaths).format('0,0')}`}
+                      content={`${penultimateSnapshot[0]}: ${numeral(diffs.deaths[0]).format('0,0')} | ${t('now')}: ${numeral(deaths).format('0,0')}`}
                       {...tippyProps}
                     >
                     <span data-metric="24hr" className="flex items-center">
@@ -146,17 +154,17 @@ export class DashboardStatsComponent extends PureComponent<Props> {
             </div>
           </li>
           <li data-type="recovered">
-            <h3>Recovered</h3>
+            <h3>{t('recovered')}</h3>
             <div>
               <Tippy
-                content={`Total Recovered: ${numeral(recovered).format('0,0')}`}
+                content={`${t('total-recovered')}: ${numeral(recovered).format('0,0')}`}
                 {...tippyProps}
               >
                 <span data-metric="total">{numeral(recovered).format(recovered > 1000 ? '0.0a' : '0,0')}</span>
               </Tippy>
               <aside>
                 <Tippy
-                  content={`Recovery rate: ${numeral(recoveryRate).format('0.000%')}`}
+                  content={`${t('recovery-rate')}: ${numeral(recoveryRate).format('0.000%')}`}
                   {...tippyProps}
                 >
                   <span data-metric="rate">({numeral(recoveryRate).format('0.0%')})</span>
@@ -164,7 +172,7 @@ export class DashboardStatsComponent extends PureComponent<Props> {
                 {
                   Array.isArray(diffs.recovered) ? (
                     <Tippy
-                      content={`${penultimateSnapshot[0]}: ${numeral(diffs.recovered[0]).format('0,0')} | Now: ${numeral(recovered).format('0,0')}`}
+                      content={`${penultimateSnapshot[0]}: ${numeral(diffs.recovered[0]).format('0,0')} | ${t('now')}: ${numeral(recovered).format('0,0')}`}
                       {...tippyProps}
                     >
                       <span data-metric="24hr" className="flex items-center">

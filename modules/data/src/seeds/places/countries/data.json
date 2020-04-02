@@ -3423,7 +3423,7 @@
       -14.236725569657125
     ],
     "parentId": "earth",
-    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
+    "dataSource": "https://covid.saude.gov.br/"
   },
   {
     "id": "brunei-darussalam",
@@ -4396,11 +4396,11 @@
     "hospitalBeds": 95110,
     "icuBeds": 5095,
     "coordinates": [
-      -96.81718909399993,
-      62.39666687350006
+      -63.021209276499945,
+      45.266872463000055
     ],
     "parentId": "earth",
-    "dataSource": "https://health-infobase.canada.ca/src/data/summary_current.csv"
+    "dataSource": "https://novascotia.ca/coronavirus/COVID-19-cases.csv"
   },
   {
     "id": "cabo-verde",
@@ -11160,11 +11160,11 @@
     "alpha3code": "IND",
     "population": 1380004385,
     "coordinates": [
-      87.85869957912226,
-      24.402508335403155
+      82.74863427400004,
+      21.151850284000083
     ],
     "parentId": "earth",
-    "dataSource": "https://www.mohfw.gov.in/"
+    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
   },
   {
     "id": "indonesia",
@@ -23390,11 +23390,11 @@
     "hospitalBeds": 629073,
     "icuBeds": 5435,
     "coordinates": [
-      127.85698489700007,
-      35.91235993050006
+      126.55872643350006,
+      33.38209086900005
     ],
     "parentId": "earth",
-    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
+    "dataSource": "http://ncov.mohw.go.kr/en/bdBoardList.do?brdId=16&brdGubun=162&dataGubun=&ncvContSeq=&contSeq=&board_id="
   },
   {
     "id": "south-sudan",
@@ -26183,7 +26183,7 @@
       "pt": "Peru",
       "pa": "ਟਰਕੀ",
       "ro": "Curcan",
-      "ru": "Индейка",
+      "ru": "Турция",
       "sm": "Turkey",
       "gd": "An Tuirc",
       "sr": "Турска",

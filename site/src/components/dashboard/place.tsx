@@ -1,5 +1,6 @@
 import { Component } from 'react'
 import { inject, observer } from 'mobx-react'
+import { AppStore } from '../../pages/_app.store'
 import { DashboardPageStore, Place, LoadingStatus } from '../../pages/dashboard.store'
 import { PlaceSelectComponent } from '../place-select'
 import { DashboardCumulativeGraphComponent } from './visualizations/cumulative-graph'
@@ -9,6 +10,7 @@ import { LoadingComponent } from '../loading'
 import { DashboardCompareGraphComponent } from './visualizations/compare-graph'
 
 interface Props {
+  appStore?: AppStore,
   pageStore?: DashboardPageStore
 }
 
@@ -23,7 +25,7 @@ interface State {
   ignoreLoadingStatus: boolean
 }
 
-@inject('pageStore')
+@inject('appStore', 'pageStore')
 @observer
 export class DashboardPlaceComponent extends Component<Props, State> {
   state: State = (() => {
@@ -93,10 +95,11 @@ export class DashboardPlaceComponent extends Component<Props, State> {
   }
 
   render () {
-    const { pageStore } = this.props
-    const selectedParentPlace = pageStore.selectedPlaceTree?.length > 0 ? pageStore.selectedPlaceTree[0] : null
-    const selectedChildPlace = pageStore.selectedPlaceTree?.length === 2 ? pageStore.selectedPlaceTree[1] : null
-    const { localeStrings } = pageStore
+    const { appStore, pageStore } = this.props
+    const { t } = appStore
+    const { selectedPlaces } = pageStore
+    const selectedParentPlace = selectedPlaces.data.length > 0 ? selectedPlaces.data[0] : null
+    const selectedChildPlace = selectedPlaces.data.length === 2 ? selectedPlaces.data[1] : null
     return (
       <div className="dashboard-place">
         <div className="dashboard-panel dashboard-spacer-y">
@@ -109,12 +112,15 @@ export class DashboardPlaceComponent extends Component<Props, State> {
             <PlaceSelectComponent
               pageStore={pageStore}
               selectedPlace={selectedParentPlace}
-              options={pageStore.countries}
+              options={pageStore.countries.data}
               onChange={place => {
-                pageStore.selectedPlaceTree = place ? [place] : []
+                pageStore.selectedPlaces = {
+                  ...pageStore.selectedPlaces,
+                  data: place ? [place] : []
+                }
               }}
               className="my-1 mr-2"
-              inputPlaceholder={localeStrings['select-a-country']}
+              inputPlaceholder={t('select-a-country')}
             />
             {(() => {
               if (!selectedParentPlace?.children?.length) return ''
@@ -124,9 +130,12 @@ export class DashboardPlaceComponent extends Component<Props, State> {
                 selectedPlace={selectedChildPlace}
                 options={selectedParentPlace.children}
                 onChange={place => {
-                  pageStore.selectedPlaceTree = place ? [selectedParentPlace, place] : [selectedParentPlace]
+                  pageStore.selectedPlaces = {
+                    ...pageStore.selectedPlaces,
+                    data: place ? [selectedParentPlace, place] : [selectedParentPlace]
+                  }
                 }}
-                inputPlaceholder={localeStrings['select-a-region']}
+                inputPlaceholder={t('select-a-region')}
                 className="my-1 mr-2"
               />
               )
@@ -160,7 +169,7 @@ export class DashboardPlaceComponent extends Component<Props, State> {
                     <DashboardCompareGraphComponent
                       data={this.state.data?.cumulativeSeries}
                       places={(() => {
-                        const places = selectedChildPlace ? (selectedParentPlace?.children as Place[]) : pageStore.countries
+                        const places = selectedChildPlace ? (selectedParentPlace?.children as Place[]) : pageStore.countries.data
                         return places.filter(({ id }) => id !== pageStore.selectedPlace.id)
                       })()}
                       selectedPlace={pageStore.selectedPlace}

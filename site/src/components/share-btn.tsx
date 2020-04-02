@@ -1,6 +1,7 @@
 import { Component, HTMLAttributes } from 'react'
+import { inject, observer } from 'mobx-react'
+import { AppStore } from '../pages/_app.store'
 import Tippy, { TippyProps } from '@tippyjs/react'
-import { Meta } from '../utils/meta'
 import {
   EmailShareButton,
   FacebookShareButton,
@@ -10,6 +11,7 @@ import {
   TwitterShareButton,
   WhatsappShareButton
 } from 'react-share'
+import { Facebook } from '../utils/facebook'
 import EmailSvg from '../../public/icons/email.svg'
 import FacebookSvg from '../../public/icons/facebook.svg'
 import LinkedinSvg from '../../public/icons/linkedin.svg'
@@ -18,26 +20,27 @@ import RedditSvg from '../../public/icons/reddit.svg'
 import ShareSvg from '../../public/icons/share.svg'
 import TwitterSvg from '../../public/icons/twitter.svg'
 import WhatsappSvg from '../../public/icons/whatsapp.svg'
-import { DashboardPageStore } from '../pages/dashboard.store'
 
 interface Props extends HTMLAttributes<HTMLButtonElement> {
-  pageStore?: DashboardPageStore
+  appStore?: AppStore
   tooltipPlacement?: 'top' | 'bottom'
 }
 
+@inject('appStore')
+@observer
 export class ShareBtnComponent extends Component<Props> {
   render () {
     const {
       tooltipPlacement,
       className = '',
-      pageStore,
+      appStore,
       ...props
     } = this.props
 
-    const localeStrings = pageStore?.localeStrings
+    const { t, meta, urlInfo } = appStore
 
-    const shareUrl = `${Meta.BASE_PATH}/dashboard`
-    const title = `${Meta.APP_NAME} - ${Meta.STRAPLINE}`
+    const shareUrl = `${urlInfo.origin}/dashboard`
+    const title = `${meta.appName} - ${meta.strapline}`
     const buttonClassName = ''
     const tippyProps: Partial<TippyProps> = {
       animation: 'shift-away',
@@ -60,8 +63,8 @@ export class ShareBtnComponent extends Component<Props> {
             <li>
               <EmailShareButton
                 url={shareUrl}
-                subject={`Check out ${Meta.APP_NAME}`}
-                body={Meta.STRAPLINE}
+                subject={`Check out ${meta.appName}`}
+                body={meta.strapline}
                 className={buttonClassName}
               >
                 <EmailSvg className="h-line" />
@@ -88,7 +91,7 @@ export class ShareBtnComponent extends Component<Props> {
             <li>
               <FacebookMessengerShareButton
                 url={shareUrl}
-                appId={Meta.FACEBOOK_APP_ID}
+                appId={Facebook.APP_ID.toString()}
                 className={buttonClassName}
               >
                 <MessengerSvg className="h-line" />
@@ -129,7 +132,7 @@ export class ShareBtnComponent extends Component<Props> {
       >
         <button className={`share-btn ${className}`} {...props}>
           <ShareSvg className="h-line mr-2" />
-        <span>{localeStrings?.['share'] ?? 'Share'}</span>
+        <span>{t('share')}</span>
         </button>
       </Tippy>
     )

@@ -11,4 +11,12 @@ export class Arrays {
 
     return chunks
   }
+
+  static sum (array: number[]) {
+    return array.reduce((previous, current) => current += previous)
+  }
+
+  static average (array: number[]) {
+    return this.sum(array) / array.length
+  }
 }

@@ -1,8 +1,9 @@
 import { Component } from 'react'
+import { AppStore } from '../../pages/_app.store'
+import { DashboardPageStore } from '../../pages/dashboard.store'
 import SwiperComponent from 'react-id-swiper'
 import Swiper from 'swiper'
 import { inject, observer } from 'mobx-react'
-import { DashboardPageStore } from '../../pages/dashboard.store'
 import ExternalLinkSvg from '../../../public/icons/external-link.svg'
 
 export enum GeneralAdviceId {
@@ -18,10 +19,11 @@ interface State {
 }
 
 interface Props {
-  pageStore?: DashboardPageStore,
+  appStore?: AppStore,
+  pageStore?: DashboardPageStore
 }
 
-@inject('pageStore')
+@inject('appStore', 'pageStore')
 @observer
 export class DashboardGeneralAdviceComponent extends Component<Props, State> {
   state: State = {
@@ -46,9 +48,8 @@ export class DashboardGeneralAdviceComponent extends Component<Props, State> {
   }
 
   render () {
-    const { pageStore } = this.props
-
-    if (!pageStore) return ''
+    const { appStore } = this.props
+    const { t } = appStore
 
     const swiperParams = {
       loop: true,
@@ -66,17 +67,16 @@ export class DashboardGeneralAdviceComponent extends Component<Props, State> {
       }
     }
 
-    const { localeStrings } = pageStore
     return (
       <div className="general-advice">
         <div className="flex px-6 pt-6 items-center max-w-0">
           <div className="flex-1">
-            <h2 className="font-bold">{localeStrings['general-advice']}</h2>
+            <h2 className="font-bold">{t('general-advice')}</h2>
           </div>
           <div className="text-sm">
-            {localeStrings['more-info']}:{' '}
+            {t('more-info')}:{' '}
             <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public" target="_blank" className="inline-flex items-center font-bold underline">
-              {localeStrings['who-public-advice']}
+              {t('who-public-advice')}
               <ExternalLinkSvg className="h-line-sm ml-1" />
             </a>
           </div>
@@ -89,15 +89,12 @@ export class DashboardGeneralAdviceComponent extends Component<Props, State> {
             {
               Object.values(GeneralAdviceId)
                 .map(key => {
-                  const title = localeStrings[`general-advice-${key}-title`]
-                  const description = localeStrings[`general-advice-${key}-description`]
+                  const title = t(`general-advice-${key}-title`)
+                  const description = t(`general-advice-${key}-description`)
                   if (!title || !description) return
                   return (
                     <div key={key}>
                       <div className="mx-16 mt-6 mb-12">
-                        {
-                          // TODO: Add an image
-                        }
                         <h3 className="font-bold text-xl">
                           {title}
                         </h3>

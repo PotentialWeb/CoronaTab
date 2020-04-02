@@ -1,8 +1,8 @@
 import { connect, PlaceData, PlaceSeedData, FindPlaceSeedDataInDataset } from '../src'
 import { config as InjectEnvs } from 'dotenv'
-import { RegionsData } from '../src/seeds/places/regions/data'
-import { CitiesData } from '../src/seeds/places/cities/data'
-import { CountriesData } from '../src/seeds/places/countries/data'
+import { RegionsData } from '../src/seeds/places/regions/seeds'
+import { CitiesData } from '../src/seeds/places/cities/seeds'
+import { CountriesData } from '../src/seeds/places/countries/seeds'
 import { Strings } from '@coronatab/shared'
 import * as fs from 'fs-extra'
 import * as path from 'path'
@@ -37,7 +37,6 @@ const CountryPolygons = require('./polygons.json')
 export const CountriesData: PlaceSeedData[] = [${CountriesData.map(({
   id,
   locales,
-  phoneCode,
   alpha2code,
   alpha3code,
   population,
@@ -52,7 +51,6 @@ export const CountriesData: PlaceSeedData[] = [${CountriesData.map(({
   locales: {
     ${Object.entries(locales).map(([ locale, name ]) => `${locale}: \`${name}\``).join(',\n    ')}
   },
-  phoneCode: ${phoneCode && `\`${phoneCode}\``},
   alpha2code: ${alpha2code && `\`${alpha2code}\``},
   alpha3code: ${alpha3code && `\`${alpha3code}\``},
   alternativeNames: ${alternativeNames && `[${alternativeNames.map(name => `\`${name}\``).join(', ')}]`},
@@ -75,7 +73,6 @@ const RegionPolygons = require('./polygons.json')
 export const RegionsData: PlaceSeedData[] = [${RegionsData.map(({
     id,
     locales,
-    phoneCode,
     alpha2code,
     alpha3code,
     population,
@@ -89,7 +86,6 @@ export const RegionsData: PlaceSeedData[] = [${RegionsData.map(({
     ${Object.entries(locales).map(([ locale, name ]) => `${locale}: \`${name}\``).join(',\n    ')}
   },
   alternativeNames: ${alternativeNames && `[${alternativeNames.map(name => `\`${name}\``).join(', ')}]`},
-  phoneCode: ${phoneCode && `\`${phoneCode}\``},
   alpha2code: ${alpha2code && `\`${alpha2code}\``},
   alpha3code: ${alpha3code && `\`${alpha3code}\``},
   population: ${population},
@@ -108,7 +104,6 @@ const CityPolygons = require('./polygons.json')
 export const CitiesData: PlaceSeedData[] = [${CitiesData.map(({
   id,
   locales,
-  phoneCode,
   alpha2code,
   alpha3code,
   population,
@@ -121,7 +116,6 @@ export const CitiesData: PlaceSeedData[] = [${CitiesData.map(({
   locales: {
     ${Object.entries(locales).map(([ locale, name ]) => `${locale}: \`${name}\``).join(',\n    ')}
   },
-  phoneCode: ${phoneCode && `\`${phoneCode}\``},
   alpha2code: ${alpha2code && `\`${alpha2code}\``},
   alpha3code: ${alpha3code && `\`${alpha3code}\``},
   alternativeNames: ${alternativeNames && `[${alternativeNames.map(name => `\`${name}\``).join(', ')}]`},

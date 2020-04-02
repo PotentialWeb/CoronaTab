@@ -12,6 +12,7 @@ import { TypeaheadSelectInputComponent } from '../../inputs/select/typeahead'
 import { SelectInputComponent } from '../../inputs/select'
 import { ZoomableGraphState } from './cumulative-graph'
 import { observer, inject } from 'mobx-react'
+import { AppStore } from '../../../pages/_app.store'
 
 const {
   theme: {
@@ -28,6 +29,7 @@ const {
 const COMPARISON_COLORS = [brand, yellow, green, red]
 
 interface Props {
+  appStore?: AppStore
   data: any
   places: Place[]
   selectedPlace: Place
@@ -56,7 +58,7 @@ interface State extends ZoomableGraphState {
   loadingStatus?: LoadingStatus
 }
 
-@inject('pageStore')
+@inject('appStore', 'pageStore')
 @observer
 export class DashboardCompareGraphComponent extends PureComponent<Props, State> {
   state: State = {
@@ -155,8 +157,11 @@ export class DashboardCompareGraphComponent extends PureComponent<Props, State> 
 
   render () {
     const {
+      appStore,
       selectedPlace
     } = this.props
+
+    const { t } = appStore
 
     const {
       data,
@@ -179,9 +184,9 @@ export class DashboardCompareGraphComponent extends PureComponent<Props, State> 
         selectedItem={graphType}
         options={Object.values(GraphType)}
         onChange={(graphType: GraphType) => this.setState({ graphType })}
-        itemToString={(graphType: GraphType) => capitalize(graphType)}
+        itemToString={(graphType: GraphType) => capitalize(t(graphType))}
         buttonClassName="btn btn-white flex items-center border border-light text-sm rounded-sm px-2 py-1 font-bold"
-        buttonContentComponent={(graphType: GraphType) => <span className="mr-2">Compare: {capitalize(graphType)}</span>}
+        buttonContentComponent={(graphType: GraphType) => <span className="mr-2">{t('compare')}: {capitalize(t(graphType))}</span>}
       />
     )
 
@@ -190,9 +195,9 @@ export class DashboardCompareGraphComponent extends PureComponent<Props, State> 
         selectedItem={this.state.yAxisScaleType}
         options={Object.values(YAxisScaleType)}
         onChange={(yAxisScaleType: YAxisScaleType) => this.setState({ yAxisScaleType })}
-        itemToString={(yAxisScaleType: YAxisScaleType) => capitalize(yAxisScaleType)}
+        itemToString={(yAxisScaleType: YAxisScaleType) => capitalize(t(yAxisScaleType))}
         buttonClassName="btn btn-white flex items-center border border-light rounded-sm px-2 py-1 text-xs"
-        buttonContentComponent={(yAxisScaleType: YAxisScaleType) => <span className="mr-2">Scale: {capitalize(yAxisScaleType)}</span>}
+        buttonContentComponent={(yAxisScaleType: YAxisScaleType) => <span className="mr-2">{t('scale')}: {capitalize(t(yAxisScaleType))}</span>}
       />
     )
 
@@ -225,7 +230,7 @@ export class DashboardCompareGraphComponent extends PureComponent<Props, State> 
               if (place) this.fetchAndMergeData(place)
             })
           }}
-          inputPlaceholder={`Select ${this.props.selectedPlace.typeId}...`}
+          inputPlaceholder={t(`select-a-${selectedPlace.typeId}`)}
           inputClassName="text-xs"
           itemToString={(place: Place) => place?.name}
           className="my-px"
@@ -254,7 +259,7 @@ export class DashboardCompareGraphComponent extends PureComponent<Props, State> 
                       </button>
                     </div>
                   )
-                  : <span className="text-xs font-bold">Drag to zoom</span>
+                  : <span className="text-xs font-bold">{t('drag-to-zoom')}</span>
               }
             </div>
             <div>

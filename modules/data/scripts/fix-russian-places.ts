@@ -2,9 +2,8 @@ import { config as InjectEnvs } from 'dotenv'
 InjectEnvs()
 import { v2 } from '@google-cloud/translate'
 import { LocaleId, Strings } from '@coronatab/shared'
-import { RegionsData } from '../src/seeds/places/regions/data'
 import { SeededPlaceDatas, SavePlaceDatas } from '../src/seeds/places/data'
-import { SavePlaceSeedData, SavePlacePolygons } from '../src'
+import { SavePlaceSeedData, SavePlacePolygons, RegionsData } from '../src'
 const { Translate: GoogleTranslate } = v2
 // Instantiates a client
 const credentials = JSON.parse(process.env.GOOGLE_TRANSLATE_SERVICE_ACCOUNT)

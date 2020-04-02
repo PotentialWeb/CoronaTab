@@ -35,7 +35,7 @@ const SerializePlace = (place: Place) => {
 
 const CasesSorter = (a: Place, b: Place) => a.latestData?.cases < b.latestData?.cases ? 1 : -1
 
-const getLatestDataQuery = (alias: string) => `(
+export const getLatestDataQuery = (alias: string) => `(
   SELECT json_build_object(
     'date', date,
     'cases', cases,
@@ -52,7 +52,7 @@ const getLatestDataQuery = (alias: string) => `(
 type AllowedIncludesArray = typeof AllowedIncludes[number][]
 const AllowedIncludes = ['children'] as const
 
-places.get('/places', async (req: CoronaTabRequest, res) => {
+places.get('/', async (req: CoronaTabRequest, res) => {
   const { locale } = req
   let { typeId, include: includes, offset, limit, name }: {
     typeId?: PlaceTypeId,
@@ -151,9 +151,9 @@ places.get('/places', async (req: CoronaTabRequest, res) => {
   })
 })
 
-places.use('/places/types', types)
+places.use('/types', types)
 
-places.get('/places/closest', async (req: CoronaTabRequest, res) => {
+places.get('/closest', async (req: CoronaTabRequest, res) => {
   const { typeId, include: includes }: { typeId: PlaceTypeId, include?: AllowedIncludesArray } = req.query
   const { locale } = req
 
@@ -231,6 +231,7 @@ places.get('/places/closest', async (req: CoronaTabRequest, res) => {
   for (const place of places) {
     const row = rows.find(r => r.place_id === place.id)
     place.latestData = row.latestData
+    place.name = row.name
     const children = row.children?.filter(c => !!c?.id)
     if (children?.length) place.children = children
   }
@@ -241,7 +242,7 @@ places.get('/places/closest', async (req: CoronaTabRequest, res) => {
   })
 })
 
-places.use('/places/:id', async (req: PlaceRequest, res, next) => {
+places.use('/:id', async (req: PlaceRequest, res, next) => {
   const { id } = req.params
   const { locale } = req
   let { include: includes }: { include?: AllowedIncludesArray } = req.query
@@ -298,7 +299,7 @@ places.use('/places/:id', async (req: PlaceRequest, res, next) => {
   next()
 })
 
-places.get('/places/:id', async (req: PlaceRequest, res) => {
+places.get('/:id', async (req: PlaceRequest, res) => {
   const { place } = req
 
   res.json({
@@ -306,6 +307,6 @@ places.get('/places/:id', async (req: PlaceRequest, res) => {
   })
 })
 
-places.use('/places/:id/data', data)
+places.use('/:id/data', data)
 
 export { places }

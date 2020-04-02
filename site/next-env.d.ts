@@ -10,3 +10,9 @@ declare module '*.json' {
   const resource: any
   export = resource
 }
+
+declare module 'http' {
+  interface IncomingMessage {
+    language: string
+  }
+}

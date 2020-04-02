@@ -1,12 +1,15 @@
 import { PureComponent, RefObject, createRef, useMemo } from 'react'
 import { inject, observer } from 'mobx-react'
+import { AppStore } from '../../../../pages/_app.store'
+import { TFunction } from 'next-i18next'
+import numeral from 'numeral'
 import { DashboardPageStore } from '../../../../pages/dashboard.store'
 import { useTable, useSortBy, useFlexLayout } from 'react-table'
 import CaretUpSvg from '../../../../../public/icons/caret-up.svg'
 import CaretDownSvg from '../../../../../public/icons/caret-down.svg'
-import numeral from 'numeral'
 
 export interface Props {
+  appStore?: AppStore
   onClose?: () => any
   pageStore?: DashboardPageStore
 }
@@ -14,7 +17,7 @@ export interface Props {
 export interface State {
 }
 
-@inject('pageStore')
+@inject('appStore', 'pageStore')
 @observer
 export class DashboardGlobalStatsByCountryContentComponent extends PureComponent<Props, State> {
   contentRef: RefObject<HTMLDivElement> = createRef()
@@ -40,6 +43,8 @@ export class DashboardGlobalStatsByCountryContentComponent extends PureComponent
   }
 
   render () {
+    const { appStore } = this.props
+    const { t } = appStore
     return (
       <div
         ref={this.contentRef}
@@ -51,8 +56,9 @@ export class DashboardGlobalStatsByCountryContentComponent extends PureComponent
           className="h-full bg-white rounded md:mx-6 cursor-default depth-lg overflow-scroll scrolling-touch dashboard-spacer-x"
         >
           <Table
-            data={this.props.pageStore.countries}
+            data={this.props.pageStore.countries.data}
             onSortClick={this.onSortClick}
+            t={t}
           />
         </div>
       </div>
@@ -64,20 +70,24 @@ function FormatNumberCell (value: number, format: string) {
   return <span>{numeral(value).format(format)}</span>
 }
 
-function Table ({ data, onSortClick }) {
+function Table ({ data, onSortClick, t }: {
+  data: any[]
+  onSortClick: () => any
+  t: TFunction
+}) {
   const columns = useMemo(() => [{
-    Header: 'Country',
+    Header: t('country'),
     columns: [
       {
         id: 'code',
-        Header: 'Code',
+        Header: t('code'),
         accessor: 'alpha2code',
         sortType: 'alphanumeric',
         width: 20
       },
       {
         id: 'name',
-        Header: 'Name',
+        Header: t('name'),
         Cell: ({ cell }) => {
           const code = cell.row?.values?.code
           return (
@@ -101,46 +111,46 @@ function Table ({ data, onSortClick }) {
       },
       {
         id: 'population',
-        Header: 'Population',
+        Header: t('population'),
         Cell: ({ cell }) => FormatNumberCell(cell.value, cell.value > 1000 ? '0.0a' : '0,0'),
         accessor: 'population',
         sortType: 'alphanumeric'
       }
     ]
   }, {
-    Header: 'Stats',
+    Header: t('stats'),
     columns: [
       {
         id: 'cases',
-        Header: 'Cases',
+        Header: t('cases'),
         Cell: ({ cell }) => FormatNumberCell(cell.value, '0,0'),
         accessor: 'latestData.cases',
         sortType: 'basic'
       },
       {
         id: 'deaths',
-        Header: 'Deaths',
+        Header: t('deaths'),
         Cell: ({ cell }) => FormatNumberCell(cell.value, '0,0'),
         accessor: 'latestData.deaths',
         sortType: 'basic'
       },
       {
         id: 'death-rate',
-        Header: 'Death Rate',
+        Header: t('death-rate'),
         Cell: ({ cell }) => FormatNumberCell(cell.value, '0.00%'),
         accessor: 'latestData.deathRate',
         sortType: 'basic'
       },
       {
         id: 'recovered',
-        Header: 'Recovered',
+        Header: t('recovered'),
         Cell: ({ cell }) => FormatNumberCell(cell.value, '0,0'),
         accessor: 'latestData.recovered',
         sortType: 'basic'
       },
       {
         id: 'recovery-rate',
-        Header: 'Recovery Rate',
+        Header: t('recovery-rate'),
         Cell: ({ cell }) => FormatNumberCell(cell.value, '0.00%'),
         accessor: 'latestData.recoveryRate',
         sortType: 'basic'
