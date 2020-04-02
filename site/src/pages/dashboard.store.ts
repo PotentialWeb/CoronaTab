@@ -208,11 +208,12 @@ export class DashboardPageStore {
         if (nextFetchAt > new Date()) return this.rawPlaceData[id]
       }
     }
-    const { data: rawData } = await PlaceApi.queryData(id, { compact: true })
+    const { data: rawData, meta: { projected } } = await PlaceApi.queryData(id, { compact: true })
     if (!Array.isArray(rawData)) throw new Error('rawData is not an array')
     const dataObj = {
       lastFetched: new Date().toString(),
-      data: rawData
+      data: rawData,
+      projected
     }
     this.rawPlaceData = {
       ...this.rawPlaceData,

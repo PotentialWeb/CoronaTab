@@ -99,7 +99,8 @@ export class DashboardCumulativeGraphComponent extends PureComponent<Props, Stat
     })
 
     // xAxis domain
-    let bottom: number, top: number
+    let bottom: number
+    let top: number
 
     for (const { cases, deaths, recovered } of filteredData) {
       const min = Math.min(cases, deaths, recovered)
@@ -131,7 +132,7 @@ export class DashboardCumulativeGraphComponent extends PureComponent<Props, Stat
   }
 
   zoomOut = () => {
-    this.setState(() => this.defaultState);
+    this.setState(() => this.defaultState)
   }
 
   render () {
@@ -272,7 +273,7 @@ export class DashboardCumulativeGraphComponent extends PureComponent<Props, Stat
                   }}
                   onMouseUp={this.onMouseUp}
                 >
-                  <Line type="monotone" dataKey="cases" name={t('cases') as string} stroke={brand} dot={{ r: 1}} strokeWidth="2" isAnimationActive={true} animationDuration={200} />
+                  <Line type="monotone" dataKey="cases" name={t('cases') as string} stroke={brand} dot={{ r: 1 }} strokeWidth="2" isAnimationActive={true} animationDuration={200} />
                   <Line type="monotone" dataKey="deaths" name={t('deaths') as string} stroke={red} dot={{ r: 1 }} strokeWidth="2" isAnimationActive={true} animationDuration={200} />
                   <Line type="monotone" dataKey="recovered" name={t('recovered') as string} dot={{ r: 1 }} stroke={green} strokeWidth="2" isAnimationActive={true} animationDuration={200} />
                   <CartesianGrid stroke={brandDull} strokeDasharray="5 5" />
