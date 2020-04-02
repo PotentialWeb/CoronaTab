@@ -154,7 +154,7 @@ export class DashboardPlaceComponent extends Component<Props, State> {
               if (!pageStore.selectedPlace) return ''
 
               const visualizations = (
-                <div className="dashboard-place-visualizations flex flex-row flex-wrap min-w-0">
+                <div className="dashboard-place-visualizations">
                   <div className="dashboard-spacer">
                     <DashboardCumulativeGraphComponent
                       data={this.state.data?.cumulativeSeries}
