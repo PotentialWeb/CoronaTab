@@ -27072,8 +27072,7 @@
     "hospitalBeds": 172430,
     "icuBeds": 4480,
     "coordinates": [
-      18.4207,
-      -64.64
+      -1.5, 53.3781
     ],
     "parentId": "earth",
     "dataSource": "https://www.gov.scot/coronavirus-covid-19/"

@@ -227,6 +227,8 @@ places.get('/closest', async (req: CoronaTabRequest, res) => {
     }
   }
 
+  console.log(query.getSql())
+
   const { entities: places, raw: rows } = await query.getRawAndEntities()
   for (const place of places) {
     const row = rows.find(r => r.place_id === place.id)
