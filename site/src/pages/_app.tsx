@@ -14,7 +14,6 @@ import { LocaleId } from '@coronatab/shared'
 import '../utils/polyfills'
 import '../style.css'
 
-
 interface Props extends AppInitialProps, WithTranslation {
   router: NextRouter,
   locale: LocaleId,
@@ -28,7 +27,7 @@ interface State {
 class App extends NextApp<Props, State> {
   static async getInitialProps (appContext: AppContext) {
     const appProps: AppInitialProps = await NextApp.getInitialProps(appContext)
-    const locale = Cookies.get(I18NextCookieKey, appContext.ctx)
+    const locale = appContext?.ctx?.req?.language ?? Cookies.get(I18NextCookieKey, appContext?.ctx)
     const urlInfo = URLInfo.get(appContext.ctx.req)
     return { ...appProps, locale, urlInfo }
   }

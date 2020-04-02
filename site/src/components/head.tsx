@@ -3,6 +3,7 @@ import { PureComponent } from 'react'
 import { inject, observer } from 'mobx-react'
 import { AppStore } from '../pages/_app.store'
 import { Facebook } from '../utils/facebook'
+import { LocaleIds } from '@coronatab/shared'
 
 interface Props {
   appStore?: AppStore
@@ -46,7 +47,7 @@ export class HeadComponent extends PureComponent<Props> {
         <meta name="apple-mobile-web-app-title" content={meta.appName} />
         <meta name="application-name" content={meta.appName} />
 
-        <link rel="canonical" href={urlInfo.currentUrl} />
+        <link rel="canonical" href={urlInfo.canonicalUrl} />
 
         {/* generics */}
         <link rel="icon" href={buildFaviconPath(32)} sizes="32x32" />
@@ -61,6 +62,16 @@ export class HeadComponent extends PureComponent<Props> {
         <link rel="apple-touch-icon" href={buildFaviconPath(120)} sizes="120x120" />
         <link rel="apple-touch-icon" href={buildFaviconPath(152)} sizes="152x152" />
         <link rel="apple-touch-icon" href={buildFaviconPath(180)} sizes="180x180" />
+
+        {/* i18n */}
+        <link rel="alternate" hrefLang="x-default" href={urlInfo.canonicalUrl} />
+        {(() => {
+          const localizedCurrentUrl = (locale: string) => `${urlInfo.origin}/${locale}${urlInfo.pathname?.replace?.(`/${locale}`, '')}`
+          return [...LocaleIds].map(locale => (
+            <link key={locale} rel="alternate" hrefLang={locale} href={localizedCurrentUrl(locale)} />
+          ))
+        })()}
+
       </NextHead>
     )
   }

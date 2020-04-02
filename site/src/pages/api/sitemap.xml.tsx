@@ -2,6 +2,7 @@ import { NextApiRequest, NextApiResponse } from 'next'
 import { SitemapStream, streamToPromise, EnumChangefreq } from 'sitemap'
 import { createGzip } from 'zlib'
 import { URLInfo } from '../../utils/url-info'
+import { LocaleIds } from '@coronatab/shared'
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
   try {
@@ -18,14 +19,33 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
     const pipeline = sitemap.pipe(createGzip())
 
-    // Add any static entries here
-    sitemap.write({ url: '/', changefreq: EnumChangefreq.WEEKLY, priority: 1 })
-    sitemap.write({ url: '/dashboard', changefreq: EnumChangefreq.WEEKLY, priority: 1 })
+    const localizedUrls = [{
+      url: '/', changefreq: EnumChangefreq.WEEKLY, priority: 1,
+    }, {
+      url: '/dashboard', changefreq: EnumChangefreq.WEEKLY, priority: 1
+    }]
 
-    // Add dynamic entries if needs be, like so:
-    // for (const entry of entries) {
-    //   sitemap.add({ url: entry.url })
-    // }
+    for (const { url, ...config } of localizedUrls) {
+      sitemap.write({
+        url,
+        links: [...LocaleIds].map(locale => ({
+          lang: locale,
+          url: `/${locale}${url}`
+        })),
+        ...config
+      })
+
+      for (const locale of [...LocaleIds]) {
+        sitemap.write({
+          url: `/${locale}${url}`,
+          links: [...LocaleIds].filter(l => l !== locale).map(locale => ({
+            lang: locale,
+            url: `/${locale}${url}`
+          })),
+          ...config
+        })
+      }
+    }
 
     sitemap.end()
     streamToPromise(pipeline)
