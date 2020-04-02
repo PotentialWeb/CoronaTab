@@ -9,7 +9,7 @@ import { DashboardGlobalComponent } from './dashboard/global'
 import { DashboardPlaceComponent } from './dashboard/place'
 import LogoTextSvg from '../../public/icons/logo-text.svg'
 import ExternalLinkSvg from '../../public/icons/external-link.svg'
-
+import { LanguageSelectComponent } from './language-select'
 
 interface Props {
   appStore?: AppStore
@@ -25,12 +25,17 @@ export class DashboardComponent extends Component<Props> {
     return (
       <div className="dashboard">
         <div className="dashboard-content">
-          <div>
-            <Link href="/">
-              <a target={iFramed ? '_blank' : null} className="btn inline-block">
-                <LogoTextSvg className="h-10" />
-              </a>
-            </Link>
+          <div className="flex items-center">
+            <div className="flex-shrink-0">
+              <Link href="/">
+                <a target={iFramed ? '_blank' : null} className="btn inline-block">
+                  <LogoTextSvg className="h-10" />
+                </a>
+              </Link>
+            </div>
+            <div className="flex-1 flex justify-end items-center">
+              <LanguageSelectComponent />
+            </div>
           </div>
 
           <div className="dashboard-spacer-y">

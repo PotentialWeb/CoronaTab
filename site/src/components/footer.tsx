@@ -5,6 +5,7 @@ import { ExtensionDownloadBtnComponent } from './extension-download-btn'
 import { ShareBtnComponent } from './share-btn'
 import { inject, observer } from 'mobx-react'
 import { AppStore } from '../pages/_app.store'
+import { LanguageSelectComponent } from './language-select'
 
 interface Props extends HTMLAttributes<HTMLDivElement> {
   appStore?: AppStore
@@ -102,33 +103,17 @@ export class FooterComponent extends Component<Props> {
                 </ul>
               </div>
 
-              <div className={`${listClasses} flex items-start lg:justify-end`}>
-                <ShareBtnComponent
-                  className="btn btn-white flex items-center border border-light px-6 rounded py-2"
-                />
+              <div className={`${listClasses}`}>
+                <div className="flex items-start lg:justify-end py-1">
+                  <ShareBtnComponent
+                    className="btn btn-white flex items-center border border-light px-6 rounded py-2"
+                  />
+                </div>
+                <div className="flex items-start lg:justify-end py-1">
+                  <LanguageSelectComponent />
+                </div>
               </div>
-              {/*<div className={listClasses}>
-                <h2 className={listHeaderClasses}>
-                  Company
-                </h2>
-                <ul className="text-sm">
-                  <li>
-                    <Link href="/about-us">
-                      <a className={listLinkClasses}>About Us</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/careers">
-                      <a className={listLinkClasses}>Careers</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/press">
-                      <a className={listLinkClasses}>Press</a>
-                    </Link>
-                  </li>
-                </ul>
-              </div>*/}
+
             </div>
           </div>
         </div>
