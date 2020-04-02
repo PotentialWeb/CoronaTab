@@ -1,17 +1,12 @@
 import { PureComponent } from 'react'
 import { CartesianGrid, XAxis, YAxis, Tooltip, ResponsiveContainer, BarChart, Legend, Bar } from 'recharts'
 import tailwindConfig from '../../../utils/tailwind'
-import Downshift from 'downshift'
-import Tippy from '@tippyjs/react'
-import { scaleTime } from 'd3-scale'
-import CaretDownSvg from '../../../../public/icons/caret-down.svg'
-import CaretUpSvg from '../../../../public/icons/caret-up.svg'
 import moment from 'moment'
 import numeral from 'numeral'
 import { LoadingComponent } from '../../loading'
-import { SvgRectComponent } from '../../svg-rect'
 import { inject, observer } from 'mobx-react'
 import { AppStore } from '../../../pages/_app.store'
+import { SelectInputComponent } from '../../inputs/select'
 
 const {
   theme: {
@@ -51,82 +46,16 @@ export class DashboardDailyChartComponent extends PureComponent<Props, State> {
   render () {
     const { appStore } = this.props
     const { t } = appStore
+    const { timeframe } = this.state
 
     const timeframeSelect = (
-      <Downshift
-        selectedItem={this.state.timeframe}
+      <SelectInputComponent
+        selectedItem={timeframe}
+        options={[...timeframes]}
+        itemToString={(timeframe: Timeframe) => `${timeframe} ${t('days')}`}
         onChange={(timeframe: Timeframe) => this.setState({ timeframe })}
-      >
-        {({
-          getItemProps,
-          getMenuProps,
-          selectedItem,
-          isOpen,
-          highlightedIndex,
-          getRootProps,
-          setState
-        }) => (
-          <div className="select">
-            <Tippy
-              visible={isOpen}
-              animation="shift-away"
-              theme="light"
-              className="select-list-tooltip"
-              allowHTML={true}
-              content={(
-                <ul
-                  {...getMenuProps({}, { suppressRefError: true })}
-                  className="select-list"
-                >
-                  {
-                    isOpen
-                      ? timeframes
-                        .map((timeframe, index) => {
-                          return (
-                            <li
-                              key={index}
-                              {...getItemProps({
-                                index,
-                                item: timeframe
-                              })}
-                              data-highlighted={highlightedIndex === index}
-                              className="select-list-item"
-                            >
-                              <span className="font-bold">{timeframe} {t('days')}</span>{' '}
-                            </li>
-                          )
-                        })
-                      : ''
-                  }
-                </ul>
-              )}
-              arrow={true}
-              placement="bottom-start"
-              duration={100}
-              maxWidth="none"
-              onHidden={() => setState({ isOpen: false })}
-              interactive
-            >
-              <div
-                {...getRootProps({} as any, { suppressRefError: true })}
-                className="select-input-area"
-              >
-                <button
-                  className="btn btn-white flex items-center border border-light rounded-sm px-2 py-1 text-xs"
-                  onClick={() => setState({ isOpen: true })}
-                >
-                  <span className="mr-2">{t('last')} {selectedItem} {t('days')}</span>
-                  {
-                    isOpen
-                      ? (<CaretUpSvg className="h-line-sm" />)
-                      : (<CaretDownSvg className="h-line-sm" />)
-                  }
-                </button>
-              </div>
-            </Tippy>
-          </div>
-        )}
-      </Downshift>
+        buttonClassName="btn btn-white flex items-center border border-light rounded-sm px-2 py-1 text-xs"
+      />
     )
 
     return (
