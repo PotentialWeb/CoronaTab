@@ -14,14 +14,21 @@ export enum LoadingStatus {
 }
 
 export type CountriesObj = {
-  lastFetched: string
-  locale: string
+  lastFetched?: string
+  locale?: string
+  data: Place[]
+}
+
+export type SelectedPlacesObj = {
+  lastFetched?: string
+  locale?: string
   data: Place[]
 }
 
 export type RawPlaceDataObj = {
-  lastFetched: string,
+  lastFetched: string
   data: (string | number)[]
+  projected: (string | number)[]
 }
 
 export type RawPlaceData = {
@@ -54,7 +61,7 @@ export class DashboardPageStore {
   @observable
   loadingStatus = LoadingStatus.IS_LOADING
 
-  static lastFetchedTTL = 600
+  static lastFetchedTTL = 3600
 
   @action.bound
   async init () {
@@ -70,11 +77,11 @@ export class DashboardPageStore {
       const [
         countriesResult,
         globalDataResult,
-        selectedPlaceResult
+        selectedPlacesResult
       ] = await allSettled([
         this.fetchCountries(),
         this.fetchRawPlaceData('earth'),
-        !this.selectedPlace && PlaceApi.findClosest({ typeId: 'country', include: ['children'] })
+        this.fetchSelectedPlaces()
       ])
 
       if (countriesResult.status === 'fulfilled') {
@@ -95,10 +102,12 @@ export class DashboardPageStore {
         console.error(globalDataResult.reason)
       }
 
-      if (selectedPlaceResult.status === 'fulfilled') {
-        if (selectedPlaceResult.value?.data?.length) {
-          this.selectedPlaceTree = [selectedPlaceResult.value.data[0]]
-        }
+      if (selectedPlacesResult.status === 'fulfilled') {
+        const selectedPlacesObj = selectedPlacesResult.value
+        this.selectedPlaces = selectedPlacesObj
+      } else {
+        this.selectedPlaces = { data: [] }
+        console.error(selectedPlacesResult.reason)
       }
 
       // Data may be cached. Make a fresh request for
@@ -153,13 +162,17 @@ export class DashboardPageStore {
   }
 
   @action.bound
-  async fetchCountries (opts: { disableCache?: boolean } = {}) {
+  async fetchCountries (opts: { disableCache?: boolean } = {}): Promise<CountriesObj> {
+    // If we should try to load from cache and countries are loaded and locale matches
     if (opts?.disableCache !== true && this.countries.data.length && this.appStore.locale === this.countries.locale) {
+      // ...and if cache has not expired
       if (this.countries.lastFetched) {
         const nextFetchAt = moment(this.countries.lastFetched).add(DashboardPageStore.lastFetchedTTL, 'seconds').toDate()
+        // ...then return cached countries
         if (nextFetchAt > new Date()) return this.countries
       }
     }
+    // Else fetch countries
     const { data: places } = await PlaceApi.query({ typeId: 'country', include: ['children'] })
     return {
       lastFetched: new Date().toString(),
@@ -169,22 +182,62 @@ export class DashboardPageStore {
   }
 
   @observable
-  private _selectedPlaceTree: Place[]
+  private _selectedPlaces: SelectedPlacesObj
 
   @computed
-  get selectedPlaceTree (): Place[] {
-    return this._selectedPlaceTree ?? LocalStorage.get('selectedPlaceTree') ?? []
+  get selectedPlaces (): SelectedPlacesObj {
+    return this._selectedPlaces ?? LocalStorage.get('selectedPlaces') ?? { data: [] }
   }
 
-  set selectedPlaceTree (place: Place[]) {
-    this._selectedPlaceTree = place
-    LocalStorage.set('selectedPlaceTree', place)
+  set selectedPlaces (obj: SelectedPlacesObj) {
+    this._selectedPlaces = obj
+    LocalStorage.set('selectedPlaces', obj)
   }
 
   @computed
   get selectedPlace () {
-    const t = this.selectedPlaceTree
+    const t = this.selectedPlaces.data
     return t.length > 0 && t[t.length - 1]
+  }
+
+  @action.bound
+  async fetchSelectedPlaces (opts: { disableCache?: boolean } = {}): Promise<SelectedPlacesObj> {
+    // If we should try to load from cache and locale matches and has a selected place
+    if (opts?.disableCache !== true && this.appStore.locale === this.selectedPlaces.locale && this.selectedPlace) {
+      // ...and if cache has not expired
+      if (this.selectedPlaces.lastFetched) {
+        const nextFetchAt = moment(this.selectedPlaces.lastFetched).add(DashboardPageStore.lastFetchedTTL, 'seconds').toDate()
+        // ...then return cached places
+        if (nextFetchAt > new Date()) return this.selectedPlaces
+      }
+    }
+    let selectedPlaces = {
+      lastFetched: new Date().toString(),
+      locale: this.appStore.locale,
+      data: []
+    }
+    // Else if there's no currently selected place
+    if (!this.selectedPlace) {
+      // ...find user's closest place
+      const { data: places } = await PlaceApi.findClosest({ typeId: 'country', include: ['children'] })
+      // ...and if we find one
+      if (places.length) {
+        // ...then set it and return
+        selectedPlaces.data.push(places[0])
+        selectedPlaces.lastFetched = new Date().toString()
+      }
+    // Else if there's currently selected places
+    } else {
+      // Get latest data for each
+      const placeResults = await Promise.all(
+        this.selectedPlaces.data.map(({ id }) => (
+          PlaceApi.find(id)
+        ))
+      )
+      selectedPlaces.data = placeResults.map(({ data }) => data as Place).filter(place => place?.id)
+      selectedPlaces.lastFetched = new Date().toString()
+    }
+    return selectedPlaces
   }
 
   @observable
@@ -202,9 +255,12 @@ export class DashboardPageStore {
 
   @action.bound
   async fetchRawPlaceData (id: string, opts?: { disableCache?: boolean }): Promise<RawPlaceDataObj> {
+    // If we should try to load from cache and rawPlaceData entry exists
     if (opts?.disableCache !== true && this.rawPlaceData[id]) {
+      // ...and if cache has not expired
       if (this.rawPlaceData[id].lastFetched) {
         const nextFetchAt = moment(this.rawPlaceData[id].lastFetched).add(DashboardPageStore.lastFetchedTTL, 'seconds').toDate()
+        // ...then return cached data
         if (nextFetchAt > new Date()) return this.rawPlaceData[id]
       }
     }
