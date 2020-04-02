@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "tslint-config-standard",
+    "tslint-react"
+  ],
+  "rules": {
+    "jsx-boolean-value": false,
+    "jsx-no-lambda": false,
+    "jsx-no-multiline-js": false,
+    "no-floating-promises": false,
+    "quotemark": [true, "single", "jsx-double"]
+  },
+  "linterOptions": {
+    "exclude": [
+      "dist/**/*.ts",
+      "node_modules/**/*"
+    ]
+  }
+}

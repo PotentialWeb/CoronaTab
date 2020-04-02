@@ -7,8 +7,10 @@ import CaretDownSvg from '../../../../public/icons/caret-down.svg'
 import CaretUpSvg from '../../../../public/icons/caret-up.svg'
 import get from 'lodash.get'
 import numeral from 'numeral'
+import { AppStore } from '../../../pages/_app.store'
 
 interface Props {
+  appStore?: AppStore
   pageStore?: DashboardPageStore
 }
 
@@ -25,7 +27,7 @@ enum LeaderboardTypeId {
 
 interface LeaderboardType {
   id: LeaderboardTypeId
-  label: string
+  labelI18n: string
   accessor: string
   sortBy?: 'desc' | 'asc'
   formatter?: (value: number) => string
@@ -34,46 +36,46 @@ interface LeaderboardType {
 
 const leaderboardTypes: LeaderboardType[] = [{
   id: LeaderboardTypeId.MOST_CASES,
-  label: 'Most Cases',
+  labelI18n: 'most-cases',
   accessor: 'latestData.cases',
   formatter: (value: number) => numeral(value).format(value >= 1000 ? '0.[0]a' : '0,0')
 }, {
   id: LeaderboardTypeId.MOST_CASES_AS_PERCENTAGE_OF_POPULATION,
-  label: 'Most Cases % Population',
+  labelI18n: 'most-cases-perc-population',
   accessor: 'latestData.casesAsPercentageOfPopulation',
   formatter: (value: number) => numeral(value).format('0.000%')
 }, {
   id: LeaderboardTypeId.MOST_DEATHS,
-  label: 'Most Deaths',
+  labelI18n: 'most-deaths',
   accessor: 'latestData.deaths',
   formatter: (value: number) => numeral(value).format(value >= 1000 ? '0.[0]a' : '0,0')
 }, {
   id: LeaderboardTypeId.MOST_DEATHS_AS_PERCENTAGE_OF_POPULATION,
-  label: 'Most Deaths % Population',
+  labelI18n: 'most-deaths-perc-population',
   accessor: 'latestData.deathsAsPercentageOfPopulation',
   formatter: (value: number) => numeral(value).format('0.000%')
 }, {
   id: LeaderboardTypeId.HIGHEST_DEATH_RATE,
-  label: 'Highest Death Rate',
+  labelI18n: 'highest-death-rate',
   accessor: 'latestData.deathRate',
   formatter: (value: number) => numeral(value).format('0.000%'),
   filter: (place: Place) => isFinite(place.latestData.deathRate)
 }, {
   id: LeaderboardTypeId.LOWEST_DEATH_RATE,
-  label: 'Lowest Death Rate',
+  labelI18n: 'lowest-death-rate',
   accessor: 'latestData.deathRate',
   sortBy: 'asc',
   formatter: (value: number) => numeral(value).format('0.000%'),
   filter: (place: Place) => place.latestData.deathRate > 0
 }, {
   id: LeaderboardTypeId.HIGHEST_RECOVERY_RATE,
-  label: 'Highest Recovery Rate',
+  labelI18n: 'highest-recovery-rate',
   accessor: 'latestData.recoveryRate',
   formatter: (value: number) => numeral(value).format('0.000%'),
   filter: (place: Place) => isFinite(place.latestData.deathRate)
 }, {
   id: LeaderboardTypeId.LOWEST_RECOVERY_RATE,
-  label: 'Lowest Recovery Rate',
+  labelI18n: 'lowest-recovery-rate',
   accessor: 'latestData.recoveryRate',
   sortBy: 'asc',
   formatter: (value: number) => numeral(value).format('0.000%'),
@@ -85,7 +87,7 @@ interface State {
   data?: any
 }
 
-@inject('pageStore')
+@inject('appStore', 'pageStore')
 @observer
 export class DashboardGlobalCountryLeaderboardComponent extends PureComponent<Props, State> {
   state: State = {
@@ -93,7 +95,8 @@ export class DashboardGlobalCountryLeaderboardComponent extends PureComponent<Pr
   }
 
   render () {
-    const { pageStore } = this.props
+    const { appStore, pageStore } = this.props
+    const { t } = appStore
 
     const leaderboardType = leaderboardTypes.find(({ id }) => id === this.state.leaderboardTypeId)
 
@@ -101,7 +104,7 @@ export class DashboardGlobalCountryLeaderboardComponent extends PureComponent<Pr
       <Downshift
         selectedItem={leaderboardType}
         onChange={(leaderboardType: LeaderboardType) => this.setState({ leaderboardTypeId: leaderboardType.id })}
-        itemToString={(leaderboardType: LeaderboardType) => leaderboardType?.label}
+        itemToString={(leaderboardType: LeaderboardType) => leaderboardType?.labelI18n ? t(leaderboardType.labelI18n) : null}
       >
         {({
           getItemProps,
@@ -138,7 +141,7 @@ export class DashboardGlobalCountryLeaderboardComponent extends PureComponent<Pr
                               data-highlighted={highlightedIndex === index}
                               className="select-list-item"
                             >
-                              <span className="font-bold">{leaderboardType.label}</span>{' '}
+                              <span className="font-bold">{t(leaderboardType.labelI18n)}</span>{' '}
                             </li>
                           )
                         })
@@ -161,7 +164,7 @@ export class DashboardGlobalCountryLeaderboardComponent extends PureComponent<Pr
                   className="btn btn-white flex items-center border border-light rounded-sm px-2 py-1 text-lg font-bold"
                   onClick={() => setState({ isOpen: true })}
                 >
-                  <span className="mr-2">{selectedItem.label}</span>
+                  <span className="mr-2">{t(selectedItem.labelI18n)}</span>
                   {
                     isOpen
                       ? (<CaretUpSvg className="h-line-sm" />)
@@ -191,7 +194,7 @@ export class DashboardGlobalCountryLeaderboardComponent extends PureComponent<Pr
           {(() => {
             const { accessor, formatter, filter, sortBy } = leaderboardType
 
-            let places = [...pageStore.countries]
+            let places = [...pageStore.countries.data]
 
             if (typeof filter === 'function') places = places.filter(filter)
 

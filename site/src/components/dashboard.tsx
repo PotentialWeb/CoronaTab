@@ -1,7 +1,7 @@
 import { Component } from 'react'
-import Link from 'next/link'
+import { Link } from '../utils/i18n'
 import { inject, observer } from 'mobx-react'
-import { DashboardPageStore } from '../pages/dashboard.store'
+import { AppStore } from '../pages/_app.store'
 import { DashboardQuickLinksComponent } from './dashboard/quick-links'
 import { DashboardGeneralAdviceComponent } from './dashboard/general-advice'
 import { ShareBtnComponent } from './share-btn'
@@ -10,17 +10,18 @@ import { DashboardPlaceComponent } from './dashboard/place'
 import LogoTextSvg from '../../public/icons/logo-text.svg'
 import ExternalLinkSvg from '../../public/icons/external-link.svg'
 
+
 interface Props {
-  pageStore?: DashboardPageStore
+  appStore?: AppStore
 }
 
-@inject('pageStore')
+@inject('appStore')
 @observer
 export class DashboardComponent extends Component<Props> {
   render () {
-    const { pageStore } = this.props
+    const { appStore } = this.props
+    const { t } = appStore
     const iFramed = window?.self !== window?.top
-
     return (
       <div className="dashboard">
         <div className="dashboard-content">
@@ -66,9 +67,6 @@ export class DashboardComponent extends Component<Props> {
                   className="btn btn-white flex items-center border border-light px-6 py-1 rounded"
                 />
               </div>
-              {/*<span className="text-xs">
-                Last Updated: {pageStore.lastUpdated?.toISOString()}
-              </span>*/}
             </div>
 
             <div className="dashboard-spacer-y">
@@ -84,20 +82,12 @@ export class DashboardComponent extends Component<Props> {
                   className="px-4 py-3 bg-brand-light hover:bg-brand-lighter text-white rounded-lg leading-tight font-bold"
                 >
                   <span className="text-sm mr-4">
-                    Made with ❤️ by the team at{' '}
-                    <span className="underline">
-                      Hoobu.com
-                    </span>
-                    . Plan your post-pandemic trip now with our awesome real-time collaborative trip planner
+                    {t('promo-message')}
                     <ExternalLinkSvg className="inline-block h-line ml-2" />
                   </span>
                 </div>
               </a>
             </div>
-
-            {
-              // TODO: Add regionalised information for how to take action if you or a loved one are ill.
-            }
 
             <div className="dashboard-spacer">
               <DashboardQuickLinksComponent />

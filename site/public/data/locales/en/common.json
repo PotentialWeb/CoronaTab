@@ -1,0 +1,84 @@
+{
+  "open-source": "Open source",
+  "data-platform": "Data platform",
+  "coronavirus": "Coronavirus",
+  "index-title": "Open source Coronavirus data platform",
+  "strapline": "Open source platform for COVID-19 data",
+  "marketing-text": "Open source platform for COVID-19 data. Advanced dashboard with browser extension and free detailed REST API, localized into all languages.",
+  "go-to-the-dashboard": "Go to the dashboard",
+  "documentation": "Documentation",
+  "privacy": "Privacy",
+  "dashboard": "Dashboard",
+  "download": "Download",
+  "browser-extension": "Browser Extension",
+  "extension": "extension",
+  "stats": "stats",
+
+  "cases": "Cases",
+  "deaths": "Deaths",
+  "recovered": "Recovered",
+
+  "total-cases": "Total cases",
+  "total-deaths": "Total deaths",
+  "total-recovered": "Total recovered",
+  "now": "Now",
+
+  "most-cases": "Most cases",
+  "most-cases-perc-population": "Most cases % population",
+  "most-deaths": "Most Deaths",
+  "most-deaths-perc-population": "Most deaths % population",
+  "highest-death-rate": "Highest death rate",
+  "lowest-death-rate": "Lowest death rate",
+  "highest-recovery-rate": "Highest recovery rate",
+  "lowest-recovery-rate": "Lowest recovery rate",
+
+  "cumulative": "Cumulative",
+  "compare": "Compare",
+  "drag-to-zoom": "Drag to zoom",
+  "scale": "Scale",
+  "linear": "Linear",
+  "logarithmic": "Logarithmic",
+
+  "daily": "Daily",
+  "last": "Last",
+  "days": "Days",
+
+  "view-all-stats-by-country": "View all stats by country",
+  "country": "Country",
+  "code": "Code",
+  "name": "Name",
+  "population": "Population",
+  "death-rate": "Death rate",
+  "recovery-rate": "Recovery rate",
+
+  "view-heatmap": "View heatmap",
+  "error-loading-map": "Error loading map",
+
+  "global": "Global",
+
+  "retry": "Retry",
+  "try-again": "Try again",
+  "service-unavailable": "Service unavailable",
+
+  "select-a-place": "Select a place",
+  "select-a-country": "Select a country",
+  "select-a-region": "Select a region",
+
+  "promo-message": "Made with love ❤️ by the team at Hoobu.com. Plan your post-pandemic trip now with our awesome real-time collaborative trip planner",
+
+  "more-info": "More info",
+  "share": "Share",
+  "who-public-advice": "WHO public advice",
+
+  "general-advice": "General advice",
+  "general-advice-wash-hands-title": "Wash your hands",
+  "general-advice-wash-hands-description": "Wash your hands frequently and for 20 seconds using soap and water after you blow your nose, cough or sneeze and before you eat or handle food. Proper hand washing is the most effective way of killing viruses.",
+  "general-advice-minimise-contact-title": "Minimise personal contact",
+  "general-advice-minimise-contact-description": "Minimise non-essential meetings & journeys and seek alternatives to greetings such as hand shakes, hugs or kisses.",
+  "general-advice-avoid-face-title": "Don't touch your face",
+  "general-advice-avoid-face-description": "Hands can easily pick up viruses and once contaminated, hands can transfer the virus to your eyes, nose or mouth.  From there, the virus can enter your body and make you ill.",
+  "general-advice-be-hygienic-title": "Be hygienic",
+  "general-advice-be-hygienic-description": "Covering your mouth and nose with your bent elbow or tissue when you cough or sneeze, and dispose of the used tissue immediately.",
+  "general-advice-self-isolate-title": "Feeling ill? Self isolate!",
+  "general-advice-self-isolate-description": "If you develop flu like symptoms you should self-isolate as a precautionary measure and avoid the risk of spreading the infection by staying at home."
+}

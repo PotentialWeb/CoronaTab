@@ -21,7 +21,7 @@ export class ExtensionDownloadBtnComponent extends Component<Props> {
       ...props
     } = this.props
 
-    const { browserExtension } = appStore
+    const { browserExtension, t } = appStore
 
     return typeof window !== 'undefined'
       ? (
@@ -37,7 +37,7 @@ export class ExtensionDownloadBtnComponent extends Component<Props> {
               <>
                 <img className={logoClassName} src={`/browser-logos/${browserExtension.name.toLowerCase()}.png`}/>
                 <span className="mr-2 truncate">
-                  Download {browserExtension.name} extension
+                  {t('download')} {browserExtension.name} {t('extension')}
                 </span>
                 <ExternalLinkSvg className="h-line-sm" />
               </>

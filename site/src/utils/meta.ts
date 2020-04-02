@@ -2,6 +2,8 @@ export class Meta {
   static APP_NAME = 'CoronaTab'
   static STRAPLINE = 'Free & open source platform for COVID-19 data'
   static DESCRIPTION = 'Open source platform for COVID19 data. Advanced dashboard with browser extension and free detailed REST API, localized into all languages.'
+  static DESCRIPTION_I18N = 'marketing-text'
+
   static KEYWORDS = 'Coronavirus, dashboard, browser extension, open source, platform, COVID19, COVID-19, COVID2019, API, REST API, localized, i18n, countries, data'
   static PAGE_TITLE_DELIMITER = ' - '
   static BASE_PATH = 'https://coronatab.app'

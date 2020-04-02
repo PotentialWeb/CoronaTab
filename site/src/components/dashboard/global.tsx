@@ -10,8 +10,10 @@ import { DashboardGlobalHeatmapModalComponent } from './global/heatmap/modal'
 import EarthSvg from '../../../public/icons/earth.svg'
 import ListSvg from '../../../public/icons/list.svg'
 import { SvgRectComponent } from '../svg-rect'
+import { AppStore } from '../../pages/_app.store'
 
 export interface Props extends HTMLAttributes<HTMLDivElement> {
+  appStore?: AppStore
   pageStore?: DashboardPageStore
 }
 
@@ -25,7 +27,7 @@ export interface State {
   modalStatus: ModalStatus
 }
 
-@inject('pageStore')
+@inject('appStore', 'pageStore')
 @observer
 export class DashboardGlobalComponent extends Component<Props, State> {
   state: State = {
@@ -46,8 +48,11 @@ export class DashboardGlobalComponent extends Component<Props, State> {
     const {
       pageStore,
       className = '',
+      appStore,
       ...props
     } = this.props
+
+    const { t } = appStore
 
     const {
       modalStatus
@@ -60,7 +65,9 @@ export class DashboardGlobalComponent extends Component<Props, State> {
             <div className="flex-shrink-0">
               <span className="flex items-center text-lg xl:text-4xl">
                 <EarthSvg className="h-line mr-2 2xl:mr-4" />
-                <h2 className="font-bold xl:hidden">Global</h2>
+                <h2 className="font-bold xl:hidden">
+                  {t('global')}
+                </h2>
               </span>
             </div>
             <div className="flex-1 flex">
@@ -96,7 +103,7 @@ export class DashboardGlobalComponent extends Component<Props, State> {
                   </div>
                 </div>
                 <div className="flex items-center flex-1 p-4">
-                  View all stats by country
+                  {t('view-all-stats-by-country')}
                 </div>
               </button>
             </div>
@@ -109,7 +116,7 @@ export class DashboardGlobalComponent extends Component<Props, State> {
                   <SvgRectComponent ratio="21:9" className="w-auto h-16 min-h-full" />
                 </div>
                 <div className="flex items-center flex-1 p-4">
-                  View heatmap
+                  {t('view-heatmap')}
                 </div>
               </button>
             </div>
