@@ -1,6 +1,6 @@
 abstract class BaseStorage {
   static storage: Storage
-  static version = '0.0.3'
+  static version = '0.0.4'
 
   static get (key: string) {
     let data: any = this.storage.getItem(`${key}-${this.version}`)
