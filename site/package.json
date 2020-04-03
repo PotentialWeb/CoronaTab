@@ -12,6 +12,7 @@
     "build:development": "npm run build",
     "build:production": "env NODE_ENV=production npm run build",
     "deploy": "export $(egrep -v '^#' .env | xargs) && cd ../ && ./site/scripts/deploy.sh",
+    "purge-cache": "./node_modules/.bin/ts-node -O '{\"module\":\"commonjs\"}' ./scripts/purge-cache.ts",
     "start": "env NODE_ENV=production node dist/server.js"
   },
   "dependencies": {
