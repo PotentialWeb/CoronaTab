@@ -67,5 +67,8 @@
   "global": "Global",
   "extension": "Luzapena",
   "index-title": "Iturri irekiko Coronavirus datu-plataforma",
-  "strapline": "COVID-19 datuen iturburu irekiko plataforma"
+  "strapline": "COVID-19 datuen iturburu irekiko plataforma",
+  "projection": "Proiekzioa",
+  "on": "On",
+  "off": "Off"
 }

@@ -25,108 +25,108 @@ const translate = async (text: string, to: LocaleId) => {
 }
 
 ;(async () => {
-  // Countries
-  const countriesPath = path.resolve(__dirname, '../modules/data/src/seeds/places/countries/data.json')
-  const countries: PlaceSeedData[] = require(countriesPath)
+  // // Countries
+  // const countriesPath = path.resolve(__dirname, '../modules/data/src/seeds/places/countries/data.json')
+  // const countries: PlaceSeedData[] = require(countriesPath)
 
-  let changedCountriesFile = false
-  for (const country of countries) {
-    // Add all missing locales
-    const presentLocales = Object.keys(country.locales)
-    const missingLocales = LocaleIds.filter(locale => !presentLocales.includes(locale))
-    for (const locale of missingLocales) {
-      const name = await translate(country.locales.en, locale)
-      country.locales[locale] = Strings.capitalize(name)
-      changedCountriesFile = true
-    }
-  }
+  // let changedCountriesFile = false
+  // for (const country of countries) {
+  //   // Add all missing locales
+  //   const presentLocales = Object.keys(country.locales)
+  //   const missingLocales = LocaleIds.filter(locale => !presentLocales.includes(locale))
+  //   for (const locale of missingLocales) {
+  //     const name = await translate(country.locales.en, locale)
+  //     country.locales[locale] = Strings.capitalize(name)
+  //     changedCountriesFile = true
+  //   }
+  // }
 
-  if (changedCountriesFile) {
-    await SavePlaceSeedData({
-      data: countries,
-      typeId: 'country'
-    })
-  }
+  // if (changedCountriesFile) {
+  //   await SavePlaceSeedData({
+  //     data: countries,
+  //     typeId: 'country'
+  //   })
+  // }
 
-  // Regions
-  const regionsPath = path.resolve(__dirname, '../modules/data/src/seeds/places/regions/data.json')
-  const regions: PlaceSeedData[] = require(regionsPath)
+  // // Regions
+  // const regionsPath = path.resolve(__dirname, '../modules/data/src/seeds/places/regions/data.json')
+  // const regions: PlaceSeedData[] = require(regionsPath)
 
-  let changedRegionsFile = false
-  for (const region of regions) {
-    // Add all missing locales
-    const presentLocales = Object.keys(region.locales)
-    const missingLocales = LocaleIds.filter(locale => !presentLocales.includes(locale))
-    if (missingLocales.length) {
-      let success = false
-      while (!success) {
-        try {
-          await Promise.all(missingLocales.map(async (locale) => {
-            const name = await translate(region.locales.en, locale)
-            region.locales[locale] = Strings.capitalize(name)
-            changedRegionsFile = true
-          }))
-          success = true
-        } catch (err) {
-          console.error(err)
-          console.error('Failed to translate, waiting for a minue')
-          await Async.delay(1000 * 60)
-        }
-      }
+  // let changedRegionsFile = false
+  // for (const region of regions) {
+  //   // Add all missing locales
+  //   const presentLocales = Object.keys(region.locales)
+  //   const missingLocales = LocaleIds.filter(locale => !presentLocales.includes(locale))
+  //   if (missingLocales.length) {
+  //     let success = false
+  //     while (!success) {
+  //       try {
+  //         await Promise.all(missingLocales.map(async (locale) => {
+  //           const name = await translate(region.locales.en, locale)
+  //           region.locales[locale] = Strings.capitalize(name)
+  //           changedRegionsFile = true
+  //         }))
+  //         success = true
+  //       } catch (err) {
+  //         console.error(err)
+  //         console.error('Failed to translate, waiting for a minue')
+  //         await Async.delay(1000 * 60)
+  //       }
+  //     }
 
-      console.log(`${regions.indexOf(region)}/${regions.length}`)
-    }
-  }
+  //     console.log(`${regions.indexOf(region)}/${regions.length}`)
+  //   }
+  // }
 
-  if (changedRegionsFile) {
-    await SavePlaceSeedData({
-      data: regions,
-      typeId: 'region'
-    })
-  }
+  // if (changedRegionsFile) {
+  //   await SavePlaceSeedData({
+  //     data: regions,
+  //     typeId: 'region'
+  //   })
+  // }
 
-  // Cities
-  const citiesPath = path.resolve(__dirname, '../modules/data/src/seeds/places/cities/data.json')
-  const cities: PlaceSeedData[] = require(citiesPath)
+  // // Cities
+  // const citiesPath = path.resolve(__dirname, '../modules/data/src/seeds/places/cities/data.json')
+  // const cities: PlaceSeedData[] = require(citiesPath)
 
-  let changedCitiesFile = false
-  for (const city of cities) {
-    // Add all missing locales
-    const presentLocales = Object.keys(city.locales)
-    const missingLocales = LocaleIds.filter(locale => !presentLocales.includes(locale))
-    if (missingLocales.length) {
-      let success = false
-      while (!success) {
-        try {
-          await Promise.all(missingLocales.map(async (locale) => {
-            const name = await translate(city.locales.en, locale)
-            city.locales[locale] = Strings.capitalize(name)
-            changedCitiesFile = true
-          }))
-          success = true
-        } catch (err) {
-          console.error(err)
-          console.error('Failed to translate, waiting for a minue')
-          if (changedCitiesFile) {
-            SavePlaceSeedData({
-              data: cities,
-              typeId: 'city'
-            })
-          }
-          await Async.delay(1000 * 60)
-        }
-      }
+  // let changedCitiesFile = false
+  // for (const city of cities) {
+  //   // Add all missing locales
+  //   const presentLocales = Object.keys(city.locales)
+  //   const missingLocales = LocaleIds.filter(locale => !presentLocales.includes(locale))
+  //   if (missingLocales.length) {
+  //     let success = false
+  //     while (!success) {
+  //       try {
+  //         await Promise.all(missingLocales.map(async (locale) => {
+  //           const name = await translate(city.locales.en, locale)
+  //           city.locales[locale] = Strings.capitalize(name)
+  //           changedCitiesFile = true
+  //         }))
+  //         success = true
+  //       } catch (err) {
+  //         console.error(err)
+  //         console.error('Failed to translate, waiting for a minue')
+  //         if (changedCitiesFile) {
+  //           SavePlaceSeedData({
+  //             data: cities,
+  //             typeId: 'city'
+  //           })
+  //         }
+  //         await Async.delay(1000 * 60)
+  //       }
+  //     }
 
-      console.log(`${cities.indexOf(city)}/${cities.length}`)
-    }
-  }
+  //     console.log(`${cities.indexOf(city)}/${cities.length}`)
+  //   }
+  // }
 
-  if (changedCitiesFile) {
-    await SavePlaceSeedData({
-      data: cities,
-      typeId: 'city'
-    })
-  }
+  // if (changedCitiesFile) {
+  //   await SavePlaceSeedData({
+  //     data: cities,
+  //     typeId: 'city'
+  //   })
+  // }
 
   // Site
   const en: { [key: string]: string } = require('../site/public/data/locales/en/common.json')

@@ -67,5 +67,8 @@
   "global": "Global",
   "extension": "Pagpapalawig",
   "index-title": "Buksan ang mapagkukunan ng platform ng data ng Coronavirus",
-  "strapline": "Buksan ang mapagkukunan ng platform para sa COVID-19 data"
+  "strapline": "Buksan ang mapagkukunan ng platform para sa COVID-19 data",
+  "projection": "Projection",
+  "on": "Sa",
+  "off": "Naka-off"
 }

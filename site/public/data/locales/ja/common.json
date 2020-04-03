@@ -67,5 +67,8 @@
   "global": "グローバル",
   "extension": "拡張",
   "index-title": "オープンソースのコロナウイルスデータプラットフォーム",
-  "strapline": "COVID-19データ用のオープンソースプラットフォーム"
+  "strapline": "COVID-19データ用のオープンソースプラットフォーム",
+  "projection": "投影",
+  "on": "オン",
+  "off": "オフ"
 }

@@ -67,5 +67,8 @@
   "global": "Global",
   "extension": "Kengaytma",
   "index-title": "Ochiq manbali Coronavirus ma'lumotlar platformasi",
-  "strapline": "COVID-19 ma'lumotlari uchun ochiq manbali platforma"
+  "strapline": "COVID-19 ma'lumotlari uchun ochiq manbali platforma",
+  "projection": "Loyihalash",
+  "on": "Yoqilgan",
+  "off": "O'chirilgan"
 }

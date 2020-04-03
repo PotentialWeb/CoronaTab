@@ -67,5 +67,8 @@
   "global": "Globális",
   "extension": "Kiterjesztés",
   "index-title": "Nyílt forráskódú Coronavirus adatplatform",
-  "strapline": "Nyílt forráskódú platform a COVID-19 adatokhoz"
+  "strapline": "Nyílt forráskódú platform a COVID-19 adatokhoz",
+  "projection": "Kivetítés",
+  "on": "Tovább",
+  "off": "Ki"
 }

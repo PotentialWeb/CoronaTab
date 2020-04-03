@@ -1,5 +1,5 @@
 import { PureComponent } from 'react'
-import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend, ReferenceArea } from 'recharts'
+import { LineChart, Line, CartesianGrid, XAxis, YAxis, Tooltip, ResponsiveContainer, Legend, ReferenceArea, ReferenceLine } from 'recharts'
 import { scaleLog, scaleLinear } from 'd3-scale'
 import tailwindConfig from '../../../utils/tailwind'
 import moment from 'moment'
@@ -17,6 +17,7 @@ const {
       red,
       green,
       brand,
+      'brand-light': brandLight,
       'brand-dull': brandDull
     }
   }
@@ -25,6 +26,7 @@ const {
 interface Props {
   appStore?: AppStore
   data: any
+  projectedData: any
 }
 
 enum YAxisScaleType {
@@ -47,19 +49,32 @@ export interface ZoomableGraphState {
 interface State extends ZoomableGraphState {
   data: any[]
   yAxisScaleType?: YAxisScaleType
+  projectionEnabled?: boolean
 }
+
+const INITIAL_PROJECTION_ENABLED_STATE = true
 
 @inject('appStore')
 @observer
 export class DashboardCumulativeGraphComponent extends PureComponent<Props, State> {
+  getDataArray = (forceProjection = false) => ([
+    ...this.props.data,
+    ...(
+      this.state?.projectionEnabled ?? forceProjection
+        ? this.props.projectedData
+        : []
+    )
+  ])
+
   state: State = {
     ...this.defaultState,
-    yAxisScaleType: YAxisScaleType.LINEAR
+    yAxisScaleType: YAxisScaleType.LINEAR,
+    projectionEnabled: INITIAL_PROJECTION_ENABLED_STATE
   }
 
   get defaultState (): State {
     return {
-      data: [...this.props.data],
+      data: this.getDataArray(INITIAL_PROJECTION_ENABLED_STATE),
       top: 'dataMax',
       bottom: 'dataMin',
       left: 'dataMin',
@@ -132,11 +147,39 @@ export class DashboardCumulativeGraphComponent extends PureComponent<Props, Stat
     this.setState(() => this.defaultState)
   }
 
+  toggleProjection = () => {
+    this.zoomOut()
+    this.setState(prevState => ({
+      projectionEnabled: !prevState.projectionEnabled
+    }), () => {
+      this.setState({
+        data: this.getDataArray()
+      })
+    })
+  }
+
+  get referenceLineDate () {
+    const fallbackToNow = moment().format('YYYY-MM-DD')
+    return Array.isArray(this.props.data) && this.props.data.length > 0
+      ? this.props.data[this.props.data.length - 1]?.date ?? fallbackToNow
+      : fallbackToNow
+  }
+
   render () {
     const { appStore } = this.props
     const { t } = appStore
     const {
-      data, left, right, startDate, endDate, selectedStartDate, selectedEndDate, top, bottom, zoomEnabled
+      data,
+      left,
+      right,
+      startDate,
+      endDate,
+      selectedStartDate,
+      selectedEndDate,
+      top,
+      bottom,
+      zoomEnabled,
+      projectionEnabled
     } = this.state
 
     const yAxisScaleTypeSelect = (
@@ -152,7 +195,7 @@ export class DashboardCumulativeGraphComponent extends PureComponent<Props, Stat
 
     return (
       <div className="dashboard-panel flex flex-col select-none">
-        <div className="flex flex-shrink-0 flex-col md:flex-row md:items-center mb-2">
+        <div className="flex flex-shrink-0 flex-col md:flex-row md:items-center mb-1">
           <div className="flex-1">
             <h2 className="text-lg font-bold">
               {t('cumulative')}
@@ -160,25 +203,35 @@ export class DashboardCumulativeGraphComponent extends PureComponent<Props, Stat
           </div>
           <div className="flex flex-wrap items-center justify-end flex-shrink-0 flex-grow-0">
             <div className="mr-2">
-              {
-                selectedStartDate && selectedEndDate
-                  ? (
-                    <div className="inline-flex items-center rounded-sm bg-lighter text-xs px-2 py-1 font-bold">
-                      <span>{Date.rangeToString(selectedStartDate, selectedEndDate)}</span>
-                      <button
-                        onClick={this.onZoomOutClick}
-                        className="hover:opacity-50 pl-2 pr-1 py-1"
-                      >
-                        <CloseSvg className="h-line-sm" />
-                      </button>
-                    </div>
-                  )
-                  : <span className="text-xs font-bold">{t('drag-to-zoom')}</span>
-              }
+              <button
+                onClick={this.toggleProjection}
+                className="btn btn-white flex items-center border border-light rounded-sm px-2 py-1 text-xs"
+              >
+                {t('projection')}: {projectionEnabled ? t('on') : t('off')}
+              </button>
             </div>
             <div>
               {yAxisScaleTypeSelect}
             </div>
+          </div>
+        </div>
+        <div className="flex justify-end mb-1">
+          <div>
+            {
+              selectedStartDate && selectedEndDate
+                ? (
+                  <div className="inline-flex items-center rounded-sm bg-lighter text-xs px-2 py-1 font-bold">
+                    <span>{Date.rangeToString(selectedStartDate, selectedEndDate)}</span>
+                    <button
+                      onClick={this.onZoomOutClick}
+                      className="hover:opacity-50 pl-2 pr-1 py-1"
+                    >
+                      <CloseSvg className="h-line-sm" />
+                    </button>
+                  </div>
+                )
+                : <span className="text-xs font-bold">{t('drag-to-zoom')}</span>
+            }
           </div>
         </div>
         <div className="flex flex-1" style={{ minHeight: '1px' }}>
@@ -209,6 +262,16 @@ export class DashboardCumulativeGraphComponent extends PureComponent<Props, Stat
                   <Line type="monotone" dataKey="deaths" name={t('deaths') as string} stroke={red} dot={{ r: 1 }} strokeWidth="2" isAnimationActive={true} animationDuration={200} />
                   <Line type="monotone" dataKey="recovered" name={t('recovered') as string} dot={{ r: 1 }} stroke={green} strokeWidth="2" isAnimationActive={true} animationDuration={200} />
                   <CartesianGrid stroke={brandDull} strokeDasharray="5 5" />
+                  {
+                    projectionEnabled
+                      ? (
+                        <ReferenceLine
+                          x={this.referenceLineDate}
+                          stroke={brandLight}
+                        />
+                      )
+                      : ''
+                  }
                   <XAxis
                     allowDataOverflow
                     dataKey="date"

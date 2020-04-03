@@ -67,5 +67,8 @@
   "global": "جهانی",
   "extension": "افزونه",
   "index-title": "بستر داده باز منبع Coronavirus",
-  "strapline": "بستر منبع باز برای داده های COVID-19"
+  "strapline": "بستر منبع باز برای داده های COVID-19",
+  "projection": "طرح ریزی",
+  "on": "بر",
+  "off": "خاموش"
 }

@@ -20,6 +20,8 @@ interface State {
     raw?: any,
     cumulativeSeries?: any,
     dailySeries?: any
+    projectedCumulativeSeries?: any
+    projectedDailySeries?: any
   }
   loadingStatus: LoadingStatus
   ignoreLoadingStatus: boolean
@@ -37,7 +39,9 @@ export class DashboardPlaceComponent extends Component<Props, State> {
         data = {
           raw: rawData.data,
           cumulativeSeries: DashboardPageStore.parseCumulativeSeriesData(rawData.data),
-          dailySeries: DashboardPageStore.calcDailySeriesData(rawData.data)
+          dailySeries: DashboardPageStore.calcDailySeriesData(rawData.data),
+          projectedCumulativeSeries: DashboardPageStore.parseCumulativeSeriesData(rawData.projected),
+          projectedDailySeries: DashboardPageStore.calcDailySeriesData(rawData.projected)
         }
       }
     }
@@ -77,7 +81,9 @@ export class DashboardPlaceComponent extends Component<Props, State> {
       const data = {
         raw: rawData.data,
         cumulativeSeries: DashboardPageStore.parseCumulativeSeriesData(rawData.data),
-        dailySeries: DashboardPageStore.calcDailySeriesData(rawData.data)
+        dailySeries: DashboardPageStore.calcDailySeriesData(rawData.data),
+        projectedCumulativeSeries: DashboardPageStore.parseCumulativeSeriesData(rawData.projected),
+        projectedDailySeries: DashboardPageStore.calcDailySeriesData(rawData.projected)
       }
       this.setState({
         data,
@@ -158,6 +164,7 @@ export class DashboardPlaceComponent extends Component<Props, State> {
                   <div className="dashboard-spacer">
                     <DashboardCumulativeGraphComponent
                       data={this.state.data?.cumulativeSeries}
+                      projectedData={this.state.data.projectedCumulativeSeries}
                     />
                   </div>
                   <div className="dashboard-spacer">

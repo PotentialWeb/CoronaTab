@@ -67,5 +67,8 @@
   "global": "Alheimsins",
   "extension": "Framlenging",
   "index-title": "Opinn uppspretta Coronavirus gagnapallur",
-  "strapline": "Opinn uppspretta pallur fyrir COVID-19 gögn"
+  "strapline": "Opinn uppspretta pallur fyrir COVID-19 gögn",
+  "projection": "Vörn",
+  "on": "Á",
+  "off": "Af"
 }

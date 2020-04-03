@@ -67,5 +67,8 @@
   "global": "Global",
   "extension": "Erweiterung",
   "index-title": "Open Source Coronavirus-Datenplattform",
-  "strapline": "Open Source Plattform für COVID-19 Daten"
+  "strapline": "Open Source Plattform für COVID-19 Daten",
+  "projection": "Projektion",
+  "on": "Auf",
+  "off": "Aus"
 }

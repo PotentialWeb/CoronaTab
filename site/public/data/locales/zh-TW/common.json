@@ -67,5 +67,8 @@
   "global": "全球",
   "extension": "延期",
   "index-title": "開源冠狀病毒數據平台",
-  "strapline": "COVID-19數據的開源平台"
+  "strapline": "COVID-19數據的開源平台",
+  "projection": "投影",
+  "on": "上",
+  "off": "關"
 }
