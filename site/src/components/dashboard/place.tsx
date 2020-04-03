@@ -2,12 +2,12 @@ import { Component } from 'react'
 import { inject, observer } from 'mobx-react'
 import { AppStore } from '../../pages/_app.store'
 import { DashboardPageStore, Place, LoadingStatus } from '../../pages/dashboard.store'
-import { PlaceSelectComponent } from '../place-select'
 import { DashboardCumulativeGraphComponent } from './visualizations/cumulative-graph'
 import { DashboardDailyChartComponent } from './visualizations/daily-chart'
 import { DashboardStatsComponent } from './stats'
 import { LoadingComponent } from '../loading'
 import { DashboardCompareGraphComponent } from './visualizations/compare-graph'
+import { TypeaheadSelectInputComponent } from '../inputs/select/typeahead'
 
 interface Props {
   appStore?: AppStore,
@@ -109,35 +109,35 @@ export class DashboardPlaceComponent extends Component<Props, State> {
                 ? <img src={`/flags/${selectedParentPlace.alpha2code.toLowerCase()}.svg`} className="h-line-xl my-1 mr-2" />
                 : ''
             }
-            <PlaceSelectComponent
-              pageStore={pageStore}
-              selectedPlace={selectedParentPlace}
+            <TypeaheadSelectInputComponent
+              selectedItem={selectedParentPlace}
               options={pageStore.countries.data}
+              itemToString={place => place?.name ?? ''}
               onChange={place => {
                 pageStore.selectedPlaces = {
                   ...pageStore.selectedPlaces,
                   data: place ? [place] : []
                 }
               }}
-              className="my-1 mr-2"
+              className="place-select my-1 mr-2"
               inputPlaceholder={t('select-a-country')}
             />
             {(() => {
               if (!selectedParentPlace?.children?.length) return ''
               return (
-              <PlaceSelectComponent
-                pageStore={pageStore}
-                selectedPlace={selectedChildPlace}
-                options={selectedParentPlace.children}
-                onChange={place => {
-                  pageStore.selectedPlaces = {
-                    ...pageStore.selectedPlaces,
-                    data: place ? [selectedParentPlace, place] : [selectedParentPlace]
-                  }
-                }}
-                inputPlaceholder={t('select-a-region')}
-                className="my-1 mr-2"
-              />
+                <TypeaheadSelectInputComponent
+                  selectedItem={selectedChildPlace}
+                  options={selectedParentPlace.children}
+                  itemToString={place => place?.name ?? ''}
+                  onChange={place => {
+                    pageStore.selectedPlaces = {
+                      ...pageStore.selectedPlaces,
+                      data: place ? [selectedParentPlace, place] : [selectedParentPlace]
+                    }
+                  }}
+                  className="place-select my-1 mr-2"
+                  inputPlaceholder={t('select-a-region')}
+                />
               )
             })()}
           </div>

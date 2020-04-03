@@ -28,7 +28,6 @@
 @import "./components/dashboard/stats.css";
 @import "./components/day-picker.css";
 @import "./components/modal.css";
-@import "./components/place-select.css";
 @import "./components/share-btn.css";
 
 /* purgecss end ignore */
