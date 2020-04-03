@@ -15,6 +15,12 @@ import { Translate } from '@coronatab/node-utils'
 
   const { features } = require('../coronadatascraper/dist/features.json')
   const USStatesCodeMap = require('./us-states-code-map.json')
+  const FIPSMap: {
+    fips: number
+    city?: string
+    region?: string
+    country: string
+  }[] = require('./fips-map.json')
 
   const data = DataScraper.latest
   const jhuData = await JHU.getLatestData()
@@ -29,6 +35,7 @@ import { Translate } from '@coronatab/node-utils'
   const newCities: PlaceSeedData[] = []
 
   for (const entry of data) {
+    entry.country = entry.country.replace(/iso\d+:/g, '')
     let country = FindPlaceSeedDataInDataset({
       dataset: countries,
       term: entry.country
@@ -39,6 +46,11 @@ import { Translate } from '@coronatab/node-utils'
         dataset: regions,
         term: entry.country
       })
+    }
+
+    if (!country) {
+      debugger
+      continue
     }
     let jhuEntry = jhuData.find(r => r.countryId === country.id || r.region === country.locales.en)
 
@@ -51,7 +63,7 @@ import { Translate } from '@coronatab/node-utils'
     }
 
     const updateCoordinates = (entity: PlaceSeedData) => {
-      const coordinates = entry.coordinates ?? (jhuEntry && [jhuEntry.lat, jhuEntry.lng])
+      const coordinates = entry.coordinates ?? (jhuEntry && [jhuEntry.lng, jhuEntry.lat])
       if (coordinates && JSON.stringify(entity.coordinates) !== JSON.stringify(coordinates)) {
         entity.coordinates = coordinates
       }
@@ -69,12 +81,7 @@ import { Translate } from '@coronatab/node-utils'
       if (entry.state) {
 
       // US State
-        const stateName = USStatesCodeMap[entry.state]
-        if (!stateName) {
-          console.error(`No US State name for code: ${entry.state}`)
-          debugger
-          process.exit(1)
-        }
+        const stateName = USStatesCodeMap[entry.state] ?? entry.state.replace(/iso\d+:US-/g, '')
 
         let state = FindPlaceSeedDataInDataset({
           dataset: regions.filter(r => r.parentId === country.id),
@@ -82,8 +89,7 @@ import { Translate } from '@coronatab/node-utils'
         })
 
         if (!state) {
-          const stateSubId = Strings.dasherize(stateName)
-          const stateId = `${country.id}-${stateSubId}`
+          const stateId = `${country.id}-${Strings.dasherize(stateName)}`
           state = {
             id: stateId,
             parentId: country.id,
@@ -93,6 +99,7 @@ import { Translate } from '@coronatab/node-utils'
             } as any
           }
           if (!regions.find(r => r.id === stateId)) {
+            debugger
             regions.push(state)
             newRegions.push(state)
           }
@@ -111,17 +118,24 @@ import { Translate } from '@coronatab/node-utils'
         }
         // County
         if (entry.county && entry.county !== state.locales.en) {
+          let countyName = entry.county
+          if (countyName.includes('fips')) {
+            const fipsCode = parseInt(countyName.replace('fips:', ''))
+            const fipsEntry = FIPSMap.find(e => e.fips === fipsCode)
+            if (!fipsEntry) debugger
+            countyName = fipsEntry.region
+          }
           let county = FindPlaceSeedDataInDataset({
             dataset: regions.filter(r => r.parentId === state.id),
-            term: entry.county
+            term: countyName
           })
 
           if (!county) {
-            const countyId = `${state.id}-${Strings.dasherize(entry.county)}`
+            const countyId = `${state.id}-${Strings.dasherize(countyName)}`
             county = {
               id: countyId,
               locales: {
-                en: entry.county
+                en: countyName
               } as any,
               parentId: state.id
             }
@@ -140,6 +154,47 @@ import { Translate } from '@coronatab/node-utils'
           }
           if (entry.url && county.dataSource !== entry.url) {
             county.dataSource = entry.url
+          }
+
+          // City
+          if (entry.city && entry.city !== county.locales.en) {
+            let cityName = entry.city
+            if (cityName.includes('fips')) {
+              const fipsCode = parseInt(cityName.replace('fips:', ''))
+              const fipsEntry = FIPSMap.find(e => e.fips === fipsCode)
+              if (!fipsEntry) debugger
+              cityName = fipsEntry.city
+            }
+            let city = FindPlaceSeedDataInDataset({
+              dataset: cities.filter(c => c.parentId === county.id),
+              term: cityName
+            })
+
+            if (!city) {
+              const cityId = `${county.id}-${Strings.dasherize(cityName)}`
+              city = {
+                id: cityId,
+                locales: {
+                  en: cityName
+                } as any,
+                parentId: county.id
+              }
+              if (!cities.find(c => c.id === cityId)) {
+                cities.push(city)
+                newCities.push(city)
+              }
+            }
+            jhuEntry = jhuData.find(r => r.countryId === country.id && r.region === state.locales.en && r.region === county.locales.en && r.city === city.locales.en)
+
+            updateCoordinates(city)
+            city.population = city.population ?? entry.population
+            if (!cityPolygons[city.id] && entry.featureId) {
+              const feature = features.find(f => f.properties?.id === entry.featureId)
+              cityPolygons[city.id] = feature?.geometry
+            }
+            if (entry.url && city.dataSource !== entry.url) {
+              city.dataSource = entry.url
+            }
           }
         }
       }
@@ -181,6 +236,41 @@ import { Translate } from '@coronatab/node-utils'
         }
         if (entry.url && region.dataSource !== entry.url) {
           region.dataSource = entry.url
+        }
+
+        // City
+        if (entry.city && entry.city !== region.locales.en) {
+          let city = FindPlaceSeedDataInDataset({
+            dataset: cities.filter(c => c.parentId === region.id),
+            term: entry.city
+          })
+
+          if (!city) {
+            const cityId = `${region.id}-${Strings.dasherize(entry.city)}`
+            city = {
+              id: cityId,
+              locales: {
+                en: entry.city
+              } as any,
+              parentId: region.id
+            }
+            if (!cities.find(c => c.id === cityId)) {
+              debugger
+              cities.push(city)
+              newCities.push(city)
+            }
+          }
+          jhuEntry = jhuData.find(r => r.countryId === country.id && r.region === region.locales.en && r.city === city.locales.en)
+
+          updateCoordinates(city)
+          city.population = city.population ?? entry.population
+          if (!cityPolygons[city.id] && entry.featureId) {
+            const feature = features.find(f => f.properties?.id === entry.featureId)
+            cityPolygons[city.id] = feature?.geometry
+          }
+          if (entry.url && city.dataSource !== entry.url) {
+            city.dataSource = entry.url
+          }
         }
       }
 

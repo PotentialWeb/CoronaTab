@@ -1460,8 +1460,8 @@
     "hospitalBeds": 97920,
     "icuBeds": 2320,
     "coordinates": [
-      120.95978010457588,
-      -24.407891534499925
+      120.9625,
+      -24.4405
     ],
     "parentId": "earth",
     "dataSource": "https://ww2.health.wa.gov.au/Articles/A_E/Coronavirus/COVID19-statistics"
@@ -4396,11 +4396,11 @@
     "hospitalBeds": 95110,
     "icuBeds": 5095,
     "coordinates": [
-      -63.021209276499945,
-      45.266872463000055
+      -96.81718909399993,
+      62.39666687350006
     ],
     "parentId": "earth",
-    "dataSource": "https://novascotia.ca/coronavirus/COVID-19-cases.csv"
+    "dataSource": "https://health-infobase.canada.ca/src/data/covidLive/covid19.csv"
   },
   {
     "id": "cabo-verde",
@@ -27072,7 +27072,8 @@
     "hospitalBeds": 172430,
     "icuBeds": 4480,
     "coordinates": [
-      -1.5, 53.3781
+      -64.64,
+      18.4207
     ],
     "parentId": "earth",
     "dataSource": "https://www.gov.scot/coronavirus-covid-19/"
@@ -27192,13 +27193,21 @@
     },
     "alpha2code": "US",
     "alpha3code": "USA",
+    "alternativeNames": [
+      "United States",
+      "U.S.",
+      "U.S.A.",
+      "U.S",
+      "U.S.A",
+      "United States"
+    ],
     "population": 331002651,
     "hospitalBedOccupancy": 0.64,
     "hospitalBeds": 916877,
     "icuBeds": 114858,
     "coordinates": [
-      -107.55199589229656,
-      42.999967466625236
+      -107.554,
+      43.0005
     ],
     "parentId": "earth",
     "dataSource": "https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/"

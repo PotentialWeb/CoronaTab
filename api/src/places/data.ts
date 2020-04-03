@@ -20,7 +20,7 @@ const SerializePlaceData = (placeData: PlaceData, { compact }: { compact?: boole
 }
 
 const SmoothFilter = (data: PlaceData[]) => {
-  if (data.length < 3) return data
+  if (data.length <= 3) return data
   for (let i = 0; i < data.length; i++) {
     let prev = data[i - 1]
     if (prev) {

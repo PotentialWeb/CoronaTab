@@ -21,7 +21,17 @@ export class Data {
     const regions = RegionsData
     const cities = CitiesData
 
+    const USStatesCodeMap = require('./us-states-code-map.json')
+    const FIPSMap: {
+      fips: number
+      city?: string
+      region?: string
+      country: string
+    }[] = require('./fips-map.json')
+
     const getPlacesFromRow = async (row: DataScraperRow) => {
+      row.country = row.country.replace(/iso\d+:/g, '')
+
       let country = FindPlaceSeedDataInDataset({ dataset: countries, term: row.country })
 
       if (!country) {
@@ -40,22 +50,47 @@ export class Data {
 
       if (country.id === 'united-states-of-america') {
         if (row.state) {
+          const stateName = USStatesCodeMap[row.state] ?? row.state.replace(/iso\d+:US-/g, '')
           // US State
           const state = FindPlaceSeedDataInDataset({
             dataset: regions.filter(r => r.parentId === country.id),
-            term: row.state
+            term: stateName
           })
           place = state
           jhuPlace = jhuData.find(r => r.countryId === country.id && !r.city && r.region?.split(', ').pop() === state.alpha2code)
 
           if (row.county && row.county !== state.locales.en) {
             // US County
+            let countyName = row.county
+            if (countyName.includes('fips')) {
+              const fipsCode = parseInt(countyName.replace('fips:', ''))
+              const fipsEntry = FIPSMap.find(e => e.fips === fipsCode)
+              if (!fipsEntry) debugger
+              countyName = fipsEntry.region
+            }
             const county = FindPlaceSeedDataInDataset({
               dataset: regions.filter(r => r.parentId === state.id),
-              term: row.county
+              term: countyName
             })
-            jhuPlace = jhuData.find(r => r.countryId === country.id && r.region?.includes(state.locales.en) && r.city?.includes(row.county))
+            jhuPlace = jhuData.find(r => r.countryId === country.id && r.region?.includes(state.locales.en) && r.city?.includes(countyName))
             place = county
+
+            if (row.city && row.city !== county.locales.en) {
+              // US City
+              let cityName = row.city
+              if (cityName.includes('fips')) {
+                const fipsCode = parseInt(cityName.replace('fips:', ''))
+                const fipsEntry = FIPSMap.find(e => e.fips === fipsCode)
+                if (!fipsEntry) debugger
+                cityName = fipsEntry.city
+              }
+              const city = FindPlaceSeedDataInDataset({
+                dataset: cities.filter(r => r.parentId === county.id),
+                term: cityName
+              })
+              jhuPlace = jhuData.find(r => r.countryId === country.id && r.region?.includes(state.locales.en) && r.city?.includes(cityName))
+              place = city
+            }
           }
         }
       } else {
@@ -75,6 +110,17 @@ export class Data {
 
           jhuPlace = jhuData.find(r => r.countryId === country.id && r.region === region.locales.en)
           place = region
+
+          if (row.city) {
+            const city = FindPlaceSeedDataInDataset({
+              dataset: cities.filter(c => c.parentId === region.id),
+              term: row.city
+            })
+            if (!city) debugger
+
+            jhuPlace = jhuData.find(r => r.countryId === country.id && r.region === region.locales.en && r.city === city.locales.en)
+            place = city
+          }
         }
       }
 
