@@ -70,5 +70,7 @@
   "strapline": "COVID-19 verileri için açık kaynaklı platform",
   "projection": "Projeksiyon",
   "on": "Üzerinde",
-  "off": "Kapalı"
+  "off": "Kapalı",
+  "cases-perc-population": "Vaka sayısı%",
+  "deaths-perc-population": "Ölümler nüfus yüzdesi"
 }

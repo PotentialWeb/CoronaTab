@@ -70,5 +70,7 @@
   "strapline": "Mepee ụzọ mmalite maka data COVID-19",
   "projection": "Ntụgharị",
   "on": "Gbanye",
-  "off": "Gbanyụọ"
+  "off": "Gbanyụọ",
+  "cases-perc-population": "Ọnọdụ% bi",
+  "deaths-perc-population": "Onu di onu ogugu ndi mmadu"
 }

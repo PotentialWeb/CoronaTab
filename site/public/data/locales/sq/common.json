@@ -70,5 +70,7 @@
   "strapline": "Platformë me burim të hapur për të dhënat COVID-19",
   "projection": "Projektim",
   "on": "Në",
-  "off": "Nga"
+  "off": "Nga",
+  "cases-perc-population": "Rastet% e popullsisë",
+  "deaths-perc-population": "Vdekjet% e popullsisë"
 }

@@ -70,5 +70,7 @@
   "strapline": "Open platform sumber data kanggo COVID-19",
   "projection": "Prakiraan",
   "on": "On",
-  "off": "Off"
+  "off": "Off",
+  "cases-perc-population": "Kasus% pedunung",
+  "deaths-perc-population": "Pati% pedunung"
 }

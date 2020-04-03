@@ -70,5 +70,7 @@
   "strapline": "COVID-19数据的开源平台",
   "projection": "投影",
   "on": "上",
-  "off": "关"
+  "off": "关",
+  "cases-perc-population": "病例百分比",
+  "deaths-perc-population": "死亡人口百分比"
 }

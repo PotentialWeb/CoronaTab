@@ -70,5 +70,7 @@
   "strapline": "Ardán foinse oscailte le haghaidh sonraí COVID-19",
   "projection": "Teilgean",
   "on": "Ar",
-  "off": "Off"
+  "off": "Off",
+  "cases-perc-population": "Cásanna% daonra",
+  "deaths-perc-population": "Básanna% daonra"
 }

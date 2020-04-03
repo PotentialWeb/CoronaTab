@@ -70,5 +70,7 @@
   "strapline": "แพลตฟอร์มโอเพ่นซอร์สสำหรับข้อมูล COVID-19",
   "projection": "ติ่ง",
   "on": "บน",
-  "off": "ปิด"
+  "off": "ปิด",
+  "cases-perc-population": "จำนวนประชากร%",
+  "deaths-perc-population": "ประชากรที่เสียชีวิต%"
 }

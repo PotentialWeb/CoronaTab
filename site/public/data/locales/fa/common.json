@@ -70,5 +70,7 @@
   "strapline": "بستر منبع باز برای داده های COVID-19",
   "projection": "طرح ریزی",
   "on": "بر",
-  "off": "خاموش"
+  "off": "خاموش",
+  "cases-perc-population": "موارد٪ جمعیت",
+  "deaths-perc-population": "مرگ و میر٪ جمعیت"
 }

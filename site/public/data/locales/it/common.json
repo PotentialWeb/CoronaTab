@@ -70,5 +70,7 @@
   "strapline": "Piattaforma open source per dati COVID-19",
   "projection": "Proiezione",
   "on": "Sopra",
-  "off": "Via"
+  "off": "Via",
+  "cases-perc-population": "% Di casi di popolazione",
+  "deaths-perc-population": "% Di morti"
 }

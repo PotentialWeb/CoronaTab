@@ -70,5 +70,7 @@
   "strapline": "Qhib qhov chaw qhib rau COVID-19 cov ntaub ntawv",
   "projection": "Kev Haujlwm",
   "on": "Nyob rau",
-  "off": "Tawm"
+  "off": "Tawm",
+  "cases-perc-population": "Tus neeg no% cov pej xeem",
+  "deaths-perc-population": "Neeg tuag% cov pej xeem"
 }

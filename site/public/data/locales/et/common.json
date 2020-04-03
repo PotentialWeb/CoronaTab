@@ -70,5 +70,7 @@
   "strapline": "COVID-19 andmete avatud lähtekoodiga platvorm",
   "projection": "Projektsioon",
   "on": "Peal",
-  "off": "Väljas"
+  "off": "Väljas",
+  "cases-perc-population": "Juhtumid% elanikkonnast",
+  "deaths-perc-population": "Surnud% elanikkonnast"
 }

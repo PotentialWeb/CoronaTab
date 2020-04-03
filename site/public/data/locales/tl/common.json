@@ -70,5 +70,7 @@
   "strapline": "Buksan ang mapagkukunan ng platform para sa COVID-19 data",
   "projection": "Projection",
   "on": "Sa",
-  "off": "Naka-off"
+  "off": "Naka-off",
+  "cases-perc-population": "Mga kaso% populasyon",
+  "deaths-perc-population": "Kamatayan% populasyon"
 }

@@ -70,5 +70,7 @@
   "strapline": "COVID-19 အချက်အလက်အတွက်ပွင့်လင်းအရင်းအမြစ်ပလက်ဖောင်း",
   "projection": "စီမံကိန်း",
   "on": "On",
-  "off": "ပိတ်"
+  "off": "ပိတ်",
+  "cases-perc-population": "လူ ဦး ရေရာခိုင်နှုန်း",
+  "deaths-perc-population": "လူ ဦး ရေ၏သေဆုံးမှု"
 }

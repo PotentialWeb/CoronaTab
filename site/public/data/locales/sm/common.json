@@ -70,5 +70,7 @@
   "strapline": "Faʻamatalaga tuʻufaʻatusa mo le COVID-19 faʻamaumauga",
   "projection": "Talosaga",
   "on": "I luga",
-  "off": "Tuʻu"
+  "off": "Tuʻu",
+  "cases-perc-population": "Aofai% numera",
+  "deaths-perc-population": "Maliu% numera"
 }

@@ -70,5 +70,7 @@
   "strapline": "COVID-19 데이터를위한 오픈 소스 플랫폼",
   "projection": "투사",
   "on": "의 위에",
-  "off": "떨어져서"
+  "off": "떨어져서",
+  "cases-perc-population": "사례 % 인구",
+  "deaths-perc-population": "사망률 (%)"
 }

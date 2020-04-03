@@ -70,5 +70,7 @@
   "strapline": "COVID-19 ಡೇಟಾಗಾಗಿ ಓಪನ್ ಸೋರ್ಸ್ ಪ್ಲಾಟ್‌ಫಾರ್ಮ್",
   "projection": "ಪ್ರೊಜೆಕ್ಷನ್",
   "on": "ಆನ್",
-  "off": "ಆರಿಸಿ"
+  "off": "ಆರಿಸಿ",
+  "cases-perc-population": "ಪ್ರಕರಣಗಳು% ಜನಸಂಖ್ಯೆ",
+  "deaths-perc-population": "ಸಾವುಗಳು% ಜನಸಂಖ್ಯೆ"
 }

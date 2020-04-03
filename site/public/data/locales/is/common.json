@@ -70,5 +70,7 @@
   "strapline": "Opinn uppspretta pallur fyrir COVID-19 gögn",
   "projection": "Vörn",
   "on": "Á",
-  "off": "Af"
+  "off": "Af",
+  "cases-perc-population": "Mál% íbúa",
+  "deaths-perc-population": "Dauðsföll% íbúa"
 }

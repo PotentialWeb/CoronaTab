@@ -70,5 +70,7 @@
   "strapline": "Платформа со отворен извор за податоци COVID-19",
   "projection": "Проекција",
   "on": "На",
-  "off": "Исклучено"
+  "off": "Исклучено",
+  "cases-perc-population": "Случаи% популација",
+  "deaths-perc-population": "Починати% популација"
 }

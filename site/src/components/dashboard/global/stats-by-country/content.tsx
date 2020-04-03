@@ -107,7 +107,7 @@ function Table ({ data, onSortClick, t }: {
         },
         accessor: 'name',
         sortType: 'alphanumeric',
-        width: 75,
+        width: 75
       },
       {
         id: 'population',
@@ -128,10 +128,24 @@ function Table ({ data, onSortClick, t }: {
         sortType: 'basic'
       },
       {
+        id: 'cases-perc-population',
+        Header: t('cases-perc-population'),
+        Cell: ({ cell }) => FormatNumberCell(cell.value, '0.000%'),
+        accessor: 'latestData.casesAsPercentageOfPopulation',
+        sortType: 'basic'
+      },
+      {
         id: 'deaths',
         Header: t('deaths'),
         Cell: ({ cell }) => FormatNumberCell(cell.value, '0,0'),
         accessor: 'latestData.deaths',
+        sortType: 'basic'
+      },
+      {
+        id: 'deaths-perc-population',
+        Header: t('deaths-perc-population'),
+        Cell: ({ cell }) => FormatNumberCell(cell.value, '0.000%'),
+        accessor: 'latestData.deathsAsPercentageOfPopulation',
         sortType: 'basic'
       },
       {
@@ -157,14 +171,14 @@ function Table ({ data, onSortClick, t }: {
       }
     ]
   }
-], [])
+  ], [])
 
-const defaultColumn = useMemo(
+  const defaultColumn = useMemo(
   () => ({
     // When using the useFlexLayout:
     minWidth: 30, // minWidth is only used as a limit for resizing
     width: 50, // width is used for both the flex-basis and flex-grow
-    maxWidth: 200, // maxWidth is only used as a limit for resizing
+    maxWidth: 200 // maxWidth is only used as a limit for resizing
   }),
   []
 )
@@ -188,13 +202,15 @@ const defaultColumn = useMemo(
   return (
     <div {...getTableProps()} className="table-flex relative">
       <div className="sticky top-0 z-20 bg-white border-b-2 border-lighter pt-4" style={{ minWidth: '780px' }}>
-        {headerGroups.map((headerGroup, i) => (
+        {headerGroups.map((headerGroup, hgi) => (
           <div
             {...headerGroup.getHeaderGroupProps()}
-            className={`tr ${i === 0 ? `text-xs` : ''}`}
+            key={hgi}
+            className={`tr ${hgi === 0 ? `text-xs` : ''}`}
           >
-            {headerGroup.headers.map(column => (
+            {headerGroup.headers.map((column, ci) => (
               <div
+                key={ci}
                 onClick={() => {
                   if (column.canSort) onSortClick?.()
                 }}
@@ -223,11 +239,11 @@ const defaultColumn = useMemo(
         ))}
       </div>
       <div className="tbody z-10" style={{ minWidth: '780px' }} {...getTableBodyProps()}>
-        {rows.map(row => {
+        {rows.map((row, ri) => {
           prepareRow(row)
           return (
-            <div {...row.getRowProps()} className="tr">
-              {row.cells.map(cell => {
+            <div key={ri} {...row.getRowProps()} className="tr">
+              {row.cells.map((cell, ci) => {
                 return (
                   <div
                     {...cell.getCellProps({
@@ -237,6 +253,7 @@ const defaultColumn = useMemo(
                         display: 'flex'
                       }
                     })}
+                    key={ci}
                     className={`td`}
                   >
                     {cell.render('Cell')}

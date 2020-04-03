@@ -70,5 +70,7 @@
   "strapline": "Iepen boarne platfoarm foar COVID-19 gegevens",
   "projection": "Projeksje",
   "on": "Op",
-  "off": "Út"
+  "off": "Út",
+  "cases-perc-population": "Gefallen% befolking",
+  "deaths-perc-population": "Deaths% befolking"
 }

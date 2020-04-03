@@ -70,5 +70,7 @@
   "strapline": "Louvri sous platfòm pou done COVID-19",
   "projection": "Pwojeksyon",
   "on": "Sou",
-  "off": "Off"
+  "off": "Off",
+  "cases-perc-population": "Ka% popilasyon an",
+  "deaths-perc-population": "Lanmò% popilasyon an"
 }

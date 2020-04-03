@@ -70,5 +70,7 @@
   "strapline": "פלטפורמת קוד פתוח לנתוני COVID-19",
   "projection": "הקרנה",
   "on": "על",
-  "off": "כבוי"
+  "off": "כבוי",
+  "cases-perc-population": "מקרים% אוכלוסייה",
+  "deaths-perc-population": "אוכלוסיית מקרי מוות"
 }

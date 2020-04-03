@@ -70,5 +70,7 @@
   "strapline": "COVID-19データ用のオープンソースプラットフォーム",
   "projection": "投影",
   "on": "オン",
-  "off": "オフ"
+  "off": "オフ",
+  "cases-perc-population": "ケース％人口",
+  "deaths-perc-population": "死亡率（人口）"
 }

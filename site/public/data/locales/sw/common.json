@@ -70,5 +70,7 @@
   "strapline": "Fungua jukwaa la chanzo la data ya COVID-19",
   "projection": "Makadirio",
   "on": "Imewashwa",
-  "off": "Imezimwa"
+  "off": "Imezimwa",
+  "cases-perc-population": "Kesi% ya watu",
+  "deaths-perc-population": "Vifo% ya watu"
 }

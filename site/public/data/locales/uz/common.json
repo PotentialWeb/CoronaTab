@@ -70,5 +70,7 @@
   "strapline": "COVID-19 ma'lumotlari uchun ochiq manbali platforma",
   "projection": "Loyihalash",
   "on": "Yoqilgan",
-  "off": "O'chirilgan"
+  "off": "O'chirilgan",
+  "cases-perc-population": "Ishlar% aholi",
+  "deaths-perc-population": "O'lim% aholi"
 }

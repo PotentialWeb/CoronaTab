@@ -70,5 +70,7 @@
   "strapline": "Avoimen lähdekoodin foorumi COVID-19-tiedoille",
   "projection": "Projektio",
   "on": "Päällä",
-  "off": "Vinossa"
+  "off": "Vinossa",
+  "cases-perc-population": "Tapaukset% väestöstä",
+  "deaths-perc-population": "Kuolemat% väestöstä"
 }

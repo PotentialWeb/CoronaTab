@@ -70,5 +70,7 @@
   "strapline": "Syeed orisun orisun fun data COVID-19",
   "projection": "Ilana",
   "on": "Tan",
-  "off": "Pa"
+  "off": "Pa",
+  "cases-perc-population": "Awọn koodu% olugbe",
+  "deaths-perc-population": "Iku% olugbe"
 }

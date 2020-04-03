@@ -70,5 +70,7 @@
   "strapline": "COVID-19 தரவுக்கான திறந்த மூல தளம்",
   "projection": "திட்டம்",
   "on": "ஆன்",
-  "off": "முடக்கு"
+  "off": "முடக்கு",
+  "cases-perc-population": "வழக்குகள்% மக்கள் தொகை",
+  "deaths-perc-population": "இறப்புகள்% மக்கள் தொகை"
 }

@@ -70,5 +70,7 @@
   "strapline": "COVID-19 डेटासाठी मुक्त स्रोत प्लॅटफॉर्म",
   "projection": "प्रोजेक्शन",
   "on": "चालू",
-  "off": "बंद"
+  "off": "बंद",
+  "cases-perc-population": "प्रकरणे% लोकसंख्या",
+  "deaths-perc-population": "मृत्यू% लोकसंख्या"
 }

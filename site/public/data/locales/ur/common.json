@@ -70,5 +70,7 @@
   "strapline": "COVID-19 ڈیٹا کیلئے اوپن سورس پلیٹ فارم",
   "projection": "پروجیکشن",
   "on": "پر",
-  "off": "بند"
+  "off": "بند",
+  "cases-perc-population": "معاملات٪ آبادی",
+  "deaths-perc-population": "اموات٪"
 }

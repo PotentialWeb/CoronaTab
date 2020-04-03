@@ -70,5 +70,7 @@
   "strapline": "Àrd-ùrlar stòr fosgailte airson dàta COVID-19",
   "projection": "Projection",
   "on": "Air adhart",
-  "off": "Air falbh"
+  "off": "Air falbh",
+  "cases-perc-population": "Cùisean% sluaigh",
+  "deaths-perc-population": "Bàsan% sluaigh"
 }

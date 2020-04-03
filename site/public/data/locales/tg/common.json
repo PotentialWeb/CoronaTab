@@ -70,5 +70,7 @@
   "strapline": "Платформаи кушодаасос барои додаҳои COVID-19",
   "projection": "Дурнамо",
   "on": "Фурӯзон",
-  "off": "Хомӯш"
+  "off": "Хомӯш",
+  "cases-perc-population": "Парвандаҳо% аҳолӣ",
+  "deaths-perc-population": "Марг% аҳолӣ"
 }

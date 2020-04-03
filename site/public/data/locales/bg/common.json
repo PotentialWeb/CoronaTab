@@ -70,5 +70,7 @@
   "strapline": "Платформа с отворен код за данни COVID-19",
   "projection": "Проекция",
   "on": "На",
-  "off": "От"
+  "off": "От",
+  "cases-perc-population": "Случаи% население",
+  "deaths-perc-population": "Смъртност% население"
 }

@@ -70,5 +70,7 @@
   "strapline": "Open Source Plattform fir COVID-19 Daten",
   "projection": "Projektioun",
   "on": "On",
-  "off": "Aus"
+  "off": "Aus",
+  "cases-perc-population": "Fäll% Bevëlkerung",
+  "deaths-perc-population": "Doudesfäll% Bevëlkerung"
 }

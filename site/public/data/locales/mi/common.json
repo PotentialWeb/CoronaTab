@@ -70,5 +70,7 @@
   "strapline": "Whakatuwhera papaatapuna maatauranga mo te raraunga COVID-19",
   "projection": "Matapihi",
   "on": "Kei runga",
-  "off": "Off"
+  "off": "Off",
+  "cases-perc-population": "Kino% taupori",
+  "deaths-perc-population": "Mate% taupori"
 }

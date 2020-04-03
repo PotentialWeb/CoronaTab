@@ -70,5 +70,7 @@
   "strapline": "Malferma fontplatformo por datumoj de COVID-19",
   "projection": "Projekcio",
   "on": "On",
-  "off": "Malŝaltita"
+  "off": "Malŝaltita",
+  "cases-perc-population": "Kazoj% loĝantaro",
+  "deaths-perc-population": "Mortoj% loĝantaro"
 }

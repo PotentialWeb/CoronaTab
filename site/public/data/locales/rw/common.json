@@ -70,5 +70,7 @@
   "strapline": "Fungura isoko yamakuru ya COVID-19",
   "projection": "Projection",
   "on": "Kuri",
-  "off": "Hanze"
+  "off": "Hanze",
+  "cases-perc-population": "Imanza%",
+  "deaths-perc-population": "Abapfuye%"
 }

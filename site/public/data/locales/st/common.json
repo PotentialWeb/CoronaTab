@@ -70,5 +70,7 @@
   "strapline": "Sethala sa mohloli se bulehileng sa data ea COVID-19",
   "projection": "Morero",
   "on": "Qalile",
-  "off": "E felile"
+  "off": "E felile",
+  "cases-perc-population": "Case% ea baahi",
+  "deaths-perc-population": "Lefu% ea baahi"
 }

@@ -70,5 +70,7 @@
   "strapline": "Platforma çavkaniya vekirî ji bo daneyên COVID-19",
   "projection": "Hesabderî",
   "on": "Li",
-  "off": "Ji"
+  "off": "Ji",
+  "cases-perc-population": "Cases% nifûs",
+  "deaths-perc-population": "Mirin% nifûs"
 }

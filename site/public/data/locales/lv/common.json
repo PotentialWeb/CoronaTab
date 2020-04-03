@@ -70,5 +70,7 @@
   "strapline": "Atklātā pirmkoda platforma COVID-19 datiem",
   "projection": "Projekcija",
   "on": "Ieslēgts",
-  "off": "Izslēgts"
+  "off": "Izslēgts",
+  "cases-perc-population": "Gadījumi,% iedzīvotāju",
+  "deaths-perc-population": "Mirušo skaits% iedzīvotāju"
 }

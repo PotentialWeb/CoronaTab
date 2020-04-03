@@ -70,5 +70,7 @@
   "strapline": "منصة مفتوحة المصدر لبيانات COVID-19",
   "projection": "تنبؤ",
   "on": "على",
-  "off": "إيقاف"
+  "off": "إيقاف",
+  "cases-perc-population": "الحالات٪ السكان",
+  "deaths-perc-population": "نسبة الوفيات ٪ من السكان"
 }

@@ -70,5 +70,7 @@
   "strapline": "COVID-19 ତଥ୍ୟ ପାଇଁ ମୁକ୍ତ ଉତ୍ସ ପ୍ଲାଟଫର୍ମ |",
   "projection": "ପ୍ରୋଜେକ୍ଟ",
   "on": "ଅନ୍",
-  "off": "ବନ୍ଦ"
+  "off": "ବନ୍ଦ",
+  "cases-perc-population": "% ଜନସଂଖ୍ୟା",
+  "deaths-perc-population": "ମୃତ୍ୟୁ% ଜନସଂଖ୍ୟା |"
 }

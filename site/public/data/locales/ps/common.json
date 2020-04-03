@@ -70,5 +70,7 @@
   "strapline": "د COVID-19 ډاټا لپاره د خلاصې سرچینې پلیټ فارم",
   "projection": "پروجیکشن",
   "on": "په",
-  "off": "بند"
+  "off": "بند",
+  "cases-perc-population": "قضیې population نفوس",
+  "deaths-perc-population": "مړینې٪ نفوس"
 }

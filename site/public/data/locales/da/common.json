@@ -70,5 +70,7 @@
   "strapline": "Open source platform til COVID-19 data",
   "projection": "Projection",
   "on": "På",
-  "off": "Af"
+  "off": "Af",
+  "cases-perc-population": "Tilfælde% befolkning",
+  "deaths-perc-population": "Dødsfald% befolkning"
 }

@@ -70,5 +70,7 @@
   "strapline": "Platforma otvorenog koda za podatke COVID-19",
   "projection": "Projekcija",
   "on": "On",
-  "off": "Isključeno"
+  "off": "Isključeno",
+  "cases-perc-population": "Slučajevi% stanovništva",
+  "deaths-perc-population": "Smrtnost% stanovništva"
 }

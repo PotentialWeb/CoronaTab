@@ -70,5 +70,7 @@
   "strapline": "COVID-19 maglumatlary üçin açyk çeşme platformasy",
   "projection": "Proýeksiýa",
   "on": "Işlediň",
-  "off": "Öçürilen"
+  "off": "Öçürilen",
+  "cases-perc-population": "Ilatyň%",
+  "deaths-perc-population": "Ölüm% ilat"
 }

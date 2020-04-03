@@ -70,5 +70,7 @@
   "strapline": "Otevřená zdrojová platforma pro data COVID-19",
   "projection": "Projekce",
   "on": "Na",
-  "off": "Vypnuto"
+  "off": "Vypnuto",
+  "cases-perc-population": "Případy% populace",
+  "deaths-perc-population": "Úmrtí% populace"
 }

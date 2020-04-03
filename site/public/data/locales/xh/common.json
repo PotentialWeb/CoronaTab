@@ -70,5 +70,7 @@
   "strapline": "Iqonga lomthombo ovulekile wedatha ye-COVID-19",
   "projection": "Uqikelelo",
   "on": "Vuliwe",
-  "off": "Cima"
+  "off": "Cima",
+  "cases-perc-population": "Amatyala% yabantu",
+  "deaths-perc-population": "Ukufa kwabantu%"
 }

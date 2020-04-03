@@ -70,5 +70,7 @@
   "strapline": "COVID-19 мәгълүматлары өчен ачык чыганак платформасы",
   "projection": "Проекция",
   "on": "Яна",
-  "off": "Сүндерелгән"
+  "off": "Сүндерелгән",
+  "cases-perc-population": "Халык саны",
+  "deaths-perc-population": "Халык саны%"
 }

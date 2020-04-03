@@ -70,5 +70,7 @@
   "strapline": "COVID-19 məlumatları üçün açıq mənbə platforması",
   "projection": "Proyeksiya",
   "on": "Yandırın",
-  "off": "Off"
+  "off": "Off",
+  "cases-perc-population": "Hallar% əhali",
+  "deaths-perc-population": "Ölümlər% əhali"
 }

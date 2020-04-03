@@ -70,5 +70,7 @@
   "strapline": "ለ COVID-19 ውሂብ ምንጭ ምንጭ",
   "projection": "ትንበያ",
   "on": "በርቷል",
-  "off": "ጠፍቷል"
+  "off": "ጠፍቷል",
+  "cases-perc-population": "ጉዳዮች% ህዝብ",
+  "deaths-perc-population": "ሞት%% ህዝብ"
 }

@@ -70,5 +70,7 @@
   "strapline": "Isikhulumi somthombo ovulekile wedatha ye-COVID-19",
   "projection": "Ukuqagela",
   "on": "Kuvuliwe",
-  "off": "Cishiwe"
+  "off": "Cishiwe",
+  "cases-perc-population": "Amacala% wabantu",
+  "deaths-perc-population": "Ukufa% wabantu"
 }

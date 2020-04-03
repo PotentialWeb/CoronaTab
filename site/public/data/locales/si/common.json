@@ -70,5 +70,7 @@
   "strapline": "COVID-19 දත්ත සඳහා විවෘත මූලාශ්‍ර වේදිකාව",
   "projection": "ප්‍රක්ෂේපණය",
   "on": "මත",
-  "off": "අක්‍රියයි"
+  "off": "අක්‍රියයි",
+  "cases-perc-population": "නඩු% ජනගහනය",
+  "deaths-perc-population": "මරණ% ජනගහනය"
 }

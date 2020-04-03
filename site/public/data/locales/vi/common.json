@@ -70,5 +70,7 @@
   "strapline": "Nền tảng nguồn mở cho dữ liệu COVID-19",
   "projection": "Chiếu",
   "on": "Trên",
-  "off": "Tắt"
+  "off": "Tắt",
+  "cases-perc-population": "Trường hợp% dân số",
+  "deaths-perc-population": "Tỷ lệ tử vong% dân số"
 }

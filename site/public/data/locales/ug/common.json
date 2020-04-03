@@ -70,5 +70,7 @@
   "strapline": "COVID-19 سانلىق مەلۇماتلىرى ئۈچۈن ئوچۇق مەنبە سۇپىسى",
   "projection": "Projection",
   "on": "On",
-  "off": "Off"
+  "off": "Off",
+  "cases-perc-population": "% نوپۇس",
+  "deaths-perc-population": "ئۆلگۈچىلەر%"
 }

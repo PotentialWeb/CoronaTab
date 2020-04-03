@@ -70,5 +70,7 @@
   "strapline": "Plataforma de codi obert per a dades de COVID-19",
   "projection": "Projecció",
   "on": "Encès",
-  "off": "Desactivat"
+  "off": "Desactivat",
+  "cases-perc-population": "Casos% població",
+  "deaths-perc-population": "Morts% població"
 }

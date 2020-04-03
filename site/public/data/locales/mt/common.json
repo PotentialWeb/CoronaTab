@@ -70,5 +70,7 @@
   "strapline": "Pjattaforma ta 'sors miftuħ għal dejta ta' COVID-19",
   "projection": "Projezzjoni",
   "on": "Fuq",
-  "off": "Off"
+  "off": "Off",
+  "cases-perc-population": "Każijiet% tal-popolazzjoni",
+  "deaths-perc-population": "Imwiet% tal-popolazzjoni"
 }

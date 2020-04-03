@@ -70,5 +70,7 @@
   "strapline": "COVID-19 datuen iturburu irekiko plataforma",
   "projection": "Proiekzioa",
   "on": "On",
-  "off": "Off"
+  "off": "Off",
+  "cases-perc-population": "Kasuak% biztanleria",
+  "deaths-perc-population": "Heriotzak% biztanleria"
 }

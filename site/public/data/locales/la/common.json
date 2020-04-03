@@ -70,5 +70,7 @@
   "strapline": "XIX fonte aperta suggestum enim COVID notitia,",
   "projection": "Proiectura",
   "on": "In",
-  "off": "Off"
+  "off": "Off",
+  "cases-perc-population": "Population casibus%",
+  "deaths-perc-population": "Mors% population"
 }

@@ -70,5 +70,7 @@
   "strapline": "Open source nsanja ya COVID-19",
   "projection": "Makono",
   "on": "Kuyatsa",
-  "off": "Kupita"
+  "off": "Kupita",
+  "cases-perc-population": "Milandu% ya anthu",
+  "deaths-perc-population": "Imfa% kuchuluka"
 }

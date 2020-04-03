@@ -70,5 +70,7 @@
   "strapline": "COVID-19 ডেটার জন্য ওপেন সোর্স প্ল্যাটফর্ম",
   "projection": "অভিক্ষেপ",
   "on": "চালু",
-  "off": "বন্ধ"
+  "off": "বন্ধ",
+  "cases-perc-population": "কেস% জনসংখ্যা",
+  "deaths-perc-population": "মৃত্যু% জনসংখ্যা"
 }

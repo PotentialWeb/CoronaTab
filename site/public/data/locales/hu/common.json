@@ -70,5 +70,7 @@
   "strapline": "Nyílt forráskódú platform a COVID-19 adatokhoz",
   "projection": "Kivetítés",
   "on": "Tovább",
-  "off": "Ki"
+  "off": "Ki",
+  "cases-perc-population": "Eset% lakosság",
+  "deaths-perc-population": "Halálozás% népesség szerint"
 }

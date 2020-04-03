@@ -70,5 +70,7 @@
   "strapline": "Platform open source pikeun COVID-19 data",
   "projection": "Proyéksi",
   "on": "Asupkeun",
-  "off": "Pareum"
+  "off": "Pareum",
+  "cases-perc-population": "Kasus% populasi",
+  "deaths-perc-population": "Pati% penduduk"
 }

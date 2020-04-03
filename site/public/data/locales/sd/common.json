@@ -70,5 +70,7 @@
   "strapline": "اوپن سرچٽي پليٽ فارم COVID-19 جي ڊيٽا لاء",
   "projection": "پروجئشن",
   "on": "تي",
-  "off": "آف"
+  "off": "آف",
+  "cases-perc-population": "ڪيسن جي آبادي",
+  "deaths-perc-population": "آبادي٪ سيڪڙو"
 }

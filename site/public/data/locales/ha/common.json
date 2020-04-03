@@ -70,5 +70,7 @@
   "strapline": "Matattarar buɗe tushen bayanan COVID-19",
   "projection": "Tsinkaya",
   "on": "Kunnawa",
-  "off": "Kashe"
+  "off": "Kashe",
+  "cases-perc-population": "Cases% yawan jama'a",
+  "deaths-perc-population": "Mutuwa% yawan jama'a"
 }

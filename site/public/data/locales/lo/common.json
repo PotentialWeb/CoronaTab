@@ -70,5 +70,7 @@
   "strapline": "ເວທີແຫຼ່ງເປີດ ສຳ ລັບຂໍ້ມູນ COVID-19",
   "projection": "ການຄາດຄະເນ",
   "on": "ໃນ",
-  "off": "ປິດ"
+  "off": "ປິດ",
+  "cases-perc-population": "ກໍລະນີປະຊາກອນ%",
+  "deaths-perc-population": "ຄວາມຕາຍ% ປະຊາກອນ"
 }

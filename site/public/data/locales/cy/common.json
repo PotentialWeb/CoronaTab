@@ -70,5 +70,7 @@
   "strapline": "Llwyfan ffynhonnell agored ar gyfer data COVID-19",
   "projection": "Rhagamcaniad",
   "on": "Ymlaen",
-  "off": "I ffwrdd"
+  "off": "I ffwrdd",
+  "cases-perc-population": "Achosion% poblogaeth",
+  "deaths-perc-population": "Marwolaethau% poblogaeth"
 }

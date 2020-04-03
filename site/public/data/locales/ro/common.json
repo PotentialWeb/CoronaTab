@@ -70,5 +70,7 @@
   "strapline": "Platforma open source pentru datele COVID-19",
   "projection": "Proiectare",
   "on": "Pe",
-  "off": "De pe"
+  "off": "De pe",
+  "cases-perc-population": "Cazuri% populație",
+  "deaths-perc-population": "Decese% populație"
 }

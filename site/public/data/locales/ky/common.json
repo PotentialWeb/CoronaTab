@@ -70,5 +70,7 @@
   "strapline": "COVID-19 дайындары үчүн ачык булак платформасы",
   "projection": "Проекциялоо",
   "on": "Жөнүндө",
-  "off": "Off"
+  "off": "Off",
+  "cases-perc-population": "% Калктын учурлары",
+  "deaths-perc-population": "Өлүмдөр% калк"
 }
