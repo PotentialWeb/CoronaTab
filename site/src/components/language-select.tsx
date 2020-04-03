@@ -26,9 +26,15 @@ export class LanguageSelectComponent extends PureComponent<Props, State> {
 
   changeLanguage = async (locale: LocaleId) => {
     try {
+      // window.localStorage.clear()
       await this.props.appStore.i18n.changeLanguage(locale)
+      window.localStorage.setItem('locale', locale)
       console.info('Changed language')
-      setTimeout(() => window.location.reload(), 100)
+      setTimeout(() => {
+        const url = new URL(document.location.href)
+        url.pathname = url.pathname.replace(/\/.*\/(.*)/g, `/${locale}/$1`)
+        document.location.href = url.toString()
+      }, 100)
     } catch (err) {
       console.error(err)
     }

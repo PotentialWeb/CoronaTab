@@ -12,9 +12,9 @@ export class Api {
       'Accept': 'application/json',
       'Content-Type': 'application/json',
       'Access-Control-Allow-Origin': '*',
-      'Accept-Language': locale ?? 'en',
+      'Content-Language': locale ?? window.localStorage.getItem('locale') ?? 'en',
       'Cache-Control': 'no-cache',
-      'domain': process.env.DOMAIN,
+      'domain': process.env.DOMAIN
     }
   }
 

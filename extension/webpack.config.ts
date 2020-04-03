@@ -36,7 +36,7 @@ const config: webpack.Configuration = {
         'DOMAIN': JSON.stringify((() => {
           switch (process.env.CORONATAB_ENVIRONMENT) {
             case ('LOCAL'):
-              return 'https://localhost:8080'
+              return 'http://localhost:8080'
             case ('STAGING'):
               return 'https://staging.coronatab.app'
             default:

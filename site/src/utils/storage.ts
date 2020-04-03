@@ -19,7 +19,7 @@ abstract class BaseStorage {
   static purgeItems () {
     if (typeof window === 'undefined') return
     Object.keys(this.storage)
-      .filter(key => !key.includes(this.version))
+      .filter(key => !key.includes(this.version) && key !== 'locale')
       .forEach(key => this.storage.removeItem(key))
   }
 }
