@@ -67,5 +67,8 @@
   "global": "Globalno",
   "extension": "Produžetak",
   "index-title": "Coronavirus platforma podataka otvorenog koda",
-  "strapline": "Platforma otvorenog koda za podatke COVID-19"
+  "strapline": "Platforma otvorenog koda za podatke COVID-19",
+  "projection": "Projekcija",
+  "on": "On",
+  "off": "Isključeno"
 }

@@ -67,5 +67,8 @@
   "global": "Maailmanlaajuinen",
   "extension": "Laajentaminen",
   "index-title": "Avoimen lähdekoodin Coronavirus-tietoalusta",
-  "strapline": "Avoimen lähdekoodin foorumi COVID-19-tiedoille"
+  "strapline": "Avoimen lähdekoodin foorumi COVID-19-tiedoille",
+  "projection": "Projektio",
+  "on": "Päällä",
+  "off": "Vinossa"
 }

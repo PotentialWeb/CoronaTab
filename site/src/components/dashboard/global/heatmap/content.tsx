@@ -105,15 +105,15 @@ export class DashboardGlobalHeatmapContentComponent extends PureComponent<Props,
   }
 
   initMap = async (entries: MapEntry[]) => {
-    const features: Feature[] = entries
-      .map(place => new Feature({
+    const features: Feature<Point>[] = entries
+      .map(place => new Feature<Point>({
         id: place.id,
         place: DashboardPageStore.calcPlaceLatestDataComputedValues(place as any),
         geometry: new Point(transformProjection([place.location.coordinates[0], place.location.coordinates[1]], 'EPSG:4326', 'EPSG:3857')),
         value: place.latestData.cases
       }))
 
-    const maxCases = Math.max(...features.map((feature: Feature) => feature.get('value') as number))
+    const maxCases = Math.max(...features.map((feature: Feature<Point>) => feature.get('value') as number))
 
     const featuresCollection = new Collection(features)
 

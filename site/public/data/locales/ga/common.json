@@ -67,5 +67,8 @@
   "global": "Domhanda",
   "extension": "Síneadh",
   "index-title": "Ardán sonraí Coronavirus foinse oscailte",
-  "strapline": "Ardán foinse oscailte le haghaidh sonraí COVID-19"
+  "strapline": "Ardán foinse oscailte le haghaidh sonraí COVID-19",
+  "projection": "Teilgean",
+  "on": "Ar",
+  "off": "Off"
 }

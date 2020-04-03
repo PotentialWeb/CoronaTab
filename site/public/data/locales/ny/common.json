@@ -67,5 +67,8 @@
   "global": "Padziko lonse",
   "extension": "Kukulitsa",
   "index-title": "Open source Coronavirus data nsanja",
-  "strapline": "Open source nsanja ya COVID-19"
+  "strapline": "Open source nsanja ya COVID-19",
+  "projection": "Makono",
+  "on": "Kuyatsa",
+  "off": "Kupita"
 }

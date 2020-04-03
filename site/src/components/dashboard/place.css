@@ -21,3 +21,13 @@
     grid-template-rows: minmax(auto, 400px);
   }
 }
+
+.place-select {
+  min-width: 250px;
+}
+
+@screen xl {
+  .place-select {
+    min-width: 300px;
+  }
+}

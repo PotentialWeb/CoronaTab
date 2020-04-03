@@ -67,5 +67,8 @@
   "global": "عالمي",
   "extension": "تمديد",
   "index-title": "منصة بيانات Coronavirus مفتوحة المصدر",
-  "strapline": "منصة مفتوحة المصدر لبيانات COVID-19"
+  "strapline": "منصة مفتوحة المصدر لبيانات COVID-19",
+  "projection": "تنبؤ",
+  "on": "على",
+  "off": "إيقاف"
 }

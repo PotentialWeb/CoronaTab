@@ -67,5 +67,8 @@
   "global": "Global",
   "extension": "Uzantı",
   "index-title": "Açık kaynaklı Coronavirus veri platformu",
-  "strapline": "COVID-19 verileri için açık kaynaklı platform"
+  "strapline": "COVID-19 verileri için açık kaynaklı platform",
+  "projection": "Projeksiyon",
+  "on": "Üzerinde",
+  "off": "Kapalı"
 }

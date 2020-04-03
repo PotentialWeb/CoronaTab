@@ -67,5 +67,8 @@
   "global": "Isi yose",
   "extension": "Kwaguka",
   "index-title": "Gufungura isoko ya Coronavirus",
-  "strapline": "Fungura isoko yamakuru ya COVID-19"
+  "strapline": "Fungura isoko yamakuru ya COVID-19",
+  "projection": "Projection",
+  "on": "Kuri",
+  "off": "Hanze"
 }

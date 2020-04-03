@@ -67,5 +67,8 @@
   "global": "Visuotinis",
   "extension": "Pratęsimas",
   "index-title": "Atvirojo kodo „Coronavirus“ duomenų platforma",
-  "strapline": "COVID-19 duomenų atvirojo kodo platforma"
+  "strapline": "COVID-19 duomenų atvirojo kodo platforma",
+  "projection": "Projekcija",
+  "on": "Įjungta",
+  "off": "Išjungta"
 }

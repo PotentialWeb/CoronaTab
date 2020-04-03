@@ -67,5 +67,8 @@
   "global": "Global",
   "extension": "Förlängning",
   "index-title": "Coronavirus dataplattform med öppen källa",
-  "strapline": "Open source-plattform för COVID-19-data"
+  "strapline": "Open source-plattform för COVID-19-data",
+  "projection": "Utsprång",
+  "on": "På",
+  "off": "Av"
 }

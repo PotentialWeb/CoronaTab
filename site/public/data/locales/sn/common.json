@@ -67,5 +67,8 @@
   "global": "Global",
   "extension": "Kuwedzera",
   "index-title": "Vhura sosi Coronavirus dha data",
-  "strapline": "Vhura sosi chikuva cheCOVID-19 data"
+  "strapline": "Vhura sosi chikuva cheCOVID-19 data",
+  "projection": "Projection",
+  "on": "On",
+  "off": "Off"
 }
