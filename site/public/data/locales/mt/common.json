@@ -67,5 +67,8 @@
   "global": "Globali",
   "extension": "Estensjoni",
   "index-title": "Sors miftuħ ta 'pjattaforma tad-dejta Coronavirus",
-  "strapline": "Pjattaforma ta 'sors miftuħ għal dejta ta' COVID-19"
+  "strapline": "Pjattaforma ta 'sors miftuħ għal dejta ta' COVID-19",
+  "projection": "Projezzjoni",
+  "on": "Fuq",
+  "off": "Off"
 }

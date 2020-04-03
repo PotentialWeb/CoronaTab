@@ -67,5 +67,8 @@
   "global": "Kumhlaba jikelele",
   "extension": "Ulwandiso",
   "index-title": "Umthombo ovulekileyo weqonga ledatha yeCoronavirus",
-  "strapline": "Iqonga lomthombo ovulekile wedatha ye-COVID-19"
+  "strapline": "Iqonga lomthombo ovulekile wedatha ye-COVID-19",
+  "projection": "Uqikelelo",
+  "on": "Vuliwe",
+  "off": "Cima"
 }

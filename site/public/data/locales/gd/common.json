@@ -67,5 +67,8 @@
   "global": "Cruinneil",
   "extension": "Leudachadh",
   "index-title": "Àrd-ùrlar dàta Coronavirus stòr fosgailte",
-  "strapline": "Àrd-ùrlar stòr fosgailte airson dàta COVID-19"
+  "strapline": "Àrd-ùrlar stòr fosgailte airson dàta COVID-19",
+  "projection": "Projection",
+  "on": "Air adhart",
+  "off": "Air falbh"
 }

@@ -67,5 +67,8 @@
   "global": "Emhlabeni jikelele",
   "extension": "Isandiso",
   "index-title": "Isikhulumi sedatha evulekile yeCoronavirus",
-  "strapline": "Isikhulumi somthombo ovulekile wedatha ye-COVID-19"
+  "strapline": "Isikhulumi somthombo ovulekile wedatha ye-COVID-19",
+  "projection": "Ukuqagela",
+  "on": "Kuvuliwe",
+  "off": "Cishiwe"
 }

@@ -67,5 +67,8 @@
   "global": "Globaalne",
   "extension": "Pikendus",
   "index-title": "Avatud lähtekoodiga koroonaviiruse andmeplatvorm",
-  "strapline": "COVID-19 andmete avatud lähtekoodiga platvorm"
+  "strapline": "COVID-19 andmete avatud lähtekoodiga platvorm",
+  "projection": "Projektsioon",
+  "on": "Peal",
+  "off": "Väljas"
 }

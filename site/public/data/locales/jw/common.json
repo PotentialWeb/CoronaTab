@@ -67,5 +67,8 @@
   "global": "Global",
   "extension": "Ekstensi",
   "index-title": "Bukak platform data Coronavirus sumber",
-  "strapline": "Open platform sumber data kanggo COVID-19"
+  "strapline": "Open platform sumber data kanggo COVID-19",
+  "projection": "Prakiraan",
+  "on": "On",
+  "off": "Off"
 }

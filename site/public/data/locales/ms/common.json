@@ -67,5 +67,8 @@
   "global": "Global",
   "extension": "Sambungan",
   "index-title": "Platform data sumber terbuka Coronavirus",
-  "strapline": "Platform sumber terbuka untuk data COVID-19"
+  "strapline": "Platform sumber terbuka untuk data COVID-19",
+  "projection": "Unjuran",
+  "on": "Pada",
+  "off": "Off"
 }

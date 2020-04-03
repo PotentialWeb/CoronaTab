@@ -36,11 +36,14 @@ export class DashboardGlobalComponent extends Component<Props, State> {
 
   get data () {
     const { pageStore } = this.props
-    if (!pageStore.rawPlaceData?.earth?.data) return {}
+    const earthData = pageStore.rawPlaceData?.earth
+    if (!earthData?.data) return {}
     return {
-      raw: pageStore.rawPlaceData.earth.data,
-      cumulativeSeries: DashboardPageStore.parseCumulativeSeriesData(pageStore.rawPlaceData.earth.data),
-      dailySeries: DashboardPageStore.calcDailySeriesData(pageStore.rawPlaceData.earth.data)
+      raw: earthData.data,
+      cumulativeSeries: DashboardPageStore.parseCumulativeSeriesData(earthData.data),
+      dailySeries: DashboardPageStore.calcDailySeriesData(earthData.data),
+      projectedCumulativeSeries: DashboardPageStore.parseCumulativeSeriesData(earthData.projected),
+      projectedDailySeries: DashboardPageStore.calcDailySeriesData(earthData.projected)
     }
   }
 
@@ -84,6 +87,7 @@ export class DashboardGlobalComponent extends Component<Props, State> {
             <div className="dashboard-spacer">
               <DashboardCumulativeGraphComponent
                 data={this.data?.cumulativeSeries}
+                projectedData={this.data?.projectedCumulativeSeries}
               />
             </div>
             <div className="dashboard-spacer">

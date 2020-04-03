@@ -67,5 +67,8 @@
   "global": "Global",
   "extension": "Extensión",
   "index-title": "Plataforma de datos de coronavirus de código abierto",
-  "strapline": "Plataforma de código abierto para datos COVID-19"
+  "strapline": "Plataforma de código abierto para datos COVID-19",
+  "projection": "Proyección",
+  "on": "En",
+  "off": "Apagado"
 }

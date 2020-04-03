@@ -67,5 +67,8 @@
   "global": "Globālā",
   "extension": "Pagarinājums",
   "index-title": "Atvērtā koda koronavīrusa datu platforma",
-  "strapline": "Atklātā pirmkoda platforma COVID-19 datiem"
+  "strapline": "Atklātā pirmkoda platforma COVID-19 datiem",
+  "projection": "Projekcija",
+  "on": "Ieslēgts",
+  "off": "Izslēgts"
 }

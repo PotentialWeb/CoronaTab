@@ -67,5 +67,8 @@
   "global": "Globale",
   "extension": "Estensione",
   "index-title": "Prugrammu di dati Coronavirus di fonte aperta",
-  "strapline": "Piattaforma open source per i dati COVID-19"
+  "strapline": "Piattaforma open source per i dati COVID-19",
+  "projection": "Proiezione",
+  "on": "On",
+  "off": "Off"
 }

@@ -67,5 +67,8 @@
   "global": "ທົ່ວໂລກ",
   "extension": "ການຂະຫຍາຍ",
   "index-title": "ແພລະຕະຟອມຂໍ້ມູນຂອງ Coronavirus ເປີດ",
-  "strapline": "ເວທີແຫຼ່ງເປີດ ສຳ ລັບຂໍ້ມູນ COVID-19"
+  "strapline": "ເວທີແຫຼ່ງເປີດ ສຳ ລັບຂໍ້ມູນ COVID-19",
+  "projection": "ການຄາດຄະເນ",
+  "on": "ໃນ",
+  "off": "ປິດ"
 }

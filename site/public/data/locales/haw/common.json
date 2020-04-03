@@ -67,5 +67,8 @@
   "global": "Honua",
   "extension": "Hoʻonui",
   "index-title": "E wehe i kahi waihona data Coronavirus",
-  "strapline": "E wehe i kahi waihona kumu no ka ikepili COVID-19"
+  "strapline": "E wehe i kahi waihona kumu no ka ikepili COVID-19",
+  "projection": "Kaulana",
+  "on": "I ke",
+  "off": "Kau"
 }

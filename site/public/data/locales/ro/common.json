@@ -67,5 +67,8 @@
   "global": "Global",
   "extension": "Extensie",
   "index-title": "Platforma de date Coronavirus open source",
-  "strapline": "Platforma open source pentru datele COVID-19"
+  "strapline": "Platforma open source pentru datele COVID-19",
+  "projection": "Proiectare",
+  "on": "Pe",
+  "off": "De pe"
 }

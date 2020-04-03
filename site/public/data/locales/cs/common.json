@@ -67,5 +67,8 @@
   "global": "Globální",
   "extension": "Rozšíření",
   "index-title": "Otevřená zdrojová datová platforma Coronavirus",
-  "strapline": "Otevřená zdrojová platforma pro data COVID-19"
+  "strapline": "Otevřená zdrojová platforma pro data COVID-19",
+  "projection": "Projekce",
+  "on": "Na",
+  "off": "Vypnuto"
 }

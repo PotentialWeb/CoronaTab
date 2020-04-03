@@ -67,5 +67,8 @@
   "global": "글로벌",
   "extension": "신장",
   "index-title": "오픈 소스 코로나 바이러스 데이터 플랫폼",
-  "strapline": "COVID-19 데이터를위한 오픈 소스 플랫폼"
+  "strapline": "COVID-19 데이터를위한 오픈 소스 플랫폼",
+  "projection": "투사",
+  "on": "의 위에",
+  "off": "떨어져서"
 }
