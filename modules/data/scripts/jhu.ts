@@ -498,6 +498,7 @@ export class JHU {
     'Venezuela': 'VE',
     'Vietnam': 'VN',
     'Wallis and Futuna': 'WF',
+    'Western Sahara': 'EH',
     'Yemen': 'YE',
     'Zambia': 'ZM',
     'Zimbabwe': 'ZW'

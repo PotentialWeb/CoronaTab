@@ -3300,7 +3300,12 @@
     "alpha2code": "BW",
     "alpha3code": "BWA",
     "population": 2351627,
-    "parentId": "earth"
+    "parentId": "earth",
+    "coordinates": [
+      24.664209838500085,
+      -22.341555073999963
+    ],
+    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
   },
   {
     "id": "brazil",
@@ -3910,7 +3915,12 @@
     "alpha2code": "MM",
     "alpha3code": "MMR",
     "population": 54409800,
-    "parentId": "earth"
+    "parentId": "earth",
+    "coordinates": [
+      96.67133915200009,
+      19.28579274800007
+    ],
+    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
   },
   {
     "id": "burundi",
@@ -4028,7 +4038,12 @@
     "alpha2code": "BI",
     "alpha3code": "BDI",
     "population": 11890784,
-    "parentId": "earth"
+    "parentId": "earth",
+    "coordinates": [
+      29.923785441000092,
+      -3.382324726999876
+    ],
+    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
   },
   {
     "id": "cambodia",
@@ -8573,7 +8588,7 @@
       -12.818387777882
     ],
     "parentId": "earth",
-    "dataSource": "https://www.santepubliquefrance.fr/maladies-et-traumatismes/maladies-et-infections-respiratoires/infection-a-coronavirus/articles/infection-au-nouveau-coronavirus-sars-cov-2-covid-19-france-et-monde"
+    "dataSource": "https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv"
   },
   {
     "id": "french-guiana",
@@ -11160,11 +11175,11 @@
     "alpha3code": "IND",
     "population": 1380004385,
     "coordinates": [
-      82.74863427400004,
-      21.151850284000083
+      87.85869957912226,
+      24.402508335403155
     ],
     "parentId": "earth",
-    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
+    "dataSource": "https://www.mohfw.gov.in/"
   },
   {
     "id": "indonesia",
@@ -14613,7 +14628,12 @@
     "alpha2code": "MW",
     "alpha3code": "MWI",
     "population": 19129952,
-    "parentId": "earth"
+    "parentId": "earth",
+    "coordinates": [
+      34.313569173000104,
+      -13.265985005499928
+    ],
+    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
   },
   {
     "id": "malaysia",
@@ -17183,8 +17203,8 @@
     "hospitalBeds": 56888,
     "icuBeds": 1097,
     "coordinates": [
-      5.272002682500101,
-      52.105282697500066
+      -68.31135006449992,
+      12.166225490500068
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -22412,7 +22432,12 @@
     "alpha2code": "SL",
     "alpha3code": "SLE",
     "population": 7976983,
-    "parentId": "earth"
+    "parentId": "earth",
+    "coordinates": [
+      -11.79166601899992,
+      8.457712812500077
+    ],
+    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
   },
   {
     "id": "singapore",
@@ -24503,7 +24528,7 @@
       46.840811259500086
     ],
     "parentId": "earth",
-    "dataSource": "https://raw.githubusercontent.com/openZH/covid_19/master/fallzahlen_kanton_total_csv/COVID19_Fallzahlen_Kanton_ZH_total.csv"
+    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
   },
   {
     "id": "syrian-arab-republic",
@@ -27072,8 +27097,8 @@
     "hospitalBeds": 172430,
     "icuBeds": 4480,
     "coordinates": [
-      -64.64,
-      18.4207
+      -3.4360000000000004,
+      55.3781
     ],
     "parentId": "earth",
     "dataSource": "https://www.gov.scot/coronavirus-covid-19/"
@@ -28426,5 +28451,15 @@
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
+  },
+  {
+    "id": "western-sahara",
+    "locales": {
+      "en": "Western Sahara"
+    },
+    "alpha2code": "EH",
+    "alpha3code": "ESH",
+    "population": 500000,
+    "parentId": "earth"
   }
 ]
