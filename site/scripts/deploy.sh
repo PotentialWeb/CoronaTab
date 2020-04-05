@@ -6,7 +6,7 @@ if [ -z "$DOCKER_REGISTRY" ]; then
     exit 1
 fi
 
-docker build --no-cache -t $DOCKER_REGISTRY/coronatab-site:latest --build-arg DB_URL=$DB_URL -f site/Dockerfile .
+docker build --no-cache -t $DOCKER_REGISTRY/coronatab-site:latest -f site/Dockerfile .
 docker push $DOCKER_REGISTRY/coronatab-site:latest
 
 gcloud beta run deploy coronatab-site \
