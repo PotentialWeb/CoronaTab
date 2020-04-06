@@ -116,8 +116,8 @@
     "alpha3code": "AFG",
     "population": 38928346,
     "coordinates": [
-      67.6895422770001,
-      33.930139364000084
+      67.70400000000001,
+      33.934
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -239,8 +239,8 @@
     "alpha3code": "ALB",
     "population": 2877797,
     "coordinates": [
-      20.154355916000085,
-      41.11245290150006
+      20.1605,
+      41.1555
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -362,8 +362,8 @@
     "alpha3code": "DZA",
     "population": 43851044,
     "coordinates": [
-      1.6432377520000898,
-      28.032339379000085
+      1.6639999999999997,
+      28.03
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -484,7 +484,12 @@
     "alpha2code": "AS",
     "alpha3code": "ASM",
     "population": 55191,
-    "parentId": "earth"
+    "parentId": "earth",
+    "coordinates": [
+      -169.6165,
+      -12.8
+    ],
+    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
   },
   {
     "id": "andorra",
@@ -603,8 +608,8 @@
     "alpha3code": "AND",
     "population": 77265,
     "coordinates": [
-      1.5681518960000886,
-      42.51501586950006
+      1.601,
+      42.545
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -726,8 +731,8 @@
     "alpha3code": "AGO",
     "population": 32866272,
     "coordinates": [
-      17.89885628300003,
-      -11.211304219499908
+      17.8785,
+      -11.2135
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -967,8 +972,8 @@
     "alpha3code": "ATG",
     "population": 97929,
     "coordinates": [
-      -61.78465735599994,
-      17.098659572500083
+      -62.0095,
+      17.333
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -1090,8 +1095,8 @@
     "alpha3code": "ARG",
     "population": 45195774,
     "coordinates": [
-      -63.626654215499926,
-      -38.42173074799991
+      -63.599500000000006,
+      -38.4275
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -1213,8 +1218,8 @@
     "alpha3code": "ARM",
     "population": 2963243,
     "coordinates": [
-      45.01914310700013,
-      40.077076823500036
+      45.040000000000006,
+      40.070499999999996
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -1586,8 +1591,8 @@
     "hospitalBeds": 66377,
     "icuBeds": 1963,
     "coordinates": [
-      13.334746337500093,
-      47.71313527500007
+      13.346,
+      47.696
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -1709,8 +1714,8 @@
     "alpha3code": "AZE",
     "population": 10139177,
     "coordinates": [
-      47.50227481750011,
-      40.14320973750006
+      47.810500000000005,
+      40.1505
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -1832,8 +1837,8 @@
     "alpha3code": "BHR",
     "population": 1701575,
     "coordinates": [
-      50.53386477950008,
-      26.024400132000068
+      50.6055,
+      26.029
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -1955,8 +1960,8 @@
     "alpha3code": "BGD",
     "population": 164689383,
     "coordinates": [
-      90.33232039450004,
-      23.73811778050007
+      90.344,
+      23.6125
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -2078,8 +2083,8 @@
     "alpha3code": "BRB",
     "population": 287375,
     "coordinates": [
-      -59.54055742099993,
-      13.189886786000045
+      -59.5355,
+      13.1935
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -2201,8 +2206,8 @@
     "alpha3code": "BLR",
     "population": 9449323,
     "coordinates": [
-      27.942588541500044,
-      53.72384073950006
+      27.9675,
+      53.716499999999996
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -2327,8 +2332,8 @@
     "hospitalBeds": 66756,
     "icuBeds": 1843,
     "coordinates": [
-      4.4297657472728815,
-      50.49042053300006
+      4.475,
+      50.501000000000005
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -2450,8 +2455,8 @@
     "alpha3code": "BLZ",
     "population": 397628,
     "coordinates": [
-      -88.66402716449991,
-      17.18921030650006
+      -88.3575,
+      17.192
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -2573,8 +2578,8 @@
     "alpha3code": "BEN",
     "population": 12123200,
     "coordinates": [
-      2.3030941155000306,
-      9.306569115000109
+      2.311,
+      9.321
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -2814,8 +2819,8 @@
     "alpha3code": "BTN",
     "population": 771608,
     "coordinates": [
-      90.40745792650009,
-      27.518180482737833
+      90.4335,
+      27.4745
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -2937,8 +2942,8 @@
     "alpha3code": "BOL",
     "population": 11673021,
     "coordinates": [
-      -63.58694087799992,
-      -16.286937560999938
+      -63.5475,
+      -16.2835
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -3178,8 +3183,8 @@
     "alpha3code": "BIH",
     "population": 3280819,
     "coordinates": [
-      17.668099406000096,
-      43.91899993950011
+      17.673499999999997,
+      43.916
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -3302,8 +3307,8 @@
     "population": 2351627,
     "parentId": "earth",
     "coordinates": [
-      24.664209838500085,
-      -22.341555073999963
+      24.686999999999998,
+      -22.342
     ],
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
   },
@@ -3424,14 +3429,17 @@
     "alpha3code": "BRA",
     "population": 212559417,
     "coordinates": [
-      -54.38839290699988,
-      -14.236725569657125
+      -51.4155,
+      -14.2375
     ],
     "parentId": "earth",
     "dataSource": "https://covid.saude.gov.br/"
   },
   {
     "id": "brunei-darussalam",
+    "alternativeNames": [
+      "Brunei"
+    ],
     "locales": {
       "en": "Brunei Darussalam",
       "af": "Brunei Darussalam",
@@ -3547,8 +3555,8 @@
     "alpha3code": "BRN",
     "population": 428697,
     "coordinates": [
-      114.66157535500005,
-      4.510995486500057
+      114.7195,
+      4.5245
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -3670,8 +3678,8 @@
     "alpha3code": "BGR",
     "population": 6948445,
     "coordinates": [
-      25.47427473600007,
-      42.73391529800004
+      25.4825,
+      42.726
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -3793,8 +3801,8 @@
     "alpha3code": "BFA",
     "population": 20903273,
     "coordinates": [
-      -1.5662045904998934,
-      12.230804951500069
+      -1.552,
+      12.248000000000001
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -3917,8 +3925,8 @@
     "population": 54409800,
     "parentId": "earth",
     "coordinates": [
-      96.67133915200009,
-      19.28579274800007
+      96.669,
+      19.072499999999998
     ],
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
   },
@@ -4040,8 +4048,8 @@
     "population": 11890784,
     "parentId": "earth",
     "coordinates": [
-      29.923785441000092,
-      -3.382324726999876
+      29.9255,
+      -3.386
     ],
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
   },
@@ -4162,8 +4170,8 @@
     "alpha3code": "KHM",
     "population": 16718965,
     "coordinates": [
-      104.96757694500008,
-      12.56212270450002
+      104.981,
+      12.307500000000001
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -4285,8 +4293,8 @@
     "alpha3code": "CMR",
     "population": 26545863,
     "coordinates": [
-      12.350860429500074,
-      7.407972718000032
+      12.3445,
+      7.366
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -4411,8 +4419,8 @@
     "hospitalBeds": 95110,
     "icuBeds": 5095,
     "coordinates": [
-      -96.81718909399993,
-      62.39666687350006
+      -96.81200000000001,
+      62.414
     ],
     "parentId": "earth",
     "dataSource": "https://health-infobase.canada.ca/src/data/covidLive/covid19.csv"
@@ -4537,8 +4545,8 @@
     ],
     "population": 555987,
     "coordinates": [
-      -23.999460415499925,
-      16.066066799000083
+      -24.0135,
+      15.999
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -4778,8 +4786,8 @@
     "alpha3code": "CAF",
     "population": 4829767,
     "coordinates": [
-      20.91950301100013,
-      6.61864105250006
+      20.941000000000003,
+      6.603
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -4901,8 +4909,8 @@
     "alpha3code": "TCD",
     "population": 16425864,
     "coordinates": [
-      18.71679508450009,
-      15.451357727500067
+      18.7365,
+      15.4695
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -5026,8 +5034,8 @@
     "hospitalBedOccupancy": 0.791,
     "hospitalBeds": 40335,
     "coordinates": [
-      -71.3604937374999,
-      -36.567062457499944
+      -87.938,
+      -37.018
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -5151,8 +5159,8 @@
     "hospitalBeds": 6246665,
     "icuBeds": 51816,
     "coordinates": [
-      104.18741784700006,
-      35.88048675850005
+      104.1375,
+      31.107499999999998
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -5275,8 +5283,8 @@
     "population": 50882891,
     "hospitalBeds": 86501,
     "coordinates": [
-      -72.93652033249992,
-      4.114416812000066
+      -74.3535,
+      5.827999999999999
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -5634,8 +5642,8 @@
     "alpha3code": "CRI",
     "population": 5094118,
     "coordinates": [
-      -84.21760006449992,
-      9.615482479500045
+      -84.82650000000001,
+      8.3595
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -5757,8 +5765,8 @@
     "alpha3code": "CIV",
     "population": 26378274,
     "coordinates": [
-      -5.536220662499915,
-      7.533667911000066
+      -5.547000000000001,
+      7.551
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -5880,8 +5888,8 @@
     "alpha3code": "HRV",
     "population": 4105267,
     "coordinates": [
-      16.33771101500008,
-      44.48165314050009
+      16.4685,
+      44.462
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -6003,8 +6011,8 @@
     "alpha3code": "CUB",
     "population": 11326616,
     "coordinates": [
-      -79.28561357349994,
-      21.528102931500058
+      -79.5415,
+      21.5485
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -6244,14 +6252,17 @@
     "alpha3code": "CYP",
     "population": 1207359,
     "coordinates": [
-      33.197142898000095,
-      34.910753335500104
+      33.441,
+      35.1695
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
   },
   {
     "id": "czechia",
+    "alternativeNames": [
+      "Czechia"
+    ],
     "locales": {
       "en": "Czech Republic",
       "af": "Tsjeggiese Republiek",
@@ -6370,8 +6381,8 @@
     "hospitalBeds": 71001,
     "icuBeds": 1242,
     "coordinates": [
-      15.540038086000095,
-      49.80312398300006
+      15.474499999999999,
+      49.805
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -6495,8 +6506,8 @@
     "hospitalBeds": 15118,
     "icuBeds": 388,
     "coordinates": [
-      11.628916862500091,
-      56.10986969600006
+      11.6375,
+      56.153
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -6618,8 +6629,8 @@
     "alpha3code": "DJI",
     "population": 988000,
     "coordinates": [
-      42.58024885700007,
-      11.839293826500068
+      42.611000000000004,
+      11.815000000000001
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -6741,8 +6752,8 @@
     "alpha3code": "DMA",
     "population": 71986,
     "coordinates": [
-      -61.37279212149994,
-      15.390529689500056
+      -61.3605,
+      15.4245
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -6864,8 +6875,8 @@
     "alpha3code": "DOM",
     "population": 10847910,
     "coordinates": [
-      -70.13417985399988,
-      18.771246649000062
+      -70.168,
+      18.7025
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -6987,8 +6998,8 @@
     "alpha3code": "ECU",
     "population": 17643054,
     "coordinates": [
-      -83.4578538649999,
-      -1.7634670984999161
+      -83.5975,
+      -1.6700000000000002
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -7110,8 +7121,8 @@
     "alpha3code": "EGY",
     "population": 102334404,
     "coordinates": [
-      30.791862752500094,
-      26.825424706000064
+      30.7715,
+      26.8355
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -7233,8 +7244,8 @@
     "alpha3code": "SLV",
     "population": 6486205,
     "coordinates": [
-      -88.9058347174999,
-      13.787057295000054
+      -88.91,
+      13.8045
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -7356,8 +7367,8 @@
     "alpha3code": "GNQ",
     "population": 1402985,
     "coordinates": [
-      9.89327355600011,
-      2.3796428239493608
+      8.4885,
+      1.1504999999999999
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -7479,8 +7490,8 @@
     "alpha3code": "ERI",
     "population": 3546421,
     "coordinates": [
-      39.77066674450006,
-      15.182425031500067
+      39.785,
+      15.192
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -7605,8 +7616,8 @@
     "hospitalBeds": 6221,
     "icuBeds": 194,
     "coordinates": [
-      24.943451368500064,
-      58.572233381000025
+      24.989,
+      58.668000000000006
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -7728,8 +7739,8 @@
     "alpha3code": "SWZ",
     "population": 1160164,
     "coordinates": [
-      31.451547485500043,
-      -26.52995574899993
+      31.463,
+      -26.518500000000003
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -7851,8 +7862,8 @@
     "alpha3code": "ETH",
     "population": 114963588,
     "coordinates": [
-      40.484484497000125,
-      9.170952962500039
+      40.489999999999995,
+      9.1455
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -8333,8 +8344,8 @@
     "alpha3code": "FJI",
     "population": 896445,
     "coordinates": [
-      178.62581910850002,
-      -17.19878971549994
+      0,
+      -16.7555
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -8458,8 +8469,8 @@
     "hospitalBeds": 18174,
     "icuBeds": 338,
     "coordinates": [
-      26.09634464500006,
-      64.9866635165001
+      25.3595,
+      64.798
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -8948,8 +8959,8 @@
     "alpha3code": "GAB",
     "population": 2225734,
     "coordinates": [
-      11.649647050500107,
-      -0.8136401413979657
+      11.55,
+      -0.812
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -9071,8 +9082,8 @@
     "alpha3code": "GEO",
     "population": 3989167,
     "coordinates": [
-      43.34038972821833,
-      42.31029968300004
+      43.3685,
+      42.322
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -9197,8 +9208,8 @@
     "hospitalBeds": 670272,
     "icuBeds": 24465,
     "coordinates": [
-      11.280221388306416,
-      50.93088379600036
+      11.2665,
+      50.927
     ],
     "parentId": "earth",
     "dataSource": "https://raw.githubusercontent.com/jgehrcke/covid-19-germany-gae/master/data.csv"
@@ -9320,8 +9331,8 @@
     "alpha3code": "GHA",
     "population": 31072940,
     "coordinates": [
-      -1.038557295499956,
-      7.936054182000099
+      -1.0295,
+      7.960000000000001
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -9446,8 +9457,8 @@
     "hospitalBeds": 43881,
     "icuBeds": 625,
     "coordinates": [
-      24.119802279500078,
-      38.322331546000065
+      24.503,
+      38.2755
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -9569,8 +9580,8 @@
     "alpha3code": "GRL",
     "population": 56770,
     "coordinates": [
-      -42.211435513499936,
-      71.81159088750007
+      -42.3805,
+      71.7045
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -9692,8 +9703,8 @@
     "alpha3code": "GRD",
     "population": 112523,
     "coordinates": [
-      -61.68468176999994,
-      12.158229885000054
+      -61.591499999999996,
+      12.258
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -9938,8 +9949,8 @@
     "alpha3code": "GUM",
     "population": 168775,
     "coordinates": [
-      144.7937,
-      13.4443
+      144.7905,
+      13.445
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -10061,8 +10072,8 @@
     "alpha3code": "GTM",
     "population": 17915568,
     "coordinates": [
-      -90.2335965784999,
-      15.773375903990305
+      -90.22800000000001,
+      15.781500000000001
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -10184,8 +10195,8 @@
     "alpha3code": "GIN",
     "population": 13132795,
     "coordinates": [
-      -11.356289228999898,
-      9.955672506000056
+      -11.5015,
+      9.938
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -10307,8 +10318,8 @@
     "alpha3code": "GNB",
     "population": 1968001,
     "coordinates": [
-      -15.195917892457189,
-      11.823454288500052
+      -15.176499999999999,
+      11.775500000000001
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -10430,8 +10441,8 @@
     "alpha3code": "GUY",
     "population": 786552,
     "coordinates": [
-      -58.9307134609999,
-      4.887909040000061
+      -58.939,
+      4.851
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -10553,8 +10564,8 @@
     "alpha3code": "HTI",
     "population": 11402528,
     "coordinates": [
-      -73.06413834999991,
-      18.99158356300007
+      -73.32849999999999,
+      19.0565
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -10676,8 +10687,8 @@
     "alpha3code": "HND",
     "population": 9904607,
     "coordinates": [
-      -86.24603266122396,
-      14.484747626000058
+      -85.883,
+      15.199
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -10801,8 +10812,8 @@
     "hospitalBeds": 40484,
     "icuBeds": 532,
     "coordinates": [
-      114.21021569100003,
-      22.41313304250005
+      114.1325,
+      22.3575
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -10927,8 +10938,8 @@
     "hospitalBeds": 67816,
     "icuBeds": 1333,
     "coordinates": [
-      19.485817912000087,
-      47.156127930000025
+      19.506,
+      47.161
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -11052,8 +11063,8 @@
     "hospitalBeds": 1044,
     "icuBeds": 31,
     "coordinates": [
-      -18.861826138499936,
-      64.96666087450004
+      -18.905,
+      65.223
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -11298,8 +11309,8 @@
     "alpha3code": "IDN",
     "population": 273523615,
     "coordinates": [
-      118.08721907200007,
-      -2.6357561174999375
+      -102.54400000000001,
+      23.6245
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -11421,8 +11432,8 @@
     "alpha3code": "IRN",
     "population": 83992949,
     "coordinates": [
-      53.6631116130001,
-      32.412651216000036
+      53.685,
+      32.421
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -11544,8 +11555,8 @@
     "alpha3code": "IRQ",
     "population": 40222493,
     "coordinates": [
-      43.65276391200004,
-      33.21901997950006
+      43.704499999999996,
+      33.22
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -11670,8 +11681,8 @@
     "hospitalBeds": 14616,
     "icuBeds": 321,
     "coordinates": [
-      -8.136179165499925,
-      53.46108633000006
+      -8.343,
+      53.4095
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -11795,8 +11806,8 @@
     "hospitalBedOccupancy": 0.933,
     "hospitalBeds": 26140,
     "coordinates": [
-      35.06821170350008,
-      31.448389692000035
+      35.081,
+      31.4135
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -11921,8 +11932,8 @@
     "hospitalBeds": 192269,
     "icuBeds": 7558,
     "coordinates": [
-      12.56007714450007,
-      41.826061709500074
+      12.5735,
+      41.293499999999995
     ],
     "parentId": "earth",
     "dataSource": "https://raw.githubusercontent.com/pcm-dpc/COVID-19/master/dati-regioni/dpc-covid19-ita-regioni.csv"
@@ -12044,8 +12055,8 @@
     "alpha3code": "JAM",
     "population": 2961167,
     "coordinates": [
-      -77.30223548049992,
-      18.11774323150007
+      -77.1705,
+      17.7735
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -12170,8 +12181,8 @@
     "hospitalBeds": 1650517,
     "icuBeds": 9233,
     "coordinates": [
-      137.65978516150005,
-      37.87307291750005
+      138.4625,
+      32.9745
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -12293,8 +12304,8 @@
     "alpha3code": "JOR",
     "population": 10203134,
     "coordinates": [
-      37.04788003839781,
-      31.280817871500048
+      37.131,
+      31.279
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -12416,8 +12427,8 @@
     "alpha3code": "KAZ",
     "population": 18776707,
     "coordinates": [
-      66.90155419950011,
-      47.96872690850006
+      66.9045,
+      48.0055
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -12539,8 +12550,8 @@
     "alpha3code": "KEN",
     "population": 53771296,
     "coordinates": [
-      37.889294067000066,
-      0.1521078450765998
+      37.9085,
+      -0.058000000000000274
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -12780,8 +12791,8 @@
     "alpha3code": "XKX",
     "population": 1810463,
     "coordinates": [
-      20.90180383250008,
-      42.521824239500006
+      20.902,
+      42.5625
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -12903,8 +12914,8 @@
     "alpha3code": "KWT",
     "population": 4270571,
     "coordinates": [
-      47.48260848850009,
-      29.315860290500055
+      47.665499999999994,
+      29.314
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -13026,8 +13037,8 @@
     "alpha3code": "KGZ",
     "population": 6524195,
     "coordinates": [
-      74.71831221500008,
-      41.250428976000094
+      74.7485,
+      41.225
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -13149,8 +13160,8 @@
     "alpha3code": "LAO",
     "population": 7275560,
     "coordinates": [
-      103.87844445800008,
-      18.18079060900007
+      103.86,
+      18.2095
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -13275,8 +13286,8 @@
     "hospitalBeds": 10506,
     "icuBeds": 183,
     "coordinates": [
-      24.59194014100008,
-      56.862861023500045
+      24.606,
+      56.8795
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -13398,8 +13409,8 @@
     "alpha3code": "LBN",
     "population": 6825445,
     "coordinates": [
-      35.85466820900007,
-      33.86861807120964
+      35.8645,
+      33.870000000000005
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -13639,8 +13650,8 @@
     "alpha3code": "LBR",
     "population": 5057681,
     "coordinates": [
-      -9.434906172499936,
-      6.419949359948774
+      -9.439499999999999,
+      6.452500000000001
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -13762,8 +13773,8 @@
     "alpha3code": "LBY",
     "population": 6871292,
     "coordinates": [
-      17.21871667100008,
-      26.33867453700003
+      17.2685,
+      26.334000000000003
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -13885,8 +13896,8 @@
     "alpha3code": "LIE",
     "population": 38128,
     "coordinates": [
-      9.533092081500058,
-      47.15983571400008
+      9.553999999999998,
+      47.16
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -14011,8 +14022,8 @@
     "hospitalBeds": 17858,
     "icuBeds": 422,
     "coordinates": [
-      23.911012610500066,
-      55.16278391600002
+      25.0165,
+      45.942
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -14137,8 +14148,8 @@
     "hospitalBeds": 2917,
     "icuBeds": 155,
     "coordinates": [
-      6.1075130615000575,
-      49.80347279900003
+      6.1335,
+      49.8155
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -14260,14 +14271,17 @@
     "alpha3code": "MAC",
     "population": 649335,
     "coordinates": [
-      113.55058841250002,
-      22.13420237850005
+      113.56049999999999,
+      22.1645
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
   },
   {
     "id": "macedonia",
+    "alternativeNames": [
+      "North Macedonia"
+    ],
     "locales": {
       "en": "Macedonia",
       "af": "Macedonië",
@@ -14383,8 +14397,8 @@
     "alpha3code": "MKD",
     "population": 2077000,
     "coordinates": [
-      21.726869751000095,
-      41.591247966000054
+      21.7445,
+      41.614000000000004
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -14506,8 +14520,8 @@
     "alpha3code": "MDG",
     "population": 27691018,
     "coordinates": [
-      46.863413933500084,
-      -18.792128187999936
+      46.84,
+      -18.7785
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -14752,8 +14766,8 @@
     "alpha3code": "MYS",
     "population": 32365999,
     "coordinates": [
-      109.69719485800007,
-      3.9309068840000734
+      109.10249999999999,
+      4.1185
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -14875,8 +14889,8 @@
     "alpha3code": "MDV",
     "population": 540544,
     "coordinates": [
-      73.52910604309824,
-      4.213175576792927
+      73.2025,
+      3.2060000000000004
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -14998,8 +15012,8 @@
     "alpha3code": "MLI",
     "population": 20250833,
     "coordinates": [
-      -4.014246378499891,
-      17.578527629000078
+      -3.9865,
+      17.5745
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -15121,8 +15135,8 @@
     "alpha3code": "MLT",
     "population": 441543,
     "coordinates": [
-      14.445323113000057,
-      35.88346995650005
+      14.378,
+      35.931
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -15485,8 +15499,8 @@
     "alpha3code": "MRT",
     "population": 4649658,
     "coordinates": [
-      8.053466634000088,
-      17.606562093000058
+      -10.950500000000002,
+      21.018
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -15608,8 +15622,8 @@
     "alpha3code": "MUS",
     "population": 1271768,
     "coordinates": [
-      57.57675214950007,
-      -20.255710544999943
+      60.043,
+      -15.434999999999999
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -15980,8 +15994,8 @@
     "alpha3code": "MDA",
     "population": 4033963,
     "coordinates": [
-      28.28525496400006,
-      46.967069702500055
+      28.39,
+      46.979
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -16103,8 +16117,8 @@
     "alpha3code": "MCO",
     "population": 39242,
     "coordinates": [
-      7.401602119563048,
-      43.743117918500026
+      7.429,
+      43.737
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -16226,8 +16240,8 @@
     "alpha3code": "MNG",
     "population": 3278290,
     "coordinates": [
-      103.85503503500007,
-      46.85141784700008
+      103.832,
+      46.8655
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -16349,8 +16363,8 @@
     "alpha3code": "MNE",
     "population": 628066,
     "coordinates": [
-      19.39135339350007,
-      42.69257924700006
+      19.395000000000003,
+      42.7035
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -16590,8 +16604,8 @@
     "alpha3code": "MAR",
     "population": 36910560,
     "coordinates": [
-      -9.030622863196513,
-      28.67223747529175
+      -9.015,
+      28.625500000000002
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -16713,8 +16727,8 @@
     "alpha3code": "MOZ",
     "population": 31255435,
     "coordinates": [
-      35.52850264150007,
-      -18.660455010999897
+      35.5255,
+      -18.671
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -16836,8 +16850,8 @@
     "alpha3code": "NAM",
     "population": 2540905,
     "coordinates": [
-      18.48870100550009,
-      -22.95521270749991
+      18.4995,
+      -22.9665
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -17077,8 +17091,8 @@
     "alpha3code": "NPL",
     "population": 29136808,
     "coordinates": [
-      84.1027264815001,
-      28.38379831950006
+      84.13,
+      28.397
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -17203,8 +17217,8 @@
     "hospitalBeds": 56888,
     "icuBeds": 1097,
     "coordinates": [
-      -68.31135006449992,
-      12.166225490500068
+      -31.418499999999995,
+      32.7635
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -17563,8 +17577,8 @@
     "population": 4822233,
     "hospitalBeds": 13068,
     "coordinates": [
-      172.51685631600003,
-      -40.878065687999936
+      0.8239999999999981,
+      -40.881
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -17686,8 +17700,8 @@
     "alpha3code": "NIC",
     "population": 6624554,
     "coordinates": [
-      -85.38847946222393,
-      12.874512430500076
+      -85.2125,
+      12.869
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -17809,8 +17823,8 @@
     "alpha3code": "NER",
     "population": 24206644,
     "coordinates": [
-      8.053466634000088,
-      17.606562093000058
+      8.6775,
+      9.0785
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -18408,7 +18422,12 @@
     "alpha2code": "MP",
     "alpha3code": "MNP",
     "population": 57559,
-    "parentId": "earth"
+    "parentId": "earth",
+    "coordinates": [
+      145.469,
+      17.326
+    ],
+    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
   },
   {
     "id": "norway",
@@ -18530,8 +18549,8 @@
     "hospitalBeds": 19516,
     "icuBeds": 434,
     "coordinates": [
-      18.013723178000077,
-      69.25525543850006
+      12.214000000000002,
+      13.181000000000001
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -18653,8 +18672,8 @@
     "alpha3code": "OMN",
     "population": 5106626,
     "coordinates": [
-      55.911594682500095,
-      21.444199937000064
+      55.9195,
+      21.5785
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -18776,8 +18795,8 @@
     "alpha3code": "PAK",
     "population": 220892340,
     "coordinates": [
-      68.94667484550007,
-      30.377750552000087
+      68.992,
+      30.393
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -18902,6 +18921,9 @@
   },
   {
     "id": "palestine",
+    "alternativeNames": [
+      "Palestinian Territories"
+    ],
     "locales": {
       "en": "Palestine",
       "af": "Palestina",
@@ -19016,7 +19038,12 @@
     "alpha2code": "PS",
     "alpha3code": "PSE",
     "population": 5051953,
-    "parentId": "earth"
+    "parentId": "earth",
+    "coordinates": [
+      34.894999999999996,
+      31.886
+    ],
+    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
   },
   {
     "id": "panama",
@@ -19135,8 +19162,8 @@
     "alpha3code": "PAN",
     "population": 4314767,
     "coordinates": [
-      -80.07274338849989,
-      8.420921827000058
+      -80.105,
+      8.4245
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -19258,8 +19285,8 @@
     "alpha3code": "PNG",
     "population": 8947024,
     "coordinates": [
-      148.39132633100002,
-      -6.775160414499936
+      150.166,
+      -6.202
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -19381,8 +19408,8 @@
     "alpha3code": "PRY",
     "population": 7132538,
     "coordinates": [
-      -58.44782303899994,
-      -23.43368479399996
+      -58.4525,
+      -23.447000000000003
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -19504,8 +19531,8 @@
     "alpha3code": "PER",
     "population": 32971854,
     "coordinates": [
-      -75.01090500599992,
-      -9.190602483184005
+      -74.99000000000001,
+      -9.197500000000002
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -19627,8 +19654,8 @@
     "alpha3code": "PHL",
     "population": 109581078,
     "coordinates": [
-      121.93718509200005,
-      12.108262437000064
+      120.4445,
+      12.850999999999999
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -19752,8 +19779,8 @@
     "hospitalBeds": 250545,
     "icuBeds": 2611,
     "coordinates": [
-      19.125478149000088,
-      51.93482900350006
+      19.1345,
+      51.9185
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -19878,8 +19905,8 @@
     "hospitalBeds": 34567,
     "icuBeds": 428,
     "coordinates": [
-      -15.94334102749994,
-      37.400416263500055
+      -18.732,
+      36.091
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -20001,8 +20028,8 @@
     "alpha3code": "PRI",
     "population": 2860853,
     "coordinates": [
-      -66.5,
-      18.2
+      -66.589,
+      18.1995
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -20124,8 +20151,8 @@
     "alpha3code": "QAT",
     "population": 2881053,
     "coordinates": [
-      51.18376712300005,
-      25.363913984500023
+      51.574,
+      25.3235
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -20247,14 +20274,17 @@
     "alpha3code": "COD",
     "population": 91931000,
     "coordinates": [
-      21.726683794000053,
-      -4.029468688999948
+      21.7395,
+      -4.0405
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
   },
   {
     "id": "republic-of-the-congo",
+    "alternativeNames": [
+      "Congo-Brazzaville"
+    ],
     "locales": {
       "en": "Republic of the Congo",
       "af": "Republiek van die Kongo",
@@ -20370,8 +20400,8 @@
     "alpha3code": "COG",
     "population": 5244359,
     "coordinates": [
-      14.870201735054954,
-      -0.6556773869999333
+      14.884999999999998,
+      -0.6660000000000001
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -20741,8 +20771,8 @@
     "alpha3code": "RWA",
     "population": 12952218,
     "coordinates": [
-      29.873323404500084,
-      -1.943601175999916
+      29.880499999999998,
+      -1.947
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -21100,8 +21130,8 @@
     "alpha3code": "KNA",
     "population": 52441,
     "coordinates": [
-      -62.755767381499936,
-      17.340725002000084
+      -62.704499999999996,
+      17.2565
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -21459,8 +21489,8 @@
     "alpha3code": "VCT",
     "population": 110211,
     "coordinates": [
-      -61.19764156799994,
-      13.257473049000055
+      -61.284,
+      12.957
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -21700,8 +21730,8 @@
     "alpha3code": "SMR",
     "population": 33931,
     "coordinates": [
-      12.437976970500117,
-      43.92963720000006
+      12.4595,
+      43.944
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -21941,8 +21971,8 @@
     "alpha3code": "SAU",
     "population": 34813871,
     "coordinates": [
-      45.132142167500064,
-      24.244550886000077
+      45.084500000000006,
+      24.267000000000003
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -22064,8 +22094,8 @@
     "alpha3code": "SEN",
     "population": 16743927,
     "coordinates": [
-      -14.37969132899994,
-      14.474492289500091
+      -14.4435,
+      14.502500000000001
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -22187,8 +22217,8 @@
     "alpha3code": "SRB",
     "population": 8737371,
     "coordinates": [
-      20.9182886145001,
-      44.20522467850007
+      20.91,
+      44.209999999999994
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -22310,8 +22340,8 @@
     "alpha3code": "SYC",
     "population": 98347,
     "coordinates": [
-      55.46512857035178,
-      -4.6842609996816105
+      51.2465,
+      -6.9704999999999995
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -22434,8 +22464,8 @@
     "population": 7976983,
     "parentId": "earth",
     "coordinates": [
-      -11.79166601899992,
-      8.457712812500077
+      -11.786999999999999,
+      8.461
     ],
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
   },
@@ -22556,8 +22586,8 @@
     "alpha3code": "SGP",
     "population": 5850342,
     "coordinates": [
-      103.80420983150006,
-      1.3585676125000532
+      104.009,
+      1.3135
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -22800,8 +22830,8 @@
     "hospitalBeds": 31775,
     "icuBeds": 502,
     "coordinates": [
-      19.692058553000123,
-      48.67589304650005
+      19.7045,
+      48.6725
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -22926,8 +22956,8 @@
     "hospitalBeds": 9355,
     "icuBeds": 133,
     "coordinates": [
-      14.940281412500084,
-      46.14379954050001
+      14.986,
+      46.149
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -23167,8 +23197,8 @@
     "alpha3code": "SOM",
     "population": 15893222,
     "coordinates": [
-      46.12904176900011,
-      5.146407826500052
+      46.201499999999996,
+      5.160500000000001
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -23290,8 +23320,8 @@
     "alpha3code": "ZAF",
     "population": 59308690,
     "coordinates": [
-      24.690074089500087,
-      -28.469792578999943
+      27.2265,
+      -34.553
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -23659,8 +23689,8 @@
     "hospitalBeds": 138862,
     "icuBeds": 4535,
     "coordinates": [
-      -6.849639452499929,
-      35.73847077050007
+      -6.925500000000001,
+      35.712
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/datadista/datasets/tree/master/COVID%2019"
@@ -23782,8 +23812,8 @@
     "alpha3code": "LKA",
     "population": 21413249,
     "coordinates": [
-      80.82227623750006,
-      7.8766543645000695
+      80.701,
+      7.8775
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -23905,8 +23935,8 @@
     "alpha3code": "LCA",
     "population": 183627,
     "coordinates": [
-      -60.981353318999936,
-      13.86609528200006
+      -60.9765,
+      13.9095
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -24028,8 +24058,8 @@
     "alpha3code": "SDN",
     "population": 43849260,
     "coordinates": [
-      30.205510901500105,
-      15.342520469500087
+      30.33,
+      15.413
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -24151,8 +24181,8 @@
     "alpha3code": "SUR",
     "population": 586632,
     "coordinates": [
-      -56.02702432849992,
-      3.922540270500072
+      -56.022999999999996,
+      3.9210000000000003
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -24398,8 +24428,8 @@
     "hospitalBeds": 22420,
     "icuBeds": 586,
     "coordinates": [
-      17.635630730000088,
-      62.191185204500094
+      17.562,
+      62.1995
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -24524,8 +24554,8 @@
     "hospitalBeds": 39205,
     "icuBeds": 952,
     "coordinates": [
-      8.258983805500094,
-      46.840811259500086
+      8.228000000000002,
+      46.811499999999995
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -24650,8 +24680,8 @@
     ],
     "population": 17070135,
     "coordinates": [
-      39.05741437600011,
-      34.811545512000066
+      39.0535,
+      34.798500000000004
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -24773,8 +24803,8 @@
     "alpha3code": "TWN",
     "population": 23816775,
     "coordinates": [
-      120.98259524850005,
-      23.598456122000044
+      118.26050000000001,
+      18.3855
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -25014,8 +25044,8 @@
     "alpha3code": "TZA",
     "population": 59734218,
     "coordinates": [
-      34.87894555300008,
-      -6.362582091999926
+      35.0205,
+      -6.3735
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -25137,8 +25167,8 @@
     "alpha3code": "THA",
     "population": 69799978,
     "coordinates": [
-      101.54455590850003,
-      13.04083302850006
+      101.4905,
+      13.039
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -25264,8 +25294,8 @@
     ],
     "population": 393244,
     "coordinates": [
-      -75.74170392899993,
-      23.91563150400006
+      -76.5975,
+      24.0925
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -25391,8 +25421,8 @@
     ],
     "population": 2416668,
     "coordinates": [
-      -15.340368716999905,
-      13.442496646000073
+      -15.311,
+      13.443999999999999
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -25517,8 +25547,8 @@
     ],
     "population": 1318445,
     "coordinates": [
-      125.66663658950006,
-      -8.898868303499945
+      125.68700000000001,
+      -8.818000000000001
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -25640,8 +25670,8 @@
     "alpha3code": "TGO",
     "population": 8278724,
     "coordinates": [
-      0.8081207685000891,
-      8.61773549700009
+      0.828,
+      8.626000000000001
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -25999,8 +26029,8 @@
     "alpha3code": "TTO",
     "population": 1399488,
     "coordinates": [
-      -61.33045406799994,
-      10.451544501000058
+      -61.213,
+      10.703
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -26122,8 +26152,8 @@
     "alpha3code": "TUN",
     "population": 11818619,
     "coordinates": [
-      9.521981649000097,
-      33.78217031200008
+      9.561,
+      33.8925
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -26248,8 +26278,8 @@
     "hospitalBeds": 236993,
     "icuBeds": 8434,
     "coordinates": [
-      35.425474377000086,
-      38.95576283850008
+      35.2415,
+      38.9565
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -26725,8 +26755,8 @@
     "alpha3code": "UGA",
     "population": 45741007,
     "coordinates": [
-      32.26733748400008,
-      1.3750334680000833
+      32.286500000000004,
+      1.376
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -26848,8 +26878,8 @@
     "alpha3code": "UKR",
     "population": 43733762,
     "coordinates": [
-      31.137251424000127,
-      48.79241852100008
+      31.183,
+      48.7805
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -26971,8 +27001,8 @@
     "alpha3code": "ARE",
     "population": 9890402,
     "coordinates": [
-      53.97632897200003,
-      24.340997059161296
+      53.939,
+      24.351
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -27097,8 +27127,8 @@
     "hospitalBeds": 172430,
     "icuBeds": 4480,
     "coordinates": [
-      -3.4360000000000004,
-      55.3781
+      -64.7505,
+      32.3078
     ],
     "parentId": "earth",
     "dataSource": "https://www.gov.scot/coronavirus-covid-19/"
@@ -27354,8 +27384,8 @@
     "alpha3code": "URY",
     "population": 3473730,
     "coordinates": [
-      -55.78074845749991,
-      -32.535970353999936
+      -55.838,
+      -32.558
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -27477,8 +27507,8 @@
     "alpha3code": "UZB",
     "population": 33469203,
     "coordinates": [
-      64.48963423650005,
-      41.373793538500024
+      64.5695,
+      41.3865
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -27718,8 +27748,8 @@
     "alpha3code": "VAT",
     "population": 801,
     "coordinates": [
-      12.453533325000109,
-      41.90333333950011
+      12.446,
+      41.902
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -27841,8 +27871,8 @@
     "alpha3code": "VEN",
     "population": 28435940,
     "coordinates": [
-      -66.5967054854999,
-      6.444529930500067
+      -66.574,
+      8.161
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -27964,8 +27994,8 @@
     "alpha3code": "VNM",
     "population": 97338579,
     "coordinates": [
-      105.79183617800007,
-      15.941768090000089
+      108.2365,
+      15.6425
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -28323,8 +28353,8 @@
     "alpha3code": "ZMB",
     "population": 18383955,
     "coordinates": [
-      27.827040039000053,
-      -13.129972635499918
+      27.8365,
+      -13.185500000000001
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -28446,8 +28476,8 @@
     "alpha3code": "ZWE",
     "population": 14862924,
     "coordinates": [
-      29.12944116200009,
-      -19.0060739139999
+      29.1505,
+      -19.017
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -28455,7 +28485,115 @@
   {
     "id": "western-sahara",
     "locales": {
-      "en": "Western Sahara"
+      "en": "Western Sahara",
+      "af": "Wes-Sahara",
+      "sq": "Sahara Perëndimore",
+      "am": "ምዕራባዊ ሰሃራ",
+      "ar": "الصحراء الغربية",
+      "hy": "Արևմտյան Սահարա",
+      "az": "Qərb Sahara",
+      "eu": "Mendebaldeko Sahara",
+      "be": "Заходняя Сахара",
+      "bn": "পশ্চিম সাহারা",
+      "bs": "Zapadna Sahara",
+      "bg": "Западна Сахара",
+      "ca": "Sàhara Occidental",
+      "ceb": "Western Sahara",
+      "ny": "Western Sahara",
+      "zh": "撒哈拉沙漠西部",
+      "zh-TW": "撒哈拉沙漠西部",
+      "co": "Sahara Occidentale",
+      "hr": "Zapadna Sahara",
+      "cs": "Západní Sahara",
+      "da": "Vestsahara",
+      "nl": "Westelijke Sahara",
+      "eo": "Okcidenta Saharo",
+      "et": "Lääne-Sahara",
+      "tl": "Western Sahara",
+      "fi": "Länsi-Sahara",
+      "fr": "Sahara occidental",
+      "fy": "West-Sahara",
+      "gl": "Sahara Occidental",
+      "ka": "Დასავლეთ საჰარას",
+      "de": "Westsahara",
+      "el": "Δυτική Σαχάρα",
+      "gu": "પશ્ચિમી સહારા",
+      "ht": "Western Sahara",
+      "ha": "Yammacin Sahara",
+      "haw": "Sahara Komohana",
+      "iw": "סהרה המערבית",
+      "hi": "पश्चिमी सहारा",
+      "hmn": "Western Sahara",
+      "hu": "Nyugat-Szahara",
+      "is": "Vestur-Sahara",
+      "ig": "Western Sahara",
+      "id": "Sahara Barat",
+      "ga": "An Sahára Thiar",
+      "it": "Sahara occidentale",
+      "ja": "西サハラ",
+      "jw": "Sahara Kulon",
+      "kn": "ಪಶ್ಚಿಮ ಸಹಾರಾ",
+      "kk": "Батыс Сахара",
+      "km": "សាហារ៉ាខាងលិច",
+      "rw": "Sahara y'Uburengerazuba",
+      "ko": "서부 사하라",
+      "ku": "Sahara rojava",
+      "ky": "Батыш Сахара",
+      "lo": "ຊາຮາຣາຕາເວັນຕົກ",
+      "la": "Sahara Occidentalis",
+      "lv": "Rietumsahāra",
+      "lt": "Vakarų Sachara",
+      "lb": "Westsahara",
+      "mk": "Западна Сахара",
+      "mg": "Sahara tandrefana",
+      "ms": "Sahara Barat",
+      "ml": "പടിഞ്ഞാറൻ സഹാറ",
+      "mt": "Saħara tal-Punent",
+      "mi": "Sahara Hauauru",
+      "mr": "पाश्चात्य सहारा",
+      "mn": "Баруун Сахара",
+      "my": "အနောက်ပိုင်းဆာဟာရ",
+      "ne": "पश्चिमी सहारा",
+      "no": "Vestre Sahara",
+      "or": "ପଶ୍ଚିମ ସାହାରା |",
+      "ps": "غربي صحارا",
+      "fa": "صحرای غربی",
+      "pl": "Sahara Zachodnia",
+      "pt": "Saara Ocidental",
+      "pa": "ਪੱਛਮੀ ਸਹਾਰਾ",
+      "ro": "Sahara de Vest",
+      "ru": "Западная Сахара",
+      "sm": "Western Sahara",
+      "gd": "Sahara an Iar",
+      "sr": "Западна Сахара",
+      "st": "Sahara Bophirimela",
+      "sn": "Western Sahara",
+      "sd": "مغربي صحارا",
+      "si": "බටහිර සහරා",
+      "sk": "Západná Sahara",
+      "sl": "Zahodna Sahara",
+      "so": "Galbeedka Sahara",
+      "es": "Sahara Occidental",
+      "su": "Sahara Kulon",
+      "sw": "Sahara Magharibi",
+      "sv": "Västra Sahara",
+      "tg": "Саҳрои Ғарбӣ",
+      "ta": "மேற்கு சாஹாரா",
+      "tt": "Көнбатыш Сахара",
+      "te": "పశ్చిమ సహారా",
+      "th": "ซาฮาร่าตะวันตก",
+      "tr": "Batı Sahra",
+      "tk": "Günbatar Sahara",
+      "uk": "Західна Сахара",
+      "ur": "مغربی صحارا",
+      "ug": "غەربىي سەھرايى كەبىر",
+      "uz": "G'arbiy Sahro",
+      "vi": "Phía tây Sahara",
+      "cy": "Sahara Gorllewinol",
+      "xh": "KwiNtshona yeSahara",
+      "yi": "מערב סאַהאַראַ",
+      "yo": "Iwọ-oorun Iwọ-oorun",
+      "zu": "I-Western Sahara"
     },
     "alpha2code": "EH",
     "alpha3code": "ESH",
