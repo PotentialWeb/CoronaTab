@@ -125,7 +125,6 @@ export const EarthPlace = new Place({
     'ku': 'Erd',
     'ky': 'Жер',
     'lo': 'ແຜ່ນດິນໂລກ',
-    'la': 'Terra',
     'lv': 'Zeme',
     'lt': 'Žemė',
     'lb': 'Äerd',

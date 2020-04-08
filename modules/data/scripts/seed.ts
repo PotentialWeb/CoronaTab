@@ -20,7 +20,7 @@ injectEnvs()
 
   // await Place.save(SeededPlaces)
 
-  // await Place.save(SeededCountries)
+  await Place.save(SeededCountries)
   // await PlacePolygon.save(SeededCountryPolygons)
 
   await Place.save(SeededRegions)
@@ -30,7 +30,7 @@ injectEnvs()
   await PlacePolygon.save(SeededCityPolygons)
 
   await PlaceData.save(SeededPlaceDatas
-    .filter(d => d.date === '2020-04-06')
+    .filter(d => d.date === '2020-04-07')
   , { chunk: 10_000 })
 
   console.log(`Seeded successfuly`)

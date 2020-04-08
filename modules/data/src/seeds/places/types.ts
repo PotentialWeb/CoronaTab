@@ -71,7 +71,7 @@ export const PlaceTypes: PlaceType[] = PlaceTypeIds.map(id => {
           ku: `Estare`,
           ky: `Планета`,
           lo: `ດາວ`,
-          la: `Planeta`,
+          
           lv: `Planēta`,
           lt: `Planeta`,
           lb: `Planéit`,
@@ -187,7 +187,7 @@ export const PlaceTypes: PlaceType[] = PlaceTypeIds.map(id => {
           ku: `Welat`,
           ky: `Мамлекет`,
           lo: `ປະເທດ`,
-          la: `Patriam`,
+          
           lv: `Valsts`,
           lt: `Šalis`,
           lb: `Land`,
@@ -303,7 +303,7 @@ export const PlaceTypes: PlaceType[] = PlaceTypeIds.map(id => {
           ku: `Herêm`,
           ky: `Регион`,
           lo: `ພາກພື້ນ`,
-          la: `Regio`,
+          
           lv: `Novads`,
           lt: `Regionas`,
           lb: `Regioun`,
@@ -419,7 +419,7 @@ export const PlaceTypes: PlaceType[] = PlaceTypeIds.map(id => {
           ku: `Bajar`,
           ky: `Сити`,
           lo: `ເມືອງ`,
-          la: `Urbs`,
+          
           lv: `Pilsēta`,
           lt: `Miestas`,
           lb: `Stad`,
