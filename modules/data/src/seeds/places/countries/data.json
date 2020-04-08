@@ -11186,8 +11186,8 @@
     "alpha3code": "IND",
     "population": 1380004385,
     "coordinates": [
-      87.85869957912226,
-      24.402508335403155
+      87.8445,
+      24.3825
     ],
     "parentId": "earth",
     "dataSource": "https://www.mohfw.gov.in/"
@@ -11313,7 +11313,7 @@
       -2.4669999999999996
     ],
     "parentId": "earth",
-    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
+    "dataSource": "https://www.kemkes.go.id/"
   },
   {
     "id": "iran",
@@ -14022,8 +14022,8 @@
     "hospitalBeds": 17858,
     "icuBeds": 422,
     "coordinates": [
-      23.893,
-      55.172
+      25.0165,
+      45.942
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -20032,7 +20032,7 @@
       18.1995
     ],
     "parentId": "earth",
-    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
+    "dataSource": "http://salud.gov.pr/Pages/coronavirus.aspx"
   },
   {
     "id": "qatar",
@@ -23445,11 +23445,11 @@
     "hospitalBeds": 629073,
     "icuBeds": 5435,
     "coordinates": [
-      128.242,
-      35.8695
+      126.55872643350006,
+      33.38209086900005
     ],
     "parentId": "earth",
-    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
+    "dataSource": "http://ncov.mohw.go.kr/en/bdBoardList.do?brdId=16&brdGubun=162&dataGubun=&ncvContSeq=&contSeq=&board_id="
   },
   {
     "id": "south-sudan",
