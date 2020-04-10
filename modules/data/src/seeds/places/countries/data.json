@@ -20032,7 +20032,7 @@
       18.1995
     ],
     "parentId": "earth",
-    "dataSource": "http://salud.gov.pr/Pages/coronavirus.aspx"
+    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
   },
   {
     "id": "qatar",
@@ -23445,11 +23445,11 @@
     "hospitalBeds": 629073,
     "icuBeds": 5435,
     "coordinates": [
-      126.55872643350006,
-      33.38209086900005
+      128.242,
+      35.8695
     ],
     "parentId": "earth",
-    "dataSource": "http://ncov.mohw.go.kr/en/bdBoardList.do?brdId=16&brdGubun=162&dataGubun=&ncvContSeq=&contSeq=&board_id="
+    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
   },
   {
     "id": "south-sudan",
@@ -26878,11 +26878,11 @@
     "alpha3code": "UKR",
     "population": 43733762,
     "coordinates": [
-      31.183,
-      48.7805
+      31.999000000000002,
+      51.361
     ],
     "parentId": "earth",
-    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
+    "dataSource": "https://api-covid19.rnbo.gov.ua/data?to=2020-04-10"
   },
   {
     "id": "united-arab-emirates",
