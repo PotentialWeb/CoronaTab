@@ -54,7 +54,10 @@ import { Translate } from '@coronatab/node-utils'
     }
     let jhuEntry = jhuData.find(r => r.countryId === country.id || r.region === country.locales.en)
 
-    if (!jhuEntry && !entry.state && !entry.county) debugger
+    if (!jhuEntry && !entry.state && !entry.county) {
+      console.log(entry)
+      debugger
+    }
 
     if (!country) {
       console.error(`No country for entry: ${JSON.stringify(entry)}`)

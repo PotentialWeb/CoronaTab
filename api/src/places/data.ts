@@ -48,6 +48,33 @@ const SmoothFilter = (data: PlaceData[]) => {
   return data
 }
 
+const FillMissingDays = (data: PlaceData[]) => {
+  for (let i = 0; i < data.length;) {
+    const current = data[i]
+    const next = data[i + 1]
+    if (!next) break
+    const diff = moment(next.date).diff(moment(current.date), 'days')
+    if (diff > 1) {
+      const casesIncreasePerDay = Math.round((next.cases - current.cases) / diff)
+      const deathsIncreasePerDay = Math.round((next.deaths - current.deaths) / diff)
+      const recoveredIncreasePerDay = Math.round((next.recovered - current.recovered) / diff)
+      // console.log()
+      for (let d = 1; d < diff; d++) {
+        const nextDayData = new PlaceData({
+          placeId: current.placeId,
+          date: moment(current.date).add(d, 'day').format(DATE_FORMAT),
+          cases: current.cases + d * casesIncreasePerDay,
+          deaths: current.deaths + d * deathsIncreasePerDay,
+          recovered: current.recovered + d * recoveredIncreasePerDay
+        })
+        data.splice(i + d, 0, nextDayData)
+      }
+    }
+    i += diff
+  }
+  return data
+}
+
 const ProjectPlaceData = (placeDatas: PlaceData[]) => {
   if (placeDatas.length <= Constants.DATA_PROJECTION_BASE_DAYS) return []
   const lastDatas = placeDatas.slice(placeDatas.length - Constants.DATA_PROJECTION_BASE_DAYS - 1, placeDatas.length)
@@ -79,8 +106,13 @@ const ProjectPlaceData = (placeDatas: PlaceData[]) => {
   const { placeId } = lastData
   for (let i = 1; i <= Constants.DATA_PROJECTION_DEFAULT_DAYS; i++) {
     cases = Math.round(cases * casesChangeRate)
+
     deaths = Math.round(deaths * deathsChangeRate)
+    if (deaths > cases - recovered) deaths = cases - recovered
+
     recovered = Math.round(recovered * recoveredChangeRate)
+    if (recovered > cases - deaths) recovered = cases - deaths
+
     const date = moment(lastDate).add(i, 'days').format(DATE_FORMAT)
     projected.push(new PlaceData({
       date,
@@ -101,7 +133,11 @@ data.get('/', async (req: PlaceRequest, res) => {
   .andWhere(`(cases > 0 OR deaths > 0 OR recovered > 0)`)
   .orderBy('date', 'ASC')
 
-  const placeData = SmoothFilter(await query.getMany())
+  const placeData = SmoothFilter(
+    FillMissingDays(
+      await query.getMany()
+    )
+  )
   res.json({
     data: placeData.map(pd => SerializePlaceData(pd, { compact })),
     meta: {

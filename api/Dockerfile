@@ -13,7 +13,6 @@ RUN mkdir -p $APP_DIR
 WORKDIR ${APP_DIR}
 
 COPY modules modules
-COPY api api
 
 WORKDIR ${APP_DIR}/modules/shared
 RUN npm i && npm run build
@@ -21,9 +20,16 @@ RUN npm i && npm run build
 WORKDIR ${APP_DIR}/modules/data
 RUN npm i && npm run build
 
+WORKDIR ${APP_DIR}
+
+COPY api/package.json api/package.json
+WORKDIR ${APP_DIR}/api
+RUN npm i
+
+WORKDIR ${APP_DIR}
+COPY api api
 WORKDIR ${APP_DIR}/api
 
-RUN npm i
 RUN npm run build
 
 CMD ["npm", "start"]

@@ -109,8 +109,7 @@
       "xh": "Afghanistani",
       "yi": "אפגאניסטאן",
       "yo": "Afiganisitani",
-      "zu": "I-Afghanistan",
-      "la": "Afghanistan"
+      "zu": "I-Afghanistan"
     },
     "alpha2code": "AF",
     "alpha3code": "AFG",
@@ -232,8 +231,7 @@
       "xh": "Alibhaniya",
       "yi": "אַלבאַניאַ",
       "yo": "Albania",
-      "zu": "I-Albania",
-      "la": "Albania"
+      "zu": "I-Albania"
     },
     "alpha2code": "AL",
     "alpha3code": "ALB",
@@ -355,8 +353,7 @@
       "xh": "Aljeriya",
       "yi": "אלזשיר",
       "yo": "Algeria",
-      "zu": "Algeria",
-      "la": "Europe"
+      "zu": "Algeria"
     },
     "alpha2code": "DZ",
     "alpha3code": "DZA",
@@ -478,8 +475,7 @@
       "xh": "IAmerican Samoa",
       "yi": "אמעריקאנער סאַמאָאַ",
       "yo": "Ilu Amẹrika Samoa",
-      "zu": "I-American Samoa",
-      "la": "Samoa Americana"
+      "zu": "I-American Samoa"
     },
     "alpha2code": "AS",
     "alpha3code": "ASM",
@@ -601,8 +597,7 @@
       "xh": "Andora",
       "yi": "אַנדאָראַ",
       "yo": "Andorra",
-      "zu": "Andorra",
-      "la": "Andorra"
+      "zu": "Andorra"
     },
     "alpha2code": "AD",
     "alpha3code": "AND",
@@ -724,8 +719,7 @@
       "xh": "Angola",
       "yi": "אַנגאָלאַ",
       "yo": "Angola",
-      "zu": "I-Angola",
-      "la": "Angola"
+      "zu": "I-Angola"
     },
     "alpha2code": "AO",
     "alpha3code": "AGO",
@@ -847,8 +841,7 @@
       "xh": "Angwila",
       "yi": "אַנגווילאַ",
       "yo": "Anguilla",
-      "zu": "Anguilla",
-      "la": "Anguilla"
+      "zu": "Anguilla"
     },
     "alpha2code": "AI",
     "alpha3code": "AIA",
@@ -965,8 +958,7 @@
       "xh": "Antiguwa neBarbuda",
       "yi": "אַנטיגואַ און באַרבודאַ",
       "yo": "Antigua ati Barbuda",
-      "zu": "I-Antigua neBarbuda",
-      "la": "Antiqua et Barbuda"
+      "zu": "I-Antigua neBarbuda"
     },
     "alpha2code": "AG",
     "alpha3code": "ATG",
@@ -1088,8 +1080,7 @@
       "xh": "Ajentina",
       "yi": "ארגענטינע",
       "yo": "Ilu Amẹrika",
-      "zu": "I-Argentina",
-      "la": "Argentina"
+      "zu": "I-Argentina"
     },
     "alpha2code": "AR",
     "alpha3code": "ARG",
@@ -1211,8 +1202,7 @@
       "xh": "Armeniya",
       "yi": "ארמעניע",
       "yo": "Armenia",
-      "zu": "I-Armenia",
-      "la": "Armeniam"
+      "zu": "I-Armenia"
     },
     "alpha2code": "AM",
     "alpha3code": "ARM",
@@ -1334,8 +1324,7 @@
       "xh": "Arubha",
       "yi": "אַרובאַ",
       "yo": "Aruba",
-      "zu": "Aruba",
-      "la": "Fusce"
+      "zu": "Aruba"
     },
     "alpha2code": "AW",
     "alpha3code": "ABW",
@@ -1456,8 +1445,7 @@
       "xh": "Ostreliya",
       "yi": "אויסטראַליע",
       "yo": "Australia",
-      "zu": "E-Australia",
-      "la": "Australia"
+      "zu": "E-Australia"
     },
     "alpha2code": "AU",
     "alpha3code": "AUS",
@@ -1465,11 +1453,11 @@
     "hospitalBeds": 97920,
     "icuBeds": 2320,
     "coordinates": [
-      120.9625,
-      -24.4405
+      120.28800000000001,
+      -32.128
     ],
     "parentId": "earth",
-    "dataSource": "https://ww2.health.wa.gov.au/Articles/A_E/Coronavirus/COVID19-statistics"
+    "dataSource": "https://www.health.gov.au/news/health-alerts/novel-coronavirus-2019-ncov-health-alert/coronavirus-covid-19-current-situation-and-case-numbers"
   },
   {
     "id": "austria",
@@ -1581,8 +1569,7 @@
       "xh": "Ostriya",
       "yi": "עסטרייך",
       "yo": "Austria",
-      "zu": "E-Austria",
-      "la": "Austria"
+      "zu": "E-Austria"
     },
     "alpha2code": "AT",
     "alpha3code": "AUT",
@@ -1595,7 +1582,7 @@
       47.696
     ],
     "parentId": "earth",
-    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
+    "dataSource": "https://info.gesundheitsministerium.at/data/Bundesland.js"
   },
   {
     "id": "azerbaijan",
@@ -1707,8 +1694,7 @@
       "xh": "Azerbayijani",
       "yi": "אַזערביידזשאַן",
       "yo": "Azerbaijan",
-      "zu": "I-Azerbaijan",
-      "la": "Adrabigania"
+      "zu": "I-Azerbaijan"
     },
     "alpha2code": "AZ",
     "alpha3code": "AZE",
@@ -1830,8 +1816,7 @@
       "xh": "Bhareyini",
       "yi": "Bahrain",
       "yo": "Bahrain",
-      "zu": "I-Bahrain",
-      "la": "Bahrain"
+      "zu": "I-Bahrain"
     },
     "alpha2code": "BH",
     "alpha3code": "BHR",
@@ -1953,8 +1938,7 @@
       "xh": "Bhangladeshi",
       "yi": "באַנגלאַדעש",
       "yo": "Bangladesh",
-      "zu": "I-Bangladesh",
-      "la": "Bangladesh"
+      "zu": "I-Bangladesh"
     },
     "alpha2code": "BD",
     "alpha3code": "BGD",
@@ -2076,8 +2060,7 @@
       "xh": "Bharbhados",
       "yi": "Barbados",
       "yo": "Barbados",
-      "zu": "IBarbados",
-      "la": "Tonsor"
+      "zu": "IBarbados"
     },
     "alpha2code": "BB",
     "alpha3code": "BRB",
@@ -2199,8 +2182,7 @@
       "xh": "Bhelarusi",
       "yi": "בעלארוסיע",
       "yo": "Belarus",
-      "zu": "Belarus",
-      "la": "Belarus"
+      "zu": "Belarus"
     },
     "alpha2code": "BY",
     "alpha3code": "BLR",
@@ -2322,8 +2304,7 @@
       "xh": "Bheljiyam",
       "yi": "בעלגיע",
       "yo": "Bẹljiọmu",
-      "zu": "I-Belgium",
-      "la": "Belgium"
+      "zu": "I-Belgium"
     },
     "alpha2code": "BE",
     "alpha3code": "BEL",
@@ -2336,7 +2317,7 @@
       50.501000000000005
     ],
     "parentId": "earth",
-    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
+    "dataSource": "https://epistat.wiv-isp.be/"
   },
   {
     "id": "belize",
@@ -2448,8 +2429,7 @@
       "xh": "Bheliz",
       "yi": "בעליזע",
       "yo": "Beli",
-      "zu": "Belize",
-      "la": "Belizae"
+      "zu": "Belize"
     },
     "alpha2code": "BZ",
     "alpha3code": "BLZ",
@@ -2571,8 +2551,7 @@
       "xh": "Bhenin",
       "yi": "בענין",
       "yo": "Benin",
-      "zu": "EBenin",
-      "la": "Beninum"
+      "zu": "EBenin"
     },
     "alpha2code": "BJ",
     "alpha3code": "BEN",
@@ -2694,8 +2673,7 @@
       "xh": "Bhermuda",
       "yi": "בערמודאַ",
       "yo": "Bermuda",
-      "zu": "EBermuda",
-      "la": "Bermuda"
+      "zu": "EBermuda"
     },
     "alpha2code": "BM",
     "alpha3code": "BMU",
@@ -2812,8 +2790,7 @@
       "xh": "Bhutan",
       "yi": "Bhutan",
       "yo": "Bhutan",
-      "zu": "IBhutan",
-      "la": "Portal"
+      "zu": "IBhutan"
     },
     "alpha2code": "BT",
     "alpha3code": "BTN",
@@ -2935,8 +2912,7 @@
       "xh": "Bholiviya",
       "yi": "באָליוויאַ",
       "yo": "Bolivia",
-      "zu": "Bolivia",
-      "la": "Bolivia"
+      "zu": "Bolivia"
     },
     "alpha2code": "BO",
     "alpha3code": "BOL",
@@ -3058,8 +3034,7 @@
       "xh": "UBonaire, uSint Eustatius kunye noSaba",
       "yi": "באָנאַירע, סינט עוסטאַטיוס און סאַבאַ",
       "yo": "Bonaire, Sint Eustatius ati Saba",
-      "zu": "UBonaire, uSint Eustatius noSaba",
-      "la": "Bonaire, et Saba Sint Eustatius"
+      "zu": "UBonaire, uSint Eustatius noSaba"
     },
     "alpha2code": "BQ",
     "alpha3code": "BES",
@@ -3176,8 +3151,7 @@
       "xh": "Bhozniya neHerzegovina",
       "yi": "באָסניאַ און הערזעגאָווינאַ",
       "yo": "Bosnia ati Herzegovina",
-      "zu": "IBosnia neHerzegovina",
-      "la": "Bosnia et Herzegovina"
+      "zu": "IBosnia neHerzegovina"
     },
     "alpha2code": "BA",
     "alpha3code": "BIH",
@@ -3299,8 +3273,7 @@
       "xh": "Botswana",
       "yi": "Botswana",
       "yo": "Botswana",
-      "zu": "IBotswana",
-      "la": "Botsuana"
+      "zu": "IBotswana"
     },
     "alpha2code": "BW",
     "alpha3code": "BWA",
@@ -3422,8 +3395,7 @@
       "xh": "Brazil",
       "yi": "בראזיל",
       "yo": "Ilu Brazil",
-      "zu": "EBrazil",
-      "la": "Brazil"
+      "zu": "EBrazil"
     },
     "alpha2code": "BR",
     "alpha3code": "BRA",
@@ -3548,8 +3520,7 @@
       "xh": "Brunei Darussalam",
       "yi": "ברוניי דאַרוססאַלאַם",
       "yo": "Brunei Darussalam",
-      "zu": "Brunei Darussalam",
-      "la": "Bruneium Darussalam"
+      "zu": "Brunei Darussalam"
     },
     "alpha2code": "BN",
     "alpha3code": "BRN",
@@ -3671,8 +3642,7 @@
       "xh": "Bhulgariya",
       "yi": "בולגאַריאַ",
       "yo": "Bulgaria",
-      "zu": "Bulgaria",
-      "la": "Bulgaria vsque"
+      "zu": "Bulgaria"
     },
     "alpha2code": "BG",
     "alpha3code": "BGR",
@@ -3794,8 +3764,7 @@
       "xh": "Bhekina Faso",
       "yi": "בורקינאַ פאַסאָ",
       "yo": "Bùrkínà Fasò",
-      "zu": "IBurkina Faso",
-      "la": "Burkina"
+      "zu": "IBurkina Faso"
     },
     "alpha2code": "BF",
     "alpha3code": "BFA",
@@ -3917,8 +3886,7 @@
       "xh": "Miyanimar",
       "yi": "מיאַנמאַר",
       "yo": "Màríà",
-      "zu": "IMyanmar",
-      "la": "Suspendisse"
+      "zu": "IMyanmar"
     },
     "alpha2code": "MM",
     "alpha3code": "MMR",
@@ -4040,8 +4008,7 @@
       "xh": "Burundi",
       "yi": "בורונדי",
       "yo": "Burundi",
-      "zu": "IBurundi",
-      "la": "Burundi"
+      "zu": "IBurundi"
     },
     "alpha2code": "BI",
     "alpha3code": "BDI",
@@ -4163,8 +4130,7 @@
       "xh": "Khambodiya",
       "yi": "קאַמבאָדיאַ",
       "yo": "Kambodia",
-      "zu": "ECambodia",
-      "la": "Cambodia"
+      "zu": "ECambodia"
     },
     "alpha2code": "KH",
     "alpha3code": "KHM",
@@ -4286,8 +4252,7 @@
       "xh": "Khameruni",
       "yi": "קאַמערון",
       "yo": "Cameroon",
-      "zu": "ICameroon",
-      "la": "Cameronia"
+      "zu": "ICameroon"
     },
     "alpha2code": "CM",
     "alpha3code": "CMR",
@@ -4409,8 +4374,7 @@
       "xh": "Khanada",
       "yi": "קאנאדע",
       "yo": "Kánádà",
-      "zu": "ECanada",
-      "la": "Canada"
+      "zu": "ECanada"
     },
     "alpha2code": "CA",
     "alpha3code": "CAN",
@@ -4535,8 +4499,7 @@
       "xh": "Cabo Verde",
       "yi": "קאַבאָ ווערדע",
       "yo": "Cabo Verde",
-      "zu": "Cabo Verde",
-      "la": "Cabo Verde"
+      "zu": "Cabo Verde"
     },
     "alpha2code": "CV",
     "alpha3code": "CPV",
@@ -4661,8 +4624,7 @@
       "xh": "Isiqithi saseKheyman",
       "yi": "קיימאַן אינזלען",
       "yo": "Awọn erekusu Cayman",
-      "zu": "I-Cayman Islands",
-      "la": "Cayman Islands"
+      "zu": "I-Cayman Islands"
     },
     "alpha2code": "KY",
     "alpha3code": "CYM",
@@ -4779,8 +4741,7 @@
       "xh": "Iriphabliki yaseAfrika eseMbindini",
       "yi": "צענטראלער אפריקאנער רעפובליק",
       "yo": "Central African Republic",
-      "zu": "ECentral African Republic",
-      "la": "Central African Republic"
+      "zu": "ECentral African Republic"
     },
     "alpha2code": "CF",
     "alpha3code": "CAF",
@@ -4902,8 +4863,7 @@
       "xh": "Tshad",
       "yi": "טשאַד",
       "yo": "Chad",
-      "zu": "IChad",
-      "la": "Tzadia"
+      "zu": "IChad"
     },
     "alpha2code": "TD",
     "alpha3code": "TCD",
@@ -5025,8 +4985,7 @@
       "xh": "Tshile",
       "yi": "טשילע",
       "yo": "Ede Chile",
-      "zu": "EChile",
-      "la": "Argentina"
+      "zu": "EChile"
     },
     "alpha2code": "CL",
     "alpha3code": "CHL",
@@ -5150,8 +5109,7 @@
       "xh": "China",
       "yi": "טשיינאַ",
       "yo": "Ṣaina",
-      "zu": "China",
-      "la": "Sina"
+      "zu": "China"
     },
     "alpha2code": "CN",
     "alpha3code": "CHN",
@@ -5275,8 +5233,7 @@
       "xh": "Kholambiya",
       "yi": "קאָלאָמביאַ",
       "yo": "Ilu Columbia",
-      "zu": "EColombia",
-      "la": "Antioquia"
+      "zu": "EColombia"
     },
     "alpha2code": "CO",
     "alpha3code": "COL",
@@ -5399,8 +5356,7 @@
       "xh": "Khomoros",
       "yi": "קאָמאָראָס",
       "yo": "Comoros",
-      "zu": "Ama-Comoros",
-      "la": "Insulae Comorianae"
+      "zu": "Ama-Comoros"
     },
     "alpha2code": "KM",
     "alpha3code": "COM",
@@ -5517,8 +5473,7 @@
       "xh": "Isiqithi saseKhuk",
       "yi": "קוק אינזלען",
       "yo": "Awọn erekusu Cook",
-      "zu": "I-Cook Islands",
-      "la": "Insularum Cook"
+      "zu": "I-Cook Islands"
     },
     "alpha2code": "CK",
     "alpha3code": "COK",
@@ -5635,8 +5590,7 @@
       "xh": "Icosta Rica",
       "yi": "קאסטא ריקא",
       "yo": "Costa Rica",
-      "zu": "ECosta Rica",
-      "la": "Costa Rica"
+      "zu": "ECosta Rica"
     },
     "alpha2code": "CR",
     "alpha3code": "CRI",
@@ -5758,8 +5712,7 @@
       "xh": "Khot divwa",
       "yi": "צאָלונג",
       "yo": "Cote dIvoire",
-      "zu": "I-Cote dIvoire",
-      "la": "Cote dIvoire"
+      "zu": "I-Cote dIvoire"
     },
     "alpha2code": "CI",
     "alpha3code": "CIV",
@@ -5881,8 +5834,7 @@
       "xh": "Khroweyishiya",
       "yi": "קראָאַטיאַ",
       "yo": "Kroatia",
-      "zu": "ECroatia",
-      "la": "Croatiae"
+      "zu": "ECroatia"
     },
     "alpha2code": "HR",
     "alpha3code": "HRV",
@@ -6004,8 +5956,7 @@
       "xh": "Tyhubha",
       "yi": "קובאַ",
       "yo": "Kuba",
-      "zu": "Cuba",
-      "la": "Sancti"
+      "zu": "Cuba"
     },
     "alpha2code": "CU",
     "alpha3code": "CUB",
@@ -6127,8 +6078,7 @@
       "xh": "I-Curacao",
       "yi": "Curacao",
       "yo": "Curacao",
-      "zu": "I-Curacao",
-      "la": "Curaçao"
+      "zu": "I-Curacao"
     },
     "alpha2code": "CW",
     "alpha3code": "CUW",
@@ -6245,8 +6195,7 @@
       "xh": "Sayiprasi",
       "yi": "קיפראס",
       "yo": "Kírúsì",
-      "zu": "Kupro",
-      "la": "Cyprius genere"
+      "zu": "Kupro"
     },
     "alpha2code": "CY",
     "alpha3code": "CYP",
@@ -6371,8 +6320,7 @@
       "xh": "Umphakathi waseCzech",
       "yi": "טשעכיי",
       "yo": "Apapọ Ilẹ Ṣẹẹki",
-      "zu": "I-Czech Republic",
-      "la": "Res publica Bohemica"
+      "zu": "I-Czech Republic"
     },
     "alpha2code": "CZ",
     "alpha3code": "CZE",
@@ -6385,7 +6333,7 @@
       49.805
     ],
     "parentId": "earth",
-    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
+    "dataSource": "https://onemocneni-aktualne.mzcr.cz/"
   },
   {
     "id": "denmark",
@@ -6497,8 +6445,7 @@
       "xh": "Dominikha",
       "yi": "דענמאַרק",
       "yo": "Egeskov",
-      "zu": "EDenmark",
-      "la": "Denmark"
+      "zu": "EDenmark"
     },
     "alpha2code": "DK",
     "alpha3code": "DNK",
@@ -6622,8 +6569,7 @@
       "xh": "Jibhuti",
       "yi": "דזשיבוטי",
       "yo": "Ilu Djibouti",
-      "zu": "I-Djibouti",
-      "la": "Djibouti"
+      "zu": "I-Djibouti"
     },
     "alpha2code": "DJ",
     "alpha3code": "DJI",
@@ -6745,8 +6691,7 @@
       "xh": "Dominikha",
       "yi": "דאָמיניקאַ",
       "yo": "Dominica",
-      "zu": "I-Dominica",
-      "la": "Dominica"
+      "zu": "I-Dominica"
     },
     "alpha2code": "DM",
     "alpha3code": "DMA",
@@ -6868,8 +6813,7 @@
       "xh": "Iriphabliki yaseDominikha",
       "yi": "דאָמיניקאַן רעפובליק",
       "yo": "Orilẹ-ede ara Dominika",
-      "zu": "I-Dominican Republic",
-      "la": "Respublica Dominicana"
+      "zu": "I-Dominican Republic"
     },
     "alpha2code": "DO",
     "alpha3code": "DOM",
@@ -6991,8 +6935,7 @@
       "xh": "Ekhuwado",
       "yi": "עקוואַדאָר",
       "yo": "Ecuador",
-      "zu": "I-Ecuador",
-      "la": "Aequatoria"
+      "zu": "I-Ecuador"
     },
     "alpha2code": "EC",
     "alpha3code": "ECU",
@@ -7114,8 +7057,7 @@
       "xh": "Jiphethe",
       "yi": "מצרים",
       "yo": "Íjíbítì",
-      "zu": "IGibhithe",
-      "la": "Egypt"
+      "zu": "IGibhithe"
     },
     "alpha2code": "EG",
     "alpha3code": "EGY",
@@ -7237,8 +7179,7 @@
       "xh": "El Salvado",
       "yi": "על סאַלוואַדאָר",
       "yo": "El Salvador",
-      "zu": "El Salvador",
-      "la": "Salvatoria"
+      "zu": "El Salvador"
     },
     "alpha2code": "SV",
     "alpha3code": "SLV",
@@ -7360,8 +7301,7 @@
       "xh": "Ekhwithoriyal Gini",
       "yi": "עקוואַטאָריאַל גיני",
       "yo": "Idaraya Equatorial Guinea",
-      "zu": "I-Equatorial Guinea",
-      "la": "Guinea Aequatorensis"
+      "zu": "I-Equatorial Guinea"
     },
     "alpha2code": "GQ",
     "alpha3code": "GNQ",
@@ -7483,8 +7423,7 @@
       "xh": "Erithriya",
       "yi": "עריטרייאַ",
       "yo": "Eretria",
-      "zu": "E-Eritrea",
-      "la": "Eritrea"
+      "zu": "E-Eritrea"
     },
     "alpha2code": "ER",
     "alpha3code": "ERI",
@@ -7606,8 +7545,7 @@
       "xh": "Estoniya",
       "yi": "עסטאָניאַ",
       "yo": "Estonia",
-      "zu": "E-Estonia",
-      "la": "Estonia"
+      "zu": "E-Estonia"
     },
     "alpha2code": "EE",
     "alpha3code": "EST",
@@ -7620,7 +7558,7 @@
       58.668000000000006
     ],
     "parentId": "earth",
-    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
+    "dataSource": "https://opendata.digilugu.ee/opendata_covid19_test_results.csv"
   },
   {
     "id": "eswatini",
@@ -7732,8 +7670,7 @@
       "xh": "Eswatini",
       "yi": "Eswatini",
       "yo": "Eswatini",
-      "zu": "Eswatini",
-      "la": "Eswatini"
+      "zu": "Eswatini"
     },
     "alpha2code": "SZ",
     "alpha3code": "SWZ",
@@ -7855,8 +7792,7 @@
       "xh": "Yuthophiya",
       "yi": "עטיאפיע",
       "yo": "Etiopia",
-      "zu": "I-Ethiopia",
-      "la": "Æthiopiam præsidebant"
+      "zu": "I-Ethiopia"
     },
     "alpha2code": "ET",
     "alpha3code": "ETH",
@@ -7978,8 +7914,7 @@
       "xh": "Iziqithi zeFalkland",
       "yi": "פאַלקלאַנד אינזלען",
       "yo": "Awọn erekusu Falkland",
-      "zu": "I-Falkland Islands",
-      "la": "Malvinae Insulae"
+      "zu": "I-Falkland Islands"
     },
     "alpha2code": "FK",
     "alpha3code": "FLK",
@@ -8096,8 +8031,7 @@
       "xh": "Kwiiqithi zeFarae",
       "yi": "פאַראָע אינזלען",
       "yo": "Awọn erekusu Faroe",
-      "zu": "I-Faroe Islands",
-      "la": "Balcania"
+      "zu": "I-Faroe Islands"
     },
     "alpha2code": "FO",
     "alpha3code": "FRO",
@@ -8219,8 +8153,7 @@
       "xh": "Amazwe Amanyane waseMikroneshiya",
       "yi": "פעדעראַטעד שטאַטן פון מיקראָנעסיאַ",
       "yo": "Awọn Federal States of Micronesia",
-      "zu": "I-Federated States of Micronesia",
-      "la": "Foederatae Micronesiae Civitates"
+      "zu": "I-Federated States of Micronesia"
     },
     "alpha2code": "FM",
     "alpha3code": "FSM",
@@ -8337,8 +8270,7 @@
       "xh": "Fiji",
       "yi": "פידזשי",
       "yo": "Fiji",
-      "zu": "Fiji",
-      "la": "Fiji"
+      "zu": "Fiji"
     },
     "alpha2code": "FJ",
     "alpha3code": "FJI",
@@ -8460,8 +8392,7 @@
       "xh": "Finlend",
       "yi": "פינלאַנד",
       "yo": "Finland",
-      "zu": "EFinland",
-      "la": "Finland"
+      "zu": "EFinland"
     },
     "alpha2code": "FI",
     "alpha3code": "FIN",
@@ -8477,6 +8408,9 @@
   },
   {
     "id": "france",
+    "alternativeNames": [
+      "Metropolitan France"
+    ],
     "locales": {
       "en": "France",
       "af": "Frankryk",
@@ -8585,8 +8519,7 @@
       "xh": "Fransi",
       "yi": "פֿראַנקרייַך",
       "yo": "Faranse",
-      "zu": "EFrance",
-      "la": "Gallia"
+      "zu": "EFrance"
     },
     "alpha2code": "FR",
     "alpha3code": "FRA",
@@ -8595,11 +8528,11 @@
     "hospitalBeds": 390336,
     "icuBeds": 7572,
     "coordinates": [
-      45.158732839739,
-      -12.818387777882
+      6.709000000000003,
+      2.304500000000001
     ],
     "parentId": "earth",
-    "dataSource": "https://raw.githubusercontent.com/opencovid19-fr/data/master/dist/chiffres-cles.csv"
+    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
   },
   {
     "id": "french-guiana",
@@ -8711,18 +8644,17 @@
       "xh": "Isi-French Guiana",
       "yi": "פראנצויזיש גיאַנאַ",
       "yo": "Guiana Faranse",
-      "zu": "I-French Guiana",
-      "la": "Guiana"
+      "zu": "I-French Guiana"
     },
     "alpha2code": "GF",
     "alpha3code": "GUF",
     "population": 298682,
     "coordinates": [
-      -53.1258,
-      3.9339
+      -53.117999999999995,
+      3.9345
     ],
     "parentId": "earth",
-    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
+    "dataSource": "https://www.data.gouv.fr/fr/organizations/sante-publique-france/datasets-resources.csv"
   },
   {
     "id": "french-polynesia",
@@ -8834,8 +8766,7 @@
       "xh": "KwiFrench Polynesia",
       "yi": "פראנצויזיש פּאָלינעסיאַ",
       "yo": "Faranse Polinisia",
-      "zu": "French Polynesia",
-      "la": "Polynesia"
+      "zu": "French Polynesia"
     },
     "alpha2code": "PF",
     "alpha3code": "PYF",
@@ -8952,8 +8883,7 @@
       "xh": "Gabhon",
       "yi": "גאַבאָן",
       "yo": "Górónì",
-      "zu": "EGabon",
-      "la": "Gabonia"
+      "zu": "EGabon"
     },
     "alpha2code": "GA",
     "alpha3code": "GAB",
@@ -9075,8 +9005,7 @@
       "xh": "Jojiya",
       "yi": "דזשאָרדזשאַ",
       "yo": "Georgia",
-      "zu": "IGeorgia",
-      "la": "Georgia"
+      "zu": "IGeorgia"
     },
     "alpha2code": "GE",
     "alpha3code": "GEO",
@@ -9198,8 +9127,7 @@
       "xh": "Jemani",
       "yi": "דייטשלאנד",
       "yo": "Jẹmánì",
-      "zu": "EJalimane",
-      "la": "Germania"
+      "zu": "EJalimane"
     },
     "alpha2code": "DE",
     "alpha3code": "DEU",
@@ -9208,11 +9136,11 @@
     "hospitalBeds": 670272,
     "icuBeds": 24465,
     "coordinates": [
-      11.2665,
-      50.927
+      10.452,
+      51.1555
     ],
     "parentId": "earth",
-    "dataSource": "https://raw.githubusercontent.com/jgehrcke/covid-19-germany-gae/master/data.csv"
+    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
   },
   {
     "id": "ghana",
@@ -9324,8 +9252,7 @@
       "xh": "Gana",
       "yi": "גאַנאַ",
       "yo": "Gánà",
-      "zu": "IGhana",
-      "la": "Ghana"
+      "zu": "IGhana"
     },
     "alpha2code": "GH",
     "alpha3code": "GHA",
@@ -9447,8 +9374,7 @@
       "xh": "Grisi",
       "yi": "גריכנלאנד",
       "yo": "Griki",
-      "zu": "Greece",
-      "la": "Graecia"
+      "zu": "Greece"
     },
     "alpha2code": "GR",
     "alpha3code": "GRC",
@@ -9573,8 +9499,7 @@
       "xh": "Grinlend",
       "yi": "גרינלאנד",
       "yo": "Gẹẹsi",
-      "zu": "IGreenland",
-      "la": "Greenlandia"
+      "zu": "IGreenland"
     },
     "alpha2code": "GL",
     "alpha3code": "GRL",
@@ -9696,8 +9621,7 @@
       "xh": "Grenada",
       "yi": "Grenada",
       "yo": "Grenada",
-      "zu": "IGrenada",
-      "la": "Granata"
+      "zu": "IGrenada"
     },
     "alpha2code": "GD",
     "alpha3code": "GRD",
@@ -9819,18 +9743,17 @@
       "xh": "IGuadeloupe",
       "yi": "Guadeloupe",
       "yo": "Guadelupe",
-      "zu": "IGuadeloupe",
-      "la": "Guadeloupe"
+      "zu": "IGuadeloupe"
     },
     "alpha2code": "GP",
     "alpha3code": "GLP",
     "population": 400124,
     "coordinates": [
-      -61.551,
-      16.265
+      -61.402,
+      16.1755
     ],
     "parentId": "earth",
-    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
+    "dataSource": "https://www.data.gouv.fr/fr/organizations/sante-publique-france/datasets-resources.csv"
   },
   {
     "id": "guam",
@@ -9942,8 +9865,7 @@
       "xh": "Guwam",
       "yi": "גואַם",
       "yo": "Guam",
-      "zu": "I-Guam",
-      "la": "Guam"
+      "zu": "I-Guam"
     },
     "alpha2code": "GU",
     "alpha3code": "GUM",
@@ -10065,8 +9987,7 @@
       "xh": "Guwatamela",
       "yi": "גואַטעמאַלאַ",
       "yo": "Guatemala",
-      "zu": "IGuatemala",
-      "la": "Mexicum"
+      "zu": "IGuatemala"
     },
     "alpha2code": "GT",
     "alpha3code": "GTM",
@@ -10188,8 +10109,7 @@
       "xh": "Gini",
       "yi": "גיני",
       "yo": "Guinea",
-      "zu": "EGuinea",
-      "la": "Guinea"
+      "zu": "EGuinea"
     },
     "alpha2code": "GN",
     "alpha3code": "GIN",
@@ -10311,8 +10231,7 @@
       "xh": "Gini-Bisawu",
       "yi": "גיני-ביסאַו",
       "yo": "Guinea-Bissau",
-      "zu": "IGuinea-Bissau",
-      "la": "Guinea Bissau,"
+      "zu": "IGuinea-Bissau"
     },
     "alpha2code": "GW",
     "alpha3code": "GNB",
@@ -10434,8 +10353,7 @@
       "xh": "Guyana",
       "yi": "Guyana",
       "yo": "Guyana",
-      "zu": "EGuyana",
-      "la": "Guiana"
+      "zu": "EGuyana"
     },
     "alpha2code": "GY",
     "alpha3code": "GUY",
@@ -10557,8 +10475,7 @@
       "xh": "Hayiti",
       "yi": "האיטי",
       "yo": "Haiti",
-      "zu": "IHaiti",
-      "la": "Haiti"
+      "zu": "IHaiti"
     },
     "alpha2code": "HT",
     "alpha3code": "HTI",
@@ -10680,8 +10597,7 @@
       "xh": "Honduras",
       "yi": "האָנדוראַס",
       "yo": "Honduras",
-      "zu": "IHonduras",
-      "la": "Honduria"
+      "zu": "IHonduras"
     },
     "alpha2code": "HN",
     "alpha3code": "HND",
@@ -10803,8 +10719,7 @@
       "xh": "Ehong Kong",
       "yi": "האָנג קאָנג",
       "yo": "Ilu họngi kọngi",
-      "zu": "I-Hong Kong",
-      "la": "Hong Kong"
+      "zu": "I-Hong Kong"
     },
     "alpha2code": "HK",
     "alpha3code": "HKG",
@@ -10928,8 +10843,7 @@
       "xh": "Hangari",
       "yi": "אונגארן",
       "yo": "Họnari",
-      "zu": "IHungary",
-      "la": "Hungaria"
+      "zu": "IHungary"
     },
     "alpha2code": "HU",
     "alpha3code": "HUN",
@@ -11054,8 +10968,7 @@
       "xh": "Ayisilend",
       "yi": "איסלאַנד",
       "yo": "Ede Iceland",
-      "zu": "I-Iceland",
-      "la": "Iceland"
+      "zu": "I-Iceland"
     },
     "alpha2code": "IS",
     "alpha3code": "ISL",
@@ -11179,15 +11092,14 @@
       "xh": "Indiya",
       "yi": "ינדיאַ",
       "yo": "India",
-      "zu": "India",
-      "la": "India"
+      "zu": "India"
     },
     "alpha2code": "IN",
     "alpha3code": "IND",
     "population": 1380004385,
     "coordinates": [
-      87.8445,
-      24.3825
+      82.786,
+      21.2135
     ],
     "parentId": "earth",
     "dataSource": "https://www.mohfw.gov.in/"
@@ -11302,8 +11214,7 @@
       "xh": "Indoneshiya",
       "yi": "אינדאנעזיע",
       "yo": "Indonesia",
-      "zu": "Indonesia",
-      "la": "Mexico"
+      "zu": "Indonesia"
     },
     "alpha2code": "ID",
     "alpha3code": "IDN",
@@ -11425,8 +11336,7 @@
       "xh": "Iran",
       "yi": "איראן",
       "yo": "Iran",
-      "zu": "I-Iran",
-      "la": "Iran"
+      "zu": "I-Iran"
     },
     "alpha2code": "IR",
     "alpha3code": "IRN",
@@ -11548,8 +11458,7 @@
       "xh": "Irakh",
       "yi": "איראק",
       "yo": "Iraaki",
-      "zu": "I-Iraq",
-      "la": "Iraq"
+      "zu": "I-Iraq"
     },
     "alpha2code": "IQ",
     "alpha3code": "IRQ",
@@ -11671,8 +11580,7 @@
       "xh": "Ayalend",
       "yi": "אירלאנד",
       "yo": "Orile-ede Ireland",
-      "zu": "I-Ireland",
-      "la": "Hibernia"
+      "zu": "I-Ireland"
     },
     "alpha2code": "IE",
     "alpha3code": "IRL",
@@ -11797,8 +11705,7 @@
       "xh": "Sirayeli",
       "yi": "ישראל",
       "yo": "Israeli",
-      "zu": "Israyeli",
-      "la": "Israel"
+      "zu": "Israyeli"
     },
     "alpha2code": "IL",
     "alpha3code": "ISR",
@@ -11922,8 +11829,7 @@
       "xh": "ElamaTaliyane",
       "yi": "איטאליע",
       "yo": "Ilu Italia",
-      "zu": "E-Italy",
-      "la": "Italia"
+      "zu": "E-Italy"
     },
     "alpha2code": "IT",
     "alpha3code": "ITA",
@@ -12048,8 +11954,7 @@
       "xh": "Jameyikha",
       "yi": "דזשאַמאַיקאַ",
       "yo": "Ilu Ilu Jamaica",
-      "zu": "Jamaica",
-      "la": "Iamaica"
+      "zu": "Jamaica"
     },
     "alpha2code": "JM",
     "alpha3code": "JAM",
@@ -12171,8 +12076,7 @@
       "xh": "Japhan",
       "yi": "יאַפּאַן",
       "yo": "Japan",
-      "zu": "Japan",
-      "la": "Japan"
+      "zu": "Japan"
     },
     "alpha2code": "JP",
     "alpha3code": "JPN",
@@ -12297,8 +12201,7 @@
       "xh": "Jordan",
       "yi": "יארדאניע",
       "yo": "Jọ́dánì",
-      "zu": "IJordani",
-      "la": "Jordan"
+      "zu": "IJordani"
     },
     "alpha2code": "JO",
     "alpha3code": "JOR",
@@ -12420,8 +12323,7 @@
       "xh": "Kazakhstan",
       "yi": "קאַזאַכסטאַן",
       "yo": "Kasakisitani",
-      "zu": "IKazakhstan",
-      "la": "Kazakhstan"
+      "zu": "IKazakhstan"
     },
     "alpha2code": "KZ",
     "alpha3code": "KAZ",
@@ -12543,8 +12445,7 @@
       "xh": "Khenya",
       "yi": "קעניאַ",
       "yo": "Kenya",
-      "zu": "Kenya",
-      "la": "Kenya"
+      "zu": "Kenya"
     },
     "alpha2code": "KE",
     "alpha3code": "KEN",
@@ -12666,8 +12567,7 @@
       "xh": "Kriribhati",
       "yi": "קיריבאַטי",
       "yo": "Kiribati",
-      "zu": "Kiribati",
-      "la": "Kiribati"
+      "zu": "Kiribati"
     },
     "alpha2code": "KI",
     "alpha3code": "KIR",
@@ -12784,8 +12684,7 @@
       "xh": "Khosovo",
       "yi": "קאָסאָוואָ",
       "yo": "Kosovo",
-      "zu": "Kosovo",
-      "la": "Kosovo"
+      "zu": "Kosovo"
     },
     "alpha2code": "XK",
     "alpha3code": "XKX",
@@ -12907,8 +12806,7 @@
       "xh": "Khuweyithi",
       "yi": "Kuwait",
       "yo": "Kuwait",
-      "zu": "I-Kuwait",
-      "la": "Cuvaitum"
+      "zu": "I-Kuwait"
     },
     "alpha2code": "KW",
     "alpha3code": "KWT",
@@ -13030,8 +12928,7 @@
       "xh": "Khirgizstan",
       "yi": "קירגיזיע",
       "yo": "Kyrgyzstan",
-      "zu": "Kyrgyzstan",
-      "la": "Kyrgyzstan"
+      "zu": "Kyrgyzstan"
     },
     "alpha2code": "KG",
     "alpha3code": "KGZ",
@@ -13153,8 +13050,7 @@
       "xh": "Lawos",
       "yi": "לאַאָס",
       "yo": "Laos",
-      "zu": "Laos",
-      "la": "Laos"
+      "zu": "Laos"
     },
     "alpha2code": "LA",
     "alpha3code": "LAO",
@@ -13276,8 +13172,7 @@
       "xh": "Lathviya",
       "yi": "לעטלאנד",
       "yo": "Latvia",
-      "zu": "ELatvia",
-      "la": "Lettonia"
+      "zu": "ELatvia"
     },
     "alpha2code": "LV",
     "alpha3code": "LVA",
@@ -13402,8 +13297,7 @@
       "xh": "Libhanon",
       "yi": "לבנון",
       "yo": "Lẹ́bánónì",
-      "zu": "ILebanoni",
-      "la": "Libanus,"
+      "zu": "ILebanoni"
     },
     "alpha2code": "LB",
     "alpha3code": "LBN",
@@ -13525,8 +13419,7 @@
       "xh": "Lesotho",
       "yi": "לעסאָטהאָ",
       "yo": "Lesotho",
-      "zu": "ELesotho",
-      "la": "Africa Australis"
+      "zu": "ELesotho"
     },
     "alpha2code": "LS",
     "alpha3code": "LSO",
@@ -13643,8 +13536,7 @@
       "xh": "Layibheriya",
       "yi": "ליבעריאַ",
       "yo": "Liberia",
-      "zu": "Liberia",
-      "la": "Liberia"
+      "zu": "Liberia"
     },
     "alpha2code": "LR",
     "alpha3code": "LBR",
@@ -13766,8 +13658,7 @@
       "xh": "Libhiya",
       "yi": "ליביע",
       "yo": "Libya",
-      "zu": "ELibya",
-      "la": "Libyæ"
+      "zu": "ELibya"
     },
     "alpha2code": "LY",
     "alpha3code": "LBY",
@@ -13889,8 +13780,7 @@
       "xh": "Likhtensteyin",
       "yi": "ליכטנשטיין",
       "yo": "Liechtenstein",
-      "zu": "Liechtenstein",
-      "la": "Â Liechtenstein"
+      "zu": "Liechtenstein"
     },
     "alpha2code": "LI",
     "alpha3code": "LIE",
@@ -14012,8 +13902,7 @@
       "xh": "Lithuwaniya",
       "yi": "ליטע",
       "yo": "Lithuania",
-      "zu": "Lithuania",
-      "la": "Romania"
+      "zu": "Lithuania"
     },
     "alpha2code": "LT",
     "alpha3code": "LTU",
@@ -14022,8 +13911,8 @@
     "hospitalBeds": 17858,
     "icuBeds": 422,
     "coordinates": [
-      25.0165,
-      45.942
+      23.893,
+      55.172
     ],
     "parentId": "earth",
     "dataSource": "https://github.com/CSSEGISandData/COVID-19"
@@ -14138,8 +14027,7 @@
       "xh": "Laksembheg",
       "yi": "לוקסעמבורג",
       "yo": "Luxembourg",
-      "zu": "I-Luxembourg",
-      "la": "Luxemburgum"
+      "zu": "I-Luxembourg"
     },
     "alpha2code": "LU",
     "alpha3code": "LUX",
@@ -14264,8 +14152,7 @@
       "xh": "Macao",
       "yi": "Macao",
       "yo": "Macao",
-      "zu": "Macao",
-      "la": "Macao"
+      "zu": "Macao"
     },
     "alpha2code": "MO",
     "alpha3code": "MAC",
@@ -14390,8 +14277,7 @@
       "xh": "Masedoniya",
       "yi": "מאקעדאניע",
       "yo": "Makedonia",
-      "zu": "EMasedoniya",
-      "la": "Macedonibus"
+      "zu": "EMasedoniya"
     },
     "alpha2code": "MK",
     "alpha3code": "MKD",
@@ -14513,8 +14399,7 @@
       "xh": "Madagaska",
       "yi": "מאַדאַגאַסקאַר",
       "yo": "Madagascar",
-      "zu": "EMadagascar",
-      "la": "Africa"
+      "zu": "EMadagascar"
     },
     "alpha2code": "MG",
     "alpha3code": "MDG",
@@ -14636,8 +14521,7 @@
       "xh": "Malawi",
       "yi": "Malawi",
       "yo": "Malawi",
-      "zu": "EMalawi",
-      "la": "Malavium"
+      "zu": "EMalawi"
     },
     "alpha2code": "MW",
     "alpha3code": "MWI",
@@ -14759,8 +14643,7 @@
       "xh": "Maleyishiya",
       "yi": "מאַלייַסיאַ",
       "yo": "Malaysia",
-      "zu": "EMalaysia",
-      "la": "Mexico"
+      "zu": "EMalaysia"
     },
     "alpha2code": "MY",
     "alpha3code": "MYS",
@@ -14882,8 +14765,7 @@
       "xh": "Maldivs",
       "yi": "מאַלדיוועס",
       "yo": "Awọn ara Maldives",
-      "zu": "Maldives",
-      "la": "Insulae Maldivae"
+      "zu": "Maldives"
     },
     "alpha2code": "MV",
     "alpha3code": "MDV",
@@ -15005,8 +14887,7 @@
       "xh": "Mali",
       "yi": "מאַלי",
       "yo": "Ilu Maali",
-      "zu": "Mali",
-      "la": "Livor"
+      "zu": "Mali"
     },
     "alpha2code": "ML",
     "alpha3code": "MLI",
@@ -15128,8 +15009,7 @@
       "xh": "Maltha",
       "yi": "מאַלטאַ",
       "yo": "Malta",
-      "zu": "Malta",
-      "la": "Malta"
+      "zu": "Malta"
     },
     "alpha2code": "MT",
     "alpha3code": "MLT",
@@ -15251,8 +15131,7 @@
       "xh": "Isiqithi saseMashal",
       "yi": "מאַרשאַל אינזלען",
       "yo": "Awọn erekusu Marshall",
-      "zu": "Iziqhingi zaseMarshall",
-      "la": "Insulae"
+      "zu": "Iziqhingi zaseMarshall"
     },
     "alpha2code": "MH",
     "alpha3code": "MHL",
@@ -15369,18 +15248,17 @@
       "xh": "IMartinique",
       "yi": "מאַרטיניק",
       "yo": "Martinique",
-      "zu": "Martinique",
-      "la": "Martinique"
+      "zu": "Martinique"
     },
     "alpha2code": "MQ",
     "alpha3code": "MTQ",
     "population": 375265,
     "coordinates": [
-      -61.0242,
-      14.6415
+      -61.019999999999996,
+      14.635
     ],
     "parentId": "earth",
-    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
+    "dataSource": "https://www.data.gouv.fr/fr/organizations/sante-publique-france/datasets-resources.csv"
   },
   {
     "id": "mauritania",
@@ -15492,8 +15370,7 @@
       "xh": "Morithaniya",
       "yi": "מאַוריטאַניאַ",
       "yo": "Orilẹ-ede Mauritania",
-      "zu": "EMauritania",
-      "la": "Mauretaniae proditum"
+      "zu": "EMauritania"
     },
     "alpha2code": "MR",
     "alpha3code": "MRT",
@@ -15615,8 +15492,7 @@
       "xh": "Morishiyasi",
       "yi": "מאַוריטיוס",
       "yo": "Mauritius",
-      "zu": "I-Mauritius",
-      "la": "Mauricius"
+      "zu": "I-Mauritius"
     },
     "alpha2code": "MU",
     "alpha3code": "MUS",
@@ -15738,18 +15614,17 @@
       "xh": "UMayotte",
       "yi": "מייַאָטטע",
       "yo": "Mayotte",
-      "zu": "UMayotte",
-      "la": "Maiotta"
+      "zu": "UMayotte"
     },
     "alpha2code": "YT",
     "alpha3code": "MYT",
     "population": 272815,
     "coordinates": [
-      45.1662,
-      -12.8275
+      45.16,
+      -12.8295
     ],
     "parentId": "earth",
-    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
+    "dataSource": "https://www.data.gouv.fr/fr/organizations/sante-publique-france/datasets-resources.csv"
   },
   {
     "id": "mexico",
@@ -15861,8 +15736,7 @@
       "xh": "Mekhsikho",
       "yi": "מעקסיקא",
       "yo": "Meksiko",
-      "zu": "EMexico",
-      "la": "Mexicum"
+      "zu": "EMexico"
     },
     "alpha2code": "MX",
     "alpha3code": "MEX",
@@ -15987,8 +15861,7 @@
       "xh": "Moldova",
       "yi": "מאָלדאָוואַ",
       "yo": "Moludofa",
-      "zu": "Moldova",
-      "la": "Moldavia"
+      "zu": "Moldova"
     },
     "alpha2code": "MD",
     "alpha3code": "MDA",
@@ -16110,8 +15983,7 @@
       "xh": "Monakho",
       "yi": "מאָנאַקאָ",
       "yo": "Ilu Monaco",
-      "zu": "IMonaco",
-      "la": "Monoecus"
+      "zu": "IMonaco"
     },
     "alpha2code": "MC",
     "alpha3code": "MCO",
@@ -16233,8 +16105,7 @@
       "xh": "Mongoliya",
       "yi": "מאָנגאָליאַ",
       "yo": "Mongolia",
-      "zu": "IMongolia",
-      "la": "Mongoliam"
+      "zu": "IMongolia"
     },
     "alpha2code": "MN",
     "alpha3code": "MNG",
@@ -16356,8 +16227,7 @@
       "xh": "Montenegro",
       "yi": "מאָנטענעגראָ",
       "yo": "Montenegro",
-      "zu": "Montenegro",
-      "la": "Montenegro"
+      "zu": "Montenegro"
     },
     "alpha2code": "ME",
     "alpha3code": "MNE",
@@ -16479,8 +16349,7 @@
       "xh": "Montserat",
       "yi": "מאָנצערראַט",
       "yo": "Montserrat",
-      "zu": "I-Montserrat",
-      "la": "Montserrat"
+      "zu": "I-Montserrat"
     },
     "alpha2code": "MS",
     "alpha3code": "MSR",
@@ -16597,8 +16466,7 @@
       "xh": "Morokho",
       "yi": "מאָראָקקאָ",
       "yo": "Ilu Morocco",
-      "zu": "Mororoli",
-      "la": "Mauritania Caesariensi"
+      "zu": "Mororoli"
     },
     "alpha2code": "MA",
     "alpha3code": "MAR",
@@ -16720,8 +16588,7 @@
       "xh": "Mozambikh",
       "yi": "מאָזאַמביק",
       "yo": "Ilu Mozambique",
-      "zu": "I-Mozambique",
-      "la": "Mozambicum"
+      "zu": "I-Mozambique"
     },
     "alpha2code": "MZ",
     "alpha3code": "MOZ",
@@ -16843,8 +16710,7 @@
       "xh": "Namibhiya",
       "yi": "נאַמיביאַ",
       "yo": "Namibia",
-      "zu": "ENamibia",
-      "la": "Namibia"
+      "zu": "ENamibia"
     },
     "alpha2code": "NA",
     "alpha3code": "NAM",
@@ -16966,8 +16832,7 @@
       "xh": "Nawuru",
       "yi": "Nauru",
       "yo": "Nauru",
-      "zu": "UNauru",
-      "la": "Naurum"
+      "zu": "UNauru"
     },
     "alpha2code": "NR",
     "alpha3code": "NRU",
@@ -17084,8 +16949,7 @@
       "xh": "Nephal",
       "yi": "נעפּאַל",
       "yo": "Nẹfisi",
-      "zu": "Nepal",
-      "la": "India"
+      "zu": "Nepal"
     },
     "alpha2code": "NP",
     "alpha3code": "NPL",
@@ -17207,8 +17071,7 @@
       "xh": "ElamaDatshi",
       "yi": "האלאנד",
       "yo": "Fiorino",
-      "zu": "ENetherlands",
-      "la": "Nederlandia"
+      "zu": "ENetherlands"
     },
     "alpha2code": "NL",
     "alpha3code": "NLD",
@@ -17333,8 +17196,7 @@
       "xh": "INetherlands Antilles",
       "yi": "נעטהערלאַנדס אַנטיללעס",
       "yo": "Antilles Fiorino",
-      "zu": "I-Netherlands Antilles",
-      "la": "Antillae Nederlandiae"
+      "zu": "I-Netherlands Antilles"
     },
     "alpha2code": "AN",
     "alpha3code": "ANT",
@@ -17451,8 +17313,7 @@
       "xh": "ICaledonia entsha",
       "yi": "ניו קאַלעדאָניאַ",
       "yo": "Titun Kalidonia",
-      "zu": "I-Caledonia entsha",
-      "la": "Novus Caledonia"
+      "zu": "I-Caledonia entsha"
     },
     "alpha2code": "NC",
     "alpha3code": "NCL",
@@ -17569,8 +17430,7 @@
       "xh": "Nyu Zilend",
       "yi": "ניו זילאַנד",
       "yo": "Ilu Niu silandii",
-      "zu": "E-New Zealand",
-      "la": "New Zealand"
+      "zu": "E-New Zealand"
     },
     "alpha2code": "NZ",
     "alpha3code": "NZL",
@@ -17693,8 +17553,7 @@
       "xh": "Nikharaguwa",
       "yi": "ניקאַראַגואַ",
       "yo": "Nicaragua",
-      "zu": "ENicaragua",
-      "la": "Nicaragua"
+      "zu": "ENicaragua"
     },
     "alpha2code": "NI",
     "alpha3code": "NIC",
@@ -17816,8 +17675,7 @@
       "xh": "Nayija",
       "yi": "ניגער",
       "yo": "Niger",
-      "zu": "INiger",
-      "la": "Nigrum"
+      "zu": "INiger"
     },
     "alpha2code": "NE",
     "alpha3code": "NER",
@@ -17939,8 +17797,7 @@
       "xh": "Nayijeriya",
       "yi": "ניגעריאַ",
       "yo": "Nàìjíríà",
-      "zu": "INigeria",
-      "la": "Nigeria"
+      "zu": "INigeria"
     },
     "alpha2code": "NG",
     "alpha3code": "NGA",
@@ -18062,8 +17919,7 @@
       "xh": "Niue",
       "yi": "Niue",
       "yo": "Niue",
-      "zu": "Niue",
-      "la": "Niue"
+      "zu": "Niue"
     },
     "alpha2code": "NU",
     "alpha3code": "NIU",
@@ -18180,8 +18036,7 @@
       "xh": "Isiqithi saseNofolkh",
       "yi": "נאָרפאָלק אינזל",
       "yo": "Erekusu ti Norfolk",
-      "zu": "Isiqhingi saseNorfolk",
-      "la": "Insula Norfolk"
+      "zu": "Isiqhingi saseNorfolk"
     },
     "alpha2code": "NF",
     "alpha3code": "NFK",
@@ -18298,8 +18153,7 @@
       "xh": "Emantla ekorea",
       "yi": "נארט קאריעא",
       "yo": "Koria ile larubawa",
-      "zu": "E-North Korea",
-      "la": "Corea Septentrionalis"
+      "zu": "E-North Korea"
     },
     "alpha2code": "KP",
     "alpha3code": "PRK",
@@ -18416,8 +18270,7 @@
       "xh": "Isiqithi saseMariyana eseMantla",
       "yi": "צאָפנדיק מאַריאַנאַ אינזלען",
       "yo": "Àríwá Mariana Islands",
-      "zu": "Iziqhingi zaseNyakatho Mariana",
-      "la": "Septemtrionis Mariana Insulae"
+      "zu": "Iziqhingi zaseNyakatho Mariana"
     },
     "alpha2code": "MP",
     "alpha3code": "MNP",
@@ -18539,8 +18392,7 @@
       "xh": "Norowe",
       "yi": "נאָרווייַ",
       "yo": "Norway",
-      "zu": "ENorway",
-      "la": "Norway"
+      "zu": "ENorway"
     },
     "alpha2code": "NO",
     "alpha3code": "NOR",
@@ -18665,8 +18517,7 @@
       "xh": "Oman",
       "yi": "אָמַר",
       "yo": "Oman",
-      "zu": "Oman",
-      "la": "Onam"
+      "zu": "Oman"
     },
     "alpha2code": "OM",
     "alpha3code": "OMN",
@@ -18788,8 +18639,7 @@
       "xh": "Phakistan",
       "yi": "פּאַקיסטאַן",
       "yo": "Pakistan",
-      "zu": "Pakistan",
-      "la": "Pakistan"
+      "zu": "Pakistan"
     },
     "alpha2code": "PK",
     "alpha3code": "PAK",
@@ -18911,8 +18761,7 @@
       "xh": "Palawu",
       "yi": "פּאַלאַו",
       "yo": "Palau",
-      "zu": "Palau",
-      "la": "Palau"
+      "zu": "Palau"
     },
     "alpha2code": "PW",
     "alpha3code": "PLW",
@@ -19032,8 +18881,7 @@
       "xh": "Palestina",
       "yi": "פאלעסטינע",
       "yo": "Palestine",
-      "zu": "I-Palestine",
-      "la": "Palaestinae"
+      "zu": "I-Palestine"
     },
     "alpha2code": "PS",
     "alpha3code": "PSE",
@@ -19155,8 +19003,7 @@
       "xh": "Phanama",
       "yi": "פּאַנאַמאַ",
       "yo": "Panama",
-      "zu": "IPanama",
-      "la": "Costa Rica"
+      "zu": "IPanama"
     },
     "alpha2code": "PA",
     "alpha3code": "PAN",
@@ -19278,8 +19125,7 @@
       "xh": "Gini eNtsha yasePapuwa",
       "yi": "פּאַפּואַ ניו גיני",
       "yo": "Papua New Guinea",
-      "zu": "IPapua New Guinea",
-      "la": "Papua Novus Guinea"
+      "zu": "IPapua New Guinea"
     },
     "alpha2code": "PG",
     "alpha3code": "PNG",
@@ -19401,8 +19247,7 @@
       "xh": "Pharaguwayi",
       "yi": "פאראגוויי",
       "yo": "Paraguay",
-      "zu": "IParaguay",
-      "la": "Paraguay"
+      "zu": "IParaguay"
     },
     "alpha2code": "PY",
     "alpha3code": "PRY",
@@ -19524,8 +19369,7 @@
       "xh": "Peru",
       "yi": "פּערו",
       "yo": "Perú",
-      "zu": "EPeru",
-      "la": "Peru"
+      "zu": "EPeru"
     },
     "alpha2code": "PE",
     "alpha3code": "PER",
@@ -19647,8 +19491,7 @@
       "xh": "Filipayinzi",
       "yi": "פיליפינען",
       "yo": "Philippines",
-      "zu": "Philippines",
-      "la": "Philippinae"
+      "zu": "Philippines"
     },
     "alpha2code": "PH",
     "alpha3code": "PHL",
@@ -19770,8 +19613,7 @@
       "xh": "Pholend",
       "yi": "פוילן",
       "yo": "Polandii",
-      "zu": "EPoland",
-      "la": "Poland"
+      "zu": "EPoland"
     },
     "alpha2code": "PL",
     "alpha3code": "POL",
@@ -19779,11 +19621,11 @@
     "hospitalBeds": 250545,
     "icuBeds": 2611,
     "coordinates": [
-      19.1345,
-      51.9185
+      15.55,
+      53.5975
     ],
     "parentId": "earth",
-    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
+    "dataSource": "https://www.gov.pl/web/koronawirus/wykaz-zarazen-koronawirusem-sars-cov-2"
   },
   {
     "id": "portugal",
@@ -19895,8 +19737,7 @@
       "xh": "Photshugo",
       "yi": "פארטוגאל",
       "yo": "Ilu Pọtugali",
-      "zu": "EPortugal",
-      "la": "Portugal"
+      "zu": "EPortugal"
     },
     "alpha2code": "PT",
     "alpha3code": "PRT",
@@ -20021,8 +19862,7 @@
       "xh": "Poto Rikho",
       "yi": "פּאָרטאַ ריקאָ",
       "yo": "Puẹto Riko",
-      "zu": "E-Puerto Rico",
-      "la": "Licinius Crassus Dives"
+      "zu": "E-Puerto Rico"
     },
     "alpha2code": "PR",
     "alpha3code": "PRI",
@@ -20032,7 +19872,7 @@
       18.1995
     ],
     "parentId": "earth",
-    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
+    "dataSource": "http://www.salud.gov.pr/Pages/coronavirus.aspx"
   },
   {
     "id": "qatar",
@@ -20144,8 +19984,7 @@
       "xh": "Khwatha",
       "yi": "קאטאר",
       "yo": "Qatar",
-      "zu": "Qatar",
-      "la": "Qatar"
+      "zu": "Qatar"
     },
     "alpha2code": "QA",
     "alpha3code": "QAT",
@@ -20267,8 +20106,7 @@
       "xh": "Iriphabliki yaseKhongo Ekhululekile",
       "yi": "דעמאָקראַטיש רעפובליק פון די קאָנגאָ",
       "yo": "Democratic Republic of the Congo",
-      "zu": "I-Democratic Republic of the Congo",
-      "la": "Respublica Popularis Congensis"
+      "zu": "I-Democratic Republic of the Congo"
     },
     "alpha2code": "CD",
     "alpha3code": "COD",
@@ -20393,8 +20231,7 @@
       "xh": "IRiphabhlikhi yaseCongo",
       "yi": "רעפובליק פון די קאָנגאָ",
       "yo": "Orileede olominira",
-      "zu": "IRiphabhuliki YaseCongo",
-      "la": "Publica Popularis Congensis"
+      "zu": "IRiphabhuliki YaseCongo"
     },
     "alpha2code": "CG",
     "alpha3code": "COG",
@@ -20516,8 +20353,7 @@
       "xh": "Romaniya",
       "yi": "רומעניע",
       "yo": "Romania",
-      "zu": "IRomania",
-      "la": "Romania"
+      "zu": "IRomania"
     },
     "alpha2code": "RO",
     "alpha3code": "ROU",
@@ -20639,8 +20475,7 @@
       "xh": "Rhashiya",
       "yi": "רוסלאַנד",
       "yo": "Russia",
-      "zu": "IRussia",
-      "la": "Russia"
+      "zu": "IRussia"
     },
     "alpha2code": "RU",
     "alpha3code": "RUS",
@@ -20648,8 +20483,8 @@
     "hospitalBeds": 1174772,
     "icuBeds": 12113,
     "coordinates": [
-      39.256808302611034,
-      57.74603628194882
+      0,
+      61.522
     ],
     "parentId": "earth",
     "dataSource": "https://yandex.ru/maps/api/covid?csrfToken="
@@ -20764,8 +20599,7 @@
       "xh": "Rhuwanda",
       "yi": "רוואַנדאַ",
       "yo": "Rwanda",
-      "zu": "ERwanda",
-      "la": "Ruanda"
+      "zu": "ERwanda"
     },
     "alpha2code": "RW",
     "alpha3code": "RWA",
@@ -20887,8 +20721,7 @@
       "xh": "Ngcwele uBarthelemy",
       "yi": "סיינט באַרטעלעמי",
       "yo": "Saint Barthelemy",
-      "zu": "Saint Barthelemy",
-      "la": "Sancte Barthélémy"
+      "zu": "Saint Barthelemy"
     },
     "alpha2code": "BL",
     "alpha3code": "BLM",
@@ -21005,8 +20838,7 @@
       "xh": "Seyint Helena",
       "yi": "סיינט העלענאַ",
       "yo": "Saint Helena",
-      "zu": "I-Santa Helena",
-      "la": "Sanctae Helenae"
+      "zu": "I-Santa Helena"
     },
     "alpha2code": "SH",
     "alpha3code": "SHN",
@@ -21123,8 +20955,7 @@
       "xh": "Seyint Kitsi neNevis",
       "yi": "סיינט קיטץ און נעוויס",
       "yo": "Saint Kitts ati Nevis",
-      "zu": "Ama-Saint Kitts noNevis",
-      "la": "S. Kitts et Nevis"
+      "zu": "Ama-Saint Kitts noNevis"
     },
     "alpha2code": "KN",
     "alpha3code": "KNA",
@@ -21246,8 +21077,7 @@
       "xh": "UMartin oManyeneyo",
       "yi": "סיינט מארטין",
       "yo": "Saint Martin",
-      "zu": "USanta Martin",
-      "la": "S. Martini Episcopi Severus"
+      "zu": "USanta Martin"
     },
     "alpha2code": "MF",
     "alpha3code": "MAF",
@@ -21364,8 +21194,7 @@
       "xh": "I-Saint Pierre neMiquelon",
       "yi": "סיינט פּיער און מיקעלאָן",
       "yo": "Saint Pierre ati Miquelon",
-      "zu": "USanta Pierre noMiquelon",
-      "la": "Sanctus petrus et Miquelonus"
+      "zu": "USanta Pierre noMiquelon"
     },
     "alpha2code": "PM",
     "alpha3code": "SPM",
@@ -21482,8 +21311,7 @@
       "xh": "Seyint Vinsent neGrenadins",
       "yi": "סיינט ווינסענט און די גרענאַדינעס",
       "yo": "Saint Vincent ati awọn Grenadines",
-      "zu": "ISanta Vincent kanye namaGrenadines",
-      "la": "Sanctus Vincentius et Grenadinen"
+      "zu": "ISanta Vincent kanye namaGrenadines"
     },
     "alpha2code": "VC",
     "alpha3code": "VCT",
@@ -21605,8 +21433,7 @@
       "xh": "Samowa",
       "yi": "סאַמאָאַ",
       "yo": "Samoa",
-      "zu": "Samoa",
-      "la": "Samoa"
+      "zu": "Samoa"
     },
     "alpha2code": "WS",
     "alpha3code": "WSM",
@@ -21723,8 +21550,7 @@
       "xh": "Sen Marino",
       "yi": "San Marino",
       "yo": "San Marino",
-      "zu": "San Marino",
-      "la": "CAPENA"
+      "zu": "San Marino"
     },
     "alpha2code": "SM",
     "alpha3code": "SMR",
@@ -21846,8 +21672,7 @@
       "xh": "Sawo Tome nePrinsipe",
       "yi": "סאַו טאָמע און פּרינסיף",
       "yo": "Sao Tome ati Principe",
-      "zu": "USao Tome noPrincipe",
-      "la": "Velit ante"
+      "zu": "USao Tome noPrincipe"
     },
     "alpha2code": "ST",
     "alpha3code": "STP",
@@ -21964,8 +21789,7 @@
       "xh": "Sawudi Arabhiya",
       "yi": "סאודיע אראביע",
       "yo": "Saudi Arebia",
-      "zu": "I-Saudi Arabia",
-      "la": "Saudi Arabia"
+      "zu": "I-Saudi Arabia"
     },
     "alpha2code": "SA",
     "alpha3code": "SAU",
@@ -21975,7 +21799,7 @@
       24.267000000000003
     ],
     "parentId": "earth",
-    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
+    "dataSource": "https://datasource.kapsarc.org/explore/dataset/saudi-arabia-coronavirus-disease-covid-19-situation/download/?format=csv&disjunctive.daily_cumulative=true&disjunctive.region=true&refine.daily_cumulative=Daily&timezone=America/Los_Angeles&lang=en&csv_separator=%2C"
   },
   {
     "id": "senegal",
@@ -22087,8 +21911,7 @@
       "xh": "Senego",
       "yi": "סענעגאַל",
       "yo": "Ilu Senegal",
-      "zu": "ISenegal",
-      "la": "Senegalia"
+      "zu": "ISenegal"
     },
     "alpha2code": "SN",
     "alpha3code": "SEN",
@@ -22210,8 +22033,7 @@
       "xh": "Sebhiya",
       "yi": "סערביע",
       "yo": "Serbia",
-      "zu": "ISerbia",
-      "la": "France"
+      "zu": "ISerbia"
     },
     "alpha2code": "RS",
     "alpha3code": "SRB",
@@ -22333,8 +22155,7 @@
       "xh": "Seytshels",
       "yi": "סייטשעלס",
       "yo": "Ṣéṣélesì",
-      "zu": "I-Seychelles",
-      "la": "Insulae Seisellenses"
+      "zu": "I-Seychelles"
     },
     "alpha2code": "SC",
     "alpha3code": "SYC",
@@ -22456,8 +22277,7 @@
       "xh": "Sira Liyoni",
       "yi": "סיעראַ ליאָון",
       "yo": "Sioni",
-      "zu": "ISierra Leone",
-      "la": "Mons Leoninus"
+      "zu": "ISierra Leone"
     },
     "alpha2code": "SL",
     "alpha3code": "SLE",
@@ -22579,8 +22399,7 @@
       "xh": "Singapho",
       "yi": "סינגאפור",
       "yo": "Orílẹ̀ èdè Singapore",
-      "zu": "E-Singapore",
-      "la": "Singapore"
+      "zu": "E-Singapore"
     },
     "alpha2code": "SG",
     "alpha3code": "SGP",
@@ -22702,8 +22521,7 @@
       "xh": "I-Sint Maarten (inxalenye yeDatshi)",
       "yi": "Sint Maarten (האָלענדיש טייל)",
       "yo": "Sint Maarten (Apá Dutch)",
-      "zu": "I-Sint Maarten (ingxenye yamaDashi)",
-      "la": "Sint (pars Batavica)"
+      "zu": "I-Sint Maarten (ingxenye yamaDashi)"
     },
     "alpha2code": "SX",
     "alpha3code": "SXM",
@@ -22820,8 +22638,7 @@
       "xh": "Slovakiya",
       "yi": "סלאָוואַקיאַ",
       "yo": "Slovakia",
-      "zu": "ISlovak",
-      "la": "Slovakia"
+      "zu": "ISlovak"
     },
     "alpha2code": "SK",
     "alpha3code": "SVK",
@@ -22946,8 +22763,7 @@
       "xh": "Sloveniya",
       "yi": "סלאוועניע",
       "yo": "Slovenia",
-      "zu": "ISlovenia",
-      "la": "Slovenia"
+      "zu": "ISlovenia"
     },
     "alpha2code": "SI",
     "alpha3code": "SVN",
@@ -22960,7 +22776,7 @@
       46.149
     ],
     "parentId": "earth",
-    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
+    "dataSource": "https://raw.githubusercontent.com/slo-covid-19/data/master/csv/stats.csv"
   },
   {
     "id": "solomon-islands",
@@ -23072,8 +22888,7 @@
       "xh": "Isiqithi saseSolomon",
       "yi": "שלמה אינזלען",
       "yo": "Solomon Islands",
-      "zu": "I-Solomon Islands",
-      "la": "Insulae Salomonicae"
+      "zu": "I-Solomon Islands"
     },
     "alpha2code": "SB",
     "alpha3code": "SLB",
@@ -23190,8 +23005,7 @@
       "xh": "Somaliya",
       "yi": "סאָמאַליאַ",
       "yo": "Somalia",
-      "zu": "ESomalia",
-      "la": "Africa"
+      "zu": "ESomalia"
     },
     "alpha2code": "SO",
     "alpha3code": "SOM",
@@ -23313,8 +23127,7 @@
       "xh": "Mzantsi Afrika",
       "yi": "דרום אפריקע",
       "yo": "Gusu Afrika",
-      "zu": "Iningizimu Afrika",
-      "la": "Africa Australis"
+      "zu": "Iningizimu Afrika"
     },
     "alpha2code": "ZA",
     "alpha3code": "ZAF",
@@ -23436,8 +23249,7 @@
       "xh": "Khoriya eseMzantsi",
       "yi": "דרום קארעע",
       "yo": "South Korea",
-      "zu": "INingizimu Korea",
-      "la": "South Korea"
+      "zu": "INingizimu Korea"
     },
     "alpha2code": "KR",
     "alpha3code": "KOR",
@@ -23449,7 +23261,7 @@
       35.8695
     ],
     "parentId": "earth",
-    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
+    "dataSource": "http://ncov.mohw.go.kr/en/bdBoardList.do?brdId=16&brdGubun=162&dataGubun=&ncvContSeq=&contSeq=&board_id="
   },
   {
     "id": "south-sudan",
@@ -23561,8 +23373,7 @@
       "xh": "ESouth Sudan",
       "yi": "דרום סודאַן",
       "yo": "South Sudan",
-      "zu": "ISouth Sudan",
-      "la": "Meridiem Sudania"
+      "zu": "ISouth Sudan"
     },
     "alpha2code": "SS",
     "alpha3code": "SSD",
@@ -23679,8 +23490,7 @@
       "xh": "Speyin",
       "yi": "ספּאַין",
       "yo": "Ilu Sibeeni",
-      "zu": "ISpain",
-      "la": "Hispaniam"
+      "zu": "ISpain"
     },
     "alpha2code": "ES",
     "alpha3code": "ESP",
@@ -23805,8 +23615,7 @@
       "xh": "Esri Lanka",
       "yi": "סרי לאנקא",
       "yo": "Siri Lanka",
-      "zu": "I-Sri Lanka",
-      "la": "Sri Lanka"
+      "zu": "I-Sri Lanka"
     },
     "alpha2code": "LK",
     "alpha3code": "LKA",
@@ -23928,8 +23737,7 @@
       "xh": "Seyint Lushiya",
       "yi": "סיינט לוסיאַ",
       "yo": "Saint Lucia",
-      "zu": "ISanta Lucia",
-      "la": "S. Lucia"
+      "zu": "ISanta Lucia"
     },
     "alpha2code": "LC",
     "alpha3code": "LCA",
@@ -24051,8 +23859,7 @@
       "xh": "Sudan",
       "yi": "סודאַן",
       "yo": "Sudan",
-      "zu": "ESudan",
-      "la": "Super Aethiopiam"
+      "zu": "ESudan"
     },
     "alpha2code": "SD",
     "alpha3code": "SDN",
@@ -24174,8 +23981,7 @@
       "xh": "Suriname",
       "yi": "סורינאַמע",
       "yo": "Suriname",
-      "zu": "I-Suriname",
-      "la": "Suriname"
+      "zu": "I-Suriname"
     },
     "alpha2code": "SR",
     "alpha3code": "SUR",
@@ -24297,8 +24103,7 @@
       "xh": "Swazini",
       "yi": "סוואַזילאַנד",
       "yo": "Swaziland",
-      "zu": "Swaziland",
-      "la": "Swaziland"
+      "zu": "Swaziland"
     },
     "alpha2code": "SZ",
     "alpha3code": "SWZ",
@@ -24419,8 +24224,7 @@
       "xh": "Swiden",
       "yi": "שוועדן",
       "yo": "Sweden",
-      "zu": "ESweden",
-      "la": "Sweden"
+      "zu": "ESweden"
     },
     "alpha2code": "SE",
     "alpha3code": "SWE",
@@ -24432,7 +24236,7 @@
       62.1995
     ],
     "parentId": "earth",
-    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
+    "dataSource": "https://services5.arcgis.com/fsYDFeRKu1hELJJs/arcgis/rest/services/FOHM_Covid_19_FME_1/FeatureServer/1/query?f=json&where=1%3D1&outFields=*&returnGeometry=false"
   },
   {
     "id": "switzerland",
@@ -24544,8 +24348,7 @@
       "xh": "Swizalend",
       "yi": "שווייץ",
       "yo": "Switzerland",
-      "zu": "ESwitzerland",
-      "la": "Helvetia"
+      "zu": "ESwitzerland"
     },
     "alpha2code": "CH",
     "alpha3code": "CHE",
@@ -24558,7 +24361,7 @@
       46.811499999999995
     ],
     "parentId": "earth",
-    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
+    "dataSource": "https://github.com/daenuprobst/covid19-cases-switzerland/"
   },
   {
     "id": "syrian-arab-republic",
@@ -24670,8 +24473,7 @@
       "xh": "IRiphabhlikhi yaseSyria",
       "yi": "סיריאַן אַראַבער רעפובליק",
       "yo": "Ara ilu Arabia Arabia",
-      "zu": "ISyria Arab Republic",
-      "la": "Syra Arabs Publica"
+      "zu": "ISyria Arab Republic"
     },
     "alpha2code": "SY",
     "alpha3code": "SYR",
@@ -24796,8 +24598,7 @@
       "xh": "I-Taiwan",
       "yi": "טייוואַן",
       "yo": "Taiwan",
-      "zu": "ETaiwan",
-      "la": "Taiwan"
+      "zu": "ETaiwan"
     },
     "alpha2code": "TW",
     "alpha3code": "TWN",
@@ -24919,8 +24720,7 @@
       "xh": "Tajikistan",
       "yi": "טאַדזשיקיסטאַן",
       "yo": "Tajikistan",
-      "zu": "Tajikistan",
-      "la": "Zynga bacillo"
+      "zu": "Tajikistan"
     },
     "alpha2code": "TJ",
     "alpha3code": "TJK",
@@ -25037,8 +24837,7 @@
       "xh": "Thanzaniya",
       "yi": "טאַנזאַניאַ",
       "yo": "Tanzania",
-      "zu": "ETanzania",
-      "la": "Ethiopia"
+      "zu": "ETanzania"
     },
     "alpha2code": "TZ",
     "alpha3code": "TZA",
@@ -25160,8 +24959,7 @@
       "xh": "Thayilendi",
       "yi": "טיילאַנד",
       "yo": "Thailand",
-      "zu": "EThailand",
-      "la": "Thailand"
+      "zu": "EThailand"
     },
     "alpha2code": "TH",
     "alpha3code": "THA",
@@ -25283,8 +25081,7 @@
       "xh": "IiBahamas",
       "yi": "די באַהאַמאַס",
       "yo": "Awọn Bahamas",
-      "zu": "I-Bahamas",
-      "la": "Insularum Bahamensium conveniendi"
+      "zu": "I-Bahamas"
     },
     "alpha2code": "BS",
     "alpha3code": "BHS",
@@ -25410,8 +25207,7 @@
       "xh": "IGambia",
       "yi": "די גאַמביאַ",
       "yo": "Awọn Gambani",
-      "zu": "IGambia",
-      "la": "Gambia"
+      "zu": "IGambia"
     },
     "alpha2code": "GM",
     "alpha3code": "GMB",
@@ -25537,8 +25333,7 @@
       "xh": "I-Timor-Leste",
       "yi": "טימאָר-לעסטע",
       "yo": "Timor-Leste",
-      "zu": "I-Timor-Leste",
-      "la": "Timor-Leste"
+      "zu": "I-Timor-Leste"
     },
     "alpha2code": "TL",
     "alpha3code": "TLS",
@@ -25663,8 +25458,7 @@
       "xh": "Thogo",
       "yi": "צו גיין",
       "yo": "Lati lọ",
-      "zu": "Ukuhamba",
-      "la": "Ire"
+      "zu": "Ukuhamba"
     },
     "alpha2code": "TG",
     "alpha3code": "TGO",
@@ -25786,8 +25580,7 @@
       "xh": "Tokelawu",
       "yi": "טאָקעלאַו",
       "yo": "Tokelau",
-      "zu": "Tokelau",
-      "la": "Tokelau"
+      "zu": "Tokelau"
     },
     "alpha2code": "TK",
     "alpha3code": "TKL",
@@ -25904,8 +25697,7 @@
       "xh": "Thonga",
       "yi": "טאָנגאַ",
       "yo": "Tonga",
-      "zu": "Tonga",
-      "la": "Tonga"
+      "zu": "Tonga"
     },
     "alpha2code": "TO",
     "alpha3code": "TON",
@@ -26022,8 +25814,7 @@
       "xh": "Thrinidadi neThubhago",
       "yi": "טרינידאַד און טאָבאַגאָ",
       "yo": "Tunisia ati Tobago",
-      "zu": "ITrinidad noTobago",
-      "la": "Trinitas et Tabacum"
+      "zu": "ITrinidad noTobago"
     },
     "alpha2code": "TT",
     "alpha3code": "TTO",
@@ -26145,8 +25936,7 @@
       "xh": "Thunishiya",
       "yi": "טוניסיאַ",
       "yo": "Tunisia",
-      "zu": "ETunisia",
-      "la": "Tunesia"
+      "zu": "ETunisia"
     },
     "alpha2code": "TN",
     "alpha3code": "TUN",
@@ -26268,8 +26058,7 @@
       "xh": "Thekhi",
       "yi": "טערקיי",
       "yo": "Tọki",
-      "zu": "Igalikuni",
-      "la": "Turcia"
+      "zu": "Igalikuni"
     },
     "alpha2code": "TR",
     "alpha3code": "TUR",
@@ -26394,8 +26183,7 @@
       "xh": "Turkmenistani",
       "yi": "טורקמעניסטאן",
       "yo": "Turkmenistan",
-      "zu": "ETurkmenistan",
-      "la": "Turcomannia"
+      "zu": "ETurkmenistan"
     },
     "alpha2code": "TM",
     "alpha3code": "TKM",
@@ -26512,8 +26300,7 @@
       "xh": "IiTurks kunye neziqithi zeCaicos",
       "yi": "טורקס און קאַיקאָס אינזלען",
       "yo": "Awọn Tooki ati Caicos Islands",
-      "zu": "Iziqhingi zaseTurks naseCaicos",
-      "la": "Caicos Insula Turcas profecturum"
+      "zu": "Iziqhingi zaseTurks naseCaicos"
     },
     "alpha2code": "TC",
     "alpha3code": "TCA",
@@ -26630,8 +26417,7 @@
       "xh": "Tuvalu",
       "yi": "טובאלו",
       "yo": "Tuvalu",
-      "zu": "Tuvalu",
-      "la": "Tuvalu"
+      "zu": "Tuvalu"
     },
     "alpha2code": "TV",
     "alpha3code": "TUV",
@@ -26748,8 +26534,7 @@
       "xh": "Yuganda",
       "yi": "אוגאנדע",
       "yo": "Uganda",
-      "zu": "E-Uganda",
-      "la": "Uganda"
+      "zu": "E-Uganda"
     },
     "alpha2code": "UG",
     "alpha3code": "UGA",
@@ -26871,18 +26656,17 @@
       "xh": "Yukreyini",
       "yi": "אוקראינע",
       "yo": "Yukirenia",
-      "zu": "E-Ukraine",
-      "la": "Ucraina"
+      "zu": "E-Ukraine"
     },
     "alpha2code": "UA",
     "alpha3code": "UKR",
     "population": 43733762,
     "coordinates": [
-      31.999000000000002,
-      51.361
+      31.183,
+      48.7805
     ],
     "parentId": "earth",
-    "dataSource": "https://api-covid19.rnbo.gov.ua/data?to=2020-04-10"
+    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
   },
   {
     "id": "united-arab-emirates",
@@ -26994,8 +26778,7 @@
       "xh": "Iemireyithi yamaArabhu Amanyene",
       "yi": "פארייניקטע אַראַבער עמיראַטעס",
       "yo": "Apapọ Arab Emirates",
-      "zu": "I-United Arab Emirates",
-      "la": "United Arab Emirates"
+      "zu": "I-United Arab Emirates"
     },
     "alpha2code": "AE",
     "alpha3code": "ARE",
@@ -27117,8 +26900,7 @@
       "xh": "Iunited Kingdom",
       "yi": "פֿאַראייניקטע מלכות",
       "yo": "Apapọ ijọba Gẹẹsi",
-      "zu": "I-United Kingdom",
-      "la": "Regnum Unitum"
+      "zu": "I-United Kingdom"
     },
     "alpha2code": "GB",
     "alpha3code": "GBR",
@@ -27127,11 +26909,11 @@
     "hospitalBeds": 172430,
     "icuBeds": 4480,
     "coordinates": [
-      -64.7505,
-      32.3078
+      -3.4414999999999996,
+      55.354
     ],
     "parentId": "earth",
-    "dataSource": "https://www.gov.scot/coronavirus-covid-19/"
+    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
   },
   {
     "id": "united-states-of-america",
@@ -27243,8 +27025,7 @@
       "xh": "Ilizwe elidibene lasemelika",
       "yi": "פארייניקטע שטאַטן פון אַמעריקע",
       "yo": "Orilẹ Amẹrika ti Amẹrika",
-      "zu": "I-United States of America",
-      "la": "Civitates Foederatae Americae"
+      "zu": "I-United States of America"
     },
     "alpha2code": "US",
     "alpha3code": "USA",
@@ -27261,11 +27042,11 @@
     "hospitalBeds": 916877,
     "icuBeds": 114858,
     "coordinates": [
-      -107.554,
-      43.0005
+      -81.53903,
+      37.602194499999996
     ],
     "parentId": "earth",
-    "dataSource": "https://health.wyo.gov/publichealth/infectious-disease-epidemiology-unit/disease/novel-coronavirus/"
+    "dataSource": "https://github.com/CSSEGISandData/COVID-19"
   },
   {
     "id": "uruguay",
@@ -27377,8 +27158,7 @@
       "xh": "Uruguwayi",
       "yi": "אורוגוויי",
       "yo": "Urugue",
-      "zu": "I-Uruguay",
-      "la": "Uruguay"
+      "zu": "I-Uruguay"
     },
     "alpha2code": "UY",
     "alpha3code": "URY",
@@ -27500,8 +27280,7 @@
       "xh": "Uzbhekistan",
       "yi": "אוזבעקיסטאן",
       "yo": "Usibekisitani",
-      "zu": "I-Uzbekistan",
-      "la": "Usbecia"
+      "zu": "I-Uzbekistan"
     },
     "alpha2code": "UZ",
     "alpha3code": "UZB",
@@ -27623,8 +27402,7 @@
       "xh": "Vanuwata",
       "yi": "וואַנואַטו",
       "yo": "Vanuatu",
-      "zu": "IVanuatu",
-      "la": "Vanuatu"
+      "zu": "IVanuatu"
     },
     "alpha2code": "VU",
     "alpha3code": "VUT",
@@ -27741,8 +27519,7 @@
       "xh": "EsikaPhapha",
       "yi": "וואַטיקאַן סיטי",
       "yo": "Ilu Ilu Vatican",
-      "zu": "IVatican City",
-      "la": "Status Civitatis Vaticanae"
+      "zu": "IVatican City"
     },
     "alpha2code": "VA",
     "alpha3code": "VAT",
@@ -27864,8 +27641,7 @@
       "xh": "Venezuwela",
       "yi": "ווענעזועלאַ",
       "yo": "Venezuela",
-      "zu": "EVenezuela",
-      "la": "Africa"
+      "zu": "EVenezuela"
     },
     "alpha2code": "VE",
     "alpha3code": "VEN",
@@ -27987,8 +27763,7 @@
       "xh": "Viyethnam",
       "yi": "וויעטנאַם",
       "yo": "Vietnam",
-      "zu": "IVietnam",
-      "la": "Vietnam"
+      "zu": "IVietnam"
     },
     "alpha2code": "VN",
     "alpha3code": "VNM",
@@ -28110,8 +27885,7 @@
       "xh": "UWallis noFutuna",
       "yi": "וואָליס און פוטונאַ",
       "yo": "Wallis ati Futuna",
-      "zu": "UWallis noFutuna",
-      "la": "Wallis et Futunae"
+      "zu": "UWallis noFutuna"
     },
     "alpha2code": "WF",
     "alpha3code": "WLF",
@@ -28228,8 +28002,7 @@
       "xh": "Yemen",
       "yi": "יעמען",
       "yo": "Yemen",
-      "zu": "Yemen",
-      "la": "Yemen"
+      "zu": "Yemen"
     },
     "alpha2code": "YE",
     "alpha3code": "YEM",
@@ -28346,8 +28119,7 @@
       "xh": "Zambiya",
       "yi": "זאַמביאַ",
       "yo": "Orílẹ̀-èdè Zambia",
-      "zu": "IZambia",
-      "la": "Zambia"
+      "zu": "IZambia"
     },
     "alpha2code": "ZM",
     "alpha3code": "ZMB",
@@ -28469,8 +28241,7 @@
       "xh": "Zimbhabhwe",
       "yi": "זימבאַבווע",
       "yo": "Orilẹ-ede Zimbabwe",
-      "zu": "IZimbabwe",
-      "la": "Nullam"
+      "zu": "IZimbabwe"
     },
     "alpha2code": "ZW",
     "alpha3code": "ZWE",
@@ -28592,8 +28363,7 @@
       "xh": "KwiNtshona yeSahara",
       "yi": "מערב סאַהאַראַ",
       "yo": "Iwọ-oorun Iwọ-oorun",
-      "zu": "I-Western Sahara",
-      "la": "Sahara Occidentalis"
+      "zu": "I-Western Sahara"
     },
     "alpha2code": "EH",
     "alpha3code": "ESH",

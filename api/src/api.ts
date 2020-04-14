@@ -14,6 +14,7 @@ import { map } from './map'
 
 export interface CoronaTabRequest extends express.Request {
   locale: LocaleId
+  query: any
 }
 
 (async () => {
@@ -43,7 +44,7 @@ export interface CoronaTabRequest extends express.Request {
     const normalize = (l: LocaleId) => l?.split(';')[0].split(',')[0].split('-')[0] as LocaleId
     const valid = l => !!l && LocaleIds.includes(l as LocaleId)
 
-    let locale: LocaleId = normalize(req.query.locale)
+    let locale: LocaleId = normalize(req.query.locale as any)
     if (!valid(locale)) {
       locale = normalize(req.headers['content-language'] as LocaleId)
       if (!valid(locale)) {
