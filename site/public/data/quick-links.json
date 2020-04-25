@@ -46,4 +46,8 @@
   "url": "https://twitter.com/search?q=%23COVID19",
   "icon": "https://abs.twimg.com/responsive-web/web/icon-ios.8ea219d4.png",
   "title": "#COVID19 on Twitter"
+},{
+  "url": "https://www.piersoft.it/covid19",
+  "icon": "https://www.piersoft.it/covid19/map.png",
+  "title": "#COVID19 Piersoft's Map and Graphs"
 }]
